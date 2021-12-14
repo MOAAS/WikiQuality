@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>An end-to-end learning solution for assessing the quality of Wikipedia articles</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Month>8</b:Month>
+    <b:StandardNumber>9781450351874</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:JournalName>Proceedings of the 13th International Symposium on Open Collaboration, OpenSym 2017</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Quang Vinh</b:First>
+            <b:Last>Dang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Claudia Lavinia</b:First>
+            <b:Last>Ignat</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3125433.3125448</b:URL>
+    <b:Tag>an-end-to-end-learning-solution-for-assessing-the-quality-of-wikipedia-articles</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Automatic quality assessment of content created collaboratively by web communities: A case study of wikipedia</b:Title>
+    <b:Year>2009</b:Year>
+    <b:StandardNumber>9781605586977</b:StandardNumber>
+    <b:StandardNumber>15525996</b:StandardNumber>
+    <b:Pages>295-304</b:Pages>
+    <b:JournalName>Proceedings of the ACM&#x2F;IEEE Joint Conference on Digital Libraries</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Daniel Hasan</b:First>
+            <b:Last>Dalip</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marcos André</b:First>
+            <b:Last>Gonçalves</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marco</b:First>
+            <b:Last>Cristo</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Pável</b:First>
+            <b:Last>Calado</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikipedia</b:URL>
+    <b:Tag>automatic-quality-assessment-of-content-created-collaboratively-by-web-communities:-a-case-study-of-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Seeking Health Information Online: Does Wikipedia Matter?</b:Title>
+    <b:Year>2009</b:Year>
+    <b:Month>7</b:Month>
+    <b:StandardNumber>10675027</b:StandardNumber>
+    <b:Pages>471-479</b:Pages>
+    <b:JournalName>Journal of the American Medical Informatics Association</b:JournalName>
+    <b:Volume>16</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Michaël R.</b:First>
+            <b:Last>Laurent</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Tim J.</b:First>
+            <b:Last>Vickers</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>seeking-health-information-online:-does-wikipedia-matter?</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>WikipediaViz: Conveying article quality for casual wikipedia readers</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781424466849</b:StandardNumber>
+    <b:Pages>49-56</b:Pages>
+    <b:JournalName>IEEE Pacific Visualization Symposium 2010, PacificVis 2010 - Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Fanny</b:First>
+            <b:Last>Chevalier</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Stéphane</b:First>
+            <b:Last>Huot</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jean Daniel</b:First>
+            <b:Last>Fekete</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>wikipediaviz:-conveying-article-quality-for-casual-wikipedia-readers</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring article quality in Wikipedia using the collaboration network</b:Title>
+    <b:Year>2015</b:Year>
+    <b:Month>8</b:Month>
+    <b:StandardNumber>9781450338547</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>464-471</b:Pages>
+    <b:JournalName>Proceedings of the 2015 IEEE&#x2F;ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2015</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Baptiste</b:First>
+            <b:Last>De La Robertie</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Yoann</b:First>
+            <b:Last>Pitarch</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Olivier</b:First>
+            <b:Last>Teste</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>measuring-article-quality-in-wikipedia-using-the-collaboration-network</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Accuracy and readability of cardiovascular entries on Wikipedia: Are they reliable learning resources for medical students?</b:Title>
+    <b:Year>2015</b:Year>
+    <b:StandardNumber>20446055</b:StandardNumber>
+    <b:Publisher>BMJ Publishing Group</b:Publisher>
+    <b:JournalName>BMJ Open</b:JournalName>
+    <b:Volume>5</b:Volume>
+    <b:Issue>10</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Samy A.</b:First>
+            <b:Last>Azer</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Nourah M.</b:First>
+            <b:Last>AlSwaidan</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Lama A.</b:First>
+            <b:Last>Alshwairikh</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jumana M.</b:First>
+            <b:Last>AlShammari</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>accuracy-and-readability-of-cardiovascular-entries-on-wikipedia:-are-they-reliable-learning-resources-for-medical-students?</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring quality of collaboratively edited documents: The case of Wikipedia</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Month>1</b:Month>
+    <b:StandardNumber>9781509046072</b:StandardNumber>
+    <b:Publisher>Institute of Electrical and Electronics Engineers Inc.</b:Publisher>
+    <b:Pages>266-275</b:Pages>
+    <b:JournalName>Proceedings - 2016 IEEE 2nd International Conference on Collaboration and Internet Computing, IEEE CIC 2016</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Quang Vinh</b:First>
+            <b:Last>Dang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Claudia Lavinia</b:First>
+            <b:Last>Ignat</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>measuring-quality-of-collaboratively-edited-documents:-the-case-of-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Relative quality and popularity evaluation of multilingual wikipedia articles</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Month>12</b:Month>
+    <b:StandardNumber>22279709</b:StandardNumber>
+    <b:Publisher>MDPI AG</b:Publisher>
+    <b:JournalName>Informatics</b:JournalName>
+    <b:Volume>4</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Włodzimierz</b:First>
+            <b:Last>Lewoniewski</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Krzysztof</b:First>
+            <b:Last>Węcel</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Witold</b:First>
+            <b:Last>Abramowicz</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>relative-quality-and-popularity-evaluation-of-multilingual-wikipedia-articles</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Readability and quality of wikipedia pages on neurosurgical topics</b:Title>
+    <b:Year>2018</b:Year>
+    <b:Month>3</b:Month>
+    <b:StandardNumber>18726968</b:StandardNumber>
+    <b:Publisher>Elsevier B.V.</b:Publisher>
+    <b:Pages>66-70</b:Pages>
+    <b:JournalName>Clinical Neurology and Neurosurgery</b:JournalName>
+    <b:Volume>166</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Omeed</b:First>
+            <b:Last>Modiri</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Daipayan</b:First>
+            <b:Last>Guha</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Naif M.</b:First>
+            <b:Last>Alotaibi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>George M.</b:First>
+            <b:Last>Ibrahim</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Nir</b:First>
+            <b:Last>Lipsman</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Aria</b:First>
+            <b:Last>Fallah</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>readability-and-quality-of-wikipedia-pages-on-neurosurgical-topics</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Automatically assessing the quality of Wikipedia contents</b:Title>
+    <b:Year>2019</b:Year>
+    <b:StandardNumber>9781450359337</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery</b:Publisher>
+    <b:Pages>804-807</b:Pages>
+    <b:JournalName>Proceedings of the ACM Symposium on Applied Computing</b:JournalName>
+    <b:Volume>Part F147772</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Elias</b:First>
+            <b:Last>Bassani</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marco</b:First>
+            <b:Last>Viviani</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>automatically-assessing-the-quality-of-wikipedia-contents</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>17416485</b:StandardNumber>
+    <b:Publisher>SAGE Publications Ltd</b:Publisher>
+    <b:Pages>176-191</b:Pages>
+    <b:JournalName>Journal of Information Science</b:JournalName>
+    <b:Volume>47</b:Volume>
+    <b:Issue>2</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ping</b:First>
+            <b:Last>Wang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Xiaodan</b:First>
+            <b:Last>Li</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Renli</b:First>
+            <b:Last>Wu</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-deep-learning-based-quality-assessment-model-of-collaboratively-edited-documents:-a-case-study-of-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Quality assessment of peer-produced content in knowledge repositories using big data and social networks: The case of implicit collaboration in wikipedia</b:Title>
+    <b:Year>2019</b:Year>
+    <b:Month>11</b:Month>
+    <b:StandardNumber>00950033</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery</b:Publisher>
+    <b:Pages>28-51</b:Pages>
+    <b:JournalName>Data Base for Advances in Information Systems</b:JournalName>
+    <b:Volume>50</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Srikar</b:First>
+            <b:Last>Velichety</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>quality-assessment-of-peer-produced-content-in-knowledge-repositories-using-big-data-and-social-networks:-the-case-of-implicit-collaboration-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Assessing the quality of information on wikipedia: A deep-learning approach</b:Title>
+    <b:Year>2020</b:Year>
+    <b:Month>1</b:Month>
+    <b:StandardNumber>23301643</b:StandardNumber>
+    <b:Publisher>John Wiley and Sons Inc.</b:Publisher>
+    <b:Pages>16-28</b:Pages>
+    <b:JournalName>Journal of the Association for Information Science and Technology</b:JournalName>
+    <b:Volume>71</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ping</b:First>
+            <b:Last>Wang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Xiaodan</b:First>
+            <b:Last>Li</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>assessing-the-quality-of-information-on-wikipedia:-a-deep-learning-approach</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Predicting the Perceived Quality of Online Mathematics Contributions from Users&#39; Reputations</b:Title>
+    <b:Year>2011</b:Year>
+    <b:StandardNumber>9781450302289</b:StandardNumber>
+    <b:Publisher>ACM</b:Publisher>
+    <b:JournalName>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Yla R</b:First>
+            <b:Last>Tausczik</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>James W</b:First>
+            <b:Last>Pennebaker</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:City>New York, NY, USA</b:City>
+    <b:Tag>predicting-the-perceived-quality-of-online-mathematics-contributions-from-users&#39;-reputations</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Assessing the quality of health-related Wikipedia articles with generic and specific metrics</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>9781450383134</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>640-647</b:Pages>
+    <b:JournalName>The Web Conference 2021 - Companion of the World Wide Web Conference, WWW 2021</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Luís</b:First>
+            <b:Last>Couto</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Carla Teixeira</b:First>
+            <b:Last>Lopes</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3442442.3452355</b:URL>
+    <b:Tag>assessing-the-quality-of-health-related-wikipedia-articles-with-generic-and-specific-metrics</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression</b:Title>
+    <b:Year>2021</b:Year>
+    <b:Month>9</b:Month>
+    <b:StandardNumber>9781450385008</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery (ACM)</b:Publisher>
+    <b:Pages>1-10</b:Pages>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Nathan</b:First>
+            <b:Last>Teblunthuis</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3479986.3479991</b:URL>
+    <b:Tag>measuring-wikipedia-article-quality-in-one-dimension-by-extending-ores-with-ordinal-regression</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Automating assessment of collaborative writing quality in multiple stages: The case of wiki</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>9781450341905</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery</b:Publisher>
+    <b:Pages>518-519</b:Pages>
+    <b:JournalName>ACM International Conference Proceeding Series</b:JournalName>
+    <b:Volume>25-29-April-2016</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Xiao</b:First>
+            <b:Last>Hu</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Tzi Dong Jeremy</b:First>
+            <b:Last>Ng</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Lu</b:First>
+            <b:Last>Tian</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Chi Un</b:First>
+            <b:Last>Lei</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2883851.2883963</b:URL>
+    <b:Tag>automating-assessment-of-collaborative-writing-quality-in-multiple-stages:-the-case-of-wiki</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Quality assessment of Wikipedia articles without feature engineering</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Month>9</b:Month>
+    <b:StandardNumber>9781450342292</b:StandardNumber>
+    <b:StandardNumber>15525996</b:StandardNumber>
+    <b:Publisher>Institute of Electrical and Electronics Engineers Inc.</b:Publisher>
+    <b:Pages>27-30</b:Pages>
+    <b:JournalName>Proceedings of the ACM&#x2F;IEEE Joint Conference on Digital Libraries</b:JournalName>
+    <b:Volume>2016-September</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Quang Vinh</b:First>
+            <b:Last>Dang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Claudia Lavinia</b:First>
+            <b:Last>Ignat</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;w&#x2F;api.php</b:URL>
+    <b:Tag>quality-assessment-of-wikipedia-articles-without-feature-engineering</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A &quot;quick and dirty&quot; website data quality indicator</b:Title>
+    <b:Year>2008</b:Year>
+    <b:StandardNumber>9781605582597</b:StandardNumber>
+    <b:Pages>43-46</b:Pages>
+    <b:JournalName>International Conference on Information and Knowledge Management, Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Irit Askira</b:First>
+            <b:Last>Gelman</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Anthony L.</b:First>
+            <b:Last>Barletta</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;www.domaintools.com&#x2F;internet-statistics&#x2F;</b:URL>
+    <b:Tag>a-&quot;quick-and-dirty&quot;-website-data-quality-indicator</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring the quality of web content using factual information</b:Title>
+    <b:Year>2012</b:Year>
+    <b:StandardNumber>9781450312370</b:StandardNumber>
+    <b:Pages>7-10</b:Pages>
+    <b:JournalName>ACM International Conference Proceeding Series</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Elisabeth</b:First>
+            <b:Last>Lex</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Michael</b:First>
+            <b:Last>Voelske</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marcelo</b:First>
+            <b:Last>Errecalde</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Edgardo</b:First>
+            <b:Last>Ferretti</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Leticia</b:First>
+            <b:Last>Cagnina</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Christopher</b:First>
+            <b:Last>Horn</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Benno</b:First>
+            <b:Last>Stein</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Michael</b:First>
+            <b:Last>Granitzer</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;reverb.cs.washington.edu&#x2F;</b:URL>
+    <b:Tag>measuring-the-quality-of-web-content-using-factual-information</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Web content classification using distributions of subjective quality evaluations</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Month>11</b:Month>
+    <b:StandardNumber>1559114X</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery</b:Publisher>
+    <b:JournalName>ACM Transactions on the Web</b:JournalName>
+    <b:Volume>10</b:Volume>
+    <b:Issue>4</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Maria</b:First>
+            <b:Last>Rafalak</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Dominik</b:First>
+            <b:Last>Deja</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Adam</b:First>
+            <b:Last>Wierzbicki</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Radosław</b:First>
+            <b:Last>Nielek</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Michał</b:First>
+            <b:Last>Kakol</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2994132</b:URL>
+    <b:Tag>web-content-classification-using-distributions-of-subjective-quality-evaluations</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>On measuring the lexical quality of the web</b:Title>
+    <b:Year>2012</b:Year>
+    <b:StandardNumber>9781450312370</b:StandardNumber>
+    <b:Pages>1-6</b:Pages>
+    <b:JournalName>ACM International Conference Proceeding Series</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ricardo</b:First>
+            <b:Last>Baeza-Yates</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Luz</b:First>
+            <b:Last>Rello</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;www.google.com&#x2F;jobs&#x2F;britney.html.</b:URL>
+    <b:Tag>on-measuring-the-lexical-quality-of-the-web</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Interactive quality analytics of user-generated content: An integrated toolkit for the case of Wikipedia</b:Title>
+    <b:Year>2019</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>21606463</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery</b:Publisher>
+    <b:JournalName>ACM Transactions on Interactive Intelligent Systems</b:JournalName>
+    <b:Volume>9</b:Volume>
+    <b:Issue>2-3</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Cecilia</b:First>
+            <b:Last>Di Sciascio</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>David</b:First>
+            <b:Last>Strohmaier</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marcelo</b:First>
+            <b:Last>Errecalde</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Eduardo</b:First>
+            <b:Last>Veas</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>interactive-quality-analytics-of-user-generated-content:-an-integrated-toolkit-for-the-case-of-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring the quality of edits to Wikipedia</b:Title>
+    <b:Year>2014</b:Year>
+    <b:StandardNumber>9781450330169</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>G4</b:Pages>
+    <b:JournalName>Proceedings of the 10th International Symposium on Open Collaboration, OpenSym 2014</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Susan</b:First>
+            <b:Last>Biancani</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2641580.2641621</b:URL>
+    <b:Tag>measuring-the-quality-of-edits-to-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring article quality in wikipedia: Models and evaluation</b:Title>
+    <b:Year>2007</b:Year>
+    <b:StandardNumber>9781595938039</b:StandardNumber>
+    <b:Pages>243-252</b:Pages>
+    <b:JournalName>International Conference on Information and Knowledge Management, Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Meiqun</b:First>
+            <b:Last>Hu</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ee Peng</b:First>
+            <b:Last>Lim</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Aixin</b:First>
+            <b:Last>Sun</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Hady W.</b:First>
+            <b:Last>Lauw</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ba Quy</b:First>
+            <b:Last>Vuong</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>www.alexa.com</b:URL>
+    <b:Tag>measuring-article-quality-in-wikipedia:-models-and-evaluation</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Topic quality metrics based on distributed word representations</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Month>7</b:Month>
+    <b:StandardNumber>9781450342902</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>1029-1032</b:Pages>
+    <b:JournalName>SIGIR 2016 - Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Sergey I.</b:First>
+            <b:Last>Nikolenko</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2911451.2914720</b:URL>
+    <b:Tag>topic-quality-metrics-based-on-distributed-word-representations</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Proposal and Comparison of Health Specific Features for the Automatic Assessment of Readability</b:Title>
+    <b:Year>2020</b:Year>
+    <b:Month>7</b:Month>
+    <b:StandardNumber>9781450380164</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>1973-1976</b:Pages>
+    <b:JournalName>SIGIR 2020 - Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Hélder</b:First>
+            <b:Last>Antunes</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Carla Teixeira</b:First>
+            <b:Last>Lopes</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3397271.3401187</b:URL>
+    <b:Tag>proposal-and-comparison-of-health-specific-features-for-the-automatic-assessment-of-readability</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Exploring wiki: Measuring the quality of social media using ant colony metaphor</b:Title>
+    <b:Year>2011</b:Year>
+    <b:StandardNumber>9781450310475</b:StandardNumber>
+    <b:Pages>305-312</b:Pages>
+    <b:JournalName>Proceedings of the International Conference on Management of Emergent Digital EcoSystems, MEDES&#39;11</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Soumya</b:First>
+            <b:Last>Banerjee</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Nashwa</b:First>
+            <b:Last>El-Bendary</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Hameed</b:First>
+            <b:Last>Al-Qaheri</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2641580.2641621</b:URL>
+    <b:Tag>exploring-wiki:-measuring-the-quality-of-social-media-using-ant-colony-metaphor</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>So you know you&#39;re getting the best possible information: A tool that increases wikipedia credibility</b:Title>
+    <b:Year>2009</b:Year>
+    <b:StandardNumber>9781605582474</b:StandardNumber>
+    <b:Pages>1505-1508</b:Pages>
+    <b:JournalName>Conference on Human Factors in Computing Systems - Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Peter</b:First>
+            <b:Last>Pirolli</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Evelin</b:First>
+            <b:Last>Wollny</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bongwon</b:First>
+            <b:Last>Suh</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>www.research.ibm.com&#x2F;visual&#x2F;projects&#x2F;history_flow&#x2F;</b:URL>
+    <b:Tag>so-you-know-you&#39;re-getting-the-best-possible-information:-a-tool-that-increases-wikipedia-credibility</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Do you know your IQ? A research agenda for information quality in systems</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>01635999</b:StandardNumber>
+    <b:Pages>26-31</b:Pages>
+    <b:JournalName>Performance Evaluation Review</b:JournalName>
+    <b:Volume>37</b:Volume>
+    <b:Issue>3</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Kimberly</b:First>
+            <b:Last>Keeton</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Pankaj</b:First>
+            <b:Last>Mehra</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>John</b:First>
+            <b:Last>Wilkes</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>do-you-know-your-iq?-a-research-agenda-for-information-quality-in-systems</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Reliability of user-generated data: The case of biographical data in Wikipedia</b:Title>
+    <b:Year>2014</b:Year>
+    <b:StandardNumber>9781450330169</b:StandardNumber>
+    <b:Publisher>Association for Computing Machinery, Inc</b:Publisher>
+    <b:Pages>G2</b:Pages>
+    <b:JournalName>Proceedings of the 10th International Symposium on Open Collaboration, OpenSym 2014</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Robert</b:First>
+            <b:Last>Viseur</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;2641580.2641618</b:URL>
+    <b:Tag>reliability-of-user-generated-data:-the-case-of-biographical-data-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Size matters: Word count as a measure of quality on Wikipedia</b:Title>
+    <b:Year>2008</b:Year>
+    <b:StandardNumber>9781605580852</b:StandardNumber>
+    <b:Pages>1095-1096</b:Pages>
+    <b:JournalName>Proceeding of the 17th International Conference on World Wide Web 2008, WWW&#39;08</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Joshua E.</b:First>
+            <b:Last>Blumenstock</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>size-matters:-word-count-as-a-measure-of-quality-on-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring wikipedia</b:Title>
+    <b:Year>2005</b:Year>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Jakob</b:First>
+            <b:Last>Voß</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;eprints.rclis.org&#x2F;6207</b:URL>
+    <b:Tag>measuring-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Statistical measure of quality in Wikipedia</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781450302173</b:StandardNumber>
+    <b:Pages>132-138</b:Pages>
+    <b:JournalName>SOMA 2010 - Proceedings of the 1st Workshop on Social Media Analytics</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Sara</b:First>
+            <b:Last>Javanmardi</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Cristina</b:First>
+            <b:Last>Lopes</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;bit.ly&#x2F;dy3t1Y</b:URL>
+    <b:Tag>statistical-measure-of-quality-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Cooperation and quality in Wikipedia</b:Title>
+    <b:Year>2007</b:Year>
+    <b:StandardNumber>9781595938619</b:StandardNumber>
+    <b:Pages>157-164</b:Pages>
+    <b:JournalName>Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Dennis M.</b:First>
+            <b:Last>Wilkinson</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Bernardo A.</b:First>
+            <b:Last>Huberman</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;www.alexa.com&#x2F;</b:URL>
+    <b:Tag>cooperation-and-quality-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Who does what: Collaboration patterns in the Wikipedia and their impact on article quality</b:Title>
+    <b:Year>2011</b:Year>
+    <b:Month>9</b:Month>
+    <b:Pages>72</b:Pages>
+    <b:JournalName>dl.acm.org</b:JournalName>
+    <b:Volume>2</b:Volume>
+    <b:Issue>2</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>J</b:First>
+            <b:Last>Liu</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>S Ram - ACM Transactions on Management</b:First>
+            <b:Last>Information</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2011</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;abs&#x2F;10.1145&#x2F;1985347.1985352</b:URL>
+    <b:Tag>who-does-what:-collaboration-patterns-in-the-wikipedia-and-their-impact-on-article-quality</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A jury of your peers: quality, experience and ownership in Wikipedia</b:Title>
+    <b:Year>2009</b:Year>
+    <b:StandardNumber>9781605587301</b:StandardNumber>
+    <b:JournalName>dl.acm.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>A</b:First>
+            <b:Last>Halfaker</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A</b:First>
+            <b:Last>Kittur</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>R</b:First>
+            <b:Last>Kraut</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>J Riedl - Proceedings of the</b:First>
+            <b:Last>5th</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2009</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;abs&#x2F;10.1145&#x2F;1641309.1641332</b:URL>
+    <b:Tag>a-jury-of-your-peers:-quality,-experience-and-ownership-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Does it matter who contributes - A study on featured articles in the german wikipedia</b:Title>
+    <b:Year>2007</b:Year>
+    <b:StandardNumber>1595938206</b:StandardNumber>
+    <b:Pages>171-174</b:Pages>
+    <b:JournalName>Hypertext 2007: Proceedings of the Eighteenth ACM Conference on Hypertext and Hypermedia, HT&#39;07</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Klaus</b:First>
+            <b:Last>Stein</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Claudia</b:First>
+            <b:Last>Hess</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>does-it-matter-who-contributes---a-study-on-featured-articles-in-the-german-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Tell me more: An actionable quality model for wikipedia</b:Title>
+    <b:Year>2013</b:Year>
+    <b:StandardNumber>9781450318525</b:StandardNumber>
+    <b:JournalName>Proceedings of the 9th International Symposium on Open Collaboration, WikiSym + OpenSym 2013</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Morten</b:First>
+            <b:Last>Warncke-Wang</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Dan</b:First>
+            <b:Last>Cosley</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>John</b:First>
+            <b:Last>Riedl</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikipedia:Template_</b:URL>
+    <b:Tag>tell-me-more:-an-actionable-quality-model-for-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Assessing the quality of Wikipedia articles with lifecycle based metrics</b:Title>
+    <b:Year>2009</b:Year>
+    <b:StandardNumber>9781605587301</b:StandardNumber>
+    <b:JournalName>Proceedings of the 5th International Symposium on Wikis and Open Collaboration, WiKiSym 2009</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Thomas</b:First>
+            <b:Last>Wöhner</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ralf</b:First>
+            <b:Last>Peters</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>www.alexa.com</b:URL>
+    <b:Tag>assessing-the-quality-of-wikipedia-articles-with-lifecycle-based-metrics</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring author contributions to the Wikipedia</b:Title>
+    <b:Year>2008</b:Year>
+    <b:JournalName>WikiSym 2008 - The 4th International Symposium on Wikis, Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>B. Thomas</b:First>
+            <b:Last>Adler</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Luca</b:First>
+            <b:Last>De Alfaro</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ian</b:First>
+            <b:Last>Pye</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Vishwanath</b:First>
+            <b:Last>Raman</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>measuring-author-contributions-to-the-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>On ranking controversies in wikipedia: Models and evaluation</b:Title>
+    <b:Year>2008</b:Year>
+    <b:StandardNumber>9781605587998</b:StandardNumber>
+    <b:Pages>171-182</b:Pages>
+    <b:JournalName>WSDM&#39;08 - Proceedings of the 2008 International Conference on Web Search and Data Mining</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ba Quy</b:First>
+            <b:Last>Vuong</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ee Peng</b:First>
+            <b:Last>Lim</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Aixin</b:First>
+            <b:Last>Sun</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Minh Tam</b:First>
+            <b:Last>Le</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Hady Wirawan</b:First>
+            <b:Last>Lauw</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Kuiyu</b:First>
+            <b:Last>Chang</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikipedia:Featured_article_criteria.</b:URL>
+    <b:Tag>on-ranking-controversies-in-wikipedia:-models-and-evaluation</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Don&#39;t bite the newbies: How reverts affect the quantity and quality of Wikipedia work</b:Title>
+    <b:Year>2011</b:Year>
+    <b:StandardNumber>9781450309097</b:StandardNumber>
+    <b:Pages>163-172</b:Pages>
+    <b:JournalName>WikiSym 2011 Conference Proceedings - 7th Annual International Symposium on Wikis and Open Collaboration</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Aaron</b:First>
+            <b:Last>Halfaker</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Aniket</b:First>
+            <b:Last>Kittur</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>John</b:First>
+            <b:Last>Riedl</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;blog.wikimedia.org&#x2F;2010&#x2F;05&#x2F;29&#x2F;xml-dumps-resumed&#x2F;</b:URL>
+    <b:Tag>don&#39;t-bite-the-newbies:-how-reverts-affect-the-quantity-and-quality-of-wikipedia-work</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Identifying featured articles in Wikipedia: Writing style matters</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605587998</b:StandardNumber>
+    <b:Pages>1147-1148</b:Pages>
+    <b:JournalName>Proceedings of the 19th International Conference on World Wide Web, WWW &#39;10</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Nedim</b:First>
+            <b:Last>Lipka</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Benno</b:First>
+            <b:Last>Stein</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikipedia:Featured_article_criteria.</b:URL>
+    <b:Tag>identifying-featured-articles-in-wikipedia:-writing-style-matters</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Determinants of wikipedia quality: The roles of global and local contribution inequality</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605589879</b:StandardNumber>
+    <b:Pages>233-236</b:Pages>
+    <b:JournalName>Proceedings of the ACM Conference on Computer Supported Cooperative Work, CSCW</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ofer</b:First>
+            <b:Last>Arazy</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Oded</b:First>
+            <b:Last>Nov</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>determinants-of-wikipedia-quality:-the-roles-of-global-and-local-contribution-inequality</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Information quality assessment of community generated content: A user study of Wikipedia</b:Title>
+    <b:Year>2011</b:Year>
+    <b:Month>10</b:Month>
+    <b:Pages>487-498</b:Pages>
+    <b:JournalName>journals.sagepub.com</b:JournalName>
+    <b:Volume>37</b:Volume>
+    <b:Issue>5</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>E</b:First>
+            <b:Last>Yaari</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>S Baruchson-Arbib - Journal of Information</b:First>
+            <b:Last>…</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2011</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;journals.sagepub.com&#x2F;doi&#x2F;abs&#x2F;10.1177&#x2F;0165551511416065</b:URL>
+    <b:Tag>information-quality-assessment-of-community-generated-content:-a-user-study-of-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Learning to predict the quality of contributions to wikipedia</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605589404</b:StandardNumber>
+    <b:JournalName>aaai.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>G</b:First>
+            <b:Last>Druck</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>G</b:First>
+            <b:Last>Miklau</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A McCallum -</b:First>
+            <b:Last>WikiAI</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2008</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.aaai.org&#x2F;Papers&#x2F;Workshops&#x2F;2008&#x2F;WS-08-15&#x2F;WS08-15-002.pdf</b:URL>
+    <b:Tag>learning-to-predict-the-quality-of-contributions-to-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Trust in wikipedia: How users trust information from an unknown source</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605589404</b:StandardNumber>
+    <b:Pages>19-26</b:Pages>
+    <b:JournalName>Proceedings of the 4th Workshop on Information Credibility, WICOW &#39;10</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Teun</b:First>
+            <b:Last>Lucassen</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Jan Maarten</b:First>
+            <b:Last>Schraagen</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;w&#x2F;api.php</b:URL>
+    <b:Tag>trust-in-wikipedia:-how-users-trust-information-from-an-unknown-source</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Information quality work organization in Wikipedia</b:Title>
+    <b:Year>2008</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>15322882</b:StandardNumber>
+    <b:Pages>983-1001</b:Pages>
+    <b:JournalName>Journal of the American Society for Information Science and Technology</b:JournalName>
+    <b:Volume>59</b:Volume>
+    <b:Issue>6</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Besiki</b:First>
+            <b:Last>Stvilia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Michael B.</b:First>
+            <b:Last>Twidale</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Linda C.</b:First>
+            <b:Last>Smith</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Les</b:First>
+            <b:Last>Gasser</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>information-quality-work-organization-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Assigning trust to Wikipedia content</b:Title>
+    <b:Year>2008</b:Year>
+    <b:JournalName>WikiSym 2008 - The 4th International Symposium on Wikis, Proceedings</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>B. Thomas</b:First>
+            <b:Last>Adler</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Krishnendu</b:First>
+            <b:Last>Chatterjee</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Luca</b:First>
+            <b:Last>De Alfaro</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Marco</b:First>
+            <b:Last>Faella</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Ian</b:First>
+            <b:Last>Pye</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Vishwanath</b:First>
+            <b:Last>Raman</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>assigning-trust-to-wikipedia-content</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>On measuring the quality of wikipedia articles</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605589404</b:StandardNumber>
+    <b:Pages>11-18</b:Pages>
+    <b:JournalName>Proceedings of the 4th Workshop on Information Credibility, WICOW &#39;10</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Gabriel</b:First>
+            <b:Last>De La Calzada</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Alex</b:First>
+            <b:Last>Dekhtyar</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;w&#x2F;api.php</b:URL>
+    <b:Tag>on-measuring-the-quality-of-wikipedia-articles</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Detecting wikipedia vandalism using wikitrust</b:Title>
+    <b:JournalName>uni-weimar.de</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>B</b:First>
+            <b:Last>Adler</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>L De</b:First>
+            <b:Last>Alfaro</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>I Pye - Notebook papers of</b:First>
+            <b:Last>CLEF</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2010</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.uni-weimar.de&#x2F;medien&#x2F;webis&#x2F;events&#x2F;pan-10&#x2F;pan10-papers-final&#x2F;pan10-wikipedia-vandalism-detection&#x2F;adler10-notebook.pdf</b:URL>
+    <b:Tag>detecting-wikipedia-vandalism-using-wikitrust</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Measuring qualities of articles contributed by online communities</b:Title>
+    <b:JournalName>ieeexplore.ieee.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>EP</b:First>
+            <b:Last>Lim</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>BQ</b:First>
+            <b:Last>Vuong</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>HW Lauw - 2006 IEEE&#x2F;WIC&#x2F;ACM</b:First>
+            <b:Last>…</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2006</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;abstract&#x2F;document&#x2F;4061345&#x2F;</b:URL>
+    <b:Tag>measuring-qualities-of-articles-contributed-by-online-communities</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Automatically classifying edit categories in Wikipedia revisions</b:Title>
+    <b:Publisher>Association for Computational Linguistics</b:Publisher>
+    <b:Pages>578-589</b:Pages>
+    <b:JournalName>aclweb.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>J</b:First>
+            <b:Last>Daxenberger</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>I Gurevych - Proceedings of the 2013 conference</b:First>
+            <b:Last>on</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2013</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.aclweb.org&#x2F;anthology&#x2F;D13-1055.pdf</b:URL>
+    <b:Tag>automatically-classifying-edit-categories-in-wikipedia-revisions</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Can you ever trust a Wiki? Impacting perceived trustworthiness in Wikipedia</b:Title>
+    <b:Year>2008</b:Year>
+    <b:StandardNumber>9781605580074</b:StandardNumber>
+    <b:JournalName>dl.acm.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>A</b:First>
+            <b:Last>Kittur</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>B</b:First>
+            <b:Last>Suh</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>EH Chi - Proceedings of the 2008 ACM conference</b:First>
+            <b:Last>on</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2008</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;abs&#x2F;10.1145&#x2F;1460563.1460639</b:URL>
+    <b:Tag>can-you-ever-trust-a-wiki?-impacting-perceived-trustworthiness-in-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Estimating the quality of articles in Russian wikipedia using the logical-linguistic model of fact extraction</b:Title>
+    <b:Year>2017</b:Year>
+    <b:Publisher>Springer Verlag</b:Publisher>
+    <b:Pages>28-40</b:Pages>
+    <b:JournalName>Springer</b:JournalName>
+    <b:Volume>288</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>N</b:First>
+            <b:Last>Khairova</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>W</b:First>
+            <b:Last>Lewoniewski</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>K Węcel - International Conference</b:First>
+            <b:Last>on</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2017</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007&#x2F;978-3-319-59336-4_3</b:URL>
+    <b:Tag>estimating-the-quality-of-articles-in-russian-wikipedia-using-the-logical-linguistic-model-of-fact-extraction</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Disinformation on the web: Impact, characteristics, and detection of wikipedia hoaxes</b:Title>
+    <b:Year>2016</b:Year>
+    <b:StandardNumber>9781450341431</b:StandardNumber>
+    <b:Publisher>International World Wide Web Conferences Steering Committee</b:Publisher>
+    <b:Pages>591-602</b:Pages>
+    <b:JournalName>dl.acm.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>S</b:First>
+            <b:Last>Kumar</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>R</b:First>
+            <b:Last>West</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>J Leskovec - of the 25th international conference on</b:First>
+            <b:Last>…</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2016</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;abs&#x2F;10.1145&#x2F;2872427.2883085</b:URL>
+    <b:Tag>disinformation-on-the-web:-impact,-characteristics,-and-detection-of-wikipedia-hoaxes</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Detecting wikipedia vandalism with active learning and statistical language models</b:Title>
+    <b:Year>2010</b:Year>
+    <b:StandardNumber>9781605589404</b:StandardNumber>
+    <b:Pages>3-10</b:Pages>
+    <b:JournalName>Proceedings of the 4th Workshop on Information Credibility, WICOW &#39;10</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Si Chi</b:First>
+            <b:Last>Chin</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>W. Nick</b:First>
+            <b:Last>Street</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Padmini</b:First>
+            <b:Last>Srinivasan</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>David</b:First>
+            <b:Last>Eichmann</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>vandalism--detecting-wikipedia-vandalism-with-active-learning-and-statistical-language-models</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Content and collaboration: An affiliation network approach to information quality in online peer production communities</b:Title>
+    <b:Year>2016</b:Year>
+    <b:Month>6</b:Month>
+    <b:StandardNumber>15265536</b:StandardNumber>
+    <b:Publisher>INFORMS Inst.for Operations Res.and the Management Sciences</b:Publisher>
+    <b:Pages>424-439</b:Pages>
+    <b:JournalName>Information Systems Research</b:JournalName>
+    <b:Volume>27</b:Volume>
+    <b:Issue>2</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Gerald C.</b:First>
+            <b:Last>Kane</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Sam</b:First>
+            <b:Last>Ransbotham</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>no-file--content-and-collaboration:-an-affiliation-network-approach-to-information-quality-in-online-peer-production-communities</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Pagerank on wikipedia: Towards general importance scores for entities</b:Title>
+    <b:Year>2016</b:Year>
+    <b:StandardNumber>9783319476018</b:StandardNumber>
+    <b:StandardNumber>16113349</b:StandardNumber>
+    <b:Publisher>Springer Verlag</b:Publisher>
+    <b:Pages>227-240</b:Pages>
+    <b:JournalName>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</b:JournalName>
+    <b:Volume>9989 LNCS</b:Volume>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Andreas</b:First>
+            <b:Last>Thalhammer</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Achim</b:First>
+            <b:Last>Rettinger</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>pagerank-on-wikipedia:-towards-general-importance-scores-for-entities</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Wikipedia and academic peer review: Wikipedia as a recognised medium for scholarly publication?</b:Title>
+    <b:Year>2008</b:Year>
+    <b:StandardNumber>14684527</b:StandardNumber>
+    <b:Pages>73-88</b:Pages>
+    <b:JournalName>Online Information Review</b:JournalName>
+    <b:Volume>32</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Erik W.</b:First>
+            <b:Last>Black</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>wikipedia-and-academic-peer-review:-wikipedia-as-a-recognised-medium-for-scholarly-publication?</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Quality of information sources about mental disorders: a comparison of Wikipedia with centrally controlled web and printed sources</b:Title>
+    <b:Year>2021</b:Year>
+    <b:JournalName>cambridge.org</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>N J</b:First>
+            <b:Last>Reavley</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A J</b:First>
+            <b:Last>Mackinnon</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A J</b:First>
+            <b:Last>Morgan</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>M</b:First>
+            <b:Last>Alvarez-Jimenez</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>S E</b:First>
+            <b:Last>Hetrick</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>E</b:First>
+            <b:Last>Killackey</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>B</b:First>
+            <b:Last>Nelson</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>R</b:First>
+            <b:Last>Purcell</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>M B H</b:First>
+            <b:Last>Yap</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A F</b:First>
+            <b:Last>Jorm</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.cambridge.org&#x2F;core&#x2F;journals&#x2F;psychological-medicine&#x2F;article&#x2F;quality-of-information-sources-about-mental-disorders-a-comparison-of-wikipedia-with-centrally-controlled-web-and-printed-sources&#x2F;595CEE672BB7C503101FAF5A9E303673</b:URL>
+    <b:Tag>quality-of-information-sources-about-mental-disorders:-a-comparison-of-wikipedia-with-centrally-controlled-web-and-printed-sources</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>On the measurability of information quality</b:Title>
+    <b:Year>2011</b:Year>
+    <b:Month>1</b:Month>
+    <b:StandardNumber>15322882</b:StandardNumber>
+    <b:Pages>89-99</b:Pages>
+    <b:JournalName>Journal of the American Society for Information Science and Technology</b:JournalName>
+    <b:Volume>62</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Ofer</b:First>
+            <b:Last>Arazy</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Rick</b:First>
+            <b:Last>Kopak</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>on-the-measurability-of-information-quality</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Information quality in a community-based encyclopedia</b:Title>
+    <b:JournalName>World Scientific</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>B</b:First>
+            <b:Last>Stvilia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>MB</b:First>
+            <b:Last>Twidale</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>L Gasser - …</b:First>
+            <b:Last>Culture</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>Innovation</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>and</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2005</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.worldscientific.com&#x2F;doi&#x2F;abs&#x2F;10.1142&#x2F;9789812701527_0009</b:URL>
+    <b:Tag>information-quality-in-a-community-based-encyclopedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Computational trust in Web content quality: a comparative evalutation on the Wikipedia project</b:Title>
+    <b:JournalName>informatica.si</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>P</b:First>
+            <b:Last>Dondio</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>S Barrett -</b:First>
+            <b:Last>Informatica</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2007</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;informatica.si&#x2F;index.php&#x2F;informatica&#x2F;article&#x2F;viewFile&#x2F;137&#x2F;129</b:URL>
+    <b:Tag>computational-trust-in-web-content-quality:-a-comparative-evalutation-on-the-wikipedia-project</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Quality of patient health information on the Internet: reviewing a complex and evolving landscape</b:Title>
+    <b:Year>2014</b:Year>
+    <b:JournalName>ncbi.nlm.nih.gov</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>E</b:First>
+            <b:Last>Fahy</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>R</b:First>
+            <b:Last>Hardikar</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>A</b:First>
+            <b:Last>Fox</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>S Mackay - The Australasian</b:First>
+            <b:Last>medical</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>undefined</b:First>
+            <b:Last>2014</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC3920473&#x2F;</b:URL>
+    <b:Tag>quality-of-patient-health-information-on-the-internet:-reviewing-a-complex-and-evolving-landscape</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Reputation and reliability in collective goods: The case of the online encyclopedia Wikipedia</b:Title>
+    <b:Year>2009</b:Year>
+    <b:Month>8</b:Month>
+    <b:StandardNumber>10434631</b:StandardNumber>
+    <b:Pages>283-306</b:Pages>
+    <b:JournalName>Rationality and Society</b:JournalName>
+    <b:Volume>21</b:Volume>
+    <b:Issue>3</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Denise</b:First>
+            <b:Last>Anthony</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Sean W.</b:First>
+            <b:Last>Smith</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Timothy</b:First>
+            <b:Last>Williamson</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;en.</b:URL>
+    <b:Tag>reputation-and-reliability-in-collective-goods:-the-case-of-the-online-encyclopedia-wikipedia</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>Identifying controversial articles in Wikipedia: A comparative study</b:Title>
+    <b:Year>2012</b:Year>
+    <b:StandardNumber>9781450316057</b:StandardNumber>
+    <b:JournalName>WikiSym 2012 Conference Proceedings - 8th Annual International Symposium on Wikis and Open Collaboration</b:JournalName>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Hoda Sepehri</b:First>
+            <b:Last>Rad</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Denilson</b:First>
+            <b:Last>Barbosa</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>http:&#x2F;&#x2F;stats.grok.se&#x2F;en&#x2F;top</b:URL>
+    <b:Tag>identifying-controversial-articles-in-wikipedia:-a-comparative-study</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>A framework for information quality assessment</b:Title>
+    <b:Year>2007</b:Year>
+    <b:Month>10</b:Month>
+    <b:StandardNumber>15322882</b:StandardNumber>
+    <b:Pages>1720-1733</b:Pages>
+    <b:JournalName>Journal of the American Society for Information Science and Technology</b:JournalName>
+    <b:Volume>58</b:Volume>
+    <b:Issue>12</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Besiki</b:First>
+            <b:Last>Stvilia</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Les</b:First>
+            <b:Last>Gasser</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Michael B.</b:First>
+            <b:Last>Twidale</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Linda C.</b:First>
+            <b:Last>Smith</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>a-framework-for-information-quality-assessment</b:Tag>
+  </b:Source>
+  <b:Source>
+    <b:SourceType>Journal Article</b:SourceType>
+    <b:Title>What&#39;s on wikipedia, and what&#39;s not... ?: Assessing completeness of information</b:Title>
+    <b:Year>2009</b:Year>
+    <b:Month>2</b:Month>
+    <b:StandardNumber>08944393</b:StandardNumber>
+    <b:Pages>138-148</b:Pages>
+    <b:JournalName>Social Science Computer Review</b:JournalName>
+    <b:Volume>27</b:Volume>
+    <b:Issue>1</b:Issue>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Cindy</b:First>
+            <b:Last>Royal</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Deepina</b:First>
+            <b:Last>Kapila</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:Tag>what&#39;s-on-wikipedia,-and-what&#39;s-not...-?:-assessing-completeness-of-information</b:Tag>
+  </b:Source>
+</b:Sources>
