@@ -1,0 +1,1 @@
+Resource files are too large for GitHub. Get them at: https://law.di.unimi.it/webdata/enwiki-2022/

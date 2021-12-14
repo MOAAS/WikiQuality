@@ -1,0 +1,42 @@
+{
+  "short_name": "WikiQuality",
+  "name": "WikiQuality",
+  "description": "WikiQuality is a Google Chrome extension that assists Wikipedia readers and editors by automatically predicting the quality of the article they are reading.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+      "service_worker": "ext/background.js"
+  },
+  "icons": {
+    "16": "/ext/icons/get_started16.png",
+    "32": "/ext/icons/get_started32.png",
+    "48": "/ext/icons/get_started48.png",
+    "128": "/ext/icons/get_started128.png"
+  },
+  "permissions": [
+    "storage", 
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "action": {
+      "default_title": "Open the popup",
+      "default_popup": "index.html",
+      "default_icon": {
+          "16": "/ext/icons/get_started16.png",
+          "32": "/ext/icons/get_started32.png",
+          "48": "/ext/icons/get_started48.png",
+          "128": "/ext/icons/get_started128.png"
+      }
+  },
+  "options_page": "ext/options.html",
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens popup.html"
+    }
+  }
+}

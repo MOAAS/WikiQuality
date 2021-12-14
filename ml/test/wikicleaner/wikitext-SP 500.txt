@@ -1,0 +1,763 @@
+{{Short description|Stock market index}}
+{{Use mdy dates|date=December 2016}}
+{{Infobox financial index
+| name         = S&amp;P 500
+| logo         =
+| image        = S and P 500 chart 1950 to 2016 with averages.png
+| caption      = S&P 500 Index from 1950 to 2016
+| foundation   = {{start date and age|1957|3|4}}<ref name=keydates/>
+| operator     = [[S&P Dow Jones Indices]]<ref name=sp500r/>
+| exchanges    = {{ubl|[[New York Stock Exchange|NYSE]]|[[NASDAQ]]|[[Cboe Global Markets|Cboe BZX Exchange]]}}
+| constituents = [[List of S&P 500 companies|505]]<ref name=sp500r/>
+| cap_level    = [[Market capitalization#Market cap terms|Large-cap]]<ref name=sp500r/>
+| mcap         = {{US$|42.4 trillion|link=yes}}<br>(''as of January 3, 2022'')<ref name=sp500sheet>{{cite web | url=https://www.spglobal.com/spdji/en/idsenhancedfactsheet/file.pdf?calcFrequency=M&force_download=true&hostIdentifier=48190c8c-42c4-46af-8d1a-0cd5db894797&indexId=340 | title=S&P 500® | publisher=[[S&P Global]]}}</ref>
+| weighting    = [[Capitalization-weighted index#Free-float weighting|Free-float capitalization-weighted]]<ref name=S&P500Methodology>{{cite web | url=https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-us-indices.pdf | title=S&P U.S. Indices Methodology |publisher=[[S&P Global]] }}</ref>
+| related      = {{unbulleted list|[[S&P 1500]]|[[S&P Global 1200]]|[[S&P 100]]}}
+| homepage     = {{URL|https://www.spglobal.com/spdji/en/indices/equity/sp-500/}}
+}}
+[[File:S and P 500 daily linear chart 1950 to 2016.png|thumb|A linear chart of the S&P 500 daily closing values from January 3, 1950, to February 19, 2016]]
+[[File:S&P 500 daily logarithmic chart 1950 to 2016.png|thumb|A logarithmic chart of the S&P 500 index daily closing values from January 3, 1950, to February 19, 2016]]
+[[File:S and P 500 daily volume chart 1950 to 2016.png|thumb|A daily volume chart of the S&P 500 index from January 3, 1950, to February 19, 2016]]
+[[File:S&P 500 Index Logarithmic Chart through Jan 2021.svg|thumb|Logarithmic graphs of S&P 500 index with and without inflation and with best fit lines]]
+
+The '''Standard and Poor's 500''', or simply the '''S&P 500''',<ref>{{cite web|url=https://www.britannica.com/topic/SandP-500|title=S&P 500|work=[[Encyclopædia Britannica]]}}</ref> is a [[stock market index]] tracking the performance of 500 large companies listed on [[stock exchange]]s in the United States. It is one of the most commonly followed equity indices. As of December 31, 2020, more than $5.4 trillion was invested in assets tied to the performance of the index.<ref name=sp500r>{{cite web | url=https://www.spglobal.com/spdji/en/indices/equity/sp-500 | title=S&P 500® | publisher=[[S&P Global]]}}</ref>
+
+The S&P 500 index is a free-float weighted/[[capitalization-weighted index]]. As of September 30, 2021, the nine largest companies on the [[list of S&P 500 companies]] accounted for 28.1% of the market capitalization of the index and were, in order of weighting, [[Apple Inc.|Apple]], [[Microsoft]], [[Alphabet Inc.|Alphabet]] (including both class A & C shares), [[Amazon (company)|Amazon.com]], [[Meta Platforms]], [[Tesla, Inc.|Tesla]], [[Nvidia]], [[Berkshire Hathaway]] and [[JPMorgan Chase]].<ref name=sp500sheet/> The components that have increased their dividends in 25 consecutive years are known as the [[S&P 500 Dividend Aristocrats]].<ref>{{cite book | last=Lichtenfeld | first=M. | title=Get Rich with Dividends: A Proven System for Earning Double-Digit Returns | location=[[Hoboken, New Jersey]] | publisher=[[Wiley (publisher)|Wiley]] | year=2012 | url=https://books.google.com/books?id=ESsbb7oCS2YC&pg=PT25 | page=25| isbn=9781118282342 }}</ref>{{rp|25}}
+
+In 2017, companies in the index derived on average 72% of their revenue in the United States.<ref>{{cite web | url=https://www.spglobal.com/spdji/en/documents/research/research-the-impact-of-the-global-economy-on-the-sp-500.pdf | title=The Impact of the Global Economy on the S&P 500® | first=Phillip | last=Brzenk | publisher=[[S&P Global]] | date=March 19, 2018}}</ref>
+
+The index is one of the factors in computation of the [[Conference Board Leading Economic Index]], used to forecast the direction of the economy.<ref>{{Cite web | url=https://conference-board.org/data/bcicountry.cfm?cid=1 | title=Global Business Cycle Indicators | publisher=[[The Conference Board]]}}</ref>
+
+The index is associated with many [[ticker symbol]]s, including ^GSPC,<ref>
+{{cite web | title=Yahoo! Finance: ^GSPC | publisher=[[Yahoo! Finance]] | url=https://finance.yahoo.com/q?s=^GSPC}}</ref> INX,<ref>{{cite web | title=Google Finance: .INX | publisher=[[Google Finance]] | url=https://www.google.com/search?q=INDEXSP:.INX}}</ref> and $SPX, depending on market or website.<ref>{{cite web | title=S&P 500 Index Quote | publisher=[[MarketWatch]] | url=https://www.marketwatch.com/investing/index/SPX}}</ref>
+
+The S&P 500 is maintained by [[S&P Dow Jones Indices]], a [[joint venture]] majority-owned by [[S&P Global]], and its components are selected by a committee.<ref name=turnover>{{cite web | url=https://www.spglobal.com/en/research-insights/articles/higher-turnover-ahead-for-sp-500-not-necessarily- | title=Higher Turnover Ahead For S&P 500? Not Necessarily! | first=Hamish | last=Preston | publisher=[[S&P Global]] | date=June 9, 2020}}</ref><ref>{{cite news | url=https://www.fool.com/investing/2019/02/09/how-are-sp-500-stocks-chosen.aspx | title=How Are S&P 500 Stocks Chosen? | first=Jordan | last=Wathen | work=[[The Motley Fool]] | date=April 9, 2019}}</ref>
+
+==Investing in the S&P 500==
+===Mutual and exchange-traded funds===
+[[Index fund]]s, including [[mutual fund]]s and [[exchange-traded fund]]s (ETFs), can replicate, before fees and expenses, the performance of the index by holding the same stocks as the index in the same proportions. ETFs that replicate the performance of the index are issued by [[The Vanguard Group]] ({{NYSE Arca|VOO}}), [[iShares]] ({{NYSE Arca|IVV}}), and [[State Street Corporation]] ({{NYSE Arca|SPY}}), and the most liquid based on average daily volume is currently ({{NYSE Arca|SPY}}), although SPY has a slightly higher expense ratio of 0.09% compared to just 0.03% for VOO and IVV. Mutual funds that track the index are offered by [[Fidelity Investments]], [[T. Rowe Price]], and [[Charles Schwab Corporation]].<ref name=track>{{Cite web | url=https://www.investopedia.com/investing/top-sp-500-etfs/ | title=Top 3 ETFs to Track the S&P 500 | last=Olson | first=Sheila | website=[[Investopedia]] | archive-url=https://web.archive.org/web/20190324084704/https://www.investopedia.com/investing/top-sp-500-etfs/ | archive-date=March 24, 2019|url-status=live | df=mdy-all}}</ref><ref>{{cite news | url=https://money.usnews.com/investing/funds/slideshows/s-p-index-funds-to-buy-now | title=7 S&P Index Funds to Buy Now | first=Ellen | last=Chang | work=[[U.S. News & World Report]] | date=June 28, 2019}}</ref><ref>{{cite news | url=https://www.thebalance.com/best-sandp-500-index-funds-2466399 | title=The Best S&P 500 Index Funds | first=KENT | last=THUNE | work=TheBalance | date=June 25, 2019}}</ref>
+
+[[Direxion]] offers [[leveraged ETFs]] that attempt to produce three times the daily result of either investing in ({{NYSE Arca|SPXL}}) or [[Short (finance)|short]]ing ({{NYSE Arca|SPXS}}) the S&P 500 index.<ref>{{Cite web | url=https://www.direxion.com/product/daily-sp-500-bull-bear-3x-etfs | title=SPXL SPXS | publisher=[[Direxion]]}}</ref>
+
+===Derivatives===
+In the [[Derivative (finance)|derivatives]] market, the [[Chicago Mercantile Exchange]] (CME) offers [[futures contract]]s that track the index and trade on the exchange floor in an [[open outcry]] auction, or on CME's Globex platform, and are the exchange's most popular product. Ticker symbols are:
+* /SP for the full-sized contract 
+* /ES for the [[E-mini S&P]] contract that is one fifth the size of /SP
+* /MES for the [[E-micro|''Micro'']] E-mini futures contract that is one tenth the size of the S&P E-mini contract, i.e. 1/50 the size of the full-sized (SP) contract
+
+The [[Chicago Board Options Exchange]] (CBOE) offers [[Option (finance)|options]] on the S&P 500 index as well as on S&P 500 index ETFs, inverse ETFs, and leveraged ETFs.
+
+==History==
+In 1860, [[Henry Varnum Poor]] formed Poor's Publishing, which published an investor's guide to the railroad industry.<ref name=history>{{cite web | url=https://www.spglobal.com/en/who-we-are/our-history | title=Our History | publisher=[[S&P Global]]}}</ref>
+
+In 1923, Standard Statistics Company (founded in 1906 as the [[S&P Global Ratings#History|Standard Statistics Bureau]]) began rating mortgage bonds<ref name=history/> and developed its first stock market index consisting of the stocks of 233 U.S. companies, computed weekly.<ref name=keydates>{{cite news | url=https://www.reuters.com/article/us-usa-stocks-sp-timeline-idUSBRE9450WL20130506 | title=Key dates and milestones in the S&P 500's history | first=Caroline | last=Valetkevitch | work=[[Reuters]] | date=May 6, 2013}}</ref>
+
+In 1926, it developed a 90-stock index, computed daily.<ref name=keydates/>
+
+In 1941, Poor's Publishing merged with Standard Statistics Company to form [[Standard & Poor's]].<ref name=history/><ref>{{cite encyclopedia | title=Standard & Poor's | encyclopedia=Gale Encyclopedia of U.S. Economic History | volume=3 | edition=2nd | publisher=[[Gale (publisher)|Gale]] | editor-last=Riggs | editor-first=Thomas | date=2015 | page=1256 | id={{gale|CX3611000855}}}}</ref>
+
+On Monday, March 4, 1957, the index was expanded to its current 500 companies and was renamed the S&P 500 Stock Composite Index.<ref name=keydates/>
+
+In 1962, Ultronic Systems became the compiler of the S&P indices including the S&P 500 Stock Composite Index, the 425 Stock Industrial Index, the 50 Stock Utility Index, and the 25 Stock Rail Index.<ref>{{cite news | url=https://www.nytimes.com/1962/06/04/archives/vast-stock-wire-network-being-extended-to-coast.html | title=Vast stock wire network being extended to coast | work=[[The New York Times]] | date=June 4, 1962 | url-access=subscription}}</ref>
+
+On August 31, 1976, [[The Vanguard Group]] offered the first [[mutual fund]] to retail investors that tracked the index.<ref name=keydates/>
+
+On April 21, 1982, the [[Chicago Mercantile Exchange]] began trading futures based on the index.<ref name=keydates/>
+
+On July 1, 1983, [[Chicago Board Options Exchange]] began trading [[Option (finance)|options]] based on the index.<ref name=keydates/>
+
+Beginning in 1986, the index value was updated every 15 seconds, or 1,559 times per trading day, with price updates disseminated by [[Reuters]].<ref>{{cite news | url=https://www.benzinga.com/general/education/19/06/13915807/this-day-in-market-history-s-p-500-quotes-delivered-every-15-seconds | title=This Day In Market History: S&P 500 Quotes Delivered Every 15 Seconds | first=Wayne | last=Duggan | work=Benzinga | date=June 13, 2019}}</ref>
+
+On January 22, 1993, the Standard & Poor's Depositary Receipts [[exchange-traded fund]] issued by [[State Street Corporation]] began trading.<ref name=keydates/>
+
+On September 9, 1997, [[CME Group]] introduced the S&P E-mini futures contract.<ref name=keydates/>
+
+In 2005, the index transitioned to a public float-adjusted capitalization-weighting.<ref>{{cite web | url=https://mondovisione.com/media-and-resources/news/standard-and-poors-announces-changes-to-us-investable-weight-factors-and-final-f/ | title=Standard & Poor's Announces Changes to U.S. Investable Weight Factors and Final Float Transition Schedule | date=March 9, 2005}}</ref>
+
+Friday September 17, 2021 final trading date for the original SP big contract which began trading in 1982 <ref>{{Cite web |last=CME |date=Aug 6, 2021 |title=Special Executive Report |url=https://www.cmegroup.com/content/dam/cmegroup/notices/ser/2021/08/SER-8828.pdf |url-status=live}}</ref>
+
+==Selection criteria==
+Like other indices managed by [[S&P Dow Jones Indices]], but unlike indices such as the [[Russell 1000 Index]] which are strictly rule-based, the components of the S&P 500 index are selected by a committee.  When considering the eligibility of a new addition, the committee assesses the company's merit using eight primary criteria: [[market capitalization]], [[Market liquidity|liquidity]], [[Domicile (law)|domicile]], [[public float]], [[Global Industry Classification Standard]] and representation of the industries in the [[economy of the United States]], financial viability, length of time publicly traded, and [[stock exchange]]. Over the past few years, there has been a decline in the number of S&P 500 companies with classified boards.<ref>{{Cite journal| last1=Bebchuk| first1=Lucian A. |last2=Hirst |first2=Scott| last3=Rhee| first3=June| date=2014-02-01| title=Towards the Declassification of S&P 500 Boards |url=https://papers.ssrn.com/abstract=2400652 |location=Rochester, NY| ssrn=2400652 }}</ref>'''{{rp|159}}''' Requirements to be added to the index include:<ref name=S&P500Methodology/>
+# Market capitalization must be greater than or equal to US$14.6 billion<ref name="sp202200304">{{cite web |url = https://www.spglobal.com/spdji/en/documents/indexnews/announcements/20220304-1450357/1450357_mar22mktcapguid.pdf |title = S&P Dow Jones Indices Announces Update to S&P Composite 1500 Market Cap Guidelines |date = March 4, 2022 |access-date = March 7, 2022}}</ref>
+# Annual dollar value traded to float-adjusted market capitalization is greater than 1.0
+# Minimum monthly trading volume of 250,000 shares in each of the six months leading up to the evaluation date
+# Must be publicly listed on either the [[New York Stock Exchange]] (including [[NYSE Arca]] or [[NYSE American]]) or [[NASDAQ]] (NASDAQ Global Select Market, NASDAQ Select Market or the NASDAQ Capital Market).
+# The company should be from the U.S.<ref>Staff, [https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/sp-500-index/ "S&P 500 Index"], [[Corporate Finance Institute|CFA]], 2020.</ref>
+# Securities that are ineligible for inclusion in the index are [[limited partnership]]s, [[master limited partnership]]s and their [[investment trust]] units, [[OTC Bulletin Board]] issues, [[closed-end fund]]s, [[exchange-traded fund]]s, [[Exchange-traded note]]s, [[royalty trust]]s, [[tracking stock]]s, [[preferred stock]], [[unit trust]]s, [[Warrant (finance)|equity warrants]], [[convertible bond]]s, [[investment trust]]s, [[American depositary receipt]]s, and [[American depositary share]]s.<ref name=S&P500Methodology/>
+# Since 2017, companies with dual share classes are not added to the index.
+
+The market cap eligibility criteria are for addition to an index, not for continued membership. As a result, an index constituent that appears to violate criteria for addition to that index is not removed unless ongoing conditions warrant an index change.<ref name="sp202200304"/>
+
+A stock may rise in value when it is added to the index since [[index fund]]s must purchase that stock to continue tracking the index.<ref>{{cite web | url=https://www.nber.org/digest/nov13/w19290.html | title=Stock Price Reactions to Index Inclusion | first=Jay | last=Fitzgerald | publisher=[[National Bureau of Economic Research]]}}</ref><ref>{{cite news | url=https://www.usatoday.com/story/money/columnist/krantz/2013/07/05/stocks-soar-added-sp-500/2447185/ | title=Do stocks soar if they get into the S&P 500? | first=Matt | last=Krantz | work=[[USA TODAY]] | date=July 5, 2013}}</ref>
+
+In October 2021, [[Bloomberg News]] reported that a study alleged that some companies purchase ratings from [[S&P Global]] to increase their chances of entering the S&P 500 Index—even without meeting the full criteria for inclusion.<ref>{{cite web |url=https://www.bloomberg.com/news/articles/2021-10-12/new-nber-study-asks-whether-s-p-500-membership-is-up-for-sale |title=S&P 500 Membership May Be ‘For Sale,’ NBER Research Suggests |work=Bloomberg |last=Lee |first=Justina |date=October 12, 2021 |access-date=January 21, 2022 |url-status=live}}</ref>
+
+==Index value calculation==
+The index is a free-float [[capitalization-weighted index]];<ref>{{cite book | author-link=Robert Fernholz | last=Fernholz | first=E. Robert | title=Stochastic Portfolio Theory | location=[[Berlin]]/[[Heidelberg]] | publisher=[[Springer Science+Business Media]] | date=April 17, 2013 | url=https://books.google.com/books?id=wQDqBwAAQBAJ&pg=PA150 | page=150| isbn=9781475736991 }}</ref>{{rp|150}} that is, companies are weighted in the index in proportion to their [[market capitalization]]s. For purposes of determining the market capitalization of a company for weighting in the index, only the number of shares available for public trading ("[[public float]]") is used; shares held by insiders or controlling shareholders that are not publicly traded are excluded from the calculation.
+
+The formula to calculate the S&P 500 index value is
+:<math> \text{Index Level} = {\sum \left({P_i} \cdot {Q_i}\right) \over Divisor}</math>
+where <math>P_i</math> is the price of the i-th stock in the index, <math>Q_i</math> is the corresponding number of shares publicly available ("float") for that stock, and <math>Divisor</math> is a normalization factor.
+
+The <math>Divisor</math>, currently below 8.3 billion,<ref>{{cite web | title=Stock Market Indicators: S&P 500/400/600 Divisors | url=https://www.yardeni.com/pub/spdivisors.pdf | publisher=Yardeni}}</ref> is a number that is adjusted to keep the value of the index consistent despite [[corporate action]]s that affect market capitalization and would otherwise affect the calculation formula, such as additional share issuance, share buybacks, special [[dividend]]s, constituent changes, rights offerings, and [[corporate spin-off]]s. Stock splits do not affect the divisor since they do not affect market capitalization.<ref name=S&P500Methodology/> When a company is dropped and replaced by another with a different market capitalization, the divisor needs to be adjusted in such a way that the value of the S&P 500 index remains constant. All divisor adjustments are made after the close of trading and after the calculation of the closing value of the S&P 500 index.<ref>{{cite book | last=Shilling | first=Henry | title=The International Guide to Securities Market Indices | location=[[Chicago]] | publisher=[[Fitzroy Dearborn Publishers]] | date=1996 | url=https://books.google.com/books?id=-fhADwAAQBAJ&pg=PT290 | page=290| isbn=9781351343947 }}</ref>{{rp|290}}
+
+==Performance==
+[[File:S&P 500 Buybacks and Dividends.webp|thumb|290px|right|S&P 500 Buybacks and Dividends (quarterly) <br> {{colorbox|lightgreen}} [[Stock buyback]] <br> {{colorbox|green}} [[Dividend|Dividends]]]]
+The average annual total return and [[compound annual growth rate]] of the index, including [[dividend]]s, since inception in 1926 has been approximately 9.8% (6% after [[inflation]]), and the annual standard deviation of the return over the same time period is 20.81%;<ref>{{cite web |title=S&P 500 Standard Deviation |url=https://piercube.com/sp-500-standard-deviation/ |website=Quantamental Finance |date=August 13, 2021 |publisher=Pie-R-Cube}}</ref> however, there were several years where the index declined over 30%.<ref>{{cite news | url=https://www.cnbc.com/2017/06/18/the-sp-500-has-already-met-its-average-return-for-a-full-year.html | title=The S&P 500 has already met its average return for a full year, but don't expect it to stay here | first=Michael | last=Santoli | work=[[CNBC]] | date=June 18, 2017}}</ref> The index has posted annual increases 70% of the time.<ref name=love>{{cite news | url=https://money.usnews.com/investing/investing-101/articles/2018-10-02/why-investors-love-the-s-p-500 | title=Why Investors Love the S&P 500 | first=Lou | last=Carlozo | work=[[U.S. News & World Report]] | date=October 2, 2018}}</ref> However, the index has made new highs on only 5% of trading days, meaning that on 95% of trading days, the index has closed below its all-time high.<ref>{{cite news | url=https://fortune.com/2020/02/27/coronavirus-stock-market-worries-dont-panic-economy/ | title=Worried about the stock market? Resist the urge to panic | first=Ben | last=Carlson | work=[[Fortune (magazine)|Fortune]] | date=February 27, 2020 | url-access=limited}}</ref>
+
+===Price history & milestones===
+<!--NOTE: Before editing, please see Talk page (consensus was to include record highs of lasting historical significance, not day-to-day new highs).-->
+{{Main|Closing milestones of the S&P 500}}
+
+On August 12, 1982, the index closed at 102.42.<ref>{{cite news | last=Marotta | first=David John | url=https://www.forbes.com/sites/davidmarotta/2017/10/11/volkers-bear-the-bear-market-of-1982/ | title=Volker's Bear: The Bear Market Of 1982 | archive-url=https://web.archive.org/web/20171011171605/https://www.forbes.com/sites/davidmarotta/2017/10/11/volkers-bear-the-bear-market-of-1982/#991ffad5a292 | archive-date=October 11, 2017 | date=October 11, 2017 | work=[[Forbes]]}}</ref>
+
+On [[Black Monday (1987)]], the index realized its worst daily percentage loss, falling 20.47% in a single day.<ref name=keydates/>
+
+In October 1996, the index closed above 700.<ref>{{cite news | url=https://money.cnn.com/1996/10/14/markets/marketwrap/ | title=Dow eclipses 6,000 | work=[[CNN]] | date=October 14, 1996}}</ref>
+
+On February 12, 1997, the index closed above 800 for the first time.<ref>{{Cite news | url=https://www.fool.com/archive/boringport/1997/02/12/the-boring-portfolio-report-wednesday-february.aspx | title=The Boring Portfolio Report - Wednesday, February 12, 1997 | work=[[The Motley Fool]] | date=February 12, 1997}}</ref>
+
+On February 2, 1998, the index closed above 1,000 for the first time.<ref name=above2000>{{Cite news | url=https://www.wsj.com/articles/s-p-500-closes-above-2000-for-first-time-1409055874 | title=S&P 500 Closes Above 2000 for First Time | first1=Saumya | last1=Vaishampayan | first2=Chris | last2=Dieterich | work=[[The Wall Street Journal]] | date=August 26, 2014 | url-access=subscription}}</ref>
+
+On March 24, 2000, at the peak of the [[dot-com bubble]], the index reached an intraday high of 1,552.87; this high was not exceeded until May 30, 2007. On October 10, 2002, during the [[stock market downturn of 2002]], the index fell to 768.83, a decline of approximately 50% from its high in March 2000.<ref>{{cite web | url=https://www.etf.com/publications/journalofindexes/joi-news/3005.html | title=New High For S&P 500 | date=August 9, 2007 | website=ETF.com | archive-url=https://web.archive.org/web/20140911070842/http://www.etf.com/publications/journalofindexes/joi-news/3005.html | archive-date=September 11, 2014 | url-status=live | df=mdy-all}}</ref>
+
+On May 30, 2007, the index closed at 1,530.23, setting its first all-time closing high in more than 7 years. The index achieved a new all-time intraday high on October 11, 2007, at 1,576.09.<ref name=endsabove/>
+
+Between the [[bankruptcy of Lehman Brothers]] on September 15, 2008, and the end of 2008, the index closed either up or down 3% in one day 29 times.<ref>{{cite news | url=https://money.cnn.com/2009/09/28/markets/thebuzz/index.htm | title=The end of the manic depressive market | first=Paul R. | last=La Monica | work=[[CNN]] | date=September 29, 2009}}</ref> On October 13, 2008, the index closed up 11.6%, its best single-day percentage gain since being founded in 1957.<ref>{{cite news | url=https://money.cnn.com/2008/10/13/markets/markets_newyork/ | title=Raging bulls | first=Alexandra | last=Twin | work=[[CNN]] | date=October 13, 2008}}</ref>
+
+On November 20, 2008, the index closed at 752.44, its lowest since early 1997.<ref>{{cite news | url=https://www.cnbc.com/id/27826038 | title=Stocks Plunge, Leaving Dow Below 7600 | last=Perman | first=Cindy | date=November 20, 2008 | work=[[CNBC]] | archive-url=https://web.archive.org/web/20171217014935/https://www.cnbc.com/id/27826038 | archive-date=December 17, 2017 | url-status=live | df=mdy-all}}</ref>
+
+The index ended 2008 at 903.25, a yearly loss of 38.5%.<ref>{{cite news | url=https://money.cnn.com/2008/12/31/markets/markets_newyork/index.htm | title=Wall Street: Bring on '09 | last=Twin | first=Alexandra | date=December 31, 2008 | work=[[CNN]] | archive-url=https://web.archive.org/web/20150402090638/http://money.cnn.com/2008/12/31/markets/markets_newyork/index.htm | archive-date=April 2, 2015 | url-status=live | df=mdy-all}}</ref> The index continued to decline in early 2009, closing at 676.53 on March 9, 2009, its lowest close in 13 years. The drawdown from the high in October 2007 to the low in March 2009 was 56.8%, the largest since [[World War II]].<ref>{{Cite news | url=https://fortune.com/2020/03/19/coronavirus-stock-market-predictions-bear-market-stocks-bottom-what-to-expect/ | title=What comes after a bear market? You will like the answer | first=Ben | last=Carlson | work=[[Fortune (magazine)|Fortune]] | date=March 19, 2020}}</ref>
+
+At the trough of the [[United States bear market of 2007–2009]], on March 6, 2009, the index was at 666.<ref>{{cite news | url=https://www.cnbc.com/2019/03/04/the-10th-anniversary-of-the-climactic-march-2009-market-bottom-arrives-this-week.html | title=10 years ago this week, the market hit the climactic bottom of the Great Recession | first=Michael | last=Santoli | work=[[CNBC]] | date=March 4, 2019}}</ref> By March 23, 2009, the index had risen 20% from its low, closing at 822.92.<ref>{{cite news | url=https://money.cnn.com/2009/03/23/markets/markets_newyork/index.htm | title=Dow jumps almost 500 points | first=Alexandra | last=Twin | work=[[CNN]] | date=March 23, 2009}}</ref>
+
+The index closed 2009 at 1,115.10, the second-best year of the decade.<ref>{{cite news | url=https://www.reuters.com/article/us-markets-stocks/wall-st-ends-a-tad-higher-dow-nasdaq-at-09-highs-idUSTRE5AT0RI20091231 | title=Wall St closes out '09 with best gains since 2003 | date=December 31, 2009 | work=[[Reuters]] | first=Caroline | last=Valetkevitch | archive-url=https://web.archive.org/web/20171217014622/https://www.reuters.com/article/us-markets-stocks/wall-st-ends-a-tad-higher-dow-nasdaq-at-09-highs-idUSTRE5AT0RI20091231 | archive-date=December 17, 2017 | url-status=live| df=mdy-all}}</ref>
+
+On April 14, 2010, the index closed at 1,210.65, its first close above 1,200 since the [[financial crisis of 2007–2008]].<ref>{{cite news | url=https://www.reuters.com/article/us-markets-stocks/sp-tops-1200-on-earnings-boost-idUSTRE6341EA20100414 | title=S&P tops 1,200 on earnings boost | first=Ryan | last=Vlastelica | work=[[Reuters]] | date=April 13, 2010}}</ref> By July 2, 2010, it had fallen to 1,022.58, its lowest point of the year.<ref>{{Cite news | url=https://www.cnbc.com/2010/07/23/us-stocks-have-second-best-week-of-the-year.html | title=US Stocks Have Second Best Week of the Year | first=Gina | last=Francolla | work=[[CNBC]] | date=July 23, 2010}}</ref><ref>{{cite news | url=https://www.bloomberg.com/news/articles/2010-07-22/s-p-500-may-fall-to-2010-low-after-stalling-at-1-100-technical-analysis | title=S&P May Fall to 2010 Low After Failed Rally: Technical Analysis | first=Caroline | last=Dye | work=[[Bloomberg News]] | date=July 22, 2010}}</ref>
+
+On April 29, 2011, the index closed at a post-crisis high of 1,363.61. However, after the [[August 2011 stock markets fall]], on October 4, 2011, the index briefly broke below 1,100.<ref>{{cite news | url=https://money.cnn.com/2011/10/04/markets/markets_newyork/index.htm | title=Stocks: Bear market bounce | first=Maureen | last=Farrell | work=[[CNN]] | date=October 4, 2011}}</ref>
+
+The index rose 13% in 2012 despite significant volatility amid electoral and fiscal uncertainty and round 3 of [[quantitative easing]]. On December 31, 2012, the index closed at 1,426.19, an annual gain of 13% and its biggest gain in 3 years.<ref>{{cite news | url=https://www.cnbc.com/id/100346272 | title=S&P 500 Soars 13% in 2012, Logs Best Gain in 3 Years | first=JeeYeon | last=Park | work=[[CNBC]] | date=December 31, 2012}}</ref>
+
+On March 28, 2013, the index surpassed its closing high of 1,565.15, recovering all its losses from the [[Great Recession]].<ref>{{cite news | url=https://money.cnn.com/2013/03/28/investing/stocks-markets/index.html | title=What a quarter! Dow and S&P at record highs | first=Hibah | last=Yousuf | work=[[CNN]] | date=March 28, 2013}}</ref><ref>{{cite news | url=https://www.usatoday.com/story/money/markets/2013/03/28/stocks-3-28/2027123/ | title=Stocks end higher, S&P 500 at new closing high | first1=Adam | last1=Shell | first2=Ray | last2=Goldbacher | work=[[USA Today]] | date=March 28, 2013}}</ref> On April 10, 2013, it closed above the intraday high from 2007.<ref>{{cite news | url=https://money.cnn.com/2013/04/10/investing/stocks-markets/index.html | title=Dow and S&P 500 close at new record highs| first=Maureen | last=Farrell | date=April 10, 2013 | work=[[CNN]] | archive-url=https://web.archive.org/web/20140924040713/http://money.cnn.com/2013/04/10/investing/stocks-markets/index.html | archive-date=September 24, 2014 | url-status=live | df=mdy-all}}</ref><ref name=endsabove>{{cite news | title=Record-Smashing Quarter: S&P 500 Ends Above 2007's Record Close, Dow Posts Best Q1 Since 1998 | url=https://www.cnbc.com/id/100600350 | first=JeeYeon | last=Park | work=[[CNBC]] | date=March 28, 2013 | archive-url=https://web.archive.org/web/20130401081250/http://www.cnbc.com/id/100600350 | archive-date=April 1, 2013 | url-status=live | df=mdy-all}}</ref>
+
+On August 26, 2014, the index closed above 2,000 for the first time.<ref name=above2000/>
+
+On March 2, 2015, the index reached an all-time closing high, while the [[Nasdaq Composite]] closed above 5,000 for the first time since 2000.<ref>{{cite news | url=https://www.cnbc.com/2015/03/02/us-stocks-open-narrowly-mixed-ahead-of-data.html | title=Nasdaq closes above 5K for first time since March 2000; Dow, S&P at records | first=Evelyn | last=Cheng | work=[[CNBC]] | date=March 2, 2015}}</ref>
+
+After the [[2015–2016 Chinese stock market turbulence]], a period of over a year with no new record highs ended on July 11, 2016, with the index closing at 2,137.16.<ref>{{cite news | url=https://www.reuters.com/article/us-usa-stocks-idUSKCN0ZR18G | title=Strong economy, earnings bets propel S&P 500 to record high | first=Rodrigo | last=Campos | work=[[Reuters]] | date=July 11, 2016}}.</ref>
+
+In June 2017, the index posted the largest weekly rise since the [[2016 United States presidential election]].<ref>{{cite web | url=https://www.wsj.com/articles/global-markets-china-stocks-fall-as-deal-makers-borrowing-probed-1498187415 | title=U.S. Stocks Notch Weekly Gains | first1=Riva | last1=Gold | first2=Corrie | last2=Driebusch | date=June 24, 2017 | work=[[The Wall Street Journal]] | url-access=subscription | archive-url=https://web.archive.org/web/20170625153711/https://www.wsj.com/articles/global-markets-china-stocks-fall-as-deal-makers-borrowing-probed-1498187415 | archive-date=June 25, 2017 | url-status=live | df=mdy-all}}</ref>
+
+For the full year 2017, the index was up 19.4%, its best year since 2013.<ref>{{Cite news | url=https://www.cnbc.com/2017/12/29/us-stocks-open-higher-sp-500-tracking-for-best-year-since-2013.html | title=Stocks end lower as selling accelerates into the close; S&P still posts best year since 2013 | first=Evelyn | last=Cheng | work=[[CNBC]] | date=December 29, 2017}}</ref> On September 25, 2017, the index closed above 2,500 for the first time.<ref>{{Cite news | url=https://www.foxbusiness.com/markets/sp-500-tops-2500-mark-as-tech-and-bank-stocks-climb | title=S&P 500 tops 2,500 mark as tech and bank stocks climb | first=MARLEY | last=JAY | agency=[[Associated Press]] | work=[[Fox Business]] | date=September 15, 2017}}</ref>
+
+The index rose sharply in January 2018, extending one of its longest monthly winning streaks, only to fall 4% in February 2018 during a month of extremely high [[Volatility (finance)|volatility]], including a day in which the [[VIX]] doubled.<ref>{{Cite news | url=https://www.ft.com/content/1826a93c-1cd5-11e8-aaca-4574d7dabfb6 | title=Volatile month sees S&P 500 fall nearly 4% in February | first1=Robin | last1=Wigglesworth | first2=Peter | last2=Wells | work=[[Financial Times]] | date=February 28, 2018}}</ref><ref>{{cite news | url=https://www.bloomberg.com/news/articles/2019-02-06/the-day-the-vix-doubled-tales-of-volmageddon | title=The Day The Vix Doubled: Tales of 'Volmageddon' | first=Luke | last=Kawa | work=[[Bloomberg News]] | date=February 6, 2019 | url-access=subscription}}</ref> It was the first monthly decline in 11 months.<ref>{{Cite news | url=https://money.cnn.com/2018/02/28/investing/stock-market-february-dow-jones/index.html | title=February was an insane month for the stock market | first=Matt | last=Egan | work=[[CNN]] | date=February 28, 2018}}</ref> In the third quarter of 2018, the index posted its best quarter since 2013.<ref>{{cite news | url=https://www.cnbc.com/2018/09/28/us-markets-political-turmoil-and-data-take-center-stage.html | title=S&P 500 posts best quarter since 2013 | first1=Fred | last1=Imbert | first2=Alexandra | last2=Gibbs | work=[[CNBC]] | date=September 28, 2018}}</ref> However, the index fell 11% in the month of December 2018, its worst December performance since the [[Great Depression]].<ref>{{cite news | url=https://www.washingtonpost.com/graphics/2018/business/stock-market-crash-comparison/ | title=Stocks are down after a volatile year, but that's not the whole picture | first1=Kate | last1=Rabinowitz | first2=Leslie | last2=Shapiro | newspaper=[[The Washington Post]] | date=December 31, 2018}}</ref> The index fell 6% in 2018, its worst year in a decade.<ref>{{cite news | url=https://www.cnbc.com/2018/12/31/stock-market-wall-street-stocks-eye-us-china-trade-talks.html | title=US stocks post worst year in a decade as the S&P 500 falls more than 6% in 2018 | first=Fred | last=Imbert | work=[[CNBC]] | date=December 31, 2018}}</ref>
+
+However, in 2019, the index posted its best first half in 22 years including the best June since 1938.<ref>{{Cite news | url=https://www.wsj.com/articles/asian-stocks-slip-as-g-20-begins-11561708211 | title=S&P 500 Posts Best First Half in 22 Years | first=Corrie | last=Driebusch | work=[[The Wall Street Journal]] | date=June 28, 2019 | url-access=subscription}}</ref><ref>{{cite news | url=https://www.cnbc.com/2019/06/28/by-the-numbers-best-june-for-the-dow-since-1938-sp-500s-best-first-half-in-two-decades.html | title=By the numbers: Best June for the Dow since 1938, S&P 500′s best first half in two decades | first=Fred | last=Imbert | work=[[CNBC]] | date=June 28, 2019}}</ref> On July 10, 2019, the index reached 3,000 for the first time.<ref>{{cite news | url=https://www.bloomberg.com/opinion/articles/2019-07-10/s-p-500-at-3-000-is-no-reason-to-celebrate | title=S&P 500 at 3,000 Is No Reason to Celebrate | first=Robert | last=Burgess | work=[[Bloomberg News]] | date=July 10, 2019 | url-access=subscription}}</ref> The index rose 31.5% in 2019, one of its best years.<ref>{{Cite news | url=https://www.forbes.com/sites/johntobey/2020/12/31/year-end-reports-overstate-stock-market-performance--heres-the-reality/ | title=Year-End Reports Overstate Stock Market Performance – Here's The Reality | first=John S. | last=Tobey | work=[[Forbes]] | date=December 31, 2019}}</ref>
+
+On February 19, 2020, the index hit a new closing peak of 3,386.15; however, it fell 10% in the next six trading days, its fastest drop from a new peak as a result of the onset of the [[COVID-19 pandemic]] and [[COVID-19 recession]].<ref name=COVID>{{cite news | url=https://www.marketwatch.com/story/dow-sp-500-enter-correction-territory-as-stock-market-selloff-rolls-on-for-6th-straight-day-2020-02-27 | title=S&P 500 tumbles from record finish to correction in just 6 trading days as stock-market rout accelerates | first=William | last=Watts | work=[[MarketWatch]] | date=February 28, 2020|archive-url=https://web.archive.org/web/20210327170619/https://www.marketwatch.com/story/dow-sp-500-enter-correction-territory-as-stock-market-selloff-rolls-on-for-6th-straight-day-2020-02-27 |archive-date=March 27, 2021|url-status=live}}</ref><ref>{{cite document |last1=Cox |first1=Josue |last2=Greenwald |first2=Daniel L. |last3=Ludvigson |first3=Sidney C. |url=https://www.nber.org/system/files/working_papers/w27784/w27784.pdf  |title=What explains the COVID-19 stock market |work=NBER Working Paper Series |publisher=[[National Bureau of Economic Research]] |id=Working Paper 27784 |location=[[Cambridge, Massachusetts]] |date=September 2020 |archive-url=https://web.archive.org/web/20210325010901/https://www.nber.org/system/files/working_papers/w27784/w27784.pdf |archive-date=March 25, 2021|url-status=live}}</ref> On March 23, 2020, at the trough of the [[2020 stock market crash]], the index had fallen 34% from its peak.<ref>{{cite news | url=https://markets.businessinsider.com/news/stocks/sp-500-erases-ytd-losses-investors-economic-reopening-recovery-coronavirus-2020-6-1029290367 | title=S&P 500 erases 2020 losses as investors bet on a swift economic recovery from the coronavirus | first=Ben| last=Winck | work=[[Business Insider]] | date=June 8, 2020}}</ref><ref>{{Cite news | url=https://www.wsj.com/articles/stock-pickers-underperformed-during-coronavirus-market-turmoil-11591786801 | title=Stock Pickers Underperformed During Coronavirus Market Turmoil |first=Karen | last=Langley | work=[[The Wall Street Journal]] | date=June 10, 2020}}</ref> Overall, the index fell 20% during the first quarter of 2020, its worst quarter since 2008.<ref>{{cite news | last1=Stevens | first1=Pippa | title=Stock futures point to an opening bounce on Wall Street after second quarter's rocky start | url=https://www.cnbc.com/2020/04/01/stock-market-futures-open-to-close-news.html | website=[[CNBC]] | archive-url=https://web.archive.org/web/20200402084844/https://www.cnbc.com/2020/04/01/stock-market-futures-open-to-close-news.html | archive-date=April 2, 2020 | date=April 1, 2020 |url-status=live}}</ref> However, this was followed by a 20% gain in the second quarter, its biggest quarterly gain since 1998.<ref>{{Cite news | url=https://www.nytimes.com/2020/07/01/business/dealbook/stocks-quarter-guidance.html | title=An Epic Reversal of Fortune | work=[[The New York Times]] | date=July 1, 2020 | url-access=limited}}</ref><ref>{{cite news | url=https://www.cnbc.com/2020/06/30/stock-market-futures-open-to-close-news.html | title=S&P 500 rises to start the new quarter, tech leads Nasdaq Composite to record close | first1=Fred | last1=Imbert | first2=Yun | last2=Li | work=[[CNBC]] | date=June 30, 2020}}</ref> The index reached a new record high on August 18, 2020.<ref>{{Cite news | last1=Imbert | first1=Fred | last2=Li| first2=Yun | url=https://www.cnbc.com/2020/08/17/stock-market-futures-open-to-close-news.html | title=S&P 500 rises to a record close, fully wiping out its coronavirus losses | work=[[CNBC]] | date=August 17, 2020}}</ref><ref>{{cite news |last=Garber | first=Jonathan | url=https://www.foxbusiness.com/markets/us-stocks-aug-18-2020 | title=S&P 500 secures record, Nasdaq notches another: US stocks shed bulk of coronavirus losses | work=[[Fox Business]] | date=August 18, 2020}}</ref> In the following months the index reached several all-time highs. On April 1, 2021, the index closed above 4,000 for the first time.<ref>{{Cite news|title=S&P 500 closes above 4,000 for the first time | url=https://www.nbcnews.com/business/markets/s-p-closes-above-4-000-first-time-n1262778 | work=[[NBC News]] | date=April 1, 2021}}</ref>
+
+===Returns by year===
+Returns are generally quoted as [[price return]]s (excluding returns from dividends). However, they can also be quoted as [[total return]], which include returns from [[dividend]]s and the reinvestment thereof, and "net total return", which reflects the effects of dividend reinvestment after the deduction of [[withholding tax]].<ref name=sp500r/>
+
+<div style="width: auto; overflow: auto; background: white; border: 1px solid #B4B4B4;">
+{| class="wikitable mw-collapsible sortable" style="text-align:right;"
+|+ class="nowrap" | Show / Hide table
+|-
+! Year
+! Change in Index
+! Total Annual Return Including Dividends
+! Value of $1.00 Invested on January 1, 1970
+! 5 Year Annualized Return
+! 10 Year Annualized Return
+! 15 Year Annualized Return
+! 20 Year Annualized Return
+! 25 Year Annualized Return
+|-
+|1970
+
+|align="right" | 0.10%
+|align="right" | 4.01%
+|align="right" | $1.04
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1971
+|align="right" | 10.79%
+|align="right" | 14.31%
+|align="right" | $1.19
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1972
+|align="right" | 15.63%
+|align="right" | 18.98%
+|align="right" | $1.41
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1973
+|align="right" | −17.37%
+|align="right" | −14.66%
+|align="right" | $1.21
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1974
+|align="right" | −29.72%
+|align="right" | −26.47%
+|align="right" | $0.89
+|align="right" | −2.35%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1975
+|align="right" | 31.55%
+|align="right" | 37.20%
+|align="right" | $1.22
+|align="right" | 3.21%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1976
+|align="right" | 19.15%
+|align="right" | 23.84%
+|align="right" | $1.51
+|align="right" | 4.87%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1977
+|align="right" | −11.50%
+|align="right" | −7.18%
+|align="right" | $1.40
+|align="right" | −0.21%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1978
+|align="right" | 1.06%
+|align="right" | 6.56%
+|align="right" | $1.49
+|align="right" | 4.32%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1979
+|align="right" | 12.31%
+|align="right" | 18.44%
+|align="right" | $1.77
+|align="right" | 14.76%
+|align="right" | 5.86%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1980
+|align="right" | 25.77%
+|align="right" | 32.50%
+|align="right" | $2.34
+|align="right" | 13.96%
+|align="right" | 8.45%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1981
+|align="right" | −9.73%
+|align="right" | −4.92%
+|align="right" | $2.23
+|align="right" | 8.10%
+|align="right" | 6.47%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1982
+|align="right" | 14.76%
+|align="right" | 21.55%
+|align="right" | $2.71
+|align="right" | 14.09%
+|align="right" | 6.70%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1983
+|align="right" | 17.27%
+|align="right" | 22.56%
+|align="right" | $3.32
+|align="right" | 17.32%
+|align="right" | 10.63%
+|align="right" | -
+|align="right" | -
+|align="right" | -
+|-
+|1984
+|align="right" | 1.40%
+|align="right" | 6.27%
+|align="right" | $3.52
+|align="right" | 14.81%
+|align="right" | 14.78%
+|align="right" | 8.76%
+|align="right" | -
+|align="right" | -
+|-
+|1985
+|align="right" | 26.33%
+|align="right" | 31.73%
+|align="right" | $4.64
+|align="right" | 14.67%
+|align="right" | 14.32%
+|align="right" | 10.49%
+|align="right" | -
+|align="right" | -
+|-
+|1986
+|align="right" | 14.62%
+|align="right" | 18.67%
+|align="right" | $5.51
+|align="right" | 19.87%
+|align="right" | 13.83%
+|align="right" | 10.76%
+|align="right" | -
+|align="right" | -
+|-
+|1987
+|align="right" | 2.03%
+|align="right" | 5.25%
+|align="right" | $5.80
+|align="right" | 16.47%
+|align="right" | 15.27%
+|align="right" | 9.86%
+|align="right" | -
+|align="right" | -
+|-
+|1988
+|align="right" | 12.40%
+|align="right" | 16.61%
+|align="right" | $6.76
+|align="right" | 15.31%
+|align="right" | 16.31%
+|align="right" | 12.17%
+|align="right" | -
+|align="right" | -
+|-
+|1989
+|align="right" | 27.25%
+|align="right" | 31.69%
+|align="right" | $8.90
+|align="right" | 20.37%
+|align="right" | 17.55%
+|align="right" | 16.61%
+|align="right" | 11.55%
+|align="right" | -
+|-
+|1990
+|align="right" | −6.56%
+|align="right" | −3.10%
+|align="right" | $8.63
+|align="right" | 13.20%
+|align="right" | 13.93%
+|align="right" | 13.94%
+|align="right" | 11.16%
+|align="right" | -
+|-
+|1991
+|align="right" | 26.31%
+|align="right" | 30.47%
+|align="right" | $11.26
+|align="right" | 15.36%
+|align="right" | 17.59%
+|align="right" | 14.34%
+|align="right" | 11.90%
+|align="right" | -
+|-
+|1992
+|align="right" | 4.46%
+|align="right" | 7.62%
+|align="right" | $12.11
+|align="right" | 15.88%
+|align="right" | 16.17%
+|align="right" | 15.47%
+|align="right" | 11.34%
+|align="right" | -
+|-
+|1993
+|align="right" | 7.06%
+|align="right" | 10.08%
+|align="right" | $13.33
+|align="right" | 14.55%
+|align="right" | 14.93%
+|align="right" | 15.72%
+|align="right" | 12.76%
+|align="right" | -
+|-
+|1994
+|align="right" | −1.54%
+|align="right" | 1.32%
+|align="right" | $13.51
+|align="right" | 8.70%
+|align="right" | 14.38%
+|align="right" | 14.52%
+|align="right" | 14.58%
+|align="right" | 10.98%
+|-
+|1995
+|align="right" | 34.11%
+|align="right" | 37.58%
+|align="right" | $18.59
+|align="right" | 16.59%
+|align="right" | 14.88%
+|align="right" | 14.81%
+|align="right" | 14.60%
+|align="right" | 12.22%
+|-
+|1996
+|align="right" | 20.26%
+|align="right" | 22.96%
+|align="right" | $22.86
+|align="right" | 15.22%
+|align="right" | 15.29%
+|align="right" | 16.80%
+|align="right" | 14.56%
+|align="right" | 12.55%
+|-
+|1997
+|align="right" | 31.01%
+|align="right" | 33.36%
+|align="right" | $30.48
+|align="right" | 20.27%
+|align="right" | 18.05%
+|align="right" | 17.52%
+|align="right" | 16.65%
+|align="right" | 13.07%
+|-
+|1998
+|align="right" | 26.67%
+|align="right" | 28.58%
+|align="right" | $39.19
+|align="right" | 24.06%
+|align="right" | 19.21%
+|align="right" | 17.90%
+|align="right" | 17.75%
+|align="right" | 14.94%
+|-
+|1999
+|align="right" | 19.53%
+|align="right" | 21.04%
+|align="right" | $47.44
+|align="right" | 28.56%
+|align="right" | 18.21%
+|align="right" | 18.93%
+|align="right" | 17.88%
+|align="right" | 17.25%
+|-
+|2000
+|align="right" | −10.14%
+|align="right" | −9.10%
+|align="right" | $43.12
+|align="right" | 18.33%
+|align="right" | 17.46%
+|align="right" | 16.02%
+|align="right" | 15.68%
+|align="right" | 15.34%
+|-
+|2001
+|align="right" | −13.04%
+|align="right" | −11.89%
+|align="right" | $37.99
+|align="right" | 10.70%
+|align="right" | 12.94%
+|align="right" | 13.74%
+|align="right" | 15.24%
+|align="right" | 13.78%
+|-
+|2002
+|align="right" | −23.37%
+|align="right" | −22.10%
+|align="right" | $29.60
+|align="right" | −0.59%
+|align="right" | 9.34%
+|align="right" | 11.48%
+|align="right" | 12.71%
+|align="right" | 12.98%
+|-
+|2003
+|align="right" | 26.38%
+|align="right" | 28.68%
+|align="right" | $38.09
+|align="right" | −0.57%
+|align="right" | 11.07%
+|align="right" | 12.22%
+|align="right" | 12.98%
+|align="right" | 13.84%
+|-
+|2004
+|align="right" | 8.99%
+|align="right" | 10.88%
+|align="right" | $42.23
+|align="right" | −2.30%
+|align="right" | 12.07%
+|align="right" | 10.94%
+|align="right" | 13.22%
+|align="right" | 13.54%
+|-
+|2005
+|align="right" | 3.00%
+|align="right" | 4.91%
+|align="right" | $44.30
+|align="right" | 0.54%
+|align="right" | 9.07%
+|align="right" | 11.52%
+|align="right" | 11.94%
+|align="right" | 12.48%
+|-
+|2006
+|align="right" | 13.62%
+|align="right" | 15.79%
+|align="right" | $51.30
+|align="right" | 6.19%
+|align="right" | 8.42%
+|align="right" | 10.64%
+|align="right" | 11.80%
+|align="right" | 13.37%
+|-
+|2007
+|align="right" | 3.53%
+|align="right" | 5.49%
+|align="right" | $54.12
+|align="right" | 12.83%
+|align="right" | 5.91%
+|align="right" | 10.49%
+|align="right" | 11.82%
+|align="right" | 12.73%
+|-
+|2008
+|align="right" | −38.49%
+|align="right" | −37.00%
+|align="right" | $34.09
+|align="right" | −2.19%
+|align="right" | −1.38%
+|align="right" | 6.46%
+|align="right" | 8.43%
+|align="right" | 9.77%
+|-
+|2009
+|align="right" | 23.45%
+|align="right" | 26.46%
+|align="right" | $43.11
+|align="right" | 0.41%
+|align="right" | −0.95%
+|align="right" | 8.04%
+|align="right" | 8.21%
+|align="right" | 10.54%
+|-
+|2010
+|align="right" | 12.78%
+|align="right" | 15.06%
+|align="right" | $49.61
+|align="right" | 2.29%
+|align="right" | 1.41%
+|align="right" | 6.76%
+|align="right" | 9.14%
+|align="right" | 9.94%
+|-
+|2011
+|align="right" | -0.00%
+|align="right" | 2.11%
+|align="right" | $50.65
+|align="right" | −0.25%
+|align="right" | 2.92%
+|align="right" | 5.45%
+|align="right" | 7.81%
+|align="right" | 9.28%
+|-
+|2012
+|align="right" | 13.41%
+|align="right" | 16.00%
+|align="right" | $58.76
+|align="right" | 1.66%
+|align="right" | 7.10%
+|align="right" | 4.47%
+|align="right" | 8.22%
+|align="right" | 9.71%
+|-
+|2013
+|align="right" | 29.60%
+|align="right" | 32.39%
+|align="right" | $77.79
+|align="right" | 17.94%
+|align="right" | 7.40%
+|align="right" | 4.68%
+|align="right" | 9.22%
+|align="right" | 10.26%
+|-
+|2014
+|align="right" | 11.39%
+|align="right" | 13.69%
+|align="right" | $88.44
+|align="right" | 15.45%
+|align="right" | 7.67%
+|align="right" | 4.24%
+|align="right" | 9.85%
+|align="right" | 9.62%
+|-
+|2015
+|align="right" | −0.73%
+|align="right" | 1.38%
+|align="right" | $89.66
+|align="right" | 12.57%
+|align="right" | 7.30%
+|align="right" | 5.00%
+|align="right" | 8.19%
+|align="right" | 9.82%
+|-
+|2016
+|align="right" | 9.54%
+|align="right" | 11.96%
+|align="right" | $100.38
+|align="right" | 14.66%
+|align="right" | 6.94%
+|align="right" | 6.69%
+|align="right" | 7.68%
+|align="right" | 9.15%
+|-
+|2017
+|align="right" | 19.42%
+|align="right" | 21.83%
+|align="right" | $122.30
+|align="right" | 15.79%
+|align="right" | 8.49%
+|align="right" | 9.92%
+|align="right" | 7.19%
+|align="right" | 9.69%
+|-
+|2018
+|align="right" | −6.24%
+|align="right" | −4.38%
+|align="right" | $116.94
+|align="right" | 8.49%
+|align="right" | 13.12%
+|align="right" | 7.77%
+|align="right" | 5.62%
+|align="right" | 9.07%
+|-
+|2019
+|align="right" | 28.88%
+|align="right" | 31.49%
+|align="right" | $153.76
+|align="right" | 11.70%
+|align="right" | 13.56%
+|align="right" | 9.00%
+|align="right" | 6.06%
+|align="right" | 10.22%
+|-
+|2020
+|align="right" | 16.26%
+|align="right" | 18.40%
+|align="right" | $182.06
+|align="right" | 15.22%
+|align="right" | 13.89%
+|align="right" | 9.88%
+|align="right" | 7.47%
+|align="right" | 9.56%
+|-
+|2021
+|align="right" | 26.89%
+|align="right" | 28.71%
+|align="right" | $234.33
+|align="right" | 18.48%
+|align="right" | 16.55%
+|align="right" | 10.66%
+|align="right" | 9.52%
+|align="right" | 9.76%
+|-
+!High
+!align="right" | 34.11%
+!align="right" | 37.58%
+!align="right" | ---
+!align="right" | 28.56%
+!align="right" | 19.21%
+!align="right" | 18.93%
+!align="right" | 17.88%
+!align="right" | 17.25%
+|-
+!Low
+!align="right" | −38.49%
+!align="right" | −37.00%
+!align="right" | ---
+!align="right" | −2.35%
+!align="right" | −1.38%
+!align="right" | 4.24%
+!align="right" | 5.62%
+!align="right" | 9.07%
+|-
+!Median
+!align="right" | 12.36%
+!align="right" | 15.43%
+!align="right" | ---
+!align="right" | 14.02%
+!align="right" | 12.94%
+!align="right" | 10.71%
+!align="right" | 11.55%
+!align="right" | 10.76%
+|-
+! Year
+! Change in Index
+! Total Annual Return Including Dividends
+! Value of $1.00 Invested on 1970‑01‑01
+! 5 Year Annualized Return
+! 10 Year Annualized Return
+! 15 Year Annualized Return
+! 20 Year Annualized Return
+! 25 Year Annualized Return
+|}
+</div>
+
+==See also== 
+*[[List of S&P 500 companies]]
+*[[SPDR S&P 500 Trust ETF|SPDR S&P 500 Trust ETF (symbol SPY)]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{official website|https://www.spglobal.com/spdji/en/indices/equity/sp-500}}
+{{Finance links
+| name = S&P 500 Index
+| google = .INX
+| yahoo = ^GSPC
+| bloomberg 
+}}
+{{Stock Market Indices}}{{Stock market indexes}}
+{{North and South American Stock market indices}}
+
+{{authority control}}
+
+{{DEFAULTSORT:S And P 500 Index}}
+[[Category:S&P Dow Jones Indices|0500]]
+[[Category:1957 introductions]]
+[[Category:American stock market indices]]

@@ -1,0 +1,341 @@
+{{Short description|Special pawn move in chess}}
+{{About|the move in chess}}
+{{italic title}}
+{{good article}}
+[[File:Ajedrez captura al paso del peon.png|right]]
+
+In [[chess]], '''''en passant''''' ({{IPA-fr|ɑ̃ paˈsɑ̃|lang}}, {{lit.}} ''in passing'') is a {{chessgloss|capture}} by a [[Pawn (chess)|pawn]] of a horizontally adjacent enemy pawn that has just advanced two squares in one move.<ref name="Brace">{{citation
+|last=Brace |first=Edward  <!-- not [[Edward Brace]] --> |year=1977 |title=An Illustrated Dictionary of Chess |contribution=en passant
+|location=Secaucus, N.J |publisher=Craftwell |isbn= 1-55521-394-4 }}</ref><ref>{{cite web |last1=Winter |first1=Edward |title=En passant (Chess) |url=https://www.chesshistory.com/winter/extra/enpassant.html |website=Chess Notes |access-date=27 March 2022}}</ref> The capturing pawn moves to the square that the enemy pawn passed; the enemy pawn is captured as if it had only advanced one square. The capture is permitted only on the turn immediately after the enemy pawn’s two-square advance.{{refn|Article 3.7.4.2 in FIDE Laws of Chess<ref name="FideLawsOfChess">{{Cite web|title=FIDE Laws of Chess taking effect from 1 January 2018|url=https://handbook.fide.com/chapter/E012018|access-date=12 July 2020|website=FIDE}}</ref>}} ''En passant'' is the only capture in chess where the capturing piece does not take the captured piece's place.
+
+The ''en passant'' [[rules of chess|rule]] was added in the 15th century alongside the introduction of the pawn's initial two-square advance. It prevents a pawn from using the advance to bypass the risk of being captured by an enemy pawn. ''En passant'' is a common theme in [[chess problem]]s.
+{{AN chess|pos=toc}}
+
+==Conditions==
+[[File:Ajedrez animación en passant.gif|thumb|Animation of an ''en passant'' capture]]
+If a pawn is on its fifth {{chessgloss|rank}} and an enemy pawn on an adjacent {{chessgloss|file}} has just moved two squares in a single move, the enemy pawn may be captured by the first pawn ''as if it had moved only one square''. The conditions are as follows:
+
+* The capturing pawn is on its fifth rank.
+* The enemy pawn is on an adjacent file to the capturing pawn.
+* The enemy pawn has just moved two squares in a single move.
+* The two-square move occurred on the opponent’s preceding turn. (If the right to capture ''en passant'' is not exercised immediately, it is subsequently lost.)
+
+{| align="center" 
+|-valign="top" 
+|+ '''Example of ''en passant'''''
+|
+{{Chess diagram small
+| tleft
+| Black to move
+
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |pd|  |  
+|  |  |  |  |  |xx|  |  
+|  |  |  |  |pl|  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+
+| The black pawn is on its initial square. If it moves to f6 (marked by ×), the white pawn can capture it.
+}}
+|
+{{Chess diagram small
+| tleft
+| White to move
+
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |xx|  |  
+|  |  |  |  |pl|pd|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+
+| Black moves their pawn forward two squares in a single move from f7 to f5, "passing" f6.
+}}
+|
+{{Chess diagram small
+| tleft
+| Black to move
+
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |pl|  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+
+| White captures the black pawn ''en passant'', as if it had moved only one square to f6.
+}}
+|}
+
+Only pawns may capture and be captured ''en passant''; other [[Chess piece|pieces]] with the ability to capture diagonally—the [[King (chess)|king]], [[Queen (chess)|queen]], and [[Bishop (chess)|bishop]]—cannot perform the capture.<ref name="whyldweekend">{{cite book |last=Whyld |first=Kenneth |author-link=Ken Whyld |title=Learn Chess in a Weekend |year=1993 |publisher=Knopf/DK |page=39 |ISBN=9780679422297}}</ref>  ''En passant'' is the only capturing move in chess such that the capturing piece is moved to a square other than that occupied by the captured piece.<ref name="Burgess">{{citation |last=Burgess |first=Graham |author-link = Graham Burgess |title=The Mammoth Book of Chess |location=New York |publisher=Carroll & Graf |year=2000 |edition=2nd |isbn=978-0-7867-0725-6 }}
+</ref>{{rp|463}}
+
+==Notation==
+In [[Algebraic notation (chess)|algebraic]] and [[Descriptive notation|descriptive]] [[chess notation]], an ''en passant'' capture is notated using the capturing pawn's destination rather than the captured pawn's location. ''En passant'' may optionally be denoted by ''e.p.'' or similar. For example, ''bxa3'' or ''bxa3 e.p.'' may be used to represent a black pawn on b4 capturing a white pawn on a4 ''en passant''.<ref name="Golombek" />{{rp|216}}
+
+==Examples==
+
+===In the opening===
+{{Chess diagram  
+| tright
+| 
+
+|rd|nd|bd|qd|kd|bd|  |rd
+|pd|pd|pd|xo|  |pd|pd|pd
+|  |  |  |xx|  |  |  |  
+|  |  |  |pd|pl|  |  |  
+|  |  |  |ql|nd|  |  |  
+|  |  |  |  |  |nl|  |  
+|pl|pl|pl|  |  |pl|pl|pl
+|rl|nl|bl|  |kl|bl|  |rl
+
+| Black just played 5...d7–d5. White's e5-pawn can capture ''en passant''.
+}}
+Some [[chess opening]]s feature ''en passant''. In the following line from [[Petrov's Defence]], White can capture the pawn on d5 ''en passant'' on their sixth move:
+
+:'''1. e4 e5'''
+:'''2. Nf3 Nf6'''
+:'''3. d4 exd4'''
+:'''4. e5 Ne4'''
+:'''5. Qxd4 d5''' (see diagram)
+:'''6. exd6 e.p.'''<ref name="Hooper" />{{rp|124–125}}
+{{clear}}
+
+{{Chess diagram   
+| tright
+| Steinitz vs. Fleissig, 1882
+
+|rd|nd|bd|qd|kd|bd|nd|rd
+|pd|pd|pd|  |  |pd|pd|pd
+|  |  |  |pl|pd|  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  
+|pl|pl|pl|pl|  |pl|pl|pl
+|rl|nl|bl|ql|kl|bl|nl|rl
+
+| Position after 3.exd6 e.p.
+}}
+Another example occurs in the [[French Defence]] after 1.e4 e6 2.e5, a line once advocated by [[Wilhelm Steinitz]].<ref name="Minev">{{Citation
+|last=Minev|first=Nikolay|author-link=Nikolay Minev |year=1998 |title=The French Defense 2: New and Forgotten Ideas |location=Davenport, Iowa
+|publisher=Thinkers' Press |isbn= 0-938650-92-0 }}</ref>{{rp|2}} If Black responds with 2...d5, White can capture the pawn ''en&nbsp;passant'' with 3.exd6&nbsp;e.p.; likewise, White can answer 2...f5 with 3.exf6 e.p. The former line occurred in a game between Steinitz and [[Bernhard Fleissig]] (see diagrammed position).<ref>{{cite web |url=http://www.chessgames.com/perl/chessgame?gid=1001589 |title=Steinitz vs. Fleissig, 1882 |website=[[Chessgames.com]] }}</ref>
+{{clear}}
+
+===Unusual examples===
+{{Chess diagram small
+| tright
+| An example of overlooking <br />capturing ''en passant''
+
+|  |  |  |  |  |bl|  |  
+|  |  |  |  |  |  |pd|  
+|  |  |  |  |  |  |  |  
+|  |  |  |  |rl|pl|  |kd  
+|  |  |  |  |pd|kl|  |nl
+|  |  |  |  |  |  |pl|  
+|  |  |  |  |qd|pl|  |  
+|  |  |  |  |  |  |  |  
+
+| Black to move. Here 1...g5+? loses to an ''en passant'' checkmate.
+}}
+
+In the diagram, the move 1...g5+ seems to [[checkmate]] White, but it is in fact a [[blunder (chess)|blunder]]. Black overlooks that White can counter this check with the ''en passant'' capture 2.fxg6 e.p.{{chessAN|#}}, which [[cross-check]]s and checkmates Black. (The diagrammed position leads to a draw with optimal play.)
+{{clear}}
+
+{| align="right" 
+|-valign="top" 
+|+ Gundersen vs. Faul, 1928
+|
+{{Chess diagram small
+| tright
+| 
+
+|rd|  |bd|qd|  |rd|  |  
+|pd|pd|  |  |nd|  |pd|  
+|  |  |  |  |pd|  |kd|  
+|  |  |  |pd|pl|pd|nl|  
+|  |bd|  |nd|  |  |ql|pl
+|  |  |nl|  |  |  |  |  
+|pl|pl|  |  |  |pl|pl|  
+|rl|  |bl|  |kl|  |  |rl
+
+| Position after 12...f7–f5
+}}
+|
+{{Chess diagram small
+| tright
+| 
+
+|rd|  |bd|qd|  |rd|  |  
+|pd|pd|  |  |nd|  |  |  
+|  |  |  |  |nl|  |  |kd
+|  |  |  |pd|pl|pd|pd|pl
+|  |bd|  |nd|  |  |ql|  
+|  |  |nl|  |  |  |  |  
+|pl|pl|  |  |  |pl|pl|  
+|rl|  |bl|  |kl|  |  |rl
+
+| After 14...g7–g5.  White mates by taking the pawn ''en&nbsp;passant''.
+}}
+|}
+Another example features in a game between [[Gunnar Gundersen (chess player)|Gunnar Gundersen]] and Albert H. Faul.<ref>{{cite web |url=http://www.chessgames.com/perl/chessgame?gid=1242924 |title=Gundersen vs. Faul |website=[[Chessgames.com]] |access-date=2009-06-12 }}</ref> [[White and Black in chess|Black]] has just moved his pawn from f7 to f5. [[White and Black in chess|White]] could capture the f-pawn ''en&nbsp;passant'' with his e-pawn, but he instead played:
+:'''13. h5+ Kh6 14. Nxe6+''' 
+The bishop on c1 effects a [[discovered check]]. 14...Kh7 results in 15.Qxg7#.
+:'''14... g5 15. hxg6 e.p.#'''
+The ''en passant'' capture and discovered checks place Black in [[checkmate]] (in fact, White's bishop is not necessary for the mate). An ''en passant'' capture is the only way a [[double check]] can be delivered without one of the checking pieces moving, as in this case.
+
+The largest known number of ''en passant'' captures in one game is three. This record is shared by three games; in none of them were all three captures by the same player. The earliest known example is a 1980 game between Alexandru Sorin Segal and Karl Heinz Podzielny.<ref name="Winter" />{{rp|98–99}}<ref>[http://www.365chess.com/search_result.php?wlname=Segal&wname=&open=&blname=Podzielny&bname=&eco=&yeari=&yeare=&sply=1&ply=&res=&submit_search=Search+Chess+Games# A. Segal vs. K. Podzielny, Dortmund 1980]. Published by 365Chess.com. Retrieved on 2009-12-05.</ref>
+{{clear}}
+
+===In chess problems===
+{{Chess diagram  
+| tright
+| Kenneth S. Howard, 1938
+
+|bl|  |  |  |  |nd|  |  
+|  |  |  |pd|pd|pd|  |  
+|  |nl|pd|  |kd|  |  |nl
+|  |  |pl|  |pl|  |  |  
+|  |  |pd|  |pd|  |  |pd
+|  |  |  |  |  |  |bl|  
+|  |  |  |pl|  |pl|  |  
+|ql|  |  |  |rl|  |kl|  
+
+| White to play and mate in three 
+}}
+''En passant'' is often used as a theme in [[chess problem]]s; according to Kenneth S. Howard, "En passant pawn captures frequently produce striking effects in the opening and closing of lines."<ref name="Howard">{{citation |last=Howard |first=Kenneth S. |year=1961 |title=How to Solve Chess Problems |edition=2nd |publisher=Dover
+|isbn= 978-0-486-20748-3 |url=https://books.google.com/books?id=TAr0VrN-G3MC&q=%22en+passant%22+chess&pg=PA106 |access-date=2009-11-30 }}</ref>{{rp|106}} In the diagrammed 1938 composition by Howard, the {{chessprobgloss|key}} '''1. d4''' introduces the threat of 2.d5+ cxd5 3.Bxd5#. Black can capture the d4-pawn ''en passant'' in either of two ways:
+* The capture '''1... exd3 e.p.''' shifts the e4-pawn from the e- to the d-file, preventing an ''en passant'' capture after White plays '''2. f4'''. To stop the threatened mate (3.f5#), Black can advance '''2... f5''', but this allows White to play '''3. exf6 e.p.''' with checkmate due to the decisive opening of the {{nowrap|e-file}}.
+* If Black plays '''1... cxd3 e.p.''', White exploits the newly opened a2–g8 diagonal with '''2. Qa2+ d5 3. cxd6 e.p.#'''
+{{clear}}
+
+{{Chess diagram  
+| tright
+| O. Sommerfeldt, 1902
+
+|  |  |  |  |  |  |  |  
+|  |bd|  |  |  |qd|  |  
+|bl|  |  |  |  |  |  |  
+|  |  |  |  |  |  |pd|  
+|  |rl|  |  |pd|kd|pl|pd
+|  |pd|  |  |  |  |  |pl
+|  |ql|  |pl|  |  |kl|  
+|  |  |  |  |  |  |  |  
+
+| White to play and mate in two
+}}
+
+The diagrammed 1902 composition by Sommerfeldt<ref>[http://timkr.home.xs4all.nl/chess2/diary_12.htm Open chess diary] by Tim Krabbé - #234</ref> shows the effect of [[Pin (chess)|pins]] on ''en passant'' captures.
+
+<br />The key 
+:{{pad}}'''1. d4{{chesspunc|!}}''' 
+threatens 2.Qf2#. The moves of the black e-pawn are restricted in an unusual manner. The ''en passant'' capture 1...exd3 e.p.+ is illegal (it exposes Black’s king to check), but 
+:{{pad}}'''1... e3+''' 
+is legal. This, however, removes the black king's access to e3, allowing 
+:{{pad}}'''2. d5#'''
+{{clear}}
+
+==Historical context==
+The ''en passant'' rule, along with the pawn’s two-square first move, was introduced between the 13th and 16th centuries; it was one of the last major additions in European chess.{{efn|Other relatively recent rule changes include the addition of [[castling]], alterations to the abilities of the [[queen (chess)|queen]] and [[bishop (chess)|bishop]]<ref name="Davidson">{{citation 
+ | last=Davidson
+ | first=Henry
+ | year=1949
+ | title=A Short History of Chess
+ | publisher=McKay
+ | edition=1981 paperback 
+ | isbn= 0-679-14550-8}}</ref>{{rp|14,16,57}} (Spanish [[chess master|master]] [[Ruy López de Segura]] gives the rule in his 1561 book ''[[Libro de la invencion liberal y arte del juego del axedrez]]''<ref name="Golombek">{{citation
+ | last=Golombek | first=Harry |author-link=Harry Golombek
+ | year=1977
+ | title=Golombek's Encyclopedia of Chess
+ | contribution=en passant, capture
+ | publisher=Crown Publishing
+ | isbn=0-517-53146-1}}
+</ref>{{rp|108}}), and alterations to [[Promotion (chess)|promotion]].}} The rule was added to prevent a pawn from using the newly added two-square first move to evade capture by an enemy pawn.<ref name="Davidson">{{citation 
+ | last=Davidson
+ | first=Henry
+ | year=1949
+ | title=A Short History of Chess
+ | publisher=McKay
+ | edition=1981 paperback 
+ | isbn= 0-679-14550-8}}</ref>{{rp|16}} In most places, the ''en passant'' rule was adopted at the same time as the pawn's two-square initial move, but it was not universally accepted until the Italian rules were changed in 1880.<ref name="Hooper">{{citation
+ | last1=Hooper|first1=David|author-link=David Vincent Hooper
+ | last2=Whyld|first2=Kenneth|author-link2=Kenneth Whyld
+ | title=The Oxford Companion to Chess
+ | year=1992
+ | edition=2nd
+ | location=Oxford
+ | publisher=[[Oxford University Press]]
+ | contribution = en passant
+ | isbn= 0-19-866164-9|title-link=The Oxford Companion to Chess}}
+</ref>{{rp|124–125}}
+
+==In chess variants==
+In most [[chess variant]]s, if pawns are allowed to advance two squares on their first move, the ''en passant'' rule is the same as in standard chess. Some larger variants allow pawns to make an initial move of ''more'' than two squares (such as the 16×16 game [[chess on a really big board]], in which pawns may move up to six squares forward); in such games, ''en passant'' captures are usually allowed on any square the given pawn had just passed.
+
+In variants with more than two spatial dimensions, ''en passant'' rules vary. In some [[three-dimensional chess]] variants, such as [[millennium 3D chess]] or [[Alice chess]], ''en passant'' is allowed, though in the former case, the captured pawn's two-square move cannot be purely vertical. In [[5D Chess with Multiverse Time Travel]], ''en passant'' is allowed in the spatial dimensions but not between universes or across time.
+
+Some [[fairy chess piece]]s can capture ''en passant'', such as the [[Berolina chess#Berolina pawn|Berolina pawn]].
+
+''En passant'' is absent in some chess variants, such as [[Dragonchess]] and [[Raumschach]], as well as the Asian variants ''[[shogi]]'', ''[[xiangqi]]'', and ''[[janggi]]''. In these games, pawns (soldiers in ''xiangqi'' and ''janggi'') do not have an initial two-square advance, and in the Asian variants, they cannot even capture diagonally.
+
+==Draw by repetition and stalemate==
+In the context of [[Threefold repetition|threefold and fivefold repetition]], two positions are considered different if the opportunity to perform a given ''en passant'' capture exists in one position but not the other.<ref name="Schiller">{{Citation
+|last=Schiller|first=Eric|author-link=Eric Schiller
+|year=2003
+|title=Official Rules of Chess
+|edition=2nd
+|publisher=Cardoza
+|isbn= 978-1-58042-092-1 }}
+</ref>{{rp|27}}
+
+If ''en passant'' is a player's only legal move, they must either perform it or end the game on their turn via normal means; the player is forbidden to "claim" a draw by [[stalemate]], regardless of whether or not they are in check. In his book on chess organization and rules, [[Arbiter (chess)#International Arbiter|International Arbiter]] [[Kenneth Harkness]] wrote that people frequently asked if this is the case.<ref name="Harkness">{{citation
+ | last=Harkness|first=Kenneth|author-link=Kenneth Harkness
+ | title=Official Chess Handbook
+ | year=1967
+ | publisher=McKay
+ | isbn= 1-114-15703-1}}
+</ref>{{rp|49}} Chess players debated this point in the 19th century, with some arguing that the right to capture ''en&nbsp;passant'' is a "privilege" that one cannot be compelled to exercise. In his 1860 book ''Chess Praxis'', [[Howard Staunton]] wrote that the ''en passant'' capture is mandatory in such a position; the [[rules of chess]] were amended to make this clear.<ref name="Winter">{{Citation
+| last=Winter | first=Edward |author-link=Edward Winter (chess historian)
+| year=1999
+| url=http://www.chesshistory.com/winter/extra/stalemate.html
+| title=Stalemate
+| publisher=Chesshistory.com
+| access-date=2009-06-12}}
+</ref><ref name="Harkness" />{{rp|49}}
+
+==Notes==
+{{notelist|notes=}}
+
+==References==
+{{Reflist|30em}}
+
+'''Bibliography'''
+{{wiktionary}}
+*{{citation
+ |last1=Just|first1=Tim
+ |last2=Burg|first2=Daniel B.
+ |year=2003
+ |title=U.S. Chess Federation's Official Rules of Chess
+ |edition=5th
+ |publisher=McKay
+ |isbn= 0-8129-3559-4 |ref=none}}
+*{{citation
+ |last=Winter | first=Edward
+ |year=2006
+ |title=Chess Facts and Fables
+ |publisher=McFarland
+ |isbn=0-7864-2310-2 |ref=none}}
+
+{{chess}}
+
+{{DEFAULTSORT:En Passant}}
+[[Category:Chess rules]]
+[[Category:Chess terminology]]
+[[Category:15th century in chess]]
+
+[[pl:Pion (szachy)#Bicie w przelocie]]

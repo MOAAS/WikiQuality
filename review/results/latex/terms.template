@@ -1,0 +1,44 @@
+\begin{table}[ht]
+    \caption{Term Analysis: Ten highest Collection and Document Frequency of Abstract ($cf_{ta}$, $df_{ta}$) and Keywords ($cf_{tk}$, $df_{tk}$) terms}
+    \label{tab:terms}
+    \begin{minipage}{.2\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $cf_{ta}$ \\
+            \midrule
+            {{CFA}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.2\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $df_{ta}$ \\
+            \midrule
+            {{DFA}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.2\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $cf_{tk}$ \\
+            \midrule
+            {{CFK}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.2\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $df_{tk}$ \\
+            \midrule
+            {{DFK}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+\end{table}

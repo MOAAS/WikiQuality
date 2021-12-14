@@ -1,0 +1,21 @@
+\begin{table}[ht]
+    \caption{Classical Learning accuracy of 6-class approaches }
+    \label{tab:CL_performance_6class}
+    \centering
+    \begin{tabular}{m{.3\textwidth} l l r r l}
+        \toprule
+        \textbf{Study} & \textbf{Best Method} & \textbf{Measure} & \textbf{Performance} & \textbf{IR$^*$} & \textbf{Lang.} \\ 
+        \midrule
+        Włodzimierz et al.~\cite{Lewoniewski2016_lr18} & Random Forest & AUC & 0.90 & 1.00 & Multiple \\
+        Vittoria et al.~\cite{Cozza2016_lr92} & Random Forest & AUC & 0.89 & 95.06 & English \\
+        Schmidt and Zangerle~\cite{Schmidt2019_lr78} & Gradient Boosted Trees & Accuracy & 73.00\% & 1.10 & English \\
+        Dang and Ignat~\cite{Dang2016_lr16} & Random Forest & Accuracy & 64.00\% & 1.77 & English \\
+        Halfaker~\cite{Halfaker2017_lr22} & ORES (Gradient Boosting) & Accuracy & 62.90\% & 1.12 & English \\
+        Halfaker and Geiger~\cite{Halfaker2020_lr1055} & Gradient Boosting & Accuracy & 62.90\% & 1.10 & Multiple \\
+        Narun et al.~\cite{Raman2020_lr64} & MLR & Accuracy & 49.35\% & 1.00 & English \\
+        \bottomrule
+    \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^*$ Imbalance Ratio ($IR$) = \# samples in the majority class / \# samples in the minority class. 
+\end{table}

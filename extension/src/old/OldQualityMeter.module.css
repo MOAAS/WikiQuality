@@ -1,0 +1,103 @@
+.meter {
+    background: purple;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
+
+    position: relative;
+}
+
+.letter {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+
+    width: 8px;
+}
+
+.pointer {
+    font-size: 2em;
+    position: absolute;
+
+
+    bottom: 0%;
+    left: -26px;
+
+    
+    transform: translateY(calc(50% - 4px));
+    transition: all 1s ease-in-out;
+}
+
+.none-pointer {
+    color: var(--color-F);
+    opacity: 0;
+}
+
+.A-plus-pointer {
+    color: var(--color-A-plus)
+}
+
+.A-pointer {
+    color: var(--color-A)
+}
+
+.B-pointer {
+    color: var(--color-B)
+
+}
+
+.C-pointer {
+    color: var(--color-C)
+}
+
+.D-pointer {
+    color: var(--color-D)
+}
+
+.F-pointer {
+    color: var(--color-F)
+}
+
+/* Block */
+
+.block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aplus-block {
+    background: var(--color-A-plus);
+    height: 5%;
+    font-size: 0.75em;
+}
+
+.A-block {
+    background: var(--color-A);
+    height: 10%;
+}
+
+.B-block {
+    background: var(--color-B);
+    height: 15%;
+}
+
+.C-block {
+    background: var(--color-C);
+    height: 10%;
+}
+
+.D-block {
+    background: var(--color-D);
+    height: 20%;
+}
+
+.F-block {
+    background: var(--color-F);
+    height: 40%;
+}

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 2em;
+}
+
+.score {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1em;
+    color: #575757;
+}

@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+
+body {
+  margin: 0;
+
+
+  height: 100vh;
+  background-color: #282c34;  
+
+  --error: #ff2247;
+
+  font-size: 0.9rem;
+}
+
+* {
+  font-family: "Montserrat", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border: none;
+  font-size: unset;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}

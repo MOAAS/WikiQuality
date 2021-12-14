@@ -1,0 +1,501 @@
+{{Short description|Relates logarithm and harmonic series}}
+{{distinguish|text = [[Euler's number]], {{math|e ''≈ 2.71828''}}, the base of the natural logarithm}}
+{{Use shortened footnotes|date=May 2021}}
+{{infobox non-integer number
+|image=gamma-area.svg
+|image_caption=The area of the blue region converges to Euler's constant
+|binary={{gaps|0.1001|0011|1100|0100|0110|0111|1110|0011|0111|1101|...}}
+|decimal={{gaps|0.57721|56649|01532|86060|65120|90082|40243|10421|...}}
+|hexadecimal={{gaps|0.93C4|67E3|7DB0|C7A4|D1BE|3F81|0152|CB56|A1CE|CC3A|...}}
+|continued_fraction_linear=[0; 1, 1, 2, 1, 2, 1, 4, 3, 13, 5, 1, 1, 8, 1, 2, 4, 1, 1, ...]{{r|OEIS_A002852}}
+|continued_fraction_periodic=Unknown if periodic
+|continued_fraction_finite=Unknown if finite
+}}
+'''Euler's constant''' (sometimes also called the '''Euler–Mascheroni constant''') is a [[mathematical constant]] usually denoted by the lowercase Greek letter [[gamma (letter)|gamma]] ({{mvar|γ}}).
+
+It is defined as the [[limit of a sequence|limiting]] difference between the [[harmonic series (mathematics)|harmonic series]] and the [[natural logarithm]], denoted here by <math>\log:</math>
+
+:<math>\begin{align}
+\gamma &= \lim_{n\to\infty}\left(-\log n + \sum_{k=1}^n \frac1{k}\right)\\[5px]
+&=\int_1^\infty\left(-\frac1x+\frac1{\lfloor x\rfloor}\right)\,dx.
+\end{align}</math>
+
+Here, <math>\lfloor x\rfloor</math> represents the [[floor and ceiling functions|floor function]].
+
+The numerical value of Euler's constant, to 50 decimal places, is:<ref>{{Cite OEIS|A001620|Decimal expansion of Euler's constant (or the Euler-Mascheroni constant), gamma}}</ref>
+: {{gaps|0.57721|56649|01532|86060|65120|90082|40243|10421|59335|93992|...}} 
+
+{{unsolved|mathematics|Is Euler's constant irrational? If so, is it transcendental?}}
+
+==History==
+The constant first appeared in a 1734 paper by the [[Ancien Régime of Switzerland|Swiss]] mathematician [[Leonhard Euler]], titled ''De Progressionibus harmonicis observationes'' (Eneström Index 43). Euler used the notations {{math|''C''}} and {{math|''O''}} for the constant. In 1790, [[Italy|Italian]] mathematician [[Lorenzo Mascheroni]] used the notations {{math|''A''}} and {{math|''a''}} for the constant. The notation {{mvar|γ}} appears nowhere in the writings of either Euler or Mascheroni, and was chosen at a later time perhaps because of the constant's connection to the [[gamma function]].{{r|Lagarias2013}} For example, the [[Germany|German]] mathematician [[Carl Anton Bretschneider]] used the notation {{mvar|γ}} in 1835{{sfn|Bretschneider|1837|loc="{{mvar|γ}} = {{math|''c''}} = {{nowrap|0,577215 664901 532860 618112 090082 3..}}" on [https://books.google.com/books?hl=fi&id=OAoPAAAAIAAJ&pg=PA260 p. 260]}} and [[Augustus De Morgan]] used it in a textbook published in parts from 1836 to 1842.{{r|DeMorgan183642}}
+
+==Appearances==
+Euler's constant appears, among other places, in the following (where '*' means that this entry contains an explicit equation):
+* Expressions involving the [[exponential integral]]*
+* The [[Laplace transform]]* of the [[natural logarithm]]
+* The first term of the [[Laurent series]] expansion for the [[Riemann zeta function]]*, where it is the first of the [[Stieltjes constants]]*
+* Calculations of the [[digamma function]]
+* A product formula for the [[gamma function]]
+* The asymptotic expansion of the [[gamma function]] for small arguments.
+* An inequality for [[Euler's totient function]]
+* The growth rate of the [[divisor function]]
+* In [[dimensional regularization]] of [[Feynman diagram]]s in [[quantum field theory]]
+* The calculation of the [[Meissel–Mertens constant]]
+* The third of [[Mertens' theorems]]*
+* Solution of the second kind to [[Bessel's equation]]
+* In the regularization/[[renormalization]] of the [[harmonic series (mathematics)|harmonic series]] as a finite value
+* The [[mean]] of the [[Gumbel distribution]]
+* The [[information entropy]] of the [[Weibull distribution|Weibull]] and [[Lévy distribution|Lévy]] distributions, and, implicitly, of the [[chi-squared distribution]] for one or two degrees of freedom.
+* The answer to the [[coupon collector's problem]]*
+* In some formulations of [[Zipf's law]]
+* A definition of the [[trigonometric integral#Cosine integral|cosine integral]]*
+* Lower bounds to a [[Prime gap#Lower bounds|prime gap]]
+* An upper bound on [[Shannon entropy]] in [[quantum information science|quantum information theory]]{{r|CavesFuchs1996}}
+* [[Fisher's geometric model|Fisher-Orr model]] for genetics of adaptation in evolutionary biology <ref>Connallon, T., Hodgins, K.A., 2021. Allen Orr and the genetics of adaptation. Evolution 75, 2624–2640. https://doi.org/10.1111/evo.14372</ref>
+
+==Properties==
+The number {{mvar|γ}} has not been proved [[algebraic number|algebraic]] or [[transcendental number|transcendental]]. In fact, it is not even known whether {{mvar|γ}} is [[irrational number|irrational]]. Using a [[continued fraction]] analysis, Papanikolaou showed in 1997 that if {{mvar|γ}} is [[rational number|rational]], its denominator must be greater than 10<sup>244663</sup>.{{r|HaiblePapanikolaou1998|Papanikolaou1997}} The ubiquity of {{mvar|γ}} revealed by the large number of equations below makes the irrationality of {{mvar|γ}} a major open question in mathematics.{{r|Sondow2003a}}
+
+However, some progress was made. Kurt Mahler showed in 1968 that the number <math>\frac{\pi}{2}\frac{Y_0(2)}{J_0(2)}-\gamma</math> is transcendental (here, <math>J_\alpha(x)</math> and <math>Y_\alpha(x)</math> are [[Bessel function]]s).{{r|Mahler1968}}{{r|Lagarias2013}} In 2009 Alexander Aptekarev proved that at least one of Euler's constant {{mvar|γ}} and the [[Euler–Gompertz constant]] {{mvar|δ}} is irrational;{{r|Aptekarev2009}} Tanguy Rivoal proved in 2012 that at least one of them is transcendental.{{r|Rivoal2012}}{{r|Lagarias2013}} In 2010 [[M. Ram Murty]] and N. Saradha showed that at most one of the numbers of the form
+:<math>\gamma(a,q) = \lim_{n\rightarrow\infty}\left(\left(\sum_{k=0}^n{\frac{1}{a+kq}}\right) - \frac{\log{(a+nq})}{q}\right)</math>
+with {{math|''q'' ≥ 2}} and {{math|1 ≤ ''a'' < ''q''}} is algebraic; this family includes the special case {{math|1=''γ''(2,4) = {{sfrac|''γ''|4}}}}.{{r|Lagarias2013}}{{sfn|Ram Murty|Saradha|2010}} In 2013 M. Ram Murty and A. Zaytseva found a different family containing {{mvar|γ}}, which is based on sums of reciprocals of integers not divisible by a fixed list of primes, with the same property.{{r|Lagarias2013}}{{r|MurtyZaytseva2013}}
+
+===Relation to gamma function===
+{{mvar|γ}} is related to the [[digamma function]] {{math|Ψ}}, and hence the [[derivative]] of the [[gamma function]] {{math|Γ}}, when both functions are evaluated at 1. Thus:
+:<math>-\gamma = \Gamma'(1) = \Psi(1). </math>
+
+This is equal to the limits:
+:<math>\begin{align}-\gamma &= \lim_{z\to 0}\left(\Gamma(z) - \frac1{z}\right) \\&= \lim_{z\to 0}\left(\Psi(z) + \frac1{z}\right).\end{align}</math>
+
+Further limit results are:{{r|Krämer2005}}
+
+:<math>\begin{align} \lim_{z\to 0}\frac1{z}\left(\frac1{\Gamma(1+z)} - \frac1{\Gamma(1-z)}\right) &= 2\gamma \\
+\lim_{z\to 0}\frac1{z}\left(\frac1{\Psi(1-z)} - \frac1{\Psi(1+z)}\right) &= \frac{\pi^2}{3\gamma^2}. \end{align}</math>
+
+A limit related to the [[beta function]] (expressed in terms of [[gamma function]]s) is
+:<math>\begin{align} \gamma &= \lim_{n\to\infty}\left(\frac{ \Gamma\left(\frac1{n}\right) \Gamma(n+1)\, n^{1+\frac1{n}}}{\Gamma\left(2+n+\frac1{n}\right)} - \frac{n^2}{n+1}\right) \\
+&= \lim\limits_{m\to\infty}\sum_{k=1}^m{m \choose k}\frac{(-1)^k}{k}\log\big(\Gamma(k+1)\big). \end{align}</math>
+
+===Relation to the zeta function===
+{{mvar|γ}} can also be expressed as an [[series (mathematics)|infinite sum]] whose terms involve the [[Riemann zeta function]] evaluated at positive integers:
+:<math>\begin{align}\gamma &= \sum_{m=2}^{\infty} (-1)^m\frac{\zeta(m)}{m} \\
+ &= \log\frac4{\pi} + \sum_{m=2}^{\infty} (-1)^m\frac{\zeta(m)}{2^{m-1}m}.\end{align} </math>
+
+Other series related to the zeta function include:
+:<math>\begin{align} \gamma &= \tfrac3{2}- \log 2 - \sum_{m=2}^\infty (-1)^m\,\frac{m-1}{m}\big(\zeta(m)-1\big) \\
+ &= \lim_{n\to\infty}\left(\frac{2n-1}{2n} - \log n + \sum_{k=2}^n \left(\frac1{k} - \frac{\zeta(1-k)}{n^k}\right)\right) \\
+ &= \lim_{n\to\infty}\left(\frac{2^n}{e^{2^n}} \sum_{m=0}^\infty \frac{2^{mn}}{(m+1)!} \sum_{t=0}^m \frac1{t+1} - n \log 2+ O \left (\frac1{2^{n}\, e^{2^n}}\right)\right).\end{align}</math>
+
+The error term in the last equation is a rapidly decreasing function of {{math|''n''}}. As a result, the formula is well-suited for efficient computation of the constant to high precision.
+
+Other interesting limits equaling Euler's constant are the antisymmetric limit:{{r|Sondow1998}}
+:<math>\begin{align} \gamma &= \lim_{s\to 1^+}\sum_{n=1}^\infty \left(\frac1{n^s}-\frac1{s^n}\right) \\&= \lim_{s\to 1}\left(\zeta(s) - \frac{1}{s-1}\right) \\&= \lim_{s\to 0}\frac{\zeta(1+s)+\zeta(1-s)}{2} \end{align}</math>
+
+and the following formula, established in 1898 by [[Charles Jean de la Vallée-Poussin|de la Vallée-Poussin]]:
+:<math>\gamma = \lim_{n\to\infty}\frac1{n}\, \sum_{k=1}^n \left(\left\lceil \frac{n}{k} \right\rceil - \frac{n}{k}\right)</math>
+where <math>\lceil\, \rceil</math> are [[ceiling function|ceiling]] brackets.
+This formula indicates that when taking any positive integer n and dividing it by each positive integer k less than n, the average fraction by which the quotient n/k falls short of the next integer tends to <math>\gamma</math> (rather than 0.5) as n tends to infinity.
+
+Closely related to this is the [[rational zeta series]] expression. By taking separately the first few terms of the series above, one obtains an estimate for the classical series limit:
+
+:<math>\gamma = \sum_{k=1}^n \frac1{k} - \log n -\sum_{m=2}^\infty \frac{\zeta(m,n+1)}{m},</math>
+
+where {{math|''ζ''(''s'',''k'')}} is the [[Hurwitz zeta function]]. The sum in this equation involves the [[harmonic number]]s, {{math|''H''<sub>''n''</sub>}}. Expanding some of the terms in the Hurwitz zeta function gives:
+:<math>H_n = \log(n) + \gamma + \frac1{2n} - \frac1{12n^2} + \frac1{120n^4} - \varepsilon,</math>
+where {{math|0 < ''ε'' < {{sfrac|1|252''n''<sup>6</sup>}}.}}
+
+{{mvar|γ}} can also be expressed as follows where {{math|''A''}} is the [[Glaisher–Kinkelin constant]]:
+
+:<math>\gamma =12\,\log(A)-\log(2\pi)+\frac{6}{\pi^2}\,\zeta'(2)</math>
+
+{{mvar|γ}} can also be expressed as follows, which can be proven by expressing the [[Riemann zeta function|zeta function]] as a [[Laurent series]]:
+
+:<math>\gamma=\lim_{n\to\infty}\biggl(-n+\zeta\Bigl(\frac{n+1}{n}\Bigr)\biggr)</math>
+
+===Integrals===
+{{mvar|γ}} equals the value of a number of definite [[integral]]s:
+:<math>\begin{align}
+\gamma &= - \int_0^\infty e^{-x} \log x \,dx \\
+ &= -\int_0^1 \log\left(\log\frac 1 x \right) dx \\ 
+ &= \int_0^\infty \left(\frac1{e^x-1}-\frac1{x\cdot e^x} \right)dx \\
+ &= \int_0^1\frac{1-e^{-x}}{x} \, dx -\int_1^\infty \frac{e^{-x}}{x}\, dx\\
+ &= \int_0^1\left(\frac1{\log x} + \frac1{1-x}\right)dx\\
+ &= \int_0^\infty \left(\frac1{1+x^k}-e^{-x}\right)\frac{dx}{x},\quad k>0\\
+ &= 2\int_0^\infty \frac{e^{-x^2}-e^{-x}}{x} \, dx ,\\
+ &= \int_0^1 H_x \, dx, \end{align} </math>
+where {{math|''H''<sub>''x''</sub>}} is the [[Harmonic number#Harmonic numbers for real and complex values|fractional harmonic number]].
+
+The third formula in the integral list can be proved in the following way:
+: <math>\begin{align}
+&\int_0^{\infty} \left(\frac{1}{e^x - 1} - \frac{1}{x e^x} \right) dx
+ = \int_0^{\infty} \frac{e^{-x} + x - 1}{x[e^x -1]} dx
+ = \int_0^{\infty} \frac{1}{x[e^x - 1]} \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}x^{m+1}}{(m+1)!} dx \\[2pt]
+&= \int_0^{\infty} \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}x^m}{(m+1)![e^x -1]} dx
+ = \sum_{m = 1}^{\infty} \int_0^{\infty} \frac{(-1)^{m+1}x^m}{(m+1)![e^x -1]} dx
+ = \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}}{(m+1)!} \int_0^{\infty} \frac{x^m}{e^x - 1} dx \\[2pt]
+&= \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}}{(m+1)!} m!\zeta(m+1)
+ = \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}}{m+1}\zeta(m+1)
+ = \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}}{m+1} \sum_{n = 1}^{\infty}\frac{1}{n^{m+1}}
+ = \sum_{m = 1}^{\infty} \sum_{n = 1}^{\infty} \frac{(-1)^{m+1}}{m+1}\frac{1}{n^{m+1}} \\[2pt]
+&= \sum_{n = 1}^{\infty} \sum_{m = 1}^{\infty} \frac{(-1)^{m+1}}{m+1}\frac{1}{n^{m+1}}
+ = \sum_{n = 1}^{\infty} \left[\frac{1}{n} - \ln\left(1+\frac{1}{n}\right)\right]
+ = \gamma
+\end{align}</math>
+The integral on the second line of the equation stands for the [[Debye function]] value of +∞, which is {{math|''m''!&thinsp;''ζ''(''m'' + 1)}}.
+
+Definite integrals in which {{mvar|γ}} appears include:
+:<math>\begin{align}
+\int_0^\infty e^{-x^2} \log x \,dx &= -\frac{(\gamma+2\log 2)\sqrt{\pi}}{4} \\
+\int_0^\infty e^{-x} \log^2 x \,dx &= \gamma^2 + \frac{\pi^2}{6}\\
+\int_{-\infty}^\infty  \frac{ 
+ e^{-|x|} \log|x|}{2} \,dx &= \gamma 
+\end{align}</math>
+
+One can express {{mvar|γ}} using a special case of [[Hadjicostas's formula]] as a [[Multiple integral#Double integral|double integral]]{{r|Sondow2003a|Sondow2005}} with equivalent series:
+:<math>\begin{align}
+\gamma &= \int_0^1 \int_0^1 \frac{x-1}{(1-xy)\log xy}\,dx\,dy \\
+&= \sum_{n=1}^\infty \left(\frac 1 n -\log\frac{n+1} n \right).
+\end{align}</math>
+
+An interesting comparison by Sondow{{r|Sondow2005}} is the double integral and alternating series
+:<math>\begin{align}
+\log\frac 4 \pi &= \int_0^1 \int_0^1 \frac{x-1}{(1+xy)\log xy} \,dx\,dy \\
+&= \sum_{n=1}^\infty \left((-1)^{n-1}\left(\frac 1 n -\log\frac{n+1} n \right)\right).
+\end{align}</math>
+
+It shows that {{math|log {{sfrac|4|π}}}} may be thought of as an "alternating Euler constant".
+
+The two constants are also related by the pair of series{{r|Sondow2005a}}
+:<math>\begin{align}
+\gamma &= \sum_{n=1}^\infty \frac{N_1(n) + N_0(n)}{2n(2n+1)} \\
+\log\frac4{\pi} &= \sum_{n=1}^\infty \frac{N_1(n) - N_0(n)}{2n(2n+1)} ,
+\end{align}</math>
+where {{math|''N''<sub>1</sub>(''n'')}} and {{math|''N''<sub>0</sub>(''n'')}} are the number of 1s and 0s, respectively, in the [[Binary number|base 2]] expansion of {{math|''n''}}.
+
+We have also [[Eugène Charles Catalan|Catalan]]'s 1875 integral{{r|SondowZudilin2006}}
+:<math>\gamma = \int_0^1 \left(\frac1{1+x}\sum_{n=1}^\infty x^{2^n-1}\right)\,dx.</math>
+
+===Series expansions===
+In general, 
+:<math>
+\gamma = \lim_{n \to \infty}\left(\frac{1}{1}+\frac{1}{2}+\frac{1}{3} + \ldots + \frac{1}{n} - \log(n+\alpha) \right) \equiv \lim_{n \to \infty} \gamma_n(\alpha)
+</math>
+for any <math>\alpha > -n</math>. However, the rate of convergence of this expansion depends significantly on <math>\alpha</math>. In particular, <math>\gamma_n(1/2)</math> exhibits much more rapid convergence than the conventional expansion <math>\gamma_n(0)</math>.{{r|DeTemple1993}}{{sfn|Havil|2003|pp=75–8}} This is because
+
+:<math>
+\frac{1}{2(n+1)} < \gamma_n(0) - \gamma < \frac{1}{2n},
+</math>
+
+while
+
+:<math>
+\frac{1}{24(n+1)^2} < \gamma_n(1/2) - \gamma < \frac{1}{24n^2}.
+</math>
+
+Even so, there exist other series expansions which converge more rapidly than this; some of these are discussed below.
+
+Euler showed that the following [[infinite series]] approaches {{mvar|γ}}:
+:<math>\gamma = \sum_{k=1}^\infty \left(\frac 1 k - \log\left(1+\frac 1 k \right)\right).</math>
+
+The series for {{mvar|γ}} is equivalent to a series [[Niels Nielsen (mathematician)|Nielsen]] found in 1897:{{r|Krämer2005}}{{sfn|Blagouchine|2016}}
+:<math>\gamma = 1 - \sum_{k=2}^\infty (-1)^k\frac{\left\lfloor\log_2 k\right\rfloor}{k+1}.</math>
+
+In 1910, [[Giovanni Vacca (mathematician)|Vacca]] found the closely related series{{r|Vacca1910|Glaisher1910|Hardy1912|Vacca1926|Kluyver1927|Krämer2005|Blagouchine2016}}
+:<math>\begin{align}
+\gamma & = \sum_{k=2}^\infty (-1)^k\frac{\left\lfloor\log_2 k\right\rfloor} k \\[5pt]
+& = \tfrac12-\tfrac13 + 2\left(\tfrac14 - \tfrac15 + \tfrac16 - \tfrac17\right) + 3\left(\tfrac18 - \tfrac19 + \tfrac1{10} - \tfrac1{11} + \cdots - \tfrac1{15}\right) + \cdots,
+\end{align}</math>
+
+where {{math|log<sub>2</sub>}} is the [[binary logarithm|logarithm to base 2]] and {{math|⌊ ⌋}} is the [[Floor and ceiling functions|floor function]].
+
+In 1926 he found a second series:
+:<math>\begin{align}
+\gamma + \zeta(2) & = \sum_{k=2}^\infty \left( \frac1{\left\lfloor\sqrt{k}\right\rfloor^2} - \frac1{k}\right) \\[5pt]
+& = \sum_{k=2}^\infty \frac{k - \left\lfloor\sqrt{k}\right\rfloor^2}{k \left\lfloor \sqrt{k} \right\rfloor^2} \\[5pt]
+&= \frac12 + \frac23 + \frac1{2^2}\sum_{k=1}^{2\cdot 2} \frac{k}{k+2^2} + \frac1{3^2}\sum_{k=1}^{3\cdot 2} \frac{k}{k+3^2} + \cdots
+\end{align}</math>
+
+From the [[Carl Johan Malmsten|Malmsten]]–[[Ernst Kummer|Kummer]] expansion for the logarithm of the gamma function{{r|Blagouchine2014}} we get:
+:<math>\gamma = \log\pi - 4\log\left(\Gamma(\tfrac34)\right) + \frac 4 \pi \sum_{k=1}^\infty (-1)^{k+1}\frac{\log(2k+1)}{2k+1}.</math>
+
+An important expansion for Euler's constant is due to [[Gregorio Fontana|Fontana]] and [[Lorenzo Mascheroni|Mascheroni]]
+
+:<math>\gamma = \sum_{n=1}^\infty \frac{|G_n|}{n} = \frac12 + \frac1{24} + \frac1{72} + \frac{19}{2880} + \frac3{800} + \cdots,</math>
+where {{math|''G<sub>n</sub>''}} are [[Gregory coefficients]]{{r|Krämer2005|Blagouchine2016|Blagouchine2018}} This series is the special case <math>k=1</math> of the expansions
+:<math>\begin{align}
+ \gamma &= H_{k-1}  - \log k + \sum_{n=1}^{\infty}\frac{(n-1)!|G_n|}{k(k+1) \cdots (k+n-1)} && \\
+     &= H_{k-1} - \log k + \frac1{2k} + \frac1{12k(k+1)} + \frac1{12k(k+1)(k+2)} + \frac{19}{120k(k+1)(k+2)(k+3)} + \cdots &&
+\end{align}</math>
+convergent for <math>k=1,2,\ldots</math>
+
+A similar series with the Cauchy numbers of the second kind {{math|''C<sub>n</sub>''}} is{{r|Blagouchine2016|Alabdulmohsin2018_1478}} 
+:<math>\gamma = 1 -  \sum_{n=1}^\infty \frac{C_{n}}{n \, (n+1)!} =1- \frac{1}{4} -\frac{5}{72} - \frac{1}{32} - \frac{251}{14400} - \frac{19}{1728} - \ldots</math>
+
+Blagouchine (2018) found an interesting generalisation of the Fontana-Mascheroni series
+:<math>\gamma=\sum_{n=1}^\infty\frac{(-1)^{n+1}}{2n}\Big\{\psi_{n}(a)+ \psi_{n}\Big(-\frac{a}{1+a}\Big)\Big\},
+\quad a>-1</math>
+where {{math|''ψ<sub>n</sub>''(''a'')}} are the ''[[Bernoulli polynomials of the second kind]]'', which are defined by the generating function
+: <math>
+\frac{z(1+z)^s}{\log(1+z)}= \sum_{n=0}^\infty z^n \psi_n(s) ,\qquad |z|<1,
+</math>
+For any rational {{math|''a''}} this series contains rational terms only. For example, at {{math|''a'' {{=}} 1}}, it becomes{{r|OEIS_A302120|OEISA302121}}
+: <math>\gamma=\frac{3}{4} - \frac{11}{96} - \frac{1}{72} - \frac{311}{46080} - \frac{5}{1152} - \frac{7291}{2322432}  - \frac{243}{100352} - \ldots</math>
+Other series with the same polynomials include these examples:
+: <math>\gamma= -\log(a+1) - \sum_{n=1}^\infty\frac{(-1)^n \psi_{n}(a)}{n},\qquad \Re(a)>-1 </math>
+and
+: <math>\gamma= -\frac{2}{1+2a} \left\{\log\Gamma(a+1) -\frac{1}{2}\log(2\pi) + \frac{1}{2} + \sum_{n=1}^\infty\frac{(-1)^n \psi_{n+1}(a)}{n}\right\},\qquad \Re(a)>-1 </math>
+where {{math|Γ(''a'')}} is the [[gamma function]].{{r|Blagouchine2018}}
+
+A series related to the Akiyama-Tanigawa algorithm is
+: <math>\gamma= \log(2\pi) - 2 - 2 \sum_{n=1}^\infty\frac{(-1)^n G_{n}(2)}{n}=
+\log(2\pi) - 2 + \frac{2}{3} + \frac{1}{24}+ \frac{7}{540} + \frac{17}{2880}+ \frac{41}{12600} + \ldots  </math>
+where {{math|''G''<sub>''n''</sub>(2)}} are the [[Gregory coefficients]] of the second order.{{r|Blagouchine2018}}
+  
+Series of [[prime number]]s:
+:<math>\gamma = \lim_{n\to\infty}\left(\log n - \sum_{p\le n}\frac{\log p}{p-1}\right).</math>
+
+===Asymptotic expansions===
+{{mvar|γ}} equals the following asymptotic formulas (where {{math|''H<sub>n</sub>''}} is the {{math|''n''}}th [[harmonic number]]):
+:<math>\gamma \sim H_n - \log n - \frac1{2n} + \frac1{12n^2} - \frac1{120n^4} + \cdots</math> (''Euler'')
+:<math>\gamma \sim H_n - \log\left({n + \frac1{2} + \frac1{24n} - \frac1{48n^2} + \cdots}\right)</math> (''Negoi'')
+:<math>\gamma \sim H_n - \frac{\log n + \log(n+1)}{2} - \frac1{6n(n+1)} + \frac1{30n^2(n+1)^2} - \cdots</math> (''[[Ernesto Cesàro|Cesàro]]'')
+The third formula is also called the [[Srinivasa Ramanujan|Ramanujan]] expansion.
+
+Alabdulmohsin derived closed-form expressions for the sums of errors of these approximations.{{r|Alabdulmohsin2018_1478}} He showed that (Theorem A.1):
+<math display="block"> \sum_{n=1}^\infty \log n +\gamma - H_n + \frac{1}{2n} = \frac{\log (2\pi)-1-\gamma}{2}</math>
+<math display="block"> \sum_{n=1}^\infty \log \sqrt{n(n+1)} +\gamma - H_n = \frac{\log (2\pi)-1}{2}-\gamma</math>
+<math display="block"> \sum_{n=1}^\infty (-1)^n\Big(\log n +\gamma - H_n\Big) = \frac{\log \pi-\gamma}{2}</math>
+
+===Exponential===
+The constant {{math|''e{{isup|γ}}''}} is important in number theory. Some authors denote this quantity simply as {{math|''γ′''}}. {{math|''e{{isup|γ}}''}} equals the following [[limit of a sequence|limit]], where {{math|''p''<sub>''n''</sub>}} is the {{math|''n''}}th [[prime number]]:
+
+:<math>e^\gamma = \lim_{n\to\infty}\frac1{\log p_n} \prod_{i=1}^n \frac{p_i}{p_i-1}.</math>
+This restates the third of [[Mertens' theorems]].{{r|WeissteinND}} The numerical value of {{math|''e{{isup|γ}}''}} is:{{r|OEIS_A073004}}
+:{{gaps|1.78107|24179|90197|98523|65041|03107|17954|91696|45214|30343|...}}.
+
+Other [[infinite product]]s relating to {{math|''e{{isup|γ}}''}} include:
+:<math>\begin{align}
+\frac{e^{1+\frac{\gamma}{2}}}{\sqrt{2\pi}} &= \prod_{n=1}^\infty e^{-1+\frac1{2n}}\left(1+\frac1{n}\right)^n \\
+\frac{e^{3+2\gamma}}{2\pi} &= \prod_{n=1}^\infty e^{-2+\frac2{n}}\left(1+\frac2{n}\right)^n. \end{align}</math>
+These products result from the [[Barnes G-function|Barnes {{math|''G''}}-function]].
+
+In addition,
+:<math>e^{\gamma} = \sqrt{\frac2{1}} \cdot \sqrt[3]{\frac{2^2}{1\cdot 3}} \cdot \sqrt[4]{\frac{2^3\cdot 4}{1\cdot 3^3}} \cdot \sqrt[5]{\frac{2^4\cdot 4^4}{1\cdot 3^6\cdot 5}} \cdots</math>
+where the {{math|''n''}}th factor is the {{math|(''n'' + 1)}}th root of
+:<math>\prod_{k=0}^n (k+1)^{(-1)^{k+1}{n \choose k}}.</math>
+This infinite product, first discovered by Ser in 1926, was rediscovered by Sondow using [[hypergeometric function]]s.{{r|Sondow2003}}
+
+It also holds that{{r|ChoiSrivastava2010}}
+:<math>\frac{e^\frac{\pi}{2}+e^{-\frac{\pi}{2}}}{\pi e^\gamma}=\prod_{n=1}^\infty\left(e^{-\frac{1}{n}}\left(1+\frac{1}{n}+\frac{1}{2n^2}\right)\right).</math>
+
+===Continued fraction===
+The [[continued fraction]] expansion of {{mvar|γ}} begins {{nowrap|[0; 1, 1, 2, 1, 2, 1, 4, 3, 13, 5, 1, 1, 8, 1, 2, 4, 1, 1, 40, ...]}},{{r|OEIS_A002852}} which has no ''apparent'' pattern. The continued fraction is known to have at least 475,006 terms,{{r|HaiblePapanikolaou1998}} and it has infinitely many terms [[if and only if]] {{mvar|γ}} is irrational.
+
+==Generalizations==
+[[File:Generalisation of Euler–Mascheroni constant.jpg|thumb|upright=2|right|{{math|abm(''x'') {{=}} ''γ''<sub>−''x''</sub>}}]]
+''Euler's generalized constants'' are given by
+:<math>\gamma_\alpha = \lim_{n\to\infty}\left(\sum_{k=1}^n \frac1{k^\alpha} - \int_1^n \frac1{x^\alpha}\,dx\right),</math>
+for {{math|0 < ''α'' < 1}}, with {{mvar|γ}} as the special case {{math|''α'' {{=}} 1}}.{{sfn|Havil|2003|pp=117–8}} This can be further generalized to
+:<math>c_f = \lim_{n\to\infty}\left(\sum_{k=1}^n f(k) - \int_1^n f(x)\,dx\right)</math>
+for some arbitrary decreasing function {{math|''f''}}. For example,
+:<math>f_n(x) = \frac{(\log x)^n}{x}</math>
+gives rise to the [[Stieltjes constants]], and
+:<math>f_a(x) = x^{-a}</math>
+gives
+:<math>\gamma_{f_a} = \frac{(a-1)\zeta(a)-1}{a-1}</math>
+where again the limit
+:<math>\gamma = \lim_{a\to 1}\left(\zeta(a) - \frac1{a-1}\right)</math>
+appears.
+
+A two-dimensional limit generalization is the [[Masser–Gramain constant]].
+
+''Euler–Lehmer constants'' are given by summation of inverses of numbers in a common
+modulo class:{{sfn|Ram Murty|Saradha|2010}}
+:<math>\gamma(a,q) = \lim_{x\to \infty}\left (\sum_{0<n\le x \atop n\equiv a \pmod q} \frac1{n}-\frac{\log x}{q}\right).</math>
+
+The basic properties are
+:<math>\begin{align}
+\gamma(0,q) &= \frac{\gamma -\log q}{q}, \\
+\sum_{a=0}^{q-1} \gamma(a,q)&=\gamma, \\
+q\gamma(a,q) &= \gamma-\sum_{j=1}^{q-1}e^{-\frac{2\pi aij}{q}}\log\left(1-e^{\frac{2\pi ij}{q}}\right),
+\end{align}</math>
+and if {{math|[[greatest common divisor|gcd]](''a'',''q'') {{=}} ''d''}} then
+:<math>q\gamma(a,q) = \frac{q}{d}\gamma\left(\frac{a}{d},\frac{q}{d}\right)-\log d.</math>
+
+==Published digits==
+Euler initially calculated the constant's value to 6 decimal places. In 1781, he calculated it to 16 decimal places. Mascheroni attempted to calculate the constant to 32 decimal places, but made errors in the 20th–22nd and 31st-32nd decimal places; starting from the 20th digit, he calculated ...'''181'''12090082'''39''' when the correct value is ...'''065'''12090082'''40'''.
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+|+ '''Published Decimal Expansions of {{mvar|γ}}'''
+! Date || Decimal digits || Author || Sources
+|-
+| 1734 || style="text-align:right;"| 5 || [[Leonhard Euler]] ||
+|-
+| 1735 || style="text-align:right;"| 15 || Leonhard Euler ||
+|-
+| 1781 || style="text-align:right;"| 16 || Leonhard Euler ||
+|-
+| 1790 || style="text-align:right;"| 32 || [[Lorenzo Mascheroni]], with 20-22 and 31-32 wrong ||
+|-
+| 1809 || style="text-align:right;"| 22 || [[Johann Georg von Soldner|Johann G. von Soldner]] ||
+|-
+| 1811 || style="text-align:right;"| 22 || [[Carl Friedrich Gauss]] ||
+|-
+| 1812 || style="text-align:right;"| 40 || [[Friedrich Bernhard Gottfried Nicolai]] ||
+|-
+| 1857 || style="text-align:right;"| 34 || Christian Fredrik Lindman ||
+|-
+| 1861 || style="text-align:right;"| 41 || Ludwig Oettinger ||
+|-
+| 1867 || style="text-align:right;"| 49 || [[William Shanks]] ||
+|-
+| 1871 || style="text-align:right;"| 99 || [[James Whitbread Lee Glaisher|James W.L. Glaisher]] ||
+|-
+| 1871 || style="text-align:right;"| 101 || William Shanks ||
+|-
+| 1877 || style="text-align:right;"| 262 || [[John Couch Adams|J. C. Adams]] ||
+|-
+| 1952 || style="text-align:right;"| 328 || [[John Wrench|John William Wrench Jr.]] ||
+|-
+| 1961 || style="text-align:right;"| {{val|1050|fmt=gaps}} || Helmut Fischer and [[Karl Longin Zeller|Karl Zeller]] || 
+|-
+| 1962 || style="text-align:right;"| {{val|1271|fmt=gaps}} || [[Donald Knuth]] ||{{r|Knuth1962}}
+|-
+| 1962 || style="text-align:right;"| {{val|3566|fmt=gaps}} || Dura W. Sweeney ||
+|-
+| 1973 || style="text-align:right;"| {{val|4879|fmt=gaps}} || William A. Beyer and [[Michael S. Waterman]] ||
+|-
+| 1977 || style="text-align:right;"| {{val|20700}} || [[Richard Brent (scientist)|Richard P. Brent]] ||
+|-
+| 1980 || style="text-align:right;"| {{val|30100}} || Richard P. Brent & [[Edwin McMillan|Edwin M. McMillan]] ||
+|-
+| 1993 || style="text-align:right;"| {{val|172000}} || [[Jonathan Borwein]] ||
+|-
+| 1999 || style="text-align:right;"| {{val|108000000}} || Patrick Demichel and Xavier Gourdon ||
+|-
+| March 13, 2009 || style="text-align:right;"| {{val|29844489545}} || Alexander J. Yee & Raymond Chan ||{{r|Yee2011|Y_cruncher}}
+|-
+| December 22, 2013 || style="text-align:right;"| {{val|119,377,958,182}} || Alexander J. Yee ||{{r|Y_cruncher}}
+|-
+| March 15, 2016 || style="text-align:right;"| {{val|160,000,000,000}} || Peter Trueb ||{{r|Y_cruncher}}
+|-
+| May 18, 2016 || style="text-align:right;"| {{val|250,000,000,000}} || Ron Watkins ||{{r|Y_cruncher}}
+|-
+| August 23, 2017 || style="text-align:right;"| {{val|477,511,832,674}} || Ron Watkins ||{{r|Y_cruncher}}
+|-
+| May 26, 2020 || style="text-align:right;"| {{val|600,000,000,100}} || Seungmin Kim & Ian Cutress ||{{r|Y_cruncher|MascheroniConst_PolCol}}
+|}
+
+==References==
+* {{cite journal |last=Bretschneider |first=Carl Anton |date=1837 |orig-date=1835 |title=Theoriae logarithmi integralis lineamenta nova |journal=Crelle's Journal |volume=17 |pages=257–285 |language=la |url=https://zenodo.org/record/1448830
+}}
+* {{cite book |last=Havil |first=Julian |date=2003 |title=Gamma: Exploring Euler's Constant |publisher=Princeton University Press |isbn=978-0-691-09983-5
+}}
+* {{cite journal |last1=Ram Murty |first1=M. |first2=N. |last2=Saradha |date=2010 |title=Euler–Lehmer constants and a conjecture of Erdos |journal=Journal of Number Theory |volume=130 |issue=12 |pages=2671–2681 |doi=10.1016/j.jnt.2010.07.004 |issn=0022-314X |url=http://www.sciencedirect.com/science/article/pii/S0022314X10001836
+}}
+
+'''Footnotes'''
+{{Reflist|refs=
+<ref name=OEIS_A002852>{{Cite OEIS |A002852 |Continued fraction for Euler's constant}}</ref>
+
+<ref name=Lagarias2013>{{cite journal |last=Lagarias |first=Jeffrey C. |date=October 2013 |title=Euler's constant: Euler's work and modern developments |journal=[[Bulletin of the American Mathematical Society]] |volume=50 |issue=4 |page=556 |doi=10.1090/s0273-0979-2013-01423-x |arxiv=1303.1856 |s2cid=119612431}}</ref>
+
+<ref name=DeMorgan183642>{{cite book |last=De Morgan |first=Augustus |author-link=Augustus De Morgan |date=1836–1842 |title=The differential and integral calculus |location=London |publisher=Baldwin and Craddoc |at="{{mvar|γ}}" on [https://books.google.com/books?id=95x4IrIcHrgC&pg=PA578 p. 578] }}</ref>
+
+<ref name=CavesFuchs1996>{{cite book |last1=Caves |first1=Carlton M. |author-link1=Carlton M. Caves |last2=Fuchs |first2=Christopher A. |date=1996 |chapter=Quantum information: How much information in a state vector? |title=The Dilemma of Einstein, Podolsky and Rosen – 60 Years Later |publisher=Israel Physical Society |isbn=9780750303941 |oclc=36922834 |arxiv=quant-ph/9601025 |bibcode=1996quant.ph..1025C}}</ref>
+
+<ref name=HaiblePapanikolaou1998>{{Cite journal |last1=Haible |first1=Bruno |last2=Papanikolaou |first2=Thomas |date=1998 |editor-last=Buhler |editor-first=Joe P. |title=Fast multiprecision evaluation of series of rational numbers |journal=Algorithmic Number Theory |series=Lecture Notes in Computer Science |volume=1423 |publisher=Springer |pages=338–350 |doi=10.1007/bfb0054873 |isbn=9783540691136}}</ref>
+
+<ref name=Papanikolaou1997>{{cite thesis |last=Papanikolaou |first=T. |date=1997 |title=Entwurf und Entwicklung einer objektorientierten Bibliothek für algorithmische Zahlentheorie |publisher=Universität des Saarlandes |url=https://www-old.cdc.informatik.tu-darmstadt.de/reports/reports/papa.diss.ps.gz |language=de}}</ref>
+
+<ref name=Sondow2003a>See also {{cite journal |last1=Sondow |first=Jonathan |date=2003 |title=Criteria for irrationality of Euler's constant |journal=Proceedings of the American Mathematical Society |volume=131 |issue=11 |pages=3335–3344 |doi=10.1090/S0002-9939-03-07081-3 |s2cid=91176597 |arxiv=math.NT/0209070 }}</ref>
+
+<ref name=Mahler1968>{{Cite journal |last1=Mahler |first1=Kurt |last2=Mordell |first2=Louis Joel |date=4 June 1968 |title=Applications of a theorem by A. B. Shidlovski |journal=Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences |volume=305 |issue=1481 |pages=149–173 |doi=10.1098/rspa.1968.0111 |bibcode=1968RSPSA.305..149M |s2cid=123486171}}</ref>
+
+<ref name=Aptekarev2009>{{cite arXiv |last=Aptekarev |first=A. I. |date=28 February 2009 |title=On linear forms containing the Euler constant |class=math.NT |eprint=0902.1768}}</ref>
+
+<ref name=Rivoal2012>{{Cite journal |last=Rivoal |first=Tanguy |date=2012 |title=On the arithmetic nature of the values of the gamma function, Euler's constant, and Gompertz's constant |journal=Michigan Mathematical Journal |volume=61 |issue=2 |pages=239–254 |doi=10.1307/mmj/1339011525 |issn=0026-2285 |doi-access=free |url=https://projecteuclid.org/euclid.mmj/1339011525}}</ref>
+
+<ref name=MurtyZaytseva2013>{{Cite journal |last1=Murty |first1=M. Ram |last2=Zaytseva |first2=Anastasia |date=2013 |title=Transcendence of Generalized Euler Constants |journal=The American Mathematical Monthly |volume=120 |issue=1 |pages=48–54 |doi=10.4169/amer.math.monthly.120.01.048 |jstor=10.4169/amer.math.monthly.120.01.048 |s2cid=20495981 |issn=0002-9890 |url=https://www.jstor.org/stable/10.4169/amer.math.monthly.120.01.048 }}</ref>
+
+<ref name=Krämer2005>{{cite book |last1=Krämer |first1= Stefan |date=2005 |title=Die Eulersche Konstante {{mvar|γ}} und verwandte Zahlen |publisher=University of Göttingen |language=de }}</ref>
+
+<ref name=Sondow1998>{{cite journal |last1=Sondow |first1=Jonathan |date=1998  |title=An antisymmetric formula for Euler's constant |journal=Mathematics Magazine |volume=71 |issue=3 |pages=219–220 |doi=10.1080/0025570X.1998.11996638 |access-date=2006-05-29 |url=http://home.earthlink.net/~jsondow/id8.html |archive-date=2011-06-04 |archive-url=https://web.archive.org/web/20110604123534/http://home.earthlink.net/~jsondow/id8.html}}</ref>
+
+<ref name=Sondow2005>{{citation |last=Sondow |first=Jonathan |date=2005 |title=Double integrals for Euler's constant and <math>\log \frac{4}{\pi}</math> and an analog of Hadjicostas's formula |journal=[[American Mathematical Monthly]] |volume=112 |issue=1 |pages=61–65 |doi=10.2307/30037385 |jstor=30037385 |arxiv=math.CA/0211148}}</ref>
+
+<ref name=Sondow2005a>{{cite book |last1= Sondow |first1=Jonathan |date=1 August 2005a |title=New Vacca-type rational series for Euler's constant and its 'alternating' analog <math>\log \frac{4}{\pi}</math> |arxiv=math.NT/0508042}}</ref>
+
+<ref name=SondowZudilin2006>{{cite journal |last1=Sondow |first1=Jonathan |first2=Wadim |last2=Zudilin |date=2006 |title=Euler's constant, {{math|''q''}}-logarithms, and formulas of Ramanujan and Gosper |journal=The Ramanujan Journal |volume=12 |issue=2 |pages=225–244 |doi=10.1007/s11139-006-0075-1 |s2cid=1368088 |arxiv=math.NT/0304021}}</ref>
+
+<ref name=DeTemple1993>{{cite journal |last=DeTemple |first=Duane W. |date=May 1993 |title=A Quicker Convergence to Euler's Constant |journal=The American Mathematical Monthly |volume=100 |issue=5 |pages=468–470 |doi=10.2307/2324300 |issn=0002-9890 |jstor=2324300}}</ref>
+
+<ref name=Blagouchine2016>{{citation |last=Blagouchine |first=Iaroslav V. |date=2016 |title=Expansions of generalized Euler's constants into the series of polynomials in {{math|π<sup>−2</sup>}} and into the formal enveloping series with rational coefficients only |journal=[[Journal of Number Theory|J. Number Theory]] |volume=158 |pages=365–396 |doi=10.1016/j.jnt.2015.06.012 |arxiv=1501.00740}}</ref>
+
+<ref name=Vacca1910>{{cite journal |last1=Vacca |first1=G. |author-link=Giovanni Vacca (mathematician) |date=1910 |title=A new analytical expression for the number π and some historical considerations |journal=Bulletin of the American Mathematical Society |volume=16 |pages=368–369|doi=10.1090/S0002-9904-1910-01919-4 }}</ref>
+
+<ref name=Vacca1926>{{cite journal |last1=Vacca |first1=G. |author-link=Giovanni Vacca (mathematician) |date=1926 |title=Nuova serie per la costante di Eulero, {{mvar|C}}=0,577...". Rendiconti, Accademia Nazionale dei Lincei, Roma, Classe di Scienze Fisiche |journal=Matematiche e Naturali |volume=6 |issue=3 |pages=19–20 |language=it}}</ref>
+
+<ref name=Glaisher1910>{{cite journal |last=Glaisher |first=James Whitbread Lee |author-link=James Whitbread Lee Glaisher |date=1910 |title=On Dr. Vacca's series for {{mvar|γ}} |journal=Q. J. Pure Appl. Math. |volume=41 |pages=365–368}}</ref>
+
+<ref name=Hardy1912>{{ cite journal |last1= Hardy |first1=G.H. |date=1912 |title=Note on Dr. Vacca's series for {{mvar|γ}} |journal=Q. J. Pure Appl. Math. |volume=43 |pages=215–216}}</ref>
+
+<ref name=Kluyver1927>{{cite journal |last1=Kluyver |first1=J.C. |date=1927 |title=On certain series of Mr. Hardy |journal=Q. J. Pure Appl. Math. |volume=50 |pages=185–192}}</ref>
+
+<ref name=Blagouchine2014>{{cite journal |last=Blagouchine |first=Iaroslav V. |date=2014 |title=Rediscovery of Malmsten's integrals, their evaluation by contour integration methods and some related results |journal=[[The Ramanujan Journal]] |volume=35 |issue=1 |pages= 21–110 |doi=10.1007/s11139-013-9528-5 |s2cid= 120943474 |url=https://www.researchgate.net/publication/257381156}}</ref>
+
+<ref name=Blagouchine2018>{{citation |last1=Blagouchine |first1=Iaroslav V. |date=2018 |title=Three notes on Ser's and Hasse's representations for the zeta-functions |journal=INTEGERS: The Electronic Journal of Combinatorial Number Theory |volume=18A |issue=#A3 |pages=1–45 |bibcode=2016arXiv160602044B |arxiv=1606.02044 |url=http://math.colgate.edu/~integers/vol18a.html}}</ref>
+
+<ref name=Alabdulmohsin2018_1478>{{cite book |last=Alabdulmohsin |first=Ibrahim M. |date=2018 |title=Summability Calculus. A Comprehensive Theory of Fractional Finite Sums |publisher=[[Springer Science+Business Media|Springer]] |pages=147–8 |isbn=9783319746487}}</ref>
+
+<ref name=OEIS_A302120>{{cite OEIS|A302120|Absolute value of the numerators of a series converging to Euler's constant}}</ref>
+
+<ref name=OEISA302121>{{cite OEIS|A302121|Denominators of a series converging to Euler's constant}}</ref>
+
+<ref name=WeissteinND>{{Cite web |last=Weisstein |first=Eric W. |author-link=Eric W. Weisstein |title=Mertens Constant |website=WolframMathWorld (Wolfram Research) |url=http://mathworld.wolfram.com/MertensConstant.html }}</ref>
+
+<ref name=OEIS_A073004>{{cite OEIS|A073004|Decimal expansion of exp(gamma)}}</ref>
+
+<ref name=ChoiSrivastava2010>{{Cite journal |last1=Choi |first1=Junesang |last2=Srivastava |first2=H.M. |date=1 September 2010 |title=Integral Representations for the Euler–Mascheroni Constant γ |journal=Integral Transforms and Special Functions |volume=21 |issue=9 |pages=675–690 |doi=10.1080/10652461003593294 |s2cid=123698377 |issn=1065-2469}}</ref>
+
+<ref name=Sondow2003>{{cite arXiv |last1=Sondow |first1=Jonathan |date=2003 |eprint=math.CA/0306008 |title= An infinite product for {{math|''e{{sup|γ}}''}} via hypergeometric formulas for Euler's constant, {{mvar|γ}}}}</ref>
+
+<ref name=Knuth1962>{{cite journal |last1=Knuth |first1=Donald E. |author-link=Donald Knuth |date=July 1962 |title=Euler's Constant to 1271 Places |journal=Mathematics of Computation |volume=16 |issue=79 |pages=275–281 |publisher=[[American Mathematical Society]] |jstor=2004048 |url=https://www.jstor.org/stable/2004048}}</ref>
+
+<ref name=Yee2011>{{cite web |last=Yee |first=Alexander J. |date=7 March 2011 |title=Large Computations |website=www.numberworld.org |url=http://www.numberworld.org/nagisa_runs/computations.html}}</ref>
+
+<ref name=Y_cruncher>{{cite web |last=Yee |first=Alexander J. |title=Records Set by y-cruncher |website=www.numberworld.org |access-date=30 April 2018 |url=http://www.numberworld.org/y-cruncher/records.html }}<br/>
+{{cite web |last=Yee |first=Alexander J. |title=y-cruncher - A Multi-Threaded Pi-Program |website=www.numberworld.org |url=http://www.numberworld.org/y-cruncher/}}</ref>
+
+<ref name=MascheroniConst_PolCol>{{cite web |title=Euler-Mascheroni Constant |website=Polymath Collector |date=15 February 2020 |url=https://ehfd.github.io/world-record/euler-mascheroni-constant/}}</ref>
+}}
+
+==Further reading==
+*{{cite journal |author1=Borwein, Jonathan M. |author2=David M. Bradley |author3=Richard E. Crandall |title=Computational Strategies for the Riemann Zeta Function |journal=Journal of Computational and Applied Mathematics |date=2000 |volume=121 |issue=1–2 |pages=11 |url=http://www.maths.ex.ac.uk/~mwatkins/zeta/borwein1.pdf |doi=10.1016/s0377-0427(00)00336-8 |bibcode=2000JCoAM.121..247B |ref=none|doi-access=free }} Derives {{mvar|γ}} as sums over Riemann zeta functions.
+*{{cite journal |first1=I. |last1=Gerst |title=Some series for Euler's constant |date=1969 |journal=Amer. Math. Monthly |doi=10.2307/2316370 |volume=76 |issue=3 |pages=237–275 |jstor=2316370 |ref=none}}
+*{{cite journal |last=Glaisher |first=James Whitbread Lee |author-link=James Whitbread Lee Glaisher |date=1872 |title=On the history of Euler's constant |journal=Messenger of Mathematics |volume=1 |pages=25–30 |jfm=03.0130.01 |ref=none}}
+*{{cite web |last1=Gourdon|first1=Xavier|last2=Sebah|first2=P. |date=2002 |title=Collection of formulae for Euler's constant, {{mvar|γ}} |url=http://numbers.computation.free.fr/Constants/Gamma/gammaFormulas.html |ref=none}}
+*{{cite web |last1=Gourdon|first1=Xavier|last2=Sebah|first2=P. |date=2004 |title=The Euler constant: {{mvar|γ}} |url=http://numbers.computation.free.fr/Constants/Gamma/gamma.html |ref=none}}
+*{{cite journal |first1=E. A. |last1= Karatsuba |title=Fast evaluation of transcendental functions |journal=Probl. Inf. Transm. |volume =27 |number=44 |pages=339–360 |date=1991 |ref=none}}
+*{{cite journal |last1=Karatsuba |first1=E.A. |date=2000 |title=On the computation of the Euler constant {{mvar|γ|}} |journal=Journal of Numerical Algorithms |volume=24 |issue=1–2 |pages=83–97 |doi=10.1023/A:1019137125281 |s2cid=21545868 |ref=none}}
+*{{cite book |last=Knuth |first=Donald |author-link=Donald Knuth |date=1997 |title=[[The Art of Computer Programming|The Art of Computer Programming, Vol. 1]] |edition=3rd |publisher=Addison-Wesley |isbn=0-201-89683-4 |pages=75, 107, 114, 619–620 |ref=none}}
+*{{cite journal |first1=D. H. |last1=Lehmer |date=1975 |title=Euler constants for arithmetical progressions |journal=Acta Arith. |volume=27 |number=1 |pages=125–142 |url=http://matwbn.icm.edu.pl/ksiazki/aa/aa27/aa27121.pdf |doi=10.4064/aa-27-1-125-142 |ref=none|doi-access=free }}
+*{{cite journal |last1=Lerch |first1=M. |date=1897 |title=Expressions nouvelles de la constante d'Euler |journal=Sitzungsberichte der Königlich Böhmischen Gesellschaft der Wissenschaften |volume=42 |page=5 |ref=none}}
+*{{citation |last=Mascheroni |first=Lorenzo |author-link=Lorenzo Mascheroni |date=1790 |title=Adnotationes ad calculum integralem Euleri, in quibus nonnulla problemata ab Eulero proposita resolvuntur |publisher=Galeati, Ticini |ref=none}}
+*{{cite journal |last1=Sondow |first1=Jonathan |date=2002 |title=A hypergeometric approach, via linear forms involving logarithms, to irrationality criteria for Euler's constant |arxiv=math.NT/0211075 |journal=Mathematica Slovaca |volume=59 |pages=307–314 |doi=10.2478/s12175-009-0127-2 |bibcode=2002math.....11075S |s2cid=16340929 |ref=none}} with an Appendix by [https://web.archive.org/web/20130523085959/http://wain.mi.ras.ru/zlobin/ Sergey Zlobin]
+
+==External links==
+*{{springer|title=Euler constant|id=p/e036420}}
+*{{MathWorld|urlname=Euler-MascheroniConstant|title=Euler–Mascheroni constant|ref=none}}
+*[https://jonathansondow.github.io/ Jonathan Sondow.]
+*[http://www.ccas.ru/personal/karatsuba/algen.htm Fast Algorithms and the FEE Method], E.A. Karatsuba (2005)
+*Further formulae which make use of the constant: [http://numbers.computation.free.fr/Constants/Gamma/gammaFormulas.html Gourdon and Sebah (2004).]
+
+{{Leonhard Euler}}
+{{Authority control}}
+
+{{DEFAULTSORT:Euler's constant}}
+[[Category:Mathematical constants]]
+[[Category:Unsolved problems in number theory]]
+[[Category:Leonhard Euler]]

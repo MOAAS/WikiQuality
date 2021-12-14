@@ -1,0 +1,58 @@
+.container {
+    width: 150px;
+    height: 150px;
+}
+
+
+.letter {
+    fill: var(--quality-color);
+
+    font-weight: bold;
+    font-size: 0.8em;
+    text-anchor: middle;
+    transform: translateY(0.2em);
+}
+
+.percentage {
+    fill: var(--quality-color);
+
+    font-size: 0.3em;
+    text-anchor: middle;
+    transform: translateY(1.75em);
+}
+
+.mask {
+    transform: rotateY(0deg);
+    transform-origin: center;
+}
+
+.pointer {
+    transform-origin: 20px 20px;
+}
+
+
+
+.A-plus {
+    --quality-color: var(--color-A-plus);
+}
+
+.A {
+    --quality-color: var(--color-A);
+}
+
+.B {
+    --quality-color: var(--color-B);
+}
+
+.C {
+    --quality-color: var(--color-C);
+}
+
+.D {
+    --quality-color: var(--color-D);
+}
+
+.F {
+    --quality-color: var(--color-F);
+}
+

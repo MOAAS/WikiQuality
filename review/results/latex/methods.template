@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+    \caption{Most popular approaches}
+    \label{tab:methods}
+    \centering
+    \begin{tabular}{c c m{0.65\textwidth}}
+        \toprule
+        \textbf{Approach} & \textbf{\# Papers} & \textbf{ }\\
+        \midrule
+        CL + Features & {{CL_FEATURES}} & {{CL_FEATURES_CITE}} \\
+        Deep Learning & {{DL}} & {{DL_CITE}} \\
+        Metric-based & {{METRIC_BASED}} & {{METRIC_BASED_CITE}} \\
+        Feat. Correlation & {{CORRELATES}} & {{CORRELATES_CITE}} \\
+        \bottomrule
+    \end{tabular}
+\end{table}

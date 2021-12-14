@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+    \caption{Authors with five or more included publications in the literature review}
+    \label{tab:authors}
+    \centering
+    \begin{tabular}{l c l c} 
+        \toprule
+        \textbf{Author} & \textbf{Cits. / Year} & \textbf{Publications} & \textbf{(\#)} \\
+        \midrule
+        {{AUTHORS}}
+        \bottomrule
+    \end{tabular}
+\end{table}

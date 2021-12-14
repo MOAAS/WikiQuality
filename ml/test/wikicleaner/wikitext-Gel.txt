@@ -1,0 +1,114 @@
+{{other uses}}
+{{short description|Highly viscous liquid exhibiting a kind of semi-solid behavior}}
+[[File:Hairgel.JPG|thumb|An upturned vial of [[hair gel]]]]
+[[File:Silica gel.jpg|thumb|Silica gel]]
+A '''gel''' is a [[Quasi-solid|semi-solid]] that can have properties ranging from soft and weak to hard and tough.<ref>{{cite book | vauthors = Khademhosseini A, Demirci U | title = Gels Handbook: Fundamentals, Properties and Applications | date = 2016 | publisher = World Scientific Pub Co Inc | isbn = 9789814656108 }}</ref><ref>{{cite book | title = Supramolecular Polymer Networks and Gels | veditors =  Seiffert S | publisher = Springer | date = 2015 | asin = B00VR5CMW6 }}</ref> Gels are defined as a substantially dilute [[cross-link]]ed system, which exhibits no flow when in the steady-state, although the liquid phase may still diffuse through this system.<ref>{{cite book | last = Ferry | first = John D. | name-list-style = vanc | date = 1980 | title = Viscoelastic Properties of Polymers | location = New York | publisher = Wiley | isbn = 0471048941 }}</ref> A gel has been defined phenomenologically as a soft, solid or solid-like material consisting of two or more components, one of which is a liquid, present in substantial quantity.<ref>{{Cite journal|last1=Almdal|first1=K.|last2=Dyre|first2=J.|last3=Hvidt|first3=S.|last4=Kramer|first4=O.|date=1993|title=Towards a phenomenological definition of the term 'gel'|journal=Polymer Gels and Networks|language=en|volume=1|issue=1|pages=5–17|doi=10.1016/0966-7822(93)90020-I}}</ref>
+
+By weight, gels are mostly liquid, yet they behave like solids because of a three-dimensional cross-linked network within the liquid. It is the crosslinking within the fluid that gives a gel its structure (hardness) and contributes to the adhesive stick ([[Adhesive|tack]]). In this way, gels are a dispersion of molecules of a liquid within a solid medium. The word ''gel'' was coined by 19th-century Scottish chemist [[Thomas Graham (chemist)|Thomas Graham]] by [[clipping (morphology)|clipping]] from ''[[gelatine]]''.<ref>{{cite web |url= http://www.etymonline.com/index.php?term=gel |title=Online Etymology Dictionary: gel |last=Harper |first=Douglas | name-list-style = vanc |author-link=Douglas Harper |website=[[Online Etymology Dictionary]] |access-date=2013-12-09}}</ref>
+
+The process of forming a gel is called [[gelation]].
+
+== IUPAC definition ==
+{{See also|International Union of Pure and Applied Chemistry}}
+{{glossary}}
+{{term|Gel}}
+{{defn|Nonfluid [[colloid|colloidal]] network or polymer network that is expanded throughout its whole volume by a fluid.<ref>{{cite book | vauthors = Jones RG, Kahovec J, Stepto R, Wilks ES, Hess M, Kitayama T, Metanomski WV |title=IUPAC. Compendium of Polymer Terminology and Nomenclature, IUPAC Recommendations 2008 (the "Purple Book")|date=2008|publisher=RSC Publishing, Cambridge, UK|url=https://www.iupac.org/cms/wp-content/uploads/2016/07/ONLINE-IUPAC-PB2-Online-June2014.pdf}}</ref><ref name = "Slomkowski_2011">{{cite journal | vauthors = Slomkowski S, Alemán JV, Gilbert RG, Hess M, Horie K, Jones RG, Kubisa P, Meisel I, Mormann W, Penczek S, Stepto RF | s2cid = 96812603 | display-authors = 6 |title=Terminology of polymers and polymerization processes in dispersed systems (IUPAC Recommendations 2011)|journal=[[Pure and Applied Chemistry]]|year=2011|volume=83|issue=12|pages=2229–2259|doi=10.1351/PAC-REC-10-06-03 |url=https://www.degruyter.com/downloadpdf/j/pac.2011.83.issue-12/pac-rec-10-06-03/pac-rec-10-06-03.pdf }}</ref>}}
+{{defn|Note 1: A gel has a finite, usually rather small, yield stress.}}
+{{defn|Note 2: A gel can contain:{{ordered list|lost_style_type=lower-roman
+| a covalent polymer network, e.g., a network formed by crosslinking polymer
+chains or by nonlinear polymerization;
+| a polymer network formed through the physical aggregation of polymer chains, caused by hydrogen bonds, crystallization, helix formation, complexation, etc., that results in regions of local order acting as the network junction points. The resulting swollen network may be termed a "thermoreversible gel" if the regions of local order are thermally reversible;
+| a polymer network formed through glassy junction points, e.g., one based on block copolymers. If the junction points are thermally reversible glassy domains, the resulting swollen network may also be termed a thermoreversible gel;
+| lamellar structures including mesophases {Sing et al.<ref>{{cite journal| vauthors = Sing KS, Everett DH, Haul RA, Moscou L, Pierotti RA, Rouquérol J, Siemieniewska T |s2cid=14894781|title=Reporting physisorption data for gas/solid systems with special reference to the determination of surface area and porosity|journal=Pure Appl. Chem.|date=1985|volume=57|page=603|doi=10.1351/pac198557040603}}</ref> defines lamellar crystal and mesophase}, e.g., soap gels, phospholipids, and clays;
+| particulate disordered structures, e.g., a flocculent precipitate usually consisting of particles with large geometrical anisotropy, such as in V<sub>2</sub>O<sub>5</sub> gels and
+globular or fibrillar protein gels.}}}}
+{{defn|Note 3: Corrected from the Gold Book<ref>{{GoldBookRef |title=gel |file=G02600 }}</ref> where the definition is via the property identified in Note 1 (above) rather than of the structural characteristics that describe a gel.}}
+{{term|Hydrogel}}
+{{defn|Gel in which the swelling agent is water.}}
+{{defn|Note 1: The network component of a hydrogel is usually a polymer network.}}
+{{defn|Note 2: A hydrogel in which the network component is a colloidal network may be referred to as an aquagel.<ref name = "Slomkowski_2011" />}}
+{{term|Xerogel}}
+{{defn|Open network formed by the removal of all swelling agents from a gel.}}
+{{defn|Note: Examples of xerogels include silica gel and dried out, compact macromolecular structures such as gelatin or rubber.}}
+{{defn|Modified from the Gold Book.<ref>{{GoldBookRef |title=xerogel |file=X06700 }}</ref> The definition proposed here is recommended as being more explicit.<ref>{{cite journal | vauthors = Alemán JV, Chadwick AV, He J, Hess M, Horie K, Jones RG, Kratochvíl P, Meisel I, Mita I, Moad G, Penczek S | s2cid = 97620232 | display-authors = 6 |title=Definitions of terms relating to the structure and processing of sols, gels, networks, and inorganic-organic hybrid materials (IUPAC Recommendations 2007) |journal=Pure Appl Chem |date=2007 |volume=79 |issue=10 |page=1801  |url=https://www.degruyter.com/downloadpdf/j/pac.2007.79.issue-10/pac200779101801/pac200779101801.pdf|doi=10.1351/pac200779101801 }}</ref>}}
+{{glossary end}}
+
+==Composition==
+Gels consist of a solid three-dimensional network that spans the volume of a liquid medium and ensnares it through [[surface tension]] effects. This internal network structure may result from [[physical bond]]s (physical gels) or [[chemical bond]]s (chemical gels), as well as [[crystallite]]s or other junctions that remain intact within the extending fluid. Virtually any fluid can be used as an extender including water ([[hydrogel]]s), oil, and air ([[aerogel]]). Both by weight and volume, gels are mostly fluid in composition and thus exhibit densities similar to those of their constituent liquids. Edible jelly is a common example of a hydrogel and has approximately the density of water.
+
+===Polyionic polymers===
+Polyionic polymers are polymers with an ionic functional group. The ionic charges prevent the formation of tightly coiled polymer chains. This allows them to contribute more to [[viscosity]] in their stretched state, because the stretched-out polymer takes up more space. This is also the reason gel hardens. See [[polyelectrolyte]] for more information.
+
+==Types==
+
+===Hydrogels===
+{{Main|Hydrogel}}
+{{see also|Superabsorbent polymer|Self-healing hydrogels|Hydrogel agriculture}}
+[[File:Superabsorber Hydrogel KSG 2917 pK.jpg|thumb|Hydrogel of a superabsorbent polymer]]
+
+A [[hydrogel]] is a network of polymer chains that are hydrophilic, sometimes found as a [[colloid]]al gel in which water is the dispersion medium. A three-dimensional solid results from the hydrophilic polymer chains being held together by cross-links.{{clarify|reason=What is the nature of the cross-links? Covalent? Hydrogen bonds?|date=March 2019}} Because of the inherent cross-links, the structural integrity of the hydrogel network does not dissolve from the high concentration of water.<ref>{{Cite journal| vauthors = Warren DS, Sutherland SP, Kao JY, Weal GR, Mackay SM |date=2017-04-20|title=The Preparation and Simple Analysis of a Clay Nanoparticle Composite Hydrogel|journal=Journal of Chemical Education|language=EN|volume=94|issue=11|pages=1772–1779|doi=10.1021/acs.jchemed.6b00389|issn=0021-9584|bibcode=2017JChEd..94.1772W}}</ref> Hydrogels are highly [[absorption (chemistry)|absorbent]] (they can contain over 90% water) natural or synthetic polymeric networks.
+Hydrogels also possess a degree of flexibility very similar to natural tissue, due to their significant water content. As responsive "[[smart materials]]," hydrogels can encapsulate chemical systems which upon stimulation by external factors such as a change of pH may cause specific compounds such as glucose to be liberated to the environment, in most cases by a [[sol-gel|gel-sol transition]] to the liquid state. Chemomechanical polymers are mostly also hydrogels, which upon stimulation change their volume and can serve as [[actuators]] or [[sensors]]. The first appearance of the term 'hydrogel' in the literature was in 1894.<ref>{{cite journal | vauthors = Bemmelen JM |s2cid=197928622|doi=10.1007/BF01830147|title=Der Hydrogel und das kristallinische Hydrat des Kupferoxydes|journal=Zeitschrift für Chemie und Industrie der Kolloide |volume=1 |issue=7 |pages=213–214 |year=1907 }}</ref>
+
+===Organogels===
+{{See also|Organogels}}
+
+An '''organogel''' is a [[crystallinity|non-crystalline]], [[glass|non-glassy]] thermoreversible ([[thermoplastic]]) solid material composed of a [[liquid]] [[organic compound|organic]] phase entrapped in a three-dimensionally cross-linked network. The liquid can be, for example, an [[organic solvent]], [[mineral oil]], or [[vegetable oil]]. The [[solubility]] and [[wikt:Particle|particle]] dimensions of the structurant are important characteristics for the [[Elasticity (physics)|elastic]] properties and firmness of the organogel. Often, these systems are based on [[self-assembly]] of the structurant molecules.<ref>Terech P. (1997) "Low-molecular weight organogelators", pp. 208–268 in: Robb I.D. (ed.) ''Specialist surfactants''. Glasgow: Blackie Academic and Professional, {{ISBN|0751403407}}.</ref><ref>{{cite book | vauthors = Van Esch J, Schoonbeek F, De Loos M, Veen EM, Kellogg RM, Feringa BL | date =  1999 | chapter = Low molecular weight gelators for organic solvents | pages = 233–259 | veditors = Ungaro R, Dalcanale E | title = Supramolecular science: where it is and where it is going | publisher = Kluwer Academic Publishers | isbn = 079235656X}}</ref> (An example of formation of an undesired thermoreversible network is the occurrence of wax crystallization in [[petroleum]].<ref>{{cite journal | vauthors = Visintin RF, Lapasin R, Vignati E, D'Antona P, Lockhart TP | title = Rheological behavior and structural interpretation of waxy crude oil gels | journal = Langmuir | volume = 21 | issue = 14 | pages = 6240–9 | date = July 2005 | pmid = 15982026 | doi = 10.1021/la050705k }}</ref>)
+
+Organogels have potential for use in a number of applications, such as in [[pharmaceutics|pharmaceuticals]],<ref>{{cite journal | vauthors = Kumar R, Katare OP | title = Lecithin organogels as a potential phospholipid-structured system for topical drug delivery: a review | journal = AAPS PharmSciTech | volume = 6 | issue = 2 | pages = E298-310 | date = October 2005 | pmid = 16353989 | pmc = 2750543 | doi = 10.1208/pt060240 }}</ref> cosmetics, art conservation,<ref>{{cite journal | vauthors = Carretti E, Dei L, Weiss RG |doi=10.1039/B501033K|title=Soft matter and art conservation. Rheoreversible gels and beyond|year=2005|journal=Soft Matter|volume=1|issue=1|pages=17 |bibcode = 2005SMat....1...17C }}</ref> and food.<ref>{{cite journal|vauthors=Pernetti M, van Malssen KF, Flöter E, Bot A |doi=10.1016/j.cocis.2007.07.002|title=Structuring of edible oils by alternatives to crystalline fat|year=2007|journal=Current Opinion in Colloid & Interface Science|volume=12|issue=4–5|pages=221–231}}</ref>
+
+===Xerogels===
+A '''xerogel''' {{IPAc-en|ˈ|z|ɪər|oʊ-|ˌ|dʒ|ɛ|l}} is a solid formed from a gel by drying with unhindered shrinkage. Xerogels usually retain high porosity (15–50%) and enormous surface area (150–900 m<sup>2</sup>/g), along with very small [[Porosity|pore]] size (1–10&nbsp;nm). When [[solvent]] removal occurs under [[supercritical fluid|supercritical]] conditions, the network does not shrink and a highly porous, low-density material known as an ''[[aerogel]]'' is produced. Heat treatment of a xerogel at elevated temperature produces viscous [[sintering]] (shrinkage of the xerogel due to a small amount of viscous flow) which results in a denser and more robust solid, the density and porosity achieved depend on the sintering conditions.
+
+=== Nanocomposite hydrogels ===
+[[Nanocomposite hydrogels]]<ref name="ReferenceA">{{cite journal | vauthors = Gaharwar AK, Peppas NA, Khademhosseini A | title = Nanocomposite hydrogels for biomedical applications | journal = Biotechnology and Bioengineering | volume = 111 | issue = 3 | pages = 441–53 | date = March 2014 | pmid = 24264728 | pmc = 3924876 | doi = 10.1002/bit.25160 }}</ref><ref>{{cite journal|last1=Carrow|first1=James K.|last2=Gaharwar|first2=Akhilesh K. | name-list-style = vanc |title=Bioinspired Polymeric Nanocomposites for Regenerative Medicine|journal=Macromolecular Chemistry and Physics|volume=216|issue=3|pages=248–264|date=November 2014|doi=10.1002/macp.201400427}}</ref> or hybrid hydrogels, are highly hydrated polymeric networks, either physically or covalently crosslinked with each other and/or with nanoparticles or nanostructures.<ref>{{cite journal | vauthors = Kutvonen A, Rossi G, Puisto SR, Rostedt NK, Ala-Nissila T | s2cid = 26096794 | title = Influence of nanoparticle size, loading, and shape on the mechanical properties of polymer nanocomposites | journal = The Journal of Chemical Physics | volume = 137 | issue = 21 | pages = 214901 | date = December 2012 | pmid = 23231257 | doi = 10.1063/1.4767517 | arxiv = 1212.4335 | bibcode = 2012JChPh.137u4901K }}</ref> Nanocomposite hydrogels can mimic native tissue properties, structure and microenvironment due to their hydrated and interconnected porous structure. A wide range of nanoparticles, such as carbon-based, polymeric, ceramic, and metallic nanomaterials can be incorporated within the hydrogel structure to obtain nanocomposites with tailored functionality. Nanocomposite hydrogels can be engineered to possess superior physical, chemical, electrical, thermal, and biological properties.<ref name="ReferenceA"/><ref>{{cite journal | vauthors = Zaragoza J, Babhadiashar N, O'Brien V, Chang A, Blanco M, Zabalegui A, Lee H, Asuri P | display-authors = 6 | title = Experimental Investigation of Mechanical and Thermal Properties of Silica Nanoparticle-Reinforced Poly(acrylamide) Nanocomposite Hydrogels | journal = PLOS ONE | volume = 10 | issue = 8 | pages = e0136293 | date = 2015-08-24 | pmid = 26301505 | pmc = 4547727 | doi = 10.1371/journal.pone.0136293 | bibcode = 2015PLoSO..1036293Z | doi-access = free }}</ref>
+
+==Properties==
+Many gels display [[thixotropy]] – they become fluid when agitated, but resolidify when resting.
+In general, gels are apparently solid, jelly-like materials. It is a type of [[non-Newtonian fluid]].
+By replacing the liquid with gas it is possible to prepare [[aerogel]]s, materials with exceptional properties including very low density, [[specific surface area|high specific surface areas]], and excellent thermal insulation properties.
+
+
+==Animal-produced gels==
+Some species secrete gels that are effective in parasite control. For example, the [[long-finned pilot whale]] secretes an enzymatic gel that rests on the outer surface of this animal and helps prevent other organisms from establishing colonies on the surface of these whales' bodies.<ref>{{cite book | vauthors = Dee EM, McGinley M, Hogan CM | date = 2010 | chapter-url = http://www.eoearth.org/article/Long-finned_pilot_whale?topic=49540 | chapter = Long-finned pilot whale | veditors = Saundry P, Cleveland C | editor-link2 = Cutler J. Cleveland | title = [[Encyclopedia of Earth]] | publisher = [[National Council for Science and the Environment]] | location = Washington DC }}</ref>
+
+[[Hydrogels]] existing naturally in the body include [[mucus]], the [[vitreous humor]] of the eye, [[cartilage]], [[tendons]] and [[blood clots]]. Their viscoelastic nature results in the soft tissue component of the body, disparate from the mineral-based hard tissue of the skeletal system. Researchers are actively developing synthetically derived tissue replacement technologies derived from hydrogels, for both temporary [[Implant (medicine)|implants]] (degradable) and permanent implants (non-degradable). A review article on the subject discusses the use of hydrogels for [[nucleus pulposus]] replacement, cartilage replacement, and [[synthetic tissue]] models.<ref>{{cite web|url=https://www.orthoworld.com/site/index.php/publications/view_article/221558 |title=Injectable Hydrogel-based Medical Devices: "There's always room for Jell-O"1 |publisher=Orthoworld.com |date=September 15, 2010 |access-date=2013-05-19}}</ref>
+
+==Applications==
+Many substances can form gels when a suitable [[Thickening agent|thickener or gelling agent]] is added to their formula. This approach is common in manufacture of wide range of products, from foods to paints and adhesives.
+
+In fiber optic communications, a soft gel resembling [[hair gel]] in viscosity is used to fill the plastic tubes containing the fibers. The main purpose of the gel is to prevent water intrusion if the buffer tube is breached, but the gel also buffers the fibers against mechanical damage when the tube is bent around corners during installation, or flexed. Additionally, the gel acts as a processing aid when the cable is being constructed, keeping the fibers central whilst the tube material is extruded around it.
+
+== See also ==
+* [[Aerogel]]
+* [[2-Acrylamido-2-methylpropane sulfonic acid]]
+* [[Agarose gel electrophoresis]]
+* [[Food rheology]]
+* [[Gel electrophoresis]]
+* [[Gel filtration chromatography]]
+* [[Gel pack]]
+* [[Gel permeation chromatography]]
+* [[Hydrocolloid]]
+* [[Ouchterlony double immunodiffusion]]
+* [[Paste (rheology)]]
+* [[Polyacrylamide gel electrophoresis]]
+* [[Radial immunodiffusion]]
+* [[Silicone gel]]
+* [[Two-dimensional gel electrophoresis]]
+* [[Void (composites)]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+{{commons category|Gels}}
+{{wiktionary|gel}}
+* {{GoldBookRef |title=xerogel |file=X06700 }}
+
+{{Dosage forms|state=expanded}}
+
+[[Category:Articles containing video clips]]
+[[Category:Colloids]]
+[[Category:Dosage forms]]
+[[Category:Drug delivery devices]]
+[[Category:Gels| ]]
+[[Category:Physical chemistry]]

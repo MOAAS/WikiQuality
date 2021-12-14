@@ -1,0 +1,73 @@
+{{Infobox film
+|name           = Exit Speed
+|image          = Exit speed poster.jpg
+|caption        = [[Film poster]]
+|director       = [[Scott Ziehl]]
+|producer       = Sally Helppie<br/>Michael Stokes
+|writer         = Fred Lopez
+|starring       = [[Fred Ward]]<br/>[[Desmond Harrington]]<br/>[[Lea Thompson]]<br/>[[Julie Mond]]<br/>[[Alice Greczyn]]<br/>[[Gregory Jbara]]<br/>[[David Rees Snell]]
+|music          = Cole Freeman
+|cinematography = [[Thomas L. Callaway]]
+|editing        = Matt Coleman
+|distributor    = Phase 4 Films
+|released       = {{Film date|2008|12|12}}
+|runtime        = 90 minutes
+|country        = United States
+|language       = [[English language|English]]
+|budget         = $ 3,750,000<ref>{{cite web|url=https://www.imdb.com/title/tt1042497/|title=IMDB}}</ref>
+|gross          =
+}}
+'''''Exit Speed''''' is a 2008 [[action film]] by Sabbatical Pictures. The film was directed by [[Scott Ziehl]], and stars [[Desmond Harrington]], [[Julie Mond]], [[Lea Thompson]], [[Alice Greczyn]], [[David Rees Snell]] and [[Fred Ward]]. The 90-minute action film was shown at [[Cannes Film Festival|Cannes]] in 2008. The film was made in the [[Dallas, Texas]] area, where it premiered. It was released to theaters in the Southwest in September 2008.
+
+==Plot==
+In [[Texas]], Sergeant Archie Sparks, an MP, has finally caught up with AWOL Corporal Meredith Cole, who has been accused of assaulting a commanding officer. When Archie turns his back for a moment, Meredith manages to escape his custody once again.
+
+Cole finds herself on an American Auto Coach bus on her way to [[El Paso]], along with an eclectic group of passengers for what should be an uneventful ride on [[Christmas Eve]].<ref>{{Cite book | url=https://books.google.com/books?id=p8c_DwAAQBAJ&pg=PA258 |title = Analyzing Christmas in Film: Santa to the Supernatural|isbn = 9781498541824|last1 = Rosewarne|first1 = Lauren|date = 2017-12-06}}</ref> The bus passes a group of meth-addicted, nomadic bikers who taunt the passengers by performing stunts around the bus. One of the bikers makes a mistake and ends up under the wheels of the bus, resulting in the rest of the bikers seeking revenge. The driver, Danny Gunn stops the bus to help, and when he gets out, one of the bikers kills him. Stray shots also wound Meredith and passenger Joey Ryan.
+
+Another passenger, Jerry Yarbro, a high school football coach who was accused of assaulting a student, retrieves the biker's weapon, while Walter Lindley, another passenger, retrieves Danny's keys. The surviving passengers drive away in the bus in an effort to get away from the bikers. As they flee down the highway, Joey dies from her injuries.
+
+The rest of the passengers include single mother Maudie McMinn, moody, wayward father Sam Cutter, tough woman Desiree, her extremely skittish boyfriend Duke, Annabel Drake a vegan who happens to be a competitive archer, and Ramon Vargas a Spanish-speaking electrician.
+
+At Jerry's insistence, they take the bus down a side road. The bikers force the bus off the road at an abandoned junkyard, where the bus crashes, killing Walter. The passengers build a makeshift bunker that the bikers surround. And Jerry, who seems to have anger management issues, still has the gun. The group is now on the defensive against the vengeful bikers. But they realize that in order to survive, they must go on the offensive and fight back against the bikers.
+
+That evening, they make a plan to hold out in the junkyard while Maudie, (a [[marathon]]er), crosses 20 miles of desert to reach the nearest town for help. As the remaining survivors fight back with captured guns, Annabel's target bow, and Ramon's jury-rigged cannon, Maudie gets away from the compound. Maudie meets up with Archie, and they kill some of the bikers.
+
+The two make it back to the compound during the middle of the confrontation, in which the remaining bikers injure Ramon and kill Duke, Desiree, and Jerry. After the remaining bikers are killed, the survivors—Sam, Meredith, Annabel, and Ramon—are driven to the nearest town by Maudie and Archie.
+
+Later, at a hospital, Maudie reunites with her daughters, and Meredith again evades the army, this time with Archie's help. Meredith joins Sam and Annabel as they head back out on the road in a minivan.
+
+==Cast==
+* [[Desmond Harrington]] as Sam Cutter
+* [[Lea Thompson]] as Maudie McMinn
+* [[Julie Mond]] as Corporal Meredith Cole
+* [[Alice Greczyn]] as Annabel Drake
+* [[Fred Ward]] as Sgt. Archibald "Archie" Sparks
+* [[Gregory Jbara]] as Coach Jerry Yarbro
+* [[David Rees Snell]] as Danny Gunn
+* Kelli Dawn Hancock as Desiree
+* Nick Sowell as Duke
+* Everett Sifuentes as Ramon Emancio Eladio Vargas
+* Wally White as Walter Lindley
+* Danielle Beacham as Joey Ryan
+* Asante Jones as Sheriff Tom Jasper
+* Roy Samuelson as Vic Towbridge (Meredith's one-night stand)
+
+==External links==
+* {{IMDb title|id=1042497|title=Exit Speed}}
+* {{Rotten Tomatoes|1215110_exit_speed}}
+
+==References==
+{{Reflist}}
+
+{{Scott Ziehl}}
+
+[[Category:2008 films]]
+[[Category:English-language films]]
+[[Category:2008 action thriller films]]
+[[Category:2000s Christmas films]]
+[[Category:American chase films]]
+[[Category:American action thriller films]]
+[[Category:American films]]
+[[Category:Films about buses]]
+[[Category:Films set in Texas]]
+[[Category:Films about deserters]]

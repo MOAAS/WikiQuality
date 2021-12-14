@@ -1,0 +1,16 @@
+------------------ OVERALL REPORT ------------------
+Mean squared error (MSE): 0.0159
+Root mean squared error (RMSE): 0.1262
+Mean absolute error (MAE): 0.0897
+R2 score: 0.8552
+----------------- PER-CLASS REPORT -----------------
+Quality    MSE        RMSE       MAE       
+1.0        0.006      0.076      0.056     
+0.9        0.012      0.109      0.081     
+0.7        0.016      0.127      0.097     
+0.6        0.015      0.121      0.088     
+0.4        0.026      0.161      0.131     
+0.0        0.021      0.146      0.085     
+----------------------------------------------------
+Prediction Time: 12.682 milliseconds
+Total Time elapsed: 04:10 (250.87 seconds)

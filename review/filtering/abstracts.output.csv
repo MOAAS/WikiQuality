@@ -1,0 +1,131 @@
+Id,Title,Url
+1,Measuring article quality in wikipedia: models and evaluation,https://www.semanticscholar.org/paper/ee70063f74e209ec5dc3edfa13fbb82d60d1a3eb
+2,Cooperation and quality in wikipedia,https://www.semanticscholar.org/paper/9c61b818ecc29a132592d886fd0d5cb0047b5b6d
+3,Who does what: Collaboration patterns in the wikipedia and their impact on article quality,https://www.semanticscholar.org/paper/620ba4d148d6e8d0f3103bf6ec47209534a33710
+4,Size matters: word count as a measure of quality on wikipedia,https://www.semanticscholar.org/paper/c6f61f344c919493886bf67d0e64e0242ae83547
+5,Harnessing the wisdom of crowds in wikipedia: quality through coordination,https://www.semanticscholar.org/paper/5ead79bbdb5d396f3a5900ff1b71ee44e8061dca
+6,Determinants of wikipedia quality: the roles of global and local contribution inequality,https://www.semanticscholar.org/paper/36dce0334d47e45cd37f9484b464ee3857cbdc37
+7,Information quality work organization in wikipedia,https://www.semanticscholar.org/paper/89c5bef3053bf3e4953204c7357ff838523b7488
+8,On measuring the quality of Wikipedia articles,https://www.semanticscholar.org/paper/68c1ca9cf4ef3bb12e17ea38c6155b3374ccff88
+9,Don't bite the newbies: how reverts affect the quantity and quality of Wikipedia work,https://www.semanticscholar.org/paper/b2149024c793fb323b4fbe940c42ecf566860105
+10,Assessing the quality of Wikipedia articles with lifecycle based metrics,https://www.semanticscholar.org/paper/777a29dff88b22c0cf2e38683cbaf183447a985b
+11,Statistical measure of quality in Wikipedia,https://www.semanticscholar.org/paper/54333cd5b3f6d0148f0af632455faafb8dce7567
+12,Information quality discussions in wikipedia,https://www.semanticscholar.org/paper/ebe949e01d044a25daa0e6cabb3091cc319d361f
+13,Tell me more: an actionable quality model for Wikipedia,https://www.semanticscholar.org/paper/00f5c7311b9ecc2d91cb3ab7cac6bb6acec28580
+14,Automatic quality assessment of content created collaboratively by web communities: a case study of wikipedia,https://www.semanticscholar.org/paper/412e1cf936f9a0aa4b289f14136174232e8f4e38
+15,Learning to Predict the Quality of Contributions to Wikipedia,https://www.semanticscholar.org/paper/029c4971f7edd68c667baf15de392dbf104072f7
+16,Measuring Quality of Collaboratively Edited Documents: The Case of Wikipedia,https://www.semanticscholar.org/paper/31f226174f2da4ceca288b93769371c388d6c4fb
+17,Predicting quality flaws in user-generated content: the case of wikipedia,https://www.semanticscholar.org/paper/ab675867bf0d77b8d6c6b5b7dc2b00075ad422c4
+18,Quality and Importance of Wikipedia Articles in Different Languages,https://www.semanticscholar.org/paper/dd5a0bd3b918f4bc43568d461e60345fdeb55f21
+19,"A jury of your peers: quality, experience and ownership in Wikipedia",https://www.semanticscholar.org/paper/b91411b9d80525ed6fa61ab01f2a1c5459fbd05d
+20,Automatically Assessing Wikipedia Article Quality by Exploiting Article-Editor Networks,https://www.semanticscholar.org/paper/f99a7a7ceca5bfe2e1c8c4d0ea5b67203dbc4f34
+22,Interpolating Quality Dynamics in Wikipedia and Demonstrating the Keilana Effect,https://www.semanticscholar.org/paper/1324bad076e1706e6b95144b738c7ae15cf4bb6e
+23,An end-to-end learning solution for assessing the quality of Wikipedia articles,https://www.semanticscholar.org/paper/4244e4b33e00bc221f9e5fd78adde241ee499cc5
+24,Quality assessment of Wikipedia articles without feature engineering,https://www.semanticscholar.org/paper/425064f6236d6457344d45c3517097936d42aea3
+25,Relating Wikipedia article quality to edit behavior and link structure,https://www.semanticscholar.org/paper/d2742c2e19966865ab0db00fa515c79678eec9dd
+26,Assessing the quality of information on wikipedia: A deep‐learning approach,https://www.semanticscholar.org/paper/32c2952ea7128c0ed674548158c3e9d1e4ba3a13
+29,Using big data and network analysis to understand Wikipedia article quality,https://www.semanticscholar.org/paper/72ccb62a36d13a4563db9a926db72a6a57fe21fd
+30,Measuring article quality in Wikipedia: Lexical clue model,https://www.semanticscholar.org/paper/a2a786d8cfe123bfd58b481c5f03e4d6f969e0e0
+31,A Hybrid Model for Quality Assessment of Wikipedia Articles,https://www.semanticscholar.org/paper/894603d927860010ed3554a9922a992838188d81
+32,Measuring article quality in Wikipedia using the collaboration network,https://www.semanticscholar.org/paper/f2b5cb81200b34fbc5e2e1468218d9be27fc23d6
+33,QuWi: quality control in Wikipedia,https://www.semanticscholar.org/paper/254a11522cd21547d32c21ae500d8b2846f80189
+34,Modelling the Quality of Attributes in Wikipedia Infoboxes,https://www.semanticscholar.org/paper/a57b3142070beec458939e0a898991e0246f2ad8
+35,Towards automatic quality assurance in Wikipedia,https://www.semanticscholar.org/paper/804fcac24b2e3db16b226dff9c71d85aa333a075
+36,What makes a good biography?: multidimensional quality analysis based on wikipedia article feedback data,https://www.semanticscholar.org/paper/2a4bb00fb6f8471e7b2e7a7479e2042271611c81
+38,NwQM: A Neural Quality Assessment Framework for Wikipedia,https://www.semanticscholar.org/paper/c44a14c16f0ae980c8075a3e8e83b41ce4a8d035
+41,History-Based Article Quality Assessment on Wikipedia,https://www.semanticscholar.org/paper/85323c0f359fd0ab782d07a048bd11dcb0ea5014
+42,A breakdown of quality flaws in Wikipedia,https://www.semanticscholar.org/paper/3218ef46bcf1f2b5c9c9f77fbf8a0a5d51744d99
+43,FlawFinder: A Modular System for Predicting Quality Flaws in Wikipedia,https://www.semanticscholar.org/paper/275fb8e6cd6290db26d6c75bf7343eea6c90c806
+46,Relative Quality and Popularity Evaluation of Multilingual Wikipedia Articles,https://www.semanticscholar.org/paper/a37c5e68f712724157a4a6824f58a2425a830168
+47,Wikipedia model for collective intelligence: a review of information quality,https://www.semanticscholar.org/paper/d6d558ea18117584d78f290ceaab2b2478d9889c
+48,A hybrid approach to classifying Wikipedia article quality flaws with feature fusion framework,https://www.semanticscholar.org/paper/88f8abd78cdeac3e003a4383d989a4239109375c
+53,Wikipedia and Westminster: Quality and Dynamics of Wikipedia Pages about UK Politicians,https://www.semanticscholar.org/paper/8b3292600f9b7e1d5a1fa5ff7ac2edd49380eb59
+54,Network analysis of user generated content quality in Wikipedia,https://www.semanticscholar.org/paper/53013037649e17b1194ae579a9a6e20bd7bf3e0d
+57,Knowledge categorization affects popularity and quality of Wikipedia articles,https://www.semanticscholar.org/paper/fa1db666c361fd03226c8e7bd81c5eb515719ac6
+58,On improving wikipedia search using article quality,https://www.semanticscholar.org/paper/2b05d442c55216c5819d0924016989f8dec3b23b
+59,Computational Trust in Web Content Quality: A Comparative Evalutation on the Wikipedia Project,https://www.semanticscholar.org/paper/2bcb4e038b95d2ac3e7019580529af9a9be1e9d8
+60,Mutual evaluation of editors and texts for assessing quality of Wikipedia articles,https://www.semanticscholar.org/paper/6e56f240fc876a9ac99b8377108672015142e708
+61,Mining the Factors Affecting the Quality of Wikipedia Articles,https://www.semanticscholar.org/paper/cc68c28bc765082fa85c23fb71d7cdf212895185
+62,Measures for Quality Assessment of Articles and Infoboxes in Multilingual Wikipedia,https://www.semanticscholar.org/paper/3eaffa79334d8a91267b800d34c56bb41faa3c5b
+64,Classifying Wikipedia Article Quality With Revision History Networks,https://www.semanticscholar.org/paper/8a74f75cb449bff4833be8f77ccf5f2493d75a19
+65,WikipediaViz: Conveying article quality for casual Wikipedia readers,https://www.semanticscholar.org/paper/07a813d7de9ac072ed970217024a51a835433654
+66,Multilingual Ranking of Wikipedia Articles with Quality and Popularity Assessment in Different Topics,https://www.semanticscholar.org/paper/d5b3f3e9403eda8b45184951b269ee7997452c6b
+67,Automatically assessing the quality of Wikipedia contents,https://www.semanticscholar.org/paper/2a9be636902fe22e4d04d4f9721e4e914512e3d7
+69,Wisdom of crowds: the effect of participant composition and contribution behavior on Wikipedia article quality,https://www.semanticscholar.org/paper/da5790edd4224160d1da8107ba083736c9b8683e
+70,Quality Evaluation of Wikipedia Articles through Edit History and Editor Groups,https://www.semanticscholar.org/paper/527699259b21d363d57ac38db4986bb433c3ded5
+71,Application of SEO Metrics to Determine the Quality of Wikipedia Articles and Their Sources,https://www.semanticscholar.org/paper/662ee60986d028487b4d06fd970e6645aa03728d
+72,Diversity of editors and teams versus quality of cooperative work: experiments on wikipedia,https://www.semanticscholar.org/paper/4e5cdf30ab1fbd13404068c1c7894f8eeb33d0bd
+74,A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia,https://www.semanticscholar.org/paper/0abf43df2e9c0fee1262e9d127c05383ffc78251
+75,Overview of the 1th International Competition on Quality Flaw Prediction in Wikipedia,https://www.semanticscholar.org/paper/d87a2a5d19419259895a23ff0003092a094518f2
+76,Automatically Labeling Low Quality Content on Wikipedia By Leveraging Patterns in Editing Behaviors,https://www.semanticscholar.org/paper/65063772f09683c581f281ec3aa640549cd9aaee
+78,Article quality classification on Wikipedia: introducing document embeddings and content features,https://www.semanticscholar.org/paper/beb2803e597f83e85c76f6db6834bb88a7aa8f6b
+79,Assessing quality score of Wikipedia article using mutual evaluation of editors and texts,https://www.semanticscholar.org/paper/68b167406f708ce39421126bdbb576930c8347a0
+80,Measuring the Quality of Edits to Wikipedia,https://www.semanticscholar.org/paper/cd8748fd30092dff2739a2471cbefc78c25e1e53
+81,Mining and Predicting Temporal Patterns in the Quality Evolution of Wikipedia Articles,https://www.semanticscholar.org/paper/0eed508e65f53dd92fa129523129664879695849
+82,Quality Assessment of Wikipedia Articles Using h-index,https://www.semanticscholar.org/paper/18827d99db45b45c9b5c00bd05508fbf524e32b7
+83,WikiLyzer: Interactive Information Quality Assessment in Wikipedia,https://www.semanticscholar.org/paper/452ca7a696f5ea260f0b334c67ef3b71a05c676b
+84,"‘WP2Cochrane’, a tool linking Wikipedia to the Cochrane Library: Results of a bibliometric analysis evaluating article quality and importance",https://www.semanticscholar.org/paper/0f57c6a9447ecc5219d4ad2bc3b7ee5a5805d073
+85,An Edit-centric Approach for Wikipedia Article Quality Assessment,https://www.semanticscholar.org/paper/1ec28bdcacf6fd2c72c227ccd74a2ad1ee8d4b1b
+87,StRE: Self Attentive Edit Quality Prediction in Wikipedia,https://www.semanticscholar.org/paper/e2988816a10bf5a50bd952601ac06026e5493782
+89,Quality assessment of wikipedia articles: a deep learning approach,https://www.semanticscholar.org/paper/ce000225b8d092b4872ff49081238b73ba8185c5
+90,Evaluating the trustworthiness of Wikipedia articles through quality and credibility,https://www.semanticscholar.org/paper/76382864f6d33a8b33296fedadf7dc36be6cbb13
+92,A matter of words: NLP for quality evaluation of Wikipedia medical articles,https://www.semanticscholar.org/paper/4724b3d392a48884c7463a2ba78668c7fddd4f3c
+94,Indicator of quality for environmental articles on Wikipedia at the higher education level,https://www.semanticscholar.org/paper/9df731914171c0dfb635f15e4e2ae245353d15fd
+95,Mining team characteristics to predict Wikipedia article quality,https://www.semanticscholar.org/paper/cdc1216d54d10a3a6f8e742941010f5d83002940
+96,Estimating the Quality of Articles in Russian Wikipedia Using the Logical-Linguistic Model of Fact Extraction,https://www.semanticscholar.org/paper/1aa2271c2a5fe2f7c69556334c4cf8b6e008c0ef
+97,"Quality Change: Norm or Exception? Measurement, Analysis and Detection of Quality Change in Wikipedia",https://www.semanticscholar.org/paper/ce03436b8284633ac9e492f1511028583f689a01
+100,Quality flaw prediction in Spanish Wikipedia: A case of study with verifiability flaws,https://www.semanticscholar.org/paper/96624b05a21c20da28291207bff2199c68074b57
+101,Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles,https://www.semanticscholar.org/paper/8ddfbf5d323e0a94160ffe10a13353793c954f30
+102,Utilizing the Wikidata System to Improve the Quality of Medical Content in Wikipedia in Diverse Languages: A Pilot Study,https://www.semanticscholar.org/paper/4f2d62bd9f0225a9358e4e520e6e5289247c3281
+106,Relative Quality Assessment of Wikipedia Articles in Different Languages Using Synthetic Measure,https://www.semanticscholar.org/paper/78a15535dc2d82f2522c3eb20caa65baad1bda44
+107,On the Use of Reliable-Negatives Selection Strategies in the PU Learning Approach for Quality Flaws Prediction in Wikipedia,https://www.semanticscholar.org/paper/8df3a3c41c7d00b3f1b1ae7ee7894ccc69b82474
+108,Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression,https://www.semanticscholar.org/paper/2c6de714ad28778eaddb2b886b7168a79cc8b4ab
+109,Enrichment of Information in Multilingual Wikipedia Based on Quality Analysis,https://www.semanticscholar.org/paper/537cb10b82056ca9e8759c0276e6889e19cce93f
+111,GreenWiki: a tool to support users' assessment of the quality of Wikipedia articles,https://www.semanticscholar.org/paper/ccfcd884d5532e7b993495dcb44fbba1a8774c39
+112,Social-collaborative determinants of content quality in online knowledge production systems: comparing Wikipedia and Stack Overflow,https://www.semanticscholar.org/paper/1da7fc0b4ed71de73b519726d5f868e9c1af2659
+114,An Empirical Study to Predict the Quality of Wikipedia Articles,https://www.semanticscholar.org/paper/31e3f37070433dae787aa8228765ccac9272461f
+115,On the Use of PU Learning for Quality Flaw Prediction in Wikipedia,https://www.semanticscholar.org/paper/72d5756b021722d8c986fd3764b95c11aa8b0722
+117,QualityRank: assessing quality of wikipedia articles by mutually evaluating editors and texts,https://www.semanticscholar.org/paper/0e24d74a6235462045441c836e504e0b8517e35f
+118,A Framework for Assessing the Quality of Wikipedia Articles: A Meta-synthesis of the Literature,https://www.magiran.com/paper/2379640
+119,Assessing Information Quality of Wikipedia Articles through Google’s E-A-T Model,https://www.semanticscholar.org/paper/2269aaf18fa7f0168d870e09840d7dcad1e2aa3b
+120,How to Inspect and Measure Data Quality about Scientific Publications: Use Case of Wikipedia and CRIS Databases,https://www.semanticscholar.org/paper/56bf3c2223d01ca19aa69e62fba08c5f065422ce
+122,Measuring Quality of Wikipedia Articles by Feature Fusion‐based Stack Learning,https://www.semanticscholar.org/paper/38035f89a0531a61e4dfe6c373eb36b0a5f584a4
+125,"How do metrics of link analysis correlate to quality, relevance and popularity in wikipedia?",https://www.semanticscholar.org/paper/2578b4d957fc7fbcc7a5be2dbcea5c8f8cc4c48c
+127,"On the Relation of Edit Behavior, Link Structure, and Article Quality on Wikipedia",https://www.semanticscholar.org/paper/176c68a518d81215e585f09ce7db2415c8fdde2f
+128,A Psycho-Lexical Approach to the Assessment of Information Quality on Wikipedia,https://www.semanticscholar.org/paper/f5a926ec49dc153326a0aca080377dc0be12e75d
+129,On the Evolution of Quality Flaws and the Effectiveness of Cleanup Tags in the English Wikipedia,https://www.semanticscholar.org/paper/b6aa3e619142d395c01857ec6e7b3b14da8fd0f7
+130,Thai Wikipedia article quality filtering algorithm,https://www.iaeng.org/publication/IMECS2017/IMECS2017_pp299-305.pdf
+131,Assessing the Quality of Wikipedia Pages Using Edit Longevity and Contributor Centrality,https://www.semanticscholar.org/paper/f621c58c765a3d2a6501a9fbce21681b4d2beb28
+132,Towards Information Quality Assurance in Spanish: Wikipedia,https://www.semanticscholar.org/paper/8cba1878de84959de7a5401c9181819ee9bdf205
+133,Effects of Implicit Positive Ratings for Quality Assessment of Wikipedia Articles,https://www.semanticscholar.org/paper/ba661edb080125d879bbfe004ae8dc4f1c6b7499
+136,Assessing the Quality of Wikipedia Articles,https://www.semanticscholar.org/paper/f47fe9e54ef4444ea46e910d9429245bea9d0dfd
+139,Using Morphological and Semantic Features for the Quality Assessment of Russian Wikipedia,https://www.semanticscholar.org/paper/9b06d30b1eafc37b2b90c1f3562d879f7fa2a8aa
+142,Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia,https://www.semanticscholar.org/paper/3739f4702b05af3586dd9ad8d5d37cd924c8c110
+143,Knowledge Quality of Collaborative Editing in Wikipedia: an Integrative Perspective of Social Capital and Team Conflict,https://www.semanticscholar.org/paper/6ca33772623202bcbcd57f0c996e31518078ff43
+145,Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia,https://www.semanticscholar.org/paper/a5b7aa53662a843c411555aae6508e24e9adcc1c
+147,Predicting Information Quality Flaws in Wikipedia by Using Classical and Deep Learning Approaches,https://www.semanticscholar.org/paper/dbf3799d79675e9d4cd8365511fa42556e4967a3
+148,Quality assessment of Arabic web content: The case of the Arabic Wikipedia,https://www.semanticscholar.org/paper/b7821e99b90522f4b8c68f91cbf230fcc6447d13
+149,Determining Quality of Articles in Polish Wikipedia Based on Linguistic Features,https://www.semanticscholar.org/paper/2d12a9dae283284e3eaf6e2bd4057e5d335e8389
+150,Quality Classification of ASEAN Wikipedia Articles using Statistical Features,https://www.semanticscholar.org/paper/f47f2ea88b5412b6a44a264aec67b998a6e3e9ce
+155,Cumulative Experience and Recent Behavior and their Relation to Content Quality on Wikipedia,https://www.semanticscholar.org/paper/1962d8ff1a78b207088110cda37fb99461e56b73
+157,On Quality Assesement in Wikipedia Articles Based on Markov Random Fields,https://www.semanticscholar.org/paper/8bc3af08dc9d06747a6ca83c941a6e2cc03b29fc
+158,Quality of Articles in Wikipedia,https://www.semanticscholar.org/paper/4afc868db9e2f8b71e1476e02cd786c42767b560
+159,Assessing Quality Values of Wikipedia Articles Using Implicit Positive and Negative Ratings,https://www.semanticscholar.org/paper/7e0f730ebf1ef8d1fdcfac69cf66eef0f44c4813
+160,On the Assessment of Information Quality in Spanish Wikipedia,https://www.semanticscholar.org/paper/cc4ec9eee2bea21b2ec974d0dc3e47be58f9b3d0
+161,Assessing the quality of health-related Wikipedia articles with generic and specific metrics,https://www.semanticscholar.org/paper/9a1c237dd3692545d024968b8831c5c00fb29f79
+162,Ontology-Based Classifiers for Wikipedia Article Quality Classification,https://www.semanticscholar.org/paper/261b08ea302a506eb47bee6a548e39b7e96db899
+163,Ranking Wikipedia article's data quality by learning dimension distributions,https://www.semanticscholar.org/paper/7e32e541b6bca921823093a51e273d3adc0294d0
+165,Automatically Assessing the Need of Additional Citations for Information Quality Verification in Wikipedia Articles,https://www.semanticscholar.org/paper/8c0b0a019de5e5a59e44ca48fa05df66d48d7f6f
+169,Assessing the Quality of Thai Wikipedia Articles Using Concept and Statistical Features,https://www.semanticscholar.org/paper/9ae7b7133f62363a386922631bf4637e182815a4
+170,Interactive Quality Analytics of User-generated Content,https://www.semanticscholar.org/paper/b8f287f6f3ed28b4e494cfc05a39b4df1e36a87e
+172,Structure-Based Features for Predicting the Quality of Articles in Wikipedia,https://www.semanticscholar.org/paper/83fe1663a16d7e8e3d1988799bd9dc4cdbf2e16a
+173,Evaluating Article Quality and Editor Reputation in Wikipedia,https://www.semanticscholar.org/paper/59ef2fa73fa249be1f5043da108464b7c3f7427c
+175,Citation Detective : a Public Dataset to Improve and Quantify Wikipedia Citation Quality at Scale,https://www.semanticscholar.org/paper/2fa03900c85676a9e75dd6ab6bce7009f4cd875c
+181,Understanding the 'Quality Motion' of Wikipedia Articles Through Semantic Convergence Analysis,https://www.semanticscholar.org/paper/00c6bd451cdedd9e4ad551978c41f0acd3f751ca
+187,Quality assessment of Wikipedia content using topic models,https://www.semanticscholar.org/paper/5548a6d03196d6f9375cec984921336050baf485
+197,Predicting Low-Quality Wikipedia Articles Using User’s Judgements,https://www.semanticscholar.org/paper/f9ac07db4730ee15b657cab2e20c6ca6ed366336
+199,An investigation of the relationship between the amount of extra-textual data and the quality of Wikipedia articles,https://www.semanticscholar.org/paper/48f6cd91cf9257329719bc69cb3457a3a35edde5
+202,Monitoring network structure and content quality of signal processing articles on wikipedia,https://www.semanticscholar.org/paper/ef732209c1b9fdcd014f9639533c5658593f9ac5
+262,Cultural diversity of quality of information on Wikipedias,https://www.semanticscholar.org/paper/ef210d43c0ce301c41e2a7a81ee724874a7e7181
+338,On the Feasibility of External Factual Support as Wikipedia's Quality Metric,https://www.semanticscholar.org/paper/e1f3c58d3b101ae9452a210297dd1150f056a01d
+359,Quality of Wikipedia Articles: Analyzing Features and Building a Ground Truth for Supervised Classification,https://www.semanticscholar.org/paper/e89231c16e56289654b0bcd62ae0b8d9a2af6e11

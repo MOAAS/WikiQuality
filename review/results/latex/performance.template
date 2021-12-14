@@ -1,0 +1,15 @@
+\begin{table}[ht]
+    \caption{{{TYPE_LONG}} accuracy of {{NUM_CLASS}}-class approaches {{EXTRA_CAPTION}}}
+    \label{tab:{{TYPE}}_performance_{{NUM_CLASS}}class}
+    \centering
+    \begin{tabular}{m{.3\textwidth} l l r r l}
+        \toprule
+        \textbf{Study} & \textbf{Best Method} & \textbf{Measure} & \textbf{Performance} & \textbf{IR$^*$} & \textbf{Lang.} \\ 
+        \midrule
+        {{CONTENT}}
+        \bottomrule
+    \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^*$ Imbalance Ratio ($IR$) = \# samples in the majority class / \# samples in the minority class. {{EXTRA_FOOTER}}
+\end{table}

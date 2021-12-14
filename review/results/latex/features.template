@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+    \caption{List of {{USED}} {{CATEGORY}} features mentioned in the assessed publications (complete feature set and paper citations in our dataset, file 'Full Feature List.pdf')}
+    \label{tab:feat_{{CATEGORY}}}
+    \centering
+    \begin{tabular}{m{0.5\textwidth} c c c}
+        \toprule
+        \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{\# Papers} \\ 
+        \midrule
+        {{CONTENT}}
+        \bottomrule
+    \end{tabular}
+    % \\ \vspace{0.1cm}
+    % \footnotesize
+    % \raggedright
+    % $^1$ Actionable \\
+    % $^2$ Multilingual
+\end{table}

@@ -1,0 +1,166 @@
+Ancient Greek includes the forms of the Greek language used in ancient Greece and the ancient world from around 1500 BC to 300 BC. It is often roughly divided into the following periods: Mycenaean Greek (c. 1400–1200 BC), Dark Ages (c. 1200–800 BC), the Archaic period (c. 800–500 BC), and the Classical period (c. 500–300 BC).
+
+Ancient Greek was the language of Homer and of fifth-century Athenian historians, playwrights, and philosophers. It has contributed many words to English vocabulary and has been a standard subject of study in educational institutions of the Western world since the Renaissance. This article primarily contains information about the Epic and Classical periods of the language.
+
+From the Hellenistic period (c. 300 BC), Ancient Greek was followed by Koine Greek, which is regarded as a separate historical stage, although its earliest form closely resembles Attic Greek and its latest form approaches Medieval Greek. There were several regional dialects of Ancient Greek, of which Attic Greek developed into Koine.
+
+==Dialects==
+
+Ancient Greek was a pluricentric language, divided into many dialects. The main dialect groups are Attic and Ionic, Aeolic, Arcadocypriot, and Doric, many of them with several subdivisions. Some dialects are found in standardized literary forms used in literature, while others are attested only in inscriptions.
+
+There are also several historical forms. Homeric Greek is a literary form of Archaic Greek (derived primarily from Ionic and Aeolic) used in the epic poems, the Iliad and the Odyssey, and in later poems by other authors. Homeric Greek had significant differences in grammar and pronunciation from Classical Attic and other Classical-era dialects.
+
+===History===
+
+The origins, early form and development of the Hellenic language family are not well understood because of a lack of contemporaneous evidence. Several theories exist about what Hellenic dialect groups may have existed between the divergence of early Greek-like speech from the common Proto-Indo-European language and the Classical period. They have the same general outline but differ in some of the detail. The only attested dialect from this period is Mycenaean Greek, but its relationship to the historical dialects and the historical circumstances of the times imply that the overall groups already existed in some form.
+
+Scholars assume that major ancient Greek period dialect groups developed not later than 1120 BC, at the time of the Dorian invasions—and that their first appearances as precise alphabetic writing began in the 8th century BC. The invasion would not be "Dorian" unless the invaders had some cultural relationship to the historical Dorians. The invasion is known to have displaced population to the later Attic-Ionic regions, who regarded themselves as descendants of the population displaced by or contending with the Dorians.
+
+The Greeks of this period believed there were three major divisions of all Greek people – Dorians, Aeolians, and Ionians (including Athenians), each with their own defining and distinctive dialects. Allowing for their oversight of Arcadian, an obscure mountain dialect, and Cypriot, far from the center of Greek scholarship, this division of people and language is quite similar to the results of modern archaeological-linguistic investigation.
+
+One standard formulation for the dialects is:
+Ancient Greek dialects
+* West Group
+** Northwest Greek
+** Doric
+* Aeolic Group
+** Aegean/Asiatic Aeolic
+** Thessalian
+** Boeotian
+* Ionic-Attic Group
+** Attic
+** Ionic
+*** Euboean and colonies in Italy
+*** Cycladic
+*** Asiatic Ionic
+* Arcadocypriot Greek
+** Arcadian
+** Cypriot
+West vs. non-West Greek is the strongest-marked and earliest division, with non-West in subsets of Ionic-Attic (or Attic-Ionic) and Aeolic vs. Arcadocypriot, or Aeolic and Arcado-Cypriot vs. Ionic-Attic. Often non-West is called 'East Greek'.
+
+Arcadocypriot apparently descended more closely from the Mycenaean Greek of the Bronze Age.
+
+Boeotian had come under a strong Northwest Greek influence, and can in some respects be considered a transitional dialect. Thessalian likewise had come under Northwest Greek influence, though to a lesser degree.
+
+Pamphylian Greek, spoken in a small area on the southwestern coast of Anatolia and little preserved in inscriptions, may be either a fifth major dialect group, or it is Mycenaean Greek overlaid by Doric, with a non-Greek native influence.
+
+Regarding the speech of the ancient Macedonians diverse theories have been put forward, but the epigraphic activity and the archaeological discoveries in the Greek region of Macedonia during the last decades has brought to light documents, among which the first texts written in Macedonian, such as the Pella curse tablet, as Hatzopoulos and other scholars note. Based on the conclusions drawn by several studies and findings such as Pella curse tablet, Emilio Crespo and other scholars suggest that ancient Macedonian was a Northwest Doric dialect, which shares isoglosses with its neighboring Thessalian dialects spoken in northeastern Thessaly.
+
+Most of the dialect sub-groups listed above had further subdivisions, generally equivalent to a city-state and its surrounding territory, or to an island. Doric notably had several intermediate divisions as well, into Island Doric (including Cretan Doric), Southern Peloponnesus Doric (including Laconian, the dialect of Sparta), and Northern Peloponnesus Doric (including Corinthian).
+
+The Lesbian dialect was Aeolic Greek.
+
+All the groups were represented by colonies beyond Greece proper as well, and these colonies generally developed local characteristics, often under the influence of settlers or neighbors speaking different Greek dialects.
+
+The dialects outside the Ionic group are known mainly from inscriptions, notable exceptions being:
+*fragments of the works of the poet Sappho from the island of Lesbos, in Aeolian, and
+*the poems of the Boeotian poet Pindar and other lyric poets, usually in Doric.
+
+After the conquests of Alexander the Great in the late 4th century BC, a new international dialect known as Koine or Common Greek developed, largely based on Attic Greek, but with influence from other dialects. This dialect slowly replaced most of the older dialects, although the Doric dialect has survived in the Tsakonian language, which is spoken in the region of modern Sparta. Doric has also passed down its aorist terminations into most verbs of Demotic Greek. By about the 6th century AD, the Koine had slowly metamorphosed into Medieval Greek.
+
+===Related languages===
+
+Phrygian is an extinct Indo-European language of West and Central Anatolia, which is considered by some linguists to have been closely related to Greek. Among Indo-European branches with living descendants, Greek is often argued to have the closest genetic ties with Armenian (see also Graeco-Armenian) and Indo-Iranian languages (see Graeco-Aryan).
+
+==Phonology==
+
+===Differences from Proto-Indo-European===
+
+Ancient Greek differs from Proto-Indo-European (PIE) and other Indo-European languages in certain ways. In phonotactics, ancient Greek words could end only in a vowel or ; final stops were lost, as in γάλα "milk", compared with γάλακτος "of milk" (genitive). Ancient Greek of the classical period also differed in both the inventory and distribution of original PIE phonemes due to numerous sound changes, notably the following:
+* PIE PIE *s became  at the beginning of a word (debuccalization): Latin sex, English six, ancient Greek ἕξ .
+* PIE PIE *s was elided between vowels after an intermediate step of debuccalization: Sanskrit IAST janasas, Latin generis (where s > r by rhotacism), Greek *genesos > *genehos > ancient Greek γένεος (), Attic γένους () "of a kind".
+* PIE PIE *y  became  (debuccalization) or  (fortition): Sanskrit IAST yas, ancient Greek ὅς  "who" (relative pronoun); Latin iugum, English yoke, ancient Greek ζυγός .
+* PIE PIE *w, which occurred in Mycenaean and some non-Attic dialects, was lost: early Doric ϝέργον , English work, Attic Greek ἔργον .
+* PIE and Mycenaean labiovelars changed to plain stops (labials, dentals, and velars) in the later Greek dialects: for instance, PIE PIE *kʷ became  or  in Attic: Attic Greek ποῦ  "where?", Latin quō; Attic Greek τίς , Latin quis "who?".
+* PIE "voiced aspirated" stops PIE *bʰ dʰ ǵʰ gʰ gʷʰ were devoiced and became the aspirated stops φ θ χ  in ancient Greek.
+
+===Phonemic inventory===
+
+The pronunciation of ancient Greek was very different from that of Modern Greek. Ancient Greek had long and short vowels; many diphthongs; double and single consonants; voiced, voiceless, and aspirated stops; and a pitch accent. In Modern Greek, all vowels and consonants are short. Many vowels and diphthongs once pronounced distinctly are pronounced as  (iotacism). Some of the stops and glides in diphthongs have become fricatives, and the pitch accent has changed to a stress accent. Many of the changes took place in the Koine Greek period. The writing system of Modern Greek, however, does not reflect all pronunciation changes.
+
+The examples below represent Attic Greek in the 5th century BC. Ancient pronunciation cannot be reconstructed with certainty, but Greek from the period is well documented, and there is little disagreement among linguists as to the general nature of the sounds that the letters represent.
+
+====Consonants====
+
+ occurred as an allophone of  that was used before velars and as an allophone of  before nasals.  was probably voiceless when word-initial (written ῥ).  was assimilated to  before voiced consonants.
+
+====Vowels====
+
+ raised to , probably by the 4th century BC.
+
+==Morphology==
+
+Greek, like all of the older Indo-European languages, is highly inflected. It is highly archaic in its preservation of Proto-Indo-European forms. In ancient Greek, nouns (including proper nouns) have five cases (nominative, genitive, dative, accusative, and vocative), three genders (masculine, feminine, and neuter), and three numbers (singular, dual, and plural). Verbs have four moods (indicative, imperative, subjunctive, and optative) and three voices (active, middle, and passive), as well as three persons (first, second, and third) and various other forms. Verbs are conjugated through seven combinations of tenses and aspect (generally simply called "tenses"): the present, future, and imperfect are imperfective in aspect; the aorist, present perfect, pluperfect and future perfect are perfective in aspect. Most tenses display all four moods and three voices, although there is no future subjunctive or imperative. Also, there is no imperfect subjunctive, optative or imperative. The infinitives and participles correspond to the finite combinations of tense, aspect, and voice.
+
+===Augment===
+The indicative of past tenses adds (conceptually, at least) a prefix /e-/, called the augment. This was probably originally a separate word, meaning something like "then", added because tenses in PIE had primarily aspectual meaning. The augment is added to the indicative of the aorist, imperfect, and pluperfect, but not to any of the other forms of the aorist (no other forms of the imperfect and pluperfect exist).
+
+The two kinds of augment in Greek are syllabic and quantitative. The syllabic augment is added to stems beginning with consonants, and simply prefixes e (stems beginning with r, however, add er). The quantitative augment is added to stems beginning with vowels, and involves lengthening the vowel:
+* a, ā, e, ē → ē
+* i, ī → ī
+* o, ō → ō
+* u, ū → ū
+* ai → ēi
+* ei → ēi or ei
+* oi → ōi
+* au → ēu or au
+* eu → ēu or eu
+* ou → ou
+
+Some verbs augment irregularly; the most common variation is e → ei. The irregularity can be explained diachronically by the loss of s between vowels, or that of the letter w, which affected the augment when it was word-initial.
+In verbs with a preposition as a prefix, the augment is placed not at the start of the word, but between the preposition and the original verb. For example, προσ(-)βάλλω (I attack) goes to προσέβαλoν in the aorist. However compound verbs consisting of a prefix that is not a preposition retain the augment at the start of the word: αὐτο(-)μολῶ goes to ηὐτομόλησα in the aorist.
+
+Following Homer's practice, the augment is sometimes not made in poetry, especially epic poetry.
+
+The augment sometimes substitutes for reduplication; see below.
+
+===Reduplication===
+Almost all forms of the perfect, pluperfect, and future perfect reduplicate the initial syllable of the verb stem. (Note that a few irregular forms of perfect do not reduplicate, whereas a handful of irregular aorists reduplicate.) The three types of reduplication are:
+* Syllabic reduplication: Most verbs beginning with a single consonant, or a cluster of a stop with a sonorant, add a syllable consisting of the initial consonant followed by e. An aspirated consonant, however, reduplicates in its unaspirated equivalent (see Grassmann's law).
+* Augment: Verbs beginning with a vowel, as well as those beginning with a cluster other than those indicated previously (and occasionally for a few other verbs) reduplicate in the same fashion as the augment. This remains in all forms of the perfect, not just the indicative.
+* Attic reduplication: Some verbs beginning with an a, e or o, followed by a sonorant (or occasionally d or g), reduplicate by adding a syllable consisting of the initial vowel and following consonant, and lengthening the following vowel. Hence er → erēr, an → anēn, ol → olōl, ed → edēd. This is not actually specific to Attic Greek, despite its name, but it was generalized in Attic. This originally involved reduplicating a cluster consisting of a laryngeal and sonorant, hence h₃l → h₃leh₃l → olōl with normal Greek development of laryngeals. (Forms with a stop were analogous.)
+
+Irregular duplication can be understood diachronically. For example, lambanō (root lab) has the perfect stem eilēpha (not *lelēpha) because it was originally slambanō, with perfect seslēpha, becoming eilēpha through compensatory lengthening.
+
+Reduplication is also visible in the present tense stems of certain verbs. These stems add a syllable consisting of the root's initial consonant followed by i. A nasal stop appears after the reduplication in some verbs.
+
+==Writing system==
+Greek Alphabet
+
+The earliest extant examples of ancient Greek writing (circa 1450 BC) are in the syllabic script Linear B. Beginning in the 8th century BC, however, the Greek alphabet became standard, albeit with some variation among dialects. Early texts are written in boustrophedon style, but left-to-right became standard during the classic period. Modern editions of ancient Greek texts are usually written with accents and breathing marks, interword spacing, modern punctuation, and sometimes mixed case, but these were all introduced later.
+
+==Sample texts==
+The beginning of Homer's Iliad exemplifies the Archaic period of ancient Greek (see Homeric Greek for more details):
+<poem style="margin-left: 2em">Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
+οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' ἔθηκε,
+πολλὰς δ' ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+οἰωνοῖσί τε πᾶσι· Διὸς δ' ἐτελείετο βουλή·
+ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</poem>
+
+The beginning of Apology by Plato exemplifies Attic Greek from the Classical period of ancient Greek:
+:Ὅτι μὲν ὑμεῖς, ὦ ἄνδρες Ἀθηναῖοι, πεπόνθατε ὑπὸ τῶν ἐμῶν κατηγόρων, οὐκ οἶδα· ἐγὼ δ' οὖν καὶ αὐτὸς ὑπ' αὐτῶν ὀλίγου ἐμαυτοῦ ἐπελαθόμην, οὕτω πιθανῶς ἔλεγον. Καίτοι ἀληθές γε ὡς ἔπος εἰπεῖν οὐδὲν εἰρήκασιν.
+
+Using the IPA:
+:
+
+Transliterated into the Latin alphabet using a modern version of the Erasmian scheme:
+:Hóti mèn hūmeîs, ô ándres Athēnaîoi, pepónthate hupò tôn emôn katēgórōn, ouk oîda: egṑ d' oûn kaì autòs hup' autōn olígou emautoû epelathómēn, hoútō pithanôs élegon. Kaítoi alēthés ge hōs épos eipeîn oudèn eirḗkāsin.
+
+Translated into English:
+:How you, men of Athens, are feeling under the power of my accusers, I do not know: actually, even I myself almost forgot who I was because of them, they spoke so persuasively. And yet, loosely speaking, nothing they have said is true.
+
+==Modern use==
+
+===In education===
+The study of ancient Greek in European countries in addition to Latin occupied an important place in the syllabus from the Renaissance until the beginning of the 20th century. Ancient Greek is still taught as a compulsory or optional subject especially at traditional or elite schools throughout Europe, such as public schools and grammar schools in the United Kingdom. It is compulsory in the liceo classico in Italy, in the gymnasium in the Netherlands, in some classes in Austria, in klasična gimnazija (grammar school – orientation: classical languages) in Croatia, in classical studies in ASO in Belgium and it is optional in the humanities-oriented gymnasium in Germany (usually as a third language after Latin and English, from the age of 14 to 18). In 2006/07, 15,000 pupils studied ancient Greek in Germany according to the Federal Statistical Office of Germany, and 280,000 pupils studied it in Italy. It is a compulsory subject alongside Latin in the humanities branch of the Spanish bachillerato. Ancient Greek is also taught at most major universities worldwide, often combined with Latin as part of the study of classics. In 2010 it was offered in three primary schools in the UK, to boost children's language skills, and was one of seven foreign languages which primary schools could teach 2014 as part of a major drive to boost education standards.
+
+Ancient Greek is also taught as a compulsory subject in all gymnasiums and lyceums in Greece. Starting in 2001, an annual international competition "Exploring the Ancient Greek Language and Culture" hide=y (Διαγωνισμός στην Αρχαία Ελληνική Γλώσσα και Γραμματεία) was run for upper secondary students through the Greek Ministry of National Education and Religious Affairs, with Greek language and cultural organisations as co-organisers. It appears to have ceased in 2010 hide=y, having failed to gain the recognition and acceptance of teachers.
+
+===Modern real-world usage===
+Modern authors rarely write in ancient Greek, though Jan Křesadlo wrote some poetry and prose in the language, and Harry Potter and the Philosopher's Stone, some volumes of Asterix, and The Adventures of Alix have been translated into ancient Greek. Ὀνόματα Kεχιασμένα (Onomata Kechiasmena) is the first magazine of crosswords and puzzles in ancient Greek. Its first issue appeared in April 2015 as an annex to Hebdomada Aenigmatum. Alfred Rahlfs included a preface, a short history of the Septuagint text, and other front matter translated into ancient Greek in his 1935 edition of the Septuagint; Robert Hanhart also included the introductory remarks to the 2006 revised Rahlfs–Hanhart edition in the language as well. Akropolis World News reports weekly a summary of the most important news in ancient Greek.
+
+Ancient Greek is also used by organizations and individuals, mainly Greek, who wish to denote their respect, admiration or preference for the use of this language. This use is sometimes considered graphical, nationalistic or humorous. In any case, the fact that modern Greeks can still wholly or partly understand texts written in non-archaic forms of ancient Greek shows the affinity of the modern Greek language to its ancestral predecessor.
+
+Ancient Greek is often used in the coinage of modern technical terms in the European languages: see English words of Greek origin. Latinized forms of ancient Greek roots are used in many of the scientific names of species and in scientific terminology.

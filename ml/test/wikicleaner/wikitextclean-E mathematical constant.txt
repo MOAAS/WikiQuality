@@ -1,0 +1,224 @@
+e (mathematical constant)
+
+The number e, also known as Euler's number, is a mathematical constant approximately equal to 2.71828 which can be characterized in many ways. It is the base of the natural logarithms. It is the limit of (1 + 1/n)n as n approaches infinity, an expression that arises in the study of compound interest. It can also be calculated as the sum of the infinite series
+
+It is also the unique positive number a such that the graph of the function y = ax has a slope of 1 at x = 0.
+
+The (natural) exponential function f(x) = ex is the unique function f that equals its own derivative and satisfies the equation f(0) = 1; hence one can also define e as f(1). The natural logarithm, or logarithm to base e, is the inverse function to the natural exponential function. The natural logarithm of a number k > 1 can be defined directly as the area under the curve y = 1/x between x = 1 and x = k, in which case e is the value of k for which this area equals one (see image). There are various other characterizations.
+
+e is sometimes called Euler's number (not to be confused with Euler's constant ), after the Swiss mathematician Leonhard Euler, or Napier's constant. The constant was discovered by the Swiss mathematician Jacob Bernoulli while studying compound interest.
+
+The number e is of great importance in mathematics, alongside 0, 1, π, and i. All five appear in one formulation of Euler's identity, and play important and recurring roles across mathematics. Like the constant π, e is irrational (that is, it cannot be represented as a ratio of integers) and transcendental (that is, it is not a root of any non-zero polynomial with rational coefficients). To 50 decimal places the value of e is:
+
+== History ==
+The first references to the constant were published in 1618 in the table of an appendix of a work on logarithms by John Napier. However, this did not contain the constant itself, but simply a list of logarithms calculated from the constant. It is assumed that the table was written by William Oughtred.
+
+The discovery of the constant itself is credited to Jacob Bernoulli in 1683, who attempted to find the value of the following expression (which is equal to e):
+
+The first known use of the constant, represented by the letter b, was in correspondence from Gottfried Leibniz to Christiaan Huygens in 1690 and 1691. Leonhard Euler introduced the letter e as the base for natural logarithms, writing in a letter to Christian Goldbach on 25 November 1731. Euler started to use the letter e for the constant in 1727 or 1728, in an unpublished paper on explosive forces in cannons, while the first appearance of e in a publication was in Euler's Mechanica (1736). Although some researchers used the letter c in the subsequent years, the letter e was more common and eventually became standard.
+
+In mathematics, the most common typographical convention is to typeset the constant as "e", in italics, although sometimes "e" in roman is used.  On the other hand, the ISO 80000-2:2019 standard recommends typesetting constants in an upright style.
+
+== Applications ==
+
+=== Compound interest ===
+
+Jacob Bernoulli discovered this constant in 1683, while studying a question about compound interest:
+An account starts with $1.00 and pays 100 percent interest per year. If the interest is credited once, at the end of the year, the value of the account at year-end will be $2.00. What happens if the interest is computed and credited more frequently during the year?
+
+If the interest is credited twice in the year, the interest rate for each 6 months will be 50%, so the initial $1 is multiplied by 1.5 twice, yielding $1.00 × 1.52 = $2.25 at the end of the year. Compounding quarterly yields $1.00 × 1.254 = $2.4414..., and compounding monthly yields $1.00 × (1 + 1/12)12 = $2.613035… If there are n compounding intervals, the interest for each interval will be 100%/n and the value at the end of the year will be $1.00 × (1 + 1/n)n.
+
+Bernoulli noticed that this sequence approaches a limit (the force of interest) with larger n and, thus, smaller compounding intervals. Compounding weekly (n = 52) yields $2.692597..., while compounding daily (n = 365) yields $2.714567... (approximately two cents more). The limit as n grows large is the number that came to be known as e. That is, with continuous compounding, the account value will reach $2.718281828...
+
+More generally, an account that starts at $1 and offers an annual interest rate of R will, after t years, yield eRt dollars with continuous compounding.
+
+(Note here that R is the decimal equivalent of the rate of interest expressed as a percentage, so for 5% interest, R = 5/100 = 0.05.)
+
+=== Bernoulli trials ===
+
+The number e itself also has applications in probability theory, in a way that is not obviously related to exponential growth. Suppose that a gambler plays a slot machine that pays out with a probability of one in n and plays it n times. Then, for large n, the probability that the gambler will lose every bet is approximately 1/e. For n = 20, this is already approximately 1/2.79.
+
+This is an example of a Bernoulli trial process. Each time the gambler plays the slots, there is a one in n chance of winning. Playing n times is modeled by the binomial distribution, which is closely related to the binomial theorem and Pascal's triangle. The probability of winning k times out of n trials is:
+
+In particular, the probability of winning zero times (k = 0) is
+
+The limit of the above expression, as n tends to infinity, is precisely 1/e.
+
+=== Standard normal distribution ===
+
+The normal distribution with zero mean and unit standard deviation is known as the standard normal distribution, given by the probability density function
+
+The constraint of unit variance (and thus also unit standard deviation) results in the frac2 1 2 in the exponent, and the constraint of unit total area under the curve  results in the factor .[proof]  This function is symmetric around x = 0, where it attains its maximum value , and has inflection points at x = ±1.
+
+=== Derangements ===
+
+Another application of e, also discovered in part by Jacob Bernoulli along with Pierre Remond de Montmort, is in the problem of derangements, also known as the hat check problem: n guests are invited to a party, and at the door, the guests all check their hats with the butler, who in turn places the hats into n boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so he puts the hats into boxes selected at random. The problem of de Montmort is to find the probability that none of the hats gets put into the right box. This probability, denoted by , is:
+
+As the number n of guests tends to infinity, pn approaches 1/e. Furthermore, the number of ways the hats can be placed into the boxes so that none of the hats are in the right box is n!/e, rounded to the nearest integer, for every positive n.
+
+=== Optimal planning problems ===
+A stick of length L is broken into n equal parts.  The value of n that maximizes the product of the lengths is then either
+ or 
+
+The stated result follows because the maximum value of  occurs at x = e (Steiner's problem, discussed below). The quantity  is a measure of information gleaned from an event occurring with probability 1/x, so that essentially the same optimal division appears in optimal planning problems like the secretary problem.
+
+=== Asymptotics ===
+The number e occurs naturally in connection with many problems involving asymptotics. An example is Stirling's formula for the asymptotics of the factorial function, in which both the numbers e and π appear:
+
+As a consequence,
+
+== In calculus ==
+
+The principal motivation for introducing the number e, particularly in calculus, is to perform differential and integral calculus with exponential functions and logarithms. A general exponential function y = ax has a derivative, given by a limit:
+
+The parenthesized limit on the right is independent of the variable x. Its value turns out to be the logarithm of a to base e. Thus, when the value of a is set to e, this limit is equal to 1, and so one arrives at the following simple identity:
+
+Consequently, the exponential function with base e is particularly suited to doing calculus. Choosing e (as opposed to some other number as the base of the exponential function) makes calculations involving the derivatives much simpler.
+
+Another motivation comes from considering the derivative of the base-a logarithm (i.e., loga x), for x > 0:
+
+where the substitution u = h/x was made. The base-a logarithm of e is 1, if a equals e. So symbolically,
+
+The logarithm with this special base is called the natural logarithm, and is denoted as ln; it behaves well under differentiation since there is no undetermined limit to carry through the calculations.
+
+Thus, there are two ways of selecting such special numbers a. One way is to set the derivative of the exponential function ax equal to ax, and solve for a. The other way is to set the derivative of the base a logarithm to 1/x and solve for a. In each case, one arrives at a convenient choice of base for doing calculus. It turns out that these two solutions for a are actually the same: the number e.
+
+=== Alternative characterizations ===
+
+Other characterizations of e are also possible: one is as the limit of a sequence, another is as the sum of an infinite series, and still others rely on integral calculus. So far, the following two (equivalent) properties have been introduced:
+
+# The number e is the unique positive real number such that .
+# The number e is the unique positive real number such that .
+
+The following four characterizations can be proven to be equivalent:
+
+   start=3
+   The number e is the limit
+
+Similarly:
+
+   The number e is the sum of the infinite series
+: 
+
+where n! is the factorial of n.
+   The number e is the unique positive real number such that
+
+   If f(t) is an exponential function, then the quantity  is a constant, sometimes called the time constant (it is the reciprocal of the exponential growth constant or decay constant).  The time constant is the time it takes for the exponential function to increase by a factor of e: .
+
+== Properties ==
+
+=== Calculus ===
+As in the motivation, the exponential function ex is important in part because it is the unique nontrivial function that is its own derivative (up to multiplication by a constant):
+
+and therefore its own antiderivative as well:
+
+=== Inequalities ===
+
+The number e is the unique real number such that
+
+for all positive x.
+
+Also, we have the inequality
+
+for all real x, with equality if and only if x = 0.  Furthermore, e is the unique base of the exponential for which the inequality ax ≥ x + 1 holds for all x.  This is a limiting case of Bernoulli's inequality.
+
+=== Exponential-like functions ===
+
+Steiner's problem asks to find the global maximum for the function
+
+This maximum occurs precisely at x = e.
+
+The value of this maximum is 1.4446 6786 1009 7661 3365... (accurate to 20 decimal places).
+
+For proof, the inequality , from above, evaluated at y = (x - e)/e and simplifying gives .  So  for all positive x.
+
+Similarly, x = 1/e is where the global minimum occurs for the function
+
+ f(x) = x^x 
+
+defined for positive x.  More generally, for the function
+
+ f(x) = x^{x^n} 
+
+the global maximum for positive x occurs at x = 1/e for any n < 0; and the global minimum occurs at x = e−1/n for any n > 0.
+
+The infinite tetration
+
+ or 
+
+converges if and only if e−e ≤ x ≤ e1/e (or approximately between 0.0660 and 1.4447), due to a theorem of Leonhard Euler.
+
+=== Number theory ===
+The real number e is irrational. Euler proved this by showing that its simple continued fraction expansion is infinite. (See also Fourier's proof that e is irrational.)
+
+Furthermore, by the Lindemann–Weierstrass theorem, e is transcendental, meaning that it is not a solution of any non-constant polynomial equation with rational coefficients. It was the first number to be proved transcendental without having been specifically constructed for this purpose (compare with Liouville number); the proof was given by Charles Hermite in 1873.
+
+It is conjectured that e is normal, meaning that when e is expressed in any base the possible digits in that base are uniformly distributed (occur with equal probability in any sequence of given length).
+
+=== Complex numbers ===
+The exponential function ex may be written as a Taylor series
+
+Because this series is convergent for every complex value of x, it is commonly used to extend the definition of ex to the complex numbers. This, with the Taylor series for sin and cos x, allows one to derive Euler's formula:
+
+which holds for every complex x. The special case with x = π is Euler's identity:
+
+from which it follows that, in the principal branch of the logarithm,
+
+Furthermore, using the laws for exponentiation,
+
+which is de Moivre's formula.
+
+The expression
+
+is sometimes referred to as cis(x).
+
+The expressions of sin x and cos x in terms of the exponential function can be deduced:
+
+=== Differential equations ===
+The family of functions
+
+y(x) = Ce^x,
+
+where C is any real number, is the solution to the differential equation
+
+y' = y .
+
+== Representations ==
+
+The number e can be represented in a variety of ways: as an infinite series, an infinite product, a continued fraction, or a limit of a sequence. Two of these representations, often used in introductory calculus courses, are the limit
+
+given above, and the series
+
+obtained by evaluating at x = 1 the above power series representation of ex.
+
+Less common is the continued fraction
+
+  e = [2; 1, 2, 1, 1, 4, 1, 1, 6, 1, ..., 1, 2n, 1, ...],
+
+which written out looks like
+
+This continued fraction for e converges three times as quickly:
+
+Many other series, sequence, continued fraction, and infinite product representations of e have been proved.
+
+=== Stochastic representations ===
+In addition to exact analytical expressions for representation of e, there are stochastic techniques for estimating e.  One such approach begins with an infinite sequence of independent random variables X1, X2..., drawn from the uniform distribution on [0, 1]. Let V be the least number n such that the sum of the first n observations exceeds 1:
+
+Then the expected value of V is e: E(V) = e.
+
+=== Known digits ===
+The number of known digits of e has increased substantially during the last decades. This is due both to the increased performance of computers and to algorithmic improvements.
+
+Since around 2010, the proliferation of modern high-speed desktop computers has made it feasible for most amateurs to compute trillions of digits of e within acceptable amounts of time. The most recent record was set on Dec 5, 2020, where e has been calculated to 31,415,926,535,897 digits.
+
+== In computer culture ==
+
+During the emergence of internet culture, individuals and organizations sometimes paid homage to the number e.
+
+In an early example, the computer scientist Donald Knuth let the version numbers of his program Metafont approach e. The versions are 2, 2.7, 2.71, 2.718, and so forth.
+
+In another instance, the IPO filing for Google in 2004, rather than a typical round-number amount of money, the company announced its intention to raise 2,718,281,828 USD, which is e billion dollars rounded to the nearest dollar.
+
+Google was also responsible for a billboard
+that appeared in the heart of Silicon Valley, and later in Cambridge, Massachusetts; Seattle, Washington; and Austin, Texas. It read "{first 10-digit prime found in consecutive digits of e}.com". The first 10-digit prime in e is 7427466391, which starts at the 99th digit. Solving this problem and visiting the advertised (now defunct) website led to an even more difficult problem to solve, which consisted in finding the fifth term in the sequence 7182818284, 8182845904, 8747135266, 7427466391. It turned out that the sequence consisted of 10-digit numbers found in consecutive digits of e whose digits summed to 49. The fifth term in the sequence is 5966290435, which starts at the 127th digit.
+Solving this second problem finally led to a Google Labs webpage where the visitor was invited to submit a résumé.

@@ -1,0 +1,77 @@
+
+/* Meter */ 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 600;
+    width: 100%;
+
+}
+
+.title {
+    text-align: center;
+    margin: 0.25em 0;
+}
+
+
+.meter {
+    position: relative;
+    display: flex;
+    height: 20px;
+    margin-top: 0.75em;
+
+    background: #d9d9d9;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.fillBar {
+    border-radius: 6px 0 0 6px;
+}
+
+.fillBar.full {
+    border-radius: 6px;
+}
+
+/* Pointer */
+
+.pointer {
+    position: absolute;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, calc(100% - 4px));
+}
+
+.pointer span {
+    font-size: 0.75em;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 66%);
+}
+
+/* Separator */
+
+.separator {
+    height: 100%;
+    position: absolute;
+}
+
+.separator div {
+    border-width: 0 1px 0 0;
+    border-style: dashed;
+    
+    height: 100%;
+    opacity: 0.5;
+}
+
+.separator span {
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -100%);
+    font-size: 0.75em;
+    padding-bottom: 1px;
+}

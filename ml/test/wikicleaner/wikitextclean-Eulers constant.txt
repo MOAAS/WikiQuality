@@ -1,0 +1,203 @@
+Euler's constant (sometimes also called the Euler–Mascheroni constant) is a mathematical constant usually denoted by the lowercase Greek letter gamma (γ).
+
+It is defined as the limiting difference between the harmonic series and the natural logarithm, denoted here by 
+
+Here,  represents the floor function.
+
+The numerical value of Euler's constant, to 50 decimal places, is:
+:  0.57721 56649 01532 86060 65120 90082 40243 10421 59335 93992 ... 
+
+==History==
+The constant first appeared in a 1734 paper by the Swiss mathematician Leonhard Euler, titled De Progressionibus harmonicis observationes (Eneström Index 43). Euler used the notations C and O for the constant. In 1790, Italian mathematician Lorenzo Mascheroni used the notations A and a for the constant. The notation γ appears nowhere in the writings of either Euler or Mascheroni, and was chosen at a later time perhaps because of the constant's connection to the gamma function. For example, the German mathematician Carl Anton Bretschneider used the notation γ in 1835 and Augustus De Morgan used it in a textbook published in parts from 1836 to 1842.
+
+==Appearances==
+Euler's constant appears, among other places, in the following (where '*' means that this entry contains an explicit equation):
+* Expressions involving the exponential integral*
+* The Laplace transform* of the natural logarithm
+* The first term of the Laurent series expansion for the Riemann zeta function*, where it is the first of the Stieltjes constants*
+* Calculations of the digamma function
+* A product formula for the gamma function
+* The asymptotic expansion of the gamma function for small arguments.
+* An inequality for Euler's totient function
+* The growth rate of the divisor function
+* In dimensional regularization of Feynman diagrams in quantum field theory
+* The calculation of the Meissel–Mertens constant
+* The third of Mertens' theorems*
+* Solution of the second kind to Bessel's equation
+* In the regularization/renormalization of the harmonic series as a finite value
+* The mean of the Gumbel distribution
+* The information entropy of the Weibull and Lévy distributions, and, implicitly, of the chi-squared distribution for one or two degrees of freedom.
+* The answer to the coupon collector's problem*
+* In some formulations of Zipf's law
+* A definition of the cosine integral*
+* Lower bounds to a prime gap
+* An upper bound on Shannon entropy in quantum information theory
+* Fisher-Orr model for genetics of adaptation in evolutionary biology 
+
+==Properties==
+The number γ has not been proved algebraic or transcendental. In fact, it is not even known whether γ is irrational. Using a continued fraction analysis, Papanikolaou showed in 1997 that if γ is rational, its denominator must be greater than 10244663. The ubiquity of γ revealed by the large number of equations below makes the irrationality of γ a major open question in mathematics.
+
+However, some progress was made. Kurt Mahler showed in 1968 that the number  is transcendental (here,  and  are Bessel functions). In 2009 Alexander Aptekarev proved that at least one of Euler's constant γ and the Euler–Gompertz constant δ is irrational; Tanguy Rivoal proved in 2012 that at least one of them is transcendental. In 2010 M. Ram Murty and N. Saradha showed that at most one of the numbers of the form
+
+with q ≥ 2 and 1 ≤ a < q is algebraic; this family includes the special case γ(2,4) = γ/4. In 2013 M. Ram Murty and A. Zaytseva found a different family containing γ, which is based on sums of reciprocals of integers not divisible by a fixed list of primes, with the same property.
+
+===Relation to gamma function===
+γ is related to the digamma function Ψ, and hence the derivative of the gamma function Γ, when both functions are evaluated at 1. Thus:
+
+This is equal to the limits:
+
+Further limit results are:
+
+A limit related to the beta function (expressed in terms of gamma functions) is
+
+===Relation to the zeta function===
+γ can also be expressed as an infinite sum whose terms involve the Riemann zeta function evaluated at positive integers:
+
+Other series related to the zeta function include:
+
+The error term in the last equation is a rapidly decreasing function of n. As a result, the formula is well-suited for efficient computation of the constant to high precision.
+
+Other interesting limits equaling Euler's constant are the antisymmetric limit:
+
+and the following formula, established in 1898 by de la Vallée-Poussin:
+
+where  are ceiling brackets.
+This formula indicates that when taking any positive integer n and dividing it by each positive integer k less than n, the average fraction by which the quotient n/k falls short of the next integer tends to  (rather than 0.5) as n tends to infinity.
+
+Closely related to this is the rational zeta series expression. By taking separately the first few terms of the series above, one obtains an estimate for the classical series limit:
+
+where ζ(s,k) is the Hurwitz zeta function. The sum in this equation involves the harmonic numbers, Hn. Expanding some of the terms in the Hurwitz zeta function gives:
+
+where 0 < ε < 1/252n6.
+
+γ can also be expressed as follows where A is the Glaisher–Kinkelin constant:
+
+γ can also be expressed as follows, which can be proven by expressing the zeta function as a Laurent series:
+
+===Integrals===
+γ equals the value of a number of definite integrals:
+
+where Hx is the fractional harmonic number.
+
+The third formula in the integral list can be proved in the following way:
+: 
+The integral on the second line of the equation stands for the Debye function value of +∞, which is m! ζ(m + 1).
+
+Definite integrals in which γ appears include:
+
+One can express γ using a special case of Hadjicostas's formula as a double integral with equivalent series:
+
+An interesting comparison by Sondow is the double integral and alternating series
+
+It shows that log 4/π may be thought of as an "alternating Euler constant".
+
+The two constants are also related by the pair of series
+
+where N1(n) and N0(n) are the number of 1s and 0s, respectively, in the base 2 expansion of n.
+
+We have also Catalan's 1875 integral
+
+===Series expansions===
+In general, 
+
+for any . However, the rate of convergence of this expansion depends significantly on . In particular,  exhibits much more rapid convergence than the conventional expansion . This is because
+
+while
+
+Even so, there exist other series expansions which converge more rapidly than this; some of these are discussed below.
+
+Euler showed that the following infinite series approaches γ:
+
+The series for γ is equivalent to a series Nielsen found in 1897:
+
+In 1910, Vacca found the closely related series
+
+where log2 is the logarithm to base 2 and ⌊ ⌋ is the floor function.
+
+In 1926 he found a second series:
+
+From the Malmsten–Kummer expansion for the logarithm of the gamma function we get:
+
+An important expansion for Euler's constant is due to Fontana and Mascheroni
+
+where Gn are Gregory coefficients This series is the special case k=1 of the expansions
+
+convergent for 
+
+A similar series with the Cauchy numbers of the second kind Cn is 
+
+Blagouchine (2018) found an interesting generalisation of the Fontana-Mascheroni series
+
+where ψn(a) are the Bernoulli polynomials of the second kind, which are defined by the generating function
+: 
+For any rational a this series contains rational terms only. For example, at a = 1, it becomes
+: 
+Other series with the same polynomials include these examples:
+: 
+and
+: 
+where Γ(a) is the gamma function.
+
+A series related to the Akiyama-Tanigawa algorithm is
+: 
+where Gn(2) are the Gregory coefficients of the second order.
+  
+Series of prime numbers:
+
+===Asymptotic expansions===
+γ equals the following asymptotic formulas (where Hn is the nth harmonic number):
+ (Euler)
+ (Negoi)
+ (Cesàro)
+The third formula is also called the Ramanujan expansion.
+
+Alabdulmohsin derived closed-form expressions for the sums of errors of these approximations. He showed that (Theorem A.1):
+
+===Exponential===
+The constant eγ is important in number theory. Some authors denote this quantity simply as γ′. eγ equals the following limit, where pn is the nth prime number:
+
+This restates the third of Mertens' theorems. The numerical value of eγ is:
+: 1.78107 24179 90197 98523 65041 03107 17954 91696 45214 30343 ....
+
+Other infinite products relating to eγ include:
+
+These products result from the Barnes G-function.
+
+In addition,
+
+where the nth factor is the (n + 1)th root of
+
+This infinite product, first discovered by Ser in 1926, was rediscovered by Sondow using hypergeometric functions.
+
+It also holds that
+
+===Continued fraction===
+The continued fraction expansion of γ begins [0; 1, 1, 2, 1, 2, 1, 4, 3, 13, 5, 1, 1, 8, 1, 2, 4, 1, 1, 40, ...], which has no apparent pattern. The continued fraction is known to have at least 475,006 terms, and it has infinitely many terms if and only if γ is irrational.
+
+==Generalizations==
+
+Euler's generalized constants are given by
+
+for 0 < α < 1, with γ as the special case α = 1. This can be further generalized to
+
+for some arbitrary decreasing function f. For example,
+
+gives rise to the Stieltjes constants, and
+f_a(x) = x^{-a}
+gives
+
+where again the limit
+
+appears.
+
+A two-dimensional limit generalization is the Masser–Gramain constant.
+
+Euler–Lehmer constants are given by summation of inverses of numbers in a common
+modulo class:
+
+The basic properties are
+
+and if gcd(a,q) = d then
+
+==Published digits==
+Euler initially calculated the constant's value to 6 decimal places. In 1781, he calculated it to 16 decimal places. Mascheroni attempted to calculate the constant to 32 decimal places, but made errors in the 20th–22nd and 31st-32nd decimal places; starting from the 20th digit, he calculated ...1811209008239 when the correct value is ...0651209008240.

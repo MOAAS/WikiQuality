@@ -1,0 +1,5 @@
+.idea/
+target/
+
+src/main/resources/enwiki-2022.graph
+src/main/resources/enwiki-2022.ids

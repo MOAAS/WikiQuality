@@ -1,0 +1,198 @@
+{{Short description|Type of chromatography}}
+{{More citations needed|date=November 2020}}{{Infobox chemical analysis
+| name = Gas chromatography
+| image =gaschromatograph.jpg
+| caption =A gas chromatograph with a headspace sampler
+| acronym = GC
+| classification =[[Chromatography]]
+| analytes = [[organic compound|Organic]]<br>[[inorganic compound|Inorganic]]<br>Must be [[Volatility (chemistry)|volatile]]
+| related = [[Thin layer chromatography]]<br>[[High performance liquid chromatography]]
+| hyphenated = [[Gas chromatography-mass spectrometry]]
+}}'''Gas chromatography''' ('''GC''') is a common type of [[chromatography]] used in [[analytical chemistry]] for [[Separation process|separating]] and analyzing compounds that can be [[vaporized]] without [[Chemical decomposition|decomposition]]. Typical uses of GC include testing the purity of a particular substance, or separating the different components of a mixture.<ref name=":03">{{Cite book|last=Harvey|first=David|url=https://www.worldcat.org/oclc/41070677|title=Modern analytical chemistry|date=2000|publisher=McGraw-Hill|isbn=0-07-237547-7|location=Boston|oclc=41070677}}</ref> In [[preparative chromatography]], GC can be used to prepare pure compounds from a mixture.<ref name="Pavia2">{{cite book|author=Pavia, L., Gary M. Lampman, George S. Kritz, Randall G. Engel|title=Introduction to Organic Laboratory Techniques (4th Ed.)|publisher=Thomson Brooks/Cole|year=2006|isbn=978-0-495-28069-9|pages=797–817}}</ref><ref>{{cite web|title=Gas Chromatography|url=http://hiq.linde-gas.com/international/web/lg/spg/like35lgspg.nsf/docbyalias/anal_gaschrom|url-status=dead|archive-url=https://web.archive.org/web/20120303205520/http://hiq.linde-gas.com/international/web/lg/spg/like35lgspg.nsf/docbyalias/anal_gaschrom|archive-date=3 March 2012|access-date=11 March 2012|publisher=Linde AG}}</ref>
+
+Gas chromatography is also sometimes known as '''vapor-phase chromatography''' (VPC), or '''gas–liquid partition chromatography''' (GLPC). These alternative names, as well as their respective abbreviations, are frequently used in scientific literature.<ref name="Pavia2" />
+
+Gas chromatography is the process of separating compounds in a mixture by injecting a gaseous or liquid sample into a mobile phase, typically called the carrier gas, and passing the gas through a stationary phase. The mobile phase is usually an [[inert gas]] or an [[Reactivity (chemistry)|unreactive]] gas such as [[helium]], [[argon]],  [[nitrogen]] or [[hydrogen]].<ref name=":03"/> The stationary phase is a microscopic layer of [[Viscosity|viscous liquid]] on a surface of solid particles on an inert solid support inside a piece of glass or metal tubing called a column.<ref name=":13">{{Cite book|last=Harris|first=Daniel C.|url=https://www.worldcat.org/oclc/915084423|title=Quantitative chemical analysis|date=2016|others=Charles A. Lucy|isbn=978-1-4641-3538-5|edition=Ninth|location=New York|oclc=915084423}}</ref> The surface of the solid particles may also act as the stationary phase in some columns.<ref name=":13"/>  The glass or metal column through which the gas phase passes is located in an oven where the temperature of the gas can be controlled and the eluent coming off the column is monitored by a computerized detector.<ref name=":03"/>
+
+== Operating Principle ==
+[[Image:Gas chromatograph-vector.svg|thumb|Diagram of a gas chromatograph]]
+A gas chromatograph is made of a narrow tube, known as the ''column'', through which the vaporized sample passes, carried along by a continuous flow of inert or nonreactive gas. Components of the sample pass through the column at different rates, depending on their chemical and physical properties and the resulting interactions with the column lining or filling, called the ''stationary phase''. The column is typically enclosed within a temperature controlled oven. As the chemicals exit the end of the column, they are detected and identified electronically.<ref name=":03"/>
+
+== History ==
+[[File:Gas chromatograph. - DPLA - a59fc7497cf85052d7678a0effb4863f.jpg|thumb|Gas chromatograph]]
+
+===Background===
+[[Chromatography]] dates to 1903 in the work of the Russian scientist, [[Mikhail Semenovich Tswett]],<ref>{{Cite journal|url=https://babel.hathitrust.org/cgi/pt?id=mdp.39015069544941;view=1up;seq=322|title=Berichte der Deutschen Botanischen Gesellschaft v.24 1906.|website=HathiTrust|year=1883|language=en|access-date=2019-04-19}}</ref> who separated plant pigments via liquid column chromatography.
+
+===Invention===
+The invention of gas chromatography is generally attributed to [[Anthony T. James]] and [[Archer John Porter Martin|Archer J.P. Martin]].<ref name="Bartle">{{cite journal |last1=Bartle |first1=Keith D. |last2=Myers |first2=Peter |title=History of gas chromatography |journal=TrAC Trends in Analytical Chemistry |date=10 September 2002 |volume=21 |issue=9 |pages=547–557 |doi=10.1016/S0165-9936(02)00806-3}}</ref><ref>{{cite journal |last1=James |first1=A. T. |last2=Martin |first2=A. J. P. |title=Gas-liquid partition chromatography: the separation and micro-estimation of volatile fatty acids from formic acid to dodecanoic acid |journal=Biochemical Journal |date=1 March 1952 |volume=50 |issue=5 |pages=679–690 |doi=10.1042/bj0500679}}</ref> Their gas chromatograph used [[partition chromatography]] as the separating principle, rather than [[adsorption chromatography]]. The popularity of gas chromatography quickly rose after the development of the flame ionization detector.<ref>{{Cite journal|last1=R. A. Dewar|last2=McWILLIAM|first2=I. G.|date=March 1958|title=Flame Ionization Detector for Gas Chromatography|journal=Nature|language=en|volume=181|issue=4611|pages=760|doi=10.1038/181760a0|issn=1476-4687|bibcode=1958Natur.181..760M|s2cid=4175977}}</ref>
+Martin and another one of their colleagues, [[Richard Laurence Millington Synge|Richard Synge]], with whom he shared the 1952 [[Nobel Prize in Chemistry]], had noted in an earlier paper<ref>{{cite journal |last1=Martin |first1=A. J. P. |last2=Synge |first2=R. L. M. |title=A new form of chromatogram employing two liquid phases: A theory of chromatography. 2. Application to the micro-determination of the higher monoamino-acids in proteins |journal=Biochemical Journal |date=1 December 1941 |volume=35 |issue=12 |pages=1358–1368 |doi=10.1042/bj0351358}}</ref> that chromatography might also be used to separate gases. Synge pursued other work while Martin continued his work with James.
+
+===Gas Adsorption Chromatography Precursors===
+German physical chemist [[Erika Cremer]] in 1947 together with Austrian graduate student Fritz Prior developed what could be considered the first gas chromatograph that consisted of a carrier gas, a column packed with silica gel, and a thermal conductivity detector. They exhibited the chromatograph at ACHEMA in Frankfurt, but nobody was interested in it.<ref name="Ettre">{{cite book |last1=Ettre |first1=Leslie S. |title=Chapters in the evolution of chromatography |date=2008 |publisher=Imperial College Press |location=London |isbn=1860949436}}</ref>
+N.C. Turner with the Burrell Corporation introduced in 1943 a massive instrument that used a charcoal column and mercury vapors. Stig Claesson of [[Uppsala University]] published in 1946 his work on a charcoal column that also used mercury.<ref name="Ettre"/>
+Gerhard Hesse, while a professor at the [[University of Marburg]]/Lahn decided to test the prevailing opinion among German chemists that molecules could not be separated in a moving gas stream. He set up a simple glass column filled with starch and successfully separated bromine and iodine using nitrogen as the carrier gas. He then built a system that flowed an inert gas through a glass condenser packed with silica gel and collected the eluted fractions.<ref name="Ettre"/>
+Courtenay S.G Phillips of Oxford University investigated separation in a charcoal column using a thermal conductivity detector. He consulted with Claesson and decided to use displacement as his separating principle. After learning about the results of James and Martin, he switched to partition chromatography.<ref name="Ettre"/>
+
+===Column Technology===
+Early gas chromatography used packed columns, made of tubing typically 1-5m long, 1-5mm diameter, and filled with particles. The resolution of packed columns was improved by the invention of capillary column, in which the stationary phase is coated on the inner wall of the capillary.<ref name="Bartle"/>
+
+== Physical components ==
+=== Autosamplers ===
+
+The autosampler provides the means to introduce a sample automatically into the inlets. Manual insertion of the sample is possible but is no longer common. Automatic insertion provides better reproducibility and time-optimization.[[File:Microsyringe_based_autosampler.gif|alt=An autosampler for liquid or gaseous samples based on a microsyringe|thumb|An autosampler for liquid or gaseous samples based on a microsyringe]]Different kinds of autosamplers exist. Autosamplers can be classified in relation to sample capacity (auto-injectors vs. autosamplers, where auto-injectors can work a small number of samples), to robotic technologies (XYZ robot<ref>{{Cite journal|last=Carvalho|first=Matheus|date=2018|title=Osmar, the open-source microsyringe autosampler|journal=HardwareX|volume=3|pages=10–38|doi=10.1016/j.ohx.2018.01.001|doi-access=free}}</ref> vs. rotating robot – the most common), or to analysis:
+
+* Liquid
+* Static head-space by syringe technology
+* Dynamic head-space by transfer-line technology
+* [[Solid phase microextraction]] (SPME)
+
+=== Inlets ===
+[[File:Split splitless.png|thumb|Split/splitless inlet]]
+The column inlet (or injector) provides the means to introduce a sample into a continuous flow of carrier gas. The inlet is a piece of hardware attached to the column head.
+
+Common inlet types are:
+* S/SL (split/splitless) injector; a sample is introduced into a heated small chamber via a syringe through a septum – the heat facilitates [[volatilization]] of the sample and sample matrix. The carrier gas then either sweeps the entirety (splitless mode) or a portion (split mode) of the sample into the column. In split mode, a part of the sample/carrier gas mixture in the injection chamber is exhausted through the split vent. Split injection is preferred when working with samples with high analyte concentrations (>0.1%) whereas splitless injection is best suited for trace analysis with low amounts of analytes (<0.01%). In splitless mode the split valve opens after a pre-set amount of time to purge heavier elements that would otherwise contaminate the system. This pre-set (splitless) time should be optimized, the shorter time (e.g., 0.2 min) ensures less tailing but loss in response, the longer time (2 min) increases tailing but also signal.<ref>{{cite web |url= https://www.shsu.edu/~chm_tgc/GC/GCinject.html |title= Split/Splitless and On-Column Gas Chromatographic Injectors |first= Thomas G. |last= Chasteen |access-date= October 6, 2019 }}</ref>
+* On-column inlet; the sample is here introduced directly into the column in its entirety without heat, or at a temperature below the boiling point of the solvent. The low temperature condenses the sample into a narrow zone. The column and inlet can then be heated, releasing the sample into the gas phase. This ensures the lowest possible temperature for chromatography and keeps samples from decomposing above their boiling point.
+* PTV injector; Temperature-programmed sample introduction was first described by Vogt in 1979.{{citation needed|date=December 2012}} Originally Vogt developed the technique as a method for the introduction of large sample volumes (up to 250 µL) in capillary GC. Vogt introduced the sample into the liner at a controlled injection rate. The temperature of the liner was chosen slightly below the boiling point of the solvent. The low-boiling solvent was continuously evaporated and vented through the split line. Based on this technique, Poy developed the programmed temperature vaporising injector; PTV. By introducing the sample at a low initial liner temperature many of the disadvantages of the classic hot injection techniques could be circumvented.{{citation needed|date=December 2012}}
+* Gas source inlet or gas switching valve; gaseous samples in collection bottles are connected to what is most commonly a six-port switching valve.  The carrier gas flow is not interrupted while a sample can be expanded into a previously evacuated sample loop. Upon switching, the contents of the sample loop are inserted into the carrier gas stream.
+* P/T (Purge-and-Trap) system;  An inert gas is bubbled through an aqueous sample causing insoluble volatile chemicals to be purged from the matrix.  The volatiles are 'trapped' on an absorbent column (known as a trap or concentrator) at ambient temperature.  The trap is then heated and the volatiles are directed into the carrier gas stream.  Samples requiring preconcentration or purification can be introduced via such a system, usually hooked up to the S/SL port.
+
+The choice of carrier gas (mobile phase) is important.  Hydrogen has a range of flow rates that are comparable to helium in efficiency.  However, helium may be more efficient and provide the best separation if flow rates are optimized. Helium is non-flammable and works with a greater number of detectors and older instruments.  Therefore, helium is the most common carrier gas used.  However, the price of helium has gone up considerably over recent years, causing an increasing number of chromatographers to switch to hydrogen gas.  Historical use, rather than rational consideration, may contribute to the continued preferential use of helium.
+
+=== Detectors ===
+{{Further|Chromatography detector}}
+
+Commonly used detectors are the [[flame ionization detector]] (FID) and the [[thermal conductivity detector]] (TCD).  While TCDs are beneficial in that they are non-destructive, its low detection limit for most analytes inhibits widespread use.<ref name=":03" /> FIDs are sensitive primarily to hydrocarbons, and are more sensitive to them than TCD.<ref name=":13" />  FIDs cannot detect water or carbon dioxide which make them ideal for environmental organic analyte analysis.<ref name=":03" /> FID is two to three times more sensitive to analyte detection than TCD.<ref name=":03" />
+
+The TCD relies on the thermal conductivity of matter passing around a thin wire of tungsten-rhenium with a current traveling through it.<ref name=":13" /> In this set up helium or nitrogen serve as the carrier gas because of their relatively high thermal conductivity which keep the filament cool and maintain uniform resistivity and electrical efficiency of the filament.<ref name=":13" /><ref name="Higson2">Higson, S. (2004). Analytical Chemistry. OXFORD University Press {{ISBN|978-0-19-850289-0}}</ref> When analyte molecules elute from the column, mixed with carrier gas, the thermal conductivity decreases while there is an increase in filament temperature and resistivity resulting in fluctuations in voltage ultimately causing a detector response.<ref name=":13" /><ref name="Higson2" />  Detector sensitivity is proportional to filament current while it is inversely proportional to the immediate environmental temperature of that detector as well as flow rate of the carrier gas.<ref name=":13" />
+
+In a [[flame ionization detector]] (FID), electrodes are placed adjacent to a flame fueled by hydrogen / air near the exit of the column, and when carbon containing compounds exit the column they are pyrolyzed by the flame.<ref name=":13" /><ref name="Higson2" /> This detector works only for organic / hydrocarbon containing compounds due to the ability of the carbons to form cations and electrons upon pyrolysis which generates a current between the electrodes.<ref name=":13" /><ref name="Higson2" />  The increase in current is translated and appears as a peak in a chromatogram. FIDs have low detection limits (a few picograms per second) but they are unable to generate ions from [[carbonyl]] containing carbons.<ref name=":13" /> FID compatible carrier gasses include helium, hydrogen, nitrogen, and argon.<ref name=":13" /><ref name="Higson2" />
+
+In FID, sometimes the stream is modified before entering the detector. A [[methanizer]] converts carbon monoxide and carbon dioxide into methane so that it can be detected. A different technology is the polyarc, by Activated Research Inc, that converts all compounds to methane.
+
+Alkali flame detector (AFD) or alkali flame ionization detector (AFID) has high sensitivity to nitrogen and phosphorus, similar to NPD. However, the alkaline metal ions are supplied with the hydrogen gas, rather than a bead above the flame. For this reason AFD does not suffer the "fatigue" of the NPD, but provides a constant sensitivity over long period of time. In addition, when alkali ions are not added to the flame, AFD operates like a standard FID. A [[catalytic combustion]] detector (CCD) measures combustible hydrocarbons and hydrogen. [[Discharge ionization detector]] (DID) uses a high-voltage electric discharge to produce ions.
+
+Flame photometric detector (FPD) uses a photomultiplier tube to detect spectral lines of the compounds as they are burned in a flame. Compounds eluting off the column are carried into a hydrogen fueled flame which excites specific elements in the molecules, and the excited elements (P,S, Halogens, Some Metals) emit light of specific characteristic wavelengths.<ref name="Higson2"/> The emitted light is filtered and detected by a photomultiplier tube.<ref name=":13" /><ref name="Higson2"/> In particular, phosphorus emission is around 510–536&nbsp;nm and sulfur emission is at 394&nbsp;nm.<ref name=":13" /><ref name="Higson2"/> With an atomic emission detector (AED), a sample eluting from a column enters a chamber which is energized by microwaves that induce a plasma.<ref name="Higson2"/> The plasma causes the analyte sample to decompose and certain elements generate an atomic emission spectra.<ref name="Higson2"/> The atomic emission spectra is diffracted by a diffraction grating and detected by a series of photomultiplier tubes or photo diodes.<ref name="Higson2"/>
+
+[[Electron capture detector]] (ECD) uses a radioactive [[beta particle]] (electron) source to measure the degree of electron capture. ECD are used for the detection of molecules containing electronegative / withdrawing elements and functional groups like halogens, carbonyl, nitriles, nitro groups, and organometalics.<ref name=":13" /><ref name="Higson2"/> In this type of detector either nitrogen or 5% methane in argon is used as the mobile phase carrier gas.<ref name=":13" /><ref name="Higson2"/> The carrier gas passes between two electrodes placed at the end of the column, and adjacent to the cathode (negative electrode) resides a radioactive foil such as 63Ni.<ref name=":13" /><ref name="Higson2"/> The radioactive foil emits a beta particle (electron) which collides with and ionizes the carrier gas to generate more ions resulting in a current.<ref name=":13" /><ref name="Higson2"/> When analyte molecules with electronegative / withdrawing elements or functional groups electrons are captured which results in a decrease in current generating a detector response.<ref name=":13" /><ref name="Higson2"/>
+
+[[Nitrogen–phosphorus detector]] (NPD), a form of [[thermionic emission|thermionic]] detector where nitrogen and phosphorus alter the [[work function]] on a specially coated bead and a resulting current is measured.
+
+Dry electrolytic conductivity detector (DELCD) uses an air phase and high temperature (v. Coulsen) to measure chlorinated compounds.
+
+[[Mass spectrometer]] (MS), also called [[Gas chromatography–mass spectrometry|GC-MS]]; highly effective and sensitive, even in a small quantity of sample. This detector can be used to identify the analytes in chromatograms by their mass spectrum.<ref>{{Cite book|title=Fundamentals of analytical chemistry|others=Skoog, Douglas A.,, West, Donald M.,, Holler, F. James,, Crouch, Stanley R.|isbn=9780495558286|edition= Ninth |location=Belmont, CA|oclc=824171785|last1 = Skoog|first1 = Douglas A.|last2 = West|first2 = Donald M.|last3 = James Holler|first3 = F.|last4 = Crouch|first4 = Stanley R.|date = 2013-01-01}}</ref> Some [[GC-MS]] are connected to an [[nuclear magnetic resonance spectroscopy|NMR spectrometer]] which acts as a backup detector. This combination is known as [[GC-MS-NMR]].{{citation needed|date=December 2018}} Some [[GC-MS-NMR]] are connected to an [[infrared spectroscopy|infrared spectrophotometer]] which acts as a backup detector. This combination is known as GC-MS-NMR-IR. It must, however, be stressed this is very rare as most analyses needed can be concluded via purely GC-MS.{{Citation needed|reason=seems a bit of a stretch to couple GC-MS to NMR and IR|date=April 2013}}
+
+[[Ultraviolet#Subtypes|Vacuum ultraviolet]] (VUV) represents the most recent development in gas chromatography detectors. Most chemical species absorb and have unique gas phase absorption cross sections in the approximately 120–240&nbsp;nm VUV wavelength range monitored. Where absorption cross sections are known for analytes, the VUV detector is capable of absolute determination (without calibration) of the number of molecules present in the flow cell in the absence of chemical interferences.<ref>{{cite journal|year = 1834|doi = 10.1021/ac5018343|pmid = 25079505|title = Vacuum Ultraviolet Detector for Gas Chromatography|journal = Analytical Chemistry|volume = 86|issue = 16|pages = 8329–35|last1 = Schug|first1 = Kevin A.|last2 = Sawicki|first2 = Ian|last3 = Carlton|first3 = Doug D.|last4 = Fan|first4 = Hui|last5 = McNair|first5 = Harold M.|last6 = Nimmo|first6 = John P.|last7 = Kroll|first7 = Peter|last8 = Smuts|first8 = Jonathan|last9 = Walsh|first9 = Phillip|last10 = Harrison|first10 = Dale}}</ref>
+
+[[Gas chromatography-olfactometry|Olfactometric detector]], also called GC-O, uses a human assessor to analyse the odour activity of compounds. With an odour port or a sniffing port, the quality of the odour, the intensity of the odour and the duration of the odour activity of a compound can be assessed.
+
+Other detectors include the Hall electrolytic conductivity detector (ElCD), [[helium ionization detector]] (HID), [[infrared detector]] (IRD), [[photo-ionization detector]] (PID), [[pulsed discharge ionization detector]] (PDD), and thermionic ionization detector (TID).<ref>{{Cite journal|title=Ionization-based detectors for gas chromatography|pages=137–153|journal=Journal of Chromatography A|volume=1421|doi=10.1016/j.chroma.2015.02.061|date=2015-11-20|last1=Poole|first1=Colin F.|pmid=25757823}}</ref>
+
+== Methods ==
+[[Image:GeoStrataEclipse.jpg|frame|right|This image above shows the interior of a GeoStrata Technologies Eclipse Gas Chromatograph that runs continuously in three-minute cycles. Two valves are used to switch the test gas into the sample loop. After filling the sample loop with test gas, the valves are switched again applying carrier gas pressure to the sample loop and forcing the sample through the column for separation.]]
+
+The method is the collection of conditions in which the GC operates for a given analysis.  Method development is the process of determining what conditions are adequate and/or ideal for the analysis required.
+
+Conditions which can be varied to accommodate a required analysis include inlet temperature, detector temperature, column temperature and temperature program, carrier gas and carrier gas flow rates, the column's stationary phase, diameter and length, inlet type and flow rates, sample size and injection technique.  Depending on the detector(s) (see below) installed on the GC, there may be a number of detector conditions that can also be varied.  Some GCs also include valves which can change the route of sample and carrier flow. The timing of the opening and closing of these valves can be important to method development.
+
+=== Carrier gas selection and flow rates ===
+Typical carrier gases include [[helium]], [[nitrogen]], [[argon]], and [[hydrogen]].<ref name=":13" /><ref name=":03" />  Which gas to use is usually determined by the detector being used, for example, a [[Discharge ionization detector|DID]] requires helium as the carrier gas.<ref name=":03" />  When analyzing gas samples the carrier is also selected based on the sample's matrix, for example, when analyzing a mixture in argon, an argon carrier is preferred because the argon in the sample does not show up on the chromatogram. Safety and availability can also influence carrier selection.
+
+The purity of the carrier gas is also frequently determined by the detector, though the level of sensitivity needed can also play a significant role.  Typically, purities of 99.995% or higher are used.  The most common purity grades required by modern instruments for the majority of sensitivities are 5.0 grades, or 99.999% pure meaning that there is a total of 10 ppm of impurities in the carrier gas that could affect the results.  The highest purity grades in common use are 6.0 grades, but the need for detection at very low levels in some forensic and environmental applications has driven the need for carrier gases at 7.0 grade purity and these are now commercially available.  Trade names for typical purities include "Zero Grade," "Ultra-High Purity (UHP) Grade," "4.5 Grade" and "5.0 Grade."
+
+The carrier gas linear velocity affects the analysis in the same way that temperature does (see above).  The higher the linear velocity the faster the analysis, but the lower the separation between analytes.  Selecting the linear velocity is therefore the same compromise between the level of separation and length of analysis as selecting the column temperature. The linear velocity will be implemented by means of the carrier gas flow rate, with regards to the inner diameter of the column.
+
+With GCs made before the 1990s, carrier flow rate was controlled indirectly by controlling the carrier inlet pressure, or "column head pressure."  The actual flow rate was measured at the outlet of the column or the detector with an electronic flow meter, or a bubble flow meter, and could be an involved, time consuming, and frustrating process.  It was not possible to vary the pressure setting during the run, and thus the flow was essentially constant during the analysis. The relation between flow rate and inlet pressure is calculated with [[Hagen-Poiseuille equation#Poiseuille's equation for compressible fluids|Poiseuille's equation for compressible fluids]].
+
+Many modern GCs, however, electronically measure the flow rate, and electronically control the carrier gas pressure to set the flow rate.  Consequently, carrier pressures and flow rates can be adjusted during the run, creating pressure/flow programs similar to temperature programs.
+
+=== Stationary compound selection ===
+The [[Chemical polarity|polarity]] of the solute is crucial for the choice of stationary compound, which in an optimal case would have a similar polarity as the solute. Common stationary phases in open tubular columns are cyanopropylphenyl dimethyl polysiloxane, carbowax polyethyleneglycol, biscyanopropyl cyanopropylphenyl polysiloxane and diphenyl dimethyl polysiloxane. For packed columns more options are available.<ref name=":13" />
+
+=== Inlet types and flow rates ===
+The choice of inlet type and injection technique depends on if the sample is in liquid, gas, adsorbed, or solid form, and on whether a solvent matrix is present that has to be vaporized. Dissolved samples can be introduced directly onto the column via a COC injector, if the conditions are well known; if a solvent matrix has to be vaporized and partially removed, a S/SL injector is used (most common injection technique); gaseous samples (e.g., air cylinders) are usually injected using a gas switching valve system; adsorbed samples (e.g., on adsorbent tubes) are introduced using either an external (on-line or off-line) desorption apparatus such as a purge-and-trap system, or are desorbed in the injector (SPME applications).
+
+=== Sample size and injection technique ===
+
+==== Sample injection ====
+[[Image:GCruleof10.jpg|thumb|The rule of ten in gas chromatography]]
+
+The real chromatographic analysis starts with the introduction of the sample onto the column. The development of capillary gas chromatography resulted in many practical problems with the injection technique. The technique of on-column injection, often used with packed columns, is usually not possible with capillary columns. In the injection system in the capillary gas chromatograph the amount injected should not overload the column and
+the width of the injected plug should be small compared to the spreading due to the chromatographic process. Failure to comply with this latter requirement will reduce the separation capability of the column. As a general rule, the volume injected, V<sub>inj</sub>, and the volume of the detector cell, V<sub>det</sub>, should be about 1/10 of the volume occupied by the portion of sample containing the molecules of interest (analytes) when they exit the column.
+
+Some general requirements which a good injection technique should fulfill are that it should be possible to obtain the column's optimum separation efficiency, it should allow accurate and reproducible injections of small amounts of representative samples, it should induce no change in sample composition, it should not exhibit discrimination based on differences in boiling point, polarity, concentration or thermal/catalytic stability, and it should be applicable for trace analysis as well as for undiluted samples.
+
+However, there are a number of problems inherent in the use of syringes for injection. Even the best syringes claim an accuracy of only 3%, and in unskilled hands, errors are much larger. The needle may cut small pieces of rubber from the septum as it injects sample through it. These can block the needle and prevent the syringe filling the next time it is used. It may not be obvious that this has happened. A fraction of the sample may get trapped in the rubber, to be released during subsequent injections. This can give rise to ghost peaks in the chromatogram. There may be selective loss of the more volatile components of the sample by evaporation from the tip of the needle.<ref name="Grob" >{{cite book |author1=Grob, Robert L. |author2=Barry, Eugene F. | title = Modern Practice of Gas Chromatography (4th Ed.) | publisher = John Wiley & Sons| year = 2004 | isbn= 978-0-471-22983-4}}</ref>
+
+=== Column selection ===
+The choice of column depends on the sample and the active measured. The main chemical attribute regarded when choosing a column is the [[Chemical polarity|polarity]] of the mixture, but [[functional groups]] can play a large part in column selection. The polarity of the sample must closely match the polarity of the column stationary phase to increase [[resolution (chromatography)|resolution]] and separation while reducing run time. The separation and run time also depends on the film thickness (of the stationary phase), the column diameter and the column length.
+
+=== Column temperature and temperature program ===
+[[Image:GC Oven inside.jpg|thumb|A gas chromatography oven, open to show a capillary column]]
+
+The column(s) in a GC are contained in an oven, the temperature of which is precisely controlled electronically.  (When discussing the "temperature of the column," an analyst is technically referring to the temperature of the column oven.  The distinction, however, is not important and will not subsequently be made in this article.)
+
+The rate at which a sample passes through the column is directly proportional to the temperature of the column.  The higher the column temperature, the faster the sample moves through the column.  However, the faster a sample moves through the column, the less it interacts with the stationary phase, and the less the analytes are separated.
+
+In general, the column temperature is selected to compromise between the length of the analysis and the level of separation.
+
+A method which holds the column at the same temperature for the entire analysis is called "isothermal."  Most methods, however, increase the column temperature during the analysis, the initial temperature, rate of temperature increase (the temperature "ramp"), and final temperature are called the temperature program.
+
+A temperature program allows analytes that elute early in the analysis to separate adequately, while shortening the time it takes for late-eluting analytes to pass through the column.
+
+== Data reduction and analysis ==
+
+=== Qualitative analysis ===
+
+Generally, chromatographic data is presented as a graph of detector response (y-axis) against retention time (x-axis), which is called a chromatogram.  This provides a spectrum of peaks for a sample representing the [[analyte]]s present in a sample eluting from the column at different times.  Retention time can be used to identify analytes if the method conditions are constant.  Also, the pattern of peaks will be constant for a sample under constant conditions and can identify complex mixtures of analytes. However, in most modern applications, the GC is connected to a [[Mass spectrometry|mass spectrometer]] or similar detector that is capable of identifying the analytes represented by the peaks.
+
+=== Quantitative analysis ===
+
+The area under a peak is proportional to the amount of analyte present in the chromatogram.  By calculating the area of the peak using the mathematical function of [[integration (calculus)|integration]], the concentration of an analyte in the original sample can be determined.  Concentration can be calculated using a [[calibration curve]] created by finding the response for a series of concentrations of analyte, or by determining the [[Response factor|relative response factor]] of an analyte.  The relative response factor is the expected ratio of an analyte to an [[internal standard]] (or [[external standard]]) and is calculated by finding the response of a known amount of analyte and a constant amount of internal standard (a chemical added to the sample at a constant concentration, with a distinct retention time to the analyte).
+
+In most modern [[GC-MS]] systems, computer [[Chromatography software|software]] is used to draw and integrate peaks, and match [[mass spectrometry|MS]] spectra to library spectra.
+
+== Applications ==
+In general, substances that vaporize below 300&nbsp;°C (and therefore are stable up to that temperature) can be measured quantitatively. The samples are also required to be [[salt (chemistry)|salt]]-free; they should not contain [[ion]]s. Very minute amounts of a substance can be measured, but it is often required that the sample must be measured in comparison to a sample containing the pure, suspected substance known as a [[reference standard]].
+
+Various temperature programs can be used to make the readings more meaningful; for example to differentiate between substances that behave similarly during the GC process.
+
+Professionals working with GC analyze the content of a chemical product, for example in assuring the quality of products in the chemical industry; or measuring chemicals in soil, air or water, such as [[soil gas]]es.<ref>{{cite journal |last1=Kim |first1=D |last2=Vargas |first2=R |last3=Bond-Lamberty |first3=B |last4=Turetsky |first4=M |title=Effects of soil rewetting and thawing on soil gas fluxes: a review of current literature and suggestions for future research |journal=Biogeosciences |date=2012 |volume=9 |issue=7 |pages=3459–3483 |doi=10.5194/bg-9-2459-2012|bibcode=2012BGeo....9.2459K |doi-access=free }}</ref> GC is very accurate if used properly and can measure [[picomole]]s of a substance in a 1 ml liquid sample, or [[Parts per notation|parts-per-billion]] concentrations in gaseous samples.
+
+In practical courses at colleges, students sometimes get acquainted to the GC by studying the contents of [[Lavender]] oil or measuring the [[ethylene]] that is secreted by ''[[Nicotiana benthamiana]]'' plants after artificially injuring their leaves. These GC analyse hydrocarbons (C2-C40+). In a typical experiment, a packed column is used to separate the light gases, which are then detected with a [[thermal conductivity detector|TCD]].  The [[hydrocarbon]]s are separated using a capillary column and detected with a [[flame ionization detector|FID]].  A complication with light gas analyses that include H<sub>2</sub> is that He, which is the most common and most sensitive inert carrier (sensitivity is proportional to molecular mass) has an almost identical thermal conductivity to hydrogen (it is the difference in thermal conductivity between two separate filaments in a Wheatstone Bridge type arrangement that shows when a component has been eluted).  For this reason, dual TCD instruments used with a separate channel for hydrogen that uses nitrogen as a carrier are common.  Argon is often used when analysing gas phase chemistry reactions such as F-T synthesis so that a single carrier gas can be used rather than two separate ones.  The sensitivity is reduced, but this is a trade off for simplicity in the gas supply.
+
+Gas chromatography is used extensively in [[forensic science]]. Disciplines as diverse as solid drug dose (pre-consumption form) identification and quantification, arson investigation, paint chip analysis, and toxicology cases, employ GC to identify and quantify various biological specimens and crime-scene evidence.
+
+== See also ==
+*[[Analytical chemistry]]
+*[[Chromatography]]
+*[[Gas chromatography–mass spectrometry]]
+*[[Gas chromatography-olfactometry]]
+*[[High-performance liquid chromatography]]
+*[[Inverse gas chromatography]]
+*[[Proton transfer reaction mass spectrometry]]
+*[[Secondary electrospray ionization]]
+*[[Selected ion flow tube mass spectrometry]]
+*[[Standard addition]]
+*[[Thin layer chromatography]]
+*[[Unresolved complex mixture]]
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+{{commons category-inline}}
+*[https://chem.libretexts.org/Textbook_Maps/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Instrumental_Analysis/Chromatography/Chromatographic_Columns Chromatographic Columns] in the Chemistry LibreTexts Library
+*{{curlie|Science/Chemistry/Analytical/Separations_Science/Gas_Chromatography|Gas Chromatography}}
+<!-- Helpful and informative external sites should, in most cases, be referred to DMOZ instead of included in this Wikipedia page.  See WP:EL -->
+
+{{Branches of chemistry}}
+{{Analytical chemistry}}
+{{chromatography}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Gas Chromatography}}
+[[Category:Gas chromatography| ]]
+[[Category:Laboratory techniques]]
