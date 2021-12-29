@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dang, Quang Vinh
+          </author>
+          <author>
+            Ignat, Claudia Lavinia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>An end-to-end learning solution for assessing the quality of Wikipedia articles</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <isbn>9781450351874</isbn>
+      <electronic-resource-num>10.1145&#x2F;3125433.3125448</electronic-resource-num>
+      <abstract>Wikipedia is considered as the largest knowledge repository in the history of humanity and plays a crucial role in modern daily life. Assigning the correct quality class to Wikipedia articles is an important task in order to provide guidance for both authors and readers of Wikipedia. The manual review cannot cope with the editing speed of Wikipedia. An automatic classification is required to classify the quality of Wikipedia articles. Most existing approaches rely on traditional machine learning with manual feature engineering, which requires a lot of expertise and effort. Furthermore, it is known that there is no general perfect feature set because information leak always occurs in feature extraction phase. Also, for each language of Wikipedia, a new feature set is required. In this paper, we present an approach relying on deep learning for quality classification of Wikipedia articles. Our solution relies on Recurrent Neural Networks (RNN) which is an endto-end learning technique that eliminates disadvantages of feature engineering. Our approach learns directly from raw data without human intervention and is language-neutral. Experimental results on English, French and Russian Wikipedia datasets show that our approach outperforms state-of-the-art solutions.</abstract>
+      <publisher>Association for Computing Machinery, Inc</publisher>
+      <periodical><full-title>Proceedings of the 13th International Symposium on Open Collaboration, OpenSym 2017</full-title></periodical>
+      <keywords>
+        <keyword>Deep learning</keyword>
+        <keyword>Document quality</keyword>
+        <keyword>End-to-end learning</keyword>
+        <keyword>Long-Short Term Memory (LSTM)</keyword>
+        <keyword>Recurrent Neural Network (RNN)</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3125433.3125448</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dalip, Daniel Hasan
+          </author>
+          <author>
+            Gonçalves, Marcos André
+          </author>
+          <author>
+            Cristo, Marco
+          </author>
+          <author>
+            Calado, Pável
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Automatic quality assessment of content created collaboratively by web communities: A case study of wikipedia</title>
+      </titles>
+      <dates>
+        <year>2009</year>
+      </dates>
+      <pages>295-304</pages>
+      <isbn>9781605586977</isbn>
+      <electronic-resource-num>10.1145&#x2F;1555400.1555449</electronic-resource-num>
+      <abstract>The old dream of a universal repository containing all the human knowledge and culture is becoming possible through the Internet and the Web. Moreover, this is happening with the direct collaborative, participation of people. Wikipedia is a great example. It is an enormous repository of information with free access and edition, created by the community in a collaborative manner. However, this large amount of information, made available democratically and virtually without any control, raises questions about its relative quality. In this work we explore a significant number of quality indicators, some of them proposed by us and used here for the first time, and study their capability to assess the quality of Wikipedia articles. Furthermore, we explore machine learning techniques to combine these quality indicators into one single assessment judgment. Through experiments, we show that the most important quality indicators are the easiest ones to extract, namely, textual features related to length, structure and style. We were also able to determine which indicators did not contribute significantly to the quality assessment. These were, coincidentally, the most complex features, such as those based on link analysis. Finally, we compare our combination method with state-of-the-art solution and show significant improvements in terms of effective quality prediction. Copyright 2009 ACM.</abstract>
+      <periodical><full-title>Proceedings of the ACM&#x2F;IEEE Joint Conference on Digital Libraries</full-title></periodical>
+      <keywords>
+        <keyword>Machine learning</keyword>
+        <keyword>Quality assessment</keyword>
+        <keyword>SVM</keyword>
+        <keyword>User Issues] General Terms Human Factors</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikipedia</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Chevalier, Fanny
+          </author>
+          <author>
+            Huot, Stéphane
+          </author>
+          <author>
+            Fekete, Jean Daniel
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>WikipediaViz: Conveying article quality for casual wikipedia readers</title>
+      </titles>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <pages>49-56</pages>
+      <isbn>9781424466849</isbn>
+      <electronic-resource-num>10.1109&#x2F;PACIFICVIS.2010.5429611</electronic-resource-num>
+      <abstract>As Wikipedia has become one of the most used knowledge bases worldwide, the problem of the trustworthiness of the information it disseminates becomes central. With WikipediaViz, we introduce five visual indicators integrated to the Wikipedia layout that can keep casual Wikipedia readers aware of important meta-information about the articles they read. The design of WikipediaViz was inspired by two participatory design sessions with expert Wikipedia writers and sociologists who explained the clues they used to quickly assess the trustworthiness of articles. According to these results, we propose five metrics for Maturity and Quality assessment ofWikipedia articles and their accompanying visualizations to provide the readers with important clues about the editing process at a glance. We also report and discuss about the results of the user studies we conducted. Two preliminary pilot studies show that all our subjects trust Wikipedia articles almost blindly. With the third study, we show that WikipediaViz significantly reduces the time required to assess the quality of articles while maintaining a good accuracy.</abstract>
+      <periodical><full-title>IEEE Pacific Visualization Symposium 2010, PacificVis 2010 - Proceedings</full-title></periodical>
+      <keywords>
+        <keyword>Collaborative knowledge</keyword>
+        <keyword>Encyclopedia</keyword>
+        <keyword>Information visualization</keyword>
+        <keyword>Participatory design</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;221536224_WikipediaViz_Conveying_Article_Quality_for_Casual_Wikipedia_Readers</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Saengthongpattana, Kanchana
+          </author>
+          <author>
+            Soonthornphisaj, Nuanwan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Assessing the quality of Thai Wikipedia articles using concept and statistical features</title>
+      </titles>
+      <dates>
+        <year>2014</year>
+      </dates>
+      <volume>275 AISC</volume>
+      <pages>513-523</pages>
+      <issue>VOLUME 1</issue>
+      <isbn>9783319059501</isbn>
+      <electronic-resource-num>10.1007&#x2F;978-3-319-05951-8_49</electronic-resource-num>
+      <abstract>The quality evaluation of Thai Wikipedia articles relies on user consideration. There are increasing numbers of articles every day therefore the automatic evaluation method is needed for user. Components of Wikipedia articles such as headers, pictures, references, and links are useful to indicate the quality of articles. However readers need complete content to cover all of concepts in that article. The concept features are investigated in this work. The aim of this research is to classify Thai Wikipedia articles into two classes namely high-quality and low-quality class. Three article domains (Biography, Animal, and Place) are testes with decision tree and Naïve Bayes. We found that Naïve Bayes gets high TP Rate compared to decision tree in every domain. Moreover, we found that the concept feature plays an important role in quality classification of Thai Wikipedia articles. © Springer International Publishing Switzerland 2014.</abstract>
+      <publisher>Springer Verlag</publisher>
+      <periodical><full-title>Advances in Intelligent Systems and Computing</full-title></periodical>
+      <keywords>
+        <keyword>Concept feature</keyword>
+        <keyword>Decision tree</keyword>
+        <keyword>Naïve Bayes</keyword>
+        <keyword>Quality of Thai Wikipedia articles</keyword>
+        <keyword>Statistical feature</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;290603893_Assessing_the_Quality_of_Thai_Wikipedia_Articles_Using_Concept_and_Statistical_Features</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Su, Qi
+          </author>
+          <author>
+            Liu, Pengyuan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A psycho-lexical approach to the assessment of information quality on wikipedia</title>
+      </titles>
+      <dates>
+        <year>2016</year>
+          <pub-dates>
+            <date>2</date>
+          </pub-dates>
+      </dates>
+      <pages>184-187</pages>
+      <isbn>9781467396172</isbn>
+      <electronic-resource-num>10.1109&#x2F;WI-IAT.2015.23</electronic-resource-num>
+      <abstract>The great popularity of Wikipedia makes it one of the dominant knowledge source around the World. However, since one of the core principles of Wikipedia is being open for anyone to maintain it, Wikipedia cannot fully ensure the reliability of its articles, and thus sometimes suffered criticism for containing low-quality information. It is therefore essential to assess the quality of Wikipedia articles automatically. In this paper we describe how we approach that problem by using a psycho-lexical resource, i.e., the Language Inquiry and Word Count (LIWC) dictionary. By training a classifier on different LIWC categories, we discuss the implications of each category for Wikipedia quality assessment.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>Proceedings - 2015 IEEE&#x2F;WIC&#x2F;ACM International Joint Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2015</full-title></periodical>
+      <keywords>
+        <keyword>Information Quality</keyword>
+        <keyword>LIWC</keyword>
+        <keyword>User-generated Content</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;221023929_On_Measuring_the_Quality_of_Wikipedia_Articles</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dang, Quang Vinh
+          </author>
+          <author>
+            Ignat, Claudia Lavinia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Measuring quality of collaboratively edited documents: The case of Wikipedia</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+          <pub-dates>
+            <date>1</date>
+          </pub-dates>
+      </dates>
+      <pages>266-275</pages>
+      <isbn>9781509046072</isbn>
+      <electronic-resource-num>10.1109&#x2F;CIC.2016.42</electronic-resource-num>
+      <abstract>Wikipedia is a great example of large scale collaboration, where people from all over the world together build the largest and maybe the most important human knowledge repository in the history. However, a number of studies showed that the quality of Wikipedia articles is not equally distributed. While many articles are of good quality, many others need to be improved. Assessing the quality of Wikipedia articles is very important for guiding readers towards articles of high quality and suggesting authors and reviewers which articles need to be improved. Due to the huge size of Wikipedia, an effective automatic assessment method to measure Wikipedia articles quality is needed. In this paper, we present an automatic assessment method of Wikipedia articles quality by analyzing their content in terms of their format features and readability scores. Our results show improvements both in terms of accuracy and information gain compared with other existing approaches.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>Proceedings - 2016 IEEE 2nd International Conference on Collaboration and Internet Computing, IEEE CIC 2016</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.semanticscholar.org&#x2F;paper&#x2F;Measuring-Quality-of-Collaboratively-Edited-The-of-Dang-Ignat&#x2F;31f226174f2da4ceca288b93769371c388d6c4fb</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Bassani, Elias
+          </author>
+          <author>
+            Viviani, Marco
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Automatically assessing the quality of Wikipedia contents</title>
+      </titles>
+      <dates>
+        <year>2019</year>
+      </dates>
+      <volume>Part F147772</volume>
+      <pages>804-807</pages>
+      <isbn>9781450359337</isbn>
+      <electronic-resource-num>10.1145&#x2F;3297280.3297357</electronic-resource-num>
+      <abstract>With the development of Web 2.0 technologies, people have gone from being mere content users to content generators. In this context, the evaluation of the quality of (potential) information available online has become a crucial issue. Nowadays, one of the biggest online resources that users rely on as a knowledge base is Wikipedia. The collaborative aspect at the basis of Wikipedia can let to the possible creation of low-quality articles or even misinformation if the process of monitoring the generation and the revision of articles is not performed in a precise and timely way. For this reason, in this paper, the problem of automatically evaluating the quality of Wikipedia contents is considered, by proposing a supervised approach based on Machine Learning to perform the classification of articles on qualitative bases. With respect to prior literature, a wider set of features connected to Wikipedia articles has been taken into account, as well as previously unconsidered aspects connected to the generation of a labeled dataset to train the model, and the use of Gradient Boosting, which produced encouraging results.</abstract>
+      <publisher>Association for Computing Machinery</publisher>
+      <periodical><full-title>Proceedings of the ACM Symposium on Applied Computing</full-title></periodical>
+      <keywords>
+        <keyword>Information Quality</keyword>
+        <keyword>Machine Learning</keyword>
+        <keyword>Social Media</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Wang, Ping
+          </author>
+          <author>
+            Li, Xiaodan
+          </author>
+          <author>
+            Wu, Renli
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>4</date>
+          </pub-dates>
+      </dates>
+      <volume>47</volume>
+      <pages>176-191</pages>
+      <issue>2</issue>
+      <electronic-resource-num>10.1177&#x2F;0165551519877646</electronic-resource-num>
+      <abstract>Wikipedia is becoming increasingly critical in helping people obtain information and knowledge. Its leading advantage is that users can not only access information but also modify it. However, this presents a challenging issue: how can we measure the quality of a Wikipedia article? The existing approaches assess Wikipedia quality by statistical models or traditional machine learning algorithms. However, their performance is not satisfactory. Moreover, most existing models fail to extract complete information from articles, which degrades the model’s performance. In this article, we first survey related works and summarise a comprehensive feature framework. Then, state-of-the-art deep learning models are introduced and applied to assess Wikipedia quality. Finally, a comparison among deep learning models and traditional machine learning models is conducted to validate the effectiveness of the proposed model. The models are compared extensively in terms of their training and classification performance. Moreover, the importance of each feature and the importance of different feature sets are analysed separately.</abstract>
+      <publisher>SAGE Publications Ltd</publisher>
+      <periodical><full-title>Journal of Information Science</full-title></periodical>
+      <keywords>
+        <keyword>Deep learning</keyword>
+        <keyword>Wikipedia</keyword>
+        <keyword>feature framework</keyword>
+        <keyword>information quality assessment</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;336145185_A_deep_learning-based_quality_assessment_model_of_collaboratively_edited_documents_A_case_study_of_Wikipedia</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Velichety, Srikar
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Quality assessment of peer-produced content in knowledge repositories using big data and social networks: The case of implicit collaboration in wikipedia</title>
+      </titles>
+      <dates>
+        <year>2019</year>
+          <pub-dates>
+            <date>11</date>
+          </pub-dates>
+      </dates>
+      <volume>50</volume>
+      <pages>28-51</pages>
+      <issue>4</issue>
+      <electronic-resource-num>10.1145&#x2F;3371041.3371045</electronic-resource-num>
+      <abstract>This research provides a method for quality assessment of peer-produced content in knowledge repositories using a complementary view of collaboration. Using the definition of collaboration as the action of working with someone to produce something, we identify the aspects of collaboration that the present research on online communities does not consider. To this end, we introduce and define the concept of implicit collaboration and then identify two dimensions and four possible areas of collaboration. In each area, we identify the relevant social network that captures collaboration. Using customized measures on each of the networks that capture various aspects of collaboration, we quantify the utility of implicit collaboration in assessing article quality. Experiments conducted on the complete population of graded English language Wikipedia articles show that all the identified measures improve the predictive accuracy of the existing models by 11.89 percent while improving the class-wise precision by 9-18 percent and the class-wise recall by 5-26 percent. We also find that our method complements the existing quality assessment approaches well. Our research has implications for developing automated quality assessment methods for peer-produced content using big data and social networks.</abstract>
+      <publisher>Association for Computing Machinery</publisher>
+      <periodical><full-title>Data Base for Advances in Information Systems</full-title></periodical>
+      <keywords>
+        <keyword>Discussions</keyword>
+        <keyword>Edits</keyword>
+        <keyword>Implicit Collaboration</keyword>
+        <keyword>Social Networks</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Couto, Luís
+          </author>
+          <author>
+            Lopes, Carla Teixeira
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Assessing the quality of health-related Wikipedia articles with generic and specific metrics</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>4</date>
+          </pub-dates>
+      </dates>
+      <pages>640-647</pages>
+      <isbn>9781450383134</isbn>
+      <electronic-resource-num>10.1145&#x2F;3442442.3452355</electronic-resource-num>
+      <abstract>Wikipedia is an online, free, multi-language, and collaborative encyclopedia, currently one of the most significant information sources on the web the open nature of Wikipedia contributions raises concerns about the quality of its information. Previous studies have addressed this issue using manual evaluations and proposing generic measures for quality assessment. In this work, we focus on the quality of health-related content. For this purpose, we use general and health-specific features from Wikipedia articles to propose health-specific metrics. We evaluate these metrics using a set of Wikipedia articles previously assessed by WikiProject Medicine. We conclude that it is possible to combine generic and specific metrics to determine health-related content&#39;s information quality these metrics are computed automatically and can be used by curators to identify quality issues. Along with the explored features, these metrics can also be used in approaches that automatically classify the quality of Wikipedia health-related articles.</abstract>
+      <publisher>Association for Computing Machinery, Inc</publisher>
+      <periodical><full-title>The Web Conference 2021 - Companion of the World Wide Web Conference, WWW 2021</full-title></periodical>
+      <keywords>
+        <keyword>Health-related Content</keyword>
+        <keyword>Information Quality</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3442442.3452355</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dang, Quang Vinh
+          </author>
+          <author>
+            Ignat, Claudia Lavinia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Quality assessment of Wikipedia articles without feature engineering</title>
+      </titles>
+      <dates>
+        <year>2016</year>
+          <pub-dates>
+            <date>9</date>
+          </pub-dates>
+      </dates>
+      <volume>2016-September</volume>
+      <pages>27-30</pages>
+      <isbn>9781450342292</isbn>
+      <electronic-resource-num>10.1145&#x2F;2910896.2910917</electronic-resource-num>
+      <abstract>As Wikipedia became the largest human knowledge repository, quality measurement of its articles received a lot of attention during the last decade. Most research efforts focused on classification of Wikipedia articles quality by using a different feature set. However, so far, no &#39;golden feature set&#39; was proposed. In this paper, we present a novel approach for classifying Wikipedia articles by analysing their content rather than by considering a feature set. Our approach uses recent techniques in natural language processing and deep learning, and achieved a comparable result with the state-of-the-art.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>Proceedings of the ACM&#x2F;IEEE Joint Conference on Digital Libraries</full-title></periodical>
+      <keywords>
+        <keyword>Wikipedia</keyword>
+        <keyword>deep learning</keyword>
+        <keyword>document representation</keyword>
+        <keyword>feature engineering</keyword>
+        <keyword>quality assessment</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;2910896.2910917</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Antunes, Hélder
+          </author>
+          <author>
+            Lopes, Carla Teixeira
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Proposal and Comparison of Health Specific Features for the Automatic Assessment of Readability</title>
+      </titles>
+      <dates>
+        <year>2020</year>
+          <pub-dates>
+            <date>7</date>
+          </pub-dates>
+      </dates>
+      <pages>1973-1976</pages>
+      <isbn>9781450380164</isbn>
+      <electronic-resource-num>10.1145&#x2F;3397271.3401187</electronic-resource-num>
+      <abstract>Looking for health information is one of the most popular activities online. However, the specificity of language on this domain is frequently an obstacle to comprehension, especially for the ones with lower levels of health literacy. For this reason, search engines should consider the readability of health content and, if possible, adapt it to the user behind the search. In this work, we explore methods to assess the readability of health content automatically. We propose features capable of measuring the specificity of a medical text and estimate the knowledge necessary to comprehend it. The features are based on information retrieval metrics and the log-likelihood of a text with lay and medico-scientific language models. To evaluate our methods, we built and used a dataset composed of health articles of Simple English Wikipedia and the respective documents in ordinary Wikipedia. We achieved a maximum accuracy of 88% in binary classifications (easy versus hard-to-read). We found out that the machine learning algorithm does not significantly interfere with performance. We also experimented and compared different features combinations. The features using the values of the log-likelihood of a text with lay and medico-scientific language models perform better than all the others.</abstract>
+      <publisher>Association for Computing Machinery, Inc</publisher>
+      <periodical><full-title>SIGIR 2020 - Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval</full-title></periodical>
+      <keywords>
+        <keyword>consumer health search</keyword>
+        <keyword>machine learning</keyword>
+        <keyword>natural language processing</keyword>
+        <keyword>readability</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3397271.3401187</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Blumenstock, Joshua E.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Size matters: Word count as a measure of quality on Wikipedia</title>
+      </titles>
+      <dates>
+        <year>2008</year>
+      </dates>
+      <pages>1095-1096</pages>
+      <isbn>9781605580852</isbn>
+      <electronic-resource-num>10.1145&#x2F;1367497.1367673</electronic-resource-num>
+      <abstract>Wikipedia, &quot;the free encyclopedia&quot;, now contains over two million English articles, and is widely regarded as a high-quality, authoritative encyclopedia. Some Wikipedia articles, however, are of questionable quality, and it is not always apparent to the visitor which articles are good and which are bad. We propose a simple metric - word count - for measuring article quality. In spite of its striking simplicity, we show that this metric significantly outperforms the more complex methods described in related work.</abstract>
+      <periodical><full-title>Proceeding of the 17th International Conference on World Wide Web 2008, WWW&#39;08</full-title></periodical>
+      <keywords>
+        <keyword>Information quality</keyword>
+        <keyword>Wikipedia</keyword>
+        <keyword>Word count</keyword>
+        <keyword>word count</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;221023915_Size_matters_Word_count_as_a_measure_of_quality_on_Wikipedia</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Stein, Klaus
+          </author>
+          <author>
+            Hess, Claudia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Does it matter who contributes - A study on featured articles in the german wikipedia</title>
+      </titles>
+      <dates>
+        <year>2007</year>
+      </dates>
+      <pages>171-174</pages>
+      <isbn>1595938206</isbn>
+      <electronic-resource-num>10.1145&#x2F;1286240.1286290</electronic-resource-num>
+      <abstract>The considerable high quality of Wikipedia articles is often accredited to the large number of users who contribute to Wikipedia&#39;s encyclopedia articles, who watch articles and correct errors immediately. In this paper, we are in particular interested in a certain type of Wikipedia articles, namely, the featured articles - articles marked by a community&#39;s vote as being of outstanding quality. The German Wikipedia has the nice property that it has two types of featured articles: excellent and worth reading. We explore on the German Wikipedia whether only the mere number of contributors makes the difference or whether the high quality of featured articles results from having experienced authors contributing with a reputation for high quality contributions. Our results indicate that it does matter who contributes. Copyright 2007 ACM.</abstract>
+      <periodical><full-title>Hypertext 2007: Proceedings of the Eighteenth ACM Conference on Hypertext and Hypermedia, HT&#39;07</full-title></periodical>
+      <keywords>
+        <keyword>Collaborative working</keyword>
+        <keyword>Measures of quality and reputation</keyword>
+        <keyword>Statistical analysis of Wikipedia</keyword>
+        <keyword>Wiki</keyword>
+        <keyword>Wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1286240.1286290</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Wöhner, Thomas
+          </author>
+          <author>
+            Peters, Ralf
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Assessing the quality of Wikipedia articles with lifecycle based metrics</title>
+      </titles>
+      <dates>
+        <year>2009</year>
+      </dates>
+      <isbn>9781605587301</isbn>
+      <electronic-resource-num>10.1145&#x2F;1641309.1641333</electronic-resource-num>
+      <abstract>The main feature of the free online-encyclopedia Wikipedia is the wiki-tool, which allows viewers to edit the articles directly in the web browser. As a weakness of this openness for example the possibility of manipulation and vandalism cannot be ruled out, so that the quality of any given Wikipedia article is not guaranteed. Hence the automatic quality assessment has been becoming a high active research field. In this paper we offer new metrics for an efficient quality measurement. The metrics are based on the lifecycles of low and high quality articles, which refer to the changes of the persistent and transient contributions throughout the entire life span. Copyright © 2009 ACM.</abstract>
+      <periodical><full-title>Proceedings of the 5th International Symposium on Wikis and Open Collaboration, WiKiSym 2009</full-title></periodical>
+      <keywords>
+        <keyword>Persistent contribution</keyword>
+        <keyword>Quality assessment</keyword>
+        <keyword>Transient contribution</keyword>
+        <keyword>Wikipedia</keyword>
+        <keyword>Wikipedia lifecycle</keyword>
+        <keyword>quality assessment</keyword>
+        <keyword>transient contribution</keyword>
+        <keyword>web-based interaction; K43 [Computers and Society]: Organizational Impacts-Computer-supported collaborative work General Terms Measurement</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1641309.1641333</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Lipka, Nedim
+          </author>
+          <author>
+            Stein, Benno
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Identifying featured articles in Wikipedia: Writing style matters</title>
+      </titles>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <pages>1147-1148</pages>
+      <isbn>9781605587998</isbn>
+      <electronic-resource-num>10.1145&#x2F;1772690.1772847</electronic-resource-num>
+      <abstract>Wikipedia provides an information quality assessment model with criteria for human peer reviewers to identify featured articles. For this classification task &quot;Is an article featured or not?&quot; we present a machine learning approach that exploits an article&#39;s character trigram distribution. Our approach differs from existing research in that it aims to writing style rather than evaluating meta features like the edit history. The approach is robust, straightforward to implement, and outperforms existing solutions. We underpin these claims by an experiment design where, among others, the domain transferability is analyzed. The achieved performances in terms of the F-measure for featured articles are 0.964 within a single Wikipedia domain and 0.880 in a domain transfer situation. © 2010 Copyright is held by the author&#x2F;owner(s).</abstract>
+      <periodical><full-title>Proceedings of the 19th International Conference on World Wide Web, WWW &#39;10</full-title></periodical>
+      <keywords>
+        <keyword>Information Quality</keyword>
+        <keyword>domain transfer</keyword>
+        <keyword>information quality</keyword>
+        <keyword>wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1772690.1772847</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            De La Calzada, Gabriel
+          </author>
+          <author>
+            Dekhtyar, Alex
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>On measuring the quality of wikipedia articles</title>
+      </titles>
+      <dates>
+        <year>2010</year>
+      </dates>
+      <pages>11-18</pages>
+      <isbn>9781605589404</isbn>
+      <electronic-resource-num>10.1145&#x2F;1772938.1772943</electronic-resource-num>
+      <abstract>This paper discusses an approach to modeling and measuring information quality of Wikipedia articles. The approach is based on the idea that the quality of Wikipedia articles with distinctly different profiles needs to be measured using different information quality models. We report on our initial study, which involved two categories of Wikipedia articles: &quot; stabilized&quot; (those, whose content has not undergone major changes for a significant period of time) and &quot;controversial&quot; (the articles, which have undergone vandalism, revert wars, or whose content is subject to internal discussions between Wikipedia editors). We present simple information quality models and compare their performance on a subset of Wikipedia articles with the information quality evaluations provided by human users. Our experiment shows, that using special-purpose models for information quality captures user sentiment about Wikipedia articles better than using a single model for both categories of articles. © 2010 ACM.</abstract>
+      <periodical><full-title>Proceedings of the 4th Workshop on Information Credibility, WICOW &#39;10</full-title></periodical>
+      <keywords>
+        <keyword>models</keyword>
+        <keyword>quality</keyword>
+        <keyword>wikipedia</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1772938.1772943</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Stvilia, B
+          </author>
+          <author>
+            Twidale, MB
+          </author>
+          <author>
+            Culture, L Gasser
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Information quality in a community-based encyclopedia</title>
+      </titles>
+      <dates>
+        <year>2005</year>
+      </dates>
+      <abstract>Effective information quality analysis needs powerful yet easy ways to obtain metrics. The English version of Wikipedia provides an extremely interesting yet challenging case for the study of Information Quality dynamics at both macro and micro levels. We propose seven IQ metrics which can be evaluated automatically and test the set on a representative sample of Wikipedia content. The methodology of the metrics construction and the results of tests, along with a number of statistical characterizations of Wikipedia articles, their content construction, process metadata and social context are reported.</abstract>
+      <periodical><full-title>World Scientific</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;www.worldscientific.com&#x2F;doi&#x2F;abs&#x2F;10.1142&#x2F;9789812701527_0009</url>
+        </related-urls>
+      </urls>
+    </record>
+  </records>
+</xml>
