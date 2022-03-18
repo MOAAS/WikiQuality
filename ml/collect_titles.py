@@ -42,14 +42,14 @@ def getWikiQualityPages(category, filename, isPageList = False):
         
 
 # Start Articles take the longest to collect, Stubs and Cs too
-#getWikiQualityPages("Category:Featured_articles", "FA.txt", True)
-#getWikiQualityPages("Category:FL-Class_articles", "FL.txt")
-#getWikiQualityPages("Category:A-Class_articles", "A.txt")
+getWikiQualityPages("Category:Featured_articles", "FA.txt", True)
+getWikiQualityPages("Category:FL-Class_articles", "FL.txt")
+getWikiQualityPages("Category:A-Class_articles", "A.txt")
 getWikiQualityPages("Category:Wikipedia_good_articles", "GA.txt")
-#getWikiQualityPages("Category:B-Class_articles", "B.txt")
-#getWikiQualityPages("Category:C-Class_articles", "C.txt")
-#getWikiQualityPages("Category:Start-Class_articles", "Start.txt")
-#getWikiQualityPages("Category:All_stub_articles", "Stub.txt", True)
+getWikiQualityPages("Category:B-Class_articles", "B.txt")
+getWikiQualityPages("Category:C-Class_articles", "C.txt")
+getWikiQualityPages("Category:Start-Class_articles", "Start.txt")
+getWikiQualityPages("Category:All_stub_articles", "Stub.txt", True)
 
 
 

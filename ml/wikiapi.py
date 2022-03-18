@@ -7,17 +7,33 @@ headers = {
     'User-Agent': 'WikiQualityDatasetCollector/1.0 (up201705208@edu.fe.up.pt)',
 }
 
-def getWikiPage(titles):
-    #join titles
-    titles = '|'.join(titles)
+def encodeToURL(title):
+    # replace spaces with underscores and & with %26
+    return title.replace(' ', '_').replace('&', '%26')
 
-    url = f'{WIKI_API_URL}&action=parse&page={titles}&prop=wikitext|sections'
+def getWikiPageText(title):    
+    url = f'{WIKI_API_URL}&action=parse&page={encodeToURL(title)}&prop=wikitext|sections'
+
+    res = requests.get(url, headers=headers).json()        
+
+    if 'error' in res:
+        print(f'Error while fetching page ({title}): {res["error"]["info"]}')
+        return ''
+    return res['parse']['wikitext']
+
+def getWikiPages(titles):
+    url = f'{WIKI_API_URL}&action=query&prop=revisions&titles={encodeToURL(titles)}&rvprop=content&rvslots=*'
 
     res = requests.get(url, headers=headers).json()
+    pages = res['query']['pages']
 
-       
-    return res
-    
+    # get page text
+    pageText = {}
+    for page in pages:
+        pageText[page['title']] = page['revisions'][0]['slots']['main']['content']
+
+    return pageText
+
 def getWikiCategoryMembers(category):
     if not category.startswith('Category:'):
         print(f"Warning: Input invalid category name ({category})")
