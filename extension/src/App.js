@@ -1,19 +1,19 @@
 
 import './App.css';
 import { useState } from 'react';
-import { getPageContent } from './WikiAPI';
-import { extensionUpdatePageBackgroundColor } from './ExtensionTest';
+import axios from 'axios';
 
+const API_URL = "http://localhost:5000/evaluate/";
 function App() {
+  const [titleInput, setTitleInput] = useState("")
+
+  const [quality, setQuality] = useState("")
   const [title, setTitle] = useState("")
 
-  const [text, setText] = useState("")
-
-  function doWikipediaStuff() {    
-    getPageContent(title).then(res => {
-
-      setText("Quality: Very good! " + res.parse.wikitext)
-      console.log(res);
+  function doWikipediaStuff() { 
+    axios.get(API_URL + titleInput).then(res => {
+      setTitle(res.data.title);
+      setQuality(res.data.quality);
     })
 
   }
@@ -27,14 +27,20 @@ function App() {
       </div> */}
 
       <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "8px"}}>
-        <input name="title" value={title} onChange={e => setTitle(e.target.value)}/>    
+        <input name="title" value={titleInput} onChange={e => setTitleInput(e.target.value)}/>    
 
         <button onClick={doWikipediaStuff}>Do Wiki</button>
 
         {/* <button onClick={extensionUpdatePageBackgroundColor}>Change Color (test)</button> */}
       </div>
 
-      <p>{text}</p>
+      {quality && (
+        <div>
+          <h2>{title}</h2>
+          <p>Quality: {quality}</p>
+        </div>
+      )}
+
 
     </div>
   );

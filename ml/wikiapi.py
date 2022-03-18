@@ -19,6 +19,7 @@ def getWikiPageText(title):
     if 'error' in res:
         print(f'Error while fetching page ({title}): {res["error"]["info"]}')
         return ''
+        
     return res['parse']['wikitext']
 
 def getWikiPages(titles):
