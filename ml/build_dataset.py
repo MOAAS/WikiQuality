@@ -1,8 +1,8 @@
-from fileinput import filename
-
-from matplotlib.pyplot import title
-import wikiapi
 import random
+
+from fileinput import filename
+from matplotlib.pyplot import title
+from features import FEATURE_HEADERS, compute_features
 
 partition = {
     'FA': 40,
@@ -14,14 +14,6 @@ partition = {
     'Start': 40,
     'Stub': 40,   
 }
-
-
-FEATURE_HEADERS = ["Title Length", "Text Length", "Quality"]
-
-# Some features may be calculated using specific api calls (e.g. query -> contributors)
-
-def compute_features(title):
-    return [len(title), len(wikiapi.getWikiPageText(title))]
 
 train = []
 test = []
@@ -55,4 +47,3 @@ with open('datasets/train.csv', 'w', encoding='utf-8') as ftrain, open('datasets
         ftest.write(','.join(str(x) for x in row) + '\n')
 
 
-# Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
