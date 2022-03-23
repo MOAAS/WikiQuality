@@ -21,5 +21,9 @@ def hello_name(title):
     features = compute_features(title)
     features = features_to_dataframe(features)
     quality = model.predict(features)[0]
+
+    # wikipedia url title to clean title
+    # https://en.wikipedia.org/wiki/Title_convention
+    
     
     return {"title": title, "quality": quality}

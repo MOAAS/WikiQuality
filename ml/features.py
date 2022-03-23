@@ -7,6 +7,7 @@ FEATURE_HEADERS = ["Title Length", "Text Length", "Quality"]
 # Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
 
 def compute_features(title):
+    
     return [len(title), len(wikiapi.getWikiPageText(title))]
 
 def features_to_dataframe(feature_list):

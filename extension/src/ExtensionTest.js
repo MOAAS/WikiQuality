@@ -12,3 +12,7 @@ export async function extensionUpdatePageBackgroundColor() {
       });  
   }
   
+export async function getTabURL() {
+  let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
+  return tab.url;
+}
