@@ -9,26 +9,26 @@ Id,Included,Reason
 12,Yes,-
 13,Yes,-
 14,Yes,-
-15,No,Same study as 13
+15,Yes,Same study as 13
 16,Yes,-
-17,No,"Does not discuss article features, focuses on disproving the theory 'different levels of, quality are evenly spaced from one another'".
+17,No,"Does not discuss article features or algorithms, focuses on disproving the theory 'different levels of, quality are evenly spaced from one another'".
 18,No,Does not explain used features and used algorithms.
 19,Yes,-
 21,No,Manual measurement of quality (number of facts).
 25,No,"Measures quality of edits, not the articles. Does not propose any metrics or algorithms, and validates it with human raters".
 26,No,Uses the metrics to directly output the quality and not for ML.
-28,No,Only focuses on features specific to health (health words).
-29,No,"Unique approach (ant colony optimization to identify quality), but is still rudimentary. Does not propose any quality features".
+28,Yes,Only focuses on features specific to health (health words).
+29,Yes,"Unique approach (ant colony optimization to identify quality), but is still rudimentary. Does not propose any quality features".
 33,Yes,-
 36,No,"Little emphasis is given to predicting Wikipedia quality, more to evaluate correlation between a few criteria (e.g # of edits) and quality".
-38,No,"Measures quality of edits/reviews, not Wikipedia articles, and does so with insufficient detail."
-39,No,No emphasis on machine learning approaches.
-41,No,No focus on ML and little detailing of experimentation and results.
-42,No,Measures quality of the contributions, not the articles.
+38,Yes,"Measures quality of edits/reviews, not Wikipedia articles, and does so with insufficient detail."
+39,Yes,No emphasis on machine learning approaches.
+41,Yes,No focus on ML and little detailing of experimentation and results.
+42,No,"Measures quality of the contributions, not the articles, and does so without ML."
 45,Yes,−
-48,No,More focused on edit quality and barely discusses ML.
+48,Yes,More focused on edit quality and barely discusses ML.
 49,No,Uses volunteers to manually assess trustworthiness of articles
-51,No,"Focus of the paper is on computing trust of edits, not articles."
+51,No,"Focus of the paper is on computing trust of edits, not articles. Does not mention features or ML."
 52,Yes,−
 53,No,"The study proposes metrics evaluating for user edits, not articles."
 56,No,"Unrelated to our research goals, since its focused visualization of trustworthiness, not measurement."
@@ -37,4 +37,4 @@ Id,Included,Reason
 64,Yes −
 65,No,"Discusses subjective trustworthiness ideals, not quality measures."
 68,No,The goal is to predict article controversy (e.g revert wars).
-69,No,"Does not propose any feature metric, and is very similar to study 64"
+69,Yes,"Does not propose any feature metric, or work with ML."

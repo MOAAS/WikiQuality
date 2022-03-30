@@ -1,6 +1,6 @@
 Shape: Circle
 Fonts: Raleway, Helvetica, Courier New
 Colors: 
- - BG: White
- - Mask: 0, 0, 0, 0.1
+ - BG: Transparent
+ - Mask: Transparent
  - Words: #373833 #FA2742

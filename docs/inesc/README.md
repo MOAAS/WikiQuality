@@ -14,7 +14,7 @@ screening.csv: Lists the publications that were assessed in the final Screening 
 
 eligibility.csv: Lists the publications that were assessed in the Eligibility phase of the Literature Review process, where we read the full text of each paper. For each ID, we indicate whether we included the article in the following phase, and a short explanation for the exclusions. 
 
-included.csv: Lists the relevance scores for all of the included papers. The CSV will contain the IDs and the scores for each question. The four questions and their score ranges can be summarized as:
+inclusion.csv: Lists the relevance scores for all of the included papers. The CSV will contain the IDs and the scores for each question. The four questions and their score ranges can be summarized as:
 - Q1. Discussion of Features ([0 − 3])
 - Q2. Discussion of ML approaches ([0 − 3])
 - Q3. Discussion of Results ([0 − 3])

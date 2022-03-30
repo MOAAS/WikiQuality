@@ -6,10 +6,17 @@ Information Quality, Social~Media, Machine~Learning, Wikipedia,
 Deep~learning, feature framework, Information Quality Assessment, Wikipedia,
 Implicit~Collaboration, Wikipedia,  Social~Networks, Edits, Discussions,
 Information Quality, Wikipedia, Health-related~Content,
-Quality Assessment, Wikipedia, feature engineering, Document~Eepresentation, deep~learning,
+Quality Assessment, Wikipedia, feature engineering, Document~Representation, deep~learning,
 Wikipedia, Information Quality, word~count,
 Wikipedia, Information Quality, Domain~Transfer,
 Wikipedia, quality, models,
+Consumer~Health~Search, Readability, Machine~learning, Natural~language~processing,
+ant~colony~optimization, bio-inspired, content~management, reputation~paradigm, quality measurement, Wikipedia, Wiki,
+Wikipedia, Peer, Peer~Review, WikiWork, Experience, Ownership, Quality,
+wiki, Wikipedia, measures of quality and reputation, statistical analysis of Wikipedia, collaborative~working,
+Wikipedia, quality assessment, Wikipedia lifecycle, transient~contribution, persistent~contribution,
+
+
 
 
 
