@@ -1,3 +1,4 @@
+from numpy import column_stack
 import pandas as pd
 import re
 from wikitext_cleaner import clean_wikitext, remove_html_tag, remove_br
@@ -8,7 +9,11 @@ from statistics import stdev
 # Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
 
 def features_to_dataframe(feature_list):
-    return pd.DataFrame([feature_list], columns=FEATURE_HEADERS[:-1])
+    # FEATURE_HEADERS without title or quality
+    columns = FEATURE_HEADERS[1:]
+    columns = columns[:-1]   
+    
+    return pd.DataFrame([feature_list], columns=columns)
 
 def compute_features(title, wikitext):
     plaintext = clean_wikitext(wikitext, title, writeToFile=False)
