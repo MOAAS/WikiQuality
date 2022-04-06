@@ -24,10 +24,10 @@ def evaluate(title):
 
     wikitext = wikiapi.getWikiText(title)
     features = compute_features(title, wikitext)
-    features = features_to_dataframe(features)
-    quality = model.predict(features)[0]    
-    
-    return {"title": title, "quality": quality}
+    features_df = features_to_dataframe(features)
+    quality = model.predict(features_df)[0]
+
+    return {"title": title, "quality": str(quality), "features": features}
 
 @app.route("/features/<title>")
 def features(title):

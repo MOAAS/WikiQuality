@@ -67,7 +67,7 @@ def remove_pattern_with_matching_brackets(string, starting_pattern, bracket_open
                     print("We're missing a closing |} somewhere, but it's ok... We're going to try and find that :P")
                     end_index = string.find('\n\n', start_index)  # find empty line from start_index
                 else:
-                    print("Warning... Did not find end of pattern with matching brackets...\n")
+                    print("Warning: Did not find end of pattern with matching brackets...")
                     has_failed = True
                 break
             

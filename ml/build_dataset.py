@@ -6,28 +6,33 @@ from matplotlib.pyplot import title
 from features import FEATURE_HEADERS, compute_features, clean_wikitext
 
 partition = {
-    'FA': 400,
-    'FL': 0,
-    'A': 400,
-    'GA': 400,
-    'B': 400,
-    'C': 400,
-    'Start': 400,
-    'Stub': 400,   
+    'FA': 4000,   
+    'FL': 0,     
+    'A': 750,    
+    'GA': 4000,   
+    'B': 4000,    
+    'C': 4000,     
+    'Start': 4000,
+    'Stub': 4000, 
 }
+
+quality_values = { 'FA': 6, 'FL': 6, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
 
 train = []
 test = []
 
-# Collect random titles from each file
+build_regression_dataset = True
+
 for quality in partition:
     filename = f'ml/titles/{quality}.txt'
-    print(f'Collecting {partition[quality]} random titles from {filename}')
     with open(filename, 'r', encoding='utf-8') as f:
+        # Collect random titles from each file
+        print(f'Collecting {partition[quality]} random titles from {filename}')
         titles = f.read().split('\n')
         random.shuffle(titles)
         titles = titles[:partition[quality]]
 
+        # Collect wikitexts
         wikitexts = wikiapi.getMultiWikiText(titles)
         
     # 70% to train.csv 30% to test.csv
@@ -39,29 +44,23 @@ for quality in partition:
                 continue
             features = {
                 "Title": title,
-                "Quality": quality,
+                "Quality": quality_values[quality] if build_regression_dataset else quality,
                 **compute_features(title, wikitext)
             }
         except Exception as e:
             with open(f'ml/log/ERROR-BUILD-DATASET.txt', 'w', encoding='utf-8') as f:
                 print("Error on title: " + title + "... Writing to log file")
-                print(wikitexts[title])
-                f.write("ERROR BUILDING DATASET\n\n")
-                f.write("TITLE: ")
-                f.write(title)
-                f.write('\n\nURL: https://en.wikipedia.org/wiki/' + title.replace(' ', '_') + '\n\n')
+                f.write("ERROR BUILDING DATASET\n\n TITLE: " + title + "\n\n")
+                f.write('URL: https://en.wikipedia.org/wiki/' + title.replace(' ', '_') + '\n\n')
                 f.write("======================= ========== =======================\n")
                 f.write("==================== ORIGINAL WIKITEXT ===================\n")
                 f.write("======================= ========== =======================\n")
                 wikitext = wikiapi.getWikiText(title)
-                f.write(wikitext)
-                f.write("\n\n")
+                f.write(wikitext + "\n\n")
                 f.write("======================= ========== ==========================\n")
                 f.write("======================= PLAIN TEXT ==========================\n")
                 f.write("======================= ========== ==========================\n")
-                plaintext = clean_wikitext(wikitext, title, writeToFile=False)
-                f.write(plaintext)
-                
+                f.write(clean_wikitext(wikitext, title))                
             raise
 
         if i < partition[quality] * 0.7:
@@ -69,23 +68,22 @@ for quality in partition:
         else:
             test.append(features)
 
-# open train.csv and test.csv and write to them
-with open('ml/datasets/train.csv', 'w', encoding='utf-8') as ftrain, open('ml/datasets/test.csv', 'w', encoding='utf-8') as ftest:
+def write_features(dataset, file):
+    for dict in dataset:
+        line = ','.join(['"' + str(dict[key]) + '"' for key in FEATURE_HEADERS])
+        file.write(line + '\n')
+                
+        missing_features = set(FEATURE_HEADERS) - set(dict.keys())
+        if missing_features:
+            print(f'Missing features: {missing_features} (dict{str(dict)})')
+            raise Exception('Missing features')
 
+# open train.csv and test.csv and write to them
+datasets_folder = 'ml/datasets'
+with open(datasets_folder + '/train.csv', 'w', encoding='utf-8') as ftrain, open(datasets_folder + '/test.csv', 'w', encoding='utf-8') as ftest:
     ftrain.write(','.join(FEATURE_HEADERS) + '\n')   
     ftest.write(','.join(FEATURE_HEADERS) + '\n')
 
-    def write_features(dataset, file):
-        for dict in dataset:
-            line = ','.join(['"' + str(dict[key]) + '"' for key in FEATURE_HEADERS])
-            file.write(line + '\n')
-                    
-            missing_features = set(FEATURE_HEADERS) - set(dict.keys())
-            if missing_features:
-                print(f'Missing features: {missing_features} (dict{str(dict)})')
-                raise Exception('Missing features')
-
     write_features(train, ftrain)
     write_features(test, ftest)    
-
 

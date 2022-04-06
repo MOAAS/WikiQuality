@@ -2,7 +2,6 @@ import sklearn
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier
 
 # load the dataset
 dataset_folder = 'ml/datasets'
@@ -16,18 +15,40 @@ y_train = train['Quality']
 x_test = test.drop(['Quality', 'Title'], axis=1)
 y_test = test['Quality']
 
-# train with decision tree
-clf = DecisionTreeClassifier(random_state=0)
-clf.fit(x_train, y_train)
+# Train and test models
+from sklearn.linear_model import LinearRegression
+from sklearn.svm import SVR
+from sklearn.tree import DecisionTreeClassifier
 
-# test model
-y_pred = clf.predict(x_test)
-print(sklearn.metrics.classification_report(y_test, y_pred))
+models = {
+    'linreg':  LinearRegression(),
+    'svr': SVR(kernel='rbf', C=1e3, gamma=0.1),
+    'tree': DecisionTreeClassifier(criterion='entropy', random_state=0)
+}
 
-# save model with pickle
+used_model = 'tree'
+model = models[used_model]
+model.fit(x_train, y_train)
+y_pred = model.predict(x_test)
+
+# Print report
+import sklearn.metrics as metrics
+
+def print_regression_report(y, y_pred):
+    print('Mean squared error: %.2f' % metrics.mean_squared_error(y, y_pred))
+    print('Explained variance score: %.2f' % metrics.explained_variance_score(y, y_pred))
+    print('R2 score: %.2f' % metrics.r2_score(y, y_pred))
+
+
+def print_classification_report(y, y_pred):
+    print(metrics.classification_report(y, y_pred))
+
+print_classification_report(y_test, y_pred)
+
+# Save model 
 import pickle
-with open('ml/models/decision_tree.pkl', 'wb') as f:
-    pickle.dump(clf, f)
+with open('ml/models/' + used_model + '.pkl', 'wb') as f:
+    pickle.dump(model, f)
 
 
 

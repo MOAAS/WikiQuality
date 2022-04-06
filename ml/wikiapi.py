@@ -1,58 +1,42 @@
 import requests
 
-#### WIKIPEDIA API ####
-
 WIKI_API_URL = 'https://en.wikipedia.org/w/api.php?formatversion=2&format=json'
 headers = {
     'User-Agent': 'WikiQualityDatasetCollector/1.0 (up201705208@edu.fe.up.pt)',
 }
 
-def encodeToURL(title):
-    # replace spaces with underscores and & with %26
-    return title.replace(' ', '_').replace('&', '%26')
 
-#def getWikiText(title):    
-#    res = requests.get(WIKI_API_URL, headers=headers, params={
-#        'action': 'parse',
-#        'page': title,
-#        'prop': 'wikitext|sections',
-#        'explaintext': 'True',
-#        'exsectionformat': 'plain',
-#    }).json()     
-#
-#    if 'error' in res:
-#        print(f'Error while fetching page ({title}): {res["error"]["info"]}')
-#        return ''
-#        
-#    return res['parse']['wikitext']
+# def getPlainText(title):
+#    return getMultiPlainText([title])[title]
 
-def getPlainText(title):
-    return getMultiPlainText([title])[title]
-
-def getMultiPlainText(titles):
-    titles = '|'.join(titles)
-    res = requests.get(WIKI_API_URL, headers=headers, params={
-        'action': 'query',
-        'titles': titles,
-        'prop': 'extracts',
-        'explaintext': 'True',
-        'exsectionformat': 'plain',
-    }).json()
-
-    if 'error' in res:
-        print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
-        return ''
-
-    pages = res['query']['pages']
-    pageText = {}
-    for page in pages:
-        pageText[page['title']] = page['extract']
-        
-    return pageText
+# def getMultiPlainText(titles):
+#     titles = '|'.join(titles)
+#     res = requests.get(WIKI_API_URL, headers=headers, params={
+#         'action': 'query',
+#         'titles': titles,
+#         'prop': 'extracts',
+#         'explaintext': 'True',
+#         'exsectionformat': 'plain',
+#     }).json()
+# 
+#     if 'error' in res:
+#         print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
+#         return ''
+# 
+#     pages = res['query']['pages']
+#     pageText = {}
+#     for page in pages:
+#         pageText[page['title']] = page['extract']
+#         
+#     return pageText
 
 
 def getWikiText(title):
-    return getMultiWikiText([title])[title]
+    res = getMultiWikiText([title])
+    # return the only item in the dictionary. using res[title] does not always work,
+    # because the title may be formatted slightly differently. this ensures that this call never fails
+    key = list(res.keys())[0]
+    return res[key]
 
 def getMultiWikiText(titles):
     pages = {}
@@ -70,6 +54,7 @@ def getMultiWikiText(titles):
 def getMultiWikiTextMax50(titles):
     assert len(titles) <= 50
 
+    # replace all underscores in titles with spaces
     titles = '|'.join(titles)
 
     res = requests.get(WIKI_API_URL, headers=headers, params={
@@ -83,6 +68,7 @@ def getMultiWikiTextMax50(titles):
     if 'error' in res:
         print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
         return ''
+
 
     pages = res['query']['pages']
     pageText = {}
