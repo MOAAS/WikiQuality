@@ -1,0 +1,403 @@
+{{DISPLAYTITLE:''e'' (mathematical constant)}}
+{{Short description|2.71828..., base of natural logarithms}}
+{{Redirect|Euler's number|other uses|List of things named after Leonhard Euler#Numbers}}
+{{Redirect|E (number)|codes of food additives|E number|the hexadecimal digit |Hexadecimal}}
+{{pp-move-indef|small=yes}}
+[[File:hyperbola E.svg|thumb|237px|right|Graph of the equation {{Math|1=''y'' = 1/''x''}}. Here, {{mvar|e}} is the unique number larger than 1 that makes the shaded area equal to 1.]]
+{{e (mathematical constant)}}
+
+The number '''{{mvar|e}}''', also known as '''Euler's number''', is a [[mathematical constant]] approximately equal to 2.71828 which can be characterized in many ways. It is the [[base of a logarithm|base]] of the [[natural logarithm]]s. It is the [[Limit of a sequence|limit]] of {{math|(1 + 1/''n'')<sup>''n''</sup>}} as {{mvar|n}} approaches infinity, an expression that arises in the study of [[compound interest]]. It can also be calculated as the sum of the infinite [[Series (mathematics)|series]]
+<math display ="block">e =  \sum\limits_{n = 0}^{\infty} \frac{1}{n!} = 1 + \frac{1}{1} + \frac{1}{1\cdot 2} + \frac{1}{1\cdot 2\cdot 3} + \cdots.</math>
+
+It is also the unique positive number {{mvar|a}} such that the graph of the function {{math|1=''y'' = ''a''<sup>''x''</sup>}} has a [[slope]] of 1 at {{math|1=''x'' = 0}}.
+
+The (natural) [[exponential function]] {{math|1=''f''(''x'') = ''e''<sup>''x''</sup>}} is the unique function {{mvar|f}} that equals its own [[derivative]] and satisfies the equation {{math|1=''f''(0) = 1}}; hence one can also define {{mvar|e}} as {{math|1=''f''(1)}}. The natural logarithm, or logarithm to base {{mvar|e}}, is the [[inverse function]] to the natural exponential function. The natural logarithm of a number {{math|''k'' > 1}} can be defined directly as the [[integral|area under]] the curve {{math|1=''y'' = 1/''x''}} between {{math|1=''x'' = 1}} and {{math|1=''x'' = ''k''}}, in which case {{mvar|e}} is the value of {{math|''k''}} for which this area equals one (see image). There are various [[#Alternative characterizations|other characterizations]].
+
+{{mvar|e}} is sometimes called '''Euler's number''' (not to be confused with [[Euler's constant]] <math>\gamma</math>), after the Swiss mathematician [[Leonhard Euler]], or '''Napier's constant'''.<ref name=":1">{{Cite web|last=Weisstein|first=Eric W.|title=e|url=https://mathworld.wolfram.com/e.html|access-date=2020-08-10|website=mathworld.wolfram.com|language=en|ref=mathworld}}</ref> The constant was discovered by the Swiss mathematician [[Jacob Bernoulli]] while studying compound interest.<ref name="Pickover">{{cite book |title=The Math Book: From Pythagoras to the 57th Dimension, 250 Milestones in the History of Mathematics |edition=illustrated |first1=Clifford A. |last1=Pickover |publisher=Sterling Publishing Company |year=2009 |isbn=978-1-4027-5796-9 |page=166 |url=https://books.google.com/books?id=JrslMKTgSZwC}} [https://books.google.com/books?id=JrslMKTgSZwC&pg=PA166 Extract of page 166]</ref><ref name="OConnor">{{cite web|url=<!-- http://www.gap-system.org/~history/PrintHT/e.html -->http://www-history.mcs.st-and.ac.uk/HistTopics/e.html|title=The number ''e''|publisher=MacTutor History of Mathematics|first1=J J|last1=O'Connor|first2=E F|last2=Robertson}}</ref>
+
+The number {{mvar|e}} is of great importance in mathematics,<ref>{{cite book|title = An Introduction to the History of Mathematics|url = https://archive.org/details/introductiontohi00eves_0|url-access = registration|author = Howard Whitley Eves|year = 1969|publisher = Holt, Rinehart & Winston|isbn =978-0-03-029558-4}}</ref>{{pn|date=January 2022}} alongside 0, 1, [[Pi|{{pi}}]], and {{mvar|[[Imaginary unit|i]]}}. All five appear in one formulation of [[Euler's identity]], and play important and recurring roles across mathematics.<ref>{{cite book |title=Euler's Pioneering Equation: The most beautiful theorem in mathematics |edition=illustrated |first1=Robinn |last1=Wilson |publisher=Oxford University Press |year=2018 |isbn=978-0-19-251405-9 |page=(preface) |url=https://books.google.com/books?id=345HDwAAQBAJ}}</ref><ref>{{cite book |title=Pi: A Biography of the World's Most Mysterious Number |edition=illustrated |first1=Alfred S. |last1=Posamentier |first2=Ingmar |last2=Lehmann |publisher=Prometheus Books |year=2004 |isbn=978-1-59102-200-8 |page=68 |url=https://books.google.com/books?id=QFPvAAAAMAAJ}}</ref> Like the constant {{pi}}, {{mvar|e}} is [[Irrational number|irrational]] (that is, it cannot be represented as a ratio of integers) and [[Transcendental number|transcendental]] (that is, it is not a root of any non-zero [[polynomial]] with rational coefficients).<ref name=":1" /> To 50 decimal places the value of {{mvar|e}} is:
+{{block indent
+ | {{gaps|2.71828|18284|59045|23536|02874|71352|66249|77572|47093|69995...}} {{OEIS|A001113}}.
+}}
+
+== History ==
+The first references to the constant were published in 1618 in the table of an appendix of a work on logarithms by [[John Napier]].<ref name="OConnor" /> However, this did not contain the constant itself, but simply a list of logarithms calculated from the constant. It is assumed that the table was written by [[William Oughtred]].
+
+The discovery of the constant itself is credited to [[Jacob Bernoulli]] in 1683,<ref name="Bernoulli, 1690">Jacob Bernoulli considered the problem of continuous compounding of interest, which led to a series expression for ''e''.  See:  Jacob Bernoulli (1690) "Quæstiones nonnullæ de usuris, cum solutione problematis de sorte alearum, propositi in Ephem. Gall. A. 1685" (Some questions about interest, with a solution of a problem about games of chance, proposed in the ''Journal des Savants'' (''Ephemerides Eruditorum Gallicanæ''), in the year (anno) 1685.**), ''Acta eruditorum'', pp.&nbsp;219–23.  [https://books.google.com/books?id=s4pw4GyHTRcC&pg=PA222#v=onepage&q&f=false On page 222], Bernoulli poses the question:  ''"Alterius naturæ hoc Problema est:  Quæritur, si creditor aliquis pecuniæ summam fænori exponat, ea lege, ut singulis momentis pars proportionalis usuræ annuæ sorti annumeretur; quantum ipsi finito anno debeatur?"''  (This is a problem of another kind:  The question is, if some lender were to invest [a] sum of money [at] interest, let it accumulate, so that [at] every moment [it] were to receive [a] proportional part of [its] annual interest; how much would he be owed [at the] end of [the] year?)  Bernoulli constructs a power series to calculate the answer, and then writes: ''" … quæ nostra serie [mathematical expression for a geometric series] &c. major est.  … si ''a''=''b'', debebitur plu quam 2½''a''  & minus quam 3''a''."'' ( … which our series [a geometric series] is larger [than]. … if ''a''=''b'', [the lender] will be owed more than 2½''a'' and less than 3''a''.)  If ''a''=''b'', the geometric series reduces to the series for ''a'' × ''e'', so 2.5 < ''e'' < 3.  (** The reference is to a problem which Jacob Bernoulli posed and which appears in the ''Journal des Sçavans'' of 1685 at the bottom of [http://gallica.bnf.fr/ark:/12148/bpt6k56536t/f307.image.langEN page 314.])</ref><ref>{{cite book|author1=Carl Boyer|author2=Uta Merzbach|author2-link= Uta Merzbach |title=A History of Mathematics|url=https://archive.org/details/historyofmathema00boye|url-access=registration|page=[https://archive.org/details/historyofmathema00boye/page/419 419]|publisher=Wiley|year=1991|isbn=978-0-471-54397-8|edition=2nd}}</ref> who attempted to find the value of the following expression (which is equal to {{mvar|e}}):
+
+:<math>\lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n.</math>
+
+The first known use of the constant, represented by the letter {{math|''b''}}, was in correspondence from [[Gottfried Leibniz]] to [[Christiaan Huygens]] in 1690 and 1691.<ref>{{cite web |url=https://leibniz.uni-goettingen.de/files/pdf/Leibniz-Edition-III-5.pdf |title=Sämliche Schriften Und Briefe |last=Leibniz |first=Gottfried Wilhelm |date=2003 |language=de |quote=look for example letter nr. 6}}</ref> [[Leonhard Euler]] introduced the letter {{mvar|e}} as the base for natural logarithms, writing in a letter to [[Christian Goldbach]] on 25 November 1731.<ref>Lettre XV.  Euler à Goldbach, dated November 25, 1731 in:  P.H. Fuss, ed., ''Correspondance Mathématique et Physique de Quelques Célèbres Géomètres du XVIIIeme Siècle'' … (Mathematical and physical correspondence of some famous geometers of the 18th century), vol. 1, (St. Petersburg, Russia:  1843), pp.&nbsp;56–60, see especially [https://books.google.com/books?id=gf1OEXIQQgsC&pg=PA58#v=onepage&q&f=false p. 58.]  From p. 58:  ''" … ( e denotat hic numerum, cujus logarithmus hyperbolicus est = 1), … "'' ( … (e denotes that number whose hyperbolic [i.e., natural] logarithm is equal to 1) … )</ref><ref>{{Cite book|last=Remmert|first=Reinhold|author-link=Reinhold Remmert|title=Theory of Complex Functions|page=136|publisher=[[Springer-Verlag]]|year=1991|isbn=978-0-387-97195-7}}</ref> Euler started to use the letter {{mvar|e}} for the constant in 1727 or 1728, in an unpublished paper on explosive forces in cannons,<ref name="Meditatio">Euler, ''[https://scholarlycommons.pacific.edu/euler-works/853/ Meditatio in experimenta explosione tormentorum nuper instituta]''. {{lang|la|Scribatur pro numero cujus logarithmus est unitas, e, qui est 2,7182817…}} (English: Written for the number of which the logarithm has the unit, e, that is 2,7182817...")</ref> while the first appearance of {{mvar|e}} in a publication was in Euler's ''[[Mechanica]]'' (1736).<ref>Leonhard Euler, ''Mechanica, sive Motus scientia analytice exposita'' (St. Petersburg (Petropoli), Russia:  Academy of Sciences, 1736), vol. 1, Chapter 2, Corollary 11, paragraph 171, p.&nbsp;68.  [https://books.google.com/books?id=qalsP7uMiV4C&pg=PA68#v=onepage&q&f=false From page 68:]  ''Erit enim <math>\frac{dc}{c} = \frac{dy ds}{rdx}</math> seu <math>c = e^{\int\frac{dy ds}{rdx}}</math> ubi ''e'' denotat numerum, cuius logarithmus hyperbolicus est 1.''  (So it [i.e., ''c'', the speed] will be <math>\frac{dc}{c} = \frac{dy ds}{rdx}</math> or <math>c = e^{\int\frac{dy ds}{rdx}}</math>, where ''e'' denotes the number whose hyperbolic [i.e., natural] logarithm is 1.)</ref> Although some researchers used the letter {{math|''c''}} in the subsequent years, the letter {{mvar|e}} was more common and eventually became standard.{{citation needed|date=October 2017}}
+
+In mathematics, the most common typographical convention is to typeset the constant as "{{mvar|e}}", in italics, although sometimes "e" in roman is used.  On the other hand, the [[ISO 80000-2]]:2019 standard recommends typesetting constants in an upright style.{{citation needed|date=August 2020}}
+
+== Applications ==
+
+=== Compound interest ===
+[[File:Compound Interest with Varying Frequencies.svg|thumb|right|350px|The effect of earning 20% annual interest on an {{nowrap|initial $1,000}} investment at various compounding frequencies]]
+
+Jacob Bernoulli discovered this constant in 1683, while studying a question about compound interest:<ref name="OConnor" />
+{{Quote|An account starts with $1.00 and pays 100 percent interest per year. If the interest is credited once, at the end of the year, the value of the account at year-end will be $2.00. What happens if the interest is computed and credited more frequently during the year?}}
+
+If the interest is credited twice in the year, the interest rate for each 6 months will be 50%, so the initial $1 is multiplied by 1.5 twice, yielding {{nowrap|1=$1.00 × 1.5<sup>2</sup> = $2.25}} at the end of the year. Compounding quarterly yields {{nowrap|1=$1.00 × 1.25<sup>4</sup> = $2.4414...}}, and compounding monthly yields {{nowrap|1=$1.00 × (1 + 1/12)<sup>12</sup> = $2.613035…}} If there are {{math|''n''}} compounding intervals, the interest for each interval will be {{math|100%/''n''}} and the value at the end of the year will be $1.00&nbsp;×&nbsp;{{math|1=(1 + 1/''n'')<sup>''n''</sup>}}.
+
+Bernoulli noticed that this sequence approaches a limit (the [[force of interest]]) with larger {{math|''n''}} and, thus, smaller compounding intervals. Compounding weekly ({{math|1=''n'' = 52}}) yields $2.692597..., while compounding daily ({{math|1=''n'' = 365}}) yields $2.714567... (approximately two cents more). The limit as {{math|''n''}} grows large is the number that came to be known as {{mvar|e}}. That is, with ''continuous'' compounding, the account value will reach $2.718281828...
+
+More generally, an account that starts at $1 and offers an annual interest rate of {{math|''R''}} will, after {{math|''t''}} years, yield {{math|''e''<sup>''Rt''</sup>}} dollars with continuous compounding.
+
+(Note here that {{math|''R''}} is the decimal equivalent of the rate of interest expressed as a ''percentage'', so for 5% interest, {{math|1=''R'' = 5/100 = 0.05}}.)
+
+=== Bernoulli trials ===
+[[File:Bernoulli trial sequence.svg|thumb|300px|Graphs of probability ''P'' of {{em|not}} observing independent events each of probability 1/''n'' after ''n'' Bernoulli trials, and 1 − ''P''&thinsp; vs ''n''&thinsp;; it can be observed that as ''n'' increases, the probability of a 1/''n''-chance event never appearing after ''n'' tries rapidly {{nowrap|converges to {{math|1/''e''}}.}}]]
+The number {{mvar|e}} itself also has applications in [[probability theory]], in a way that is not obviously related to exponential growth. Suppose that a gambler plays a slot machine that pays out with a probability of one in {{math|''n''}} and plays it {{math|''n''}} times. Then, for large {{math|''n''}}, the probability that the gambler will lose every bet is approximately {{math|1/''e''}}. For {{math|1=''n'' = 20}}, this is already approximately 1/2.79.
+
+This is an example of a [[Bernoulli trial]] process. Each time the gambler plays the slots, there is a one in ''n'' chance of winning. Playing ''n'' times is modeled by the [[binomial distribution]], which is closely related to the [[binomial theorem]] and [[Pascal's triangle]]. The probability of winning {{math|''k''}} times out of ''n'' trials is:
+:<math>\binom{n}{k} \left(\frac{1}{n}\right)^k\left(1 - \frac{1}{n}\right)^{n-k}.</math>
+
+In particular, the probability of winning zero times ({{math|1=''k'' = 0}}) is
+:<math>\left(1 - \frac{1}{n}\right)^{n}.</math>
+
+The limit of the above expression, as ''n'' tends to infinity, is precisely {{math|1/''e''}}.
+
+=== Standard normal distribution ===
+{{Main|Normal distribution}}
+
+The normal distribution with zero mean and unit standard deviation is known as the ''standard normal distribution'', given by the [[probability density function]]
+:<math>\phi(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^2}.</math>
+
+The constraint of unit variance (and thus also unit standard deviation) results in the {{frac2|1|2}} in the exponent, and the constraint of unit total area under the curve <math>\phi(x)</math> results in the factor <math>\textstyle 1/\sqrt{2\pi}</math>.<sup>[[Gaussian integral|[proof]]]</sup>  This function is symmetric around {{math|1=''x'' = 0}}, where it attains its maximum value <math>\textstyle 1/\sqrt{2\pi}</math>, and has [[inflection point]]s at {{math|1=''x'' = ±1}}.
+
+=== Derangements ===
+{{Main|Derangement}}
+Another application of {{mvar|e}}, also discovered in part by Jacob Bernoulli along with [[Pierre Remond de Montmort]], is in the problem of [[derangement]]s, also known as the ''hat check problem'':<ref>Grinstead, C.M. and Snell, J.L.''[http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html Introduction to probability theory]'' (published online under the [[GFDL]]), p.&nbsp;85.</ref> {{math|''n''}} guests are invited to a party, and at the door, the guests all check their hats with the butler, who in turn places the hats into {{math|''n''}} boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so he puts the hats into boxes selected at random. The problem of de Montmort is to find the probability that ''none'' of the hats gets put into the right box. This probability, denoted by <math>p_n\!</math>, is:
+
+:<math>p_n = 1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \cdots + \frac{(-1)^n}{n!} = \sum_{k = 0}^n \frac{(-1)^k}{k!}.</math>
+
+As the number {{math|''n''}} of guests tends to infinity, {{math|''p''<sub>''n''</sub>}} approaches {{math|1/''e''}}. Furthermore, the number of ways the hats can be placed into the boxes so that none of the hats are in the right box is {{math|''n''!/''e'',}} [[Rounding|rounded]] to the nearest integer, for every positive&nbsp;{{math|''n''}}.<ref>Knuth (1997) ''[[The Art of Computer Programming]]'' Volume I, Addison-Wesley, p.&nbsp;183 {{isbn|0-201-03801-3}}.</ref>
+
+=== Optimal planning problems ===
+A stick of length {{mvar|L}} is broken into {{mvar|n}} equal parts.  The value of {{mvar|n}} that maximizes the product of the lengths is then either<ref>{{cite book|title=Mathematical constants|url=https://archive.org/details/mathematicalcons0000finc|url-access=registration|author=Steven Finch|year=2003|publisher=Cambridge University Press|page=[https://archive.org/details/mathematicalcons0000finc/page/14 14]|isbn=978-0-521-81805-6}}</ref>
+:<math>n = \left\lfloor \frac{L}{e} \right\rfloor</math> or <math>\left\lfloor \frac{L}{e} \right\rfloor + 1.</math>
+
+The stated result follows because the maximum value of <math>x^{-1}\ln x</math> occurs at <math>x = e</math> ([[Steiner's calculus problem|Steiner's problem]], discussed [[#Exponential-like functions|below]]). The quantity <math>x^{-1}\ln x</math> is a measure of [[Shannon information|information]] gleaned from an event occurring with probability <math>1/x</math>, so that essentially the same optimal division appears in optimal planning problems like the [[secretary problem]].
+
+=== Asymptotics ===
+The number {{mvar|e}} occurs naturally in connection with many problems involving [[asymptotics]]. An example is [[Stirling's formula]] for the [[Asymptotic analysis|asymptotics]] of the [[factorial function]], in which both the numbers {{mvar|e}} and [[pi|{{pi}}]] appear:
+:<math>n! \sim \sqrt{2\pi n} \left(\frac{n}{e}\right)^n.</math>
+
+As a consequence,
+:<math>e = \lim_{n\to\infty} \frac{n}{\sqrt[n]{n!}} .</math>
+
+== In calculus ==
+
+[[File:Exp derivative at 0.svg|thumb|right|The graphs of the functions {{math|''x'' ↦ ''a''{{sup|''x''}}}} are shown for {{math|1=''a'' = 2}} (dotted), {{math|1=''a'' = ''e''}} (blue), and {{math|1=''a'' = 4}} (dashed). They all pass through the point {{math|(0,1)}}, but the red line (which has slope {{math|1}}) is tangent to only {{math|''e''{{sup|''x''}}}} there.]]
+
+[[File:Ln+e.svg|thumb|right|The value of the natural log function for argument {{mvar|e}}, i.e. {{math|ln ''e''}}, equals {{math|1.}}]]
+
+The principal motivation for introducing the number {{mvar|e}}, particularly in [[calculus]], is to perform [[derivative (mathematics)|differential]] and [[integral calculus]] with [[exponential function]]s and [[logarithm]]s.<ref>Kline, M. (1998) ''Calculus: An intuitive and physical approach'', section 12.3 [https://books.google.com/books?id=YdjK_rD7BEkC&pg=PA337 "The Derived Functions of Logarithmic Functions."], pp. 337 ff, Courier Dover Publications, 1998, {{isbn|0-486-40453-6}}</ref> A general exponential {{nowrap|function {{math|''y'' {{=}} ''a''<sup>''x''</sup>}}}} has a derivative, given by a [[limit of a function|limit]]:
+
+:<math>\begin{align}
+  \frac{d}{dx}a^x
+    &= \lim_{h\to 0}\frac{a^{x+h} - a^x}{h} = \lim_{h\to 0}\frac{a^x a^h - a^x}{h} \\
+    &= a^x \cdot \left(\lim_{h\to 0}\frac{a^h - 1}{h}\right).
+\end{align}</math>
+
+The parenthesized limit on the right is independent of the {{nowrap|variable {{math|''x''}}.}} Its value turns out to be the logarithm of {{math|''a''}} to base {{mvar|e}}. Thus, when the value of {{math|''a''}} is set {{nowrap|to {{mvar|e}},}} this limit is equal {{nowrap|to {{math|1}},}} and so one arrives at the following simple identity:
+:<math>\frac{d}{dx}e^x = e^x.</math>
+
+Consequently, the exponential function with base {{mvar|e}} is particularly suited to doing calculus. {{nowrap|Choosing {{mvar|e}}}} (as opposed to some other number as the base of the exponential function) makes calculations involving the derivatives much simpler.
+
+Another motivation comes from considering the derivative of the base-{{math|''a''}} logarithm (i.e., {{math|log<sub>''a''</sub> ''x''}}),<ref>This is the approach taken by Kline (1998).</ref> for&nbsp;{{math|''x'' > 0}}:
+
+:<math>\begin{align}
+  \frac{d}{dx}\log_a x
+    &= \lim_{h\to 0}\frac{\log_a(x + h) - \log_a(x)}{h} \\
+    &= \lim_{h\to 0}\frac{\log_a(1 + h/x)}{x\cdot h/x} \\
+    &= \frac{1}{x}\log_a\left(\lim_{u\to 0}(1 + u)^\frac{1}{u}\right) \\
+    &= \frac{1}{x}\log_a e,
+\end{align}</math>
+
+where the substitution {{math|''u'' {{=}} ''h''/''x''}} was made. The base-{{mvar|a}} logarithm of {{mvar|e}} is 1, if {{mvar|a}} equals {{mvar|e}}. So symbolically,
+:<math>\frac{d}{dx}\log_e x = \frac{1}{x}.</math>
+
+The logarithm with this special base is called the [[natural logarithm]], and is denoted as {{math|ln}}; it behaves well under differentiation since there is no undetermined limit to carry through the calculations.
+
+Thus, there are two ways of selecting such special numbers {{mvar|a}}. One way is to set the derivative of the exponential function {{math|''a''<sup>''x''</sup>}} equal to {{math|''a''<sup>''x''</sup>}}, and solve for {{math|''a''}}. The other way is to set the derivative of the base {{math|''a''}} logarithm to {{math|1/''x''}} and solve for {{math|''a''}}. In each case, one arrives at a convenient choice of base for doing calculus. It turns out that these two solutions for {{mvar|a}} are actually ''the same'': the number {{mvar|e}}.
+
+=== Alternative characterizations ===
+[[File:Part38figure02.gif|thumb|right|The five colored regions are of equal area, and define units of [[hyperbolic angle]] along the {{nowrap|[[hyperbola]] <math>xy=1.</math>}}]]
+{{See also|#Representations|Characterizations of the exponential function}}
+
+Other characterizations of {{mvar|e}} are also possible: one is as the [[limit of a sequence]], another is as the sum of an infinite series, and still others rely on [[integral calculus]]. So far, the following two (equivalent) properties have been introduced:
+
+# The number {{mvar|e}} is the unique positive [[real number]] such that <math>\frac{d}{dt}e^t = e^t</math>.
+# The number {{mvar|e}} is the unique positive real number such that <math>\frac{d}{dt} \log_e t = \frac{1}{t}</math>.
+
+The following four characterizations can be [[characterizations of the exponential function#Equivalence of the characterizations|proven to be equivalent]]:
+
+{{ordered list
+ | start=3
+ | The number {{mvar|e}} is the [[limit of a sequence|limit]]
+:<math>e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n</math>
+
+Similarly:
+:<math>e = \lim_{t\to 0} \left( 1 + t \right)^{\frac{1}{t}}</math>
+ | The number {{mvar|e}} is the sum of the [[infinite series]]
+: <math>e = \sum_{n = 0}^\infty \frac{1}{n!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \cdots ,</math>
+
+where {{math|''n''!}} is the [[factorial]] of {{math|''n''}}.
+ | The number {{mvar|e}} is the unique positive real number such that
+:<math>\int_1^e \frac{1}{t} \, dt = 1.</math>
+ | If {{math|''f''(''t'')}} is an [[exponential function]], then the quantity <math> \tau = f(t)/f'(t)</math> is a constant, sometimes called the [[time constant]] (it is the reciprocal of the [[exponential growth]] constant or [[exponential decay|decay constant]]).  The time constant is the time it takes for the exponential function to increase by a factor of {{math|''e''}}: <math>f(t+\tau) = e f(t)</math>.
+}}
+
+== Properties ==
+
+=== Calculus ===
+As in the motivation, the [[exponential function]] {{math|''e''<sup>''x''</sup>}} is important in part because it is the unique nontrivial function that is its own [[derivative]] (up to multiplication by a constant):
+
+:<math>\frac{d}{dx}e^x = e^x</math>
+
+and therefore its own [[antiderivative]] as well:
+
+:<math>\int e^x\,dx = e^x + C .</math>
+
+=== Inequalities ===
+[[File:Exponentials vs x+1.pdf|thumb|right|Exponential functions {{math|''y'' {{=}} 2<sup>''x''</sup>}} and {{math|''y'' {{=}} 4<sup>''x''</sup>}} intersect the graph of {{math|''y'' {{=}} ''x'' + 1}}, respectively, at {{math|''x'' {{=}} 1}} and {{math|''x'' {{=}} -1/2}}.  The number {{math|''e''}} is the unique base such that {{math|''y'' {{=}} ''e''<sup>''x''</sup>}} intersects only at {{math|''x'' {{=}} 0}}.  We may infer that {{math|''e''}} lies between 2 and 4.]]
+The number {{math|''e''}} is the unique real number such that
+:<math>\left(1 + \frac{1}{x}\right)^x < e < \left(1 + \frac{1}{x}\right)^{x+1}</math>
+
+for all positive {{math|''x''}}.<ref>{{cite book|last1=Dorrie|first1=Heinrich|title=100 Great Problems of Elementary Mathematics|date=1965|publisher=Dover|pages=44–48}}</ref>
+
+Also, we have the inequality
+:<math>e^x \ge x + 1</math>
+
+for all real {{math|''x''}}, with equality if and only if {{math|''x'' {{=}} 0}}.  Furthermore, {{math|''e''}} is the unique base of the exponential for which the inequality {{math|''a''<sup>''x''</sup> ≥ ''x'' + 1}} holds for all {{math|''x''}}.<ref>A standard calculus exercise using the [[mean value theorem]]; see for example Apostol (1967) ''Calculus'', §&nbsp;6.17.41.</ref>  This is a limiting case of [[Bernoulli's inequality]].
+
+=== Exponential-like functions ===
+[[File:Xth root of x.svg|thumb|right|250px|The [[global maximum]] of {{math|{{sqrt|''x''|''x''}}}} {{nowrap|occurs at {{math|''x'' {{=}} ''e''}}.}}]]
+
+[[Steiner's calculus problem|Steiner's problem]] asks to find the [[global maximum]] for the function
+
+:<math> f(x) = x^\frac{1}{x} .</math>
+
+This maximum occurs precisely at {{math|''x'' {{=}} ''e''}}.
+
+The value of this maximum is 1.4446&nbsp;6786&nbsp;1009&nbsp;7661&nbsp;3365... (accurate to 20 decimal places).
+
+For proof, the inequality <math>e^y \ge y + 1</math>, from above, evaluated at <math>y = (x - e)/e</math> and simplifying gives <math>e^{x/e} \ge x</math>.  So <math>e^{1/e} \ge x^{1/x}</math> for all positive ''x''.<ref>{{cite book|last1=Dorrie|first1=Heinrich|title=100 Great Problems of Elementary Mathematics|date=1965|publisher=Dover|page=359}}</ref>
+
+Similarly, {{math|''x'' {{=}} 1/''e''}} is where the [[global minimum]] occurs for the function
+
+:<math> f(x) = x^x </math>
+
+defined for positive {{math|''x''}}.  More generally, for the function
+
+:<math> f(x) = x^{x^n} </math>
+
+the global maximum for positive {{math|''x''}} occurs at {{math|''x'' {{=}} 1/''e''}} for any {{math|''n'' < 0}}; and the global minimum occurs at {{math|''x'' {{=}} ''e''<sup>−1/''n''</sup>}} for any {{math|''n'' > 0}}.
+
+The infinite [[tetration]]
+
+:<math> x^{x^{x^{\cdot^{\cdot^{\cdot}}}}} </math> or <math>{^\infty}x</math>
+
+converges if and only if {{math|''e''<sup>−''e''</sup> ≤ ''x'' ≤ ''e''<sup>1/''e''</sup>}} (or approximately between 0.0660 and 1.4447), due to a theorem of [[Leonhard Euler]].<ref>Euler, L. "De serie Lambertina Plurimisque eius insignibus proprietatibus." ''Acta Acad. Scient. Petropol. 2'', 29–51, 1783. Reprinted in Euler, L.  ''Opera Omnia, Series Prima, Vol. 6: Commentationes Algebraicae''. Leipzig,  Germany: Teubner, pp. 350–369, 1921. ([http://math.dartmouth.edu/~euler/docs/originals/E532.pdf facsimile])</ref>
+
+=== Number theory ===
+The real number {{mvar|e}} is [[irrational number|irrational]]. [[Leonhard Euler|Euler]] proved this by showing that its [[simple continued fraction]] expansion is infinite.<ref>{{cite web|url=http://vanilla47.com/PDFs/Leonhard%20Euler/How%20Euler%20Did%20It%20by%20Ed%20Sandifer/Who%20proved%20e%20is%20irrational.pdf|title=How Euler Did It: Who proved {{mvar|e}} is Irrational?|last=Sandifer|first=Ed|date=Feb 2006|publisher=MAA Online|access-date=2010-06-18|url-status=dead|archive-url=https://web.archive.org/web/20140223072640/http://vanilla47.com/PDFs/Leonhard%20Euler/How%20Euler%20Did%20It%20by%20Ed%20Sandifer/Who%20proved%20e%20is%20irrational.pdf|archive-date=2014-02-23}}</ref> (See also [[Joseph Fourier|Fourier]]'s [[proof that e is irrational|proof that {{math|''e''}} is irrational]].)
+
+Furthermore, by the [[Lindemann–Weierstrass theorem]], {{mvar|e}} is [[transcendental number|transcendental]], meaning that it is not a solution of any non-constant polynomial equation with rational coefficients. It was the first number to be proved transcendental without having been specifically constructed for this purpose (compare with [[Liouville number]]); the proof was given by [[Charles Hermite]] in 1873.
+
+It is conjectured that {{mvar|e}} is [[normal number|normal]], meaning that when {{math|''e''}} is expressed in any [[Radix|base]] the possible digits in that base are uniformly distributed (occur with equal probability in any sequence of given length).
+
+=== Complex numbers ===
+The [[exponential function]] {{math|''e''<sup>''x''</sup>}} may be written as a [[Taylor series]]
+
+:<math> e^{x} = 1 + {x \over 1!} + {x^{2} \over 2!} + {x^{3} \over 3!} + \cdots = \sum_{n=0}^{\infty} \frac{x^n}{n!}</math>
+
+Because this series is [[convergent series|convergent]] for every [[complex number|complex]] value of {{mvar|x}}, it is commonly used to extend the definition of {{math|''e''<sup>''x''</sup>}} to the complex numbers. This, with the Taylor series for [[trigonometric functions|{{math|sin}} and {{math|cos ''x''}}]], allows one to derive [[Euler's formula]]:
+
+:<math>e^{ix} = \cos x + i\sin x ,</math>
+
+which holds for every complex {{math|''x''}}. The special case with {{math|''x'' {{=}} [[pi|{{pi}}]]}} is [[Euler's identity]]:
+
+:<math>e^{i\pi} + 1 = 0 ,</math>
+
+from which it follows that, in the [[principal branch]] of the logarithm,
+
+:<math>\ln (-1) = i\pi .</math>
+
+Furthermore, using the laws for exponentiation,
+
+:<math>(\cos x + i\sin x)^n = \left(e^{ix}\right)^n = e^{inx} = \cos (nx) + i \sin (nx) ,</math>
+
+which is [[de Moivre's formula]].
+
+The expression
+
+:<math>\cos x + i \sin x</math>
+
+is sometimes referred to as {{math|cis(''x'')}}.
+
+The expressions of {{math|sin ''x''}} and {{math|cos ''x''}} in terms of the [[exponential function]] can be deduced:
+
+:<math>
+  \sin x = \frac{e^{ix} - e^{-ix}}{2i} , \qquad
+  \cos x = \frac{e^{ix} + e^{-ix}}{2}.
+</math>
+
+=== Differential equations ===
+The family of functions
+
+:<math>y(x) = Ce^x,</math>
+
+where {{mvar|C}} is any real number, is the solution to the [[differential equation]]
+
+:<math>y' = y .</math>
+
+== Representations ==
+{{Main|List of representations of e|l1=List of representations of {{mvar|e}}}}
+
+The number {{mvar|e}} can be represented in a variety of ways: as an [[infinite series]], an [[infinite product]], a [[continued fraction]], or a [[limit of a sequence]]. Two of these representations, often used in introductory [[calculus]] courses, are the limit
+:<math>e=\lim_{n\to\infty}\left(1 + \frac{1}{n}\right)^n,</math>
+
+given above, and the series
+:<math>e=\sum_{n=0}^\infty \frac{1}{n!}</math>
+
+obtained by evaluating at {{math|''x'' {{=}} 1}} the above [[power series]] representation of {{math|''e''<sup>''x''</sup>}}.
+
+Less common is the [[continued fraction]]
+<!--move to history section or say <ref>[[Leonhard Euler|Euler]] was the first showed that {{mvar|e}} can be represented as a continued fraction.</ref>-->
+
+:<math>
+  e = [2; 1, 2, 1, 1, 4, 1, 1, 6, 1, ..., 1, 2n, 1, ...],
+</math><ref>Hofstadter, D.R., "Fluid Concepts and Creative Analogies: Computer Models of the Fundamental Mechanisms of Thought" Basic Books (1995) {{isbn|0-7139-9155-0}}</ref><ref>{{OEIS|id=A003417}}</ref>
+
+which written out looks like
+
+:<math>e = 2 +
+\cfrac{1}
+   {1 + \cfrac{1}
+      {2 + \cfrac{1}
+         {1 + \cfrac{1}
+            {1 + \cfrac{1}
+               {4 + \cfrac{1}
+            {1 + \cfrac{1}
+               {1 + \ddots}
+                  }
+               }
+            }
+         }
+      }
+   }
+.
+</math>
+
+This continued fraction for {{mvar|e}} converges three times as quickly:{{citation needed|date=September 2018}}
+:<math> e = 1 + \cfrac{2}{1 + \cfrac{1}{6 + \cfrac{1}{10 + \cfrac{1}{14 + \cfrac{1}{18 + \cfrac{1}{22 + \cfrac{1}{26 + \ddots}}}}}}}.</math>
+
+Many other series, sequence, continued fraction, and infinite product representations of {{mvar|e}} have been proved.
+
+=== Stochastic representations ===
+In addition to exact analytical expressions for representation of {{mvar|e}}, there are stochastic techniques for estimating {{mvar|e}}.  One such approach begins with an infinite sequence of independent random variables {{math|''X''<sub>1</sub>}}, {{math|''X''<sub>2</sub>}}..., drawn from the [[uniform distribution (continuous)|uniform distribution]] on [0, 1]. Let {{math|''V''}} be the least number {{math|''n''}} such that the sum of the first {{math|''n''}} observations exceeds 1:
+
+:<math>V = \min\left\{ n \mid X_1 + X_2 + \cdots + X_n > 1 \right\}.</math>
+
+Then the [[expected value]] of {{math|''V''}} is {{mvar|e}}: {{math|E(''V'') {{=}} ''e''}}.<ref>Russell, K.G. (1991) ''[https://www.jstor.org/stable/2685243 Estimating the Value of e by Simulation]'' The American Statistician, Vol. 45, No. 1. (Feb., 1991), pp. 66–68.</ref><ref>Dinov, ID (2007) ''[http://wiki.stat.ucla.edu/socr/index.php/SOCR_EduMaterials_Activities_LawOfLargeNumbers#Estimating_e_using_SOCR_simulation Estimating e using SOCR simulation]'', SOCR Hands-on Activities (retrieved December 26, 2007).</ref>
+
+=== Known digits ===
+The number of known digits of {{mvar|e}} has increased substantially during the last decades. This is due both to the increased performance of computers and to algorithmic improvements.<ref>Sebah, P. and Gourdon, X.; [http://numbers.computation.free.fr/Constants/E/e.html The constant {{mvar|e}} and its computation]</ref><ref>Gourdon, X.; [http://numbers.computation.free.fr/Constants/PiProgram/computations.html Reported large computations with PiFast]</ref>
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+|+ Number of known decimal digits of {{mvar|e}}
+! Date || Decimal digits || Computation performed by
+|-
+| 1690 ||align=right| 1 || [[Jacob Bernoulli]]<ref name="Bernoulli, 1690" />
+|-
+| 1714 ||align=right| 13 || [[Roger Cotes]]<ref>Roger Cotes (1714) "Logometria," ''Philosophical Transactions of the Royal Society of London'', '''29''' (338) : 5–45; [https://archive.today/20140410203227/http://babel.hathitrust.org/cgi/pt?id=ucm.5324351035;view=2up;seq=16 see especially the bottom of page 10.]  From page 10:  ''"Porro eadem ratio est inter 2,718281828459 &c et 1, … "'' (Furthermore, by the same means, the ratio is between 2.718281828459… and 1, … )</ref>
+|-
+| 1748 ||align=right| 23 || [[Leonhard Euler]]<ref>Leonhard Euler, ''Introductio in Analysin Infinitorum'' (Lausanne, Switzerland:  Marc Michel Bousquet & Co., 1748), volume 1, [https://archive.org/details/bub_gb_jQ1bAAAAQAAJ/page/n115 page 90.]</ref>
+|-
+| 1853 ||align=right| 137 || [[William Shanks]]<ref>William Shanks, ''Contributions to Mathematics'', ... (London, England:  G. Bell, 1853),  [https://books.google.com/books?id=d-9ZAAAAcAAJ&pg=PA89#v=onepage&q&f=false page 89.]</ref>
+|-
+| 1871 ||align=right| 205 || William Shanks<ref>William Shanks (1871) [https://books.google.com/books?id=sclTAAAAcAAJ&pg=PA27#v=onepage&q&f=false "On the numerical values of ''e'', log<sub>''e''</sub> 2, log<sub>''e''</sub> 3, log<sub>''e''</sub> 5, and log<sub>''e''</sub> 10, also on the numerical value of M the modulus of the common system of logarithms, all to 205 decimals,"] ''Proceedings of the Royal Society of London'', '''20''' :  27–29.</ref>
+|-
+| 1884 ||align=right| 346 || J. Marcus Boorman<ref>J. Marcus Boorman (October 1884) [https://books.google.com/books?id=mG8yAQAAMAAJ&pg=PA204#v=onepage&q&f=false "Computation of the Naperian base,"] ''Mathematical Magazine'', '''1''' (12) :  204–205.</ref>
+|-
+| 1949 ||align=right| 2,010 || [[John von Neumann]] (on the [[ENIAC]])
+|-
+| 1961 ||align=right| 100,265 || [[Daniel Shanks]] and [[John Wrench]]<ref name="We have computed e on a 7090 to 100,265D by the obvious program.">{{cite journal|author=Daniel Shanks and John W Wrench|quote=We have computed e on a 7090 to 100,265D by the obvious program|title=Calculation of Pi to 100,000 Decimals|journal =Mathematics of Computation|volume= 16 |year=1962| issue =77| pages =76–99 (78)|url=https://www.ams.org/journals/mcom/1962-16-077/S0025-5718-1962-0136051-9/S0025-5718-1962-0136051-9.pdf|doi=10.2307/2003813|jstor=2003813}}</ref>
+|-
+| 1978 ||align=right| 116,000 || [[Steve Wozniak]] on the [[Apple II]]<ref name="wozniak198106">{{cite news | url=https://archive.org/stream/byte-magazine-1981-06/1981_06_BYTE_06-06_Operating_Systems#page/n393/mode/2up | title=The Impossible Dream: Computing ''e'' to 116,000 Places with a Personal Computer | work=BYTE | date=June 1981 | access-date=18 October 2013 | author=Wozniak, Steve | pages=392}}</ref>
+|}
+
+Since around 2010, the proliferation of modern high-speed [[desktop computer]]s has made it feasible for most amateurs to compute trillions of digits of {{mvar|e}} within acceptable amounts of time. The most recent record was set on Dec 5, 2020, where {{mvar|e}} has been calculated to 31,415,926,535,897 digits.<ref name=":0">{{cite web
+ | title= e
+ | author= Alexander Yee
+ | url=http://www.numberworld.org/digits/E/
+}}</ref>
+
+== In computer culture ==
+
+During the emergence of [[internet culture]], individuals and organizations sometimes paid homage to the number {{mvar|e}}.
+
+In an early example, the [[computer scientist]] [[Donald Knuth]] let the version numbers of his program [[Metafont]] approach {{mvar|e}}. The versions are 2, 2.7, 2.71, 2.718, and so forth.<ref>{{Cite journal
+ | title= The Future of TeX and Metafont
+ | first= Donald
+ | last= Knuth
+ | author-link= Donald Knuth
+ | journal= TeX Mag
+ | volume= 5
+ | issue= 1
+ | page= 145
+ | date= 1990-10-03
+ | url= http://www.ntg.nl/maps/05/34.pdf
+ | access-date= 2017-02-17
+}}</ref>
+
+In another instance, the [[Initial public offering|IPO]] filing for [[Google]] in 2004, rather than a typical round-number amount of money, the company announced its intention to raise 2,718,281,828 [[USD]], which is {{mvar|e}} billion [[United States dollar|dollars]] rounded to the nearest dollar.
+
+Google was also responsible for a billboard<ref>{{cite web|url=http://braintags.com/archives/2004/07/first-10digit-prime-found-in-consecutive-digits-of-e/|title=First 10-digit prime found in consecutive digits of {{math|e}}|website=Brain Tags|access-date=2012-02-24|archive-url=https://web.archive.org/web/20131203102744/http://braintags.com/archives/2004/07/first-10digit-prime-found-in-consecutive-digits-of-e/|archive-date=2013-12-03}}</ref>
+that appeared in the heart of [[Silicon Valley]], and later in [[Cambridge, Massachusetts]]; [[Seattle, Washington]]; and [[Austin, Texas]]. It read "{first 10-digit prime found in consecutive digits of {{mvar|e}}}.com". The first 10-digit prime in {{mvar|e}} is 7427466391, which starts at the 99th digit.<ref>{{cite web
+ | first= Marcus
+ | last= Kazmierczak
+ | title= Google Billboard
+ | publisher= mkaz.com
+ | date= 2004-07-29
+ | url= http://mkaz.com/math/google-billboard
+ | access-date= 2007-06-09
+}}</ref> Solving this problem and visiting the advertised (now defunct) website led to an even more difficult problem to solve, which consisted in finding the fifth term in the sequence 7182818284, 8182845904, 8747135266, 7427466391. It turned out that the sequence consisted of 10-digit numbers found in consecutive digits of {{mvar|e}} whose digits summed to 49. The fifth term in the sequence is 5966290435, which starts at the 127th digit.<ref>[http://explorepdx.com/firsten.html The first 10-digit prime in {{math|e}}]. Explore Portland Community. Retrieved on 2020-12-09.</ref>
+Solving this second problem finally led to a [[Google Labs]] webpage where the visitor was invited to submit a résumé.<ref>{{cite news
+ | first= Andrea
+ | last= Shea
+ | title= Google Entices Job-Searchers with Math Puzzle
+ | work= NPR
+ | url= https://www.npr.org/templates/story/story.php?storyId=3916173
+ | access-date= 2007-06-09
+}}</ref>
+
+== Notes ==
+{{Reflist|30em}}
+
+== Further reading ==
+* Maor, Eli; ''{{mvar|e}}: The Story of a Number'', {{isbn|0-691-05854-7}}
+* [http://www.johnderbyshire.com/Books/Prime/Blog/page.html#endnote10 Commentary on Endnote 10] of the book ''[[Prime Obsession]]'' for another stochastic representation
+* {{cite journal|author=McCartin, Brian J.|title=e: The Master of All|journal=The Mathematical Intelligencer|volume=28|year=2006|issue= 2|pages=10–21|url=http://www.maa.org/sites/default/files/pdf/upload_library/22/Chauvenet/mccartin.pdf|doi=10.1007/bf02987150|s2cid=123033482}}
+
+== External links ==
+{{Commons category|E (mathematical constant)}}
+{{Wikiquote}}
+* <!-- https://www.gutenberg.org/ebooks/127 -->[https://web.archive.org/web/20070210095028/http://www.gutenberg.org/ebooks/127 The number {{mvar|e}} to 1 million places] and [https://apod.nasa.gov/htmltest/rjn_dig.html NASA.gov] 2 and 5 million places
+* [http://mathworld.wolfram.com/eApproximations.html {{mvar|e}} Approximations]&nbsp;– Wolfram MathWorld
+* [http://jeff560.tripod.com/constants.html Earliest Uses of Symbols for Constants] Jan. 13, 2008
+* [http://www.gresham.ac.uk/lectures-and-events/the-story-of-e "The story of {{mvar|e}}"], by Robin Wilson at [[Gresham College]], 28 February 2007 (available for audio and video download)
+* [http://pisearch.org/e {{mvar|e}} Search Engine] 2 billion searchable digits of {{mvar|e}}, {{pi}} and {{radic|2}}
+
+{{Irrational number}}
+{{Authority control}}
+{{Good article}}
+
+[[Category:E (mathematical constant)| ]]
+[[Category:Mathematical constants]]
+[[Category:Real transcendental numbers]]
+[[Category:Leonhard Euler]]

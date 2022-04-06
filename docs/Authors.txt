@@ -1,0 +1,19 @@
+\author{Pedro Miguel Moás}
+\email{up201705208@edu.fe.up.pt}
+\affiliation{
+  \institution{Faculdade de Engenharia da Universidade do Porto}
+  \streetaddress{R. Dr. Roberto Frias, s/n}
+  \city{Porto}
+  \country{Portugal}
+  \postcode{4200-465}
+}
+
+\author{Carla Teixeira Lopes}
+\email{ctl@fe.up.pt}
+\affiliation{
+  \institution{Faculdade de Engenharia da Universidade do Porto, INESC TEC}
+  \streetaddress{R. Dr. Roberto Frias, s/n}
+  \city{Porto}
+  \country{Portugal}
+  \postcode{4200-465}
+}

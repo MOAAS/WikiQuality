@@ -1,0 +1,258 @@
+{{Short description|None}}
+{{pp-vandalism|small=yes}}
+{{Use mdy dates|date=January 2018}}
+{{Dynamic list}}
+__FORCETOC__ <!-- DO NOT EDIT THIS LINE -->
+{{multiple image
+| perrow = 2
+| image1 = Nobel Peace Price Concert 2009 Luis Fonsi3.jpg
+| image2 = DaddyYankee.jpg
+| footer = "[[Despacito]]" by [[Luis Fonsi]] (left) featuring [[Daddy Yankee]] (right) has been the most liked video on YouTube since July 2017, with over 47 million likes {{as of|2022|January|lc=y}}.
+| total_width = 300
+}}
+This '''list of most-liked YouTube videos''' contains the top 30 videos with the most likes of all time, taken directly from the video page. [[YouTube]] implemented a [[Like button|like and dislike button]] on these pages in March 2010, part of a major redesign of the site. This served as a replacement for their [[Star (classification)|five-star]] rating system;<ref>{{cite web|last=Lowensohn|first=Josh|date=March 31, 2010|url=http://www.cnet.com/news/youtubes-big-redesign-goes-live-to-everyone/|title=YouTube's big redesign goes live to everyone|work=[[CNET]]|publisher=[[CBS Interactive]]|access-date=May 9, 2016|url-status=live|archive-url=https://web.archive.org/web/20160512000421/http://www.cnet.com/news/youtubes-big-redesign-goes-live-to-everyone/|archive-date=May 12, 2016|df=mdy-all}}</ref> YouTube's designers found the previous system ineffective because the options to rate a video between two and four stars were rarely selected.<ref>{{cite web|last=Siegler|first=M. G.|url=https://techcrunch.com/2009/09/22/youtube-comes-to-a-5-star-realization-its-ratings-are-useless/|title=YouTube Comes To a 5-Star Realization: Its Ratings Are Useless|work=[[TechCrunch]]|publisher=[[AOL|AOL Inc.]]|date=September 22, 2009|access-date=May 9, 2016|url-status=live|archive-url=https://web.archive.org/web/20170603231801/https://techcrunch.com/2009/09/22/youtube-comes-to-a-5-star-realization-its-ratings-are-useless/|archive-date=June 3, 2017|df=mdy-all}}</ref>
+
+The music video for [[LMFAO]]'s song "[[Party Rock Anthem#Music video|Party Rock Anthem]]" stood as the most-liked video on YouTube in 2012, with 1.56 million likes, until the video for [[Psy]]'s "[[Gangnam Style (music video)|Gangnam Style]]" surpassed it in September that year with more than 1.57 million likes. Following this accomplishment, "Gangnam Style" entered the ''[[Guinness World Records]]'' book as the most-liked video on YouTube and on the Internet as of 2012. Psy's video remained the most-liked on YouTube for nearly four years until August 27, 2016, when [[Wiz Khalifa]]'s "[[See You Again#Music video|See You Again]]" featuring [[Charlie Puth]] surpassed it with 11.21 million likes. Less than a year later, on July 25, 2017, [[Luis Fonsi]]'s "[[Despacito#Music video|Despacito]]" featuring [[Daddy Yankee]] claimed the top spot with 16.01 million likes.
+
+__TOC__
+
+==Top videos==
+The following table lists the top 30 most-liked videos on [[YouTube]], with each total rounded to the nearest ten thousand likes, uploader, and upload date.{{efn-ua|Some videos may not be available worldwide due to YouTube's [[Internet geolocation#Regional licensing|regional restrictions]] in certain countries.}}
+
+{| class="wikitable sortable"
+|+Most-liked videos
+! {{Abbr|No.|Number}}
+! Video name
+! Uploader / artist
+! Likes (millions)
+! data-sort-type="usLongDate" | Upload date
+! class="unsortable" | Notes
+|-
+| align=center | 1. || "[[Despacito#Music video|Despacito]]"<ref name="Despacito">{{cite web|url=https://www.youtube.com/watch?v=kJQP7kiw5Fk|title=Luis Fonsi - Despacito ft. Daddy Yankee|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Luis Fonsi]] featuring [[Daddy Yankee]] || align=center | 47.83 || align="right" | January 12, 2017 || align=center | {{efn-ua|"Despacito" surpassed "See You Again" as the most-liked video on July 25, 2017; first video to reach 20 million likes on August 30, 2017;<ref name="auto">{{cite web|url=https://www.youtube.com/watch?v=kJQP7kiw5Fk|archive-url=https://web.archive.org/web/20170830173550/https://www.youtube.com/watch?v=kJQP7kiw5Fk|archive-date=August 30, 2017|title=Despacito on YouTube on the Wayback Machine on August 30, 2017 17:35:50 (UTC)|date=August 30, 2017|access-date=October 30, 2017|work=[[Wayback Machine]]}}</ref> first video to reach 30 million likes on September 29, 2018; first video to reach 40 million likes on September 24, 2020.}}
+|-
+| align=center | 2. || "[[See You Again#Music video|See You Again]]"<ref name="See You Again">{{cite web|url=https://www.youtube.com/watch?v=RgKAFK5djSk|title=Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Wiz Khalifa]] featuring [[Charlie Puth]] || align=center | 37.41 || align="right" | April 6, 2015 || align=center | {{efn-ua|"See You Again" surpassed "Gangnam Style" as the most-liked video on August 27, 2016; second video to reach 30 million likes on September 12, 2020.}}
+|-
+| align=center | 3. || "[[Baby Shark Dance]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=XqZsoesa55w|title=Baby Shark Dance &#124; #babyshark Most Viewed Video &#124; Animal Songs &#124; PINKFONG Songs for Children|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Pinkfong|Pinkfong Kids' Songs & Stories]] || align=center | 34.09 || align="right" | June 17, 2016 || align=center | {{efn-ua|"Baby Shark Dance" is the fifth video to reach 20 million likes on August 31, 2020; fourth video to reach 30 million likes on August 21, 2021.}}
+|-
+| align=center | 4. || "[[Dynamite (BTS song)#Music video|Dynamite]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=gdZLi9oWNZg|title=BTS (방탄소년단) 'Dynamite' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 33.15 || align="right" | August 21, 2020 || align=center | {{efn-ua|"Dynamite" is the sixth and fastest video to reach 20 million likes, doing so on October 23, 2020, two months after release;<ref>{{cite web|url=https://www.youtube.com/watch?v=gdZLi9oWNZg|archive-url=https://web.archive.org/web/20201023150739if_/https://www.youtube.com/watch?v=gdZLi9oWNZg|archive-date=October 23, 2020|title=Dynamite on YouTube on the Wayback Machine on October 23, 2020, 15:07:39 (UTC)|date=October 23, 2020|access-date=January 14, 2021|work=[[Wayback Machine]]}}</ref> third and fastest video to reach 30 million likes on August 11, 2021, less than a year after release.<ref>{{cite web|url=https://www.youtube.com/watch?v=gdZLi9oWNZg|archive-url=https://web.archive.org/web/20210811105430/https://www.youtube.com/watch?v=gdZLi9oWNZg|archive-date=August 11, 2021|title=Dynamite on YouTube on the Wayback Machine on August 11, 2021, 10:54:30 (UTC)|date=August 11, 2021|access-date=August 13, 2021|work=[[Wayback Machine]]}}</ref>}}
+|-
+| align=center | 5. || "[[Shape of You#Music video|Shape of You]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=JGwWNGJdvx8|title=Ed Sheeran - Shape of You [Official Video]|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Ed Sheeran]] || align=center | 29.27 || align="right" | January 30, 2017 || align=center | {{efn-ua|"Shape of You" is the third video to reach 20 million likes on June 12, 2019.}}
+|-
+| align=center | 6. || "[[Boy with Luv#Music video|Boy with Luv]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=XsX3ATc3FbA|title=BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) feat. Halsey' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] featuring [[Halsey (singer)|Halsey]] || align=center | 25.76 || align="right" | April 12, 2019 || align=center | {{efn-ua|"Boy with Luv" is the eighth video to reach 20 million likes on December 2, 2020.}}
+|-
+| align=center | 7. || "[[Faded (Alan Walker song)#Music video|Faded]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=60ItHLz5WEA|title=Alan Walker - Faded|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Alan Walker (music producer)|Alan Walker]] || align=center | 24.95 || align="right" | December 3, 2015 || align=center | {{efn-ua|"Faded" is the fourth video to reach 20 million likes on July 3, 2020.}}
+|-
+| align=center | 8. || "[[Gangnam Style (music video)|Gangnam Style]]"<ref name="Gangnam Style">{{cite web|url=https://www.youtube.com/watch?v=9bZkp7q19f0|title=Psy - Gangnam Style|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Psy]] || align=center | 24.00 || align="right" | July 15, 2012 || align=center | {{efn-ua|"Gangnam Style" surpassed "Party Rock Anthem" as the most-liked video on September 13, 2012;<ref name="Psy History"/> first video to reach 10 million likes on November 3, 2015;<ref name="auto1">{{cite web|url=https://www.youtube.com/watch?v=9bZkp7q19f0|archive-url=https://web.archive.org/web/20151103142339/https://www.youtube.com/watch?v=9bZkp7q19f0|archive-date=November 3, 2015|title=Gangnam Style on YouTube on the Wayback Machine on November 3, 2015, 14:23:39 (UTC)|date=November 3, 2015|access-date=May 9, 2016|work=[[Wayback Machine]]}}</ref> seventh video to reach 20 million likes on December 7, 2020.}}
+|-
+| align=center | 9. || "[[How You Like That#Music video|How You Like That]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=ioNng23DkIM|title=BLACKPINK - 'How You Like That' M/V|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Blackpink]] || align=center | 23.05 || align="right" | June 26, 2020 || align=center | {{efn-ua|"How You Like That" is the tenth video to reach 20 million likes on May 2, 2021.}}
+|-
+| align=center | 10. || "How Zach King Gets Away With Doing Graffiti"<ref>{{cite web|url=https://www.youtube.com/watch?v=R1Ehb3JA-cM|title=How Zach King Gets Away With Doing Graffiti|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Zach King]] || align=center | 22.93 || align="right" | July 23, 2019 || align=center | {{efn-ua|"How Zach King Gets Away With Doing Graffiti" is the fourteenth video to reach 20 million likes on October 24, 2021.}}
+|-
+| align=center | 11. || "[[Alone (Marshmello song)#Music video|Alone]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=ALZHF5UqnU4|title=Marshmello - Alone (Official Music Video)|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Marshmello]] || align=center | 22.82 || align="right" | July 2, 2016 || align=center | {{efn-ua|"Alone" is the ninth video to reach 20 million likes on March 31, 2021.}}
+|-
+| align=center | 12. || "[[Kill This Love (song)#Music video|Kill This Love]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=2S24-y0Ij3Y|title=BLACKPINK - 'Kill This Love' M/V|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Blackpink]] || align=center | 22.21 || align="right" | April 4, 2019 || align=center | {{efn-ua|"Kill This Love" is the eleventh video to reach 20 million likes on July 25, 2021.}}
+|-
+| align=center | 13. || "[[Lovely (Billie Eilish and Khalid song)#Music video|Lovely]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=V1Pl8CzNzCw|title=Billie Eilish, Khalid - lovely|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Billie Eilish]] and [[Khalid (singer)|Khalid]] || align=center | 21.75 || align="right" | April 29, 2018 || align=center | {{efn-ua|"Lovely" is the fifteenth video to reach 20 million likes on October 25, 2021.}}
+|-
+| align=center | 14. || "[[DNA (BTS song)#Music video|DNA]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=MBdVXkSdhwU|title=BTS (방탄소년단) 'DNA' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 21.50 || align="right" | September 18, 2017 || align=center | {{efn-ua|"DNA" is the twelfth video to reach 20 million likes on August 2, 2021.}}
+|-
+| align=center | 15. || "[[Butter (song)#Music video|Butter]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=WMweEpGlu_U|title=BTS (방탄소년단) 'Butter' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 21.44 || align="right" | May 21, 2021 || align=center | {{efn-ua|"Butter" is the thirteenth video to reach 20 million likes on October 15, 2021.}}
+|-
+| align=center | 16. || "[[Baby (Justin Bieber song)#Music video|Baby]]"<ref name="Baby">{{cite web|url=https://www.youtube.com/watch?v=kffacxfA7G4|title=Justin Bieber - Baby|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Justin Bieber]] featuring [[Ludacris]] || align=center | 20.74 || align="right" | February 19, 2010 || align=center | {{efn-ua|"Baby" surpassed "Evolution of Dance" as the most-liked video on July 6, 2011.<ref>{{cite web|url=https://www.youtube.com/watch?v=dMH0bHeiRNg|archive-url=https://web.archive.org/web/20110718142026/https://www.youtube.com/watch?v=dMH0bHeiRNg|archive-date=July 18, 2011|title=Evolution of Dance on YouTube on the Wayback Machine on July 18, 2011 14:20:26 (UTC)|date=July 18, 2011|access-date=May 9, 2016|work=[[Wayback Machine]]}}</ref><ref>{{cite web|url=https://www.youtube.com/watch?v=kffacxfA7G4|archive-url=https://web.archive.org/web/20110717043504/https://www.youtube.com/watch?v=kffacxfA7G4|archive-date=July 17, 2011|title=Baby on YouTube on the Wayback Machine on July 17, 2011 4:35:04 (UTC)|date=July 17, 2011|access-date=May 9, 2016|work=[[Wayback Machine]]}}</ref> It is the sixteenth video to reach 20 million likes on December 23, 2021.}}
+|-
+| align=center | 17. || "[[Ddu-Du Ddu-Du#Music video|Ddu-Du Ddu-Du]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=IHNzOHi8sJs|title=BLACKPINK - '뚜두뚜두 (DDU-DU DDU-DU)' M/V|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Blackpink]] || align=center | 20.65 || align="right" | June 15, 2018 || align=center|{{efn-ua|"Ddu-Du Ddu-Du" is the seventeenth video to reach 20 million likes on December 24, 2021.}}
+|-
+| align=center | 18. || "[[Girls Like You#Music videos|Girls Like You]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=aJOTlE1K90k|title=Maroon 5 - Girls Like You ft. Cardi B|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Maroon 5]] featuring [[Cardi B]] || align=center | 20.15 || align="right" | May 31, 2018 || align=center|{{efn-ua|"Girls Like You" is the eighteened video to reach 20 million likes on February 14, 2022.}}
+|-
+| align=center | 19. || "Make This Video The Most Liked Video On Youtube"<ref>{{cite web|url=https://www.youtube.com/watch?v=dBxOYE2j55U|title=Make This Video The Most Liked Video On Youtube|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[MrBeast]] || align=center | 19.35 || align="right" | January 16, 2019 ||
+|-
+| align=center | 20. || "[[Fake Love (BTS song)#Music videos|Fake Love]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=7C2z4GqqS5E|title=BTS (방탄소년단) 'FAKE LOVE' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 19.18 || align="right" | May 18, 2018 ||
+|-
+| align=center | 21. || "[[Believer (Imagine Dragons song)#Music video|Believer]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=7wtfhZwyrcc|title=Imagine Dragons - Believer|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Imagine Dragons]] || align=center | 18.92 || align="right" | March 7, 2017 ||
+|-
+| align=center | 22. || "[[Idol (BTS song)#Music video|Idol]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=pBuZEGYXA6E|title=BTS (방탄소년단) 'IDOL' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 18.86 || align="right" | August 24, 2018 ||
+|-
+| align=center | 23. || "[[Señorita (Shawn Mendes and Camila Cabello song)#Music video|Señorita]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=Pkh8UtuejGw|title=Shawn Mendes, Camila Cabello - Señorita|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Shawn Mendes]] and [[Camila Cabello]] || align=center | 18.79 || align="right" | June 21, 2019 ||
+|-
+| align=center | 24. || "[[Uptown Funk#Music video|Uptown Funk]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=OPf0YbXqDm0|title=Mark Ronson - Uptown Funk ft. Bruno Mars|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Mark Ronson]] featuring [[Bruno Mars]] || align=center | 18.37 || align="right" | November 19, 2014 ||
+|-
+| align=center | 25. || "[[Ice Cream (Blackpink and Selena Gomez song)#Music video|Ice Cream]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=vRXZj0DzXIA|title=BLACKPINK - 'Ice Cream (with Selena Gomez)' M/V|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Blackpink]] and [[Selena Gomez]] || align=center | 18.30 || align="right" | August 28, 2020 ||
+|-
+| align=center | 26. || "[[Mic Drop (song)#Music videos|Mic Drop]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=kTlv5_Bs8aw|title=BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[BTS]] || align=center | 17.93 || align="right" | November 24, 2017 ||
+|-
+| align=center | 27. || "[[Hello (Adele song)#Music video|Hello]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=YQHsXMglC9A|title=Adele - Hello|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Adele]] || align=center | 17.63 || align="right" | October 22, 2015 ||
+|-
+| align=center | 28. || "[[Taki Taki (song)#Music videos|Taki Taki]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=ixkoVwKQaJg|title=DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[DJ Snake]] featuring [[Selena Gomez]], [[Ozuna (singer)|Ozuna]] & [[Cardi B]] || align=center | 17.49 || align="right" | October 9, 2018 ||
+|-
+| align=center | 29. || "[[Rap God#Music video|Rap God]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=XbGs_qK2PQA|title=Eminem - Rap God (Explicit)|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Eminem]] || align=center | 17.36 || align="right" | November 27, 2013 ||
+|-
+| align=center | 30. || "[[Bad Guy (Billie Eilish song)#Music videos|Bad Guy]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=DyDfgMOUjCI|title=Billie Eilish - bad guy|work=[[YouTube]]|access-date=January 4, 2022}}</ref> || [[Billie Eilish]] || align=center | 17.20 || align="right" | March 29, 2019 ||
+|-
+! colspan="6" style="text-align:center; font-size:8pt;" | As of 2 March, 2022
+|}
+
+==Historical most-liked videos==
+The following table lists the videos that became YouTube's most-liked video, from the implementation of the like button in March 2010 to the present.
+
+{{legend|#d0f0c0|Current record (⁂)}}
+{{legend|#d7ccf3|Former record (*)}}
+
+{| class="wikitable sortable"
+! Video name
+! Uploader
+! Likes<ref group="*">''The approximate number of likes each video had when it became YouTube's most-liked video.''</ref>
+! data-sort-type="usLongDate" | Upload date
+! data-sort-type="usLongDate" | Date achieved
+! Days held
+! class="unsortable" | {{Abbr|Ref|Reference}}
+! class="unsortable" | Notes
+|-
+|| "[[Despacito]]"⁂<ref name="Despacito"/> || [[Luis Fonsi]] || align=right | 16,010,000 || align=right | January 12, 2017 || align=right | July 25, 2017 || style="background:#d0f0c0; text-align:center;" | {{age in days|2017|7|25}}<ref group="†">As of {{date|2=MDY}}</ref> || align=center | <ref>{{cite web|url=https://twitter.com/MyTop100Videos/status/889853187833958401|title=Congratulations to @LuisFonsi and @daddy_yankee! Despacito is now the most liked YouTube video of all time!|work=[[Twitter]]|date=July 25, 2017|access-date=August 25, 2017}}</ref> || align=center | {{efn-ua|"Despacito" became the first video to reach 20 million likes on August 30, 2017;<ref name="auto"/> first video to reach 30 million likes on September 29, 2018; first video to reach 40 million likes on September 24, 2020.}}
+|-
+|| "[[See You Again]]"<ref name="See You Again"/> || [[Wiz Khalifa]] || align=right | 11,210,000 || align=right | April 6, 2015 || align=right | {{nowrap|August 27, 2016}} || align=center | 332 || align=center | <ref name="Wiz History"/> ||
+|-
+|| "[[Gangnam Style]]"*<ref name="Gangnam Style"/> || [[Psy]] || align=right | 1,570,000 || align=right | July 15, 2012 || align=right | September 13, 2012 || style="background:#d7ccf3; text-align:center;" | '''1444''' || align=center | <ref name="Psy History"/> || align=center | {{efn-ua|"Gangnam Style" became the first video to reach 2 million likes on September 18, 2012,<ref>{{cite web|url=https://www.youtube.com/watch?v=9bZkp7q19f0|archive-url=https://web.archive.org/web/20120918220951/https://www.youtube.com/watch?v=9bZkp7q19f0|archive-date=September 18, 2012|title=Gangnam Style on YouTube on the Wayback Machine on September 18, 2012 22:09:51 (UTC)|date=September 18, 2012|access-date=September 27, 2016|work=[[Wayback Machine]]}}</ref> 5 million likes on November 11, 2012,<ref>{{cite web|url=https://www.youtube.com/watch?v=9bZkp7q19f0|archive-url=https://web.archive.org/web/20121111043306/https://www.youtube.com/watch?v=9bZkp7q19f0|archive-date=November 11, 2012|title=Gangnam Style on YouTube on the Wayback Machine on November 11, 2012 04:33:06 (UTC)|date=November 11, 2012|access-date=September 27, 2016|work=[[Wayback Machine]]}}</ref> and 10 million likes on November 3, 2015.<ref name="auto1"/>}}
+|-
+|| "[[Party Rock Anthem]]"<ref name="Party Rock Anthem">{{cite web|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8|title=LMFAO - Party Rock Anthem ft. Lauren Bennett, GoonRock|work=[[YouTube]]|access-date=April 23, 2017}}</ref> || [[LMFAO]] || align=right | 1,390,000 || align=right | March 8, 2011 || align=right | April 4, 2012 || align=center | 162 || align=center | <ref name="LMFAO History"/> ||
+|-
+|| "[[Kony 2012]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=Y4MnpzG5Sqc|title=KONY 2012|work=[[YouTube]]|access-date=September 16, 2016}}</ref> || [[Invisible Children, Inc.|Invisible Children]] || align=right | 1,350,000 || align=right | March 5, 2012 || align=right | March 17, 2012 || align=center | 18 || align=center | <ref name="KONY History"/> || align=center | {{efn-ua|"Kony 2012" was a viral campaign by Invisible Children that aimed to raise support for [[Joseph Kony]]'s arrest. In 12 days it became YouTube's most-liked video, only to be surpassed by "Party Rock Anthem" 18 days later.}}
+|-
+|| "[[Party Rock Anthem]]"<ref name="Party Rock Anthem"/> || [[LMFAO]] || align=right | 950,000 || align=right | March 8, 2011 || align=right | November 3, 2011 || align=center | 135 || align=center | <ref name="LMFAO History 2"/> || align=center | {{efn-ua|"Party Rock Anthem" was the first video to reach 1 million likes on November 15, 2011.<ref>{{cite web|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8|archive-url=https://web.archive.org/web/20111114180251/https://www.youtube.com/watch?v=KQ6zr6kCPj8|archive-date=November 14, 2011|title=Party Rock Anthem on YouTube on the Wayback Machine on November 14, 2011 18:02:51 (UTC)|date=November 14, 2011|access-date=May 9, 2016|work=[[Wayback Machine]]}}</ref><ref>{{cite web|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=musicchart|archive-url=https://web.archive.org/web/20111117090750/https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=musicchart|archive-date=November 17, 2011|title=Party Rock Anthem on YouTube on the Wayback Machine on November 17, 2011 9:07:50 (UTC)|date=November 17, 2011|access-date=May 9, 2016|work=[[Wayback Machine]]}}</ref><ref>{{cite web|url=https://www.youtube.com/watch?v=l7EWZMaaJSE|title=First video to ever get 1 million likes on youtube! (most likes) watch it happen!|work=[[YouTube]]|date=November 15, 2011|access-date=May 9, 2016|url-status=live|archive-url=https://web.archive.org/web/20140108200435/http://www.youtube.com/watch?v=l7EWZMaaJSE|archive-date=January 8, 2014|df=mdy-all}}</ref> It is the only video on this list to hold the No. 1 spot on more than one occasion.}}
+|-
+|| "[[Baby (Justin Bieber song)|Baby]]"<ref name="Baby"/> || [[Justin Bieber]] || align=right | 760,000 || align=right | {{nowrap|February 19, 2010}} || align=right | July 6, 2011 || align=center | 120 || align=center | <ref name="JB History"/> ||
+|-
+|| "[[Evolution of Dance]]"<ref>{{cite web|url=https://www.youtube.com/watch?v=dMH0bHeiRNg|title=Evolution of Dance|work=[[YouTube]]|access-date=September 16, 2016}}</ref> || [[Judson Laipply]] || align=right | 620,000 || align=right | April 6, 2006 || align=right | March 31, 2010 || align=center | 462 || align=center | <ref name="EoD History"/> || align=center | {{efn-ua|"Evolution of Dance" was YouTube's first video to hold the No. 1 spot on this list. When the video was uploaded in 2006, YouTube still used the 5-star rating system. On March 31, 2010, when the rating system changed to [[Like button|likes and dislikes]], all previous 1 star ratings were converted to dislikes and all 5 star ratings were converted to likes. This automatically made "Evolution of Dance" YouTube's most-liked video at the time.}}
+|-
+! colspan="8" style="text-align:center; font-size:8pt;" | {{Reflist|group=†}}
+|}
+{{Reflist|group=*}}
+
+'''Timeline of most-liked videos (Mar 2010 – Jan 2021)'''
+<timeline>
+ImageSize = width:900 height:auto barincrement:20
+PlotArea = top:10 bottom:80 right:130 left:20
+AlignBars = late
+
+DateFormat = dd/mm/yyyy
+Period = from:2010 till:01/01/2021
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:1 start:2010
+
+Colors =
+  id:Liked value:rgb(0.0,0.5,0.0)  legend: Most&nbsp;liked&nbsp;on&nbsp;YouTube
+  id:On value:gray(0.8)  legend: On&nbsp;YouTube
+
+Legend = columns:2 left:200 top:50 columnwidth:250
+
+BarData =
+  bar:Evolution
+  bar:Baby
+  bar:Party
+  bar:Kony
+  bar:Gangnam
+  bar:Wiz
+  bar:Despacito
+
+PlotData =
+  width:5 align:left fontsize:9 shift:(5,-4) anchor:till
+
+ bar:Evolution
+  from: 01/01/2010 till: 31/03/2010 color:On text:
+  from: 31/03/2010 till: 06/07/2011 color:Liked text:
+  from: 06/07/2011 till: end color:On text:"[[Evolution of Dance]]"
+ bar:Baby
+  from: 19/02/2010 till: 06/07/2011 color:On text:
+  from: 06/07/2011 till: 03/11/2011 color:Liked text:
+  from: 03/11/2011 till: end color:On text:"[[Baby (Justin Bieber song)|Baby]]"
+ bar:Party
+  from: 08/03/2011 till: 03/11/2011 color:On text:
+  from: 03/11/2011 till: 17/03/2012 color:Liked text:
+  from: 17/03/2012 till: 02/04/2012 color:On text:
+  from: 02/04/2012 till: 13/09/2012 color:Liked text:
+  from: 13/09/2012 till: end color:On text:"[[Party Rock Anthem]] (2)"
+ bar:Kony
+  from: 05/03/2012 till: 17/03/2012 color:On text:
+  from: 17/03/2012 till: 02/04/2012 color:Liked text:
+  from: 02/04/2012 till: end color:On text:"[[KONY 2012]]"
+ bar:Gangnam
+  from: 15/07/2012 till: 13/09/2012 color:On text:
+  from: 13/09/2012 till: 27/08/2016 color:Liked text:
+  from: 27/08/2016 till: end color:On text:"[[Gangnam Style]]"
+ bar:Wiz
+  from: 16/04/2015 till: 27/08/2016 color:On text:
+  from: 27/08/2016 till: 25/07/2017 color:Liked text:
+  from: 25/07/2017 till: end color:On text:"[[See You Again]]"
+ bar:Despacito
+  from: 12/01/2017 till: 25/07/2017 color:On text:
+  from: 25/07/2017 till: end color:Liked text:"[[Despacito]]"
+</timeline>
+
+==See also==
+{{colbegin}}
+* [[List of most-disliked YouTube videos]]
+* [[List of most-viewed YouTube videos]]
+* [[List of most-viewed online videos in the first 24 hours]]
+* [[List of most-viewed online trailers in the first 24 hours]]
+* [[List of most-subscribed YouTube channels]]
+* [[List of most-viewed YouTube channels]]
+{{colend}}
+
+==Notes==
+{{notelist-ua}}
+
+==References==
+<references group="note" />
+{{Reflist|refs=
+
+<ref name="Wiz History">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=357745158|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|date=November 17, 2016|url=http://www.guinnessworldrecords.com/world-records/most-liked-video-online|title=Most "liked" video online|work=[[Guinness World Records]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170118001835/http://www.guinnessworldrecords.com/world-records/most-liked-video-online|archive-date=January 18, 2017|df=mdy-all}}
+*{{cite web|author=MyTop100Videos|date=August 28, 2016|url=https://twitter.com/MyTop100Videos/status/769793654265221120|title=#SeeYouAgain is now the most liked video on YouTube, after #GagnamStyle held the title for 1,444 days|work=[[Twitter]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170203062012/https://twitter.com/MyTop100Videos/status/769793654265221120|archive-date=February 3, 2017|df=mdy-all}}
+*{{cite web|author=Charlie Puth Online|date=August 28, 2016|url=https://twitter.com/charlieputhol/status/769801471625801728|title=See You Again became most liked video on YouTube so far, more "likes" than Gangnam Style!|work=[[Twitter]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170203054953/https://twitter.com/charlieputhol/status/769801471625801728|archive-date=February 3, 2017|df=mdy-all}}</ref>
+
+<ref name="Psy History">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=862870572|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|last=Barrett|first=Dan|date=September 20, 2012|url=http://www.guinnessworldrecords.com/news/2012/9/gangnam-style-now-most-liked-video-in-youtube-history-44977|title='Gangnam Style' holds Guinness World Record for most 'liked' video in YouTube history|work=[[Guinness World Records]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170128224608/http://www.guinnessworldrecords.com/news/2012/9/gangnam-style-now-most-liked-video-in-youtube-history-44977/|archive-date=January 28, 2017|df=mdy-all}}
+*{{cite web|date=September 14, 2012|url=https://www.soompi.com/2012/09/14/psy-ranks-eighth-on-us-itunes-chart-also-becomes-most-liked-video-on-youtube|title=Psy Ranks 2nd on US iTunes Chart, Also Becomes Most Liked Video on YouTube|work=[[Soompi]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20121126075753/http://www.soompi.com/2012/09/14/psy-ranks-eighth-on-us-itunes-chart-also-becomes-most-liked-video-on-youtube/|archive-date=November 26, 2012|df=mdy-all}}{{unreliable source|date=November 2020}}
+*{{cite web|date=September 23, 2012|url=http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|title='Gangnam Style' Knocks LMFAO 'Party Rock Anthem' Down As New Guinness World Record Holder|work=Mstars News|access-date=January 21, 2017|url-status=dead|archive-url=https://web.archive.org/web/20161109083503/http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|archive-date=November 9, 2016|df=mdy-all}}
+*{{cite web|date=September 13, 2012|url=http://onekpop.com/45328/psys-gangnam-style-mv-becomes-most-liked-video-in-youtube-history|title=Psy's "Gangnam Style" MV Becomes Most Liked Video In YouTube History|work=Onekpop|access-date=January 21, 2017|archive-url=https://web.archive.org/web/20180104013651/http://onekpop.com/45328/psys-gangnam-style-mv-becomes-most-liked-video-in-youtube-history/|archive-date=January 4, 2018|url-status=dead}}{{unreliable source|date=November 2020}}
+*{{cite web|date=September 13, 2012|url=http://www.allkpop.com/article/2012/09/psys-gangnam-style-mv-becomes-most-liked-video-in-youtube-history|title=Psy's "Gangnam Style" MV becomes Most Liked video in YouTube History|work=[[Allkpop]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170705215452/http://www.allkpop.com/article/2012/09/psys-gangnam-style-mv-becomes-most-liked-video-in-youtube-history|archive-date=July 5, 2017|df=mdy-all}}</ref>{{unreliable source|date=November 2020}}
+
+<ref name="LMFAO History">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=862870572|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|last=Barrett|first=Dan|date=September 20, 2012|url=http://www.guinnessworldrecords.com/news/2012/9/gangnam-style-now-most-liked-video-in-youtube-history-44977|title='Gangnam Style' holds Guinness World Record for most 'liked' video in YouTube history|work=[[Guinness World Records]]|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20170128224608/http://www.guinnessworldrecords.com/news/2012/9/gangnam-style-now-most-liked-video-in-youtube-history-44977/|archive-date=January 28, 2017|df=mdy-all}}
+*{{cite web|date=September 23, 2012|url=http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|title='Gangnam Style' Knocks LMFAO 'Party Rock Anthem' Down As New Guinness World Record Holder|work=Mstars News|access-date=January 21, 2017|url-status=dead|archive-url=https://web.archive.org/web/20161109083503/http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|archive-date=November 9, 2016|df=mdy-all}}
+*{{cite web|date=April 4, 2012|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=artist&playnext=1&list=ALHTd1VmZQRNq262qs8m7Bs5sA3nXGu-GA|title=Party Rock Anthem on The Wayback Machine on April 4, 2012, 16:23:48 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20120404162348/http://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=artist&playnext=1&list=ALHTd1VmZQRNq262qs8m7Bs5sA3nXGu-GA|archive-date=April 4, 2012}}
+*{{cite web|date=April 4, 2012|url=https://www.youtube.com/watch?v=Y4MnpzG5Sqc|title=KONY 2012 on The Wayback Machine on April 4, 2012, 17:58:40 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20120404175840/http://www.youtube.com/watch?v=Y4MnpzG5Sqc|archive-date=April 4, 2012}}</ref>
+
+<ref name="KONY History">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=862870572|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=2102056200|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|date=March 17, 2012|url=https://www.youtube.com/watch?v=Y4MnpzG5Sqc|title=KONY 2012 on The Wayback Machine on March 17, 2012, 11:11:00 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|archive-url=https://web.archive.org/web/20120317111100/http://www.youtube.com/watch?v=Y4MnpzG5Sqc|archive-date=March 17, 2012}}
+*{{cite web|date=March 17, 2012|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=ymg|title=Party Rock Anthem on The Wayback Machine on March 17, 2012, 11:14:33 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20120317111433/https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=ymg|archive-date=March 17, 2012}}</ref>
+
+<ref name="LMFAO History 2">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=862870572|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=2102056200|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|date=October 31, 2011|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8|title=Party Rock Anthem on The Wayback Machine on October 31, 2011, 10:23:52 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20111031102352/http://www.youtube.com/watch?v=KQ6zr6kCPj8|archive-date=October 31, 2011}}
+*{{cite web|date=November 5, 2011|url=https://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=musicchart|title=Party Rock Anthem on The Wayback Machine on November 5, 2011, 15:23:31 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20111105152331/http://www.youtube.com/watch?v=KQ6zr6kCPj8&feature=musicchart|archive-date=November 5, 2011}}
+*{{cite web|date=October 31, 2011|url=https://www.youtube.com/watch?v=kffacxfA7G4|title=Baby on The Wayback Machine on October 31, 2011, 18:36:21 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20111031183621/http://www.youtube.com/watch?v=kffacxfA7G4|archive-date=October 31, 2011}}
+*{{cite web|date=November 5, 2011|url=https://www.youtube.com/watch?v=kffacxfA7G4&feature=musicchartdaily|title=Baby on The Wayback Machine on November 5, 2011, 15:42:35 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20111105154235/http://www.youtube.com/watch?v=kffacxfA7G4&feature=musicchartdaily|archive-date=November 5, 2011}}</ref>
+
+<ref name="JB History">References:
+*{{cite web|url=https://docs.google.com/spreadsheets/d/135QR7VAvTppLHGX3lbabqi_P78idE9fxdyrHQ-KBsZY/edit#gid=862870572|title=History of the Most Liked YouTube Video|work=[[Google Sheets]] and [[Wayback Machine]]|access-date=January 21, 2017}}
+*{{cite web|date=September 23, 2012|url=http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|title='Gangnam Style' Knocks LMFAO 'Party Rock Anthem' Down As New Guinness World Record Holder|work=Mstars News|access-date=January 21, 2017|url-status=dead|archive-url=https://web.archive.org/web/20161109083503/http://mstarsnews.musictimes.com/articles/5128/20120923/gangnam-style-knocks-lmfao-party-rock-anthem-down-guinness-world-record-holder.htm|archive-date=November 9, 2016|df=mdy-all}}
+*{{cite web|date=June 17, 2011|url=https://www.youtube.com/watch?v=kffacxfA7G4|title=Baby on The Wayback Machine on June 17, 2011, 14:23:32 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20110717043504/http://www.youtube.com/watch?v=kffacxfA7G4|archive-date=July 17, 2011}}
+*{{cite web|date=June 17, 2011|url=https://www.youtube.com/watch?v=dMH0bHeiRNg|title=Evolution of Dance on The Wayback Machine on June 17, 2011, 17:36:41 (UTC)|website = [[YouTube]]|access-date=January 21, 2017|url-status=bot: unknown|archive-url=https://web.archive.org/web/20110718142026/http://www.youtube.com/watch?v=dMH0bHeiRNg|archive-date=July 18, 2011}}</ref>
+
+<ref name="EoD History">References:
+*{{cite web|last=McCabe|first=Joanne|date=June 30, 2011|url=http://metro.co.uk/2011/06/30/justin-biebers-baby-is-most-disliked-youtube-video-guinness-world-records-61954|title=It's official: Justin Bieber's Baby is YouTube's most 'disliked' video|access-date=January 21, 2017|url-status=live|archive-url=https://web.archive.org/web/20161115063432/http://metro.co.uk/2011/06/30/justin-biebers-baby-is-most-disliked-youtube-video-guinness-world-records-61954/|archive-date=November 15, 2016|df=mdy-all}}</ref>{{unreliable source|reason=As per [[WP:RSP]]|date=November 2020}}}}
+
+{{YouTube navigation}}
+{{Most popular social media accounts}}
+
+[[Category:YouTube videos|Most Liked]]
+[[Category:21st century-related lists|YouTube Most Liked Videos]]
+[[Category:YouTube-related lists|Liked Videos]]
+[[Category:Lists of Internet-related superlatives|YouTube Most Liked Videos]]
+[[Category:Lists of most popular media|Youtube videos]]

@@ -1,0 +1,37 @@
+{{Short description|Politician}}
+{{Infobox officeholder
+|name        = Frits Palm
+|image       = 
+|alt         = 
+|caption     = 
+|office      = Member of the [[House of Representatives (Netherlands)|House of Representatives]]
+|term_start1 = 23 May 2002
+|term_end1   = 30 January 2003
+|birth_date  = {{Birth date|1947|01|30|df=yes}}
+|birth_place = [[Singapore]]
+|death_date  = {{Death date and age|2011|03|07|1947|01|30|df=yes}}
+|death_place = [[Delft]], Netherlands
+|party       = [[Pim Fortuyn List]]
+|alma_mater  = [[Erasmus University Rotterdam]]
+|religion    =
+|website     = 
+}}
+'''Frederik Albert "Frits" Palm''' (born 1947 - died 2011) was a Dutch economist, civil servant and former politician for the [[Pim Fortuyn List]] in the [[House of Representatives (Netherlands)|House of Representatives]] from 2002 to 2003.
+
+Before he was elected to parliament, Palm was the director of the Cabinet of Antillean Affairs. In parliament he focused on Foreign Affairs, European Affairs, Defense and Kingdom Relations. Palm was also second vice-president of the House of Representatives.<ref>{{Cite web|url=https://www.parlement.com/id/vg9fgopy3mdw/f_a_frits_palm|title=Drs. F.A. (Frits) Palm|website=www.parlement.com}}</ref><ref>{{Cite web|url=http://www.biografischportaal.nl/persoon/41594161|title=Drs. Frits Palm|website=www.biografischportaal.nl}}</ref><ref>{{Cite web|url=https://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vgbwk0xpkxzt?ctx=vg9fgopvu7zh|title=Weisglas in de Volkskrant: "Politiek vergrofd door LPF" - Parlementaire monitor|website=www.parlementairemonitor.nl}}</ref>
+
+== References ==
+
+{{Reflist}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Palm, Frits}}
+[[Category:1947 births]]
+[[Category:2011 deaths]]
+[[Category:Members of the House of Representatives (Netherlands)]]
+[[Category:Pim Fortuyn List politicians]]
+[[Category:21st-century Dutch politicians]]
+
+
+{{Netherlands-politician-stub}}

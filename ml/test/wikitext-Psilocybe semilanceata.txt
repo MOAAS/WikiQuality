@@ -1,0 +1,341 @@
+{{Short description|Species of fungus in the family Hymenogastraceae, native to Europe}}
+{{Use dmy dates|date=October 2021}}
+{{Featured article}}
+{{Speciesbox
+| image = Psilocybe.semilanceata.Alan.jpg
+| genus = Psilocybe
+| species = semilanceata
+| authority = ([[Elias Magnus Fries|Fr.]]) [[P.Kumm.]] (1871)   
+| synonyms_ref =<ref name="urlMycoBank: Psilocybe semilanceata"/><ref name=Bas1995/>
+| synonyms = *''Agaricus semilanceatus'' <small>Fr. (1838)</small>
+*''Geophila semilanceata'' <small>(Fr.) [[Lucien Quélet|Quél.]] (1886)</small>
+*''Panaeolus semilanceatus'' <small>(Fr.) [[Jakob Emanuel Lange|J.E.Lange]] (1936)</small>
+*''Panaeolus semilanceatus'' <small>(Fr.) J.E.Lange (1939)</small>
+}}
+{{mycomorphbox
+| name = ''Psilocybe semilanceata''
+| whichGills = adnate
+| whichGills2= adnexed
+| capShape = conical
+| capShape2 = umbonate
+| hymeniumType = gills
+| stipeCharacter = bare
+| ecologicalType = saprotrophic
+| sporePrintColor = brown
+| sporePrintColor2 = purple
+| howEdible = psychoactive
+}}
+
+'''''Psilocybe semilanceata''''', commonly known as the '''liberty cap''', is a species of fungus which produces the [[Psychoactive drug|psychoactive]] compounds [[psilocybin]] and [[baeocystin]]. It is both one of the most widely distributed [[psilocybin mushrooms]] in nature, and one of the most [[potency (pharmacology)|potent]]. The mushrooms have a distinctive conical to bell-shaped [[pileus (mycology)|cap]], up to {{convert|2.5|cm|in|abbr=on|round=0.5}} in diameter, with a small [[Umbo (mycology)|nipple-like protrusion]] on the top. They are yellow to brown, covered with radial grooves when moist, and fade to a lighter color as they mature. Their [[stipe (mycology)|stipes]] tend to be slender and long, and the same color or slightly lighter than the cap. The [[lamella (mycology)|gill]] attachment to the stipe is adnexed (narrowly attached), and they are initially cream-colored before tinting purple to black as the [[spore]]s mature. The spores are dark purplish-brown in [[spore print|mass]], [[ellipsoid]] in shape, and measure 10.5–15 by 6.5–8.5&nbsp;[[micrometre]]s.
+
+The mushroom grows in [[grassland]] habitats, especially wetter areas. But unlike ''[[Psilocybe cubensis|P.&nbsp;cubensis]]'', the fungus does not grow directly on dung; rather, it is a [[saprobic]] species that feeds off decaying grass roots. It is widely distributed in the [[temperate climate|temperate]] areas of the [[Northern Hemisphere]], particularly in Europe, and has been reported occasionally in temperate areas of the [[Southern Hemisphere]] as well. The earliest reliable history of ''P.&nbsp;semilanceata'' intoxication dates back to 1799 in London, and in the 1960s the mushroom was the first European species confirmed to contain psilocybin.
+
+The possession or sale of psilocybin mushrooms is [[Legal status of psilocybin mushrooms|illegal in many countries]].
+
+==Taxonomy and naming==
+{{multiple image
+| footer = The mushroom gets its common name from its resemblance to the [[Phrygian cap]].
+| align = 
+| image1 = Psilocybe semilanceata 250px.jpg
+| alt1 = A small conical cream-colored mushroom on a long, spindly stipe, amid long grass
+| width1 = {{#expr: (155 * 250 / 330) round 0}}
+| image2 = Bust Attis CdM.jpg
+| alt2 = A marble bust of a curly-haired boy wearing an edgeless conical cap with the rounded peak bending forward
+| width2 = {{#expr: (155 * 1350 / 1880) round 0}}
+}}
+
+The species was first described by [[Elias Magnus Fries]] as ''Agaricus semilanceatus'' in his 1838 work ''Epicrisis Systematis Mycologici''.<ref name=Fries1838/> [[Paul Kummer]] transferred it to ''[[Psilocybe]]'' in 1871 when he raised many of Fries's sub-groupings of ''Agaricus'' to the level of genus.<ref name=Kummer1871/> ''Panaeolus semilanceatus'', named by [[Jakob Emanuel Lange]] in both 1936 and 1939 publications, is a [[synonym (biology)|synonym]].<ref name=Lange1936/><ref name=Lange1939/> According to the [[Taxonomy (biology)|taxonomical]] database [[MycoBank]], several [[taxon|taxa]] once considered [[variety (botany)|varieties]] of ''P.&nbsp;semilanceata'' are synonymous with the species now known as ''[[Psilocybe strictipes]]'':<ref name="urlMycoBank: Psilocybe strictipes"/> the ''caerulescens'' variety described by [[Pier Andrea Saccardo]] in 1887 (originally named ''Agaricus semilanceatus'' var. ''coerulescens'' by [[Mordecai Cubitt Cooke]] in 1881),<ref name=Saccardo1887/> the ''microspora'' variety described by [[Rolf Singer]] in 1969,<ref name=Singer1969/> and the ''obtusata'' variety described by [[Marcel Bon]] in 1985.<ref name=Bon1985/>
+
+Several [[molecular phylogenetics|molecular]] studies published in the 2000s demonstrated that ''Psilocybe'', as it was defined then, was [[polyphyletic]].<ref name="Moncalvo2002" /><ref name="Nugent2004" /><ref name="Matheny2006" /> The studies supported the idea of dividing the genus into two [[clade]]s, one consisting of the bluing, [[psilocybin mushroom|hallucinogenic]] species in the family [[Hymenogastraceae]], and the other the non-bluing, non-hallucinogenic species in the family [[Strophariaceae]]. However, the generally accepted [[lectotype]] (a specimen later selected when the original author of a taxon name did not designate a [[type (biology)|type]]) of the genus as a whole was ''[[Psilocybe montana]]'', which is a non-bluing, non-hallucinogenic species. If the non-bluing, non-hallucinogenic species in the study were to be segregated, it would have left the hallucinogenic clade without a [[valid name (botany)|valid name]]. To resolve this dilemma, several mycologists proposed in a 2005 publication to [[conserved name|conserve]] the name ''Psilocybe'', with ''P.&nbsp;semilanceata'' as the type. As they explained, conserving the name ''Psilocybe'' in this way would prevent [[nomenclature|nomenclatural]] changes to a well-known group of fungi, many species of which are "linked to archaeology, anthropology, religion, alternate life styles, forensic science, law enforcement, laws and regulation".<ref name="Redhead2005" /> Further, the name ''P.&nbsp;semilanceata'' had historically been accepted as the lectotype by many authors in the period 1938–68. The proposal to conserve the name ''Psilocybe'', with ''P.&nbsp;semilanceata'' as the type was accepted unanimously by the [[Nomenclature Committee for Fungi]] in 2009.<ref name="Norvell2009" />
+
+The mushroom takes its [[common name]] from the [[Phrygian cap]], also known as the "liberty cap", which it resembles;<ref name=Weil2004/> ''P.&nbsp;semilanceata'' shares its common name with ''[[Psilocybe pelliculosa|P.&nbsp;pelliculosa]]'',<ref name=Pollock1976/> a species from which it is more or less indistinguishable in appearance.<ref name=Guzman1976/> The [[Latin]] word for Phrygian cap is ''[[pileus (mycology)|pileus]]'', nowadays the technical name for what is commonly known as the "cap" of a fungal fruit body. In the 18th century, Phrygian caps were placed on [[Liberty pole]]s, which resemble the [[Stipe (mycology)|stipe]] of the mushroom. The generic name is derived from [[Ancient Greek]] ''psilos'' (ψιλός) 'smooth, bare' and [[Byzantine Greek]] ''kubê'' (κύβη) 'head'.<ref name=OED-psilocybin/><ref name=Cornelis1826/> The [[specific name (botany)|specific epithet]] comes from Latin ''semi'' 'half, somewhat' and ''lanceata'', from ''lanceolatus'' 'spear-shaped'.<ref name=Mehrotra1990/>
+
+==Description==
+[[File:IMAG0172.jpg|thumb|upright=.9|alt=A collection of brown mushrooms laid on a rock. The mushrooms' caps are small, conical, and variably rounded. Their stipes are long, spindly, and irregular.|A collection from Norway]]
+
+*Pileus: The [[pileus (mycology)|cap]] of ''P.&nbsp;semilanceata'' is {{convert|5|-|30|mm|in|1|abbr=on}} in diameter<ref name=":0">{{Cite book|last=Davis|first=R. Michael|url=https://www.worldcat.org/oclc/797915861|title=Field Guide to Mushrooms of Western North America|last2=Sommer|first2=Robert|last3=Menge|first3=John A.|publisher=[[University of California Press]]|year=2012|isbn=978-0-520-95360-4|location=Berkeley|pages=213–214|oclc=797915861}}</ref> and {{convert|6|-|22|mm|in|abbr=on}} tall. It varies in shape from sharply conical to bell-shaped, often with a prominent [[papilla (mycology)|papilla]] (a nipple-shaped structure), and does not change shape considerably as it ages. The cap margin is initially rolled inward but unrolls to become straight or even curled upwards in maturity. The cap is [[hygrophanous]], meaning it assumes different colors depending on its state of hydration. When it is moist, the cap is [[ochre|ochraceous]] to pale brown to dark chestnut brown, but darker in the center, often with a greenish-blue tinge. When moist, radial lines can be seen through the cap that correspond to the positions of the [[Lamella (mycology)|gills]] underneath. When the cap is dry, it becomes much paler, a light yellow-brown color.<ref name=Bas1995/> Moist mushrooms have sticky surfaces that result from a thin gelatinous film called a pellicle.<ref name="Stamets pp.142-145"/> This film becomes apparent if a piece of the cap is broken by bending it back and peeling away the piece. When the cap dries from exposure to the sun, the film turns whitish and is no longer peelable.<ref name=Harris2003/>
+*Gills: On the underside of the mushroom's cap, there are between 15 and 27 individual narrow gills that are moderately crowded together, and they have a narrowly [[adnexed gills|adnexed]] to almost free attachment to the stipe. Their color is initially pale brown, but becomes dark gray to purple-brown with a lighter edge as the spores mature.
+*[[Spore print]]: deep reddish purple-brown color
+*Stipe: The slender yellowish-brown stipe is {{convert|4|-|15|cm|in|abbr=on|round=0.5}} long by 1–3.5&nbsp;mm thick,<ref name=":0" /> and usually slightly thicker towards the base.<ref name=Bas1995/>
+*Veil: The mushroom has a thin cobweb-like [[partial veil]] that does not last long before disappearing; sometimes, the partial veil leaves an [[wikt:annular zone|annular zone]] on the stipe that may be darkened by [[spore]]s.<ref name="Stamets pp.142-145"/> The [[trama (mycology)|flesh]] is thin and membrane-like, and roughly the same color as the surface tissue. 
+*Taste and odor: [[wikt:farinaceous|farinaceous]]
+*Stain: All parts of the mushroom will stain a bluish color if handled or bruised, and it may naturally turn blue with age.<ref name=Bas1995/>
+
+===Microscopic characteristics===
+In [[spore print|deposit]], the spores are a deep reddish purple-brown color. The use of an [[optical microscope]] can reveal further details: the spores are oblong when seen in side view, and oblong to oval in frontal view, with dimensions of 10.5–15 by 6.5–8.5&nbsp;[[micrometre|μm]]. The [[basidia]] (spore bearing cells of the [[hymenium]]), are 20–31 by 5–9&nbsp;μm, four-spored, and have clamps at their bases; there are no basidia found on the sterile gill edge. The cheilocystidia ([[cystidia]] on the gill edge) measure 15–30 by 4–7&nbsp;μm, and are flask-shaped with long thin necks that are 1–3.5&nbsp;μm wide. ''P.&nbsp;semilanceata'' does not have pleurocystidia (cystidia on the gill face). The [[pileipellis|cap cuticle]] is up to 90&nbsp;μm thick, and is made of a tissue layer called an [[wikt:ixocutis|ixocutis]]—a gelatinized layer of [[hypha]]e lying parallel to the cap surface. The hyphae comprising the ixocutis are cylindrical, [[hyaline]], and 1–3.5&nbsp;μm wide. Immediately under the cap cuticle is the ''subpellis'', made of hyphae that are 4–12&nbsp;μm wide with yellowish-brown encrusted walls. There are [[clamp connection]]s present in the hyphae of all tissues.<ref name=Bas1995/>
+
+{{multiple image|caption_align=center|header_align=center
+ | align = center
+
+ | image1 = Empreinte_de_spore_Psilocybe_semilanceata.jpg
+ | width1 = 200
+ | caption1 = Spore Print
+
+ | image2 = Semilanceata-spores-done-DeNoiseAI-standard.pixi.jpg
+ | width2 = 250
+ | caption2  = Spores under microscope (x1000)
+
+ | image3 = Psilocybe semilanceata 73941.jpg
+ | width3 = 250
+ | caption3  = Microscopic characteristics
+}}
+
+===Other forms===
+The [[teleomorph, anamorph and holomorph|anamorphic]] form of ''P.&nbsp;semilanceata'' is an [[asexual reproduction|asexual]] stage in the fungus's [[biological life cycle|life cycle]] involved in the development of mitotic [[diaspore (botany)|diaspores]] ([[conidia]]). In [[microbiological culture|culture]], grown in a [[petri dish]], the fungus forms a white to pale orange cottony or felt-like mat of [[mycelia]]. The conidia formed are straight to curved, measuring 2.0–8.0 by 1.1–2.0&nbsp;μm, and may contain one to several small intracellular droplets.<ref name=Walther2008/> Although little is known of the anamorphic stage of ''P.&nbsp;semilanceata'' beyond the confines of laboratory culture, in general, the morphology of the asexual structures may be used as classical characters in phylogenetic analyses to help understand the evolutionary relationships between related groups of fungi.<ref name=Walther2005/>
+
+Scottish mycologist [[Roy Watling]] described sequestrate ([[truffle]]-like) or [[secotioid]] versions of ''P.&nbsp;semilanceata'' he found growing in association with regular fruit bodies. These versions had elongated caps, {{convert|20|-|22|cm|in|abbr=on}} long and {{convert|0.8|-|1|cm|in|sigfig=1|abbr=on}} wide at the base, with the inward curved margins closely hugging the stipe from the development of membranous flanges. Their gills were narrow, closely crowded together, and [[anastomose]]d (fused together in a vein-like network). The color of the gills was sepia with a brownish vinaceous (red wine-colored) cast, and a white margin. The stipes of the fruit bodies were {{convert|5|-|6|cm|in|abbr=on}} long by {{convert|0.1|-|0.3|cm|in|2|abbr=on}} thick, with about {{convert|2|cm|in|1|abbr=on}} of stipe length covered by the extended cap. The thick-walled ellipsoid spores were 12.5–13.5 by 6.5–7&nbsp;μm. Despite the significant differences in morphology, [[molecular phylogenetics|molecular]] analysis showed the secotioid version to be the same species as the typical [[morphotype]].<ref name=Watling2003/>
+
+==Similar species==
+{{multiple image
+| footer = Lookalikes include ''[[Psilocybe mexicana|P.&nbsp;mexicana]]'' (left) and ''[[Psilocybe pelliculosa|P.&nbsp;pelliculosa]]'' (right).
+| image1 = Psilocybe mexicana 53960.jpg
+| width1 = {{#expr: (150 * 2233 / 2024) round 0}}
+| image2 = Psilocybe pelliculosa 119172.jpg
+| width2 = {{#expr: (150 * 1204 / 903) round 0}}
+| image3 =
+| width3 = {{#expr: (150 * 450 / 600) round 0}}
+}}
+There are several other ''Psilocybe'' species that may be confused with ''P.&nbsp;semilanceata'' due to similarities in physical appearance. ''[[Psilocybe strictipes|P.&nbsp;strictipes]]'' is a slender grassland species that is differentiated macroscopically from ''P.&nbsp;semilanceata'' by the lack of a prominent papilla. ''[[Psilocybe mexicana|P.&nbsp;mexicana]]'', commonly known as the "Mexican liberty cap", is also similar in appearance, but is found in manure-rich soil in [[subtropical grasslands]] in Mexico. It has somewhat smaller spores than ''P.&nbsp;semilanceata'', typically 8–9.9 by 5.5–7.7&nbsp;μm.<ref name="Stamets p.129"/> Another lookalike species is ''[[Psilocybe samuiensis|P.&nbsp;samuiensis]]'', found in Thailand, where it grows in well-manured clay-like soils or among [[paddy field]]s. This mushroom can be distinguished from ''P.&nbsp;semilanceata'' by its smaller cap, up to {{convert|1.5|cm|in|1|abbr=on}} in diameter, and its [[rhomboid]]-shaped spores.<ref name="Stamets p.140"/> ''[[Psilocybe pelliculosa|P.&nbsp;pelliculosa]]'' is physically similar to such a degree that it may be indistinguishable in the field. It differs from ''P.&nbsp;semilanceata'' by virtue of its smaller spores, measuring 9–13 by 5–7&nbsp;μm.<ref name=Guzman1976/>
+
+''P.&nbsp;semilanceata'' has also been confused with the toxic [[muscarine]]-containing species ''[[Inocybe geophylla]]'',<ref>Bresinsky and Besl (1989), [https://books.google.com/books?id=EIcQGsZ2kksC&pg=PA55 pp. 115–16.]</ref> a whitish mushroom with a silky cap, yellowish-brown to pale grayish gills, and a dull yellowish-brown spore print.<ref name=Ammirati1985/> Other similar species include ''[[Psilocybe cubensis|P.&nbsp;cubensis]]'', ''[[Psilocybe cyanescens|P.&nbsp;cyanescens]]'', and ''[[Deconica coprophila]]''.<ref name=":0" />
+
+==Ecology and habitat==
+[[File:Mushroom-IMG 4742.JPG|thumb|upright=.7|''Psilocybe semilanceata'' is a saprobic grassland species.]]
+
+''Psilocybe semilanceata'' fruits solitarily or in groups on rich<ref name="Stamets pp.142-145"/><ref name="Guzman 1983, p. 361"/> and acidic soil,<ref name=Hofmann1963/><ref name="Gartz p.21"/> typically in [[grasslands]],<ref name="Stamets p.24"/> such as [[meadow]]s, [[pasture]]s,<ref name="Gartz p.18"/> or [[lawn]]s.<ref name="Stamets pp.142-145"/> It is often found in pastures that have been fertilized with sheep or cow [[feces|dung]],<ref name="Stamets pp.142-145"/> although it does not typically grow directly on the dung.<ref name="Gartz p.21"/>
+
+''P. semilanceata'', like all others species of the genus ''[[Psilocybe]]'', is a [[saprobic]] fungus,<ref name="Guzman 1983, p. 22"/><ref name="Stamets p.16"/> meaning it obtains nutrients by breaking down organic matter. The mushroom is also associated with [[Cyperaceae|sedges]] in moist areas of fields,<ref name="Stamets pp.142-145"/> and it is thought to live on the decaying root remains.<ref name=Hoiland1978/><ref name=Keay1990/>
+
+Like some other grassland [[psilocybin mushroom]] species such as ''[[Psilocybe mexicana|P.&nbsp;mexicana]]'', ''[[Psilocybe tampanensis|P.&nbsp;tampanensis]]'' and ''[[Conocybe cyanopus]]'', ''P.&nbsp;semilanceata'' may form [[sclerotia]], a dormant form of the fungus, which affords it some protection from wildfires and other natural disasters.<ref name="Stamets p.24"/>
+
+Laboratory tests have shown ''P.&nbsp;semilanceata'' to suppress the growth of the soil-borne [[oomycete|water mold]] ''[[Phytophthora cinnamomi]]'', a virulent [[plant pathogen]] that causes the disease [[root rot]].<ref name=Lucas1991/> When grown in dual [[pure culture|culture]] with other saprobic fungi isolated from the [[rhizosphere]] of grasses from its habitat, ''P.&nbsp;semilanceata'' significantly suppresses their growth. This antifungal activity, which can be traced at least partly to two [[natural phenol|phenolic]] compounds it secretes, helps it compete successfully with other fungal species in the intense competition for nutrients provided by decaying plant matter.<ref name=Keay1989/> Using standard [[Antibiotic sensitivity|antimicrobial susceptibility tests]], ''Psilocybe semilanceata'' was shown to strongly inhibit the growth of the human pathogen [[methicillin-resistant Staphylococcus aureus|methicillin-resistant ''Staphylococcus aureus'']] (MRSA). The source of the antimicrobial activity is unknown.<ref name=Suay2000/>
+
+==Distribution==
+''Psilocybe'' authority [[Gastón Guzmán]], in his 1983 monograph on psilocybin mushrooms, considered ''Psilocybe semilanceata'' the world's most widespread psilocybin mushroom species, as it has been reported on 17 countries.<ref name="Guzman 1983, pp.43-45"/>
+In Europe, ''P.&nbsp;semilanceata'' has a widespread distribution,<ref>{{Cite web|title=Magic Mushroom Map|url=https://www.magicmushroommap.com/map|access-date=5 October 2021|website=www.magicmushroommap.com}}</ref> and is found in Austria, Belarus, Belgium, Bulgaria, the [[Channel Islands]], Czech republic, Denmark, Estonia, the [[Faroe Islands]], Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, the Netherlands, Norway, Poland, Russia, Slovakia, Spain, Sweden, Switzerland, Turkey,<ref>{{cite journal |url=https://www.researchgate.net/publication/322276601 |title=Psilocybe semilanceata (Fries) Kumber (Strophariaceae): Türkiye için yeni bir halüsinojen mantar |language=tr | journal=Bağbahçe Bilim Dergisi |volume=3|issue=1|date=2016|pages=34–40}}</ref> the United Kingdom, Ukraine<ref name=Guzman1998/> and Pakistan.<ref>{{Cite journal|last1=Yaseen|first1=T.|last2=Shakeel|first2=M.|last3=Nawaz|first3=G.|date=28 December 2017|title=Morphological Study of some Mushroom species distributed in District Charsadda, Khyber Pakhtunkhwa Province, Pakistan|journal=Sindh University Research Journal: Science Series|volume=49|issue=4|pages=747––752|doi=10.26692/Surj/2017.12.52}}</ref> It is generally agreed that the species is native to Europe;<ref name=Watling2007/> Watling has demonstrated that there exists little difference between specimens collected from Spain and Scotland, at both the morphological and genetic level.<ref name=Watling2003/>
+
+The mushroom also has a widespread distribution in North America. In Canada it has been collected from British Columbia, New Brunswick, Newfoundland, Nova Scotia, Prince Edward Island, Ontario and Quebec.<ref name="Guzman1998" /> In the United States, it is most common in the Pacific Northwest, west of the Cascade Mountains, where it fruits abundantly in autumn and early winter; fruiting has also been reported to occur infrequently during spring months.<ref name="Stamets pp.142-145" /> Charles Horton Peck reported the mushroom to occur in New York in the early 20th century, and consequently, much literature published since then has reported the species to be present in the eastern United States. Gaston Guzman later examined Peck's herbarium specimen, and in his comprehensive 1983 monograph on ''Psilocybe'', concluded that Peck had misidentified it with the species now known as ''[[Panaeolina foenisecii]]''.<ref name="Watling2007" /><ref name="Guzman 1983, pp.363-4" /> ''P.&nbsp;semilanceata'' is much less common in South America,<ref name="Watling2007" /> where it has been recorded in Chile.<ref name="Guzman1998" /> It is also known in Australia (where it may be an introduced species)<ref name="Watling2003" /> and New Zealand, where it grows in high-altitude grasslands.<ref name="Johnston1995" /> In 2000, it was reported from Golaghat, in the Indian state of Assam.<ref name="Barthakur2000" />
+
+==Psychoactive use==
+[[File:Coloured Figures of English Fungi or Mushrooms - t. 248.jpg|thumb|right|1, 2 & 3 in the figure are ''Psilocybe semilanceata'', which Sowerby wrongly thought was the same as ''[[Stropharia semiglobata]]''.]]
+
+The first reliably documented report of ''Psilocybe semilanceata'' intoxication involved a British family in 1799, who prepared a meal with mushrooms they had picked in London's [[Green Park]]. According to the chemist [[Augustus Everard Brande]], the father and his four children experienced typical symptoms associated with ingestion, including [[pupil dilation]], spontaneous laughter and [[delirium]].<ref name=Brande1799/> The identification of the species responsible was made possible by [[James Sowerby]]'s 1803 book ''Coloured Figures of English Fungi or Mushrooms'',<ref name=Sowerby1803/> which included a description of the fungus, then known as ''Agaricus glutinosus'' (originally described by [[Moses Ashley Curtis]] in 1780). According to German mycologist [[Jochen Gartz]], the description of the species is "fully compatible with current knowledge about ''Psilocybe semilanceata''."<ref name="Gartz p.16"/>
+
+In the early 1960s, the Swiss scientist [[Albert Hofmann]]—known for the [[chemical synthesis|synthesis]] of the psychedelic drug [[lysergic acid diethylamide|LSD]]—[[analytical chemistry|chemically analyzed]] ''P.&nbsp;semilanceata'' fruit bodies collected in Switzerland and France by the botanist [[Roger Heim]]. Using the technique of [[paper chromatography]], Hofmann confirmed the presence of 0.25% (by weight) [[psilocybin]] in dried samples. Their 1963 publication was the first report of psilocybin in a European mushroom species; previously, it had been known only in ''Psilocybe'' species native to Mexico, Asia and North America.<ref name=Hofmann1963/> This finding was confirmed in the late 1960s with specimens from Scotland and England,<ref name=Benedict1967/><ref name=Mantle1969/> Czechoslovakia (1973),<ref name=Semerdzieva1973/> Germany (1977),<ref name=Repke1977/> Norway (1978),<ref name=Hoiland1978/> and Belgium and Finland (1984).<ref name=Vanhaelen1984/><ref name=Jokiranta1984/> In 1965, [[forensic chemistry|forensic]] characterization of psilocybin-containing mushrooms seized from college students in British Columbia identified ''P.&nbsp;semilanceata''<ref name=Heim1966/>—the first recorded case of intentional recreational use of the mushroom in Canada.<ref name=Metzner2005/> The presence of the psilocybin [[structural analog|analog]] [[baeocystin]] was confirmed in 1977.<ref name=Repke1977/> Several studies published since then support the idea that the variability of psilocybin content in ''P.&nbsp;semilanceata'' is low, regardless of country of origin.<ref name="Gartz p.26"/><ref>For example:
+* {{cite journal |title=The determination of psilocin and psilocybin in hallucinogenic mushrooms by HPLC utilizing a dual reagent acidic potassium permanganate and tris(2,2'-bipyridyl)ruthenium(II) chemiluminescence detection system |journal=Journal of Forensic Sciences |year=2006 |vauthors=Anastos N, Lewis SW, Barnett NW, Sims DN |volume=51 |issue=1 |pages=45–51 |doi=10.1111/j.1556-4029.2005.00033.x |pmid=16423222|s2cid=42870602 }}
+* {{cite journal |title=Determination of psilocin and psilocybin using flow injection analysis with acidic potassium permanganate and tris(2,2′-bipyridyl)ruthenium(II) chemiluminescence detection respectively |journal=Talanta |year=2005 |vauthors=Anastos N, Barnett NW, Lewis SW, Gathergood N, Scammells PJ, Sims DN |volume=67 |issue=2 |pages=354–59 |doi=10.1016/j.talanta.2004.11.038 |pmid=18970175}}
+* {{cite journal |title=The occurrence of tryptamine derivatives in ''Psilocybe semilanceata'' |journal=Zeitschrift für Naturforschung C |year=1988 |vauthors=Brenneisen R, Borner S |volume=43 |issue=7–8 |pages=511–14 |issn=0939-5075|doi=10.1515/znc-1988-7-806 |s2cid=32825019 }}</ref>
+
+===Properties===
+{{multiple image
+| align = 
+| direction = vertical
+| width = 150
+| image1 = Psilocybn.svg
+| caption1 = [[Psilocybin]]
+| alt1 = O-phosphoryl-4-hydroxy-N,N-dimethyltryptamine
+| image2 = Baeocystin.png
+| caption2 = [[Baeocystin]]
+| alt2 = 3-[2-(methylammonio)ethyl]-1H-indol-4-yl hydrogen phosphate
+| image3 = Fenyloetyloamina.svg
+| caption3 = [[Phenethylamine]]
+| alt3 = Phenyleth-2-amine
+}}
+
+Several studies have quantified the amounts of hallucinogenic compounds found in the fruit bodies of ''Psilocybe semilanceata''. In 1993, Gartz reported an average of 1% psilocybin (expressed as a percentage of the [[dry matter|dry weight]] of the fruit bodies), ranging from a minimum of 0.2% to a maximum of 2.37%, which is the highest psilocybin concentration reported for a mushroom.<ref name=Gartz1993/> In an earlier analysis, Tjakko Stijve and Thom Kuyper (1985) found a high concentration in a single specimen (1.7%) in addition to a relatively high concentration of [[baeocystin]] (0.36%).<ref name=Stijve1985/> Smaller specimens tend to have the highest percent concentrations of psilocybin, but the absolute amount is highest in larger mushrooms.<ref name=Gartz1986/> A Finnish study [[assay]]ed psilocybin concentrations in old [[herbarium]] specimens, and concluded that although psilocybin concentration decreased linearly over time, it was relatively stable. They were able to detect the chemical in specimens that were 115 years old.<ref name=Ohenoja1987/> Michael Beug and Jeremy Bigwood, analyzing specimens from the Pacific Northwest region of the United States, reported psilocybin concentrations ranging from 0.62% to 1.28%, averaging 1.0&nbsp;±0.2%. They concluded that the species was one of the most potent, as well as the most constant in psilocybin levels.<ref name=Beug1982/> In a 1996 publication, [[Paul Stamets]] defined a "potency rating scale" based on the total content of psychoactive compounds (including psilocybin, psilocin, and baeocystin) in 12 species of ''Psilocybe'' mushrooms. Although there are certain caveats with this technique—such as the unconfirmed assumption that these compounds contribute equally to psychoactive properties—it serves as a rough comparison of potency between species. Despite its small size, ''Psilocybe semilanceata'' is considered a "moderately active to extremely potent" hallucinogenic mushroom (meaning the combined percentage of psychoactive compounds is typically between 0.25% to greater than 2%),<ref name="Stamets pp.142-145"/> and of the 12 mushrooms compared, only 3 were more potent: ''[[Psilocybe azurescens|P.&nbsp;azurescens]]'', ''[[Psilocybe baeocystis|P.&nbsp;baeocystis]]'', and ''[[Psilocybe bohemica|P.&nbsp;bohemica]]''.<ref name="Stamets pp.39-41"/> According to Gartz (1995), ''P.&nbsp;semilanceata'' is Europe's most popular psychoactive species.<ref name="Gartz p.18"/>
+
+Several reports have been published in the literature documenting the effects of consumption of ''P.&nbsp;semilanceata''. Typical symptoms include visual distortions of color, depth and form, progressing to visual [[hallucination]]s. The effects are similar to the experience following consumption of [[LSD]], although milder.<ref name=Hyde1978/> Common side effects of mushroom ingestion include [[Mydriasis|pupil dilation]], [[tachycardia|increased heart rate]], [[Dysphoria|unpleasant mood]], and [[hyperreflexia|overresponsive reflexes]]. As is typical of the symptoms associated with psilocybin mushroom ingestion, "the effect on mood in particular is dependent on the subject's pre-exposure personality traits", and "identical doses of psilocybin may have widely differing effects in different individuals."<ref name=Peden1981/> Although most cases of intoxication resolve without incident, there have been isolated cases with severe consequences, especially after higher dosages or persistent use. In one case reported in Poland in 1998, an 18-year-old man developed [[Wolff–Parkinson–White syndrome]], [[Heart arrhythmia|arrhythmia]], and suffered [[myocardial infarction]] after ingesting ''P.&nbsp;semilanceata'' frequently over the period of a month. The cardiac damage and myocardial infarction was suggested to be a result of either coronary [[vasoconstriction]], or because of [[platelet]] hyperaggregation and [[vascular occlusion|occlusion]] of small [[coronary circulation|coronary arteries]].<ref name=Borowiak1998/>
+
+====Danger of misidentification====
+One danger of attempting to consume hallucinogenic or other wild mushrooms, especially for novice mushroom hunters, is the possibility of misidentification with [[poisonous mushroom|toxic species]].<ref>{{cite book |last=Phillips |first=Roger |title=Mushrooms and Other Fungi of North America |year=2010 |publisher=Firefly Books |location=Buffalo, NY |isbn=978-1-55407-651-2 |page=230}}</ref> In one noted case, an otherwise healthy young Austrian man mistook the poisonous ''[[Cortinarius rubellus]]'' for ''P.&nbsp;semilanceata''. As a result, he suffered [[Chronic kidney disease|end-stage kidney failure]], and required a [[kidney transplantation|kidney transplant]].<ref name=Franz1996/> In another instance, a young man developed cardiac abnormalities similar to those seen in [[Takotsubo cardiomyopathy]], characterized by a sudden temporary weakening of the [[myocardium]].<ref name=Nef2009/> A [[polymerase chain reaction]]-based test to specifically identity ''P.&nbsp;semilanceata'' was reported by Polish scientists in 2007.<ref name=Adamczyk2007/> Poisonous [[Psathyrella]] species can easily be misidentified as liberty caps.
+
+==Legal status==
+{{See also|Legal status of psilocybin mushrooms}}
+The legal status of psilocybin mushrooms varies worldwide. Psilocybin and psilocin are listed as [[Class A drugs|Class A]] (United Kingdom) or [[Controlled Substances Act#Schedule I controlled substances|Schedule I]] (US) drugs under the United Nations 1971 [[Convention on Psychotropic Substances]].<ref name=INCB/> The possession and use of psilocybin mushrooms, including ''P.&nbsp;semilanceata'', is therefore prohibited by extension. Although many European countries remained open to the use and possession of hallucinogenic mushrooms after the US ban, starting in the 2000s (decade) there has been a tightening of laws and enforcements. In the Netherlands, where the drug was once routinely sold in licensed [[cannabis coffee shop]]s and smart shops, laws were instituted in October 2008 to prohibit the possession or sale of psychedelic mushrooms—the final European country to do so.<ref name=Marley2010/>
+They are legal in Jamaica and Brazil and decriminalised in Portugal. In the United States, the city of [[Denver]], Colorado, voted in May 2019 to decriminalize the use and possession of psilocybin mushrooms.<ref>{{cite web |last=Honig |first=Esther |title=In Close Vote, Denver Becomes First U.S. City To Decriminalize Psychedelic Mushrooms |url=https://www.npr.org/sections/health-shots/2019/05/09/721660053/in-close-vote-denver-becomes-first-u-s-city-to-decriminalize-psychedelic-mushroo |website=NPR.org |access-date=9 May 2019 |date=9 May 2019}}</ref> In November 2020, voters passed [[Oregon Ballot Measure 109]], making [[Oregon]] the first state to both decriminalize psilocybin and also legalize it for therapeutic use.<ref>{{Cite web|last=Naftulin|first=Julia|title=Oregon has become the first state to legalize 'magic' mushrooms for therapeutic use. Here's what that means.|url=https://www.businessinsider.com/oregon-first-ever-state-to-legalize-psilocybin-for-therapeutic-use-2020-11|access-date=5 October 2021|website=Business Insider|language=en-US}}</ref> Ann Arbor Michigan, and the county it resides in have decriminalized magic mushrooms, possession, sale and use are now legal within the county. In 2021, the City Councils of [[Somerville, Massachusetts|Somerville]], [[Northampton, Massachusetts|Northampton]], [[Cambridge, Massachusetts]], and [[Seattle]], Washington, voted for decriminalization.<ref>{{Cite web|last=Adlin|first=Ben|date=4 October 2021|title=Seattle Becomes Largest U.S. City To Decriminalize Psychedelics|url=https://www.marijuanamoment.net/seattle-becomes-largest-u-s-city-to-decriminalize-psychedelics/|access-date=5 October 2021|website=Marijuana Moment|language=en-US}}</ref>
+
+===Sweden===
+[[Riksdag|The Riksdag]] added ''Psilocybe semilanceata'' to [[:sv:Narkotikastrafflagen|Narcotic Drugs Punishments Act]] under ''Swedish schedule I'' (''"substances, plant materials and fungi which normally do not have medical use"'') as of 1 October 1997, published by [[Medical Products Agency (Sweden)|Medical Products Agency (MPA)]] in regulation ''LVFS 1997:12'' listed as ''Psilocybe semilanceata (toppslätskivling)''.<ref>{{Cite web |url=https://lakemedelsverket.se/upload/lvfs/konsoliderade/LVFS_1997_12_konsoliderad_tom_2011_2.pdf |title=Läkemedelsverkets föreskrifter (LVFS 1997:12) om förteckningar över narkotika |access-date=7 August 2019 |archive-date=7 August 2019 |archive-url=https://web.archive.org/web/20190807093354/https://lakemedelsverket.se/upload/lvfs/konsoliderade/LVFS_1997_12_konsoliderad_tom_2011_2.pdf |url-status=dead }}</ref>
+
+==See also==
+{{Portal|Fungi}}
+{{Commons}}
+* [[List of Psilocybe species|List of ''Psilocybe'' species]]
+* [[Mushroom hunting]]
+{{Clear}}
+
+==References==
+{{Reflist|colwidth=30em|refs=
+
+<ref name="Guzman 1983, p. 22">Guzman (1983), p. 22.</ref>
+
+<ref name="Guzman 1983, pp.43-45">Guzman (1983), pp. 44–5.</ref>
+
+<ref name="Guzman 1983, p. 361">Guzman (1983), p. 361.</ref>
+
+<ref name="Guzman 1983, pp.363-4">Guzman (1983), pp.363–4.</ref>
+
+<ref name="Stamets p.16">Stamets (1996), p. 16.</ref>
+
+<ref name="Stamets p.24">Stamets (1996), p. 24.</ref>
+
+<ref name="Stamets pp.39-41">Stamets (1996), pp. 39–41.</ref>
+
+<ref name="Stamets p.129">Stamets (1996), p. 129.</ref>
+
+<ref name="Stamets p.140">Stamets (1996), p. 140.</ref>
+
+<ref name="Stamets pp.142-145">Stamets (1996), pp. 142–45.</ref>
+
+<ref name="Gartz p.16">Gartz (1997), p. 16.</ref>
+
+<ref name="Gartz p.18">Gartz (1997), p. 18.</ref>
+
+<ref name="Gartz p.21">Gartz (1997), p. 21.</ref>
+
+<ref name="Gartz p.26">Gartz (1997), p. 26.</ref>
+
+<ref name=Adamczyk2007>{{cite journal |title=Halucynogenne grzyby—lysiczki (''Psilocybe''). Czesc II. Identyfikacja ''Psilocybe semilanceata'' przy pomocy techniki PCR |trans-title=Hallucinogenic fungi (''Psilocybe''). Part II. Identification of ''Psilocybe semilanceata'' by PCR |vauthors=Adamczyk A, Sadakierska-Chudy A, Janoszka J, Rymkiewicz A, Dobosz T |journal=Archiwum Medycyny Sądowej I Kryminolologii |year=2007 |volume=57 |issue=3 |pages=285–88 |pmid=17907620 |language=pl}}</ref>
+
+<ref name=Ammirati1985>{{cite book |title=Poisonous Mushrooms of the Northern United States and Canada |vauthors=Ammirati J, Traquair JA, Horgen PA |year=1985 |publisher=Fitzhenry & Whiteside in cooperation with Agriculture Canada |location=Ottawa, Canada |isbn=978-0-88902-977-4 |page=149 |url=https://books.google.com/books?id=nhWbsGB7z4cC&pg=PA149}}</ref>
+
+<ref name=Barthakur2000>{{cite journal |title=Agaricales of Nambar reserve forest, Golaghat, Assam, India |journal=Advances in Plant Sciences |year=2000 |vauthors=Barthakur B, Gogoi P, Barua PK |volume=13 |issue=2 |pages=609–13}}</ref>
+
+<ref name=Bas1995>{{cite book |vauthors=Bas C, Kuyper Th W, Noordeloos ME, Vellinga EC, van Os J |title=Flora Agaricina Neerlandica |volume=3 |publisher=CRC Press|location=Boca Raton, Florida |year=1995 |page=45 |isbn=978-90-5410-616-6}}</ref>
+
+<ref name=Benedict1967>{{cite journal |title=Blueing in ''Conocybe'', ''Psilocybe'' and a ''Stropharia'' species and the detection of psilocybin |journal=Lloydia |vauthors=Benedict RG, Tyler VE, Watling R |year=1967 |volume=30 |issue=2 |pages=149–157}}</ref>
+
+<ref name=Beug1982>{{cite journal |title=Psilocybin and psilocin levels in twenty species from seven genera of wild mushrooms in the Pacific Northwest, U.S.A. |journal=Journal of Ethnopharmacology |year=1982 |vauthors=Beug MW, Bigwood J |volume=5 |issue=3 |pages=271–85 |doi=10.1016/0378-8741(82)90013-7 |pmid=7201053}}</ref>
+
+<ref name=Bon1985>{{cite journal |title=Novitates – Validations de taxons |journal=Documents Mycologiques |author=Bon M. |volume=16 |issue=61 |year=1985 |page=46 |language=fr}}</ref>
+
+<ref name=Borowiak1998>{{cite journal |title=Psilocybin mushroom (''Psilocybe semilanceata'') intoxication with myocardial infarction |journal= [[Journal of Toxicology: Clinical Toxicology]] |year=1998 |vauthors=Borowiak KS, Ciechanowski K, Waloszczyk P |volume=36 |issue=1–2 |pages=47–49 |pmid=9541042 |doi=10.3109/15563659809162584}}</ref>
+
+<ref name=Brande1799>{{cite journal |title=Mr. E. Brande, on a poisonous species of Agaric |journal=The Medical and Physical Journal: Containing the Earliest Information on Subjects of Medicine, Surgery, Pharmacy, Chemistry and Natural History |year=1799 |volume=3 |author=Brande E. |issue=11 |pages=41–44 |pmid=30490162 |pmc=5659401 |url=https://books.google.com/books?id=EgEHAAAAcAAJ&pg=PA41}}</ref>
+
+<ref name=Cornelis1826>{{cite book |author=Cornelis S. |title=Schrevelius' Greek Lexicon, Translated into English with Numerous Corrections |year=1826 |publisher=Baldwin, Craddock, & Joy |location=London, UK |page=358 |url=https://books.google.com/books?id=2eUIAAAAQAAJ&pg=PA358}}</ref>
+
+<ref name=Franz1996>{{cite journal |title=Magic mushrooms: hopes for a 'cheap high' resulting in end-stage renal failure |journal=Nephrology, Dialysis, Transplantation |vauthors=Franz M, Regele H, Kirchmair M, Kletzmayr J, Sunder-Plassmann G, Hörl WH, Pohanka E |year=1996 |volume=11 |issue=11 |pages=2324–27 |pmid=8941602 |doi=10.1093/oxfordjournals.ndt.a027160}}</ref>
+
+<ref name=Fries1838>{{cite book |title=Epicrisis Systematis Mycologici: Seu Synopsis Hymenomycetum |year=1838 |author=Fries EM |location=Uppsala, Sweden |publisher=Typographia Academica |page=231 |url=https://books.google.com/books?id=sLQTAAAAQAAJ&pg=PA231 |language=la}}</ref>
+
+<ref name=Gartz1986>{{cite journal |title=Quantitative Bestimmung der Indolderivate von ''Psilocybe semilanceata'' (Fr.) Kumm. |trans-title=Quantitative determination of the indole derivatives from ''Psilocybe semilanceata'' (Fr.) Kumm. |journal=Biochemie und Physiologie der Pflanzen |year=1986 |author=Gartz J. |volume=181 |issue=2 |pages=117–24 |language=de |doi=10.1016/s0015-3796(86)80079-8}}</ref>
+
+<ref name=Gartz1993>{{cite journal |title=New aspects of the occurrence, chemistry and cultivation of European hallucinogenic mushrooms |journal=Annali del Museo Civico di Rovereto |author=Gartz J. |year=1994 |volume=8 |pages=107–23 |url=http://catbull.com/alamut/Bibliothek/GARTZ%20Jochen/gartz3.htm}}</ref>
+
+<ref name=Guzman1976>{{cite journal |title=Psychotropic mycoflora of Washington, Idaho, Oregon, California and British Columbia |journal=Mycologia |vauthors=Guzmán G, Ott J, Boydston J, Pollock SH |year=1976 |volume=68 |issue=6 |pages=1267–72 |url=http://www.cybertruffle.org.uk/cyberliber/59350/0068/006/1267.htm |doi=10.2307/3758763 |jstor=3758763 |pmid=1034879 |access-date=6 January 2011 |archive-url=https://web.archive.org/web/20181101111832/http://www.cybertruffle.org.uk/cyberliber/59350/0068/006/1267.htm |archive-date=1 November 2018 |url-status=dead }}</ref>
+
+<ref name=Guzman1998>{{cite journal |title=A worldwide geographical distribution of the neurotropic fungi, an analysis and discussion |journal=Annali del Museo Civico di Rovereto |vauthors=Guzmán G, Allen JW, Gartz J |year=1998|volume=14 |pages=198–280 |url=http://www.magic-mushrooms.net/World_Wide_Distribution_of_Magic_Mushrooms.pdf }}</ref>
+
+<ref name=Harris2003>{{cite book |author=Harris B. |title=Growing Wild Mushrooms: A Complete Guide to Cultivating Edible and Hallucinogenic Mushrooms |publisher=[[Ronin Publishing]] |location=Berkeley, California |year=2003 |page=83 |isbn=978-1-57951-066-4 |url=https://books.google.com/books?id=eBO6kzpiBqUC&pg=PA83}}</ref>
+
+<ref name=Heim1966>{{cite journal |title=Botanical and chemical characterization of a forensic mushroom specimen of the genus ''Psilocybe'' |journal=Journal of the Forensic Science Society |year=1966 |vauthors=Heim R, Genest K, Hughes DW, Belec G |volume=6 |issue=4 |pages=192–201 |doi=10.1016/S0015-7368(66)70336-3}}</ref>
+
+<ref name=Hofmann1963>{{cite journal |title=Phytochimie – présence de la psilocybine dans une espèce européenne d'agaric, le ''Psilocybe semilanceata'' Fr. |trans-title=Phytochemistry – presence of psilocybin in a European agaric species, ''Psilocybe semilanceata'' Fr. |journal=Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences |vauthors=Hofmann A, Heim R, Tscherter H |year=1963 |volume=257 |issue=1| pages=10–12 |language=fr}}</ref>
+
+<ref name=Hoiland1978>{{cite journal |title=The genus ''Psilocybe'' in Norway |journal=Norwegian Journal of Botany |year=1978 |author=Høiland K. |volume=25 |issue=2 |pages=111–22}}</ref>
+
+<ref name=Hyde1978>{{cite journal |title=Abuse of indigenous psilocybin mushrooms: a new fashion and some psychiatric complications |journal=British Journal of Psychiatry |vauthors=Hyde C, Glancy G, Omerod P, Hall D, Taylor GS |year=1978 |volume=132 |issue=6 |pages=602–604 |pmid=566144 |doi=10.1192/bjp.132.6.602}}</ref>
+
+<ref name=INCB>{{cite web|title=List of psychotropic substances under international control |publisher=[[International Narcotics Control Board]] |date=August 2003 |url=http://www.incb.org/pdf/e/list/green.pdf |url-status=dead |archive-url=https://web.archive.org/web/20051205125434/http://www.incb.org/pdf/e/list/green.pdf |archive-date=5 December 2005 }}</ref>
+
+<ref name=Johnston1995>{{cite journal |title=The genus ''Psilocybe'' (Agaricales) in New Zealand |journal=New Zealand Journal of Botany |vauthors=Johnston PR, Buchanan PK |year=1995 |volume=33 |issue=3 |pages=379–88 |doi=10.1080/0028825X.1995.10412964}}</ref>
+
+<ref name=Jokiranta1984>{{cite journal |title=Psilocybin in Finnish ''Psilocybe semilanceata'' |journal=Planta Medica |year=1984 |vauthors=Jokiranta J, Mustola S, Ohenoja E, Airaksinen MM |volume=50|issue=3 |pages=277–78 |pmid=17340315 |doi=10.1055/s-2007-969703}}</ref>
+
+<ref name=Keay1989>{{cite journal |title=Interactions between ''Psilocybe semilanceata'' and fungi of its habitat |journal=Mycological Research |year=1989 |vauthors=Keay SM, Brown AE |volume=93 |issue=4 |pages=554–56 |doi=10.1016/S0953-7562(89)80054-1}}</ref>
+
+<ref name=Keay1990>{{cite journal |title=Colonization by ''Psilocybe semilanceata'' of roots of grassland flora |journal=Mycological Research |year=1990 |vauthors=Keay SM, Brown AE |volume=94 |issue=1 |pages=49–56 |doi=10.1016/S0953-7562(09)81263-X}}</ref>
+
+<ref name=Kummer1871>{{cite book |title=Der Führer in die Pilzkunde |edition=1st |author=Kummer P. |publisher=C. Luppe |location=Zerbst, Germany|year=1871 |page=71| language=de}}</ref>
+
+<ref name=Lange1936>{{cite journal |title=Studies in the Agarics of Denmark, Part XI. ''Psathyra'', ''Panaeolus'', ''Psilocybe'', ''Gomphidius'', ''Phylloporus'', ''Cantharellus'', ''Schizophyllum'' |year=1936 |journal=Dansk Botanisk Arkiv |author=Lange JE |volume=9 |issue=1 |pages=1–46}}</ref>
+
+<ref name=Lange1939>{{cite book |title=Flora Agaricina Danica |volume=4 |year=1939 |publisher=Danish Botanical Society |location=Copenhagen, Denmark |author=Lange JE |page=84}}</ref>
+
+<ref name=Lucas1991>{{cite book |chapter=Microbial suppression of ''Phytophthora cinnamomi'' |vauthors=Finlay AR, McCracken AR |editor-last=Lucas, John |title=''Phytophthora'': Symposium of the British Mycological Society, the British Society for Plant Pathology, and the Society of Irish Plant Pathologists held at Trinity College, Dublin, September 1989 |publisher=Published for the British Mycological Society by Cambridge University Press |location=Cambridge, England |year=1991 |page=387 |isbn=978-0-521-40080-0 |chapter-url=https://books.google.com/books?id=C2twp2II3QIC&pg=PA387}}</ref>
+
+<ref name=Mantle1969>{{cite journal |title=Occurrence of psilocybin in sporophores of ''Psilocybe semilanceata'' |journal=Transactions of the British Mycological Society |year=1969 |vauthors=Mantle PG, Waight ES |volume=53 |issue=2 |pages=302–304 |url=http://www.cybertruffle.org.uk/cyberliber/59351/0053/002/0302.htm |doi=10.1016/s0007-1536(69)80066-5 |access-date=20 November 2010 |archive-url=https://web.archive.org/web/20150923230908/http://www.cybertruffle.org.uk/cyberliber/59351/0053/002/0302.htm |archive-date=23 September 2015 |url-status=dead }}</ref>
+
+<ref name=Marley2010>{{cite book |author=Marley G. |title=Chanterelle Dreams, Amanita Nightmares: The Love, Lore, and Mystique of Mushrooms |publisher=Chelsea Green Publishing |location=White River Junction, Vermont |year=2010 |page=178 |isbn=978-1-60358-214-8}}</ref>
+
+<ref name=Matheny2006>{{cite journal |vauthors=Matheny PB, Curtis JM, Hofstetter V, Aime MC, Moncalvo JM, Ge ZW, Slot JC, Ammirati JF, Baroni TJ, Bougher NL, Hughes KW, Lodge DJ, Kerrigan RW, Seidl MT, Aanen DK, DeNitis M, Daniele GM, Desjardin DE, Kropp BR, Norvell LL, Parker A, Vellinga EC, Vilgalys R, Hibbett DS |title=Major clades of Agaricales: a multilocus phylogenetic overview |journal=Mycologia |volume=98 |issue=6 |pages=982–95 |year=2006 |pmid=17486974 |doi=10.3852/mycologia.98.6.982 }}</ref>
+
+<ref name=Mehrotra1990>{{cite book |vauthors=Mehrotra RS, Aneja KR |title=An Introduction to Mycology |publisher=South Asia Books |location=Columbia, Missouri |year=1990 |page=540 |isbn=978-81-224-0089-2 |url=https://books.google.com/books?id=UUorj_O2dcsC&pg=PA540}}</ref>
+
+<ref name=Metzner2005>{{cite book |author=Metzner R. |title=Sacred Mushroom of Visions: Teonanácatl: A Sourcebook on the Psilocybin Mushroom |edition=2nd |publisher=Park Street Press |location=Rochester, Vermont |year=2005 |isbn=978-1-59477-044-9}}</ref>
+
+<ref name=Nef2009>{{cite journal |title=Apical regional wall motion abnormalities reminiscent to Tako-Tsubo cardiomyopathy following consumption of psychoactive fungi |journal=International Journal of Cardiology |vauthors=Nef HM, Möllmann H, Hilpert P, Krause N, Troidl C, Weber M, Rolf A, Dill T, Hamm C, Elsässer A |year=2009 |volume=134 |issue=1 |pages=e39–e41 |doi=10.1016/j.ijcard.2007.12.064 |pmid=18378018}}</ref>
+
+<ref name=Moncalvo2002>{{cite journal |vauthors=Moncalvo JM, Vilgalys R, Redhead SA, Johnson JE, James TY, Catherine Aime M, Hofstetter V, Verduin SJ, Larsson E, Baroni TJ, Greg Thorn R, Jacobsson S, Clémençon H, Miller OK Jr |title=One hundred and seventeen clades of euagarics |journal=Molecular Phylogenetics and Evolution |volume=23 |issue=3 |pages=357–400 |year=2002 |pmid=12099793 |doi=10.1016/S1055-7903(02)00027-1}}</ref>
+
+<ref name=Norvell2009>{{cite journal|author=Norvell L. |year=2009 |title=Report of the Nomenclature Committee for Fungi: 15 |journal=Mycotaxon |volume=110 |pages=487–92 |url=http://www.ima-mycology.org/CFF/pdf/Fungi-15.pdf |doi=10.5248/110.487 |url-status=dead |archive-url=https://web.archive.org/web/20120331090954/http://www.ima-mycology.org/CFF/pdf/Fungi-15.pdf |archive-date=31 March 2012 }}</ref>
+
+<ref name=Nugent2004>{{cite journal |vauthors=Nugent KG, Saville BJ |title=Forensic analysis of hallucinogenic fungi: a DNA-based approach |journal=Forensic Science International |volume=140 |issue=2–3 |pages=147–57 |year=2004 |pmid=15036436 |doi=10.1016/j.forsciint.2003.11.022}}</ref>
+
+<ref name=OED-psilocybin>{{cite encyclopedia |title=psilocybin, ''n''. |encyclopedia=The Oxford English Dictionary  |url=http://www.oed.com/ |edition=3rd |date=April 2008 |publisher=Oxford University Press |access-date=14 January 2011}} {{subscription}}</ref>
+
+<ref name=Ohenoja1987>{{cite journal |title=The occurrence of psilocybin and psilocin in Finnish fungi |journal=Journal of Natural Products |vauthors=Ohenoja E, Jokiranta J, Mäkinen T, Kaikkonen A, Airaksinen MM |year=1987 |volume=50 |issue=4 |pages=741–44 |pmid=3430170 |doi=10.1021/np50052a030}}</ref>
+
+<ref name=Peden1981>{{cite journal |title=Clinical toxicology of 'magic mushroom' ingestion |vauthors=Peden NR, ((Macaulay KEC)), Bissett AF, Crooks J, Pelosi AJ |journal=Postgraduate Medical Journal |year=1981 |volume=57 |issue=67 |pages=543–45 |doi=10.1136/pgmj.57.671.543 |pmid=7199140 |pmc=2426147}}</ref>
+
+<ref name=Pollock1976>{{cite journal |title=Liberty caps: recreational hallucinogenic mushrooms |journal=Drug and Alcohol Dependence |author=Pollock SH |volume=1 |issue=6 |year=1976 |pages=445–47 |pmid=1035156 |doi=10.1016/0376-8716(76)90010-7}}</ref>
+
+<ref name=Redhead2005>{{cite journal |vauthors=Redhead SA, ((Moncalvo J-M)), Vilgalys R, Matheny PB, Guzmán-Dávalos L, Guzmán G |year=2005 |title=(1757) Proposal to conserve the name ''Psilocybe'' (Basidiomycota) with a conserved type |journal=Taxon |volume=56 |issue=1 |pages=255–57 |url=http://www.bio.utk.edu/matheny/Site/Publications_files/Redhead_conserve_Psilocybe_Taxon.2007.pdf }}</ref>
+
+<ref name=Repke1977>{{cite journal |title=Baeocystin in ''Psilocybe semilanceata'' |journal=Journal of Pharmaceutical Sciences |year=1977 |vauthors=Repke DB, Leslie DT |volume=66 |issue=1 |pages=113–14 |doi=10.1002/jps.2600660130|pmid=556766 }}</ref>
+
+<ref name=Saccardo1887>{{cite book |title=Sylloge Hymenomycetum, Vol. I. Agaricineæ |author=Saccardo PA |publisher=Padua, Italy |year=1887 |volume=5 |page=1051}}</ref>
+
+<ref name=Semerdzieva1973>{{cite journal |title=Hallucinogene Pilze in der Tschechoslowakei |trans-title=Hallucinogenic mushrooms in Czechoslovakia |journal=Česká Mykologie |vauthors=Semerdžieva M, Nerud F |year=1973 |volume=27 |pages=42–47 |language=de}}</ref>
+
+<ref name=Singer1969>{{cite journal |title=Mycoflora australis |journal=Beihefte zur Nova Hedwigia |author=Singer R. |year=1969 |volume=29 |page=247}}</ref>
+
+<ref name=Sowerby1803>{{cite book |title=Coloured Figures of English Fungi or Mushrooms |volume=3 |year=1803 |author=Sowerby J. |publisher=J.&nbsp;Davis |location=London |pages=248–49 |url=https://books.google.com/books?id=TRUWAAAAYAAJ&pg=PT11}}</ref>
+
+<ref name=Stijve1985>{{cite journal |title=Occurrence of psilocybin in various higher fungi from several European countries |journal=Planta Medica |year=1985 |vauthors=Stijve T, Kuyper TW |volume=51 |issue=5 |pages=385–87 |pmid=17342589 |doi=10.1055/s-2007-969526}}</ref>
+
+<ref name=Suay2000>{{cite journal |title=Screening of basidiomycetes for antimicrobial activities |journal=Antonie van Leeuwenhoek |vauthors=Suay I, Arenal F, Asensio FJ, Basilio A, Cabello MA, Díez MT, García JB, González del Val A, Gorrochategui J, Hernández P, Peláez F, Vicente MF |year=2000 |volume=78 |issue=2 |pages=129–39 |doi=10.1023/A:1026552024021 |pmid=11204765|s2cid=23654559 }}</ref>
+
+<ref name="urlMycoBank: Psilocybe semilanceata">{{cite web |url=http://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=232492 |title=''Psilocybe semilanceata'' (Fr.) P. Kumm. 1871 |publisher=International Mycological Association |work=MycoBank |access-date=15 November 2010}}</ref>
+
+<ref name="urlMycoBank: Psilocybe strictipes">{{cite web |url=http://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=304496 |title=''Psilocybe strictipes'' Singer & A.H. Sm. 1958 |publisher=International Mycological Association |work=MycoBank |access-date=19 November 2010}}</ref>
+
+<ref name=Vanhaelen1984>{{cite journal |title=Qualitative and quantitative determination of hallucinogenic components of ''Psilocybe'' mushrooms by reverse-phase high-performance liquid chromatography |journal=Journal of Chromatography |year=1984 |vauthors=Vanhaelen-Fastré R, Vanhaelen M |volume=312 |pages=467–72 |pmid=6543215 |doi=10.1016/s0021-9673(01)92800-6}}</ref>
+
+<ref name=Walther2005>{{cite journal |title=The systematic relevance of conidiogenesis modes in the gilled Agaricales |journal=Mycological Research |year=2005 |vauthors=Walther G, Garnica S, Weiß M |volume=109 |issue=5 |pages=525–44 |doi=10.1017/S0953756205002868 |pmid=16018308}}</ref>
+
+<ref name=Walther2008>{{cite journal |title=Anamorphs in the Strophariaceae (Basidiomycota, Agaricales) |vauthors=Walther G, Weiss M |journal=Botany |year=2008 |volume=86 |issue=6 |pages=551–66 |doi=10.1139/B08-036|s2cid=86634987 |url=https://semanticscholar.org/paper/50e9647bc41b11da9c095f6b9c817ab683a30075 }}</ref>
+
+<ref name=Watling2007>{{cite book |editor-last=Hancock G |title=Supernatural: Meetings With the Ancient Teachers of Mankind |author=Watling R. |chapter=''Psilocybe semilanceata'' – a hallucinogenic mushroom native to Europe |publisher=Disinformation Company |location=New York City |year=2007 |page=404 |isbn=978-1-932857-84-9}}</ref>
+
+<ref name=Watling2003>{{cite journal |title=A sequestrate ''Psilocybe'' from Scotland |journal=Botanical Journal of Scotland |year=2003 |vauthors=Watling R, Martin MP |volume=55 |issue=2 |pages=245–57 |issn=1359-4869 |doi=10.1080/03746600308685009|s2cid=84039900 }}</ref>
+
+<ref name=Weil2004>{{cite book |author=Weil A. |title=The Marriage of the Sun and Moon: Dispatches from the Frontiers of Consciousness |publisher=Houghton Mifflin |location=Boston, Massachusetts |year=2004 |page=77 |isbn=978-0-618-47905-4 |url=https://books.google.com/books?id=8sTUGpAT_qAC&pg=PA78}}</ref>
+
+}}
+
+===Cited texts===
+* {{cite book |author=Guzmán G. |title=The genus ''Psilocybe'': A Systematic Revision of the Known Species Including the History, Distribution and Chemistry of the Hallucinogenic Species |publisher=J. Cramer |series=Nova Hedwigia Beihefte |volume=74 |location=Berlin |year=1983 |isbn=978-3-7682-5474-8}}
+* {{cite book |vauthors=Bresinsky A, Besl H|title=A Colour Atlas of Poisonous Fungi: a Handbook for Pharmacists, Doctors, and Biologists |publisher=Manson Publishing Ltd. |location=London, UK |year=1989 |isbn=978-0-7234-1576-3}}
+* {{cite book |author=Stamets P. |title=Psilocybin Mushrooms of the World: An Identification Guide |publisher=Ten Speed Press |location=Berkeley, California |year=1996 |isbn=978-0-89815-839-7}}
+* {{cite book |title=Magic Mushrooms Around the World |author=Gartz J. |year=1997 |publisher=LIS Publications |location=Los Angeles, California |isbn=978-0-9653399-0-2}}
+
+{{Hallucinogenic mushrooms}}
+{{Taxonbar|from=Q503359}}
+
+[[Category:Entheogens]]
+[[Category:Fungi described in 1838]]
+[[Category:Fungi of Asia]]
+[[Category:Fungi of Australia]]
+[[Category:Fungi of Europe]]
+[[Category:Fungi of New Zealand]]
+[[Category:Fungi of North America]]
+[[Category:Fungi of South America]]
+[[Category:Fungi of Sweden]]
+[[Category:Fungi of Finland]]
+[[Category:Psilocybe|semilanceata]]
+[[Category:Psychedelic tryptamine carriers]]
+[[Category:Psychoactive fungi]]
+[[Category:Taxa named by Elias Magnus Fries]]
+[[Category:Fungi of Iceland]]

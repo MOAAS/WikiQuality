@@ -1,0 +1,1143 @@
+{{Short description|none}}
+{{DISPLAYTITLE:List of ''The Expanse'' episodes}}
+''[[The Expanse (TV series)|The Expanse]]'' is an American [[science fiction]] television series that premiered on December 14, 2015, on [[Syfy]]. The series was developed by [[Mark Fergus and Hawk Ostby]], based on [[The Expanse (novel series)|the series of novels]] by [[Daniel Abraham (author)|Daniel Abraham]] and [[Ty Franck]], writing under the pseudonym [[James S. A. Corey]]. Set in a future where humanity has colonized the [[Solar System]], it follows United Nations executive Chrisjen Avasarala ([[Shohreh Aghdashloo]]), police detective Josephus Miller ([[Thomas Jane]]), and ship's officer James Holden ([[Steven Strait]]) and his crew as they unravel a conspiracy that threatens peace in the system and the survival of humanity.
+
+On May 11, 2018, Syfy canceled the series after three seasons.<ref>{{cite news|last1=Andreeva|first1=Nellie|title='The Expanse' To End On Syfy With Season 3, Will Be Shopped Elsewhere By Alcon|url=https://deadline.com/2018/05/the-expanse-canceled-syfy-after-three-seasons-to-be-shopped-1202388026/|access-date=May 11, 2018|website=Deadline Hollywood|date=May 11, 2018}}</ref> However, on May 26, [[Amazon Video]] announced it had picked up the series for a fourth season.<ref>{{cite web|last1=Andreeva|first1=Nellie|title=''The Expanse'': Amazon Picks Up Space Drama Series After Syfy Cancellation|url=https://deadline.com/2018/05/the-expanse-amazon-picks-up-space-drama-series-season-4-syfy-cancellation-1202398511/|website=Deadline Hollywood|access-date=May 26, 2018|date=May 25, 2018}}</ref><ref name="S4Premiere">{{cite web |url=https://tvline.com/2019/07/20/the-expanse-season-4-premiere-date-trailer-amazon/ |title=The Expanse Season 4 (Finally) Gets Amazon Premiere Date — Watch Trailer |website=TVLine |first=Matt Webb |last=Mitovich |date=July 20, 2019 |access-date=July 20, 2019}}</ref> In July 2019, Amazon renewed the series for a fifth season,<ref name="S5Renew">{{cite web|last=Iannucci|first=Rebecca|date=July 27, 2019|title=''The Expanse'' Renewed for Season 5|url=https://tvline.com/2019/07/27/the-expanse-renewed-season-5-amazon/|access-date=July 27, 2019|website=TVLine}}</ref> which premiered on December 15, 2020.<ref name="S5Premiere">{{cite web|last=Mitovich|first=Matt Webb|date=October 8, 2020|title=The Expanse Gets Season 5 Premiere Date, Weekly Releases — Watch Trailer|url=https://tvline.com/2020/10/08/the-expanse-season-5-premiere-date-trailer/|access-date=October 8, 2020|website=TVLine}}</ref><ref>{{cite web|date=December 15, 2020|title=Prime Video Drops Season 5 of "The Expanse" Early|url=http://www.thefutoncritic.com/news/2020/12/15/prime-video-drops-season-5-of-the-expanse-early-677405/20201215amazon01/|access-date=December 18, 2020|website=The Futon Critic}}</ref> In November 2020, the series was renewed by Amazon for a sixth and final season,<ref name="S6Renewal">{{cite web|url=https://deadline.com/2020/11/the-expanse-renewed-sixth-final-season-amazon-cas-anvar-not-returning-1234621032/|title='The Expanse' Renewed For Sixth & Final Season By Amazon Ahead Of Season 5 Premiere|date=November 24, 2020|first=Nellie|last=Andreeva|website=[[Deadline Hollywood]]|access-date=November 24, 2020}}</ref> which premiered on December 10, 2021.<ref>{{cite web|title=The Expanse Sets December Premiere for Sixth and Final Season at Amazon|url=https://tvline.com/2021/10/08/the-expanse-final-season-6-premiere-date-amazon/|website=[[TVLine]]|first=Rebecca|last=Iannnucci|date=October 8, 2021|access-date=October 8, 2021}}</ref>
+
+{{Aired episodes|2015|12|14|2022|1|14|showpage=The Expanse (TV series)|released=y|finished=all|seasons=6}} 
+
+== Series overview ==
+<onlyinclude>{{Series overview
+| released  = y
+
+| color1    = #07101B
+| link1     = List of The Expanse episodes#Season 1 (2015–16)
+| episodes1 = 10
+| start1    = {{Start date|2015|12|14}}
+| end1      = {{End date|2016|2|2}}
+| network1  = [[Syfy]]
+
+| color2    = #739CB6
+| link2     = List of The Expanse episodes#Season 2 (2017)
+| episodes2 = 13
+| start2    = {{Start date|2017|2|1}}
+| end2      = {{End date|2017|4|19}}
+
+| color3    = #FB7B0E
+| link3     = List of The Expanse episodes#Season 3 (2018)
+| episodes3 = 13
+| start3    = {{Start date|2018|4|11}}
+| end3      = {{End date|2018|6|27}}
+
+| color4    = #014F6B
+| link4     = List of The Expanse episodes#Season 4 (2019)
+| episodes4 = 10
+| start4    = {{Start date|2019|12|12}}
+| end4      = start
+| network4  = [[Amazon Prime Video]]
+
+| color5    = #194a44
+| link5     = List of The Expanse episodes#Season 5 (2020–21)
+| episodes5 = 10
+| start5    = {{Start date|2020|12|15}}
+| end5      = {{End date|2021|2|2}}
+
+| color6    = #0050AF
+| link6     = List of The Expanse episodes#Season 6 (2021–22)
+| episodes6 = 6
+| start6    = {{Start date|2021|12|10}}
+| end6      = {{End date|2022|1|14}}
+}}</onlyinclude>
+
+== Episodes ==
+=== Season 1 (2015–16) ===
+Season 1 roughly follows the events of the first half of the book ''[[Leviathan Wakes]]''.
+
+{{Episode table |background=#07101B |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=14 |viewers=12 |country=U.S. |episodes=
+{{Episode list
+| EpisodeNumber   = 1
+| EpisodeNumber2  = 1
+| Title           = [[Dulcinea (The Expanse)|Dulcinea]]
+| DirectedBy      = [[Terry McDonough]]
+| WrittenBy       = [[Mark Fergus]] & [[Hawk Ostby]]
+| OriginalAirDate = {{Start date|2015|12|14}}{{efn|The first episode was released online on November 23, 2015.<ref>{{cite news|url=https://www.engadget.com/2015/11/06/syfy-will-premiere-the-expanse-online-before-it-hits-cable/|title=Syfy will premiere 'The Expanse' online before it hits cable|work=Engadget|first=Richard|last=Lawler|date=November 6, 2015|access-date=November 12, 2015}}</ref>}}
+| Viewers         = 1.19<ref name="1.01">{{cite web|url=http://tvbythenumbers.zap2it.com/2015/12/15/monday-cable-ratings-dec-14-2015/|archive-url=https://web.archive.org/web/20151217011738/http://tvbythenumbers.zap2it.com/2015/12/15/monday-cable-ratings-dec-14-2015/|url-status=dead|archive-date=December 17, 2015|title=Monday cable ratings: 'The Expanse' premiere not that expansive, 'Monday Night Football' leads|last=Porter|first=Rick|work=TV by the Numbers|date=December 15, 2015|access-date=December 15, 2015}}</ref>
+| ShortSummary    = The series opens with Julie Mao in a spacesuit alone aboard a spaceship. On the [[dwarf planet]] [[Ceres (dwarf planet)|Ceres]], Detective Miller is assigned to find Mao and return her to her rich parents on [[Moon|Luna]]. In New York, UN executive Chrisjen Avasarala interrogates a captured operative of the Outer Planets Alliance (OPA), a militant Belter group, about contraband stealth technology. On its way to Ceres, the ice hauler ''Canterbury'' receives a distress signal from the freighter ''Scopuli'', and acting Executive Officer Jim Holden is ordered to lead a rescue mission with the ship's engineer Naomi Nagata, the mechanic Amos Burton, the pilot Alex Kamal, and the medic Shed Garvey. They find the ship empty but for a distress transmitter, but as their shuttle heads back to the ''Canterbury'', a stealth ship destroys the ice carrier with nuclear torpedoes.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 2
+| EpisodeNumber2  = 2
+| Title           = [[The Big Empty (The Expanse)|The Big Empty]]
+| DirectedBy      = Terry McDonough
+| WrittenBy       = Mark Fergus & Hawk Ostby
+| OriginalAirDate = {{start date|2015|12|15}}
+| Viewers         = 0.854<ref name="1.02">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-15-2015.html|archive-url=https://web.archive.org/web/20151218041914/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-15-2015.html|url-status=dead|archive-date=December 18, 2015|title=UPDATED: SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 12.15.2015|last=Metcalf|first=Mitch|date=December 16, 2015|work=Showbuzz Daily|access-date=December 16, 2015}}</ref>
+| ShortSummary    = On Ceres, Miller investigates the theft of water, now severely rationed due to the ''Canterbury''{{'}}s failure to arrive. In Julie Mao's apartment, he finds clues placing her aboard the ''Scopuli''. On Earth, Avasarala sends the suspected OPA captive to Luna after her superior, Undersecretary Sadavir Errinwright, disapproves of "gravity torture", but the captive commits suicide. In the asteroid belt, the ''Canterbury''{{'}}s shuttle is damaged by debris from the ice hauler's destruction. Using the last of their air, the survivors build an improvised antenna to place a distress call, which is responded to by the Martian Congressional Republic Navy (MCRN) flagship ''Donnager''. After Nagata identifies the distress transponder aboard the ''Scopuli'' as using Martian military technology, Holden broadcasts a message to that effect to the Solar System, as insurance against being killed as inconvenient witnesses.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 3
+| EpisodeNumber2  = 3
+| Title           = Remember the Cant
+| DirectedBy      = [[Jeff Woolnough]]
+| WrittenBy       = [[Robin Veith]]
+| OriginalAirDate = {{start date|2015|12|22}}{{efn|name=Episode234|The third and fourth episodes were released online after the second episode aired on December 15, 2015.<ref>{{cite news |first=Denise |last=Petski |date=December 16, 2015 |url=https://deadline.com/2015/12/syfy-the-expanse-episodes-1-4-online-1201667927/ |title=Syfy's 'The Expanse' First Four Episodes Available Online & On Demand |access-date=August 4, 2016}}</ref>}}
+| Viewers         = 0.676<ref name="1.03">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-22-2015.html|archive-url=https://web.archive.org/web/20151224104206/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-22-2015.html|url-status=dead|archive-date=December 24, 2015|title=UPDATED: SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 12.22.2015|last=Metcalf|first=Mitch|date=December 23, 2015|work=Showbuzz Daily|access-date=December 23, 2015}}</ref>
+| ShortSummary    = Holden's broadcast triggers protests on Ceres, with the OPA blaming Mars for the destruction of the ''Canterbury''. In the course of violent riots, Miller's partner Havelock is attacked, almost fatally, and a man with the handle "Nightbandit31", with whom Mao was in contact, is killed. On Earth, Avasarala tests her theory that Mars was behind the attack by leaking to Mars information about the transfer of Martian stealth technology to the OPA. She deduces from the panicked Martian reaction that Mars was not responsible – but that somebody else wants to start a war. Aboard the Martian warship ''Donnager'', the ''Canterbury''{{'}}s survivors are detained and questioned, with Nagata in particular being suspected of being part of an OPA sleeper cell. Complicating matters further, an unidentified ship flies towards the ''Donnager'', ignoring all requests to divert or identify itself.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 4
+| EpisodeNumber2  = 4
+| Title           = CQB
+| DirectedBy      = Jeff Woolnough
+| WrittenBy       = [[Naren Shankar]]
+| OriginalAirDate = {{start date|2015|12|29}}{{efn|name=Episode234}}
+| Viewers         = 0.633<ref name="1.04">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-29-2015.html|archive-url=https://web.archive.org/web/20160104164325/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-12-29-2015.html|url-status=dead|archive-date=January 4, 2016|title=SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 12.29.2015|last=Metcalf|first=Mitch|date=December 31, 2015|work=Showbuzz Daily|access-date=December 31, 2015}}</ref>
+| ShortSummary    = On Ceres, Miller identifies the dead "Nightbandit31" as Bizi Betiko, only to later discover the real Betiko is still alive. Miller then learns that the deceased was a data broker with multiple spoofed electronic ID's and an implanted, encrypted memory storage device. In the asteroid belt, the ''Donnager''{{'}}s pursuers reveal themselves as six ships of the type that had attacked the ''Canterbury'', and they open fire on the ''Donnager''. Unexpectedly at a technological disadvantage, the Martian ship takes heavy damage, and Shed Garvey is decapitated by a [[railgun]] shot. As the ''Donnager'' is being boarded, the surviving ''Canterbury'' crew is evacuated on the Martian captain's orders,  hoping to spare Holden as a witness to the attackers. The crew narrowly escapes aboard a [[frigate]] from ''Donnager''{{'}}s bay, right before the ''Donnager'' self-destructs to avoid capture. Far from the battle, at Tycho Station, a massive [[generation ship]], the ''Nauvoo'', is being built at the behest of [[the Church of Jesus Christ of Latter-day Saints]]. Station manager Fred Johnson, who's tied to the OPA, turns the ''Nauvoo''{{'}}s sensors towards the battle.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 5
+| EpisodeNumber2  = 5
+| Title           = Back to the Butcher
+| DirectedBy      = [[Robert Lieberman|Rob Lieberman]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2016|1|5}}
+| Viewers         = 0.631<ref name="1.05">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-5-2016.html|archive-url=https://web.archive.org/web/20160107012232/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-5-2016.html|url-status=dead|archive-date=January 7, 2016|title=SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 1.5.2016|last=Metcalf|first=Mitch|date=January 6, 2016|work=Showbuzz Daily|access-date=January 6, 2016}}</ref>
+| ShortSummary    = For lack of options, the ''Canterbury''{{'}}s survivors accept a proposal by Fred Johnson to join him at Tycho Station, and with his help they modify the ship's transponder, renaming their salvaged ship the ''[[Rocinante]]'', to hide the fact that it's a Martian warship. A flashback shows how Johnson became "the Butcher of Anderson Station" eleven years ago: as a UN Marine colonel, he led an assault on a station occupied by protesting miners, killing all despite their attempts at surrender. On Ceres, Miller finds evidence linking Julie Mao to the OPA, which tries to recruit him through its local agent Anderson Dawes. While leaving Julie's apartment with the data chip, Miller is abducted by unknown people.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 6
+| EpisodeNumber2  = 6
+| Title           = Rock Bottom
+| DirectedBy      = Rob Lieberman
+| WrittenBy       = Jason Ning
+| OriginalAirDate = {{start date|2016|1|12}}
+| Viewers         = 0.713<ref name="1.06">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-12-2016.html|archive-url=https://web.archive.org/web/20160115071323/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-12-2016.html|url-status=dead|archive-date=January 15, 2016|title=UPDATED: SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 1.12.2016|last=Metcalf|first=Mitch|date=January 13, 2016|work=Showbuzz Daily|access-date=January 13, 2016}}</ref>
+| ShortSummary    = On Ceres, Miller is interrogated and tortured by Dawes, demanding to know what he has learned about Julie. Miller escapes with fellow officer Octavia Muss and discovers revealing information on a hidden data cube, a major secret. Upon revealing his discovery to his boss, she fires Miller and takes all information regarding the case. Avasarala wants a spy on Tycho Station and resorts to extortion to get her way. Holden and crew arrive at Tycho Station, with Fred Johnson planning to leverage Holden's testimony for legitimacy with the UN. Holden makes an uneasy alliance, sharing everything he knows about the destruction of the ''Canterbury'' and the MCRN ''Donnager''. Johnson seems fairly convinced neither Earth nor Mars was behind the attacks. After disguising the ''Rocinante'' as a simple gas hauler, they set out for Eros to pick up a potential survivor of the ''Scopuli''.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 7
+| EpisodeNumber2  = 7
+| Title           = Windmills
+| DirectedBy      = [[Bill Johnson (film editor)|Bill Johnson]]
+| WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+| OriginalAirDate = {{start date|2016|1|19}}
+| Viewers         = 0.502<ref name="1.07">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-19-2016.html|archive-url=https://web.archive.org/web/20160122213246/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-19-2016.html|url-status=dead|archive-date=January 22, 2016|title=UPDATED: SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 1.19.2016|last=Metcalf|first=Mitch|date=January 21, 2016|work=Showbuzz Daily|access-date=January 21, 2016}}</ref>
+| ShortSummary    = During a visit to Holden's co-op parents' house in [[Montana]], Avasarala learns of Holden's troubled childhood and gains some insight into his recent decisions. On their way to [[433 Eros|Eros]], the crew of the ''Rocinante'' realize too late that Kenzo, a spy from Tycho station, is on board and has inadvertently gotten the attention of a Martian patrol. Kenzo helps obtain the MCRN codebook from the ship's safe, and with a few code words the patrol backs off, believing the ''Rocinante'' to be a Martian black ops ship. Miller departs Ceres for Eros, with a new piece to the mysterious puzzle surrounding Julie Mao.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 8
+| EpisodeNumber2  = 8
+| Title           = Salvage
+| DirectedBy      = Bill Johnson
+| WrittenBy       = Robin Veith
+| OriginalAirDate = {{start date|2016|1|26}}
+| Viewers         = 0.721<ref name="1.08">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-26-2016.html|archive-url=https://web.archive.org/web/20160128214753/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-update-1-26-2016.html|url-status=dead|archive-date=January 28, 2016|title=SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Update: 1.26.2016|last=Metcalf|first=Mitch|date=January 27, 2016|work=Showbuzz Daily|access-date=January 27, 2016}}</ref>
+| ShortSummary    = The ''Rocinante'' arrives at their true destination, an asteroid at coordinates given by Fred Johnson, and discovers the ''Anubis'', the stealth ship that had destroyed the ''Canterbury''. It is empty except for a mysterious, spreading, organic substance that covers the ship's reactor. They scuttle the stealth ship, then head to Eros to find a survivor of the ''Scopuli'' code-named Lionel Polanski, who escaped the ''Anubis'' on its shuttle. Miller is also tracking down Polanski, identifying her as Julie Mao. Arriving at Eros, Holden and his team are ambushed at the hotel where Polanski is staying by a UN black ops team (signaled by Kenzo and authorized by Errinwright), but are saved by Miller. After joining up, Holden's team and Miller go to meet Julie Mao only to find her already dead, infected by the substance from the ''Anubis''.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 9
+| EpisodeNumber2  = 9
+| Title           = Critical Mass
+| DirectedBy      = Terry McDonough
+| WrittenBy       = Robin Veith & Dan Nowak and Naren Shankar
+| OriginalAirDate = {{start date|2016|2|2}}
+| Viewers         = 0.555<ref name="S1Finale"/>
+| ShortSummary    = The events leading up to Julie Mao's infection by the unknown biohazard on the ''Anubis'' and her gruesome death in her hotel room on Eros are revealed in a flashback. Fred Johnson broadcasts evidence that the stealth ships were built on Earth. After Miller and the ''Rocinante'' crew flee the hotel, Julie's body is found and studied by Dresden (a scientist working for Julie's father, Jules-Pierre Mao), who harvests her infected blood. Under the guise of a ship explosion and radiation leak, mercenaries loyal to Julie's father and Dresden place Eros into lockdown and seal the poverty-stricken citizens into radiation shelters after infecting them with Julie's blood. Most of the ''Rocinante'' crew head back to the ship, while Miller and Holden go to investigate the shelters. Discovering their true purpose as incubators for the infection, with everyone inside dead or dying, they also receive a lethal dose of radiation.
+| LineColor       = 07101B
+}}
+{{Episode list
+| EpisodeNumber   = 10
+| EpisodeNumber2  = 10
+| Title           = Leviathan Wakes
+| DirectedBy      = Terry McDonough
+| WrittenBy       = Mark Fergus & Hawk Ostby
+| OriginalAirDate = {{start date|2016|2|2}}
+| Viewers         = 0.555<ref name="S1Finale">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-finals-2-2-2016.html|archive-url=https://web.archive.org/web/20160204045605/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-tuesday-cable-originals-network-finals-2-2-2016.html|url-status=dead|archive-date=February 4, 2016|title=SHOWBUZZDAILY's Top 150 Tuesday Cable Originals & Network Finals: 2.2.2016|last=Metcalf|first=Mitch|date=February 3, 2016|work=Showbuzz Daily|access-date=February 3, 2016}}</ref>
+| ShortSummary    = Miller, Holden, and the ''Rocinante'' crew, suffering from radiation sickness, make their separate ways through the increasingly horrific situation on Eros towards the ship. They theorize that the conspirators behind the stealth ships are using the population as food for the "protomolecule" infection. Miller begins to see hallucinations of Julie Mao. Amos kills Miller's friend, Inspector Sematimba, after he holds Nagata at gunpoint when she refuses to launch the ''Rocinante'' without Holden. Miller and Holden make it to the ship, which escapes, and are treated for radiation sickness. On Earth, Avasarala's investigation is stopped by Errinwright, who is part of the Mao conspiracy. On Eros, the UN spy Kenzo is left to be consumed by the rapidly advancing protomolecule infesting the colony.
+| LineColor       = 07101B
+}}
+}}
+{{notelist}}
+
+=== Season 2 (2017) ===
+Season 2 concludes the events of the book ''[[Leviathan Wakes]]'', and starts plotlines from the [[Caliban's War|subsequent books]].
+
+{{Episode table |background=#739CB6 |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=14 |viewers=12 |country=U.S. |episodes=
+{{Episode list
+| EpisodeNumber   = 11
+| EpisodeNumber2  = 1
+| Title           = Safe
+| DirectedBy      = [[Breck Eisner]]
+| WrittenBy       = [[Mark Fergus]] & [[Hawk Ostby]]
+| OriginalAirDate = {{start date|2017|2|1}}
+| Viewers         = 0.700<ref name="S2Premiere"/>
+| ShortSummary    = The season opens with Martian Marine gunnery sergeant Bobbie Draper and her team undergoing combat training on Mars. They are deployed to [[Phoebe (moon)|Phoebe]] Research Station, which had been reported as being attacked. The United Nations debates blockading MCRN fleet deployments; Avasarala backs the measure but privately believes that she is being prepared by Errinwright as a scapegoat, and hires private security. An MCRN vessel fires on a UNN vessel; the UN elects not to fire back, figuring that the Martian missiles were saber-rattling. The missiles pass the UNN vessel and destroy Phoebe Station. Draper believes that war with Earth is good; her commanding officer, Sutton, believes war must be avoided. Holden and Miller recover from radiation sickness; Miller and Amos have a violent disagreement that is broken up by Naomi. The ''Rocinante'' crew finds a protomolecule sample in a cryogenic safe recovered from the ''Anubis'' and decide to hide it in a debris field. Naomi and Holden perform repairs to the ''Rocinante'' and their personal relationship deepens. Alex cooks lasagna for the crew of the ''Rocinante'', and over dinner tensions are eased.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 12
+| EpisodeNumber2  = 2
+| Title           = Doors & Corners
+| DirectedBy      = Breck Eisner
+| WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+| OriginalAirDate = {{start date|2017|2|1}}
+| Viewers         = 0.700<ref name="S2Premiere">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-1-2017.html|archive-url=https://web.archive.org/web/20170202230128/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-1-2017.html|url-status=dead|archive-date=February 2, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 2.1.2017|last=Metcalf|first=Mitch|date=February 2, 2017|work=Showbuzz Daily|access-date=February 2, 2017}}</ref>
+| ShortSummary    = Avasarala hires freelance spy Cotyar Ghazi. The ''Rocinante'' arrives at Tycho Station and Johnson is unhappy with them, but the situation is defused by explaining what is happening on Eros and that the data from the Eros incident is being beamed to Thoth Station. Fred Johnson pulls together a strike team from rival Outer Planets Alliance factions, killing one of their leaders in the process. The ''Rocinante'' is assigned as the mission's muscle in the assault on Thoth Station, engaging the station's defenses and clearing a path for the boarding party. The station is not prepared to defend itself, and falls easily to the team. They capture the lead scientist on the project, Dresden, and an underling, Cortazar. Dresden is uninterested in who he answers to as long as he can continue his work. Dresden explains the source, dangers, and possibilities of the protomolecule and tries to convince Holden and Johnson to let him continue the project, but Miller shoots him in the head.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 13
+| EpisodeNumber2  = 3
+| Title           = Static
+| DirectedBy      = [[Jeff Woolnough]]
+| WrittenBy       = [[Robin Veith]]
+| OriginalAirDate = {{start date|2017|2|8}}
+| Viewers         = 0.587<ref name="2.03">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-8-2017.html|archive-url=https://web.archive.org/web/20170209224845/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-8-2017.html|url-status=dead|archive-date=February 9, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 2.8.2017|last=Metcalf|first=Mitch|date=February 9, 2017|work=Showbuzz Daily|access-date=February 9, 2017}}</ref>
+| ShortSummary    = Earth destroys Mars's moon [[Deimos (moon)|Deimos]] as retaliation for the MCRN's nuking of Phoebe. This creates tension in Bobbie Draper's squad. Holden and his crew return to Tycho Station, angry at Miller for killing Dresden, the lead scientist on the protomolecule project. Fred Johnson tells Miller that he needs to leave, but Miller remains and visits the Mormon temple. Johnson and Holden figure out how to get the captured scientist Cortazar to talk. Miller realizes that Eros must be destroyed, and that Fred Johnson has the equipment necessary to do so: the ''Nauvoo''.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 14
+| EpisodeNumber2  = 4
+| Title           = Godspeed
+| DirectedBy      = Jeff Woolnough
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2017|2|15}}
+| Viewers         = 0.534<ref name="2.04">{{cite web|url=http://www.showbuzzdaily.com/articles/preliminary-showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-15-2017.html|archive-url=https://web.archive.org/web/20170217143237/http://www.showbuzzdaily.com/articles/preliminary-showbuzzdailys-top-150-wednesday-cable-originals-network-finals-2-15-2017.html|url-status=dead|archive-date=February 17, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 2.15.2017|last=Metcalf|first=Mitch|date=February 16, 2017|work=Showbuzz Daily|access-date=February 16, 2017}}</ref>
+| ShortSummary    = Avasarala gathers information linking the protomolecule to Jules-Pierre Mao, Julie's father, and hatches a plan to leak this information. Miller's ''Nauvoo'' plan is put into action. After assembling a demolition team to seal Eros's docks, the ''Nauvoo'' is evacuated of its people, commandeered, and set on a [[collision course]] to knock Eros into the Sun. After flying to Eros, the ''Rocinante'' drops its cargo of bombs and the demolition team retrieves them for precise placement. A complication arises when a group of humanitarian doctors is found who will not follow Holden's orders, so he destroys their ship to prevent spreading the protomolecule infection. The debris damages one of Miller's bombs, and he chooses to stay with it on Eros, watching the ''Nauvoo'' approach, but no collision takes place. Holden and crew confirm that the ''Nauvoo'' did not miss – despite having no human-built propulsion system capable of doing so, Eros maneuvered to avoid the impact.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 15
+| EpisodeNumber2  = 5
+| Title           = Home
+| DirectedBy      = [[David Grossman (director)|David Grossman]]
+| WrittenBy       = Mark Fergus & Hawk Ostby
+| OriginalAirDate = {{start date|2017|2|22}}
+| Viewers         = 0.600<ref name="2.05">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-2-22-2017-broadcast-finals-available-friday.html|archive-url=https://web.archive.org/web/20170224004209/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-2-22-2017-broadcast-finals-available-friday.html|url-status=dead|archive-date=February 24, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 2.22.2017|last=Metcalf|first=Mitch|date=February 23, 2017|work=Showbuzz Daily|access-date=February 23, 2017}}</ref>
+| ShortSummary    = Eros is speeding on collision course for Earth. Miller and the crew decide that Miller will bring the bomb into the heart of Eros to destroy it and then escape back to the ''Rocinante''. On Earth, the United Nations decides to fire its planetary defense nuclear missiles at the incoming Eros, but the asteroid evades them by 'going stealth', ceasing to reflect radar. The ''Rocinante'' crew use their proximity to the asteroid to provide a target lock to Fred Johnson, who will guide the missiles to Eros. Eros reacts to this by accelerating still faster; to maintain visual contact, the ''Rocinante'' accelerates at the limits of human endurance and finally gives up the chase. Miller arrives with the bomb at the heart of Eros and discovers a transformed Julie Mao. While the protomolecule has infected her and Eros, she has in some way infected it back, and can influence Eros's trajectory. With a combination of words and affection, and after removing his protective spacesuit, Miller convinces her to redirect Eros away from Earth toward Venus, where it crashes in a planetary-scale event.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 16
+| EpisodeNumber2  = 6
+| Title           = Paradigm Shift
+| DirectedBy      = David Grossman
+| WrittenBy       = [[Naren Shankar]]
+| OriginalAirDate = {{start date|2017|3|1}}
+| Viewers         = 0.625<ref name="2.06">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-1-2017.html|archive-url=https://web.archive.org/web/20170302231542/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-1-2017.html|url-status=dead|archive-date=March 2, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 3.1.2017|last=Metcalf|first=Mitch|date=March 2, 2017|work=Showbuzz Daily|access-date=March 2, 2017}}</ref>
+| ShortSummary    = Flashbacks show Martian colonist Solomon Epstein envisaging a future where Mars is freed from Earth's control by use of his fusion drive. In the present, Avasarala demands Errinwright bring Mao out of hiding by threatening Mao's family and business empire. On Tycho, Fred Johnson's idea to use the thirty missing nukes as a bargaining chip against Earth and Mars angers Holden. The ''Rocinante'' crew commiserate over Miller's death and agree to launch the protomolecule sample into the sun. Naomi fakes the launch; the others believe there is no sample left. On Ganymede, Bobbie Draper and her marines are sent to patrol the agricultural farms. They see UN marines running towards them, firing. Their comms are jammed. The UNN and MCRN fleets in orbit each think the jamming is part of an attack by the others. A full scale battle breaks out in orbit. This destroys several of the giant orbital mirrors. The crashing wreckage devastates the colony.  The ''Scirocco'' comes under fire and Sutton is killed. After the battle, an injured Bobbie awakes to find her team massacred and an inhuman figure standing over her.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 17
+| EpisodeNumber2  = 7
+| Title           = The Seventh Man
+| DirectedBy      = [[Kenneth Fink]]
+| WrittenBy       = [[Georgia Lee]]
+| OriginalAirDate = {{start date|2017|3|8}}
+| Viewers         = 0.451<ref name="2.07">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-8-2017.html|archive-url=https://web.archive.org/web/20170310025522/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-8-2017.html|url-status=dead|archive-date=March 10, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 3.8.2017|last=Metcalf|first=Mitch|date=March 9, 2017|work=Showbuzz Daily|access-date=March 9, 2017}}</ref>
+| ShortSummary    = After the Ganymede battle, Bobbie is rescued by the MCRN and asked to report the events, which some of her superiors do not believe. On Earth, Avasarala demands a peace summit between Earth and Mars to prevent further escalation of the tension, in which both planets believed the other fired first on Ganymede. Over three thousand people were killed in the Ganymede Incident, and the massive damage to the colony destroyed the agricultural domes that the Belt depends on – leading to a starvation and refugee crisis. On Tycho Station, a recently arrived Anderson Dawes is asked to represent the Belt in negotiations for peace with Earth and Mars, but Dawes convinces the Belters that Earth and Mars will never respect the Belt. Bobbie is ordered to Earth to the peace summit, and to tell Earth that Mars fired first accidentally, despite Bobbie remembering the presence of an alien figure the UN marines were fleeing from. On Tycho, Dawes becomes aware of Cortazar's presence and knowledge. Cortazar is later found to be missing from his cell, leading Alex and Naomi to chase after an escaping ship, only to find Diogo aboard and Dawes and Cortazar gone.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 18
+| EpisodeNumber2  = 8
+| Title           = Pyre
+| DirectedBy      = Kenneth Fink
+| WrittenBy       = Robin Veith
+| OriginalAirDate = {{start date|2017|3|15}}
+| Viewers         = 0.460<ref name="2.08">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-15-2017.html|archive-url=https://web.archive.org/web/20170317230928/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-15-2017.html|url-status=dead|archive-date=March 17, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 3.15.2017|last=Metcalf|first=Mitch|date=March 17, 2017|work=Showbuzz Daily|access-date=March 17, 2017}}</ref>
+| ShortSummary    = Aboard a Ganymede refugee ship, the botanist Praxideke Meng (Prax) and others are headed for safety as he privately mourns the loss of his daughter Mei, presumed dead when the mirrors fell from orbit. The ship's crew throws refugees from the inner planets, including Prax's friend, out of the airlock, reflecting the rising tension between the Belters and the Inners. The ship later arrives at Tycho Station, which is inundated with thousands of refugees from Ganymede. On Tycho, the ''Rocinante'' crew discovers that a protomolecule 'shout' (signal) came from Ganymede at the time of the battle and that a pediatrician, Dr. Strickland, who used to work for Protogen, was also on Ganymede. They connect to Prax after they discover the footage showing Strickland leaving the pediatric clinic with Prax's daughter one hour before the battle. Meanwhile, Dawes's supporters on Tycho storm the bridge and take Fred Johnson and his subordinate Camina Drummer hostage, wanting to launch the missiles back to Earth in order to provoke a fight, but are unsuccessful when the ''Rocinante'' crew intervenes. Prax, with the ''Rocinante'' crew, set off for Ganymede with renewed hope his daughter is still alive.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 19
+| EpisodeNumber2  = 9
+| Title           = The Weeping Somnambulist
+| DirectedBy      = [[Mikael Salomon]]
+| WrittenBy       = Hallie Lambert
+| OriginalAirDate = {{start date|2017|3|22}}
+| Viewers         = 0.471<ref name="2.09">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-22-2017.html|archive-url=https://web.archive.org/web/20170324021217/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-22-2017.html|url-status=dead|archive-date=March 24, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 3.22.2017|last=Metcalf|first=Mitch|date=March 23, 2017|work=Showbuzz Daily|access-date=March 23, 2017}}</ref>
+| ShortSummary    = Approaching Jupiter, the crew of the ''Rocinante'' realize that their ship is too obvious, so they commandeer the ''Weeping Somnambulist'', unable to convince that crew they mean no harm. The Mars delegation arrives on Earth for peace negotiations, and Bobbie Draper gives testimony that makes it look like Mars started the battle of Ganymede by accident. Alex takes the ''Rocinante'' to hide behind a Jovian moon, awaiting a call from the crew for pickup or rescue, and Prax is unimpressed with the crew's planning abilities. Upon arrival, Holden and Amos realize something is wrong on the ''Somnambulist'' and, while attempting to intervene, one of the ''Somnambulist''{{'}}s crew is killed. A research vessel in orbit around Venus, the ''Arboghast'', discovers that the Eros impact zone is teeming with unexplained activity, information that Avasarala matches with Bobbie Draper's additional testimony to realize that the solar system is still in danger.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 20
+| EpisodeNumber2  = 10
+| Title           = Cascade
+| DirectedBy      = Mikael Salomon
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2017|3|29}}
+| Viewers         = 0.573<ref name="2.10">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-29-2017.html|archive-url=https://web.archive.org/web/20170330232651/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-3-29-2017.html|url-status=dead|archive-date=March 30, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 3.29.2017|last=Metcalf|first=Mitch|date=March 30, 2017|work=Showbuzz Daily|access-date=March 30, 2017}}</ref>
+| ShortSummary    = Despite confinement by her commanding officer, Bobbie sneaks out of the Martian embassy to see the ocean. She passes through an enclave of [[street people]] under some overpasses along the way. Errinwright confesses to Avasarala his role in helping Jules-Pierre Mao with the Eros incident. Avasarala approaches Bobbie with images of the inhuman figure from Ganymede, now believing Mao created it as a weapon which could wind up in Mars' possession. On Ganymede, Amos beats an information dealer for footage of Dr. Strickland taking Mei to the oldest part of Ganymede station. Prax realizes too much damage has been done to Ganymede's ecosystem to ever repair it. Alone on the ''Rocinante,'' Alex receives the MCRN alert declaring Ganymede a no-fly zone.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 21
+| EpisodeNumber2  = 11
+| Title           = Here There Be Dragons
+| DirectedBy      = [[Robert Lieberman|Rob Lieberman]]
+| WrittenBy       = Georgia Lee
+| OriginalAirDate = {{start date|2017|4|5}}
+| Viewers         = 0.504<ref name="2.11">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-5-2017.html|archive-url=https://web.archive.org/web/20170407055032/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-5-2017.html|url-status=dead|archive-date=April 7, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 4.5.2017|last=Metcalf|first=Mitch|date=April 6, 2017|work=Showbuzz Daily|access-date=April 6, 2017}}</ref>
+| ShortSummary    = Bobbie forces Captain Martens to reveal Jules-Pierre Mao's protomolecule technology project. A demonstration of it caused the Ganymede Incident and triggered the battle in orbit. The technology is now for sale. Bobbie takes the information to Avasarala at the UN and requests political asylum. Mao offers to explain everything to Avasarala if she meets with him outside of UN control. She accepts over Cotyar's objections. The research team aboard the UNS ''Arboghast'' lands a probe on Venus. They see a massive protomolecule structure before the probe fails. Alex uses a [[Gravity slingshot]] to sneak the ''Rocinante'' past the MCRN blockade of Ganymede. Holden and crew explore the old part of the station. They find guards and scientists having a pizza party. After Prax starts a gun fight, the survivors barricade themselves in a back room. Holden and Prax realize the protomolecule monsters are actually Belter children with genetic peculiarities and deliberately infected with protomolecule. The fate of Mei is unclear. Most of the enemy is killed by a protomolecule monster, but a dying scientist says there are plenty more out there. The party splits. Naomi and Amos evacuate people off Ganymede, while Holden, Prax, and Alex hunt the protomolecule monster on the surface.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 22
+| EpisodeNumber2  = 12
+| Title           = The Monster and the Rocket
+| DirectedBy      = Rob Lieberman
+| WrittenBy       = Mark Fergus & Hawk Ostby
+| OriginalAirDate = {{start date|2017|4|12}}
+| Viewers         = 0.515<ref name="2.12">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-12-2017.html|archive-url=https://web.archive.org/web/20170414081222/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-12-2017.html|url-status=dead|archive-date=April 14, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 4.12.2017|last=Metcalf|first=Mitch|date=April 13, 2017|work=Showbuzz Daily|access-date=April 13, 2017}}</ref>
+| ShortSummary    = Errinwright expresses remorse to Avasarala as she departs to Mao's ship with Bobbie and Cotyar. Mao claims he will give both Earth and Mars access to the protomolecule while he sits comfortably in the middle, preventing war. Errinwright meets with Martian Defense Minister Korshunov, poisoning him with a banned toxin for Martians that makes it look as if he died from a heart attack while also ordering the destruction of the Martian black-ops ship MCRN ''Karakum'' that was dispatched to collect the protomolecule monster on Ganymede. Errinwright subtly orders Mao to kill Avasarala and tie up loose ends. Holden becomes increasingly aggressive while hunting the protomolecule monster. Naomi and Amos repair the ''Somnambulist'' and though it can carry up to 300 people, there is only enough oxygen in the air tanks for 52 people, while over 100 refugees riot at the door. Naomi, with the help of a Belter who gives up his spot to her, manages to evacuate all the children and some young adults. When the ''Somnambulist'' is fired upon for violating the MCRN blockade, Alex convinces Holden to save them, threatening the MCRN ships with the ''Rocinante''{{'}}s arsenal. The protomolecule monster is shown to have stowed away aboard the ''Rocinante''.
+| LineColor       = 739CB6
+}}
+{{Episode list
+| EpisodeNumber   = 23
+| EpisodeNumber2  = 13
+| Title           = Caliban's War
+| DirectedBy      = [[Thor Freudenthal]]
+| WrittenBy       = Daniel Abraham & Ty Franck and Naren Shankar
+| OriginalAirDate = {{start date|2017|4|19}}
+| Viewers         = 0.581<ref name="2.13">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-19-2017.html|archive-url=https://web.archive.org/web/20170420211424/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-19-2017.html|url-status=dead|archive-date=April 20, 2017|title=UPDATED: SHOWBUZZDAILY's Top 150 Wednesday Cable Originals & Network Finals: 4.19.2017|last=Metcalf|first=Mitch|date=April 20, 2017|work=Showbuzz Daily|access-date=April 20, 2017}}</ref>
+| ShortSummary    = The protomolecule monster is found in the cargo bay on the ''Rocinante.'' It attacks Holden, crushing his leg and pinning him to the wall. It tears out panels to get to the reactor core for its radiation. Amos says the only way to get rid of it is to use the air on the ship as a pressurized blast to force it into space, which would also kill Holden. Prax sees the monster craves radiation and suggests the nuclear core in a ship's missile could lure it out. Naomi and Prax expose a core; Prax throws it into space. The monster jumps after it and is incinerated by the main engine. Cotyar is wounded in a shootout with Mao's men. Bobbie manages to sneak away to get her power armor and saves him and Avasarala. As the science team on the ''Arboghast'' begins a descent to the surface of Venus to examine the protomolecule structure, the ship is stopped and disassembled in an increasing spherical pattern. Naomi confesses to Holden that she never destroyed their protomolecule sample; with Earth and Mars already fighting over it, the Belt needed it too, so she gave it to Fred Johnson. On [[Io (moon)|Io]], Mei and other children are shown to be kept in stasis by Dr. Strickland.
+| LineColor       = 739CB6
+}}
+}}
+
+=== Season 3 (2018) ===
+{{Episode table |background=#FB7B0E |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=14 |viewers=12 |country=U.S. |episodes=
+{{Episode list
+| EpisodeNumber   = 24
+| EpisodeNumber2  = 1
+| Title           = Fight or Flight
+| DirectedBy      = [[Breck Eisner]]
+| WrittenBy       = [[Mark Fergus]] & [[Hawk Ostby]]
+| OriginalAirDate = {{start date|2018|4|11}}
+| Viewers         = 0.653<ref name="3.01">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-11-2018.html|archive-url=https://web.archive.org/web/20180412220511/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-11-2018.html|url-status=dead|archive-date=April 12, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 4.11.2018|last=Metcalf|first=Mitch|date=April 12, 2018|work=Showbuzz Daily|access-date=April 12, 2018}}</ref>
+| ShortSummary    = The crew cleans up the ''Rocinante'', missing a small piece of protomolecule in the process. They also conduct repairs and rename the ship ''Pinus Contorta'' to hide during escalating tension between Earth and Mars. Errinwright convinces the UN to declare war, Mars blames Earth for the assassination of defence minister Korshunov, and everyone wonders what is happening on Venus. Things are strained between Naomi and the crew. Though Naomi wants them to dock at Tycho, Holden picks up a protomolecule signal on Io, convincing the others to find answers for Prax. Fred Johnson reaches out to Dawes to use the scientist and protomolecule to work together, and orders the ''Nauvoo'' retrieved as the Belt must unite as one nation. Errinwright frames Avasarala for Eros and says she is the one working with Mao, having missiles fired at Mao's ship to kill her. Bobbie, Avasarala and Cotyar force one of the employees of the ship, Theo, to help them gather evidence to expose Errinwright, then Bobbie and Avasarala escape on Mao's racing ship ''Razorback'', while Theo and Cotyar escape on a landing shuttle.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 25
+| EpisodeNumber2  = 2
+| Title           = IFF
+| DirectedBy      = Breck Eisner
+| WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+| OriginalAirDate = {{start date|2018|4|18}}
+| Viewers         = 0.500<ref name="3.02">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-18-2018.html|archive-url=https://web.archive.org/web/20180420074414/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-18-2018.html|url-status=dead|archive-date=April 20, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 4.18.2018|last=Metcalf|first=Mitch|date=April 19, 2018|work=Showbuzz Daily|access-date=April 19, 2018}}</ref>
+| ShortSummary    = As the civilians of Earth get more afraid about war with Mars, Secretary General Esteban Sorrento-Gillis calls in old friend Methodist pastor and Doctor Annushka "Anna" Volovodov; to help convince the people that God is on Earth's side. Anna irritates Errinwright by calling for restraint. Jules-Pierre Mao visits Dr Strickland on Io, considering shutting down the whole project, though Strickland reveals the children of Ganymede can be controlled hosts for the protomolecule, including Mei. Pursuing the ''Razorback'', Errinwright's men fire again and Avasarala's body cannot take the force of acceleration needed to escape. Bobbie sends out a Martian distress signal that is picked up by Holden's crew. Holden and Amos want to ignore it and Alex and Naomi want to help. Prax breaks the tie and decides to assist them. Holden has torpedoes fired around the ''Razorback'' as a shield and then uses an explosion for cover to get in close to disable the UN ship's engines. After Amos saves his life, Prax admits he is scared of what he will find on Io, though Amos says Prax shouldn't give up on his daughter. As Avasarala passes out, she and Bobbie are picked up by a stunned Holden and crew.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 26
+| EpisodeNumber2  = 3
+| Title           = Assured Destruction
+| DirectedBy      = [[Thor Freudenthal]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2018|4|25}}
+| Viewers         = 0.553<ref name="3.03">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-25-2018.html|archive-url=https://web.archive.org/web/20180427045250/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-4-25-2018.html|url-status=dead|archive-date=April 27, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 4.25.2018|last=Metcalf|first=Mitch|date=April 26, 2018|work=Showbuzz Daily|access-date=April 26, 2018}}</ref>
+| ShortSummary    = Errinwright pushes a preemptive strike against Mars' long-range capabilities. Anna tells Esteban to take as few lives as possible so he refuses. Errinwright tells Esteban he must end this war to unite humanity against whatever comes from Venus, so Esteban has Earth launch an attack. A malfunction in the earth system allows one Martian missile to kill two million people in South America, which Errinwright reveals to Anna. Cotyar and Theo's signal reaches the UNN ship ''Agatha King''. Cotyar kills Theo to maintain the story of Avasarala's death. UNN Fleet Admiral Nguyen believes Avasarala to be alive and a traitor, and prepares to charge Cotyar with treason. Admiral Souther of the ''Agatha King'' believes Cotyar's story about Errinwright, but Nguyen takes command and orders the ship to Io. Mao begins to bond with Mei. He demands the project be shut down when an infected child begins dying. Avasarala recovers and tells the crew of Mao and Bobbie's role on Ganymede. Holden still doesn't want to get involved with the war. Alex gets a message from his family that they don't need him anymore. Avasarala is disgusted Naomi gave the protomolecule to Fred Johnson. Naomi swears to never let Avasarala or Earth get any protomolecule sample.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 27
+| EpisodeNumber2  = 4
+| Title           = Reload
+| DirectedBy      = Thor Freudenthal
+| WrittenBy       = [[Robin Veith]]
+| OriginalAirDate = {{start date|2018|5|2}}
+| Viewers         = 0.590<ref name="3.04">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-2-2018.html|archive-url=https://web.archive.org/web/20180504091443/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-2-2018.html|url-status=dead|archive-date=May 4, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 5.2.2018|last=Metcalf|first=Mitch|date=May 3, 2018|work=Showbuzz Daily|access-date=May 3, 2018}}</ref>
+| ShortSummary    = Drummer retrieves the ''Nauvoo''. Esteban gives Anna's speech but it is revised by Errinwright to further justify destroying Mars before dealing with Venus. Anna is disgusted and prepares to leave. The crew is very low on fuel and prepares to take some from a defeated Martian ship, but find three surviving Martian Marines. Avasarala convinces Holden to send the recording of Errinwright's treason to Anna so she can get through to Esteban; shocking her just as she is about to depart. The three Martians are disgusted they are on a stolen Martian war ship, preparing to capture it by beating Alex and taking him and Naomi hostage. Bobbie is able to talk them down. Holden has the Martian's ship repaired so they can rejoin their fleet, giving them a copy of the Errinwright recording to pass onto their captain, whom Avasarala wants to pass it to the ''Agatha King''. On Io, Dr Strickland secretly keeps working on Mei's infected friend. Mao is initially furious but when he sees that the boy is communicating with the protomolecule on Venus; and learning by ripping out and disassembling his nurse's organs, Mao realizes this is the key to everything.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 28
+| EpisodeNumber2  = 5
+| Title           = Triple Point
+| DirectedBy      = [[Jeff Woolnough]]
+| WrittenBy       = [[Georgia Lee]]
+| OriginalAirDate = {{start date|2018|5|9}}
+| Viewers         = 0.555<ref name="3.05">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-9-2018.html|archive-url=https://web.archive.org/web/20180511081748/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-9-2018.html|url-status=dead|archive-date=May 11, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 5.9.2018|last=Metcalf|first=Mitch|date=May 10, 2018|work=Showbuzz Daily|access-date=May 10, 2018}}</ref>
+| ShortSummary    = The Martian marines pass the Errinwright recording along to the captain of the Martian ''Hammurabi''. Avasarala admits Earth needs a protomolecule sample but wants to unite humanity and needs Holden's help to end the war. Naomi explains to Holden why she gave the protomolecule sample to The Belt; she has a young son in the Belt and believed that by giving the protomolecule to the Belters, it was a way of protecting her son. At the lab, the boy tells Mao that the work on Venus is almost complete. Mao orders the next subject, Mei, to be infected. Admiral Nguyen orders Mao to turn over control of the protomolecule monsters to him. Souther and his crew attempt mutiny, announcing to both Earth and Mars that they want to stand down, but Nguyen kills Souther and many of those loyal to him, while the others are taken to the brig. The UNN ships begin firing on one another. The ''Hammurabi'' offers aid to any Earth ship willing to stand down. A wounded Nguyen launches the missiles containing the protomolecule monsters.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 29
+| EpisodeNumber2  = 6
+| Title           = Immolation
+| DirectedBy      = Jeff Woolnough
+| WrittenBy       = [[Alan Di Fiore|Alan DiFiore]]
+| OriginalAirDate = {{start date|2018|5|16}}
+| Viewers         = 0.609<ref name="3.06">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-16-2018.html|archive-url=https://web.archive.org/web/20180518054522/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-16-2018.html|url-status=dead|archive-date=May 18, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 5.16.2018|last=Metcalf|first=Mitch|date=May 17, 2018|work=Showbuzz Daily|access-date=May 17, 2018}}</ref>
+| ShortSummary    = Believing Holden's group to be Martian Marines, Mao and Strickland prepare to use the children as hostages. The boy hybrid attacks Bobbie. A missile hits and infects the ''Agatha King''. Holden captures Mao. Amos kills Strickland, so that Prax doesn't have to. An infected Cotyar destroys the ''Agatha King'' to stop the protomolecule. Naomi tells Johnson about the hybrid missiles, and he destroys them using the Belt's Earth missiles that were captured earlier. On Earth, Anna exposes Errinwright who admits his treason. Esteban orders Errinwright's arrest. Mao is brought to Avasarala as a prisoner, Bobbie recovers with Alex, Prax spends time with Mei, and Holden reunites with Naomi. A large protomolecule structure takes off from the surface of Venus.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 30
+| EpisodeNumber2  = 7
+| Title           = Delta-V
+| DirectedBy      = [[Kenneth Fink]]
+| WrittenBy       = [[Naren Shankar]]
+| OriginalAirDate = {{start date|2018|5|23}}
+| Viewers         = 0.625<ref name="3.07">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-23-2018.html|archive-url=https://web.archive.org/web/20180525063139/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-23-2018.html|url-status=dead|archive-date=May 25, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 5.23.2018|last=Metcalf|first=Mitch|date=May 24, 2018|work=Showbuzz Daily|access-date=May 24, 2018}}</ref>
+| ShortSummary    = The protomolecule forms the Ring, a structure orbiting beyond Uranus. Earth, Mars, and the Belt send fleets to investigate it. The OPA is recognized as the government of the Belt, led by Anderson Dawes and Fred Johnson. Anna flies to the Ring with the UNN fleet. Bobbie, reinstated into the MMC, is with the Martian fleet. Mars sues the ''Rocinante'' crew over the ship. A journalist and her cameraman are allowed onboard on the ''Rocinante'' in exchange for paying the crew's legal fees. The ''Rocinante'' escorts the OPA fleet to the Ring. Naomi and Drummer command the OPA flagship ''Behemoth'' (formerly Nauvoo). Dawes' representative, former pirate Klaes Ashford, is named Drummer's first officer. Ashford undermines Drummer by preventing her from spacing a drug dealer. A UNN tech crew including Melba Koh is deployed to a support ship in the earth fleet. Koh places a bomb on the ship and kills a coworker who discovers it. A Belter racing ship slingshots through the Ring and is instantly decelerated to a near complete stop, killing the pilot. Holden, alone in his quarters on the Roci, sees Miller sitting on his bed.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 31
+| EpisodeNumber2  = 8
+| Title           = It Reaches Out
+| DirectedBy      = Kenneth Fink
+| WrittenBy       = Mark Fergus & Hawk Ostby
+| OriginalAirDate = {{start date|2018|5|30}}
+| Viewers         = 0.609<ref name="3.08">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-30-2018.html|archive-url=https://web.archive.org/web/20180601122913/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-5-30-2018.html|url-status=dead|archive-date=June 1, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 5.30.2018|last=Metcalf|first=Mitch|date=May 31, 2018|work=Showbuzz Daily|access-date=May 31, 2018}}</ref>
+| ShortSummary    = Melba hides the body and returns to the ''Thomas Prince''. She briefly meets Anna. Holden keeps scanning himself for brain defects and protomolecule, finding neither. Miller only shows up when he is alone. Using timestamps from Monica's footage Holden determines Miller first appeared when the racer entered the Ring. Monica's cameraman swaps out a circuit on the ''Rocinante''. Miller says he is an Investigator and he and Holden are tools for "it" to get to the Ring. Melba destroys the ''Seung Un'' and sends a fake message with Holden claiming responsibility. The ''Rocinante'' is unable to communicate a denial. On the ''Behemoth'', Ashford demands they fire on Holden to prove the OPA is not with him. Drummer gives the order despite Naomi begging her not to. The ship malfunctions but eventually fires. Holden is able to get Amos to give him a minute alone, whereupon Miller says they should aim for the ring but they are moving too fast. Holden convinces Alex to slow down and enter the Ring. The deceleration hurts everyone on board. The ship starts to enter the Ring with the missile just behind it.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 32
+| EpisodeNumber2  = 9
+| Title           = Intransigence
+| DirectedBy      = [[David Grossman (director)|David Grossman]]
+| WrittenBy       = Hallie Lambert
+| OriginalAirDate = {{start date|2018|6|6}}
+| Viewers         = 0.568<ref name="3.09">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-6-2018.html|archive-url=https://web.archive.org/web/20180609132344/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-6-2018.html|url-status=dead|archive-date=June 9, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 6.6.2018|last=Metcalf|first=Mitch|date=June 7, 2018|work=Showbuzz Daily|access-date=June 7, 2018}}</ref>
+| ShortSummary    = The missile has been stopped and redirected by the Ring but the ''Rocinante'' is unable to communicate or access any weapons. A Martian ship follows them inside. Cohen the cameraman admits to sabotaging the ship but says he only wanted information and never met the person who contacted him to do this. Amos sends him and Monica out of the ship to be picked up by the Martians to explain Holden's innocence. Unable to repair the ship without Naomi, Holden believes their only option is to surrender to the Martians. On the ''Behemoth'', Naomi realizes her heart is still with the ''Rocinante''. Drummer rallies the Belters to enter the Ring but lets Naomi take a shuttle back to her old crew once inside. Flashbacks reveal Melba is the other daughter of Jules-Pierre Mao who could never get his approval as he preferred Julie. Melba intends to destroy Holden for her father. Earth's civilians are evacuated away from the Ring but Anna is able to stay. Miller has Holden investigate the center of the pocket dimension the Ring connects to. Holden detaches himself from the ship and goes towards a structure in the center.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 33
+| EpisodeNumber2  = 10
+| Title           = Dandelion Sky
+| DirectedBy      = David Grossman
+| WrittenBy       = Georgia Lee
+| OriginalAirDate = {{start date|2018|6|13}}
+| Viewers         = 0.615<ref name="3.10">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-13-2018.html|archive-url=https://web.archive.org/web/20180615123142/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-13-2018.html|url-status=dead|archive-date=June 15, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 6.13.2018|last=Metcalf|first=Mitch|date=June 14, 2018|work=Showbuzz Daily|access-date=June 14, 2018}}</ref>
+| ShortSummary    = The ''Thomas Prince'' enters the Ring. Anna and others on board theorize the Ring is trying to isolate potential threats. Anna's friend Tilly recognizes Melba as Clarissa Mao and confronts her. Clarissa attacks Tilly to avoid being revealed. The Investigator admits he is just a construct in Holden's brain attempting to fulfill the protomolecule's mission of discovering what happened to an ancient civilization. As Holden goes towards the station at the center of the pocket dimension he touches a circuit, revealing Miller's last thoughts to get Holden to comply. Believing Holden to be insane, a Martian team including Bobbie follow him. They fire at Holden but the bullets are stopped in mid-air and a Martian lieutenant is disassembled and absorbed by the station when he throws a grenade. The station forces every ship to slow down further, interrupting Clarissa's attack on Tilly. Holden touches the circuit and is shown visions from the protomolecule's point of view. He is shown previous events in reverse before witnessing events in the distant past, planets exploding and a connection to farther away in space, and finally loses consciousness.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 34
+| EpisodeNumber2  = 11
+| Title           = Fallen World
+| DirectedBy      = [[Jennifer Phang]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2018|6|20}}
+| Viewers         = 0.670<ref name="3.11">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-20-2018.html|archive-url=https://web.archive.org/web/20180621221357/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-20-2018.html|url-status=dead|archive-date=June 21, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 6.20.2018|last=Metcalf|first=Mitch|date=June 21, 2018|work=Showbuzz Daily|access-date=June 21, 2018}}</ref>
+| ShortSummary    = The mass deceleration caused fatalities and severe wounds among all the ships; without gravity internal wounds cannot drain, meaning many more will die. Naomi returns to the ''Rocinante'' treating a wounded Amos and Alex. On the ''Behemoth'', Drummer and Ashford are pinned on opposite sides of a large piece of equipment, working together to try to free themselves and learning about each other. Drummer allows it to roll forward, crushing her further to give the ship a captain in Ashford. Once free, to treat Drummer and the others, Ashford commands the ship's drum to create spin gravity, opening the ship to everyone's wounded. Leaving Tilly for dead, Clarissa realizes with all ships being drawn to the center, she can board the ''Rocinante''. However, Tilly survives just long enough to tell Anna the truth. Clarissa boards the ship and attacks Naomi, seeking Holden, but Anna follows and tasers her from behind. On Bobbie's skiff, Holden wakes up and tells her he saw a vision detailing the end of everything.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 35
+| EpisodeNumber2  = 12
+| Title           = Congregation
+| DirectedBy      = Jennifer Phang
+| WrittenBy       = Daniel Abraham & Ty Franck
+| OriginalAirDate = {{start date|2018|6|27}}
+| Viewers         = 0.730<ref name="S3Finale">{{cite web|url=http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-27-2018.html|archive-url=https://web.archive.org/web/20180628233629/http://www.showbuzzdaily.com/articles/showbuzzdailys-top-150-wednesday-cable-originals-network-finals-6-27-2018.html|url-status=dead|archive-date=June 28, 2018|title=Updated: ShowBuzzDaily's Top 150 Wednesday Cable Originals & Network Finals: 6.27.2018|last=Metcalf|first=Mitch|date=June 28, 2018|work=Showbuzz Daily|access-date=June 28, 2018}}</ref>
+| ShortSummary    = Everyone boards the ''Behemoth'' with all weapons seized by the OPA. Holden is believed to be insane and Clarissa wears an injection system to impair her abilities. She is locked across from Holden without him knowing who she is. Anna tells her all she can hope for now is forgiveness. Holden tells Ashford the beings that created the Rings and protomolecule were somehow killed and used Rings to destroy [[planetary system]]s, attempting to save themselves. Drummer builds herself mechanical legs with help from Naomi, whom she later reunites with Holden. Clarissa can hear Holden's torment as he tries to get Miller to tell him what to do next. Amos takes a liking to Anna. A tech from Earth has the idea to send a damaged skiff with a nuclear missile to try and weaken the field blocking immobilizing ships and blocking the laser communication to the outside world. In response, the station begins charging energy. Ashford realizes the station intends to destroy the entire solar system and convinces the leaders of Earth and Mars to destroy the Ring with the laser, saving humanity at the cost of marooning everyone inside the Ring.
+| LineColor       = FB7B0E
+}}
+{{Episode list
+| EpisodeNumber   = 36
+| EpisodeNumber2  = 13
+| Title           = Abaddon's Gate
+| DirectedBy      = [[Simon Cellan Jones]]
+| WrittenBy       = Daniel Abraham & Ty Franck and Naren Shankar
+| OriginalAirDate = {{start date|2018|6|27}}
+| Viewers         = 0.606<ref name="S3Finale"/>
+| ShortSummary    = Holden talks with Miller. The station thinks humans are a threat and Ashford's laser will cause it to destroy the solar system. To calm the station, they must power down the ships. Holden, Naomi and Drummer storm the ''Behemoth''{{'}}s reactor room. Amos, Alex, Anna and Monica broadcast to the other ships asking them to power down. Ashford frees Clarissa to work on the laser. Bobbie's squad is sent to stop Anna's broadcast. The Marines turn on Bobbie, who defends herself and Alex. Diogo attacks the reactor room in Martian power armor. Naomi crushes him with an elevator to save Drummer. Anna's message convinces the other ships to power down. Ashford orders Naomi and Holden killed, but Clarissa saves them and is shot shutting down the ''Behemoth''. The station releases all the ships. It reactivates the remaining Rings to 1300 habitable planetary systems. Bobbie joins the ''Rocinante''{{'}}s crew. Holden says Miller wanted the other rings open and to find out what killed its creators. It has given humanity something to explore as part of its plan. The ''Rocinante'' passes through the Ring barrier while Holden watches some ghostly object seem to speed towards him.
+| LineColor       = FB7B0E
+}}
+}}
+
+=== Season 4 (2019) ===
+{{Episode table |background=#014F6B |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=26 |released=y |episodes=
+{{Episode list
+| EpisodeNumber   = 37
+| EpisodeNumber2  = 1
+| Title           = New Terra
+| DirectedBy      = [[Breck Eisner]]
+| WrittenBy       = [[Mark Fergus]] & [[Hawk Ostby]]
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Avasarala orders a blockade of settler ships near the Ring, wary of the risks of expansion. A convoy of Belter refugee ships from Ganymede attempts to run the blockade; of the few that succeed, the ''Barbapiccola'' lands on a planet named "Ilus" which features prominent alien structures. Avasarala sends Holden there as her envoy, with the rest of his crew joining him, in order to identify any potential protomolecule exposure. Naomi begins taking brutal drugs in order to develop a tolerance to high gravity. On Mars, Bobbie dismantles decommissioned warships for a living, discontented with her plight. With a truce between Earth, Mars, and the Belt in effect, Ashford operates as an OPA peacekeeper, tracking down and neutralizing renegades; Drummer commands the former ''Behemoth'', now renamed ''Medina Station'', which controls the Ring Space. The Earth ship ''Edward Israel'', ferrying a Royal Charter Energy (RCE) expedition backed by Earth and Mars, sends a shuttle to Ilus that is destroyed during its landing; many lives and supplies are lost. The ''Rocinante'' crew arrives amid tensions between the surviving shuttle passengers and the Belter settlers that escalate into an armed standoff; it is interrupted when a swarm of alien "bugs" attacks the settlement.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 38
+| EpisodeNumber2  = 2
+| Title           = Jetsam
+| DirectedBy      = Breck Eisner
+| WrittenBy       = Laura Marks
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Avasarala visits Mars and invites Bobbie to a [[state banquet]]. At the banquet, Bobbie is rebuffed by fellow Martians and offended when she perceives that she is being used by Avasarala; she rejects a job offer from Avasarala. Bobbie discovers that her nephew, David, is preparing illicit "focus drugs" for a gang. She ends his involvement by beating up the gang members and destroying their lab. On Ilus, the ''Rocinante'' crew navigates the ongoing tensions between the Belters and Earthers; they identify the bugs as protomolecule-based. The drugs Naomi has been taking have not been fully successful. RCE Security Chief Adolphus Murtry, who took charge after the expedition's leader had died, identifies the shuttle's downing as deliberate; he confronts Belters about that and kills one of them in a standoff. Holden, guided by Miller, enters an alien structure near the settlement and removes a root growing through a panel, activating the structure; this triggers a pattern of lightning strikes across Ilus. Amos begins a relationship with Chandra Wei, Murtry's second-in-command. On Medina, Ashford and Drummer investigate the disappearance of the UN colony ship ''Sojourner'' and find it was stolen by Marco Inaros, an OPA pirate and Naomi's former lover.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 39
+| EpisodeNumber2  = 3
+| Title           = Subduction
+| DirectedBy      = [[David Petrarca]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = On Earth, Nancy Gao, a former UN Home Secretary who has resigned from Avasarala's cabinet due to the disagreement over her blockade strategy, runs for UN Secretary General against Avasarala on a pro-expansion platform. Avasarala's aides uncover a nepotistic scheme that benefited Gao in her career; Avasarala has evidence of it discreetly leaked. On Mars, Bobbie learns that the gang has kidnapped David and forced him to work off the debt incurred from her destruction of their lab. Detective Esai Martin, the gang's ringleader, agrees to release David if Bobbie helps them steal military equipment from her workplace. After she eventually complies, Esai releases him. She declines Esai's offer to join his gang. On Ilus, lightning strikes the settlement, damaging the Belters' power generation infrastructure; Amos and Naomi help them repair it. Murtry identifies the Belters responsible for the downing and orders their execution. Holden, accompanied by Alex and RCE biologist Dr. Elvi Okoye, finds another alien structure that was activated; it is displacing wide swathes of ground while moving toward the settlement. Despite Okoye's protests, Holden has Alex destroy the structure with a torpedo from the ''Rocinante''.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 40
+| EpisodeNumber2  = 4
+| Title           = Retrograde
+| DirectedBy      = David Petrarca
+| WrittenBy       = Matthew Rasmussen
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Drummer and Ashford apprehend Marco Inaros for stealing the ''Sojourner'' and executing its passengers. Drummer, Ashford and three other OPA faction leaders hold a trial for Inaros; he appeals to Belter solidarity, offers them the money he made from the ''Sojourner'' and promises to abide by the truce with the Inners. They acquit him by the three to two vote; Drummer, who votes last, chooses to acquit him to prevent division among the OPA, despite hating Inaros for hurting Naomi. On Mars, Bobbie quits her job after attempting to report material theft to her supervisor, only to find out that he is interested in selling more stolen goods. Shortly after, she is arrested for abetting the crime, presumably at the direction of her supervisor. Her charges are dropped once she accepts Esai's offer. On Ilus, Naomi tries to help Dr. Lucia Mazur, a Belter complicit in the downing, escape from Murtry and his forces; Amos gets arrested by Murtry while helping them. Murtry eventually backs down when Holden and Alex intervene and fire the ''Rocinante'''s PDCs at his forces. Naomi, Alex, and Lucia go into orbit aboard the ship while Holden remains on Ilus.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 41
+| EpisodeNumber2  = 5
+| Title           = Oppressor
+| DirectedBy      = [[Jeff Woolnough]]
+| WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Avasarala and Gao's first public debate, during which Avasarala's attempt to use accusations of nepotism against Gao backfires, is cut short by a security threat; an unidentified ship, initially claiming to be a civilian ship experiencing a system failure, has diverted course toward an Earth asteroid defense platform and gone silent. After the ship is identified as the ''Sojourner'', Avasarala orders its destruction. On Ilus, the Earthers and Belters face off in a tense showdown. Holden reveals his alien connection and reactivation of the alien technology to the settlers to convince both factions into leaving Ilus, but it only further inflames the situation. However, Murtry releases Amos as he also wants Belters to leave Ilus and perceives that his interests are now aligned with Holden's. Lucia and her husband, Jakob, have an argument over her part in the downing of the RCE shuttle and their family falling apart. Feeling guilty, Lucia attempts suicide; Alex saves her, and Naomi counsels her on dealing with guilt, drawing from her own past. An island on the other side of Ilus explodes, causing a shock wave to begin traversing the planet's surface.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 42
+| EpisodeNumber2  = 6
+| Title           = Displacement
+| DirectedBy      = Jeff Woolnough
+| WrittenBy       = Hallie Lambert
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Alex and Naomi inform Holden of the explosion and an impending earthquake; it will be followed by a shock wave, and then a [[tsunami]] that will destroy the settlement and flood the continent. Once privy to this knowledge, the settlers finally consent to evacuate Ilus; the Belters only do so after Holden agrees to vouch for their claim on the planet to the UN and Avasarala, which antagonizes Murtry. The explosion prompts Ilus' defenses to shut down the fusion reactors on orbiting ships; the evacuation shuttle from the ''Israel'' gets incinerated mid-descent. Unable to leave the planet, the settlers take shelter in the nearby alien structure; some are killed by the shock wave during the evacuation; the surrounding area gets flooded. On Mars, Bobbie succeeds in her new job for the gang. During a heist, she risks her life to complete the mission, impressing Esai. UNN officers visit Medina and criticize Drummer for mishandling the issue of the ''Sojourner'' and Marco Inaros. Drummer and Ashford receive evidence that Inaros is involved with someone on Mars and that he is currently on the Belter ship ''Pizzouza''.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 43
+| EpisodeNumber2  = 7
+| Title           = A Shot In The Dark
+| DirectedBy      = Sarah Harding
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = On Ilus, the Earthers and the Belters set up separate camps inside the alien structure. Everyone besides Holden, who is immune, has been infected with microorganisms that are growing in their eyes; Okoye determines that the microorganisms will cause blindness. Settlers also start being killed by neurotoxic "slugs" that are growing along and crawling out of the structure's walls from the Ilus oceans. Murtry plans to outlast the Belters and plots against Holden. Amidst the fusion shutdown, Lucia devises a solution to keep the ''Barbapiccola'' from falling out of orbit: tethering the ship to the ''Rocinante''. On Earth, Avasarala is upset over her dwindling support in the poll numbers. After receiving the video evidence of Inaros' location from the OPA, she orders a team of UN marines to board the ''Pizzouza'' and capture Inaros alive with minimal casualties, but he is not found; a firefight breaks out before the ship explodes, killing everyone aboard.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 44
+| EpisodeNumber2  = 8
+| Title           = The One-Eyed Man
+| DirectedBy      = Sarah Harding
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Avasarala is condemned over the ''Pizzouza'''s destruction. In order to salvage her reelection campaign, she leaks images of the environmental disasters on Ilus, but gets confronted by her husband Arjun for putting her pride above the interest of others. Drummer resigns from her position, upset over Fred Johnson giving the evidence of Inaros' location to Earth. Ashford plans to independently hunt down and kill Inaros; Drummer, weary of politics, declines Ashford's offer to join him. On Mars, with the gang's upcoming job paying a lot and having many unknowns, Bobbie raises her concerns to Esai, but he discounts them as he needs money to make his family's life better. The crews of the ''Rocinante'' and the ''Barbapiccola'' successfully tether their ships to one another. In the alien structure, the settlers are all blind now, except for Holden; more Belters die when they wander off. Amos has a nervous breakdown over his powerlessness. Okoye determines that Holden is immune because of his anticancer medication (which he has been taking since absorbing radiation on Eros). She prepares a cure and the settlers regain sight. Holden finally sees Miller again, but Miller appears to be glitching in and out.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 45
+| EpisodeNumber2  = 9
+| Title           = Saeculum
+| DirectedBy      = Breck Eisner
+| WrittenBy       = Daniel Abraham & Ty Franck
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Murtry has the ''Israel'' launch a weaponized shuttle at the ''Rocinante''. Alex destroys the shuttle, but the resultant debris damages many of the ''Rocinante's''thrusters; Lucia is knocked into space but is saved by Naomi. Alex uses the ship's railgun as a makeshift thruster to maintain orbit. Miller, who can now intermittently overcome his protomolecule programming, leads Holden to an artifact that can shut down all of protomolecule activity on Ilus; this artifact, having the form of an energy circle, was presumably left by the species that killed the protomolecule's creators. Murtry and Wei follow Holden, but they are in turn followed by Amos and Okoye. Wei confronts Amos; when neither stands down, Amos kills Wei while Murtry shoots and disables Amos, blowing his fingers off. Okoye finds Holden near the artifact and tells him what happened. Holden goes back for Amos and confronts Murtry; after a standoff, Holden manages to disarm Murtry, though both are wounded. Miller communicates with Okoye and creates a metal mechanical body for himself to go through the energy circle. Despite the structure's attacks on them, Okoye helps Miller reach the artifact, through which they both fall.
+| LineColor       = 014F6B
+}}
+{{Episode list
+| EpisodeNumber   = 46
+| EpisodeNumber2  = 10
+| Title           = Cibola Burn
+| DirectedBy      = Breck Eisner
+| WrittenBy       = Daniel Abraham & Ty Franck and [[Naren Shankar]]
+| OriginalAirDate = {{start date|2019|12|12}}
+| ShortSummary    = Miller is gone, having successfully stopped all of protomolecule activity on Ilus; the ships in orbit get their power back. Murtry and Amos recover aboard the ''Rocinante''. The settlers on Ilus decide to stay, planning to together rebuild the settlement and continue research. Murtry and Lucia are to stand trial for their respective crimes, but Holden sets Lucia free. While the ''Israel'' remains in orbit, the ''Rocinante'' and the ''Barbapiccola'' head back to the Solar System. Holden destroys the last piece of protomolecule still on the ''Rocinante'' which Miller had informed him of. On Earth, Gao wins the election; Avasarala is being sent to Luna but Arjun, still angry with her, stays on Earth. On Mars, Bobbie's gang gets ambushed; Esai and most other members are killed. Bobbie notifies Avasarala of Martians trafficking military weapons with Belters and accepts her job offer. Ashford learns of the trafficking himself before finding Inaros and boarding his ship. After a firefight between their crews, Ashford corners Inaros, only to be ambushed by Filip, Inaros' right hand and his and Naomi's son. Inaros kills Ashford, but Ashford manages to secretly record their last conversation. Inaros launches asteroids cloaked with Martian stealth technology at Earth.
+| LineColor       = 014F6B
+}}
+}}
+
+===Season 5 (2020–21)===
+{{Episode table |background=#194a44 |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=26 |released=y |episodes=
+{{Episode list
+| EpisodeNumber   = 47
+| EpisodeNumber2  = 1
+| Title           = Exodus
+| DirectedBy      = [[Breck Eisner]]
+| WrittenBy       = [[Naren Shankar]]
+| OriginalAirDate = {{Start date|2020|12|15}}
+| ShortSummary    = A team of Belters, sent by Marco Inaros and led by his and Naomi's son Filip, attacks a science vessel near Venus, killing all aboard. Holden and Naomi are stationed at Tycho while ''Rocinante'' is undergoing the long-term repairs. Holden is contacted by Monica Stuart about protomolecule research she's heard about and confronts Fred Johnson about that. Naomi gets word that Filip is on the asteroid Pallas and makes plans to go there alone. Amos is going to Baltimore, Earth, to settle affairs of an old friend and is met by Avasarala during his stop at Luna. On Mars, Bobbie is working for Avasarala to investigate the ongoing Martian weapons trafficking but feels that she is running out of time. Alex arrives to Mars to try and make amends with his family but gets a cold welcome; Bobbie meets him at the bar afterwards but their conversation does not go well. On Luna, Avasarala starts investigating the possible involvement of Inaros in the science vessel attack.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 48
+| EpisodeNumber2  = 2
+| Title           = Churn
+| DirectedBy      = Breck Eisner
+| WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+| OriginalAirDate = {{Start date|2020|12|15}}
+| ShortSummary    = Drummer accidentally discovers the remains of Klaes Ashford's ship with great remorse. Amos returns to Earth for his recently deceased foster mother, Lydia, and finds her senior boyfriend Charles is about to be evicted. Amos confronts crime boss Erich to secure Charles' housing, and plans to meet someone before leaving his home planet forever. On Tycho Station, Holden receives a message from Monica, the reporter who claims to have proof of a plot stealing the protomolecule, but later finds she is missing. He eventually rescues Monica, nearly dead, from a shipping container on Tycho. On Mars, Bobbie reveals to Alex that she has been investigating Martian weapons trafficking with the help of Avasarala. Alex fails to approach Admiral Sauveterre, a possible trafficker but finds himself a date with Sauveterre's charismatic personal assistant, Lt. Babbage. Avasarala's concerns about Inaros launching an attack on Earth still fall on deaf ears.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 49
+| EpisodeNumber2  = 3
+| Title           = Mother
+| DirectedBy      = [[Thomas Jane]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{Start date|2020|12|15}}
+| ShortSummary    = Drummer finds Ashford's abandoned ship, confirming his death. She extracts the recording in which Marco Inaros describes his plan to go after targets bigger than Tycho or Ceres, and sends it to Fred, who then forwards it to Avasarala. Drummer eventually decides against going after Inaros. Naomi travels to Pallas Station, where she reconnects with Belter friends Cyn and Karal. She eventually meets Filip, who is angry at her, and they take Naomi captive. On Mars, the meeting of Alex and Babbage is fruitless. Later, Alex is attacked by two assailants and is only saved by Bobbie. On Tycho, Monica shows Holden and Fred a video of a fight that occurred on Ceres in which Cortazar can be identified. Sakai, the chief engineer of Tycho, identifies the people who purchased the shipping container in which Monica was discovered, but they find them already killed. Bull, the chief of security, concludes they have a traitor on Tycho working for Marco Inaros. The first of Inaros' stealth asteroids collides with Earth.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 50
+| EpisodeNumber2  = 4
+| Title           = Gaugamela
+| DirectedBy      = [[Nick Gomez]]
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{Start date|2020|12|22}}
+| ShortSummary    = Alex and Bobbie take the ''Razorback'', now named ''Screaming Firehawk'', and follow a group of Martian ships they suspect of weapons trafficking. Amos is visiting Clarissa in a high-security underground prison when the second asteroid hits, triggering a lockdown. Avasarala contacts Nancy Gao, warning her of the stealth asteroids. Gao orders to retask the Watchtower satellites for spotting further asteroids right before the third asteroid hits near her plane, destroying it. Her order still goes out, and the next asteroid is spotted and neutralized. On Tycho, the ship coming for the container holding Monica attacks the station. The traitor is revealed to be Sakai, who assassinates Fred Johnson and helps steal the sample of the protomolecule kept on the station. Filip takes Naomi to Marco's ship, where she is locked up. Marco, now in possession of the protomolecule, broadcasts a speech claiming responsibility for the stealth asteroid attacks and declaring his Free Navy as the ruling power of the Sol system as well as all the ring gates.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 51
+| EpisodeNumber2  = 5
+| Title           = Down and Out
+| DirectedBy      = [[Jeff Woolnough]]
+| WrittenBy       = Matthew Rasmussen
+| OriginalAirDate = {{Start date|2020|12|29}}
+| ShortSummary    = Drummer receives Inaros' offer to meet, which she and her crew accept. In the aftermath of the second asteroid impact, Amos and Clarissa are trapped in an underground cell at the prison. Along with three guards and another modded prisoner, they are able to break into a locked-off service ladder in the elevator and climb to the scorched surface. Naomi is held on Marco's ship, where she makes a concealed but futile attempt to assassinate Marco Inaros. She discerns that the ''Rocinante'''s drive has been sabotaged and manages to send a message to Holden, who avoids launching the ''Rocinante'' just in time. Pursuing the Martian ship ''Barkeith'', Alex and Bobbie witness its rendezvous with Belters, but are later spotted and have to fend off a torpedo launch with a last-ditch core dump, leaving their fates uncertain drifting into the void.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 52
+| EpisodeNumber2  = 6
+| Title           = Tribes
+| DirectedBy      = Jeff Woolnough
+| WrittenBy       = Hallie Lambert
+| OriginalAirDate = {{Start date|2021|1|5}}
+| ShortSummary    = Holden takes the ''Rocinante'' out after verifying their software is valid. Avasarala meets the new Secretary-General, who is out of depth in the crisis and asks for her support. Bobbie and Alex use some trickery to defeat a Belter boarding party and their ship. Drummer's clan meets with Marco. After some tense discussion, they reluctantly align with him. While talking with Filip, Drummer talks about Naomi and her role on board the Behemoth. Filip asks Naomi for details while Marco watches in the surveillance system. Amos and Clarissa avoid government relief sites to make their own way planning to get to Baltimore. Amos mentions to Clarissa his need to rejoin his crew.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 53
+| EpisodeNumber2  = 7
+| Title           = Oyedeng
+| DirectedBy      = Marisol Adler
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{Start date|2021|1|12}}
+| ShortSummary    = Naomi and Filip Inaros talk about their pasts and future. Naomi attempts to warn her son that Marco is an opportunist and gives her side of the story for leaving his father. Cyn also confesses to Naomi that he helped Marco hide their son from her. Holden joins forces with Bobbie and Alex to hunt down the ship ''Zmeya'' and to rescue Naomi. During the course of their investigation, Alex discovers that the Martians are selling ships to Marco's Free Navy. Holden, Bull, and Monica track down the ''Zmeya'' and disable it following a gun battle. However, the Belter crew destroy the ''Zmeya'' before Holden and his team can investigate the ship. Seeking to curry Filip's favor, Marco convinces his son to lend his personal ship ''Chetzemoka'' for a plot to trap the ''Rocinante'' while naming him as his successor. Marco reveals this plot to Naomi, who flees out the airlock aboard the derelict ''Chetzemoka'', having injected herself with hyper-oxygenated blood. Cyn attempts to stop her but perishes.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 54
+| EpisodeNumber2  = 8
+| Title           = Hard Vacuum
+| DirectedBy      = Marisol Adler
+| WrittenBy       = Dan Nowak
+| OriginalAirDate = {{Start date|2021|1|19}}
+| ShortSummary    = Following Naomi's escape, a grieving Marco blames Filip for Cyn's death. Aboard the ''Rocinante'', Holden and his team find no traces of the protomolecule during an analysis of the ''Zmeya''{{'s}} wreckage. Holden resolves to find and rescue Naomi. While collecting salvage from wrecked warships, Drummer, who is uneasy about following Marco, clashes with Karal, who supports Marco's cause. Back on Earth, Avasarala supports the new interim UN Secretary-General David Paster, who is learning the ropes of his job. At the first UN Security Council meeting, Avasarala opposes Admiral Delgado's proposal to launch a punitive strike against Belter civilians on Pallas station. Meanwhile, Amos and Clarissa travel to a devastated [[Baltimore]] where they convince the criminal Erich that they can access a sub-orbital shuttle at a holiday retreat in [[Lake Winnipesaukee]]. In space, Naomi discovers that Marco had rigged the ''Chetzemoka'' with a bomb and fake distress message in order to destroy the ''Rocinante''. After several attempts, Naomi manages to distort the fake distress message, which is picked up by a suspicious Holden and Drummer.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 55
+| EpisodeNumber2  = 9
+| Title           = Winnipesaukee
+| DirectedBy      = Breck Eisner
+| WrittenBy       = Daniel Abraham & Ty Franck and Naren Shankar
+| OriginalAirDate = {{Start date|2021|1|26}}
+| ShortSummary    = Amos, Clarissa, Erich and the rest of their group reach Lake Winnipesaukee, attempting to commandeer a suborbital shuttle. As they prepare the shuttle for departure, Clarissa persuades him to allow some of the winter staff of the now-abandoned mansions to join them, to escape the recent disaster. Avasarala learns that Pallas Station has been attacked by Earth forces, and leads a mass resignation from the Cabinet that results in the current Secretary General standing down; she later accepts the nomination to return to the position. Drummer learns that Naomi is still alive aboard the ''Chetzemoka'' but is powerless to aid her, as Inaros orders Drummer to lead a strike force to destroy her friends on the ''Rocinante''. Filip is manipulated by Marco once again with his mother's survival. Alex and Bobbie realize they are closer to ''Chetzemoka'' than Holden is, and alter course in the ''Razorback''. On Earth, a private security detail ambushes Amos's party in the evening darkness, but after a brutal firefight, they are able to successfully launch, bound for Luna.
+| LineColor       = 194a44
+}}
+{{Episode list
+| EpisodeNumber   = 56
+| EpisodeNumber2  = 10
+| Title           = Nemesis Games
+| DirectedBy      = Breck Eisner
+| WrittenBy       = Daniel Abraham & Ty Franck and Naren Shankar
+| OriginalAirDate = {{Start date|2021|2|2}}
+| ShortSummary    = As the ''Rocinante'' finds itself surrounded by Free Navy ships, Drummer betrays Karal to save it from destruction. Drummer loses members of her crew in protest, and Inaros executes her associate in retaliation. On the ''Chetzemoka'', Naomi breaks a pressure valve, putting the ship into a spin to prevent docking. As Alex attempts a docking maneuver with the ''Razorback'' anyway, Naomi flees the ''Chetzemoka'' in her suit and attempts to warn them off. Bobbie rescues Naomi before her life support gives out, but Alex dies from a stroke during the high-g encounter. The ''Rocinante's'' crew reunites on Luna, where Amos tricks Holden into giving Clarissa safe refuge, Bobbie joins newly-elected Avasarala's team, and Chrisjen signals she intends to use the ''Rocinante's'' crew as a role model for winning the war against Inaros. Free Navy ships, aided by Medina Station and rogue Martian warships commanded by Admiral Sauveterre attack and destroy the joint Earth and Mars garrison at the Ring. As the MCRN ''Barkeith'' transits a ring gate en route to Laconia, a world beyond the ring space, the entities that destroyed the Ring Builders begin to awaken and devour the ship. Meanwhile an alien superstructure orbiting Laconia suddenly blooms with the protomolecule.
+| LineColor       = 194a44
+}}
+}}
+
+===Season 6 (2021–22)===
+{{Episode table |background=#0050AF |overall=5 |season=5 |title=18 |director=13 |writer=33 |airdate=26 |released=y |episodes=
+{{Episode list
+ |EpisodeNumber   = 57
+ |EpisodeNumber2  = 1
+ |Title           = Strange Dogs
+ |DirectedBy      = [[Breck Eisner]]
+ |WrittenBy       = [[Naren Shankar]]
+ |OriginalAirDate = {{Start date|2021|12|10}}
+ |ShortSummary    = On the alien world of Laconia, a young girl named Cara studies the local fauna and encounters strange "dog-like" creatures. After a sunbird falls injured, Cara takes it away to find help. On Earth, Avasarala and Bobbie are dealing with the [[ecological collapse]] due to the continuing asteroid bombardment from the Free Navy. In the Belt, the ''Rocinante'' is engaged in the recon mission against the Free Navy. After killing a Free Navy ship, the crew (Holden, Naomi, Amos and Clarissa) discovers the evidence of a ship called "Azure Dragon" coordinating the asteroid strikes. On Ceres, Marco declares the planetoid the capital of the Belt, drawing wide praise and acclaim. Meanwhile, Filip struggles with accepting both his place as his father's son and his role in killing millions on Earth. In a heated altercation, he shoots and kills his friend Yoan. Elsewhere in the Belt, Drummer's crew aboard the ''Tynan'' destroys a Free Navy bounty hunter ship pursuing them. In the process, they lose their second ship ''Dewalt'' due to the mistake of Michio, one of Drummer's partners. Drummer and her other partner Josep decide to leave Michio at a safe harbor until the conflict is over.
+ |LineColor       = 0050AF
+}}
+{{Episode list
+ |EpisodeNumber   = 58
+ |EpisodeNumber2  = 2
+ |Title           = Azure Dragon
+ |DirectedBy      = [[Jeff Woolnough]]
+ |WrittenBy       = [[Daniel Abraham (author)|Daniel Abraham]] & [[Ty Franck]]
+ |OriginalAirDate = {{Start date|2021|12|17}}
+ |ShortSummary    = On Laconia, Cara shows her parents the dying sunbird and learns that it was killed by the human food she had given it. She attempts to care for the sunbird's babies using a drone copter, but breaks it. A strange dog steals the sunbird's corpse. In the Belt, the ''Rocinante'' is being replenished by the UNN supply ship; sent by Avasarala, Bobbie joins the crew to supervise the mission of capturing the ''Azure Dragon''. After a brief skirmish, the ''Rocinante'' captures the ''Dragon'' and gets access to its data core containing locations of all asteroids aimed at Earth. Elsewhere in the Belt, Drummer and her crew meet with Liang Walker, a loosely affiliated Free Navy pirate who will shepherd Michio to safety. While talking, Drummer and Walker realize they have aligned interests in injuring Marco and start planning their piracy together. On the ''UNN Zenobia'', Avasarala requests that Monica Stuart uses her journalistic talents to build sympathy for Earth among Belters. On Ceres, Marco releases Filip from prison. Feeling guilty, Filip arranges for the compensations for Yoan's family. As Marco receives word of the ''Azure Dragon'''s capture, he gets ready for the Inners' fleets to come for Ceres.
+ |LineColor       = 0050AF
+}}
+{{Episode list
+ |EpisodeNumber   = 59
+ |EpisodeNumber2  = 3
+ |Title           = Force Projection
+ |DirectedBy      = Jeff Woolnough
+ |WrittenBy       = Dan Nowak
+ |OriginalAirDate = {{Start date|2021|12|24}}
+ |ShortSummary    = On Laconia, Cara discovers that the drone and killed sunbird were "fixed" by a strange dog. Returning home, she finds that her young brother Xan has died in an accident. The Joint Fleet of Earth and Mars enters Ceres without resistance; the Free Navy abandoned it and stripped of resources. As UNN and MCRN marines coordinate relief efforts, a large explosion occurs in the docks. As the ''Rocinante'' is headed for Ceres, the crew discusses their personal issues. Naomi helps Holden investigate the ship disappearances during the ring transits. On the ''Pella'', Filip confronts Marco for abandoning Ceres as they start losing support among the Belters. As they detect the ''Rocinante'', Marco decides to attack it with his three ships. During the battle, the ''Rocinante'' takes out two ships; then Bobbie tricks the ''Pella'' and disables its drive. After Marco refuses to surrender, Bobbie fires a nuclear torpedo to finish the ''Pella'', but Holden disarms it as he sees Filip on the screen; the ''Pella'' withdraws. Filip and Marco blame each other for the failure; Marco relieves Filip of duty. Elsewhere in the Belt, Drummer and Walker make plans to attack Marco's supply depots and are joined by more forces. 
+ |LineColor       = 0050AF
+}}
+{{Episode list
+ |EpisodeNumber   = 60
+ |EpisodeNumber2  = 4
+ |Title           = Redoubt
+ |DirectedBy      = Anya Adams
+ |WrittenBy       = Dan Nowak
+ |OriginalAirDate = {{Start date|2021|12|31}}
+ |ShortSummary    = At Xan's funeral, Admiral Duarte comforts Cara with a discussion about sacrifice. Paolo Cortazar tells Duarte he has found a way to activate the protomolecule structure in orbit. At night, Cara steals Xan's body and goes into the woods. On Ceres, Belters protest against the Inners' presence while the Joint Fleet deals with the consequences of the explosion. On the ''Rocinante'', Holden is confronted by Amos and Naomi as they find out he disarmed the torpedo that failed to kill the ''Pella''. However, Clarissa advises him "to not feel bad about not killing someone". On the ''Pella'', Marco punishes officers for their loss in battle; his first hand Rosenfeld calms him down and tries to reconcile him with Filip. Filip is assigned to assist Tadeo, a repair technician. Drummer's team takes control of the Free Navy supply depot, but Josep loses his arm in the process. Drummer releases a system-wide broadcast calling Marco Inaros a coward. When the crew of the ''Pella'' sees Drummer's message, Filip loudly proclaims that Drummer is their enemy and they should fight anyone who stands against them as "there is no turning back now". 
+ |LineColor       = 0050AF
+}}
+{{Episode list
+ |EpisodeNumber   = 61
+ |EpisodeNumber2  = 5
+ |Title           = Why We Fight
+ |DirectedBy      = Anya Adams
+ |WrittenBy       = Daniel Abraham & Ty Franck
+ |OriginalAirDate = {{Start date|2022|1|7}}
+ |ShortSummary    = On Laconia, Cara calls for the strange dogs to fix Xan. After spending the night in the forest, she finds Xan alive but with pitch black eyes; Xan says that "everything looks different" for him now. At the Ring, an MCRN strike force attacks the ''Medina Station'' but is destroyed by the railguns that the Free Navy have emplaced on the Ring Station itself. On Ceres, the joint forces of Mars and Earth cannot agree on how to respond. On the ''Pella'', the crew celebrates the victory. After Tadeo finds out that his brother was killed during the explosion on Ceres, he confesses to Filip that he was one of the people who planted the bombs. The ''Rocinante'' is stationed on Ceres for repairs. Upset with Holden's decision in the battle with the ''Pella'', Amos is unsure if he wants to continue fighting alongside him; Bobbie convinces him to stay with his crew. Dr. Elvi Okoye shares insight with Holden and Naomi on the ring gate disappearances. Drummer arrives at Ceres with the resources from Marco's supply depot. In an emotional encounter, Naomi convinces Drummer to meet with Avasarala. Drummer and Avasarala form an alliance against Marco.  
+ |LineColor       = 0050AF
+}}
+{{Episode list
+ |EpisodeNumber   = 62
+ |EpisodeNumber2  = 6
+ |Title           = [[Babylon's Ashes (The Expanse)|Babylon's Ashes]]
+ |DirectedBy      = Breck Eisner
+ |WrittenBy       = Daniel Abraham & Ty Franck and Naren Shankar
+ |OriginalAirDate = {{Start date|2022|1|14}}
+ |ShortSummary    = On Laconia, Cara's parents are horrified of a reanimated Xan and the father attacks him; Cara and Xan flee into the woods. As the Free Navy forces are headed for the Ring, the combined fleets of Earth, Mars and friendly Belters intercept them in a broadsides operation. Disguised, the ''Pella'' inflicts significant casualties on the Belters' ships. Walker sacrifices himself by ramming his ship into the ''Pella'', damaging it significantly. Filip is taken aback by Marco's cavalier attitude towards the deaths of people around him. Meanwhile, Holden and crew send a team to the surface of the Ring Station to capture its railguns but are forced to destroy them instead. Having no other option of fighting Marco, Naomi and crew awaken the entities inside the Ring at the moment the Free Navy forces reach it. The entities consume Marco and the Free Navy. Beforehand, a disillusioned Filip had secretly left the ''Pella'' on a skiff. After their victory over the Free Navy, the leaders of Earth, Mars, and the Belt form an independent Transport Union, selecting Holden to run the organization; he immediately resigns, leaving Drummer in charge. The series ends with the ''Rocinante'' and crew flying toward the unknown.
+ |LineColor       = 0050AF
+}}
+}}
+
+==Webisodes==
+===''The Expanse: One Ship'' (2021–22)===
+''The Expanse: One Ship'' is a series of [[webisode]]s released alongside the sixth season. The episodes are available in the X-Ray bonus content section via Prime Video and feature small little character moments aimed to provide more depth to the mainline story.<ref>{{cite web |url=https://www.theverge.com/2021/12/24/22851119/the-expanse-season-6-final-amazon-x-ray |title=PSA: You’ll miss 25 minutes of The Expanse’s final season if you don’t pause it |website=The Verge |first=Sean |last=Hollister |date=December 24, 2021 |access-date=December 25, 2021}}</ref>
+
+{{Episode table |background=#000000 |anchor=OneShip |overall=5 |title=23 |director=13 |writer=33 |airdate=26 |airdateR= |released=y |episodes=
+{{Episode list
+ |EpisodeNumber   = 1
+ |Title           = Ankawala
+ |DirectedBy      = Lewin Webb
+ |WrittenBy       = Julianna Damewood
+ |OriginalAirDate = {{Start date|2021|12|10}}
+ |ShortSummary    = On the ''Tynan'', Michio informs Josep that Camina has kept many video messages from Naomi on her terminal and no messages from other members of their family, proving that she cares more about Naomi than the rest of them. Josep tells Michio that every one of them is torn and comforts her in light of their imminent separation. In her cabin, Camina deletes Naomi's messages.
+ |LineColor       = 000000
+}}
+{{Episode list
+ |EpisodeNumber   = 2
+ |Title           = Zenobia
+ |DirectedBy      = Lewin Webb
+ |WrittenBy       = Julianna Damewood
+ |OriginalAirDate = {{Start date|2021|12|17}}
+ |ShortSummary    = On the ''UNN Zenobia'', Avasarala is busy dealing with the war plans and situation on Earth. While waiting for the meeting with one of the admirals, she runs a medical self diagnostic scan in her quarters which shows multiple health issues. Upset and tired, she decides to take a 10-minute nap and switches the lights off, but gets immediately interrupted by a new message notification. Initially frustrated, she picks up the terminal and sees that the message is from her granddaughter who shares how she started her own indoor garden on Earth to help feed their family. Inspired, Avasarala sends an encouraging response in which she says that it is nice to see people on Earth trying to help each other even just a little. After asking her doctor to discreetly deliver her medication to her quarters, she continues with her duties as vigorous as always.
+ |LineColor       = 000000
+}}
+{{Episode list
+ |EpisodeNumber   = 3
+ |Title           = Win or Lose
+ |DirectedBy      = Lewin Webb
+ |WrittenBy       = [[Wes Chatham]] and Glenton Richards
+ |OriginalAirDate = {{Start date|2021|12|24}}
+ |ShortSummary    = On the ''Rocinante'', Amos and Bobbie start bantering while cleaning up in the cargo bay. As their banter gets heated, they decide to blow up some steam in a wrestling game; whoever loses would have to clean up the rest of the mess by themselves. As they start wrestling, Bobbie overcomes Amos by catching him in a chokehold, but Amos distracts her by activating the alarm system and tosses her to the floor thus winning the game. After they spend some time regaining their breath, Amos leaves Bobbie to finish the cleanup.
+ |LineColor       = 000000
+}}
+{{Episode list
+ |EpisodeNumber   = 4
+ |Title           = Night Watch
+ |DirectedBy      = Lewin Webb
+ |WrittenBy       = Glenton Richards
+ |OriginalAirDate = {{Start date|2021|12|31}}
+ |ShortSummary    = On the ''Rocinante'', Clarissa is doing routine maintenance checks during her night watch. While taking a meal, she receives the news of the death of her father, Jules-Pierre Mao, who was serving the life sentence in prison. Being distressed, Clarissa inadvertently activates her mods and passes out after causing havoc in the kitchen. After regaining consciousness, she confesses to her private journal that despite their troubled relations she still cared about her father and wished that he would love her and that she would not love him. After ending the entry, she starts cleaning up in the kitchen, while experiencing pain from the mod activation.
+ |LineColor       = 000000
+}}
+{{Episode list
+ |EpisodeNumber   = 5
+ |Title           = Remember the Cant
+ |DirectedBy      = Lewin Webb
+ |WrittenBy       = Julianna Damewood and Glenton Richards
+ |OriginalAirDate = {{Start date|2022|1|7}}
+ |ShortSummary    = On Ceres, Holden sees the old graffiti with his face saying "Remember the Cant" referring to the events of the first season.{{efn|Such graffitis first appeared in "[[#ep3|Remember the Cant]]", during the protests provoked by Holden's broadcast message.}} As Monica passes by, she wonders "what that guy would have to say about all this". Holden responds that he would probably suggest to keep one's head down and stay out of trouble. A flashback of ten years earlier shows the ''Canterbury's'' captain in the bar on Ceres as he was struggling in his communications with the Belters. At the same bar, Holden was having a friendly drink with the group of Belters without any difficulties. As the captain noticed this, he offered Holden a job on the ''Canterbury''. At first, Holden declined the offer. However, when the captain promised that the position would entail "no or little responsibility", Holden accepted, unaware of what the future would hold for him.
+ |LineColor       = 000000
+}}
+}}
+{{notelist}}
+
+==Ratings==
+
+===Season 1===
+{{Television episode ratings
+| noshare   = y
+| title1   = [[#ep1|Dulcinea]]
+| date1    = December 14, 2015
+| rs1      = 0.3
+| viewers1 = 1.19<ref name="1.01"/>
+| dvr1     = n/a
+| dvrv1    = n/a
+| total1   = n/a
+| totalv1  = n/a
+
+| title2   = [[#ep2|The Big Empty]]
+| date2    = December 15, 2015
+| rs2      = 0.3
+| viewers2 = 0.854<ref name="1.02"/>
+| dvr2     = n/a
+| dvrv2    = n/a
+| total2   = n/a
+| totalv2  = n/a
+
+| title3   = [[#ep3|Remember the Cant]]
+| date3    = December 22, 2015
+| rs3      = 0.2
+| viewers3 = 0.676<ref name="1.03"/>
+| dvr3     = n/a
+| dvrv3    = n/a
+| total3   = n/a
+| totalv3  = n/a
+
+| title4   = [[#ep4|CQB]]
+| date4    = December 29, 2015
+| rs4      = 0.2
+| viewers4 = 0.633<ref name="1.04"/>
+| dvr4     = n/a
+| dvrv4    = n/a
+| total4   = n/a
+| totalv4  = n/a
+
+| title5   = [[#ep5|Back to the Butcher]]
+| date5    = January 5, 2016
+| rs5      = 0.2
+| viewers5 = 0.631<ref name="1.05"/>
+| dvr5     = n/a
+| dvrv5    = n/a
+| total5   = n/a
+| totalv5  = n/a
+
+| title6   = [[#ep6|Rock Bottom]]
+| date6    = January 12, 2016
+| rs6      = 0.2
+| viewers6 = 0.713<ref name="1.06"/>
+| dvr6     = 0.3
+| dvrv6    = 0.759
+| total6   = 0.5
+| totalv6  = 1.472<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2016/01/24/cable-live-3-ratings-jan-11-17-ahs-hotel-finale-more-than-doubles/ |archive-url=https://web.archive.org/web/20160125091332/http://tvbythenumbers.zap2it.com/2016/01/24/cable-live-3-ratings-jan-11-17-ahs-hotel-finale-more-than-doubles/ |url-status=dead |archive-date=January 25, 2016 |title=Cable Live +3 ratings, Jan. 11–17: 'AHS: Hotel' finale more than doubles |last=Porter |first=Rick |date=January 24, 2016 |work=[[TV by the Numbers]] |access-date=January 24, 2016}}</ref>{{efn|name=ratings}}
+
+| title7   = [[#ep7|Windmills]]
+| date7    = January 19, 2016
+| rs7      = 0.2
+| viewers7 = 0.502<ref name="1.07"/>
+| dvr7     = n/a
+| dvrv7    = 0.688
+| total7   = n/a
+| totalv7  = 1.190<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2016/01/30/cable-live-3-ratings-jan-18-24-2016/ |archive-url=https://web.archive.org/web/20160131082305/http://tvbythenumbers.zap2it.com/2016/01/30/cable-live-3-ratings-jan-18-24-2016/ |url-status=dead |archive-date=January 31, 2016 |title=Cable Live +3 ratings, Jan. 18–24: 'Gold Rush' moves ahead of 'Love and Hip Hop' |last=Porter |first=Rick |date=January 30, 2016 |work=[[TV by the Numbers]] |access-date=January 30, 2016}}</ref>{{efn|name=ratings|Live +7 ratings were not available, so Live +3 ratings have been used instead.}}
+
+| title8   = [[#ep8|Salvage]]
+| date8    = January 26, 2016
+| rs8      = 0.3
+| viewers8 = 0.721<ref name="1.08"/>
+| dvr8     = n/a
+| dvrv8    = n/a
+| total8   = n/a
+| totalv8  = n/a
+
+| title9   = [[#ep9|Critical Mass]]
+| date9    = February 2, 2016
+| rs9      = 0.2
+| viewers9 = 0.555<ref name="S1Finale"/>
+| dvr9     = 0.3
+| dvrv9    = 0.878
+| total9   = 0.5
+| totalv9  = 1.433<ref name="S1FinaleDVR"/>
+
+| title10   = [[#ep10|Leviathan Wakes]]
+| date10    = February 2, 2016
+| rs10      = 0.2
+| viewers10 = 0.555<ref name="S1Finale"/>
+| dvr10     = 0.3
+| dvrv10    = 0.878
+| total10   = 0.5
+| totalv10  = 1.433<ref name="S1FinaleDVR">{{cite web |url=http://tvbythenumbers.zap2it.com/2016/02/22/cable-live-7-ratings-feb-1-7-2016/ |archive-url=https://web.archive.org/web/20160224003501/http://tvbythenumbers.zap2it.com/2016/02/22/cable-live-7-ratings-feb-1-7-2016/ |url-status=dead |archive-date=February 24, 2016 |title=Cable Live +7 ratings: 'The People v. O.J. Simpson' premiere leads for Feb. 1-7 |last=Porter |first=Rick |date=February 22, 2016 |work=TV by the Numbers |access-date=February 22, 2016}}</ref>
+}}
+
+{{notelist}}
+
+===Season 2===
+{{Television episode ratings
+| noshare   = y
+| title1   = [[#ep11|Safe]]
+| date1    = February 1, 2017
+| rs1      = 0.3
+| viewers1 = 0.700<ref name="S2Premiere"/>
+| dvr1     = n/a
+| dvrv1    = 0.907
+| total1   = n/a
+| totalv1  = 1.607<ref name="S2PremiereDVR"/>
+
+| title2   = [[#ep12|Doors & Corners]]
+| date2    = February 1, 2017
+| rs2      = 0.3
+| viewers2 = 0.700<ref name="S2Premiere"/>
+| dvr2     = n/a
+| dvrv2    = 0.907
+| total2   = n/a
+| totalv2  = 1.607<ref name="S2PremiereDVR">{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/taboo-puts-up-more-big-gains-in-cable-live-7-ratings-for-jan-30-feb-5/ |archive-url=https://web.archive.org/web/20170216022941/http://tvbythenumbers.zap2it.com/dvr-ratings/taboo-puts-up-more-big-gains-in-cable-live-7-ratings-for-jan-30-feb-5/ |url-status=dead |archive-date=February 16, 2017 |title='Taboo' puts up more big gains in cable Live +7 ratings for Jan. 30-Feb. 5 |last=Porter |first=Rick |date=February 15, 2017 |work=TV by the Numbers |access-date=February 15, 2017}}</ref>
+
+| title3   = [[#ep13|Static]]
+| date3    = February 8, 2017
+| rs3      = 0.2
+| viewers3 = 0.587<ref name="2.03"/>
+| dvr3     = 0.2
+| dvrv3    = 0.610
+| total3   = 0.4
+| totalv3  = 1.197<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-feb-6-12-2017/ |archive-url=https://web.archive.org/web/20170224053208/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-feb-6-12-2017/ |url-status=dead |archive-date=February 24, 2017 |title='Legion' premiere scores strong gains in cable Live +7 ratings for Feb. 6-12 |last=Porter |first=Rick |date=February 23, 2017 |work=TV by the Numbers |access-date=February 23, 2017}}</ref>
+
+| title4   = [[#ep14|Godspeed]]
+| date4    = February 15, 2017
+| rs4      = 0.1
+| viewers4 = 0.534<ref name="2.04"/>
+| dvr4     = 0.3
+| dvrv4    = 0.694
+| total4   = 0.4
+| totalv4  = 1.229<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/taboo-triples-in-adults-18-49-cable-live-7-ratings-for-feb-13-19/ |archive-url=https://web.archive.org/web/20170303033731/http://tvbythenumbers.zap2it.com/dvr-ratings/taboo-triples-in-adults-18-49-cable-live-7-ratings-for-feb-13-19/ |url-status=dead |archive-date=March 3, 2017 |title='Taboo' triples in adults 18-49: Cable Live +7 ratings for Feb. 13-19 |last=Porter |first=Rick |date=March 2, 2017 |work=TV by the Numbers |access-date=March 2, 2017}}</ref>
+
+| title5   = [[#ep15|Home]]
+| date5    = February 22, 2017
+| rs5      = 0.2
+| viewers5 = 0.600<ref name="2.05"/>
+| dvr5     = 0.3
+| dvrv5    = 0.640
+| total5   = 0.5
+| totalv5  = 1.241<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-feb-20-26-2017/ |archive-url=https://web.archive.org/web/20170310011804/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-feb-20-26-2017/ |url-status=dead |archive-date=March 10, 2017 |title='The Walking Dead' makes its lead even bigger in cable Live +7 ratings for Feb. 20-26 |last=Porter |first=Rick |date=March 9, 2017 |work=TV by the Numbers |access-date=March 9, 2017}}</ref>
+
+| title6   = [[#ep16|Paradigm Shift]]
+| date6    = March 1, 2017
+| rs6      = 0.2
+| viewers6 = 0.625<ref name="2.06"/>
+| dvr6     = n/a
+| dvrv6    = n/a
+| total6   = n/a
+| totalv6  = n/a
+
+| title7   = [[#ep17|The Seventh Man]]
+| date7    = March 8, 2017
+| rs7      = 0.1
+| viewers7 = 0.451<ref name="2.07"/>
+| dvr7     = 0.3
+| dvrv7    = 0.583
+| total7   = 0.4
+| totalv7  = 1.035<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-6-12-2017/ |archive-url=https://web.archive.org/web/20170325005350/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-6-12-2017/ |url-status=dead |archive-date=March 25, 2017 |title='The Americans' premiere triples in cable Live +7 ratings for March 6–12 |last=Porter |first=Rick |date=March 24, 2017 |work=TV by the Numbers |access-date=March 24, 2017}}</ref>
+
+| title8   = [[#ep18|Pyre]]
+| date8    = March 15, 2017
+| rs8      = 0.1
+| viewers8 = 0.460<ref name="2.08"/>
+| dvr8     = 0.2
+| dvrv8    = 0.552
+| total8   = 0.3
+| totalv8  = 1.012<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-13-19-2017/ |archive-url=https://web.archive.org/web/20170331002155/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-13-19-2017/ |url-status=dead |archive-date=March 31, 2017 |title='The Walking Dead' makes up for losses in cable Live +7 ratings for March 13–19 |last=Porter |first=Rick |date=March 30, 2017 |work=TV by the Numbers |access-date=March 30, 2017}}</ref>
+
+| title9   = [[#ep19|The Weeping Somnambulist]]
+| date9    = March 22, 2017
+| rs9      = 0.1
+| viewers9 = 0.471<ref name="2.09"/>
+| dvr9     = 0.2
+| dvrv9    = 0.628
+| total9   = 0.3
+| totalv9  = 1.099<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-20-26-2017/ |archive-url=https://web.archive.org/web/20170407034956/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-20-26-2017/ |url-status=dead |archive-date=April 7, 2017 |title='Major Crimes' makes major gains in cable Live +7 ratings for March 20–26 |last=Porter |first=Rick |date=April 6, 2017 |work=TV by the Numbers |access-date=April 6, 2017}}</ref>
+
+| title10   = [[#ep20|Cascade]]
+| date10    = March 29, 2017
+| rs10      = 0.2
+| viewers10 = 0.573<ref name="2.10"/>
+| dvr10     = 0.2
+| dvrv10    = 0.677
+| total10   = 0.4
+| totalv10  = 1.250<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-27-april-2-2017/ |archive-url=https://web.archive.org/web/20170414081041/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-march-27-april-2-2017/ |url-status=dead |archive-date=April 14, 2017 |title='Underground' makes a big leap in cable Live +7 ratings for March 27-April 2 |last=Porter |first=Rick |date=April 13, 2017 |work=TV by the Numbers |access-date=April 13, 2017}}</ref>
+
+| title11   = [[#ep21|Here There Be Dragons]]
+| date11    = April 5, 2017
+| rs11      = 0.2
+| viewers11 = 0.504<ref name="2.11"/>
+| dvr11     = 0.2
+| dvrv11    = 0.541
+| total11   = 0.4
+| totalv11  = 1.045<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-3-9-2017/ |archive-url=https://web.archive.org/web/20170421193530/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-3-9-2017/ |url-status=dead |archive-date=April 21, 2017 |title='Archer' premiere doubles in cable Live +7 ratings for April 3–9 |last=Porter |first=Rick |date=April 20, 2017 |work=TV by the Numbers |access-date=April 20, 2017}}</ref>
+
+| title12   = [[#ep22|The Monster and the Rocket]]
+| date12    = April 12, 2017
+| rs12      = 0.2
+| viewers12 = 0.515<ref name="2.12"/>
+| dvr12     = n/a
+| dvrv12    = 0.565
+| total12   = n/a
+| totalv12  = 1.080<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-10-16-2017/ |archive-url=https://web.archive.org/web/20170427041410/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-10-16-2017/ |url-status=dead |archive-date=April 27, 2017 |title='Better Call Saul' makes big gains in cable Live +7 ratings for April 10–16 |last=Porter |first=Rick |date=April 26, 2017 |work=TV by the Numbers |access-date=April 26, 2017}}</ref>
+
+| title13   = [[#ep23|Caliban's War]]
+| date13    = April 19, 2017
+| rs13      = 0.2
+| viewers13 = 0.581<ref name="2.13"/>
+| dvr13     = n/a
+| dvrv13    = 0.579
+| total13   = n/a
+| totalv13  = 1.161<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-17-23-2017/ |archive-url=https://web.archive.org/web/20170505122209/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-17-23-2017/ |url-status=dead |archive-date=May 5, 2017 |title='Fargo' premiere makes solid gains in cable Live +7 ratings for April 17–23 |last=Porter |first=Rick |date=May 4, 2017 |work=TV by the Numbers |access-date=May 4, 2017}}</ref>
+}}
+
+===Season 3===
+{{Television episode ratings
+| noshare   = y
+| title1   = [[#ep24|Fight or Flight]]
+| date1    = April 11, 2018
+| rs1      = 0.2
+| viewers1 = 0.653<ref name="3.01"/>
+| dvr1     = 0.2
+| dvrv1    = 0.603
+| total1   = 0.4
+| totalv1  = 1.257<ref>{{cite web|url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-9-15-2018/|archive-url=https://web.archive.org/web/20180426233936/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-9-15-2018/|url-status=dead|archive-date=April 26, 2018|title='The Last O.G.' scores for TBS in cable Live +7 ratings for April 9–15|last=Porter|first=Rick|date=April 26, 2018|work=TV by the Numbers|access-date=April 26, 2018}}</ref>
+
+| title2   = [[#ep25|IFF]]
+| date2    = April 18, 2018
+| rs2      = 0.2
+| viewers2 = 0.500<ref name="3.02"/>
+| dvr2     = n/a
+| dvrv2    = n/a
+| total2   = n/a
+| totalv2  = n/a
+
+| title3   = [[#ep26|Assured Destruction]]
+| date3    = April 25, 2018
+| rs3      = 0.2
+| viewers3 = 0.553<ref name="3.03"/>
+| dvr3     = 0.2
+| dvrv3    = 0.574
+| total3   = 0.4
+| totalv3  = 1.128<ref>{{cite web|url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-23-29-2018/|archive-url=https://web.archive.org/web/20180511013101/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-april-23-29-2018/|url-status=dead|archive-date=May 11, 2018|title='Suits' finale gets solid bump in cable Live +7 ratings for April 23–29|last=Porter|first=Rick|date=May 10, 2018|work=TV by the Numbers|access-date=May 10, 2018}}</ref>
+
+| title4   = [[#ep27|Reload]]
+| date4    = May 2, 2018
+| rs4      = 0.2
+| viewers4 = 0.590<ref name="3.04"/>
+| dvr4     = n/a
+| dvrv4    = n/a
+| total4   = n/a
+| totalv4  = n/a
+
+| title5   = [[#ep28|Triple Point]]
+| date5    = May 9, 2018
+| rs5      = 0.2
+| viewers5 = 0.555<ref name="3.05"/>
+| dvr5     = n/a
+| dvrv5    = 0.555
+| total5   = n/a
+| totalv5  = 1.111<ref>{{cite web|url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-may-7-13-2018/|archive-url=https://web.archive.org/web/20180525001652/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-may-7-13-2018/|url-status=dead|archive-date=May 25, 2018|title='Atlanta' finale gets a good boost in cable Live +7 ratings for May 7–13|last=Porter|first=Rick|date=May 24, 2018|work=TV by the Numbers|access-date=May 24, 2018}}</ref>
+
+| title6   = [[#ep29|Immolation]]
+| date6    = May 16, 2018
+| rs6      = 0.2
+| viewers6 = 0.609<ref name="3.06"/>
+| dvr6     = n/a
+| dvrv6    = n/a
+| total6   = n/a
+| totalv6  = n/a
+
+| title7   = [[#ep30|Delta-V]]
+| date7    = May 23, 2018
+| rs7      = 0.2
+| viewers7 = 0.625<ref name="3.07"/>
+| dvr7     = 0.2
+| dvrv7    = 0.553
+| total7   = 0.4
+| totalv7  = 1.179<ref>{{cite web|url=http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-may-21-27-2018/|archive-url=https://web.archive.org/web/20180610114756/http://tvbythenumbers.zap2it.com/dvr-ratings/cable-live-7-ratings-for-may-21-27-2018/|url-status=dead|archive-date=June 10, 2018|title='Krypton' finale gets a big bump in cable Live +7 ratings for May 21–27|last=Porter|first=Rick|date=June 7, 2018|work=TV by the Numbers|access-date=June 7, 2018}}</ref>
+
+| title8   = [[#ep31|It Reaches Out]]
+| date8    = May 30, 2018
+| rs8      = 0.2
+| viewers8 = 0.609<ref name="3.08"/>
+| dvr8     = n/a
+| dvrv8    = n/a
+| total8   = n/a
+| totalv8  = n/a
+
+| title9   = [[#ep32|Intransigence]]
+| date9    = June 6, 2018
+| rs9      = 0.2
+| viewers9 = 0.568<ref name="3.09"/>
+| dvr9     = 0.2
+| dvrv9    = 0.629
+| total9   = 0.4
+| totalv9  = 1.197<ref>{{cite web|url=http://tvbythenumbers.zap2it.com/dvr-ratings/cloak-dagger-premiere-makes-good-gains-in-cable-live-7-ratings-for-june-4-10/|archive-url=https://web.archive.org/web/20180622005145/http://tvbythenumbers.zap2it.com/dvr-ratings/cloak-dagger-premiere-makes-good-gains-in-cable-live-7-ratings-for-june-4-10/|url-status=dead|archive-date=June 22, 2018|title='Cloak & Dagger' premiere makes good gains in cable Live +7 ratings for June 4–10|last=Porter|first=Rick|date=June 21, 2018|work=TV by the Numbers|access-date=June 21, 2018}}</ref>
+
+| title10   = [[#ep33|Dandelion Sky]]
+| date10    = June 13, 2018
+| rs10      = 0.2
+| viewers10 = 0.615<ref name="3.10"/>
+| dvr10     = n/a
+| dvrv10    = n/a
+| total10   = n/a
+| totalv10  = n/a
+
+| title11   = [[#ep34|Fallen World]]
+| date11    = June 20, 2018
+| rs11      = 0.2
+| viewers11 = 0.670<ref name="3.11"/>
+| dvr11     = n/a
+| dvrv11    = n/a
+| total11   = n/a
+| totalv11  = n/a
+
+| title12   = [[#ep35|Congregation]]
+| date12    = June 27, 2018
+| rs12      = 0.2
+| viewers12 = 0.730<ref name="S3Finale"/>
+| dvr12     = n/a
+| dvrv12    = n/a
+| total12   = n/a
+| totalv12  = n/a
+
+| title13   = [[#ep36|Abaddon's Gate]]
+| date13    = June 27, 2018
+| rs13      = 0.1
+| viewers13 = 0.606<ref name="S3Finale"/>
+| dvr13     = n/a
+| dvrv13    = n/a
+| total13   = n/a
+| totalv13  = n/a
+}}
+
+==References==
+{{Reflist}}
+
+==External links==
+* {{Official website|https://www.syfy.com/the-expanse|''The Expanse''}} on [[Syfy]]
+* [https://www.amazon.com/dp/B08MMJTJSH ''The Expanse''] on [[Amazon Prime Video]]
+* {{IMDb episodes|3230854|The Expanse}}
+
+{{The Expanse}}
+
+{{DEFAULTSORT:Expanse episodes, List of The}}
+[[Category:The Expanse|Episodes]]
+[[Category:Lists of American science fiction television series episodes|Expanse]]

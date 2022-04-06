@@ -1,0 +1,136 @@
+The Standard and Poor's 500, or simply the S&P 500, is a stock market index tracking the performance of 500 large companies listed on stock exchanges in the United States. It is one of the most commonly followed equity indices. As of December 31, 2020, more than $5.4 trillion was invested in assets tied to the performance of the index.
+
+The S&P 500 index is a free-float weighted/capitalization-weighted index. As of September 30, 2021, the nine largest companies on the list of S&P 500 companies accounted for 28.1% of the market capitalization of the index and were, in order of weighting, Apple, Microsoft, Alphabet (including both class A & C shares), Amazon.com, Meta Platforms, Tesla, Nvidia, Berkshire Hathaway and JPMorgan Chase. The components that have increased their dividends in 25 consecutive years are known as the S&P 500 Dividend Aristocrats.
+
+In 2017, companies in the index derived on average 72% of their revenue in the United States.
+
+The index is one of the factors in computation of the Conference Board Leading Economic Index, used to forecast the direction of the economy.
+
+The index is associated with many ticker symbols, including ^GSPC, INX, and $SPX, depending on market or website.
+
+The S&P 500 is maintained by S&P Dow Jones Indices, a joint venture majority-owned by S&P Global, and its components are selected by a committee.
+
+==Investing in the S&P 500==
+Mutual and exchange-traded funds
+Index funds, including mutual funds and exchange-traded funds (ETFs), can replicate, before fees and expenses, the performance of the index by holding the same stocks as the index in the same proportions. ETFs that replicate the performance of the index are issued by The Vanguard Group (NYSE Arca VOO), iShares (NYSE Arca IVV), and State Street Corporation (NYSE Arca SPY), and the most liquid based on average daily volume is currently (NYSE Arca SPY), although SPY has a slightly higher expense ratio of 0.09% compared to just 0.03% for VOO and IVV. Mutual funds that track the index are offered by Fidelity Investments, T. Rowe Price, and Charles Schwab Corporation.
+
+Direxion offers leveraged ETFs that attempt to produce three times the daily result of either investing in (NYSE Arca SPXL) or shorting (NYSE Arca SPXS) the S&P 500 index.
+
+Derivatives
+In the derivatives market, the Chicago Mercantile Exchange (CME) offers futures contracts that track the index and trade on the exchange floor in an open outcry auction, or on CME's Globex platform, and are the exchange's most popular product. Ticker symbols are:
+* /SP for the full-sized contract 
+* /ES for the E-mini S&P contract that is one fifth the size of /SP
+* /MES for the Micro E-mini futures contract that is one tenth the size of the S&P E-mini contract, i.e. 1/50 the size of the full-sized (SP) contract
+
+The Chicago Board Options Exchange (CBOE) offers options on the S&P 500 index as well as on S&P 500 index ETFs, inverse ETFs, and leveraged ETFs.
+
+==History==
+In 1860, Henry Varnum Poor formed Poor's Publishing, which published an investor's guide to the railroad industry.
+
+In 1923, Standard Statistics Company (founded in 1906 as the Standard Statistics Bureau) began rating mortgage bonds and developed its first stock market index consisting of the stocks of 233 U.S. companies, computed weekly.
+
+In 1926, it developed a 90-stock index, computed daily.
+
+In 1941, Poor's Publishing merged with Standard Statistics Company to form Standard & Poor's.
+
+On Monday, March 4, 1957, the index was expanded to its current 500 companies and was renamed the S&P 500 Stock Composite Index.
+
+In 1962, Ultronic Systems became the compiler of the S&P indices including the S&P 500 Stock Composite Index, the 425 Stock Industrial Index, the 50 Stock Utility Index, and the 25 Stock Rail Index.
+
+On August 31, 1976, The Vanguard Group offered the first mutual fund to retail investors that tracked the index.
+
+On April 21, 1982, the Chicago Mercantile Exchange began trading futures based on the index.
+
+On July 1, 1983, Chicago Board Options Exchange began trading options based on the index.
+
+Beginning in 1986, the index value was updated every 15 seconds, or 1,559 times per trading day, with price updates disseminated by Reuters.
+
+On January 22, 1993, the Standard & Poor's Depositary Receipts exchange-traded fund issued by State Street Corporation began trading.
+
+On September 9, 1997, CME Group introduced the S&P E-mini futures contract.
+
+In 2005, the index transitioned to a public float-adjusted capitalization-weighting.
+
+Friday September 17, 2021 final trading date for the original SP big contract which began trading in 1982 
+
+==Selection criteria==
+Like other indices managed by S&P Dow Jones Indices, but unlike indices such as the Russell 1000 Index which are strictly rule-based, the components of the S&P 500 index are selected by a committee.  When considering the eligibility of a new addition, the committee assesses the company's merit using eight primary criteria: market capitalization, liquidity, domicile, public float, Global Industry Classification Standard and representation of the industries in the economy of the United States, financial viability, length of time publicly traded, and stock exchange. Over the past few years, there has been a decline in the number of S&P 500 companies with classified boards. Requirements to be added to the index include:
+# Market capitalization must be greater than or equal to US$14.6 billion
+# Annual dollar value traded to float-adjusted market capitalization is greater than 1.0
+# Minimum monthly trading volume of 250,000 shares in each of the six months leading up to the evaluation date
+# Must be publicly listed on either the New York Stock Exchange (including NYSE Arca or NYSE American) or NASDAQ (NASDAQ Global Select Market, NASDAQ Select Market or the NASDAQ Capital Market).
+# The company should be from the U.S.
+# Securities that are ineligible for inclusion in the index are limited partnerships, master limited partnerships and their investment trust units, OTC Bulletin Board issues, closed-end funds, exchange-traded funds, Exchange-traded notes, royalty trusts, tracking stocks, preferred stock, unit trusts, equity warrants, convertible bonds, investment trusts, American depositary receipts, and American depositary shares.
+# Since 2017, companies with dual share classes are not added to the index.
+
+The market cap eligibility criteria are for addition to an index, not for continued membership. As a result, an index constituent that appears to violate criteria for addition to that index is not removed unless ongoing conditions warrant an index change.
+
+A stock may rise in value when it is added to the index since index funds must purchase that stock to continue tracking the index.
+
+In October 2021, Bloomberg News reported that a study alleged that some companies purchase ratings from S&P Global to increase their chances of entering the S&P 500 Index—even without meeting the full criteria for inclusion.
+
+==Index value calculation==
+The index is a free-float capitalization-weighted index; that is, companies are weighted in the index in proportion to their market capitalizations. For purposes of determining the market capitalization of a company for weighting in the index, only the number of shares available for public trading ("public float") is used; shares held by insiders or controlling shareholders that are not publicly traded are excluded from the calculation.
+
+The formula to calculate the S&P 500 index value is
+
+where P_i is the price of the i-th stock in the index, Q_i is the corresponding number of shares publicly available ("float") for that stock, and Divisor is a normalization factor.
+
+The Divisor, currently below 8.3 billion, is a number that is adjusted to keep the value of the index consistent despite corporate actions that affect market capitalization and would otherwise affect the calculation formula, such as additional share issuance, share buybacks, special dividends, constituent changes, rights offerings, and corporate spin-offs. Stock splits do not affect the divisor since they do not affect market capitalization. When a company is dropped and replaced by another with a different market capitalization, the divisor needs to be adjusted in such a way that the value of the S&P 500 index remains constant. All divisor adjustments are made after the close of trading and after the calculation of the closing value of the S&P 500 index.
+
+==Performance==
+
+The average annual total return and compound annual growth rate of the index, including dividends, since inception in 1926 has been approximately 9.8% (6% after inflation), and the annual standard deviation of the return over the same time period is 20.81%; however, there were several years where the index declined over 30%. The index has posted annual increases 70% of the time. However, the index has made new highs on only 5% of trading days, meaning that on 95% of trading days, the index has closed below its all-time high.
+
+Price history & milestones
+
+On August 12, 1982, the index closed at 102.42.
+
+On Black Monday (1987), the index realized its worst daily percentage loss, falling 20.47% in a single day.
+
+In October 1996, the index closed above 700.
+
+On February 12, 1997, the index closed above 800 for the first time.
+
+On February 2, 1998, the index closed above 1,000 for the first time.
+
+On March 24, 2000, at the peak of the dot-com bubble, the index reached an intraday high of 1,552.87; this high was not exceeded until May 30, 2007. On October 10, 2002, during the stock market downturn of 2002, the index fell to 768.83, a decline of approximately 50% from its high in March 2000.
+
+On May 30, 2007, the index closed at 1,530.23, setting its first all-time closing high in more than 7 years. The index achieved a new all-time intraday high on October 11, 2007, at 1,576.09.
+
+Between the bankruptcy of Lehman Brothers on September 15, 2008, and the end of 2008, the index closed either up or down 3% in one day 29 times. On October 13, 2008, the index closed up 11.6%, its best single-day percentage gain since being founded in 1957.
+
+On November 20, 2008, the index closed at 752.44, its lowest since early 1997.
+
+The index ended 2008 at 903.25, a yearly loss of 38.5%. The index continued to decline in early 2009, closing at 676.53 on March 9, 2009, its lowest close in 13 years. The drawdown from the high in October 2007 to the low in March 2009 was 56.8%, the largest since World War II.
+
+At the trough of the United States bear market of 2007–2009, on March 6, 2009, the index was at 666. By March 23, 2009, the index had risen 20% from its low, closing at 822.92.
+
+The index closed 2009 at 1,115.10, the second-best year of the decade.
+
+On April 14, 2010, the index closed at 1,210.65, its first close above 1,200 since the financial crisis of 2007–2008. By July 2, 2010, it had fallen to 1,022.58, its lowest point of the year.
+
+On April 29, 2011, the index closed at a post-crisis high of 1,363.61. However, after the August 2011 stock markets fall, on October 4, 2011, the index briefly broke below 1,100.
+
+The index rose 13% in 2012 despite significant volatility amid electoral and fiscal uncertainty and round 3 of quantitative easing. On December 31, 2012, the index closed at 1,426.19, an annual gain of 13% and its biggest gain in 3 years.
+
+On March 28, 2013, the index surpassed its closing high of 1,565.15, recovering all its losses from the Great Recession. On April 10, 2013, it closed above the intraday high from 2007.
+
+On August 26, 2014, the index closed above 2,000 for the first time.
+
+On March 2, 2015, the index reached an all-time closing high, while the Nasdaq Composite closed above 5,000 for the first time since 2000.
+
+After the 2015–2016 Chinese stock market turbulence, a period of over a year with no new record highs ended on July 11, 2016, with the index closing at 2,137.16.
+
+In June 2017, the index posted the largest weekly rise since the 2016 United States presidential election.
+
+For the full year 2017, the index was up 19.4%, its best year since 2013. On September 25, 2017, the index closed above 2,500 for the first time.
+
+The index rose sharply in January 2018, extending one of its longest monthly winning streaks, only to fall 4% in February 2018 during a month of extremely high volatility, including a day in which the VIX doubled. It was the first monthly decline in 11 months. In the third quarter of 2018, the index posted its best quarter since 2013. However, the index fell 11% in the month of December 2018, its worst December performance since the Great Depression. The index fell 6% in 2018, its worst year in a decade.
+
+However, in 2019, the index posted its best first half in 22 years including the best June since 1938. On July 10, 2019, the index reached 3,000 for the first time. The index rose 31.5% in 2019, one of its best years.
+
+On February 19, 2020, the index hit a new closing peak of 3,386.15; however, it fell 10% in the next six trading days, its fastest drop from a new peak as a result of the onset of the COVID-19 pandemic and COVID-19 recession. On March 23, 2020, at the trough of the 2020 stock market crash, the index had fallen 34% from its peak. Overall, the index fell 20% during the first quarter of 2020, its worst quarter since 2008. However, this was followed by a 20% gain in the second quarter, its biggest quarterly gain since 1998. The index reached a new record high on August 18, 2020. In the following months the index reached several all-time highs. On April 1, 2021, the index closed above 4,000 for the first time.
+
+Returns by year
+Returns are generally quoted as price returns (excluding returns from dividends). However, they can also be quoted as total return, which include returns from dividends and the reinvestment thereof, and "net total return", which reflects the effects of dividend reinvestment after the deduction of withholding tax.

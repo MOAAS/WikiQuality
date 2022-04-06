@@ -1,0 +1,477 @@
+{{short description|Extinct genus of shark}}
+{{automatic taxobox
+|fossil_range = [[Albian]]-[[Campanian]], {{Geological range|107.59|73.2|earliest=70.44|ref=<ref name= ShimadaStrat>{{Cite journal|author=Kenshu Shimada|title=Stratigraphic Record of the Late Cretaceous Lamniform Shark, ''Cretoxyrhina mantelli'' (Agassiz), in Kansas|year=1997|journal=[[Transactions of the Kansas Academy of Science]]|volume=100|issue=3/4|pages=139–149|jstor=3628002|doi=10.2307/3628002}}</ref><ref name=SiversonandLindgren>{{Cite journal|author=Mikael Siverson and Johan Lindgren|title=Late Cretaceous sharks Cretoxyrhina and Cardabiodon from Montana, USA|url=https://app.pan.pl/archive/published/app50/app50-301.pdf|year=2005|journal=[[Acta Palaeontologica Polonica]]|access-date=2018-11-24|archive-url=https://web.archive.org/web/20170809150759/http://app.pan.pl/archive/published/app50/app50-301.pdf|archive-date=2017-08-09|url-status=live}}</ref><ref name = Ward2009>{{cite book|author=David Ward|title= Fossils of the Gault Clay&nbsp;– Sharks and Rays|publisher=The [[Paleontological Association]]|pages=279–299|url=https://www.researchgate.net/publication/280316422|year=2009}}</ref><ref name=GeologicTime>{{cite book|author=J.G. Ogg and L.A. Hinnov|title=The Geologic Time Scale|chapter=Cretaceous|year=2012|pages=793–853|journal=The Geologic Time Scale 2012|doi=10.1016/B978-0-444-59425-9.00027-5|isbn=9780444594259}}</ref><ref name = Cooketal2017>{{cite journal|author=Todd Cook, Eric Brown, Patricia E. Ralrick, and Takuya Konish.|title=A late Campanian euselachian assemblage from the Bearpaw Formation of Alberta, Canada: some notable range extensions|year=2017|journal=Canadian Journal of Earth Sciences|volume=54|issue=9|pages=973–980|doi=10.1139/cjes-2016-0233|hdl=1807/77762|bibcode=2017CaJES..54..973C|hdl-access=free}}</ref><ref name=Larsonetal>{{cite journal|author=Derek William Larson, Donald B. Brinkman, and Phil R. Bell|title=Faunal assemblages from the upper Horseshoe Canyon Formation, an early Maastrichtian cool-climate assemblage from Alberta, with special reference to the Albertosaurus sarcophagus bonebed|year=2010|volume=47|issue=9|pages=1159–1181|doi=10.1139/E10-005|journal=[[Canadian Journal of Earth Sciences]]|bibcode=2010CaJES..47.1159L}}</ref>}}
+|image = Zahn eines Cretoxyrhina mantelli.JPG
+|image_caption =''Cretoxyrhina mantelli'' tooth from New Jersey, USA; [[Naturhistorisches Museum (Vienna)]]
+| parent_authority = Glückman, 1958
+|taxon = Cretoxyrhina
+|authority = Glückman, 1958
+| subdivision_ranks = Other [[species]]
+| subdivision =
+* {{extinct}}'''''C. denticulata''''' <small>Glückman, 1957</small>
+* {{extinct}}'''''C. vraconensis''''' <small>Zhelezko, 2000</small>
+* {{extinct}}'''''C. agassizensis''''' <small>Underwood & Cumbaa, 2010</small>
+ | type_species = {{extinct}}'''''Cretoxyrhina mantelli'''''
+ | type_species_authority = [[Louis Agassiz|Agassiz]], 1835
+|synonyms =
+
+{{collapsible list|title=List of synonyms|
+{{collapsible list|title=Genus ''[[Squalus]]''|
+* ''Squalus mustelus'' <small>[[Gideon Mantell|Mantell]], 1822</small>
+* ''Squalus zygaena'' <small>[[Gideon Mantell|Mantell]], 1822</small>
+* ''Squalus acaule'' <small>Nilsson, 1827</small>
+}}
+{{collapsible list|title=Genus ''[[Lamna]]''|
+* ''Lamna mantellii'' <small>[[Louis Agassiz|Agassiz]], 1835</small>
+* ''Lamna acuminata'' <small>[[Louis Agassiz|Agassiz]], 1838</small>
+* ''Lamna cornubica'' <small>Schimdt, 1846</small>
+* ''Lamna petricoriensis'' <small>Coquand, 1860</small>
+* ''Lamna (Sphenodus) longidens'' <small>[[Louis Agassiz|Agassiz]], 1876</small>
+}}
+{{collapsible list|title=Genus ''Oxyrhina''|
+* ''Oxyrhina mantellii'' <small>[[Louis Agassiz|Agassiz]], 1838</small>
+* ''Oxyrhina subinflata'' <small>[[Louis Agassiz|Agassiz]], 1876</small>
+* ''Oxyrhina extenta'' <small>[[Joseph Leidy|Leidy]], 1873</small>
+}}
+{{collapsible list|title=Genus ''[[Otodus]]''|
+* ''Otodus appendiculatus'' <small>[[Louis Agassiz|Agassiz]], 1838</small>
+* ''Otodus oxyrhinoides'' <small>Sauvage, 1872</small>
+}}
+{{collapsible list|title=Genus ''[[Isurus]]''|
+* ''Isurus mantelli'' <small>[[Louis Agassiz|Agassiz]], 1843</small>
+* ''Isurus denticulatus'' <small>Glückman, 1957</small>
+}}
+{{collapsible list|title=Genus ''Pseudoisurus''|
+* ''Pseudoisurus mantelli'' <small>Zhelezko, 2000</small>
+* ''Pseudoisurus vraconensis'' <small>Zhelezko, 2000</small>
+}}
+{{collapsible list|title=Genus ''Telodontaspis''|
+* ''Telodontaspis agassizensis'' <small>Underwood & Cumbaa, 2010</small>
+* 
+}}
+}}
+|synonyms_ref=<ref name=Eastman1894>{{cite journal|author= Charles R. Eastman|title=Beiträge zur Kenntniss der Gattung Oxyrhina: mit besonderer Berücksichtigung von Oxyrhina mantelli Agassiz|publisher= E. Schweizerbart'sche Verlagsbuchhandlung|trans-title=Contributions to the knowledge of the genus ''Oxyrhina'': with special reference to ''Oxyrhina mantelli'' Agassiz
+|pages=149–191|language=de|year=1894|journal=Palaeontographica|url=https://archive.org/details/bub_gb_DogtAAAAYAAJ}}</ref><ref name=SiversonVracon>{{cite journal|author=Mikael Siverson, David John Ward, Johan Lindgren, and L. Scott Kelly|title=Mid-Cretaceous ''Cretoxyrhina'' (Elasmobranchii) from Mangyshlak, Kazakhstan and Texas, USA|url=https://www.researchgate.net/publication/262818597|year=2013|journal=[[Alcheringa (journal)|Alcheringa: An Australasian Journal of Palaeontology]]|volume=37|issue=1|pages=1–18|doi=10.1080/03115518.2012.709440|s2cid=129785545}}</ref><ref name=SternesandShimada>{{citation|author=Phillip Sternes and Kenshu Shimada|title=Caudal fin of the Late Cretaceous shark, Cretoxyrhina mantelli (Lamniformes: Cretoxyrhinidae), morphometrically compared to that of extant lamniform sharks|publisher=[[Society of Vertebrate Paleontology]]|year=2018|url=https://www.researchgate.net/publication/328494323|access-date=2018-12-05|archive-url=https://web.archive.org/web/20181205060737/https://www.researchgate.net/profile/Phillip_Sternes/publication/328494323_SVP_Poster-2018/links/5bd1227e92851cabf265bd5e/SVP-Poster-2018.pdf|archive-date=2018-12-05|url-status=live}}</ref><ref name = Newbrey>{{cite journal|author=Michael G. Newbrey, Mikael Siversson, Todd D. Cook, Allison M. Fotheringham, and Rebecca L. Sanchez|title=Vertebral Morphology, Dentition, Age, Growth, and Ecology of the Large Lamniform Shark ''Cardabiodon ricki'' |year=2013|volume=60|issue=4|pages=877–897|journal=Acta Palaeontologica Polonica|doi=10.4202/app.2012.0047 |doi-access=free}}</ref><ref name=Amalfitanoetal>{{cite journal|author1=Jacopo Amalfitano|author2=Luca Giusberti|author3=Eliana Fornaciari|author4=Fabio Marco Dalla Vicchia|author5=Valeria Luciani|author6=Jürgen Kriwet|author7=Giorgio Carnevale|title=Large deadfall of the 'ginsu' shark ''Cretoxyrhina mantelli'' (Agassiz, 1835) (Neoselachii, Lamniformes) from the Upper Cretaceous of northeastern Italy|year=2019|journal=Cretaceous Research|volume=98|issue=June 2019|pages=250–275|doi=10.1016/j.cretres.2019.02.003|url=https://ddd.uab.cat/record/215292}}</ref>
+}}
+
+'''''Cretoxyrhina''''' ({{IPAc-en|k|r|ɪ|ˌ|t|ɒ|k|s|i|ˈ|r|h|aɪ|n|ə}}; meaning 'Cretaceous sharp-nose') is an extinct [[genus]] of large [[Lamniformes|mackerel shark]] that lived about 107 to 73 million years ago during the late [[Albian]] to late [[Campanian]] of the [[Late Cretaceous]]. The [[type species]], ''C. mantelli'', is more commonly referred to as the '''Ginsu shark''', first popularized in reference to the [[Ginsu knife]], as its theoretical feeding mechanism is often compared with the "slicing and dicing" when one uses the knife. ''Cretoxyrhina'' is traditionally classified as the likely sole member of the [[Family (biology)|family]] '''Cretoxyrhinidae''' but other taxonomic placements have been proposed, such as within the [[Alopiidae]] and [[Lamnidae]].
+
+<!--If you are here to "correct" the statement that Cretoxyrhina measures up to 8 meters, please don't. 8 meters is a scientifically verified length (ref. 10).-->
+Measuring up to {{convert|8|m|ft|0|sp=us}} in length and weighing over {{convert|4944|kg|ton|sp=us}}, ''Cretoxyrhina'' was one of the largest sharks of its time. Having a similar appearance and build to the modern [[great white shark]], it was an [[apex predator]] in its ecosystem and preyed on a large variety of marine animals including [[mosasaur]]s and [[plesiosaurs]], sharks and other large fish, [[pterosaur]]s, and occasionally [[dinosaurs]]. Its teeth, up to {{convert|8|cm|in|0|sp=us}} in height, were razor-like and had thick [[Tooth enamel|enamel]] built for stabbing and slicing prey. ''Cretoxyrhina'' was also among the fastest-swimming sharks, with hydrodynamic calculations suggesting burst speed capabilities of up to {{convert|70|km/h|mi/h|sp=us}}.{{efn|name=speedcaveat}} It has been speculated that ''Cretoxyrhina'' hunted by lunging at its prey at high speeds to inflict powerful blows, similar to the great white shark today, and relied on strong eyesight to do so.
+
+Since the late 19th century, several fossils of exceptionally well-preserved skeletons of ''Cretoxyrhina'' have been discovered in Kansas. Studies have successfully calculated its life history using vertebrae from some of the skeletons. ''Cretoxyrhina'' grew rapidly during early ages and reached sexual maturity at around four to five years of age. Its lifespan has been calculated to extend to nearly forty years. Anatomical analysis of the ''Cretoxyrhina'' skeletons revealed that the shark possessed facial and optical features most similar to that in [[thresher shark]]s and [[crocodile shark]]s and had a hydrodynamic build that suggested the use of [[Endotherm#Regional endothermy|regional endothermy]].
+
+As an apex predator, ''Cretoxyrhina'' played a critical role in the marine ecosystems it inhabited. It was a [[cosmopolitan distribution|cosmopolitan]] genus and its fossils have been found worldwide, although most frequently in the [[Western Interior Seaway]] area of North America. It preferred mainly subtropical to temperate pelagic environments but was known in waters as cold as {{convert|5|C|F|sp=us}}. ''Cretoxyrhina'' saw its peak in size by the [[Coniacian]], but subsequently experienced a continuous decline until its extinction during the Campanian. One factor in this demise may have been increasing pressure from competition with predators that arose around the same time, most notably the giant mosasaur ''[[Tylosaurus]]''. Other possible factors include the gradual disappearance of the [[Western Interior Seaway]].
+
+==Taxonomy==
+===Research history===
+[[File:Oxyrhina mantelli, Oxyrhina retroflexus, and Oxyrhina xiphodon syntypes- Recherches sur les poissons fossiles (Tab. 33).jpg|thumb|left|upright=1.25|alt=Illustration of numerous English fossil shark teeth|[[Syntype]]s of ''C. mantelli'' (Fig. 1-9) and other species in the third volume of ''Recherches sur les poissons fossiles'']]
+''Cretoxyrhina'' was first [[species description|described]] by the [[England|English]] paleontologist [[Gideon Mantell]] from eight ''C. mantelli'' teeth he collected from the [[Southerham Grey Pit]] near [[Lewes]], [[East Sussex]].<ref name=Amalfitanoetal /> In his 1822 book ''The fossils of the South Downs'', he identified them as teeth pertaining to two species of locally-known modern sharks. Mantell identified the smaller teeth as from the [[common smooth-hound]] and the larger teeth as from the [[smooth hammerhead]], expressing some hesitation to the latter.<ref name=Mantell1822>{{cite book|author1=Gideon Mantell|author2=Mary Ann Mantell|title=The fossils of the South Downs; or illustrations of the geology of Sussex|url=https://archive.org/details/bub_gb_pKhAAAAAcAAJ|year=1822|publisher=Lupton Relfe|doi=10.3931/e-rara-16021}}</ref> In 1843, [[Switzerland|Swiss]] naturalist [[Louis Agassiz]] published the third volume of his book ''Recherches sur les poissons fossiles'', where he reexamined Mantell's eight teeth. Using them and another tooth from the collection of the Strasbourg Museum (whose exact location was unspecified but also came from England), he concluded that the fossils actually pertained to a single species of extinct shark that held strong dental similarities with the three species then classified in the now-invalid genus ''[[Oxyrhina]]'', ''O. hastalis'', ''O. xiphodon'', and ''O. desorii''.<ref name=Agassiz1843>{{cite book|author=Louis Agassiz|title=Recherches sur les poissons fossiles|volume=3|publisher=[[Museum of Comparative Zoology]]|language=fr|year=1833–1843|orig-year=1838|url=https://archive.org/details/recherchessurles03agas}}</ref>{{efn|These are now identified as ''Cosmopolitodus hastalis'' and ''Isurus desori'';<ref name=Hungary>{{cite journal|author=László Kocsis|title=Central Paratethyan shark fauna (Ipolytarnóc, Hungary)|year=2009|journal=Geologica Carpathica|volume=58|issue=1|pages=27–40|url=https://www.researchgate.net/publication/228346892|access-date=2018-11-24|archive-url=https://web.archive.org/web/20181125073925/https://www.researchgate.net/publication/228346892_Central_Paratethyan_shark_fauna_Ipolytarnoc_Hungary|archive-date=2018-11-25|url-status=live}}</ref> ''Oxyrhina xiphodon'' is now considered conspecific with ''Cosmopolitodus hastalis''.<ref name = Ward>{{cite journal|title=Additions to and a review of the Miocene Shark and Ray fauna of Malta.|journal=The Central Mediterranean Naturalist|volume=3|issue=3|pages=131–146|url=https://www.researchgate.net/publication/280316614}}</ref>}} Agassiz placed the species in the genus ''Oxyrhina'' but noted that the much thicker root of its teeth made enough of a difference to be a distinct species and scientifically classified the shark under the taxon ''Oxyrhina mantellii''&thinsp;{{efn|The original spelling made by Agassiz ended with -ii. Later authors dropped the extra letter, spelling it as ''mantelli''. Although this is a clear misspelling, it is maintained as the valid spelling of the species according to ICZN Article 33.4 due to its predominant usage over the original.<ref name= Cahuzacetal>{{cite journal|author=Bruno Cahuzac, Sylvain Adnet, Cappetta Henri, and Romain Vullo|title=Les espèces et genres de poissons sélaciens fossiles (Crétacé, Tertiaire) créés dans le Bassin d'Aquitaine ; recensement, taxonomie|trans-title=The fossil species and genera of Selachians fishes (Cretaceous, Tertiary) created in the Aquitaine Basin ; inventory, taxonomics|language=fr|year=2007|journal=Bulletin de la Société Linnéenne de Bordeaux|volume=142|issue=45|pages=3–43|url=https://www.researchgate.net/publication/268519702}}</ref>}} and named in honor of Mantell.<ref name=Agassiz1843 />
+
+During the late 19th century, paleontologists described numerous species that are now synonymized as ''Cretoxyrhina mantelli''. According to some, there may have been as much as almost 30 different synonyms of ''O. mantelli'' at the time.<ref name=BigShark>{{cite web|author=Mike Everhart|title=A Giant Ginsu Shark|year=2002|website=Oceans of Kansas|url=http://oceansofkansas.com/bigshark.html|access-date=2018-11-24|archive-url=https://web.archive.org/web/20181111000345/http://oceansofkansas.com/bigshark.html|archive-date=2018-11-11|url-status=live}}</ref> Most of these species were derived from teeth that represented variations of ''C. mantelli'' but deviated from the exact characteristics of the [[syntype]]s.<ref name=Eastman1894 /> For example, in 1870, [[France|French]] paleontologist Henri Sauvage identified teeth from France that greatly resembled the ''O. mantelli'' syntypes from England. The teeth also included [[Anatomical terms of location#medial and lateral|lateral]] cusplets (small enameled [[cusp (anatomy)|cusps]] that appear at the base of the tooth's main crown), which are not present in the syntypes, which led him to describe the teeth under the species name ''Otodus oxyrinoides'' based on the lateral cusplets.<ref name=Bourdon>{{cite web|author=Jim Bourdon|title=Cretoxyrhina|url=http://www.elasmo.com/frameMe.html?file=genera/cretaceous/cretoxyrhina.html&menu=bin/menu_genera-alt.html|access-date=2018-11-24|archive-url=https://web.archive.org/web/20181111004733/http://www.elasmo.com/frameMe.html?file=genera%2Fcretaceous%2Fcretoxyrhina.html&menu=bin%2Fmenu_genera-alt.html|archive-date=2018-11-11|url-status=live}}</ref> In 1873, [[United States of America|American]] paleontologist [[Joseph Leidy]] identified teeth from [[Kansas]] and [[Mississippi]] and described them under the species name ''Oxyrhina extenta''. These teeth were broader and more robust than the ''O. mantelli'' syntypes from England.<ref name=Bourdon /><ref name=Leidy>{{cite journal|author=Joseph Leidy|title= Fossil Vertebrates|journal=Contributions to the Extinct Vertebrate Fauna of the Western Territories|volume=1|pages=302–303|year=1873|url= https://books.google.com/books?id=nF9YAAAAYAAJ}}</ref>
+
+This all changed with the discoveries of some exceptionally well-preserved skeletons of the shark in the [[Niobrara Formation]] in West Kansas. [[Charles Hazelius Sternberg|Charles H. Sternberg]] discovered the first skeleton in 1890, which he described in a 1907 paper:<ref name=BigShark />
+{{Blockquote|text= The remarkable thing about this specimen is that the vertebral column, though of cartilaginous material, was almost complete, and that the large number of 250 teeth were in position. When Chas. R. Eastman, of Harvard, described this specimen, it proved so complete as to destroy nearly thirty synonyms used to name the animal, and derived from many teeth found in former times.
+|author=Charles H. Sternberg
+|title=''Some animals discovered in the fossil beds of Kansas, 1907''
+}}
+
+[[File:Hunting dinosaurs in the bad lands of the Red Deer River, Alberta, Canada; a sequel to The life of a fossil hunter (1917) (20765045131).jpg|thumb|upright=1.25|alt=Fossil hunter George F. Sternberg preparing a fossil skull of the dinosaur ''Chasmosaurus''|[[George F. Sternberg]] found many exceptionally well-preserved ''Cretoxyrhina'' skeletons including KUVP 247 and FHSM VP-2187.]]
+[[Charles R. Eastman]] published his analysis of the skeleton in 1894. In the paper, he reconstructed the dentition based on the skeleton's disarticulated tooth set. Using the reconstruction, Eastman identified the many extinct shark species and found that their fossils are actually different tooth types of ''O. mantelli'', which he all moved into the species.<ref name=Bourdon /><ref name=Eastman1894 /> This skeleton, which Sternberg had sold to the [[Ludwig Maximilian University of Munich]], was destroyed in 1944 by allied bombing during [[World War II]].<ref name=Bourdon /><ref name=BigShark /> In 1891, Sternberg's son [[George F. Sternberg]] discovered a second ''O. mantelli'' skeleton now housed in the [[University of Kansas|University of Kansas Museum of Natural History]] as KUVP 247. This skeleton was reported to measure {{convert|20|ft|m|order=flip|sp=us}} in length and consists of a partial vertebral column with skeletal remains of a ''[[Xiphactinus]]'' as stomach contents and partial jaws with about 150 teeth visible. This skeleton was considered to be one of the greatest scientific discoveries of that year due to the unexpected preservation of cartilage.<ref name=BigShark /> George F. Sternberg would later discover more ''O. mantelli'' skeletons throughout his career. His most notable finds were FHSM VP-323 and FHSM VP-2187, found in 1950<ref name=FHSMDatabase323>{{cite web|publisher=Fort Hays State University's Sternberg Museum of Natural History|title=FHSM VP 323|url=https://sternbergca.fhsu.edu/index.php/Detail/objects/f983309f-841d-4b84-87e8-1f8498a4ffe1}}</ref> and 1965<ref name=FHSMDatabase2187>{{cite web|publisher=Fort Hays State University's Sternberg Museum of Natural History|title=FHSM VP 2187|url=https://sternbergca.fhsu.edu/index.php/Detail/objects/74c6eaaa-30cb-4327-9877-5d8611c95aea}}</ref> respectively. The former is a partial skeleton consisting of a well-preserved set of jaws, a pair of five gills, and some vertebra while the latter is a near-complete skeleton with an almost complete vertebral column and an exceptionally preserved skull holding much of the cranial elements, jaws, teeth, a set of scales, and fragments of pectoral girdles and fins in their natural positions. Both skeletons are currently housed in the [[Fort Hays State University|Sternberg Museum of Natural History]].<ref name=CretoSquali>{{Cite web|author=Mike Everhart|title=Large Sharks in the Western Interior Sea|year=1999|website=Oceans of Kansas|url=http://oceansofkansas.com/sharks.html|access-date=2018-11-24|archive-url=https://web.archive.org/web/20180704090536/http://oceansofkansas.com/sharks.html|archive-date=2018-07-04|url-status=live}}</ref> In 1968, a collector named Tim Basgall discovered another notable skeleton that, similar to FHSM VP-2187, also consisted of a near-complete vertebral column and a partially preserved skull. This fossil is housed in the University of Kansas Museum of Natural History as KUVP 69102.<ref name=kuvpcataloguebasgall>{{cite web|title=Kansas University Vertebrate Paleontology Database|url=http://collections.biodiversity.ku.edu/KUVertPaleo/#type-in-the-express-box-the-number-69102|publisher=Kansas University Biodiversity Institute and Natural History Museum}}</ref>
+[[Image:Cretoxyrhina skeletons KUVP-247 and FHSM VP-2187.png|thumb|left|upright=1.5|alt=Interpretive drawings of two ''C. mantelli'' shark fossils|Exceptionally preserved ''C. mantelli'' skeletons KUVP-247 and FHSM VP-2187 from the [[Niobrara Formation]]]]
+In 1958, Soviet paleontologist Leonid Glickman found that the dental design of ''O. mantelli'' reconstructed by Eastman made it distinct enough to warrant a new genus—''Cretoxyrhina''.<ref name=Bourdon /><ref name=GlickmanBibiography>{{cite journal|author=E. V. Popov|title=An annotated bibliography of the Soviet paleoichthyologist Leonid Glickman (1929–2000)|year=2016|journal= Proceedings of the Zoological Institute of the Russian Academy of Sciences|volume=320|issue=1|pages=25–49|url=https://www.zin.ru/journals/trudyzin/doc/vol_320_1/TZ_320_1_Popov.pdf|access-date=2018-11-10|archive-url=https://web.archive.org/web/20181111000210/https://www.zin.ru/journals/trudyzin/doc/vol_320_1/TZ_320_1_Popov.pdf|archive-date=2018-11-11|url-status=live|doi=10.31610/trudyzin/2016.320.1.25|doi-access=free}}</ref> He also identified a second species of ''Cretoxyrhina'' based on some of the earlier ''Cretoxyrhina'' teeth, which he named ''Cretoxyrhina denticulata''.<ref name=GlickmanDenticulata>{{cite journal|author=Leonid Glickman|title=Rates of evolution in Lamoid sharks|language=ru|journal=Doklady Akademii Nauk SSSR|year=1958|volume=123|pages=568–571|url=http://www.elasmodus.com/images/pdf/Glickman_1958_Rates_of_evolution_of_Lamnoid_sharks.pdf}}</ref><ref name=Kennedyetal>{{cite journal|author=W. James Kennedy, Christopher King, and David J. Ward|title=The Upper Albian and Lower Cenomanian succession at Kolbay, eastern Mangyshlak, southwest Kazakhstan|year=2008|journal=Bulletin de l'Institut Royal des Sciences Naturelles de Belgique, Sciences de la Terre|volume=78|pages=117–147|url=https://www.researchgate.net/publication/280316484}}</ref> Originally, Glickman designated ''C. mantelli'' as the type species, but he abruptly replaced the position with another taxon identified as '' 'Isurus denticulatus' '' without explanation in a 1964 paper, a move now rejected as an invalid taxonomic amendment.<ref name=SiversonVracon /> This nevertheless led Russian paleontologist Viktor Zhelezko to erroneously invalidate the genus ''Cretoxyrhina'' in a 2000 paper by synonymizing '' 'Isurus denticulatus' '' (and thus the genus ''Cretoxyrhina'' as a whole) with another taxon identified as '' 'Pseudoisurus tomosus'''.{{efn|This taxon is a ''[[nomen dubium]]'' whose referred specimens now represent ''[[Cardabiodon]]'' and ''[[Dwardius]]''.<ref name=SiversonVracon />}} Zhelezko also described a new species congeneric with ''C. mantelli'' based on tooth material from [[Kazakhstan]], which he identified as ''Pseudoisurus vraconensis'' accordingly to his taxonomic reassessment.<ref name=SiversonVracon /><ref name = ZhelezkoRussian>{{cite journal|author=V.I. Zhelezko|title=The evolution of teeth systems of sharks of Pseudoisurus Gluckman, 1957 genus – the biggest pelagic sharks of Eurasia|year=2000|journal=Materialy Po Stratigrafii I Paleontologii Urala|volume=1|issue=4|pages=136–141|language=ru|url=http://www.elasmodus.com/images/pdf/Zhelezko-2000b_Pseudoisurus.pdf}}</ref> A 2013 study led by [[Western Australian Museum]] [[curator]] and paleontologist Mikael Siverson corrected the taxonomic error, reinstating the genus ''Cretoxyrhina'' and moving '' 'P'. vraconensis'' into it.<ref name=SiversonVracon /> In 2010, British and Canadian paleontologists Charlie Underwood and Stephen Cumbaa described ''Telodontaspis agassizensis'' from teeth found in [[Lake Agassiz]] in [[Manitoba]] that were previously identified as juvenile ''Cretoxyrhina'' teeth.<ref name=Underwood>{{cite journal|author=Charlie J. Underwood and Stephen L. Cumbaa|title= Chondrichthyans from a Cenomanian (Late Cretaceous) bonebed, Saskatchewan, Canada|year=2009|journal= Palaeontology|volume=53|issue=4|pages=903–944|doi=10.1111/j.1475-4983.2010.00969.x|doi-access=free}}</ref> This species was reaffirmed into the genus ''Cretoxyrhina'' by a 2013 study led by American paleontologist Michael Newbrey using additional fossil material of the same species found in [[Western Australia]].<ref name = Newbrey />
+
+Between 1997 and 2008, paleontologist Kenshu Shimada published a series of papers where he analyzed the skeletons of ''C. mantelli'' including those found by the Sternbergs using modernized techniques to extensively research the possible biology of ''Cretoxyrhina''. Some of his works include the development of more accurate dental,<ref name=ShimadaDentition>{{cite journal|author=Kenshu Shimada|title=Dentition of the Late Cretaceous lamniform shark, ''Cretoxyrhina mantelli'' from the Niobrara Chalk of Kansas|year=1997|journal=Journal of Vertebrate Paleontology|volume=17|issue=2|pages=269–279|doi=10.1080/02724634.1997.10010974}}</ref> morphological, physiological,<ref name = ShimadaSkeletal>{{cite journal|author=Kenshu Shimada|title=Skeletal Anatomy of the Late Cretaceous Lamniform Shark, ''Cretoxyrhina mantelli'', from the Niobrara Chalk in Kansas|year=1997|journal=Journal of Vertebrate Paleontology|volume=17|issue=4|pages=642–652|jstor=4523854|doi=10.1080/02724634.1997.10011014}}</ref> and paleoecological reconstructions,<ref name=ShimadaPaleoecological>{{Cite journal|author=Kenshu Shimada|title=Paleoecological relationships of the Late Cretaceous lamniform shark, ''Cretoxyrhina mantelli'' (Agassiz)|year=1997|journal=Journal of Paleontology|volume=71|issue=5|pages=926–933|doi=10.1017/S002233600003585X}}</ref> [[Ontogeny|ontogenetic]] studies,<ref name=ShimadaGrowth>{{cite journal|author=Kenshu Shimada|title=Ontogenetic parameters and life history strategies of the late Cretaceous lamniform shark, ''Cretoxyrhina mantelli'', based on vertebral growth increments|year=2008|journal=Journal of Vertebrate Paleontology|volume=28|pages=21–33|doi=10.1671/0272-4634(2008)28[21:OPALHS]2.0.CO;2}}</ref> and morphological-variable based [[Phylogeny|phylogenetic]] studies<ref name = ShimadaPhylo>{{cite journal|author=Kenshu Shimada|title=Phylogeny of lamniform sharks (Chondrichthyes: Elasmobranchii) and the contribution of dental characters to lamniform systematics|year=2005|journal=Paleontological Research|volume=9|pages=55–72|doi=10.2517/prpsj.9.55|s2cid=84715232}}</ref> on ''Cretoxyrhina''. Shimada's research on ''Cretoxyrhina'' helped shed new light on the understandings of the shark and, through his new methods, other extinct animals.<ref name=Newbrey />
+
+===Etymology===
+''Cretoxyrhina'' is a portmanteau of the word ''creto'' (short for ''[[Cretaceous]]'') prefixed to the genus ''Oxyrhina'', which is derived from the [[Ancient Greek]] ὀξύς (oxús, "sharp") and ῥίς (rhís, "nose"). When put together they mean "Cretaceous sharp-nose", although ''Cretoxyrhina'' is believed to have had a rather blunt snout.<ref name = ShimadaSkeletal /> The type species name ''mantelli'' translates to "from Mantell", which Louis Agassiz named in honor of English paleontologist Gideon Mantell for supplying him the syntypes of the species.<ref name=Agassiz1843 /> The species name ''denticulata'' is derived from the Latin word ''denticulus'' (small tooth) and suffix ''āta'' (possession of), together meaning "having small teeth". This is a reference to the appearance of lateral cusplets in most of the teeth in ''C. denticulata''.<ref name=GlickmanDenticulata /> The species ''vraconensis'' derived from the word ''vracon'' and the Latin ''ensis'' (from), meaning "from Vracon", which is a reference to the [[Albian#Stratigraphic definitions|Vraconian]] substage of the Albian stage in which the species was discovered.<ref name = ZhelezkoRussian /> The species name ''agassizensis'' is derived from the name ''Agassiz'' and the Latin ''ensis'' (from), meaning "from Agassiz", named after Lake Agassiz where the species was discovered.<ref name=Underwood /> Coincidentally, the lake itself is named in honor of Louis Agassiz.<ref>{{cite book |last1=Upham |first1=Warren |title=The Geology of Central and Western Minnesota. A Preliminary Report. [From the General Report of Progress for the Year 1879.] |date=1880 |publisher=The Pioneer Press Co. |location=St. Paul, Minnesota, U.S.A. |page=18 |url=https://babel.hathitrust.org/cgi/pt?id=uc1.b4170421;view=1up;seq=28}} From p. 18: "Because of its relation to the retreating continental ice-sheet it is proposed to call this ''Lake Agassiz'', in memory of the first prominent advocate of the theory that the drift was produced by land-ice."</ref> The common name Ginsu shark, originally coined in 1999 by paleontologists Mike Everhart and Kenshu Shimada, is a reference to the [[Ginsu knife]], as the theoretical feeding mechanisms of ''C. mantelli'' was often compared with the "slicing and dicing" when one uses the knife.<ref name="Ginsu">{{Cite web|url=http://www.oceansofkansas.com/ginsu.html|title=''Cretoxyrhina mantelli'', the Ginsu Shark|author=Mike Everhart|website=Oceans of Kansas|year=2009|access-date=2018-11-24|archive-url=https://web.archive.org/web/20180424191409/http://oceansofkansas.com/Ginsu.html|archive-date=2018-04-24|url-status=live}}</ref>
+
+===Phylogeny and evolution===
+[[File:White shark.jpg|left|thumb|alt=Photograph of a [[great white shark]]|''Cretoxyrhina'' is similar to the modern [[great white shark]] in size, shape, and ecology.]]
+''Cretoxyrhina'' bore a resemblance to the modern great white shark in size, shape and ecology, but the two sharks are not closely related, and their similarities are a result of [[convergent evolution]].<ref name=ShimadaGrowth /> ''Cretoxyrhina'' has been traditionally grouped within the [[Cretoxyrhinidae]], a family of lamnoid sharks that traditionally included other genera resulting in a [[paraphyly|paraphyletic]] or [[polyphyly|polyphyletic]] family.<ref name = Maisey>{{cite journal|author=J. G. Maisey|title=What is an 'elasmobranch'? The impact of palaeontology in understanding elasmobranch phylogeny and evolution|journal=Journal of Fish Biology|volume=80|issue=5|pages=918–951|year=2012|doi=10.1111/j.1095-8649.2012.03245.x|pmid=22497368}}</ref> Siverson (1999) remarked that Cretoxyrhinidae was used as a '[[wastebasket taxon]]' for Cretaceous and [[Paleogene]] sharks and declared that ''Cretoxyrhina'' was the only valid member of the family.<ref name = SiversonCretoxyrhinidae>{{cite journal|author=Mikael Siverson|title=A new large lamniform shark from the uppermost Gearle Siltstone (Cenomanian, Late Cretaceous) of Western Australia|journal=Transactions of the Royal Society of Edinburgh: Earth Sciences|volume=90|pages=49–66|year=1999|doi=10.1017/S0263593300002509}}</ref>
+{{cladogram|align=right
+|caption=Possible phylogenetic relationship between ''Cretoxyrhina'' and modern mackerel sharks based on Shimada (2007)<ref name=ShimadaCretalamna>{{cite journal|author=Kenshu Shimada|title=Skeletal and Dental Anatomy of Lamniform shark ''Cretalamna appendiculata'', from Upper Cretaceous Niobrara Chalk of Kansas|year=2007|journal=Journal of Vertebrate Paleontology|volume=27|issue=3|pages=584–602|doi=10.1671/0272-4634(2007)27[584:SADAOL]2.0.CO;2}}</ref>
+|cladogram={{clade| style=font-size:85%;line-height:80%;width:300px;
+    |label1=[[Lamniformes]]
+    |1={{clade
+        |1= [[Mitsukurinidae]]
+        |2={{clade
+            |1=[[Sand shark|Odontaspididae]]
+            |2=[[Pseudocarchariidae]]
+            |3=[[Megachasmidae]]
+            |4=[[Alopiidae]]
+            |5='''''Cretoxyrhina'''''
+            |6={{clade
+                |1=[[Cetorhinidae]]
+                |2=[[Lamnidae]]
+                }}
+            }}
+        }}
+    }}
+}}
+''Cretoxyrhina'' contains four valid species: ''C. vraconensis'', ''C. denticulata'', ''C. agassizensis'', and ''C. mantelli''. These species represent a [[chronospecies]].<ref name=Amalfitanoetal /> The earliest fossils of ''Cretoxyrhina'' are dated about 107 million years old and belong to ''C. vraconensis''.<ref name=Ward2009 /> The genus would progress by ''C. vraconensis'' evolving into ''C. denticulata'' during the Early [[Cenomanian]] which evolved into ''C. agassizensis'' during the Mid-Cenomanian which in turn evolved into ''C. mantelli'' during the Late-Cenomanian. It is notable that ''C. agassizensis'' continued until the Mid-[[Turonian]] and was briefly contemporaneous with ''C. mantelli''.<ref name=Amalfitanoetal /> This progression was characterized by the reduction of lateral cusplets and the increasing size and robustness of teeth.<ref name= SiversonandLindgren /><ref name=Wilson>{{cite journal|author=Mark Wilson, Mark V.H. Wilson, Alison M. Murray, A. Guy Plint, Michael G. Newbrey, and Michael J. Everhart|title=A high-latitude euselachian assemblage from the early Turonian of Alberta, Canada|url=https://www.researchgate.net/publication/258421523|year=2013|journal=Journal of Systematic Palaeontology|volume=11|issue=5|pages=555–587|doi=10.1080/14772019.2012.707990|s2cid=129551937}}</ref> The Late-Albian–Mid-Turonian interval sees mainly the reduction of lateral cusplets; ''C. vraconensis'' possessed lateral cusplets in all teeth except for a few in the [[Anterior teeth|anterior position]], which would gradually become restricted only to the back [[Anatomical terms of location#medial and lateral|lateroposteriors]] in adults by the end of the interval in ''C. mantelli''.<ref name= SiversonandLindgren /> The Late Cenomanian–Coniacian interval was characterized by a rapid increase in tooth (and body) size, significant decrease of crown/height-crown/width ratio,<ref name=ShimadaStrat /><ref name= SiversonandLindgren /> and a transition from a tearing-type to a cutting-type tooth form.<ref name=Diedrich>{{cite journal|author=C. G. Diedrich|title=Skeleton of the Fossil Shark Isurus denticulatus from the Turonian (Late Cretaceous) of Germany&nbsp;– Ecological Coevolution with Prey of Mackerel Sharks|year=2014|journal=Paleontology Journal|volume=2014|pages=1–20|doi=10.1155/2014/934235|doi-access=free}}</ref> Tooth size of ''C. mantelli'' individuals inside the Western Interior Seaway peaked around 86 Ma during the latest [[Coniacian]] and then begins to slowly decline.<ref name=ShimadaStrat /> In Europe, this peak takes place earlier during the Late Turonian.<ref name=Amalfitanoetal /> The youngest fossil of ''C. mantelli'' was found in the [[Bearpaw Formation]] of [[Alberta]], dating as 73.2&nbsp;million years old.<ref name = Cooketal2017 /> A single tooth identified as ''Cretoxyrhina sp.'' was recovered from the nearby [[Horseshoe Canyon Formation]] and dated as 70.44&nbsp;million years old, suggesting that ''Cretoxyrhina'' may have survived into the Maastrichtian. However, the Horseshoe Canyon Formation has only [[brackish water]] deposits despite ''Cretoxyrhina'' being a marine shark, making a likely possibility that the fossil was [[Fossil#Derived, or reworked|reworked]] from an older layer.<ref name=Larsonetal />
+
+Phylogenetic studies through morphological data conducted by Shimada in 2005 suggested that ''Cretoxyrhina'' may alternatively be congeneric with the genus of the modern [[thresher shark]]s; the study also stated that the results are premature and may be inaccurate and recommended that ''Cretoxyrhina'' is kept within the family Cretoxyrhinidae, mainly citing the lack of substantial data for it during the analysis.<ref name = ShimadaPhylo />
+
+Another possible model for ''Cretoxyrhina'' evolution, proposed in 2014 by paleontologist Cajus Diedrich, suggests that ''C. mantelli'' was congeneric with the [[mako shark]]s of the genus ''[[Isurus]]'' and was part of an extended ''Isurus'' lineage beginning as far the [[Aptian]] stage in the Early Cretaceous. According to this model, the ''Isurus'' lineage was initiated by '' 'Isurus appendiculatus' '' (''Cretolamna appendiculata''), which evolved into ''Isurus denticulatus'' (''Cretoxyrhina mantelli''&thinsp;<ref name=Amalfitanoetal />) in the Mid-Cenomanian, then '' 'Isurus mantelli' '' (''Cretoxyrhina mantelli''&thinsp;) at the beginning of the Coniacian, then ''Isurus schoutedenti'' during the [[Paleocene]], then ''Isurus praecursor'', where the rest of the ''Isurus'' lineage continues.{{efn|'' 'Isurus appendiculatus' '' and '' 'Isurus mantelli' '' are scientific names proposed and used by Diedrich (2014). The original and more widely accepted scientific names of these taxa are shown in parenthesis.<ref name=Diedrich />}} The study claimed that the absence of corresponding fossils during the Maastrichtian (72–66 Ma) was not a result of a premature extinction of ''C. mantelli'', but merely a gap in the fossil record.<ref name=Diedrich /> Shimada and fellow paleontologist Phillip Sternes published a poster in 2018 which voiced doubt over the credibility of this proposal, noting that the study's interpretation is largely based on data that had been arbitrarily selected and failed to cite either Shimada (1997){{efn|Shimada (1997) is cited in Diedrich (2014); the latter failed to use the citation in any of his claims regarding the systematic placement of ''C. mantelli'', using it only in stratigraphic and historical notes.<ref name=Diedrich />}} or Shimada (2005), which are key papers regarding the systematic position of ''C. mantelli''.<ref name=SternesandShimada />
+
+==Biology==
+===Morphology===
+====Dentition====
+[[File:Cretoxyrhina mantelli dental reconstruction.png|thumb|upright=2|alt=Illustration of the teeth inside a jaw of ''C. mantelli''|Reconstruction of the dentition of ''C. mantelli'']]
+Distinguishing characteristics of ''Cretoxyrhina'' teeth include a nearly symmetrical or slanted triangular shape, razor-like and non-serrated cutting edges, visible tooth necks (bourlette), and a thick enamel coating. The dentition of ''Cretoxyrhina'' possesses the basic dental characteristics of a [[lamniformes|mackerel shark]], with tooth rows closely spaced without any overlap. Anterior teeth are straight and near-symmetrical, while lateroposterior teeth are slanted. The side of the tooth facing the mouth is convex and possesses massive protuberance and nutrient grooves on the root, whereas the labial side, which faces outwards, is flat or slightly swollen.<ref name=ShimadaDentition /> Juveniles possessed lateral cusplets in all teeth,<ref name=Underwood /> and ''C. vraconensis'' consistently retained them in adulthood.<ref name=SiversonVracon /> Lateral cusplets were retained only up to all lateroposterior teeth in adulthood in ''C. denticulata'' and ''C. agassizensis'' and only up to the back lateroposterior teeth in ''C. mantelli''.<ref name=Underwood /> The lateral cusplets of ''C. vraconensis''<ref name=SiversonVracon /> and ''C. denticulata'' are round, while in ''C. agassizensis'' are sharpened to a point.<ref name=Amalfitanoetal /> The anterior teeth of ''C. vraconensis'' measure {{convert|2.1–3.5|cm|in|1|sp=us}} in height,<ref name= SiversonVracon /> while the largest known tooth of ''C. denticulata'' measures {{convert|3|cm|in|1|sp=us}}.<ref name=Underwood /> ''C. mantelli'' teeth are larger, measuring {{convert|3–4|cm|in|0|sp=us}} in average slant height. The largest tooth discovered from this species may have measured up to {{convert|8|cm|in|0|sp=us}}.<ref name = Newbrey />
+
+The dentition of ''C. mantelli'' is among the best-known of all extinct sharks, thanks to fossil skeletons like FHSM VP-2187, which consists of a near-complete articulated dentition. Other ''C. mantelli'' skeletons, such as KUVP-247 and KUVP-69102, also include partial jaws with some teeth in their natural positions, some of which were not present in more complete skeletons like FHSM VP-2187. Using these specimens, the dental formula was reconstructed by Shimada (1997) and revised by Shimada (2002), it was {{DentalFormula|upper=S4.A2.I4.LP11(+?)|lower=s1?.a2.i1.lp15(+?)}}. This means that from front to back, ''C. mantelli'' had: four symphysials (small teeth located in the symphysis of a jaw), two anteriors, four intermediates, and eleven or more lateroposteriors for the upper jaw and possibly one symphysial, two anteriors, one intermediate, and fifteen or more lateroposteriors for the lower jaw. The structure of the tooth row shows a dental structure suited for a feeding behavior similar to modern mako sharks, having large spear-like anteriors to stab and anchor prey and curved lateroposteriors to cut it to bite-size pieces,<ref name=ShimadaDentition /><ref name=Shimada2002Dental>{{cite journal|author=Kenshu Shimada|title=Dental homologies in lamniform sharks (Chondrichthyes: Elasmobranchii)|journal=Journal of Morphology|year=2002|volume=251|issue=1|pages=38–72|doi=10.1002/jmor.1073|pmid=11746467|s2cid=22195080}}</ref> a mechanism often informally described as "slicing and dicing" by paleontologists.<ref name="Ginsu" /> In 2011, paleontologists Jim Bourdon and Mike Everhart reconstructed the dentition of multiple ''C. mantelli'' individuals based on their associated tooth sets. They discovered that two of these reconstructions show some notable differences in the size of the first intermediate (I1) tooth and lateral profiles, concluding that these differences could possibly represent [[sexual dimorphism]] or individual variations.<ref name=BourdonAndEverhart>{{cite journal|author=Jim Bourdon and Michael Everhart|title=Analysis of an associated Cretoxyrhina mantelli dentition from the Late Cretaceous (Smoky Hill Chalk, Late Coniacian) of western Kansas|year=2011|journal=Transactions of the Kansas Academy of Science|volume=114|issue=1–2|pages=15–32|url=http://www.elasmo.com/refs/pdf/bourdon-everhart2011.pdf|doi=10.1660/062.114.0102|s2cid=56237457|access-date=2018-12-27|archive-url=https://web.archive.org/web/20160404233212/http://www.elasmo.com/refs/pdf/bourdon-everhart2011.pdf|archive-date=2016-04-04|url-status=live}}</ref>
+
+[[File:Ginsu shark (Cretoxyrhina mantellii).jpg|thumb|upright=1.2|left|Reconstruction of ''C. mantelli'']]
+
+====Skull====
+Analysis of skull and scale patterns suggests that ''C. mantelli'' had a conical head with a dorsally flat and wide skull. The [[Rostrum (anatomy)|rostrum]] does not extend much forward from the frontal margin of the braincase, suggesting that the snout was blunt.<ref name = ShimadaSkeletal /> Similar to modern [[crocodile shark]]s and thresher sharks, ''C. mantelli'' had proportionally large eyes, with the [[Orbit (anatomy)|orbit]] roughly taking up one-third of the entire skull length, giving it acute vision. As a predator, good eyesight was important when hunting the large prey ''Cretoxyrhina'' fed on. In contrast, the more smell-reliant contemporaneous [[Anacoracidae|anacoracid]] ''[[Squalicorax]]''{{'}}s less advanced orbital but stronger [[Olfaction|olfactory processes]] was more suitable for an opportunistic [[scavenger]].<ref name = ShimadaSkeletal /><ref name=ShimadaCicimurri>{{cite journal|author=Kenshu Shimada and David J. Cicimurri|title=Skeletal anatomy of the Late Cretaceous shark, Squalicorax (Neoselachii, Anacoracidae)|year=2005|journal=[[Paläontologische Zeitschrift]]|volume=79|issue=2|pages=241–261|doi=10.1007/BF02990187|s2cid=83861009}}</ref>
+
+The jaws of ''C. mantelli'' were kinetically powerful. They have a slightly looser anterior curvature and a more robust build than that of the modern mako sharks, but otherwise were similar in general shape. The [[hyomandibula]] is elongated and was believed to swing laterally, which would allow jaw protrusion and deep biting.<ref name = ShimadaSkeletal />
+{{multiple image
+| align = right
+| direction =
+| width = 130
+| image1 = MenuhaCretoxyrhinaMantelli.jpg
+| alt1 =
+| caption1 = Anterior tooth of ''Cretoxyrhina mantelli'' from the [[Menuha Formation]] of southern [[Israel]]
+| image2 = Cretoxyrhina.jpg
+| width2 =
+| alt2 =
+| caption2 = ''Cretoxyrhina sp.'' teeth from [[Arnager]], Denmark, at the [[Geological Museum, Copenhagen]]
+}}
+
+====Skeletal anatomy====
+Most species of ''Cretoxyrhina'' are represented only by fossil teeth and vertebra. Like all sharks, the skeleton of ''Cretoxyrhina'' was made of [[cartilage]], which is less capable of fossilization than [[bone]]. However, fossils of ''C. mantelli'' from the Niobrara Formation have been found exceptionally preserved;<ref name=SharksofKansas>{{Cite web|author=Mike Everhart|title=Sharks of Kansas|url=http://oceansofkansas.com/KS-sharks.html|website=Oceans of Kansas|access-date=2018-11-24|archive-url=https://web.archive.org/web/20180902081044/http://oceansofkansas.com/KS-sharks.html|archive-date=2018-09-02|url-status=live}}</ref> this was due to the formation's chalk having high contents of [[calcium]], allowing [[calcification]] to become more prevalent.<ref name=NiobraraGeology>{{cite thesis|author=Denton Lee O’Neal|title=Chemostratigraphic and depositional characterization of the Niobrara Formation, Cemex Quarry, Lyons, CO|url=https://mountainscholar.org/bitstream/handle/11124/17096/ONeal_mines_0052N_10689.pdf|publisher=Colorado School of Mines|year=2015|access-date=2018-11-10|archive-url=https://web.archive.org/web/20181111000138/https://mountainscholar.org/bitstream/handle/11124/17096/ONeal_mines_0052N_10689.pdf|archive-date=2018-11-11|url-status=live}}</ref> When calcified, soft tissue hardens, making it more prone to fossilization.<ref name=SharksofKansas />
+
+Numerous skeletons consisting of near-complete vertebral columns have been found. The largest vertebra were measured up to {{convert|87|mm|in|0|sp=us}} in diameter. Two specimens with the best-preserved vertebral columns (FHSM VP-2187 and KUVP 69102) have 218 and 201 centra, respectively, and nearly all vertebra in the column preserved; only portions of the tail tip are missing for both. Estimations of tail length calculates a total vertebral count of approximately 230 centra, which is unique as all known extant mackerel sharks possess a vertebral count of either less than 197 or greater than 282 with none in between. The vertebral centra in the trunk region were large and circular, creating an overall spindle-shaped body with a stocky trunk.<ref name = ShimadaSkeletal />
+
+An analysis of a partially complete tail fin fossil shows that ''Cretoxyrhina'' had a lunate (crescent-shaped) tail most similar with modern lamnid sharks, [[whale shark]]s, and [[basking shark]]s. The transition to tail vertebrae is estimated to be between the 140th and 160th vertebrae out of the total 230, resulting in a total tail vertebral count of 70–90 and making up approximately 30–39% of the vertebral column. The transition from precaudal (the set of vertebrae before the tail vertebrae) to tail vertebrae is also marked by a vertebral bend of about 45°, which is the highest possible angle known in extant sharks and is mostly found in fast-swimming sharks, such as lamnids.<ref name="CFS">{{Cite journal|author=Kenshu Shimada, Stephen L. Cumbaa, and Deanne van Rooyen|title=Caudal Fin Skeleton of the Late Cretaceous Lamniform shark, ''Cretoxyrhina mantelli'', from the Niobrara Chalk of Kansas|pages=185–191|volume=35|url=http://econtent.unm.edu/cdm/ref/collection/bulletins/id/683|year=2006|journal=New Mexico Museum of Natural History Bulletin}}</ref> These properties of the tail, along with other features such as smooth scales parallel to the body axis, a plesodic pectoral fin (a pectoral fin in which cartilage extends throughout, giving it a more secure structure that helps decrease drag), and a spindle-shaped stocky build, show that ''C. mantelli'' was capable of fast swimming.<ref name = ShimadaSkeletal /><ref name="CFS" />
+
+===Physiology===
+====Thermoregulation====
+[[File:Lamna nasus with fishmonger.jpg|thumb|left|alt=Cross section of a porbeagle shark|As a regional endotherm, ''Cretoxyrhina'' may have possessed red muscles closer to its body axis like this [[porbeagle shark]].]]
+''Cretoxyrhina'' represents one of the earliest forms and possible origins of [[endothermy]] in mackerel sharks.<ref name=Ferron>{{cite journal|author=Humberto G. Ferron|title=Regional endothermy as a trigger for gigantism in some extinct macropredatory sharks|year=2017|journal=[[PLOS One]]|volume=12|issue=9|pages=e0185185|doi=10.1371/journal.pone.0185185|pmid=28938002|pmc=5609766|bibcode=2017PLoSO..1285185F|doi-access=free}}</ref> Possessing regional endothermy (also known as [[mesotherm]]y), it may have possessed a build similar to modern regionally endothermic sharks like members of the thresher shark and lamnid families,<ref name=Ferron /> where red muscles are closer to the body axis compared to [[ectotherm]]ic sharks (whose red muscles are closer to the body circumference), and a system of specialized [[blood vessels]] called ''[[rete mirabile]]'' (Latin for "wonderful nets") is present, allowing metabolic heat to be conserved and exchanged to vital organs. This morphological build allows the shark to be partially [[warm-blooded]],<ref name="carlson et al">John K. Carlson, Kenneth J. Goldman, and Christopher G. Lowe. (2004). "Metabolism, Energetic Demand, and Endothermy" in Carrier, J.C., J.A. Musick and M.R. Heithaus. ''Biology of Sharks and Their Relatives''. [[CRC Press]]. pp. 203–224. {{ISBN|978-0-8493-1514-5}}.</ref> and thus efficiently function in the colder environments where ''Cretoxyrhina'' has been found. Fossils have been found in areas where paleoclimatic estimates show a surface temperature as low as {{convert|5|C|F|sp=us}}.<ref name=Ferron /> Regional endothermy in ''Cretoxyrhina'' may have been developed in response to increasing pressure from progressive global cooling and competition from mosasaurs and other [[marine reptile]]s that had also developed endothermy.<ref name=Ferron />
+
+====Hydrodynamics and locomotion====
+[[File:Cretoxyrhina mantelli scale.png|thumb|upright=1.5|right|alt=Illustration of silhouettes of a human and three ''C. mantelli'' sharks that are in scale|Scale diagram of notable ''C. mantelli'' individuals<br>{{legend|#A27CE9|Largest specimen}}{{legend|#01B700|Largest North American specimen}}{{legend|#FB0200|Most complete specimen}}]]
+''Cretoxyrhina'' possessed highly dense overlapping [[placoid scale]]s parallel to the body axis and patterned in parallel kneels separated by U-shaped grooves, each groove having a mean width of about 45 micrometers. This formation of scales allows efficient [[drag (physics)|drag]] reduction and enhanced high-speed velocity capabilities, a morphotype seen only in the fastest known sharks.<ref name=ShimadaSkeletal /><ref name=Ferron /> ''Cretoxyrhina'' also had the most extreme case of a "Type 4" tail fin, having the highest known [[Cobb angle|Cobb's angle]] (curvature of tail vertebrae) and tail cartilage angle (49° and 133° respectively) ever recorded in mackerel sharks.<ref name=Kimetal>{{cite journal|author=Sun H. Kim, Kenshu Shimada, and Cynthia K. Rigsby|title=Anatomy and Evolution of Heterocercal Tail in Lamniform Sharks|year=2013|journal=The Anatomical Record|volume=296|issue=3|pages=433–442|doi=10.1002/ar.22647|pmid=23381874|s2cid=205411092|doi-access=free}}</ref><ref name=Ferron /> A "Type 4" tail fin structure represents a build with maximum symmetry of the tail fin lobes, which is most efficient in fast swimming; among sharks, it is only found in lamnids.<ref name=Kimetal />
+
+A 2017 study by PhD student Humberto Ferron analyzed the relationships between the morphological variables including the skeleton and tail fin of ''C. mantelli'' and modeled an average cruising speed of {{convert|12|km/h|mph|abbr=on|sp=us}} and a burst swimming speed of around {{convert|70|km/h|mph|abbr=on|sp=us}}, making ''Cretoxyrhina'' possibly one of the fastest sharks known.<ref name=Ferron /> For comparison, the modern great white shark has been modeled to reaches speeds of up to {{convert|56|km/h|mph|abbr=on|sp=us}}<ref>Bruce A. Wright (2007) ''Alaska's Great White Sharks''. Top Predator Publishing Company. p. 27. {{ISBN|978-0-615-15595-1}}.</ref> and the [[shortfin mako]], the fastest extant shark, has been modeled at a speed of {{convert|70|km/h|mph|abbr=on|sp=us}}.{{efn|name=speedcaveat|These swimming speed estimates were calculated based on hydrodynamic models. However, some research suggests that living fish may be incapable of swimming up to such calculated rates due to physiological limitations unforeseen by such hydrodynamic modeling. For example, Svendsen et al., (2016) found that accelerometer tags and high-speed video analyses suggest maximum speeds of marlin are closer {{convert|10-15|m/s|mph|abbr=on|sp=us}} contrary to {{convert|35|m/s|mph|abbr=on|sp=us}} estimates calculated from traditional hydrodynamic modeling, as speeds higher than the former were predicted to cause serious damage to fin tissue. Other fast-swimming fish were also observed to have similar limitations.<ref name=Svendsenetal>{{Cite journal|author1=Morten B. S. Svendsen|author2=Paolo Domenici|author3=Stefano Marras|author4=Jens Krause|author5=Kevin M. Boswell|author6=Ivan Rodriguez-Pinto|author7=Alexander D. M. Wilson|author8=Ralf H. J. M. Kurvers|author9=Paul E. Viblanc|author10=Jean S. Finger|author11=John F. Steffensen|year=2016|title=Maximum swimming speeds of sailfish and three other large marine predatory fish species based on muscle contraction time and stride length: a myth revisited|journal=Biology Open|volume=5|issue=10|pages=1415–1419|doi=10.1242/bio.019919|pmid=27543056|pmc=5087677|issn=2046-6390|doi-access=free}}</ref> Likewise, Semmens et al., (2019) observed that living great white sharks did not exceed burst speeds of {{convert|6.5|m/s|mph|abbr=on|sp=us}} when attacking seals.<ref name=Semmensetal>{{Cite journal|author1=Jayson M. Semmens|author2=Alison A. Kock|author3=Yuuki Y. Watanabe|author4=Charles M. Shepard|author5=Eric Berkenpas|author6=Kilian M. Stehfest|author7=Adam Barnett|author8=Nicholas L. Payne|year=2019|title=Preparing to launch: biologging reveals the dynamics of white shark breaching behaviour|journal=Marine Biology|volume=166|issue=7|doi=10.1007/s00227-019-3542-0|issn=0025-3162}}</ref>}}<ref name=Diezetal>{{cite journal|author=C. Díez, M. Soto, and J. M. Blanco|title=Biological characterization of the skin of shortfin mako shark Isurus oxyrinchus and preliminary study of the hydrodynamic behaviour through computational fluid dynamics|year=2015|journal=Journal of Fish Biology|volume=87|issue=1|pages=123–137|doi=10.1111/jfb.12705|pmid=26044174}}</ref>
+
+===Life history===
+====Reproduction====
+Although no fossil evidence for it has been found, it is inferred that ''Cretoxyrhina'' was [[ovivipary|ovoviviparous]] as all modern mackerel sharks are. In ovoviviparous sharks, young are hatched and grow inside the mother while competing against litter-mates through cannibalism such as [[oophagy]] (egg eating). As ''Cretoxyrhina'' inhabited [[oligotrophic]] and pelagic waters where predators such as large mosasaurs like ''Tylosaurus'' and macropredatory fish like ''Xiphactinus'' were common, it is likely that it also was an [[r-selected]] shark, where many infants are produced to offset high infant mortality rates. Similarly, pelagic sharks such as the great white shark, thresher sharks, mako sharks, [[porbeagle|porbeagle shark]], and crocodile shark produce two to nine infants per litter.<ref name = ShimadaGrowth />
+
+====Growth and longevity====
+[[Image:Cretoxyrhina fossils from Newbrey et al. (2013).png|thumb|right|upright|alt=Photographs of various ''C. mantelli'' fossils|'''A.''' FHSM VP-323 '''B1-B9.''' Portions of the vertebral column from FHSM VP-2187 '''C.''' Vertebral centrum from ''C. mantelli'' '''D1-D2.''' Vertebral centrum from ''C. agassizensis'' '''E.''' Associated centra of ''C. cf. agassizensis'']]
+Like all mackerel sharks, ''Cretoxyrhina'' grew a growth ring in its vertebrae every year and is aged through measuring each band; due to the rarity of well-preserved vertebrae, only a few ''Cretoxyrhina'' individuals have been aged. In Shimada (1997), a linear equation for calculating the total body length of ''Cretoxyrhina'' using the centrum (the body of a vertebra) diameter of a vertebra was developed and is shown below, with {{var|TL}} representing total body length and {{var|CD}} representing centrum diameter (the diameter of each band).<ref name = ShimadaGrowth />
+
+{{math|big=1|''TL'' {{=}} 0.281 + 5.746''CD''}}
+
+Using this linear equation, measurements were first conducted on the best-preserved ''C. mantelli'' specimen, FHSM VP-2187, by Shimada (2008). The measurements showed a length of {{convert|1.28|m|ft|0|sp=us}} and weight of about {{convert|16.3|kg|lbs|0|sp=us}} at birth, and rapid growth in the first two years of life, doubling the length within 3.3 years. From then on, size growth became steady and gradual, growing a mean estimate of {{convert|21.1|cm|in|0|sp=us}} per year until its death at around 15 years of age, at which it had grown to {{convert|5|m|ft|0|sp=us}}. Using the [[Ludwig von Bertalanffy#Individual growth model|von Bertalanffy growth model]] on FHSM VP-2187, the maximum lifespan of ''C. mantelli'' was estimated to be 38.2 years. By that age, it would have grown over {{convert|7|m|ft|0|sp=us}} long. Based on allometric scaling of a great white shark, Shimada found that such individual would have weighed as much as {{convert|3400|kg|ton|sp=us}}.<ref name = ShimadaGrowth />
+
+A remeasurement conducted by Newbrey et al. (2013) found that ''C. mantelli'' and ''C. agassizensis'' reached sexual maturity at around four to five years of age and proposed a possible revision to the measurements of the growth rings in FHSM VP-2187. The lifespan of FHSM VP-2187 and maximum lifespan of ''C. mantelli'' was also proposed to be revised to 18 and 21 years respectively using the new measurements. A 2019 study led by Italian scientist Jacopo Amalfitano briefly measured the vertebrae from two ''C. mantelli'' fossils and found that the older individual died at around 26 years of age.<ref name=Amalfitanoetal /> Measurements were also conducted on other ''C. mantelli'' skeletons and a vertebra of ''C. agassizensis'', yielding results of similar rates of rapid growth in early stages of life.<ref name = Newbrey /> Such rapid growth within mere years could have helped ''Cretoxyrhina'' better survive by quickly phasing out of infancy and its vulnerabilities, as a fully grown adult would have few natural predators.<ref name = ShimadaGrowth /> The study also identified a syntype tooth of ''C. mantelli'' from England and calculated the individual's maximum length of {{convert|8|m|ft|sp=us}}, making the tooth the largest known specimen yet.<ref name= Newbrey />{{efn|This syntype is in the collection of the British Museum of Natural History cataloged as NHMUK PV OR 4498.<ref name=NHMUKsyntype>{{cite web|title=PV OR 4498|website=Natural History Museum Specimen Collection|date=2009-01-07|url=http://data.nhm.ac.uk/object/b18311d8-1722-4ae7-ae72-41ccd3e046b0|access-date=2019-02-02}}</ref> This was not mentioned in Newbrey et al. (2013).<ref name=Newbrey />}} When applying the allometric scaling used in Shimada (2008), a ''C. mantelli'' of such length would yield an estimated body mass of around {{convert|4944|kg|ton|sp=us}}<ref name=ShimadaGrowth /><ref name=Allometry>{{citation|author1=Henry F. Mollet|author2=Gregor M. Cailliet|title=Using allometry to predict body mass from linear measurements of the white shark|pages=81–89|publisher=Academic Press, San Diego|year=1996|url=http://www.jostimages.com/sharkarticles/mollet_cailliet_1996cha9.pdf}}</ref>
+
+The graph below represents the length growth per year of FHSM VP-2187 according to Shimada (2008){{efn|The chart is based only on vertebrae from FHSM VP-2187. It does not represent the genus ''Cretoxyrhina'' as a whole.<ref name=ShimadaGrowth />}}<ref name = ShimadaGrowth />
+{{Graph:Chart|width=600|height=200|xAxisTitle=BN (years)|yAxisTitle=Total Body Length (cm)|type=line|x=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15|y=127,153,222,246,275,305,317,351,375,399,422,440,458,478,495,500}}
+
+==Paleobiology==
+[[Image:Kansas sea2DB.jpg|thumb|upright|A ''Cretoxyrhina'' and two ''[[Squalicorax]]'' circling around a dead ''[[Claosaurus]]'']]
+
+===Prey relationships===
+The powerful kinetic jaws, high-speed capabilities, and large size of ''Cretoxyrhina'' suggest a very aggressive predator.<ref name=ShimadaSkeletal /><ref name=ShimadaPaleoecological /> ''Cretoxyrhina''{{'}}s association with a diverse number of fossils showing signs of devourment confirms that it was an active [[apex predator]] that fed on much of the variety of marine [[megafauna]] in the [[Late Cretaceous]].<ref name=ShimadaPaleoecological /><ref name=Sorensenetal>{{cite journal|author=Anne Sørensen, Finn Surlyk, and Johan Lindgren|title=Food resources and habitat selection of a diverse vertebrate fauna from the upper lower Campanian of the Kristianstad Basin, southern Sweden|year=2013|journal=[[Cretaceous Research]]|volume=42|pages=85–92|doi=10.1016/j.cretres.2013.02.002}}</ref> The highest trophic level it occupied was a position shared only with large mosasaurs such as ''Tylosaurus'' during the latter stages of the Late Cretaceous. It played a critical role in many marine ecosystems.<ref name=Sorensenetal />
+[[File:Pteranodon with Cretoxyrhina tooth.png|thumb|left|alt=Fossil of a pterosaur called ''Pteranodon'' with a closeup of the neck vertebra showing a shark tooth lodged inside it|''[[Pteranodon]]'' specimen with a tooth embedded in a neck vertebra]]
+''Cretoxyrhina'' mainly preyed on other active predators including [[Ichthyodectidae|ichthyodectids]] (a type of large fish that includes ''Xiphactinus''),<ref name=ShimadaPaleoecological /> plesiosaurs,<ref name=ShimadaPaleoecological /><ref name=EverhartElasmosaurus>{{Cite journal|author=Mike Everhart|title=Bite marks on an elasmosaur (Sauropterygia; Plesiosauria) paddle from the Niobrara Chalk (Upper Cretaceous) as probable evidence of feeding by the lamniform shark, ''Cretoxyrhina mantelli''|volume=2|issue=2|url=http://www.palarch.nl/wp-content/everhart_mj_bite_marks_on_an_elasmosaur_sauropterygia_plesiosauria_paddle_from_the_niobrara_chalk_upper_cretaceous_as_probable_evidence_of_feeding_by_the_lamniform_shark_cretoxyrhina_mantelli_palarchs.pdf|year=2005|journal=PalArch's Journal of Vertebrate Paleontology|access-date=2009-10-02|archive-url=https://web.archive.org/web/20110716064113/http://www.palarch.nl/wp-content/everhart_mj_bite_marks_on_an_elasmosaur_sauropterygia_plesiosauria_paddle_from_the_niobrara_chalk_upper_cretaceous_as_probable_evidence_of_feeding_by_the_lamniform_shark_cretoxyrhina_mantelli_palarchs.pdf|archive-date=2011-07-16|url-status=live}}</ref> turtles,<ref name=ShimadaProtostega>{{Cite journal|author=Kenshu Shimada and G. E. Hooks|title=Shark-bitten protostegid turtles from the Upper Cretaceous Mooreville Chalk, Alabama|year=2004|journal=Journal of Paleontology|volume=78 |pages=205–210 |doi=10.1666/0022-3360(2004)078<0205:SPTFTU>2.0.CO;2 }}</ref> mosasaurs,<ref name=ShimadaPaleoecological /><ref name=OOKBite>{{cite web|author=Mike Everhart|title=Parts is parts and pieces is pieces|url=http://oceansofkansas.com/bite.html|year=1999|website=Oceans of Kansas|access-date=2018-11-24|archive-url=https://web.archive.org/web/20180626113146/http://oceansofkansas.com/bite.html|archive-date=2018-06-26|url-status=live}}</ref><ref name=Ginsu /> and other sharks.<ref name=ShimadaPaleoecological /> Most fossils of ''Cretoxyrhina'' feeding upon other animals consist of large and deep bite marks and punctures on bones, occasionally with teeth embedded in them.<ref name=Ginsu /> Isolated bones of mosasaurs and other marine reptiles that have been partially dissolved by digestion, or found in [[coprolite]]s, are also examples of ''Cretoxyrhina'' feeding.<ref name=Ginsu /><ref name=OOKBite /> There are a few skeletons of ''Cretoxyrhina'' containing stomach contents known, including a large ''C. mantelli'' skeleton (KUVP 247) which possesses skeletal remains of the large ichthyodectid ''Xiphactinus'' and a mosasaur in its stomach region.<ref name=ShimadaPaleoecological /> ''Cretoxyrhina'' may have occasionally fed on [[pterosaurs]], evidenced by a set of cervical vertebrae of a ''[[Pteranodon]]'' from the Niobrara Formation with a ''C. mantelli'' tooth lodged deep between them. Although it cannot be certain if the fossil itself was a result of predation or scavenging, it was likely that ''Pteranodon'' and similar pterosaurs were natural targets for predators like ''Cretoxyrhina'', as they would routinely enter water to feed and thus be well within reach.<ref name=Witton2018>{{cite journal|author=Mark P. Witton|title=Pterosaurs in Mesozoic food webs: a review of fossil evidence|journal=Geological Society, London, Special Publications|volume=455|issue=1|pages=7–23|year=2018|doi=10.1144/SP455.3|bibcode=2018GSLSP.455....7W|s2cid=90573936}}</ref><ref name=Honeetal>{{cite journal|author=David W.E. Hone, Mark P. Witton, and Michael B. Habib|title=Evidence for the Cretaceous shark ''Cretoxyrhina mantelli'' feeding on the pterosaur ''Pteranodon'' from the Niobrara Formation|year=2018|journal=PeerJ|volume=6|issue=e6031|pages=e6031|doi=10.7717/peerj.6031|pmid=30581660|pmc=6296329}}</ref>
+
+Although ''Cretoxyrhina'' was mainly an active hunter, it was also an opportunistic feeder and may have scavenged from time to time. Many fossils with ''Cretoxyrhina'' feeding marks show no sign of healing, an indicator of a deliberate predatory attack on a live animal, leading to the possibility that at least some of the feeding marks were made from scavenging.<ref name=ShimadaPaleoecological /> Remains of partial skeletons of dinosaurs like ''[[Claosaurus]]'' and ''[[Niobrarasaurus]]'' show signs of feeding and digestion by ''C. mantelli''. They were likely scavenged carcasses swept into the ocean due to the paleogeographical location of the fossils being that of an open ocean.<ref name=EverhartandEwell>{{cite journal|author=Mike Everhart and Keith Ewell|title=Shark-bitten dinosaur (Hadrosauridae) caudal vertebrae from the Niobrara Chalk (Upper Coniacian) of western Kansas|year=2006|journal=Kansas Academy of Science|volume=109|pages=27–35|doi=10.1660/0022-8443(2006)109[27:SDHCVF]2.0.CO;2}}</ref><ref name=EverhartandHamm>{{cite journal|author=Mike J. Everhart and Shawn A. Hamm|title=A new nodosaur specimen (Dinosauria: Nodosauridae) from the Smoky Hill Chalk (Upper Cretaceous) of western Kansas|year=2005|journal=Kansas Academy of Science|volume=108|pages=15–21|doi=10.1660/0022-8443(2005)108[0015:ANNSDN]2.0.CO;2}}</ref>
+
+===Hunting strategies===
+[[File:Cretoxyrhina attacking Pteranodon.png|thumb|alt=Digital painting depicting a ''C. mantelli'' shark breaching to catch a ''Pteranodon'' pterosaur|Hypothetical restoration of ''C. mantelli'' breaching and attacking a ''Pteranodon'']]
+The hunting strategies of ''Cretoxyrhina'' are not well documented because many fossils with ''Cretoxyrhina'' feeding marks cannot be distinguished between predation or scavenging. If they were indeed a result of the former, that would mean that ''Cretoxyrhina'' most likely employed hunting strategies involving a main powerful and fatal blow similar to [[Aquatic feeding mechanisms|ram feeding]] seen in modern [[Carcharhinidae|requiem sharks]] and lamnids. A 2004 study by shark experts Vittorio Gabriotti and Alessandro De Maddalena observed that the modern great white shark reaching lengths of greater than {{convert|4|m|sp=us}} commonly ram its prey with massive velocity and strength to inflict single fatal blows, sometimes so powerful that prey would be propelled out of the water by the impact's force. As ''Cretoxyrhina'' possessed a robust stocky build capable of fast swimming, powerful kinetic jaws like the great white shark, and reaches lengths similar to or greater than it, a hunting style like this would be likely.<ref name=EverhartElasmosaurus />
+
+==Paleoecology==
+===Range and distribution===
+[[File:Cretodus crassidens e Protosphargis veronensis.jpg|thumb|left|upright=1.25|alt=Associated fossil of a ''Cretodus'' shark and a ''Protosphargis'' sea turtle from the Cretaceous of Italy|The subtropical regions of the Late Cretaceous that ''Cretoxyrhina'' inhabited were dominated by sharks and turtles like the ''[[Cretodus]]'' and ''[[Protosphargis]]'' in this fossil.]]
+''Cretoxyrhina'' had a [[cosmopolitan distribution]] with fossils having been found worldwide. Notable locations include North America, Europe,<ref name=Zalmout>{{cite journal|title=A selachian fauna from the Late Cretaceous of Jordan|last1=Zalmout|first1=Iyad S. |last2=Mustafa |first2=Hakam|journal=Abhath Al-Yarmouk|volume=10|issue=2B|pages=377–343|url=https://www.researchgate.net/publication/233965886|year=2001}}</ref> Israel,<ref name=Retzleretal>{{cite journal|author=Andrew Retzler, Mark A. Wilson, and Yoav Avnib|title=Chondrichthyans from the Menuha Formation (Late Cretaceous: Santonian–Early Campanian) of the Makhtesh Ramon region, southern Israel|year=2012|journal=Cretaceous Research|volume=40|pages=81–89|doi=10.1016/j.cretres.2012.05.009}}</ref> and Kazakhstan.<ref name=SiversonVracon /> ''Cretoxyrhina'' mostly occurred in [[temperate climate|temperate]] and [[subtropics|subtropical]] zones.<ref name= SiversonandLindgren /> It has been found in latitudes as far north as [[55th parallel north|55° N]], where paleoclimatic estimates calculate an average sea surface temperature of {{convert|5–10|C|F|sp=us}}. Fossils of ''Cretoxyrhina'' are most well known in the [[Western Interior Seaway]] area,<ref name=Retzleretal /> which is now the central United States and Canada.<ref name=Cumbaaetal>{{cite journal|author=Stephen L. Cumbaa, Kenshu Shimada, and Todd D. Cook|title=Mid-Cenomanian vertebrate faunas of the Western Interior Seaway of North America and their evolutionary, paleobiogeographical, and paleoecological implications|year=2010|journal=[[Palaeogeography, Palaeoclimatology, Palaeoecology]]|volume=295|issue=1–2|pages=199–214|doi=10.1016/j.palaeo.2010.05.038|bibcode=2010PPP...295..199C}}</ref> During a speech in 2012, Mikael Siverson noted that ''Cretoxyrhina'' individuals living offshore were usually larger than those inhabiting the Western Interior Seaway, some of the offshore ''C. mantelli'' fossils yielding total lengths of up to {{convert|8|m|ft|0|sp=us}}, possibly {{convert|9|m|ft|0|sp=us}}.<ref name=Siverson2012speech>{{cite podcast|host=Mikael Siverson|title=Lamniform Sharks: 110 Million Years of Ocean Supremacy|publisher=[[Royal Tyrrell Museum of Palaeontology]]|website=YouTube|year=2012|url=https://www.youtube.com/watch?v=tAj9t0v06G8
+| archive-url=https://ghostarchive.org/varchive/youtube/20211114/tAj9t0v06G8| archive-date=2021-11-14 | url-status=live|access-date=2018-11-24}}{{cbignore}}</ref>
+
+====Habitat====
+''Cretoxyrhina'' inhabited mainly temperate to subtropical pelagic oceans. A tooth of ''Cretoxyrhina'' found in the Horseshoe Canyon Formation in Alberta (a formation where the only water deposits found consist of brackish water and no oceans) suggests that it may have, on occasion, swum into partially fresh-water estuaries and similar bodies of water. However, a rework from an underlying layer may be a more likely explanation of such occurrence.<ref name=MurrayandCook>{{cite journal|title=Overview of the Late Cretaceous fishes of the Northern Western Interior Seaway|author=Alison M. Murray and Todd D. Cook|year=2016|journal=Cretaceous Period: Biotic Diversity and Biogeography|pages=255–261|volume=71|url=https://www.researchgate.net/publication/304012397|access-date=2018-12-30|archive-url=https://web.archive.org/web/20181230233320/https://www.researchgate.net/publication/304012397_Overview_of_the_Late_Cretaceous_fishes_of_the_northern_Western_Interior_Seaway|archive-date=2018-12-30|url-status=live}}</ref> The climate of marine ecosystems during the temporal range of ''Cretoxyrhina'' was generally much warmer than modern day due to higher atmospheric levels of [[carbon dioxide]] and other [[greenhouse gas]]es influenced by the shape of the continents at the time.<ref name=Friedrichetal>{{cite journal|author=Oliver Friedrich, Richard D. Norris, and Jochen Erbacher|title=Evolution of middle to Late Cretaceous oceans&nbsp;– A 55 m.y. record of Earth's temperature and carbon cycle|journal=[[Geology (journal)|Geology]]|volume=40|issue=2|pages=107–110|year=2012|doi=10.1130/G32701.1|bibcode=2012Geo....40..107F}}</ref>
+
+The interval during the Cenomanian and Turonian of 97–91 Ma saw a peak in sea surface temperatures averaging over {{convert|35|C|F|sp=us}} and bottom water temperatures around {{convert|20|C|F|sp=us}}, about {{convert|7–8|C-change|F-change|sp=us}} warmer than modern day.<ref name=Friedrichetal /> Around this time, ''Cretoxyrhina'' coexisted with a radiating increase in diversity of fauna like mosasaurs.<ref name=Bardetetal>{{cite journal|author= Nathalie Bardet, Alexandra Houssaye, Jean-Claude Rage, and Xabier Pereda Suberbiola|title=The Cenomanian-Turonian (late Cretaceous) radiation of marine squamates (Reptilia): the role of the Mediterranean Tethys|year= 2008|journal=[[Bulletin de la Société Géologique de France]]|volume=179|issue=6|pages=605–622|doi=10.2113/gssgfbull.179.6.605}}</ref> This interval also included a rise in global [[δ13C|δ<sup>13</sup>C]] levels, which marks significant depletion of oxygen in the ocean, and caused the [[Cenomanian-Turonian anoxic event]].<ref name=Friedrichetal /> Although this event led to the extinction of as much as 27% of marine invertebrates,<ref name="newscientist1">{{cite web|url=https://www.newscientist.com/article/mg19926655.300-submarine-eruption-bled-earths-oceans-of-oxygen.html|title=Submarine eruption bled Earth's oceans of oxygen|date=2008-06-16|author=In Brief|publisher=New Scientist|access-date=2018-11-24|archive-url=https://web.archive.org/web/20140106040311/http://www.newscientist.com/article/mg19926655.300-submarine-eruption-bled-earths-oceans-of-oxygen.html|archive-date=2014-01-06|url-status=live}}</ref> vertebrates like ''Cretoxyrhina'' were generally unaffected.<ref name=Albrightetal>{{cite journal|author=L. Barry Albright III, David D. Gillette, and Alan L. Titus|title=Plesiosaurs from the Upper Cretaceous (Cenomanian-Turonian) tropic shale of southern Utah, Part 1: New records of the pliosaur ''Brachauchenius lucasi''|year=2007|journal=Journal of Vertebrate Paleontology|volume=27|pages=31–40|doi=10.1671/0272-4634(2007)27[31:PFTUCC]2.0.CO;2}}</ref> The rest of the Cretaceous saw a progressive global cooling of earth's oceans, leading to the appearance of temperate ecosystems and possible glaciation by the Early Maastrichtian.<ref name=Friedrichetal /> Subtropical areas retained high biodiversity of all taxa, while temperate ecosystems generally had much lower diversity. In North America, subtropical provinces were dominated by sharks, turtles, and mosasaurs such as ''Tylosaurus'' and ''[[Clidastes]]'', while temperate provinces were mainly dominated by plesiosaurs, [[hesperornithes|hesperornithid seabirds]], and the mosasaur ''[[Platecarpus]]''.<ref name=NichollsandRussel>{{cite journal|author=Elizabeth L. Nicholls and Anthony P. Russel|title=Paleobiogeography of the Cretaceous Western Interior Seaway of North America: the vertebrate evidence|journal=Palaeogeography, Palaeoclimatology, Palaeoecology|volume=79|issue=1–2|pages=149–169|year=1990|doi=10.1016/0031-0182(90)90110-S|bibcode=1990PPP....79..149N}}</ref>
+
+{{Location map+ | World
+| AlternativeMap=Land shallow topo 2048.jpg
+| relief  = 1
+| width   = 800
+| float   = center
+| caption = Select localities where ''Cretoxyrhina'' fossils have been found. ''C. vraconensis'' in green, ''C. denticulata'' in red, ''C. agassizensis'' in blue, ''C. mantelli'' in yellow, and ''C. sp.'' in grey.{{efn|This map shows only select localities mentioned in scientific literature. It does not represent all findings of ''Cretoxyrhina''.}}<ref name=Fossilworks>{{fossilworks|id=34609|title=''Cretoxyrhina''}}</ref><ref name=Newbrey /><ref name=SiversonandLindgren /><ref name=Diedrich /><ref name=Cumbaaetal /><ref name=SiversonVracon /><ref name=Ekertetal>{{cite journal|author1=Boris Ekrt|author2=Martin Košt'ák|author3=Martin Mazuch|author4=Silke Voigt|author5=Frank Wiese|title=New records of teleosts from the Late Turonian (Late Cretaceous) of the Bohemian Cretaceous Basin (Czech Republic)|year=2008|journal=Cretaceous Research|volume=29|issue=4|pages=659–673|doi=10.1016/j.cretres.2008.01.013}}</ref><ref name=Siverson1996>{{cite journal|title=Lamniform sharks of the Mid Cretaceous Alinga Formation and Beedagong Claystone, Western Australia|author=Mikael Siverson|journal=Palaeontology|volume=39|issue=4|pages=813–849|year=1996|url=https://www.palass.org/sites/default/files/media/publications/palaeontology/volume_39/vol39_part4_pp813-849.pdf}}</ref><ref name=McIntoshetal>{{cite journal|author1=Annie P. McIntosh|author2=Kenshu Shimada|author3=Michael J. Everhart|title=Late Cretaceous Marine Vertebrate Fauna from the Fairport Chalk Member of the Carlile Shale in Southern Ellis County, Kansas, U.S.A.|year=2016|journal=Transactions of the Kansas Academy of Science|volume=119|issue=2|pages=222–230|doi=10.1660/062.119.0214|s2cid=88452573}}</ref><ref name=Underwood /><ref name=Gallardoetal>{{cite journal|author1=Christopher Gallardo|author2=Kenshu Shimada|author3=Bruce A. Shumacher|title=A New Late Cretaceous Marine Vertebrate Assemblage from the Lincoln Limestone Member of the Greenhorn Limestone in Southeastern Colorado|year=2013|journal=Transactions of the Kansas Academy of Science|volume=115|issue=3–4|pages=107–116|doi=10.1660/062.115.0303|s2cid=86258761}}</ref><ref name=Zelenkovetal>{{cite journal|author1=Nikita V. Zelenkov|author2=Alexander O. Averianov|author3=Evgeny V. Popov|title=An ''Ichthyornis''-like bird from the earliest Late Cretaceous (Cenomanian) of European Russia|year=2017|journal=Cretaceous Research|volume=75|issue=1|pages=94–100|doi=10.1016/j.cretres.2017.03.011}}</ref><ref name=Panteleyevetal>{{cite journal|author1=Andrei V. Panteleyev|author2=Evgenii V. Popov|author3=Alexander O. Averianov|title=New record of ''Hesperornis rossicus'' (Aves, Hesperornithiformes) in the Campanian of Saratov Province, Russia|journal=Paleontological Research|volume=8|issue=2|year=2004|pages=115–122|doi=10.2517/prpsj.8.115|doi-access=free}}</ref><ref name=Misakietal>{{cite journal|author1=Akihiro Misaki|author2=Hideo Kadota|author3=Haruyoshi Maeda|title=Discovery of mid-Cretaceous ammonoids from the Aridagawa area, Wakayama, southwest Japan|year=2008|volume=12|issue=1|journal=Paleontological Research|pages=19–26|doi=10.2517/1342-8144(2008)12[19:DOMAFT]2.0.CO;2}}</ref><ref name=Amalfitanoetal /><ref name=SiversonandMachalski>{{cite journal|author=Mikael Siverson and Marcin Machalski|title=Late late Albian (Early Cretaceous) shark teeth from Annopol, Pol|year=2017|journal=Alcheringa: An Australasian Journal of Palaeontology|volume=41|issue=4|pages=433–463|doi=10.1080/03115518.2017.1282981|s2cid=133123002}}</ref><ref name=CretoxyrhinaMexico>{{cite journal|title=Fossil fish assemblages of northeastern Mexico: New evidence of Mid Cretaceous Actinopterygian radiation|author1=Samuel Giersch|author2=Eberhard Frey|author3=Wolfgang Stinnesbeck|author4=Arturo H. Gonzalez|journal=6th Meeting of the European Association of Vertebrate Paleontologists|year=2008|pages=43–45|url=http://doc.rero.ch/record/210377/files/PAL_E4393.pdf#page=43}}</ref><ref name=kitamura>{{cite journal|author=Naoshu Kitamura|title=Features and paleoecological significance of the shark fauna from the Upper Cretaceous Hinoshima Formation, Himenoura Group, Southwest Japan|year=2019|journal=Paleontological Research|volume=23|issue=2|pages=110–130|doi=10.2517/2014PR020|s2cid=129036582|url=http://www.palaeo-soc-japan.jp/publications/pr/2018PR013_Kitamura.pdf}}</ref><ref name=Mateusetal>{{cite journal|author1=Octávio MateusI|author2=Louis L. Jacobs|author3=Anne S. Schulp|author4=Michael J. Polcyn|author5=Tatiana S. Tavares|author6=André Buta Neto|author7=Maria Luísa Morais|author8=Miguel T. Antunes|title=Angolatitan adamastor, a new sauropod dinosaur and the first record from Angola|journal=Anais da Academia Brasileira de Ciências|volume=83|issue=1|pages=221–233|year=2011|doi=10.1590/S0001-37652011000100012|pmid=21437383|url=http://www.scielo.br/pdf/aabc/v83n1/v83n1a12.pdf|doi-access=free}}</ref><ref name=Guinot>{{cite journal|author1=Guillaume Guinot|author2=Jorge D. Carrillo-Briceno|title=Lamniform sharks from the Cenomanian (Upper Cretaceous) of Venezuela|year=2017|journal=Cretaceous Research|volume=82|issue=2018|pages=1–20|url=https://www.zora.uzh.ch/id/eprint/141659/1/Guinot_and_Carrillo,_2017._Cretaceous_sharks_from_Venezuela-1.pdf|doi=10.1016/j.cretres.2017.09.021}}</ref>
+| places  =
+<!--C. sp.-->
+{{Location map~ | World
+  | coordinates ={{Coord|10.8|S|37.2|W}}
+  | mark = Steel pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|34.1|N|135.3|E}}
+  | mark = Steel pog.svg
+  | marksize = 7
+  }}
+
+<!--C. vraconensis-->
+{{Location map~ | World
+  | coordinates ={{Coord|51.1|N|1.2|E}}
+  | mark = Lightgreen pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|32|N|97|W}}
+  | mark = Lightgreen pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|43.6|N|53.7|E}}
+  | mark = Lightgreen pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|50.9|N|21.8|E}}
+  | mark = Lightgreen pog.svg
+  | marksize = 7
+  }}
+<!--C. denticulata-->
+{{Location map~ | World
+  | coordinates ={{Coord|50|N|45|E}}
+  | mark = Red pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|53.4|N|101|W}}
+  | mark = Red pog.svg
+  | marksize = 7
+  }}
+<!--C. agassizensis-->
+{{Location map~ | World
+  | coordinates ={{Coord|53.4|N|101|W}}
+  | mark = Turquoise pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|38.9|N|99.3|W}}
+  | mark = Turquoise pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|27.3|S|115|E}}
+  | mark = Turquoise pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|37.2|N|104.5|W}}
+  | mark = Turquoise pog.svg
+  | marksize = 7
+  }}
+<!--C. mantelli-->
+{{Location map~ | World
+  | coordinates ={{Coord|4.0|S|11.7|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|45.1|N|1.2|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|31.2|N|35.7|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|56.8|N|12.6|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|56.1|N|14.4|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|56.1|N|13.8|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|53.1|N|103|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|32.4|N|87.2|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|31.4|N|87.8|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|37.0|N|102.7|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|37.3|N|103.1|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|38.7|N|100.3|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|39.0|N|98.9|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|38.7|N|100.7|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|39.1|N|99.2|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|38.6|N|98.5|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|39.0|N|100.5|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|40.0|N|74.0|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|47.0|N|107.9|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|50.0|N|0|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|52|N|8.5|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|46|N|12|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|51.7|N|45.3|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|45.6|N|10.9|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|50.5|N|14.1|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|27|N|101|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|31.3|S|115.9|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|37|N|140.9|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|35.5|N|107.3|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|9|N|70|W}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+{{Location map~ | World
+  | coordinates ={{Coord|8|S|13|E}}
+  | mark = Yellow pog.svg
+  | marksize = 7
+  }}
+}}
+
+===Competition===
+''Cretoxyrhina'' lived alongside many predators that shared a similar trophic level in a diverse pelagic ecosystem during the Cretaceous.<ref name=Sorensenetal /> Most of these predators included large marine reptiles, some of which already occupied the highest trophic level when ''Cretoxyrhina'' first appeared.<ref name=Hampe>{{cite journal|author=Oliver Hampe|title=Considerations on a ''Brachauchenius'' skeleton (Pliosauroidea) from the lower Paja Formation (late Barremian) of Villa de Leyva area (Colombia)|year=2005|journal= Mitteilungen aus dem Museum für Naturkunde in Berlin, Geowissenschaftliche Reihe|volume=8|pages=37–51|doi=10.1002/mmng.200410003}}</ref> During the Albian to Turonian, about 107 to 91 Ma, ''Cretoxyrhina'' was contemporaneous and coexisted with Mid-Cretaceous pliosaurs. Some of these pliosaurs included ''[[Megacephalosaurus]]'', which attained lengths of {{convert|9|m|ft|sp=us}}.<ref name=Schumacheretal>{{cite journal|author=Bruce A. Schumacher, Kenneth Carpenter, and Michael J. Everhart|title=A new Cretaceous Pliosaurid (Reptilia, Plesiosauria) from the Carlile Shale (middle Turonian) of Russell County, Kansas|year=2013|journal=Journal of Vertebrate Paleontology|volume=33|issue=3|pages=613–628|doi=10.1080/02724634.2013.722576|s2cid=130165209}}</ref> By the Mid-Turonian, about 91 Ma, pliosaurs became extinct.<ref name=Albrightetal /><ref name=ShimadaandYstesund>{{cite journal|author=Kenshu Shimada and Tracy K. Ystesund|title=A dolichosaurid lizard, ''Coniasaurus cf. C. crassidens'', from the Upper Cretaceous Carlile Shale in Russell County, Kansas|year=2007|volume=110|issue=3 & 4|pages=236–242|journal=Transactions of the Kansas Academy of Science|doi=10.1660/0022-8443(2007)110[236:ADLCCC]2.0.CO;2}}</ref> It is thought that the radiation of sharks like ''Cretoxyrhina'' may have been a major contributing factor to the acceleration of their extinction.<ref name=Ekrtetal>{{cite journal|author=Boris Ekrt, Martin Košťák, Martin Mazuch, J. Valiceck|title=Short note on new records of late Turonian (Upper Cretaceous) marine reptile remains from the Upohlavy quarry (NW Bohemia, Czech Republic)|volume=76|issue=2|pages=101–106|year=2001|url=https://www.researchgate.net/publication/236130213|journal=Bulletin of the Czech Geological Survey}}</ref> The ecological void they left was quickly filled by emerging mosasaurs, which also came to occupy the highest trophic levels.<ref name=EverhartEvo>{{cite journal|author=Michael Everhart|title=Rapid evolution, diversification and distribution of mosasaurs (Reptilia; Squamata) prior to the KT Boundary|url=https://www.researchgate.net/publication/297758947|journal=Tate 2005 11th Annual Symposium in Paleontology and Geology}}</ref> Large mosasaurs like ''Tylosaurus'', which reached in excess of {{convert|14|m|ft|sp=us}} in length,<ref name=BourdonAndEverhart /> may have competed with ''Cretoxyrhina'', and evidence of interspecific interactions such as bite marks from either have been found.<ref name=ShimadaPaleoecological /> There were also many sharks that
+occupied a similar ecological role with ''Cretoxyrhina'' such as the [[Cardabiodontidae|cardabiodontids]] ''[[Cardabiodon]]''<ref name=Newbrey /> and ''[[Dwardius]]'', the latter showing evidence of direct competition with ''C. vraconensis'' based on intricate distribution patterns between the two.<ref name=SiversonandMachalski />
+
+A 2010 study by paleontologists Corinne Myers and Bruce Lieberman on competition in the Western Interior Seaway used quantitative analytical techniques based on [[Geographical information system]]s and tectonic reconstructions to reconstruct the hypothetical competitive relationships between ten of the most prevalent and abundant marine vertebrates of the region, including ''Cretoxyrhina''. Their calculations found negative correlations between the distribution of ''Cretoxyrhina'' and the three potential competitors ''Squalicorax kaupi'', ''Tylosaurus proriger'', and ''Platecarpus spp.''; a statistically significant negative correlation implies that the distribution of one species was affected due to being outcompeted by another. However, none of the relationships were statistically significant, which instead indicates that the trends were unlikely the result of competition.<ref name=MyersandLieberman>{{cite journal|author=Corinne Myers and Bruce Lieberman|title=Sharks that pass in the night: using Geographical Information Systems to investigate competition in the Cretaceous Western Interior Seaway|year=2010|journal=Proceedings of the Royal Society B|volume=278|issue=1706|pages=681–689|doi=10.1098/rspb.2010.1617|pmid=20843852|pmc=3030853}}</ref>
+
+===Extinction===
+[[File:Bunker Tylosaur.png|thumb|upright=1.5|alt=Skeleton of ''Tylosaurus proriger'' from the Academy of Natural Sciences in Philadelphia|Increasing pressure from competition with predators like ''[[Tylosaurus]]'' may have contributed to the decline and extinction of ''Cretoxyrhina''.]]
+The causes of the extinction of ''Cretoxyrhina'' are uncertain. What is known is that it declined slowly over millions of years.<ref name=SiversonandLindgren /> Since its peak in size during the Coniacian, the size<ref name=ShimadaStrat /> and distribution<ref name=SiversonandLindgren /> of ''Cretoxyrhina'' fossils gradually declined until its eventual demise during the Campanian.<ref name=ShimadaStrat /> Siverson and Lindgren (2005) noted that the age of the youngest fossils of ''Cretoxyrhina'' differed between continents. In Australia, the youngest ''Cretoxyrhina'' fossils were dated approximately 83 Ma during the Santonian, while the youngest North American fossils known at the time (which were dated in the Early Campanian) were at least two million years older than the youngest fossils in Europe. The differences between ages suggests that ''Cretoxyrhina'' may have become [[local extinction|locally extinct]] in such areas over time until the genus as a whole went extinct.<ref name=SiversonandLindgren />
+
+It has been noted that the decline of ''Cretoxyrhina'' coincides with the rise of newer predators such as ''Tylosaurus'', suggesting that increasing pressure from competition with the mosasaur and other predators of similar trophic levels may have played a major contribution to ''Cretoxyrhina'' 's decline and eventual extinction. Another possible factor was the gradual shallowing and shrinking of the Western Interior Seaway, which would have led to the disappearance of the pelagic environments preferred by the shark; this factor does not explain the decline and extinction of ''Cretoxyrhina'' elsewhere.<ref name=BourdonAndEverhart /> It has been suggested that the extinction of ''Cretoxyrhina'' may have helped the further increase the diversity of mosasaurs.<ref name=EverhartEvo />
+
+==See also==
+{{Portal|Paleontology|Sharks}}
+* [[Prehistoric fish]]
+* [[List of prehistoric cartilaginous fish]]
+
+==Notes==
+{{notelist|30em}}
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Commons category|Cretoxyrhina}}
+* [http://animals.nationalgeographic.com/animals/prehistoric/cretoxyrhina.html Fact File from ''National Geographic'']
+* [http://oceansofkansas.com/sharks.html Large Sharks in the Western Interior Sea]
+
+{{Shark nav}}
+{{Taxonbar|from=Q620515}}
+
+{{featured article}}
+
+[[Category:Cretoxyrhinidae]]
+[[Category:Albian genus first appearances]]
+[[Category:Campanian genus extinctions]]
+[[Category:Cretaceous sharks]]
+[[Category:Late Cretaceous fish of Asia]]
+[[Category:Cretaceous fish of Europe]]
+[[Category:Late Cretaceous fish of North America]]
+[[Category:Mooreville Chalk]]
+[[Category:Fossil taxa described in 1843]]
+[[Category:Fossil taxa described in 1958]]

@@ -1,0 +1,110 @@
+{{short description|Diagram used to show relations among groups of organisms with common origins}}
+{{Self reference|For help on how to use cladograms in Wikipedia, see [[Help:Cladograms]]}}
+[[File:Cladogram-example1.svg|thumb|250px|A horizontal cladogram, with the root to the left]]
+[[File:Identical cladograms.svg|thumb|250px|Two vertical cladograms, the root at the bottom]] 
+A '''cladogram''' (from [[Greek language|Greek]] ''clados'' "branch" and ''gramma'' "character") is a diagram used in [[cladistics]] to show relations among organisms. A cladogram is not, however, an [[Phylogenetic tree|evolutionary tree]] because it does not show how ancestors are related to descendants, nor does it show how much they have changed, so many differing evolutionary trees can be consistent with the same cladogram.<ref name=mayr>{{cite journal |doi=10.1111/j.1439-0469.1974.tb00160.x |title=Cladistic analysis or cladistic classification? |journal=Journal of Zoological Systematics and Evolutionary Research |volume=12 |pages=94–128 |year=2009 |last1=Mayr |first1=Ernst }}</ref><ref name=Foote>{{cite journal |first1=Mike |last1=Foote |date=Spring 1996 |title=On the Probability of Ancestors in the Fossil Record |journal=Paleobiology |volume=22 |issue=2 |pages=141–51 |jstor=2401114|doi=10.1017/S0094837300016146 }}</ref><ref name=Dayrat>{{cite journal |first1=Benoît |last1=Dayrat |date=Summer 2005 |title=Ancestor-Descendant Relationships and the Reconstruction of the Tree of Life |journal=Paleobiology |volume=31 |issue=3 |pages=347–53 |jstor=4096939 |doi=10.1666/0094-8373(2005)031[0347:aratro]2.0.co;2}}</ref><ref name=PC>{{cite journal |doi=10.1016/S0169-5347(00)02026-7 |title=Intraspecific gene genealogies: Trees grafting into networks |journal=Trends in Ecology & Evolution |volume=16 |pages=37–45 |year=2001 |last1=Posada |first1=David |last2=Crandall |first2=Keith A. |issue=1 |pmid=11146143 |author-link2=Keith A. Crandall}}</ref><ref name=Podani>{{cite journal |doi=10.1111/j.1096-0031.2012.00423.x |title=Tree thinking, time and topology: Comments on the interpretation of tree diagrams in evolutionary/phylogenetic systematics |journal=Cladistics |volume=29 |issue=3 |pages=315–327 |year=2013 |last1=Podani |first1=János |pmid=34818822 |s2cid=53357985 |url=http://real.mtak.hu/9727/1/PodaniOnTreesFINAL.pdf }}</ref>  A cladogram uses lines that branch off in different directions ending at a [[clade]], a group of organisms with a [[last common ancestor]]. There are many shapes of cladograms but they all have lines that branch off from other lines.  The lines can be traced back to where they branch off.  These branching off points represent a hypothetical ancestor (not an actual entity) which can be inferred to exhibit the traits shared among the terminal taxa above it.<ref name=PC /><ref name=sc>{{cite book |first1=Randall T. |last1=Schuh |year=2000 |title=Biological Systematics: Principles and Applications |isbn=978-0-8014-3675-8}}{{page needed|date=March 2015}}</ref>  This hypothetical ancestor might then provide clues about the order of evolution of various features, adaptation, and other evolutionary narratives about ancestors.  Although traditionally such cladograms were generated largely on the basis of morphological characters, [[DNA]] and [[RNA]] sequencing data and [[computational phylogenetics]] are now very commonly used in the generation of cladograms, either on their own or in combination with morphology.
+
+==Generating a cladogram==
+{{refimprove section|date=April 2016}}
+
+===Molecular versus morphological data===
+
+The characteristics used to create a cladogram can be roughly categorized as either morphological (synapsid skull, warm blooded, [[notochord]], unicellular, etc.) or molecular (DNA, RNA, or other genetic information).<ref name="DeSalle">{{cite book |last=DeSalle |first=Rob |year=2002 |title=Techniques in Molecular Systematics and Evolution |publisher=Birkhauser |isbn=978-3-7643-6257-7}}{{page needed|date=March 2015}}</ref> Prior to the advent of DNA sequencing, cladistic analysis primarily used morphological data.  Behavioral data (for animals) may also be used.<ref name="Wenzel">{{cite journal |last=Wenzel |first=John W. |year=1992  |title=Behavioral homology and phylogeny  |journal=Annu. Rev. Ecol. Syst. |volume=23 |pages=361–381 |doi=10.1146/annurev.es.23.110192.002045}}</ref>
+
+As [[DNA sequencing]] has become cheaper and easier, [[molecular systematics]] has become a more and more popular way to infer phylogenetic hypotheses.<ref>{{cite book |last=Hillis|first=David|title=Molecular Systematics |year=1996 |publisher=Sinaur|isbn=978-0-87893-282-5 |author-link=David Hillis}}{{page needed|date=March 2015}}</ref> Using a parsimony criterion is only one of several methods to infer a phylogeny from molecular data. Approaches such as [[maximum likelihood]], which incorporate explicit models of sequence evolution, are non-Hennigian ways to evaluate sequence data. Another powerful method of reconstructing phylogenies is the use of genomic [[retrotransposon marker]]s, which are thought to be less prone to the problem of [[reversion (genetics)|reversion]] that plagues sequence data. They are also generally assumed to have a low incidence of homoplasies because it was once thought that their integration into the [[genome]] was entirely random; this seems at least sometimes not to be the case, however.
+
+[[Image:Cladistics-Apomorphy.png|thumb|250px|[[Apomorphy]] in cladistics.  This diagram indicates "A" and "C" as ancestral states, and "B", "D" and "E" as states that are present in terminal taxa.  Note that in practice, ancestral conditions are not known ''a priori'' (as shown in this heuristic example), but must be inferred from the pattern of shared states observed in the terminals.  Given that each terminal in this example has a unique state, in reality we would not be able to infer anything conclusive about the ancestral states (other than the fact that the existence of unobserved states "A" and "C" would be unparsimonious inferences!)]]
+
+===Plesiomorphies and synapomorphies===
+
+Researchers must decide which character states are "ancestral" (''[[plesiomorphy|plesiomorphies]]'') and which are derived (''[[synapomorphy|synapomorphies]]''), because only synapomorphic character states provide evidence of grouping.<ref>{{cite book |last=Hennig |first=Willi |title=Phylogenetic Systematics |year=1966 |publisher=University of Illinois Press |author-link=Willi Hennig}}</ref>  This determination is usually done by comparison to the character states of one or more ''outgroups''.  States shared between the outgroup and some members of the in-group are symplesiomorphies; states that are present only in a subset of the in-group are synapomorphies.  Note that character states unique to a single terminal (autapomorphies) do not provide evidence of grouping.  The choice of an outgroup is a crucial step in cladistic analysis because different outgroups can produce trees with profoundly different topologies.
+
+===Homoplasies===
+
+A [[homoplasy]] is a character state that is shared by two or more taxa due to some cause ''other'' than common ancestry.<ref>{{cite book |last=West-Eberhard|first=Mary Jane| author-link=Mary Jane West-Eberhard | title=Developmental Plasticity and Evolution |url=https://archive.org/details/developmentalpla00west|url-access=limited|pages=[https://archive.org/details/developmentalpla00west/page/n373 353]–376| year=2003 |publisher=Oxford Univ. Press | isbn=978-0-19-512235-0 }}</ref> The two main types of homoplasy are convergence (evolution of the "same" character in at least two distinct lineages) and reversion (the return to an ancestral character state). Characters that are obviously homoplastic, such as white fur in different lineages of Arctic mammals, should not be included as a character in a phylogenetic analysis as they do not contribute anything to our understanding of relationships.  However, homoplasy is often not evident from inspection of the character itself (as in DNA sequence, for example), and is then detected by its incongruence (unparsimonious distribution) on a most-parsimonious cladogram.  Note that characters that are homoplastic may still contain [[phylogenetic signal]].<ref>{{cite journal|doi=10.1111/j.1096-0031.1999.tb00400.x|title=Homoplasy Increases Phylogenetic Structure|journal=Cladistics|volume=15|pages=91–93|year=1999|last1=Kalersjo|first1=Mari|last2=Albert|first2=Victor A.|last3=Farris|first3=James S.|s2cid=85905559}}</ref>
+
+A well-known example of homoplasy due to convergent evolution would be the character, "presence of wings". Although the wings of birds, [[bat]]s, and insects serve the same function, each evolved independently, as can be seen by their [[anatomy]]. If a bird, bat, and a winged insect were scored for the character, "presence of wings", a homoplasy would be introduced into the dataset, and this could potentially confound the analysis, possibly resulting in a false hypothesis of relationships.  Of course, the only reason a homoplasy is recognizable in the first place is because there are other characters that imply a pattern of relationships that reveal its homoplastic distribution.
+
+===What is not a cladogram===
+{{Refimprove section|date=January 2021}}
+A cladogram is the diagrammatic result of an analysis, which groups taxa on the basis of synapomorphies alone.  There are many other phylogenetic algorithms that treat data somewhat differently, and result in phylogenetic trees that look like cladograms but are not cladograms.  For example, phenetic algorithms, such as UPGMA and Neighbor-Joining, group by overall similarity, and treat both synapomorphies and symplesiomorphies as evidence of grouping,  The resulting diagrams are phenograms, not cladograms,  Similarly, the results of model-based methods (Maximum Likelihood or Bayesian approaches) that take into account both branching order and "branch length," count both synapomorphies and autapomorphies as evidence for or against grouping,  The diagrams resulting from those sorts of analysis are not cladograms, either.<ref>{{cite journal|doi=10.1111/cla.12144|title=What is a cladogram and what is not?|journal=Cladistics|volume=32|issue=5|pages=573–576|year=2016|last1=Brower|first1=Andrew V.Z.|pmid=34740305|s2cid=85725091}}</ref>
+
+===Cladogram selection===
+There are several [[algorithms]] available to identify the "best" cladogram.<ref>
+{{cite book|
+title=Cladistics: The Theory and Practice of Parsimony Analysis |
+last=Kitching | first=Ian|
+isbn=978-0-19-850138-1|
+year=1998|
+publisher=Oxford University Press
+}}{{page needed|date=March 2015}}
+</ref> Most algorithms use a [[Metric (mathematics)|metric]] to measure how consistent a candidate cladogram is with the data. Most cladogram algorithms use the mathematical techniques of [[Optimization (mathematics)|optimization]] and minimization.
+
+In general, cladogram generation algorithms must be implemented as computer programs, although some algorithms can be performed manually when the data sets are modest (for example, just a few species and a couple of characteristics).
+
+Some algorithms are useful only when the characteristic data are molecular (DNA, RNA); other algorithms are useful only when the characteristic data are morphological. Other algorithms can be used when the characteristic data includes both molecular and morphological data.
+
+Algorithms for cladograms or other types of phylogenetic trees include [[least squares]], [[neighbor-joining]], [[Maximum_parsimony_(phylogenetics)|parsimony]], [[maximum likelihood]], and [[Bayesian inference]].
+
+Biologists sometimes use the term [[Maximum parsimony (phylogenetics)|parsimony]] for a specific kind of cladogram generation algorithm and sometimes as an umbrella term for all phylogenetic algorithms.<ref>{{cite journal |doi=10.1038/361603a0 |pmid=8437621 |title=The powers and pitfalls of parsimony |journal=Nature |volume=361 |issue=6413 |pages=603–7 |year=1993 |last1=Stewart |first1=Caro-Beth |bibcode=1993Natur.361..603S |s2cid=4350103 }}</ref>
+
+Algorithms that perform optimization tasks (such as building cladograms) can be sensitive to the order in which the input data (the list of species and their characteristics) is presented. Inputting the data in various orders can cause the same algorithm to produce different "best" cladograms. In these situations, the user should input the data in various orders and compare the results.
+
+Using different algorithms on a single data set can sometimes yield different "best" cladograms, because each algorithm may have a unique definition of what is "best".
+
+Because of the astronomical number of possible cladograms, algorithms cannot guarantee that the solution is the overall best solution. A nonoptimal cladogram will be selected if the program settles on a local minimum rather than the desired global minimum.<ref>
+{{cite book|
+last=Foley|
+first=Peter|
+title=Cladistics: A Practical Course in Systematics|
+year=1993|
+page=[https://archive.org/details/cladisticspracti0000unse/page/66 66]|
+publisher=Oxford Univ. Press|
+isbn=978-0-19-857766-9|
+url=https://archive.org/details/cladisticspracti0000unse/page/66}}</ref> To help solve this problem, many cladogram algorithms use a [[simulated annealing]] approach to increase the likelihood that the selected cladogram is the optimal one.<ref>{{cite journal |doi=10.1111/j.1096-0031.1999.tb00277.x |title=The Parsimony Ratchet, a New Method for Rapid Parsimony Analysis |journal=Cladistics |volume=15 |issue=4 |pages=407–414 |year=1999 |last1=Nixon |first1=Kevin C. |pmid=34902938 |s2cid=85720264 }}</ref>
+
+The [[Basal (phylogenetics)|basal position]] is the direction of the base (or root) of a rooted phylogenetic tree or cladogram. A basal clade is the earliest clade (of a given taxonomic rank[a]) to branch within a larger clade.
+
+==Statistics==
+
+===Incongruence length difference test (or partition homogeneity test)===
+
+The incongruence length difference test (ILD) is a measurement of how the combination of different datasets (e.g. morphological and molecular, plastid and nuclear genes) contributes to a longer tree. It is measured by first calculating the total tree length of each partition and summing them. Then replicates are made by making randomly assembled partitions consisting of the original partitions. The lengths are summed. A p value of 0.01 is obtained for 100 replicates if 99 replicates have longer combined tree lengths.
+
+===Measuring homoplasy===
+{{Further|Convergent evolution}}
+Some measures attempt to measure the amount of homoplasy in a dataset with reference to a tree,<ref name="Archie1996">reviewed in {{cite book |doi=10.1016/B978-012618030-5/50008-3 |chapter=Measures of Homoplasy |title=Homoplasy |url=https://archive.org/details/homoplasy00sand_064 |url-access=limited |pages=[https://archive.org/details/homoplasy00sand_064/page/n179 153]–188 |year=1996 |last1=Archie |first1=James W. |editor-first=Michael J. |editor-last=Sanderson |editor-first2=Larry |editor-last2=Hufford |isbn=9780126180305}}</ref> though it is not necessarily clear precisely what property these measures aim to quantify<ref>{{cite book|doi=10.1016/b978-012618030-5/50009-5|chapter=The Measurement of Homoplasy: A Stochastic View|title=Homoplasy|pages=189–203|year=1996|last1=Chang|first1=Joseph T.|last2=Kim|first2=Junhyong|isbn=9780126180305}}</ref>
+
+====Consistency index====
+
+The consistency index (CI) measures the consistency of a tree to a set of data – a measure of the minimum amount of homoplasy implied by the tree.<ref name="KLUGE, A. G 1969">{{cite journal | last1 = Kluge | first1 = A. G. | last2 = Farris | first2 = J. S. | year = 1969 | title = Quantitative Phyletics and the Evolution of Anurans | journal = Systematic Zoology | volume = 18 | issue = 1| pages = 1–32 | doi=10.2307/2412407| jstor = 2412407 }}</ref> It is calculated by counting the minimum number of changes in a dataset and dividing it by the actual number of changes needed for the cladogram.<ref name="KLUGE, A. G 1969"/>  A consistency index can also be calculated for an individual character ''i'', denoted c<sub>i</sub>.
+
+Besides reflecting the amount of homoplasy, the metric also reflects the number of taxa in the dataset,<ref>{{cite journal | last1 = Archie | first1 = J. W. | last2 = Felsenstein | first2 = J. | year = 1993 | title = The Number of Evolutionary Steps on Random and Minimum Length Trees for Random Evolutionary Data | journal = Theoretical Population Biology | volume = 43 | pages = 52–79 | doi = 10.1006/tpbi.1993.1003 }}</ref> (to a lesser extent) the number of characters in a dataset,<ref name="ARCHIE, J. W 1989"/> the degree to which each character carries phylogenetic information,<ref name="Jennifer F p C">{{cite journal|doi=10.1111/j.1096-0031.2009.00270.x|title=A formula for maximum possible steps in multistate characters: Isolating matrix parameter effects on measures of evolutionary convergence|journal=Cladistics|volume=26|pages=98–102|year=2010|last1=Hoyal Cuthill|first1=Jennifer F.|last2=Braddy|first2=Simon J.|last3=Donoghue|first3=Philip C. J.|issue=1|pmid=34875753|s2cid=53320612}}</ref> and the fashion in which additive characters are coded, rendering it unfit for purpose.<ref>{{cite journal | last1 = Sanderson | first1 = M. J. | last2 = Donoghue | first2 = M. J. | year = 1989 | title = Patterns of variations in levels of homoplasy | journal = Evolution | volume = 43 | issue = 8| pages = 1781–1795 | doi=10.2307/2409392| jstor = 2409392 | pmid = 28564338 }}</ref>
+
+c<sub>i</sub> occupies a range from 1 to 1/[''n.taxa''/2] in binary characters with an even state distribution; its minimum value is larger when states are not evenly spread.<ref name="Jennifer F p C"/><ref name=Archie1996 /> In general, for a binary or non-binary character with <math>n.states</math>, c<sub>i</sub> occupies a range from 1 to <math>(n.states-1)/(n.taxa-\lceil n.taxa/n.states\rceil)</math>.<ref name="Jennifer F p C"/>
+
+====Retention index====
+
+The retention index (RI) was proposed as an improvement of the CI "for certain applications"<ref name="FARRIS, J. S 1989">{{cite journal | last1 = Farris | first1 = J. S. | year = 1989 | title = The retention index and the rescaled consistency index | journal = Cladistics | volume = 5 | issue = 4| pages = 417–419 | doi=10.1111/j.1096-0031.1989.tb00573.x| pmid = 34933481 | s2cid = 84287895 }}</ref>  This metric also purports to measure of the amount of homoplasy, but also measures how well synapomorphies explain the tree. It is calculated taking the (maximum number of changes on a tree minus the number of changes on the tree), and dividing by the (maximum number of changes on the tree minus the minimum number of changes in the dataset).
+
+The rescaled consistency index (RC) is obtained by multiplying the CI by the RI; in effect this stretches the range of the CI such that its minimum theoretically attainable value is rescaled to 0, with its maximum remaining at 1.<ref name=Archie1996/><ref name="FARRIS, J. S 1989"/> The homoplasy index (HI) is simply 1 &minus; CI.
+
+==== Homoplasy Excess Ratio ====
+
+This measures the amount of homoplasy observed on a tree relative to the maximum amount of homoplasy that could theoretically be present – 1 &minus; (observed homoplasy excess) / (maximum homoplasy excess).<ref name="ARCHIE, J. W 1989">{{cite journal | last1 = Archie | first1 = J. W. | year = 1989 | title = HOMOPLASY EXCESS RATIOS : NEW INDICES FOR MEASURING LEVELS OF HOMOPLASY IN PHYLOGENETIC SYSTEMATICS AND A CRITIQUE OF THE CONSISTENCY INDEX | journal = Systematic Zoology | volume = 38 | issue = 3| pages = 253–269 | doi=10.2307/2992286| jstor = 2992286 }}</ref> A value of 1 indicates no homoplasy; 0 represents as much homoplasy as there would be in a fully random dataset, and negative values indicate more homoplasy still (and tend only to occur in contrived examples).<ref name="ARCHIE, J. W 1989"/>  The HER is presented as the best measure of homoplasy currently available.<ref name=Archie1996/><ref>{{cite journal|doi=10.1016/j.jtbi.2014.10.033|pmid=25451518|title=The size of the character state space affects the occurrence and detection of homoplasy: Modelling the probability of incompatibility for unordered phylogenetic characters|journal=Journal of Theoretical Biology|volume=366|pages=24–32|year=2015|last1=Hoyal Cuthill|first1=Jennifer|bibcode=2015JThBi.366...24H}}</ref>
+
+==See also==
+* [[Phylogenetics]]
+* [[Dendrogram]]
+* [[Basal (phylogenetics)]]
+
+==References==
+{{reflist|30em}}
+
+==External links==
+*{{commons category inline|Cladograms}}
+
+{{Phylogenetics}}
+
+[[Category:Diagrams]]
+[[Category:Phylogenetics]]
