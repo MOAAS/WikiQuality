@@ -21,9 +21,9 @@ Id,Included,Reason
 29,Yes,-
 33,Yes,-
 36,No,"Little emphasis is given to predicting Wikipedia quality, more to evaluate correlation between a few criteria (e.g # of edits) and quality".
-38,Yes,"Measures quality of edits/reviews, not Wikipedia articles, and does so with insufficient detail."
-39,Yes,No emphasis on machine learning approaches.
-41,Yes,No focus on ML and little detailing of experimentation and results.
+38,Yes,-
+39,Yes,-
+41,Yes,-
 42,No,"Measures quality of the contributions, not the articles, and does so without ML."
 45,Yes,-
 48,Yes,-
