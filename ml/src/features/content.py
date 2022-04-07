@@ -1,27 +1,11 @@
-from numpy import column_stack
-import pandas as pd
 import re
-from wikitext_cleaner import clean_wikitext, remove_html_tag, remove_br
+from wikitext_cleaner import remove_html_tag, remove_br
 from statistics import stdev
 
-
-# Some features may be calculated using specific api calls (e.g. query -> contributors)
-# Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
-
-def features_to_dataframe(feature_list):
-    # FEATURE_HEADERS without title or quality
-    columns = FEATURE_HEADERS[1:]
-    columns = columns[:-1]   
-    
-    return pd.DataFrame([feature_list], columns=columns)
-
-def compute_features(title, wikitext):
-    plaintext = clean_wikitext(wikitext, title, writeToFile=False)
-
-    content = compute_content_features(wikitext, plaintext)
-  
-
-    return { "title": title, **content }
+CONTENT_FEATURES = [
+    'CC', 'CW', 'CSN' , 'CS', 'CMSL', 'CP', 'CMPL', 'CLSL', 'CSSL', 'CSTDSL', 'CLSSR' , 'CB', 'CBPS', 'CNL' , 
+    'CNLTLR', 'CR'  , 'CCC' , 'CCCPC' , 'CCCPS' , 'CEL', 'CELPS' , 'CELPC' 
+]
 
 SECTION_REGEX = r'\n==([^=]*)==\n'
 SUBSECTION_REGEX = r'\n===([^=]*)===\n'
@@ -30,7 +14,6 @@ SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'
 def compute_sections(plaintext):
     sections = re.split(SECTION_REGEX, plaintext) # find all sections in string
 
-
     sectionsDict = {}
     sectionsDict['Intro'] = sections[0]
     sectionTitles = sections[1::2]
@@ -38,16 +21,9 @@ def compute_sections(plaintext):
             
     for i in range(len(sections)):
         sectionsDict[sectionTitles[i].strip()] = sections[i]
-
-    # if any item is None, print it
-    if None in sectionsDict.values():
-        print("None in wikitext")
-        print(plaintext)
-        print(sectionsDict)
     
     # remove dictionary items with length 0
     sectionsDict = {k: v for k, v in sectionsDict.items() if len(v) > 0}
-
 
     return sectionsDict
 
@@ -56,7 +32,6 @@ def compute_content_features(wikitext, plaintext):
 
     section_lengths = [len(sections[section]) for section in sections] 
     norefs_text = remove_html_tag(remove_br(wikitext), 'ref')
-
 
     ft = {}
 
@@ -96,15 +71,3 @@ def compute_content_features(wikitext, plaintext):
     ft['CNCT'] = len(re.findall(r'{{', wikitext)) - ft['CCT'] # Number of non-citation templates
 
     return ft
-
-CONTENT_FEATURES = [
-    'CC', 'CW', 'CSN' , 'CS', 'CMSL', 'CP', 'CMPL', 'CLSL', 'CSSL', 'CSTDSL', 'CLSSR' , 'CB', 'CBPS', 'CNL' , 
-    'CNLTLR', 'CR'  , 'CCC' , 'CCCPC' , 'CCCPS' , 'CEL', 'CELPS' , 'CELPC' 
-]
-
-STYLE_FEATURES = []
-READABILITY_FEATURES = []
-HISTORY_FEATURES = []
-NETWORK_FEATURES = []
-
-FEATURE_HEADERS = ['Title'] + CONTENT_FEATURES + STYLE_FEATURES + READABILITY_FEATURES + HISTORY_FEATURES + NETWORK_FEATURES + ['Quality']

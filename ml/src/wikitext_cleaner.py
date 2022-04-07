@@ -105,7 +105,7 @@ def clean_math(string, starting_pattern, ending_pattern):
 
     return re.sub(pattern, replaceMath, string)
 
-def clean_wikitext(wikitext, title, writeToFile=False):
+def clean_wikitext(wikitext, title, writeToFolder=None):
     savedWikiText = wikitext
 
     ### Remove final sections (references and notes), if there are any
@@ -269,13 +269,15 @@ def clean_wikitext(wikitext, title, writeToFile=False):
     wikitext = wikitext.strip() # trim 
     wikitext = re.sub(r'\n\n\n+', '\n\n', wikitext) # convert multiple empty lines to one
     
-    if writeToFile:
+    if writeToFolder is not None:
         # escape title for filename
         title = re.sub(r'[^\w\s]', '', title)
-        write_file('test/wikitext-' + title + '.txt', savedWikiText)
-        write_file('test/wikitextclean-' + title + '.txt', wikitext)
+        write_file(f'{writeToFolder}/wikitext-' + title + '.txt', savedWikiText)
+        write_file(f'{writeToFolder}/wikitextclean-' + title + '.txt', wikitext)
 
     return wikitext
+
+test_folder = 'ml/test/'
 
 class TestFeatures(unittest.TestCase):
     # constructor
@@ -295,21 +297,21 @@ class TestFeatures(unittest.TestCase):
             "London Necropolis Company", "Cyclol", "WikipediaExternal links", 'Frits Palm', 'Kolkata Metro',
         ]
         for title in titles:
-            with open('ml/test/wikitext-' + title + '.txt', 'r', encoding='utf8') as f:
+            with open(f'{test_folder}/wikitext-{title}.txt', 'r', encoding='utf8') as f:
                 wikitext = f.read()
             
-            result = clean_wikitext(wikitext, title, writeToFile=False)
+            result = clean_wikitext(wikitext, title)
 
-            with open('ml/test/wikitextclean-' + title + '.txt', 'r', encoding='utf8') as f:
+            with open(f'{test_folder}/wikitextclean-{title}.txt', 'r', encoding='utf8') as f:
                 wikitext_clean = f.read()
 
 
             if (result != wikitext_clean):
-                with open('ml/test/FAIL-wikitext-clean.txt', 'w', encoding='utf8') as f:
+                with open(f'{test_folder}/FAIL-wikitext-clean.txt', 'w', encoding='utf8') as f:
                     f.write("FAIL REPORT: " + title + "\n")
                     f.write(result)
 
-                with open('ml/test/CORRECT-wikitext-clean.txt', 'w', encoding='utf8') as f:
+                with open(f'{test_folder}/CORRECT-wikitext-clean.txt', 'w', encoding='utf8') as f:
                     f.write("CORRECT REPORT: " + title + "\n")
                     f.write(wikitext_clean)
 

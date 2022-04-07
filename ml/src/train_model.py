@@ -3,8 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-# load the dataset
 dataset_folder = 'ml/datasets'
+models_folder = 'ml/models'
+
+# load the dataset
+
 train = pd.read_csv(dataset_folder + '/train.csv')
 test = pd.read_csv(dataset_folder + '/test.csv')
 
@@ -47,7 +50,7 @@ print_classification_report(y_test, y_pred)
 
 # Save model 
 import pickle
-with open('ml/models/' + used_model + '.pkl', 'wb') as f:
+with open(f'{models_folder}/{used_model}.pkl', 'wb') as f:
     pickle.dump(model, f)
 
 

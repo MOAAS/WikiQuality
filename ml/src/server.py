@@ -1,22 +1,20 @@
 from flask import Flask
 from flask_cors import CORS
 
-from features import compute_features, features_to_dataframe
-import pandas as pd
 import wikiapi
+import pickle
+from features.main import compute_features, features_to_dataframe
 from wikitext_cleaner import clean_wikitext
 
 
-# load model from pickle
-import pickle
-with open('models/decision_tree.pkl', 'rb') as f:
+# Load model
+model_folder = '../models'
+with open(f'{model_folder}/tree.pkl', 'rb') as f:
     model = pickle.load(f)
 
-
-
-
+# Create Flask App
 app = Flask(__name__)
-CORS(app) # cors allow all
+CORS(app) # CORS: Allow all
 
 @app.route("/evaluate/<title>")
 def evaluate(title):    
@@ -40,7 +38,7 @@ def features(title):
 @app.route("/plain/<title>")
 def plain(title):
     wikitext = wikiapi.getWikiText(title)
-    plaintext = clean_wikitext(wikitext, title, writeToFile=False)
+    plaintext = clean_wikitext(wikitext, title)
     return "<pre>" + plaintext.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;') + "</pre>"
 
 @app.route("/wikitext/<title>")

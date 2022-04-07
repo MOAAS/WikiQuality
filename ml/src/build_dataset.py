@@ -3,17 +3,17 @@ import wikiapi
 
 from fileinput import filename
 from matplotlib.pyplot import title
-from features import FEATURE_HEADERS, compute_features, clean_wikitext
+from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
 
 partition = {
-    'FA': 4000,   
+    'FA': 400,   
     'FL': 0,     
-    'A': 750,    
-    'GA': 4000,   
-    'B': 4000,    
-    'C': 4000,     
-    'Start': 4000,
-    'Stub': 4000, 
+    'A': 400,    
+    'GA': 400,   
+    'B': 400,    
+    'C': 400,     
+    'Start': 400,
+    'Stub': 400, 
 }
 
 quality_values = { 'FA': 6, 'FL': 6, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
@@ -23,8 +23,12 @@ test = []
 
 build_regression_dataset = True
 
+titles_folder = 'ml/titles'
+datasets_folder = 'ml/datasets'
+error_folder = 'ml/src'
+
 for quality in partition:
-    filename = f'ml/titles/{quality}.txt'
+    filename = f'{titles_folder}/{quality}.txt'
     with open(filename, 'r', encoding='utf-8') as f:
         # Collect random titles from each file
         print(f'Collecting {partition[quality]} random titles from {filename}')
@@ -48,7 +52,7 @@ for quality in partition:
                 **compute_features(title, wikitext)
             }
         except Exception as e:
-            with open(f'ml/log/ERROR-BUILD-DATASET.txt', 'w', encoding='utf-8') as f:
+            with open(f'{error_folder}/ERROR-BUILD-DATASET.txt', 'w', encoding='utf-8') as f:
                 print("Error on title: " + title + "... Writing to log file")
                 f.write("ERROR BUILDING DATASET\n\n TITLE: " + title + "\n\n")
                 f.write('URL: https://en.wikipedia.org/wiki/' + title.replace(' ', '_') + '\n\n')
@@ -79,8 +83,7 @@ def write_features(dataset, file):
             raise Exception('Missing features')
 
 # open train.csv and test.csv and write to them
-datasets_folder = 'ml/datasets'
-with open(datasets_folder + '/train.csv', 'w', encoding='utf-8') as ftrain, open(datasets_folder + '/test.csv', 'w', encoding='utf-8') as ftest:
+with open(f'{datasets_folder}/train.csv', 'w', encoding='utf-8') as ftrain, open(f'{datasets_folder}/test.csv', 'w', encoding='utf-8') as ftest:
     ftrain.write(','.join(FEATURE_HEADERS) + '\n')   
     ftest.write(','.join(FEATURE_HEADERS) + '\n')
 

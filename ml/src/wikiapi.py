@@ -5,32 +5,6 @@ headers = {
     'User-Agent': 'WikiQualityDatasetCollector/1.0 (up201705208@edu.fe.up.pt)',
 }
 
-
-# def getPlainText(title):
-#    return getMultiPlainText([title])[title]
-
-# def getMultiPlainText(titles):
-#     titles = '|'.join(titles)
-#     res = requests.get(WIKI_API_URL, headers=headers, params={
-#         'action': 'query',
-#         'titles': titles,
-#         'prop': 'extracts',
-#         'explaintext': 'True',
-#         'exsectionformat': 'plain',
-#     }).json()
-# 
-#     if 'error' in res:
-#         print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
-#         return ''
-# 
-#     pages = res['query']['pages']
-#     pageText = {}
-#     for page in pages:
-#         pageText[page['title']] = page['extract']
-#         
-#     return pageText
-
-
 def getWikiText(title):
     res = getMultiWikiText([title])
     # return the only item in the dictionary. using res[title] does not always work,
@@ -46,8 +20,11 @@ def getMultiWikiText(titles):
         print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
         pages.update(getMultiWikiTextMax50(titles[i:i+50]))
         i += 50
+
+    if (len(titles) != len(pages)):
+        print(f'Warning: {len(titles) - len(pages)} titles were not found in the wiki')
     
-    print(f'Retrieved {len(titles)} pages.')
+    print(f'Retrieving {len(titles)} pages... {len(titles)}/{len(titles)}')
 
     return pages
 
