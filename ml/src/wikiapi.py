@@ -18,7 +18,7 @@ def getMultiWikiText(titles):
     i = 0
     while i < len(titles):
         print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
-        pages.update(getMultiWikiTextMax50(titles[i:i+50]))
+        pages.update(getMultiWikiTextHelper(titles[i:i+50]))
         i += 50
 
     if (len(titles) != len(pages)):
@@ -28,7 +28,7 @@ def getMultiWikiText(titles):
 
     return pages
 
-def getMultiWikiTextMax50(titles):
+def getMultiWikiTextHelper(titles):
     assert len(titles) <= 50
 
     # replace all underscores in titles with spaces

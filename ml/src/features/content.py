@@ -11,6 +11,9 @@ SECTION_REGEX = r'\n==([^=]*)==\n'
 SUBSECTION_REGEX = r'\n===([^=]*)===\n'
 SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'
 
+# Unimplemented features:
+# - CIBL: Internal Broken Link Count
+
 def compute_sections(plaintext):
     sections = re.split(SECTION_REGEX, plaintext) # find all sections in string
 
@@ -62,6 +65,7 @@ def compute_content_features(wikitext, plaintext):
     # Internal Link Count (find [[<title>]] but outside ref tags), filter all internal links starting with File:, Category: or Image:
     ft['CIL'] = len([link for link in re.findall(r'\[\[(.*?)\]\]', norefs_text) if not link.startswith(('File:', 'Category:', 'Image:'))])
     ft['CILPC'] = ft['CIL'] / ft['CC'] # Internal Link Count per Character    
+
     ft['CI'] = len(re.findall(r'\[\[(Image:|File:)(.*?)\]\]', wikitext)) # Image Count
     ft['CIPC'] = ft['CI'] / ft['CC'] # Image Count per Character
     ft['CIPS'] = ft['CI'] / ft['CS'] # Image Count per Section

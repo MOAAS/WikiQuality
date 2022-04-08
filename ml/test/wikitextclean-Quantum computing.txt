@@ -143,7 +143,7 @@ Bill Unruh doubted the practicality of quantum computers in a paper published ba
  Candidates for physical realizations 
 For physically implementing a quantum computer, many different candidates are being pursued, among them (distinguished by the physical system used to realize the qubits):
 
-*Superconducting quantum computing (qubit implemented by the state of small superconducting circuits [<nowiki/>Josephson junctions])
+*Superconducting quantum computing (qubit implemented by the state of small superconducting circuits [Josephson junctions])
 *Trapped ion quantum computer (qubit implemented by the internal state of trapped ions)
 *Neutral atoms in optical lattices (qubit implemented by internal states of neutral atoms trapped in an optical lattice)
 *Quantum dot computer, spin-based (e.g. the Loss-DiVincenzo quantum computer) (qubit given by the spin states of trapped electrons)

@@ -203,9 +203,10 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     wikitext = re.sub(r'{{(convert|cvt)\|(.*?)\|(.*?)}}', lambda m : m.group(2) + ' ' + m.group(3).split('|')[0], wikitext, flags=RE_FLAGS_CI) # replace {{convert|x|y|z}} with x y    
     wikitext = re.sub(r'{{ndash}}', '-', wikitext, flags=RE_FLAGS_CI) # replace {{ndash}} with -
     wikitext = re.sub(r'{{coord\|(.*?)\|(.*?)\|(.*?)}}', r'\1' + '°N ' + r'\2' + '°E', wikitext, flags=RE_FLAGS_CI) # replace {{Coord|x|y|z}} with x°N, y°W
-    
     wikitext = keep_whats_inside(wikitext, "'''", "'''")
     wikitext = keep_whats_inside(wikitext, "''", "''")
+
+
     wikitext = keep_whats_inside(wikitext, '=====', '=====')
     wikitext = keep_whats_inside(wikitext, '====', '====')
     wikitext = keep_whats_inside(wikitext, '===', '===') 
@@ -236,9 +237,10 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     wikitext = keep_whats_inside(wikitext, '{{gaps', '}}')
     wikitext = keep_whats_inside(wikitext, '{{sic|', '}}')
     wikitext = keep_whats_inside(wikitext, '{{section link|', '}}')
+    wikitext = keep_whats_inside(wikitext, '{{tlx|', '}}')
     wikitext = remove_pattern(wikitext, '{{legend', '}}')
     wikitext = remove_pattern(wikitext, '{{tl|', '}}')
-    wikitext = keep_whats_inside(wikitext, '{{tlx|', '}}')
+    wikitext = remove_pattern(wikitext, '<nowiki/>', '')
    
 
     # Remove/Clean Math tags (todo: instead replace fracs, logs, sqrts and lims? idk)
@@ -263,8 +265,8 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     wikitext = keep_whats_inside(wikitext, '{{ordered list', '}}')
 
     ### Final tweaks
-    wikitext = re.sub(r'\|', ' ', wikitext)
     wikitext = keep_whats_inside(wikitext, '{{', '}}')
+    wikitext = re.sub(r'\|', ' ', wikitext)
 
     wikitext = wikitext.strip() # trim 
     wikitext = re.sub(r'\n\n\n+', '\n\n', wikitext) # convert multiple empty lines to one
@@ -307,8 +309,8 @@ class TestFeatures(unittest.TestCase):
 
 
             if (result != wikitext_clean):
-                with open(f'{test_folder}/FAIL-wikitext-clean.txt', 'w', encoding='utf8') as f:
-                    f.write("FAIL REPORT: " + title + "\n")
+                with open(f'{test_folder}/ATTEMPT-wikitext-clean.txt', 'w', encoding='utf8') as f:
+                    f.write("ATTEMPT REPORT: " + title + "\n")
                     f.write(result)
 
                 with open(f'{test_folder}/CORRECT-wikitext-clean.txt', 'w', encoding='utf8') as f:
