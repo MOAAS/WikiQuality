@@ -133,15 +133,15 @@ Although intensive development of  conventional battery electric vehicles is con
 
 New materials which may replace steel car bodies include aluminum, fiberglass, carbon fiber, biocomposites, and carbon nanotubes. Telematics technology is allowing more and more people to share cars, on a pay-as-you-go basis, through car share and carpool schemes. Communication is also evolving due to connected car systems.
 
-Autonomous car
+===Autonomous car===
 
 Fully autonomous vehicles, also known as driverless cars, already exist in prototype (such as the Google driverless car), but have a long way to go before they are in general use.
 
-Open source development
+===Open source development===
 
 There have been several projects aiming to develop a car on the principles of open design, an approach to designing in which the plans for the machinery and systems are publicly shared, often without monetary compensation. None of the projects have succeeded in developing a car as a whole including both hardware and software, and no mass production ready open-source based designs have been introduced. Some car hacking through on-board diagnostics (OBD) has been done so far.
 
-Car sharing
+===Car sharing===
 Car-share arrangements and carpooling are also increasingly popular, in the US and Europe. For example, in the US, some car-sharing services have experienced double-digit growth in revenue and membership growth between 2006 and 2007. Services like car sharing offering a residents to "share" a vehicle rather than own a car in already congested neighborhoods.
 
 ==Industry==

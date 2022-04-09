@@ -14,7 +14,7 @@ Quantum computing began in 1980 when physicist Paul Benioff proposed a quantum m
 
 == Quantum circuit ==
 
- Definition 
+=== Definition ===
 
 The prevailing model of quantum computation describes the computation in terms of a network of quantum logic gates. This model is a complex linear-algebraic generalization of boolean circuits.
 
@@ -44,7 +44,7 @@ In summary, a quantum computation can be described as a network of quantum logic
 
 Any quantum computation (which is, in the above formalism, any unitary matrix over n qubits) can be represented as a network of quantum logic gates from a fairly small family of gates. A choice of gate family that enables this construction is known as a universal gate set, since a computer that can run such circuits is a universal quantum computer. One common such set includes all single-qubit gates as well as the CNOT gate from above. This means any quantum computation can be performed by executing a sequence of single-qubit gates together with CNOT gates. Though this gate set is infinite, it can be replaced with a finite gate set by appealing to the Solovay-Kitaev theorem.
 
- Quantum algorithms 
+=== Quantum algorithms ===
 
 Progress in finding quantum algorithms typically focuses on this quantum circuit model, though exceptions like the quantum adiabatic algorithm exist. Quantum algorithms can be roughly categorized by the type of speedup achieved over corresponding classical algorithms.
 
@@ -55,7 +55,7 @@ Other problems, including the simulation of quantum physical processes from chem
 Some quantum algorithms, like Grover's algorithm and amplitude amplification, give polynomial speedups over corresponding classical algorithms. Though these algorithms give comparably modest quadratic speedup, they are widely applicable and thus give speedups for a wide range of problems. Many examples of provable quantum speedups for query problems are related to Grover's algorithm, including Brassard, Høyer, and Tapp's algorithm for finding collisions in two-to-one functions, which uses Grover's algorithm, and Farhi, Goldstone, and Gutmann's algorithm for evaluating NAND trees, which is a variant of the search problem.
 
 == Potential applications ==
- Cryptography 
+=== Cryptography ===
 
 A notable application of quantum computation is for attacks on cryptographic systems that are currently in use. Integer factorization, which underpins the security of public key cryptographic systems, is believed to be computationally infeasible with an ordinary computer for large integers if they are the product of few prime numbers (e.g., products of two 300-digit primes). By comparison, a quantum computer could efficiently solve this problem using Shor's algorithm to find its factors. This ability would allow a quantum computer to break many of the cryptographic systems in use today, in the sense that there would be a polynomial time (in the number of digits of the integer) algorithm for solving the problem. In particular, most of the popular public key ciphers are based on the difficulty of factoring integers or the discrete logarithm problem, both of which can be solved by Shor's algorithm. In particular, the RSA, Diffie–Hellman, and elliptic curve Diffie–Hellman algorithms could be broken. These are used to protect secure Web pages, encrypted email, and many other types of data. Breaking these would have significant ramifications for electronic privacy and security.
 
@@ -63,7 +63,7 @@ Identifying cryptographic systems that may be secure against quantum algorithms 
 
 Quantum cryptography could potentially fulfill some of the functions of public key cryptography. Quantum-based cryptographic systems could, therefore, be more secure than traditional systems against quantum hacking.
 
- Search problems 
+=== Search problems ===
 
 The most well-known example of a problem admitting a polynomial quantum speedup is unstructured search, finding a marked item out of a list of n items in a database. This can be solved by Grover's algorithm using  queries to the database, quadratically fewer than the  queries required for classical algorithms. In this case, the advantage is not only provable but also optimal: it has been shown that Grover's algorithm gives the maximal possible probability of finding the desired element for any number of oracle lookups.
 
@@ -74,31 +74,31 @@ Problems that can be efficiently addressed with Grover's algorithm have the foll
 
 For problems with all these properties, the running time of Grover's algorithm on a quantum computer scales as the square root of the number of inputs (or elements in the database), as opposed to the linear scaling of classical algorithms. A general class of problems to which Grover's algorithm can be applied is Boolean satisfiability problem, where the database through which the algorithm iterates is that of all possible answers. An example and possible application of this is a password cracker that attempts to guess a password. Breaking symmetric ciphers with this algorithm is of interest of government agencies.
 
- Simulation of quantum systems 
+=== Simulation of quantum systems ===
 
 Since chemistry and nanotechnology rely on understanding quantum systems, and such systems are impossible to simulate in an efficient manner classically, manyWho date=February 2022 believe quantum simulation will be one of the most important applications of quantum computing. Quantum simulation could also be used to simulate the behavior of atoms and particles at unusual conditions such as the reactions inside a collider.
 Quantum simulations might be used to predict future paths of particles and protons under superposition in the double-slit experiment.
 About 2% of the annual global energy output is used for nitrogen fixation to produce ammonia for the Haber process in the agricultural fertilizer industry while naturally occurring organisms also produce ammonia. Quantum simulations might be used to understand this process increasing production.
 
- Quantum annealing and adiabatic optimization 
+=== Quantum annealing and adiabatic optimization ===
 Quantum annealing or Adiabatic quantum computation relies on the adiabatic theorem to undertake calculations. A system is placed in the ground state for a simple Hamiltonian, which is slowly evolved to a more complicated Hamiltonian whose ground state represents the solution to the problem in question. The adiabatic theorem states that if the evolution is slow enough the system will stay in its ground state at all times through the process.
 
- Machine learning 
+=== Machine learning ===
 
 Since quantum computers can produce outputs that classical computers cannot produce efficiently, and since quantum computation is fundamentally linear algebraic, some express hope in developing quantum algorithms that can speed up machine learning tasks.
 For example, the quantum algorithm for linear systems of equations, or "HHL Algorithm", named after its discoverers Harrow, Hassidim, and Lloyd, is believed to provide speedup over classical counterparts. Some research groups have recently explored the use of quantum annealing hardware for training Boltzmann machines and deep neural networks.
 
- Computational biology 
+=== Computational biology ===
 
 In the field of computational biology, quantum computing has played a big role in solving many biological problems. One of the well-known examples would be in computational genomics and how computing has drastically reduced the time to sequence a human genome. Given how computational biology is using generic data modeling and storage, its applications to computational biology are expected to arise as well.
 
- Computer-aided drug design and generative chemistry 
+=== Computer-aided drug design and generative chemistry ===
 
 Deep generative chemistry models emerge as powerful tools to expedite drug discovery. However, the immense size and complexity of the structural space of all possible drug-like molecules pose significant obstacles, which could be overcome in the future by quantum computers. Quantum computers are naturally good for solving complex quantum many-body problems and thus may be instrumental in applications involving quantum chemistry.  Therefore, one can expect that quantum-enhanced generative models including quantum GANs may eventually be developed into ultimate generative chemistry algorithms. Hybrid architectures combining quantum computers with deep classical networks, such as Quantum Variational Autoencoders, can already be trained on commercially available annealers and used to generate novel drug-like molecular structures.
 
 == Developing physical quantum computers ==
 
- Challenges 
+=== Challenges ===
 There are a number of technical challenges in building a large-scale quantum computer. Physicist David DiVincenzo has listed these requirements for a practical quantum computer:
 * Physically scalable to increase the number of qubits
 * Qubits that can be initialized to arbitrary values
@@ -110,7 +110,7 @@ Sourcing parts for quantum computers is also very difficult. Many quantum comput
 
 The control of multi-qubit systems requires the generation and coordination of a large number of electrical signals with tight and deterministic timing resolution. This has led to the development of quantum controllers which enable interfacing with the qubits. Scaling these systems to support a growing number of qubits is an additional challenge.
 
- Quantum decoherence 
+==== Quantum decoherence ====
 
 One of the greatest challenges involved with constructing quantum computers is controlling or removing quantum decoherence. This usually means isolating the system from its environment as interactions with the external world cause the system to decohere. However, other sources of decoherence also exist. Examples include the quantum gates, and the lattice vibrations and background thermonuclear spin of the physical system used to implement the qubits. Decoherence is irreversible, as it is effectively non-unitary, and is usually something that should be highly controlled, if not avoided. Decoherence times for candidate systems in particular, the transverse relaxation time T2 (for NMR and MRI technology, also called the dephasing time), typically range between nanoseconds and seconds at low temperature. Currently, some quantum computers require their qubits to be cooled to 20 millikelvin (usually using a dilution refrigerator) in order to prevent significant decoherence. A 2020 study argues that ionizing radiation such as cosmic rays can nevertheless cause certain systems to decohere within milliseconds.
 
@@ -124,7 +124,7 @@ Meeting this scalability condition is possible for a wide range of systems. Howe
 
 A very different approach to the stability-decoherence problem is to create a topological quantum computer with anyons, quasi-particles used as threads and relying on braid theory to form stable logic gates.
 
- Quantum supremacy 
+=== Quantum supremacy ===
 
 Quantum supremacy is a term coined by John Preskill referring to the engineering feat of demonstrating that a programmable quantum device can solve a problem beyond the capabilities of state-of-the-art classical computers. The problem need not be useful, so some view the quantum supremacy test only as a potential future benchmark.
 
@@ -133,14 +133,14 @@ In October 2019, Google AI Quantum, with the help of NASA, became the first to c
 In December 2020, a group at USTC implemented a type of Boson sampling on 76 photons with a photonic quantum computer Jiuzhang to demonstrate quantum supremacy. The authors claim that a classical contemporary supercomputer would require a computational time of 600 million years to generate the number of samples their quantum processor can generate in 20 seconds.
 On November 16, 2021 at the quantum computing summit IBM presented a 127-qubit microprocessor named IBM Eagle.
 
- Skepticism 
+=== Skepticism ===
 
 Some researchers have expressed skepticism that scalable quantum computers could ever be built, typically because of the issue of maintaining coherence at large scales.
 
 Bill Unruh doubted the practicality of quantum computers in a paper published back in 1994. Paul Davies argued that a 400-qubit computer would even come into conflict with the cosmological information bound implied by the holographic principle. Skeptics like Gil Kalai doubt that quantum supremacy will ever be achieved. Physicist Mikhail Dyakonov has expressed skepticism of quantum computing as follows:
 :"So the number of continuous parameters describing the state of such a useful quantum computer at any given moment must be... about 10300... Could we ever learn to control the more than 10300 continuously variable parameters defining the quantum state of such a system? My answer is simple. No, never."
 
- Candidates for physical realizations 
+=== Candidates for physical realizations ===
 For physically implementing a quantum computer, many different candidates are being pursued, among them (distinguished by the physical system used to realize the qubits):
 
 *Superconducting quantum computing (qubit implemented by the state of small superconducting circuits [Josephson junctions])
@@ -167,7 +167,7 @@ For physically implementing a quantum computer, many different candidates are be
 
 The large number of candidates demonstrates that quantum computing, despite rapid progress, is still in its infancy.
 
- Models of computation for quantum computing 
+=== Models of computation for quantum computing ===
 There are a number of models of computation for quantum computing, distinguished by the basic elements in which the computation is decomposed. For practical implementations, the four relevant models of computation are:
 * Quantum gate array – Computation decomposed into a sequence of few-qubit quantum gates.
 * One-way quantum computer – Computation decomposed into a sequence of Bell state measurements and single-qubit quantum gates applied to a highly entangled initial state (a cluster state), using a technique called quantum gate teleportation.
@@ -177,13 +177,13 @@ There are a number of models of computation for quantum computing, distinguished
 The quantum Turing machine is theoretically important but the physical implementation of this model is not feasible. All of these models of computation—quantum circuits, one-way quantum computation, adiabatic quantum computation, and topological quantum computation—have been shown to be equivalent to the quantum Turing machine; given a perfect implementation of one such quantum computer, it can simulate all the others with no more than polynomial overhead. This equivalence need not hold for practical quantum computers, since the overhead of simulation may be too large to be practical.
 
 ==Relation to computability and complexity theory==
-Computability theory
+===Computability theory===
 
 Any computational problem solvable by a classical computer is also solvable by a quantum computer. Intuitively, this is because it is believed that all physical phenomena, including the operation of classical computers, can be described using quantum mechanics, which underlies the operation of quantum computers.
 
 Conversely, any problem solvable by a quantum computer is also solvable by a classical computer. It is possible to simulate both quantum and classical computers manually with just some paper and a pen, if given enough time. More formally, any quantum computer can be simulated by a Turing machine. In other words, quantum computers provide no additional power over classical computers in terms of computability. This means that quantum computers cannot solve undecidable problems like the halting problem and the existence of quantum computers does not disprove the Church–Turing thesis.
 
-Quantum complexity theory
+===Quantum complexity theory===
 
 While quantum computers cannot solve any problems that classical computers cannot already solve, it is suspected that they can solve certain problems faster than classical computers. For instance, it is known that quantum computers can efficiently factor integers, while this is not believed to be the case for classical computers.
 

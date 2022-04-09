@@ -5,39 +5,39 @@ In tennis, a grip is a way of holding the racquet in order to hit shots during a
 In order to understand the grips, it is important to know that the handle of a racquet always consists of 8 sides or, in other words, has an octagonal shape. A square shape would hurt the hand, while a round shape would not give enough friction to gain a firm grip. The eight sides of the handle are called bevels. They can be numbered from 1 to 8 as follows: if the blade of the racquet is perpendicular to the ground, the bevel facing up is bevel #1. Rotating the racquet clockwise, the  next bevel facing up is bevel #2 for the right-handed, and counter-clockwise for the left-handed, and so on to identify all 8 bevels.
 
 == The grips ==
- The Continental Grip (Bevel #2) 
+=== The Continental Grip (Bevel #2) ===
 
- The Eastern forehand Grip (Bevel #3) 
+=== The Eastern forehand Grip (Bevel #3) ===
 
 The Eastern forehand grip is primarily used for flatter groundstrokes. In order to execute a proper Eastern forehand grip, players need both index knuckle and heel pad to rest on bevel #3. An easy way to implement this is to place the palm flat against the strings and slide down to the handle and grab, in order to achieve an Eastern forehand. Advantages are this is one of the easiest grips for learning the forehand, easier (faster) to change to a Continental to do some volleying, topspin or slice. Notable players with this grip include Juan Martin Del Potro, Roger Federer and Steffi Graf.
 
- The Semi-Western Forehand Grip (Bevel #4) 
+=== The Semi-Western Forehand Grip (Bevel #4) ===
 
 The Semi-Western grip is an "advanced" form that most players either change to on purpose or naturally find through practice. This grip closes the racket face more upon contact, allowing for more topspin but is still able to generate pace. This grip is the most popular on tour and is used by several greats, such as Rafael Nadal and Andy Murray.
 
- The Western Forehand Grip (Bevel #5) 
+=== The Western Forehand Grip (Bevel #5) ===
 
 The Western grip is one of the more extreme forehand grips used to generate topspin. This grip closes the racket face more than semi-western and was originally used by Rafael Nadal growing up. This grip is great for maximizing margin and hitting deep, loopy balls. Notable players using this grip are Karen Khachanov and Kei Nishikori. Another variation, popularized by Novak Djokovic, is the 3/4 Western grip. For this grip, the knuckle is slightly on the Semi-Western bevel (4) and the heel pad more on the Western side.
 
-The Hawaiian Forehand Grip (Bevel #6) 
+===The Hawaiian Forehand Grip (Bevel #6) ===
 
 The Hawaiian grip is the most extreme forehand grip used to generate heavy topspin. Because of the extreme wrist position, it is not recommended to use because it may cause wrist pain and other joint problems. The nature of the grip is to generate topspin because of the closed racket face. This means that it is harder to drive through the ball, however, is still possible. The most popular player to use this grip is Alberto Berasategui.
 
- The Two-Handed Forehand Grip (F: Bevel #2 + B: Bevel #7) 
+=== The Two-Handed Forehand Grip (F: Bevel #2 + B: Bevel #7) ===
 
 The basic Two-Handed Forehand grip, is obtained by holding the racquet in a regular Continental grip, then placing the left hand above holding it in a left-handed Eastern Forehand grip. This places the reference bevels of the two hands exactly opposite each other. Holding the racquet using two hands for the forehand is highly unusual, but some well-known top WTA players (e.g. Monica Seles, Hsieh Su-wei) have used it successfully. While it shortens the forehand reach and reduces maximum power, it offers unrivalled accuracy, which may more than compensate the former drawbacks. Also, combined with a two-handed backhand, it is almost impossible for the opponent to see which side (backhand or forehand) is hitting the ball. The sides often are equally accurate, and no grip change is required.
 
- The Eastern Backhand Grip (Bevel #1)  
+=== The Eastern Backhand Grip (Bevel #1)  ===
 
 The Eastern Backhand grip is obtained when placing the hand such that the base knuckle of the index finger and heel of the hand are right on bevel #1. This grip allows for significant spin and control. The opposite face of the racket is used compared to the Eastern forehand. For someone who uses a Western forehand grip, on the other hand, the same face of the racket as in the forehand is used to strike the ball; no need to change grips if the forehand is played with a Western grip.
 
- The Semi-Western Backhand grip (Bevel #8) 
+=== The Semi-Western Backhand grip (Bevel #8) ===
 
 The Semi-Western backhand grip is achieved by placing the hand such that the base knuckle of the index finger is right on bevel #8. Compared to the Continental grip, the blade has rotated 90 degrees clockwise. Although not as popular as the Eastern backhand grip, due to the naturally closed position of the racquet, the Semi-Western grip allows for even greater topspin and can still generate pace.
 
 This is essentially equivalent to the Semi-Western forehand grip. The same face of the racquet as in the forehand is used to strike the ball. No need to change grips if the forehand is played with a Semi-Western grip.
 
- The Semi-Western Two-Handed Backhand Grip (F: Bevel #2 + B: Bevel #6) 
+=== The Semi-Western Two-Handed Backhand Grip (F: Bevel #2 + B: Bevel #6) ===
 
 The basic Two-Handed Backhand grip is obtained by holding the racquet in a regular Continental grip, then placing the left hand above holding it in a left-handed Semi-Western Forehand grip. This places the reference bevels of the two hands exactly opposite each other. Holding the racquet using two hands for the backhand is very common, but there are many variations in the precise positioning of the two hands. This also varies between right- and left-handed players.
 

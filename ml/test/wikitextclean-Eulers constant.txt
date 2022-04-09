@@ -41,7 +41,7 @@ However, some progress was made. Kurt Mahler showed in 1968 that the number  is 
 
 with q ≥ 2 and 1 ≤ a < q is algebraic; this family includes the special case γ(2,4) = γ/4. In 2013 M. Ram Murty and A. Zaytseva found a different family containing γ, which is based on sums of reciprocals of integers not divisible by a fixed list of primes, with the same property.
 
-Relation to gamma function
+===Relation to gamma function===
 γ is related to the digamma function Ψ, and hence the derivative of the gamma function Γ, when both functions are evaluated at 1. Thus:
 
 This is equal to the limits:
@@ -50,7 +50,7 @@ Further limit results are:
 
 A limit related to the beta function (expressed in terms of gamma functions) is
 
-Relation to the zeta function
+===Relation to the zeta function===
 γ can also be expressed as an infinite sum whose terms involve the Riemann zeta function evaluated at positive integers:
 
 Other series related to the zeta function include:
@@ -74,7 +74,7 @@ where 0 < ε < 1/252n6.
 
 γ can also be expressed as follows, which can be proven by expressing the zeta function as a Laurent series:
 
-Integrals
+===Integrals===
 γ equals the value of a number of definite integrals:
 
 where Hx is the fractional harmonic number.
@@ -97,7 +97,7 @@ where N1(n) and N0(n) are the number of 1s and 0s, respectively, in the base 2 e
 
 We have also Catalan's 1875 integral
 
-Series expansions
+===Series expansions===
 In general, 
 
 for any . However, the rate of convergence of this expansion depends significantly on . In particular,  exhibits much more rapid convergence than the conventional expansion . This is because
@@ -144,7 +144,7 @@ where Gn(2) are the Gregory coefficients of the second order.
   
 Series of prime numbers:
 
-Asymptotic expansions
+===Asymptotic expansions===
 γ equals the following asymptotic formulas (where Hn is the nth harmonic number):
  (Euler)
  (Negoi)
@@ -153,7 +153,7 @@ The third formula is also called the Ramanujan expansion.
 
 Alabdulmohsin derived closed-form expressions for the sums of errors of these approximations. He showed that (Theorem A.1):
 
-Exponential
+===Exponential===
 The constant eγ is important in number theory. Some authors denote this quantity simply as γ′. eγ equals the following limit, where pn is the nth prime number:
 
 This restates the third of Mertens' theorems. The numerical value of eγ is:
@@ -171,7 +171,7 @@ This infinite product, first discovered by Ser in 1926, was rediscovered by Sond
 
 It also holds that
 
-Continued fraction
+===Continued fraction===
 The continued fraction expansion of γ begins [0; 1, 1, 2, 1, 2, 1, 4, 3, 13, 5, 1, 1, 8, 1, 2, 4, 1, 1, 40, ...], which has no apparent pattern. The continued fraction is known to have at least 475,006 terms, and it has infinitely many terms if and only if γ is irrational.
 
 ==Generalizations==

@@ -18,15 +18,15 @@ Glucose forms white or colorless solids that are highly soluble in water and ace
 
 With six carbon atoms, it is classed as a hexose, a subcategory of the monosaccharides. sm d-Glucose is one of the sixteen aldohexose stereoisomers. The sm d-isomer, sm d-glucose, also known as dextrose, occurs widely in nature, but the sm l-isomer, sm l-glucose, does not. Glucose can be obtained by hydrolysis of carbohydrates such as milk sugar (lactose), cane sugar (sucrose), maltose, cellulose, glycogen, etc. Dextrose is commonly commercially manufactured from cornstarch in the US and Japan, from potato and wheat starch in Europe, and from tapioca starch in tropical areas. The manufacturing process uses hydrolysis via pressurized steaming at controlled pH in a jet followed by further enzymatic depolymerization. Unbonded glucose is one of the main ingredients of honey.
 
-Structure and nomenclature
+===Structure and nomenclature===
 
 Glucose is usually present in solid form as a monohydrate with a closed pyran ring (dextrose hydrate). In aqueous solution, on the other hand, it is an open-chain to a small extent and is present predominantly as α- or β-pyranose, which interconvert (see mutarotation). From aqueous solutions, the three known forms can be crystallized: α-glucopyranose, β-glucopyranose and β-glucopyranose hydrate. Glucose is a building block of the disaccharides lactose and sucrose (cane or beet sugar), of oligosaccharides such as raffinose and of polysaccharides such as starch and amylopectin, glycogen or cellulose. The glass transition temperature of glucose is 31 C and the Gordon–Taylor constant (an experimentally determined constant for the prediction of the glass transition temperature for different mass fractions of a mixture of two substances) is 4.5.
 
-Open-chain form
+===Open-chain form===
 
 The open-chain form of glucose makes up less than 0.02% of the glucose molecules in an aqueous solution. The rest is one of two cyclic hemiacetal forms. In its open-chain form, the glucose molecule has an open (as opposed to cyclic) unbranched backbone of six carbon atoms, where C-1 is part of an aldehyde group chem2 H(C\dO)\s. Therefore, glucose is also classified as an aldose, or an aldohexose. The aldehyde group makes glucose a reducing sugar giving a positive reaction with the Fehling test.
 
-Cyclic forms
+===Cyclic forms===
 
 In solutions, the open-chain form of glucose (either "D-" or "L-") exists in equilibrium with several cyclic isomers, each containing a ring of carbons closed by one oxygen atom. In aqueous solution, however, more than 99% of glucose molecules exist as pyranose forms. The open-chain form is limited to about 0.25%, and furanose forms exist in negligible amounts. The terms "glucose" and "D-glucose" are generally used for these cyclic forms as well. The ring arises from the open-chain form by an intramolecular nucleophilic addition reaction between the aldehyde group (at C-1) and either the C-4 or C-5 hydroxyl group, forming a hemiacetal linkage, chem2 \sC(OH)H\sO\s.
 
@@ -42,20 +42,20 @@ In the solid state, only the glucopyranose forms are observed.
 
 Some derivatives of glucofuranose, such as 1,2-O-isopropylidene-sc D-glucofuranose are stable and can be obtained pure as crystalline solids. For example, reaction of α-D-glucose with para-tolylboronic acid chem2 H3C\s(C6H4)\sB(OH)2 reforms the normal pyranose ring to yield the 4-fold ester α-D-glucofuranose-1,2:3,5-bis(p-tolylboronate).
 
-Mutarotation
+===Mutarotation===
 
 Mutarotation consists of a temporary reversal of the ring-forming reaction, resulting in the open-chain form, followed by a reforming of the ring. The ring closure step may use a different chem2 \sOH group than the one recreated by the opening step (thus switching between pyranose and furanose forms), or the new hemiacetal group created on C-1 may have the same or opposite handedness as the original one (thus switching between the α and β forms). Thus, though the open-chain form is barely detectable in solution, it is an essential component of the equilibrium.
 
 The open-chain form is thermodynamically unstable, and it spontaneously isomerizes to the cyclic forms. (Although the ring closure reaction could in theory create four- or three-atom rings, these would be highly strained, and are not observed in practice.) In solutions at room temperature, the four cyclic isomers interconvert over a time scale of hours, in a process called mutarotation. Starting from any proportions, the mixture converges to a stable ratio of α:β 36:64. The ratio would be α:β 11:89 if it were not for the influence of the anomeric effect. Mutarotation is considerably slower at temperatures close to 0 C.
 
-Optical activity
+===Optical activity===
 Whether in water or the solid form, sm d-(+)-glucose is dextrorotatory, meaning it will rotate the direction of polarized light clockwise as seen looking toward the light source. The effect is due to the chirality of the molecules, and indeed the mirror-image isomer, sm l-(−)-glucose, is levorotatory (rotates polarized light counterclockwise) by the same amount. The strength of the effect is different for each of the five tautomers.
 
 Note that the sm d- prefix does not refer directly to the optical properties of the compound. It indicates that the C-5 chiral centre has the same handedness as that of sm d-glyceraldehyde (which was so labelled because it is dextrorotatory). The fact that sm d-glucose is dextrorotatory is a combined effect of its four chiral centres, not just of C-5; and indeed some of the other sm d-aldohexoses are levorotatory.
 
 The conversion between the two anomers can be observed in a polarimeter since pure α-sm dglucose has a specific rotation angle of +112.2°·ml/(dm·g), pure β- D- glucose of +17.5°·ml/(dm·g). When equilibrium has been reached after a certain time due to mutarotation, the angle of rotation is +52.7°·ml/(dm·g). By adding acid or base, this transformation is much accelerated. The equilibration takes place via the open-chain aldehyde form.
 
-Isomerisation
+===Isomerisation===
 In dilute sodium hydroxide or other dilute bases, the monosaccharides mannose, glucose and fructose interconvert (via a Lobry de Bruyn–Alberda–Van Ekenstein transformation), so that a balance between these isomers is formed. This reaction proceeds via an enediol:
 
 ==Biochemical properties==
@@ -66,14 +66,14 @@ Glucose is produced by plants through the photosynthesis using sunlight, water a
 
 Many of the long-term complications of diabetes (e.g., blindness, kidney failure, and peripheral neuropathy) are probably due to the glycation of proteins or lipids. In contrast, enzyme-regulated addition of sugars to protein is called glycosylation and is essential for the function of many proteins.
 
-Uptake
+===Uptake===
 Ingested glucose initially binds to the receptor for sweet taste on the tongue in humans. This complex of the proteins T1R2 and T1R3 makes it possible to identify glucose-containing food sources. Glucose mainly comes from food&mdash;about 300 g per day is produced by conversion of food, but it is also synthesized from other metabolites in the body's cells. In humans, the breakdown of glucose-containing polysaccharides happens in part already during chewing by means of amylase, which is contained in saliva, as well as by maltase, lactase, and sucrase on the brush border of the small intestine. Glucose is a building block of many carbohydrates and can be split off from them using certain enzymes. Glucosidases, a subgroup of the glycosidases, first catalyze the hydrolysis of long-chain glucose-containing polysaccharides, removing terminal glucose. In turn, disaccharides are mostly degraded by specific glycosidases to glucose. The names of the degrading enzymes are often derived from the particular poly- and disaccharide; inter alia, for the degradation of polysaccharide chains there are amylases (named after amylose, a component of starch), cellulases (named after cellulose), chitinases (named after chitin), and more. Furthermore, for the cleavage of disaccharides, there are maltase, lactase, sucrase, trehalase, and others. In humans, about 70 genes are known that code for glycosidases. They have functions in the digestion and degradation of glycogen, sphingolipids, mucopolysaccharides, and poly(ADP-ribose). Humans do not produce cellulases, chitinases, or trehalases, but the bacteria in the gut microbiota do.
 
 In order to get into or out of cell membranes of cells and membranes of cell compartments, glucose requires special transport proteins from the major facilitator superfamily. In the small intestine (more precisely, in the jejunum), glucose is taken up into the intestinal epithelium with the help of glucose transporters via a secondary active transport mechanism called sodium ion-glucose symport via sodium/glucose cotransporter 1 (SGLT1). Further transfer occurs on the basolateral side of the intestinal epithelial cells via the glucose transporter GLUT2, as well uptake into liver cells, kidney cells, cells of the islets of Langerhans, neurons, astrocytes, and tanycytes. Glucose enters the liver via the portal vein and is stored there as a cellular glycogen. In the liver cell, it is phosphorylated by glucokinase at position 6 to form glucose 6-phosphate, which cannot leave the cell. Glucose 6-phosphatase can convert glucose 6-phosphate back into glucose exclusively in the liver, so the body can maintain a sufficient blood glucose concentration. In other cells, uptake happens by passive transport through one of the 14 GLUT proteins. In the other cell types, phosphorylation occurs through a hexokinase, whereupon glucose can no longer diffuse out of the cell.
 
 The glucose transporter GLUT1 is produced by most cell types and is of particular importance for nerve cells and pancreatic β-cells. GLUT3 is highly expressed in nerve cells. Glucose from the bloodstream is taken up by GLUT4 from muscle cells (of the skeletal muscle and heart muscle) and fat cells. GLUT14 is expressed exclusively in testicles. Excess glucose is broken down and converted into fatty acids, which are stored as triglycerides. In the kidneys, glucose in the urine is absorbed via SGLT1 and SGLT2 in the apical cell membranes and transmitted via GLUT2 in the basolateral cell membranes. About 90% of kidney glucose reabsorption is via SGLT2 and about 3% via SGLT1.
 
-Biosynthesis
+===Biosynthesis===
 
 In plants and some prokaryotes, glucose is a product of photosynthesis. Glucose is also formed by the breakdown of polymeric forms of glucose like glycogen (in animals and mushrooms) or starch (in plants). The cleavage of glycogen is termed glycogenolysis, the cleavage of starch is called starch degradation. 
 
@@ -81,7 +81,7 @@ The metabolic pathway that begins with molecules containing two to four carbon a
 
 Glucose also can be found outside of living organisms in the ambient environment. Glucose concentrations in the atmosphere are detected via collection of samples by aircraft and are known to vary from location to location. For example, glucose concentrations in atmospheric air from inland China range from 0.8-20.1 pg/l, whereas east coastal China glucose concentrations range from 10.3-142 pg/l.
 
-Glucose degradation
+===Glucose degradation===
 
 In humans, glucose is metabolized by glycolysis and the pentose phosphate pathway. Glycolysis is used by all living organisms, with small variations, and all organisms generate energy from the breakdown of monosaccharides. In the further course of the metabolism, it can be completely degraded via oxidative decarboxylation, the citric acid cycle (synonym Krebs cycle) and the respiratory chain to water and carbon dioxide. If there is not enough oxygen available for this, the glucose degradation in animals occurs anaerobic to lactate via lactic acid fermentation and releases much less energy because it does not unlock the energy of oxygen. Muscular lactate enters the liver through the bloodstream in mammals, where gluconeogenesis occurs (Cori cycle). With a high supply of glucose, the metabolite acetyl-CoA from the Krebs cycle can also be used for fatty acid synthesis. Glucose is also used to replenish the body's glycogen stores, which are mainly found in liver and skeletal muscle. These processes are hormonally regulated.
 
@@ -99,7 +99,7 @@ In yeast, ethanol is fermented at high glucose concentrations, even in the prese
 
 Glucose can also degrade to form carbon dioxide through abiotic means. This has been demonstrated to occur experimentally via oxidation and hydrolysis at 22˚C and a pH of 2.5. 
 
-Energy source
+===Energy source===
 
 Glucose is a ubiquitous fuel in biology. It is used as an energy source in organisms, from bacteria to humans, through either aerobic respiration, anaerobic respiration (in bacteria), or fermentation. Glucose is the human body's key source of energy, through aerobic respiration, providing about 3.75 kilocalories (16 kilojoules) of food energy per gram. Breakdown of carbohydrates (e.g., starch) yields mono- and disaccharides, most of which is glucose. Through glycolysis and later in the reactions of the citric acid cycle and oxidative phosphorylation, glucose is oxidized to eventually form carbon dioxide and water, yielding energy mostly in the form of ATP. The insulin reaction, and other mechanisms, regulate the concentration of glucose in the blood. The physiological caloric value of glucose, depending on the source, is 16.2 kilojoules per gram or 15.7 kJ/g (3.74 kcal/g). The high availability of carbohydrates from plant biomass has led to a variety of methods during evolution, especially in microorganisms, to utilize glucose for energy and carbon storage. Differences exist in which end product can no longer be used for energy production. The presence of individual genes, and their gene products, the enzymes, determine which reactions are possible. The metabolic pathway of glycolysis is used by almost all living beings. An essential difference in the use of glycolysis is the recovery of NADPH as a reductant for anabolism that would otherwise have to be generated indirectly.
 
@@ -115,18 +115,18 @@ As a result of its importance in human health, glucose is an analyte in glucose 
 
 The glycemic index is an indicator of the speed of resorption and conversion to blood glucose levels from ingested carbohydrates, measured as the area under the curve of blood glucose levels after consumption in comparison to glucose (glucose is defined as 100). The clinical importance of the glycemic index is controversial, as foods with high fat contents slow the resorption of carbohydrates and lower the glycemic index, e.g. ice cream. An alternative indicator is the insulin index, measured as the impact of carbohydrate consumption on the blood insulin levels. The glycemic load is an indicator for the amount of glucose added to blood glucose levels after consumption, based on the glycemic index and the amount of consumed food.
 
-Precursor
+===Precursor===
 Organisms use glucose as a precursor for the synthesis of several important substances. Starch, cellulose, and glycogen ("animal starch") are common glucose polymers (polysaccharides). Some of these polymers (starch or glycogen) serve as energy stores, while others (cellulose and chitin, which is made from a derivative of glucose) have structural roles. Oligosaccharides of glucose combined with other sugars serve as important energy stores. These include lactose, the predominant sugar in milk, which is a glucose-galactose disaccharide, and sucrose, another disaccharide which is composed of glucose and fructose. Glucose is also added onto certain proteins and lipids in a process called glycosylation. This is often critical for their functioning. The enzymes that join glucose to other molecules usually use phosphorylated glucose to power the formation of the new bond by coupling it with the breaking of the glucose-phosphate bond.
 
 Other than its direct use as a monomer, glucose can be broken down to synthesize a wide variety of other biomolecules. This is important, as glucose serves both as a primary store of energy and as a source of organic carbon. Glucose can be broken down and converted into lipids. It is also a precursor for the synthesis of other important molecules such as vitamin C (ascorbic acid). In living organisms, glucose is converted to several other chemical compounds that are the starting material for various metabolic pathways. Among them, all other monosaccharides such as fructose (via the polyol pathway), mannose (the epimer of glucose at position 2), galactose (the epimer at position 4), fucose, various uronic acids and the amino sugars are produced from glucose. In addition to the phosphorylation to glucose-6-phosphate, which is part of the glycolysis, glucose can be oxidized during its degradation to glucono-1,5-lactone. Glucose is used in some bacteria as a building block in the trehalose or the dextran biosynthesis and in animals as a building block of glycogen. Glucose can also be converted from bacterial xylose isomerase to fructose. In addition, glucose metabolites produce all nonessential amino acids, sugar alcohols such as mannitol and sorbitol, fatty acids, cholesterol and nucleic acids. Finally, glucose is used as a building block in the glycosylation of proteins to glycoproteins, glycolipids, peptidoglycans, glycosides and other substances (catalyzed by glycosyltransferases) and can be cleaved from them by glycosidases.
 
 ==Pathology==
-Diabetes
+===Diabetes===
 Diabetes is a metabolic disorder where the body is unable to regulate levels of glucose in the blood either because of a lack of insulin in the body or the failure, by cells in the body, to respond properly to insulin. Each of these situations can be caused by persistently high elevations of blood glucose levels, through pancreatic burnout and insulin resistance. The pancreas is the organ responsible for the secretion of the hormones insulin and glucagon. Insulin is a hormone that regulates glucose levels, allowing the body's cells to absorb and use glucose. Without it, glucose cannot enter the cell and therefore cannot be used as fuel for the body's functions. If the pancreas is exposed to persistently high elevations of blood glucose levels, the insulin-producing cells in the pancreas could be damaged, causing a lack of insulin in the body. Insulin resistance occurs when the pancreas tries to produce more and more insulin in response to persistently elevated blood glucose levels. Eventually, the rest of the body becomes resistant to the insulin that the pancreas is producing, thereby requiring more insulin to achieve the same blood glucose-lowering effect, and forcing the pancreas to produce even more insulin to compete with the resistance. This negative spiral contributes to pancreatic burnout, and the disease progression of diabetes.
 
 To monitor the body's response to blood glucose-lowering therapy, glucose levels can be measured. Blood glucose monitoring can be performed by multiple methods, such as the fasting glucose test which measures the level of glucose in the blood after 8 hours of fasting. Another test is the 2-hour glucose tolerance test (GTT) – for this test, the person has a fasting glucose test done, then drinks a 75-gram glucose drink and is retested. This test measures the ability of the person's body to process glucose. Over time the blood glucose levels should decrease as insulin allows it to be taken up by cells and exit the blood stream.
 
-Hypoglycemia management
+===Hypoglycemia management===
 
 Individuals with diabetes or other conditions that result in low blood sugar often carry small amounts of sugar in various forms. One sugar commonly used is glucose, often in the form of glucose tablets (glucose pressed into a tablet shape sometimes with one or more other ingredients as a binder), hard candy, or sugar packet.
 
@@ -141,7 +141,7 @@ Glucose is produced industrially from starch by enzymatic hydrolysis using gluco
 
 Many crops can be used as the source of starch. Maize, rice, wheat, cassava, potato, barley, sweet potato, corn husk and sago are all used in various parts of the world. In the United States, corn starch (from maize) is used almost exclusively. Some commercial glucose occurs as a component of invert sugar, a roughly 1:1 mixture of glucose and fructose that is produced from sucrose. In principle, cellulose could be hydrolyzed to glucose, but this process is not yet commercially practical.
 
-Conversion to fructose
+===Conversion to fructose===
 
 In the USA almost exclusively corn (more precisely: corn syrup) is used as glucose source for the production of isoglucose, which is a mixture of glucose and fructose, since fructose has a higher sweetening power — with same physiological calorific value of 374 kilocalories per 100 g. The annual world production of isoglucose is 8 million tonnes (as of 2011). When made from corn syrup, the final product is high fructose corn syrup (HFCS).
 
@@ -155,46 +155,46 @@ In addition, various organic acids can be biotechnologically produced from gluco
 ==Analysis==
 When a glucose molecule is to be detected at a certain position in a larger molecule, nuclear magnetic resonance spectroscopy, X-ray crystallography analysis or lectin immunostaining is performed with concanavalin A reporter enzyme conjugate, which binds only glucose or mannose.
 
-Classical qualitative detection reactions
+===Classical qualitative detection reactions===
 These reactions have only historical significance:
 
-Fehling test
+====Fehling test====
 The Fehling test is a classic method for the detection of aldoses. Due to mutarotation, glucose is always present to a small extent as an open-chain aldehyde. By adding the Fehling reagents (Fehling (I) solution and Fehling (II) solution), the aldehyde group is oxidized to a carboxylic acid, while the Cu2+ tartrate complex is reduced to Cu+ and forms a brick red precipitate (Cu2O).
 
-Tollens test
+====Tollens test====
 In the Tollens test, after addition of ammoniacal AgNO3 to the sample solution, glucose reduces Ag+ to elemental silver.
 
-Barfoed test
+====Barfoed test====
 In Barfoed's test, a solution of dissolved copper acetate, sodium acetate and acetic acid is added to the solution of the sugar to be tested and subsequently heated in a water bath for a few minutes. Glucose and other monosaccharides rapidly produce a reddish color and reddish brown copper(I) oxide (Cu2O).
 
-Nylander's test
+====Nylander's test====
 As a reducing sugar, glucose reacts in the Nylander's test.
 
-Other tests
+====Other tests====
 Upon heating a dilute potassium hydroxide solution with glucose to 100 °C, a strong reddish browning and a caramel-like odor develops. Concentrated sulfuric acid dissolves dry glucose without blackening at room temperature forming sugar sulfuric acid. In a yeast solution, alcoholic fermentation produces carbon dioxide in the ratio of 2.0454 molecules of glucose to one molecule of CO2. Glucose forms a black mass with stannous chloride. In an ammoniacal silver solution, glucose (as well as lactose and dextrin) leads to the deposition of silver. In an ammoniacal lead acetate solution, white lead glycoside is formed in the presence of glucose, which becomes less soluble on cooking and turns brown. In an ammoniacal copper solution, yellow copper oxide hydrate is formed with glucose at room temperature, while red copper oxide is formed during boiling (same with dextrin, except for with an ammoniacal copper acetate solution). With Hager's reagent, glucose forms mercury oxide during boiling. An alkaline bismuth solution is used to precipitate elemental, black-brown bismuth with glucose. Glucose boiled in an ammonium molybdate solution turns the solution blue. A solution with indigo carmine and sodium carbonate destains when boiled with glucose.
 
-Instrumental quantification
-Refractometry and polarimetry
+===Instrumental quantification===
+====Refractometry and polarimetry====
 In concentrated solutions of glucose with a low proportion of other carbohydrates, its concentration can be determined with a polarimeter. For sugar mixtures, the concentration can be determined with a refractometer, for example in the Oechsle determination in the course of the production of wine.
 
-Photometric enzymatic methods in solution
+====Photometric enzymatic methods in solution====
 
 The enzyme glucose oxidase (GOx) converts glucose into gluconic acid and hydrogen peroxide while consuming oxygen. Another enzyme, peroxidase, catalyzes a chromogenic reaction (Trinder reaction) of phenol with 4-aminoantipyrine to a purple dye.
 
-Photometric test-strip method
+====Photometric test-strip method====
 The test-strip method employs the above-mentioned enzymatic conversion of glucose to gluconic acid to form hydrogen peroxide. The reagents are immobilised on a polymer matrix, the so-called test strip, which assumes a more or less intense color. This can be measured reflectometrically at 510 nm with the aid of an LED-based handheld photometer. This allows routine blood sugar determination by nonscientists. In addition to the reaction of phenol with 4-aminoantipyrine, new chromogenic reactions have been developed that allow photometry at higher wavelengths (550 nm, 750 nm).
 
-Amperometric glucose sensor
+====Amperometric glucose sensor====
 The electroanalysis of glucose is also based on the enzymatic reaction mentioned above. The produced hydrogen peroxide can be amperometrically quantified by anodic oxidation at a potential of 600 mV. The GOx is immobilized on the electrode surface or in a membrane placed close to the electrode. Precious metals such as platinum or gold are used in electrodes, as well as carbon nanotube electrodes, which e.g. are doped with boron. Cu–CuO nanowires are also used as enzyme-free amperometric electrodes, reaching a detection limit of 50 μmol/L. A particularly promising method is the so-called "enzyme wiring", where the electron flowing during the oxidation is transferred via a molecular wire directly from the enzyme to the electrode.
 
-Other sensory methods
+====Other sensory methods====
 There are a variety of other chemical sensors for measuring glucose. Given the importance of glucose analysis in the life sciences, numerous optical probes have also been developed for saccharides based on the use of boronic acids, which are particularly useful for intracellular sensory applications where other (optical) methods are not or only conditionally usable. In addition to the organic boronic acid derivatives, which often bind highly specifically to the 1,2-diol groups of sugars, there are also other probe concepts classified by functional mechanisms which use selective glucose-binding proteins (e.g. concanavalin A) as a receptor. Furthermore, methods were developed which indirectly detect the glucose concentration via the concentration of metabolized products, e.g. by the consumption of oxygen using fluorescence-optical sensors. Finally, there are enzyme-based concepts that use the intrinsic absorbance or fluorescence of (fluorescence-labeled) enzymes as reporters.
 
-Copper iodometry
+====Copper iodometry====
 Glucose can be quantified by copper iodometry.
 
-Chromatographic methods
+===Chromatographic methods===
 In particular, for the analysis of complex mixtures containing glucose, e.g. in honey, chromatographic methods such as high performance liquid chromatography and gas chromatography are often used in combination with mass spectrometry. Taking into account the isotope ratios, it is also possible to reliably detect honey adulteration by added sugars with these methods. Derivatization using silylation reagents is commonly used. Also, the proportions of di- and trisaccharides can be quantified.
 
-In vivo analysis
+====In vivo analysis====
 Glucose uptake in cells of organisms is measured with 2-deoxy-D-glucose or fluorodeoxyglucose. (18F)fluorodeoxyglucose is used as a tracer in positron emission tomography in oncology and neurology, where it is by far the most commonly used diagnostic agent.

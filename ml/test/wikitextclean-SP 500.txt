@@ -11,12 +11,12 @@ The index is associated with many ticker symbols, including ^GSPC, INX, and $SPX
 The S&P 500 is maintained by S&P Dow Jones Indices, a joint venture majority-owned by S&P Global, and its components are selected by a committee.
 
 ==Investing in the S&P 500==
-Mutual and exchange-traded funds
+===Mutual and exchange-traded funds===
 Index funds, including mutual funds and exchange-traded funds (ETFs), can replicate, before fees and expenses, the performance of the index by holding the same stocks as the index in the same proportions. ETFs that replicate the performance of the index are issued by The Vanguard Group (NYSE Arca VOO), iShares (NYSE Arca IVV), and State Street Corporation (NYSE Arca SPY), and the most liquid based on average daily volume is currently (NYSE Arca SPY), although SPY has a slightly higher expense ratio of 0.09% compared to just 0.03% for VOO and IVV. Mutual funds that track the index are offered by Fidelity Investments, T. Rowe Price, and Charles Schwab Corporation.
 
 Direxion offers leveraged ETFs that attempt to produce three times the daily result of either investing in (NYSE Arca SPXL) or shorting (NYSE Arca SPXS) the S&P 500 index.
 
-Derivatives
+===Derivatives===
 In the derivatives market, the Chicago Mercantile Exchange (CME) offers futures contracts that track the index and trade on the exchange floor in an open outcry auction, or on CME's Globex platform, and are the exchange's most popular product. Ticker symbols are:
 * /SP for the full-sized contract 
 * /ES for the E-mini S&P contract that is one fifth the size of /SP
@@ -82,7 +82,7 @@ The Divisor, currently below 8.3 billion, is a number that is adjusted to keep t
 
 The average annual total return and compound annual growth rate of the index, including dividends, since inception in 1926 has been approximately 9.8% (6% after inflation), and the annual standard deviation of the return over the same time period is 20.81%; however, there were several years where the index declined over 30%. The index has posted annual increases 70% of the time. However, the index has made new highs on only 5% of trading days, meaning that on 95% of trading days, the index has closed below its all-time high.
 
-Price history & milestones
+===Price history & milestones===
 
 On August 12, 1982, the index closed at 102.42.
 
@@ -132,5 +132,5 @@ However, in 2019, the index posted its best first half in 22 years including the
 
 On February 19, 2020, the index hit a new closing peak of 3,386.15; however, it fell 10% in the next six trading days, its fastest drop from a new peak as a result of the onset of the COVID-19 pandemic and COVID-19 recession. On March 23, 2020, at the trough of the 2020 stock market crash, the index had fallen 34% from its peak. Overall, the index fell 20% during the first quarter of 2020, its worst quarter since 2008. However, this was followed by a 20% gain in the second quarter, its biggest quarterly gain since 1998. The index reached a new record high on August 18, 2020. In the following months the index reached several all-time highs. On April 1, 2021, the index closed above 4,000 for the first time.
 
-Returns by year
+===Returns by year===
 Returns are generally quoted as price returns (excluding returns from dividends). However, they can also be quoted as total return, which include returns from dividends and the reinvestment thereof, and "net total return", which reflects the effects of dividend reinvestment after the deduction of withholding tax.

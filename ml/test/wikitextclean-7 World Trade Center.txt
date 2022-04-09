@@ -8,7 +8,7 @@ Construction of the new 7 World Trade Center began in 2002 and was completed in 
 
 ==Original building (1987–2001)==
 
-Design and layout
+===Design and layout===
 
 The original 7 World Trade Center was a 47-story building, designed by Emery Roth & Sons, with a red granite facade. The building was 610 ft tall, with a trapezoidal footprint that was 330 ft long and 140 ft wide. Tishman Realty & Construction managed construction of the building. The ground-breaking ceremony was hosted on October 2, 1984. The building opened in May 1987, becoming the seventh structure of the World Trade Center.
 
@@ -20,7 +20,7 @@ Mechanical equipment was installed on floors four through seven, including 12 tr
 
 Each floor had 47,000 sqft of rentable office space, which made the building's floor plans considerably larger than most office buildings in the city. In all, 7 World Trade Center had 1,868,000 sqft of office space. Two pedestrian bridges connected the main World Trade Center complex, across Vesey Street, to the third floor of 7 World Trade Center. The lobby of 7 World Trade Center held three murals by artist Al Held: The Third Circle, Pan North XII, and Vorces VII.
 
-Tenants
+===Tenants===
 
 In June 1986, before construction was completed, developer Larry Silverstein signed Drexel Burnham Lambert as a tenant to lease the entire 7 World Trade Center building for $3 billion over a term of 30 years.
 In December 1986, after the Boesky insider-trading scandal, Drexel Burnham Lambert canceled the lease, leaving Silverstein to find other tenants.
@@ -30,14 +30,14 @@ In November 1988, Salomon Brothers withdrew from plans to build a large new comp
 
 At the time of the September 11, 2001, attacks, Salomon Smith Barney was by far the largest tenant in 7 World Trade Center, occupying 1,202,900 sqft (64 percent of the building) which included floors 28–45. Other major tenants included ITT Hartford Insurance Group (122,590 sq ft/11,400 m2), American Express Bank International (106,117 sq ft/9,900 m2), Standard Chartered Bank (111,398 sq ft/10,350 m2), and the Securities and Exchange Commission (106,117 sq ft/9,850 m2). Smaller tenants included the Internal Revenue Service Regional Council (90,430 sq ft/8,400 m2) and the United States Secret Service (85,343 sq ft/7,900 m2). The smallest tenants included the New York City Office of Emergency Management, National Association of Insurance Commissioners, Federal Home Loan Bank of New York, First State Management Group Inc., Provident Financial Management, and the Immigration and Naturalization Service. The Department of Defense (DOD) and Central Intelligence Agency (CIA) shared the 25th floor with the IRS. (The clandestine CIA office was revealed only after the 9/11 attacks.)  Floors 46–47 were mechanical floors, as were the bottom six floors and part of the seventh floor.
 
-9/11 and collapse
+===9/11 and collapse===
 
-Collapse
+====Collapse====
 As the North Tower collapsed on September 11, 2001, heavy debris hit 7 World Trade Center, damaging the south face of the building and starting fires that continued to burn throughout the afternoon. The collapse also caused damage to the southwest corner between floors 7 and 17 and on the south face between Floor 44 and the roof; other possible structural damage included a large vertical gash near the center of the south face between Floors 24 and 41. The building was equipped with a sprinkler system, but had many single-point vulnerabilities for failure: the sprinkler system required manual initiation of the electrical fire pumps, rather than being a fully automatic system; the floor-level controls had a single connection to the sprinkler water riser, and the sprinkler system required some power for the fire pump to deliver water. Additionally, water pressure was low, with little or no water to feed sprinklers.
 
 After the North Tower collapsed, some firefighters entered 7 World Trade Center to search the building. They attempted to extinguish small pockets of fire, but low water pressure hindered their efforts. Over the course of the day, fires burned out of control on several floors of 7 World Trade Center, the flames visible on the east side of the building. During the afternoon, the fire was also seen on floors 6–10, 13–14, 19–22, and 29–30. In particular, the fires on floors 7 through 9 and 11 through 13 continued to burn out of control during the afternoon. At approximately 2:00 pm, firefighters noticed a bulge in the southwest corner of 7 World Trade Center between the 10th and 13th floors, a sign that the building was unstable and might collapse. During the afternoon, firefighters also heard creaking sounds coming from the building. Around 3:30 pm, FDNY Chief Daniel A. Nigro decided to halt rescue operations, surface removal, and searches along the surface of the debris near 7 World Trade Center and evacuate the area due to concerns for the safety of personnel. The fire expanded the girders of the building, causing some to lose their structural integrity. This led column number 79, a critical column supporting a large part of the 13th floor, to buckle, causing the floors above it to collapse to the fifth floor; however, this could not be seen from outside the building. The structure also developed cracks in the facade just before the entire building started to fall. According to FEMA, this collapse started at 5:20:33 pm EDT when the east mechanical penthouse started crumbling. Differing times are given as to what time the building completely collapsed: at 5:21:10 pm EDT according to FEMA, and at 5:20:52 pm EDT according to NIST. There were no casualties associated with the collapse. NIST found no evidence to support conspiracy theories such as the collapse being the result of explosives; it found that a combination of factors including physical damage, fire, and the building's unusual construction set off a chain-reaction collapse.
 
-Reports
+====Reports====
 
 In May 2002, the Federal Emergency Management Agency (FEMA) issued a report on the collapse based on a preliminary investigation conducted jointly with the Structural Engineering Institute of the American Society of Civil Engineers under the leadership of Dr. W. Gene Corley, P.E. FEMA made preliminary findings that the collapse was not primarily caused by actual impact damage from the collapse of 1 WTC and 2 WTC but by fires on multiple stories ignited by debris from the other two towers that continued burning unabated due to lack of water for sprinklers or manual firefighting. The report did not reach conclusions about the cause of the collapse and called for further investigation.
 
@@ -59,7 +59,7 @@ New World Trade Center
 
 The new 7 World Trade Center has 52 stories and is 741 ft tall. The building has 42 floors of leasable space, starting at the 11th floor, and a total of 1.7 e6sqft of office space. The first ten floors house an electrical substation which provides power to much of Lower Manhattan. The office tower has a narrower footprint at ground level than did its predecessor, so the course of Greenwich Street could be restored to reunite TriBeCa and the Financial District. The original building, on the other hand, had bordered West Broadway on the east, necessitating the destruction of Greenwich Street between Barclay Street and the northern border of the World Trade Center superblock.
 
-Design
+===Design===
 
 David Childs of Skidmore, Owings and Merrill worked in conjunction with glass artist and designer James Carpenter to create a design that uses ultra-clear, low-iron glass to provide reflectivity and light, with stainless-steel spandrels behind the glass to help reflect sunlight. Stainless steel used in the building façade is molybdenum-containing Type 316, which provides improved resistance to corrosion. To enclose the power substation and improve its aesthetics, the base of the building has a curtain wall with stainless steel louvers that provide ventilation for the machinery. During the day, the curtain wall reflects light, while at night it is illuminated with blue LED lights. The curtain wall around the lobby uses heavily laminated, heat-strengthened glass that meets high standards for blast resistance. At night, a large cube of light above the lobby also emanates blue light, while during the day it provides white light to the lobby, and at dusk, it transitions to violet and back to blue. Inside the main lobby, artist Jenny Holzer created a large light installation with glowing text moving across wide plastic panels. The entire wall, which is 65 ft wide and 14 ft tall, changes color according to the time of day. Holzer worked with Klara Silverstein, the wife of Larry Silverstein, to select poetry for the art installation. The wall is structurally fortified as a security measure.
 
@@ -69,7 +69,7 @@ The building is being promoted as the safest skyscraper in the U.S. According to
 
 Nearly 30 percent of structural steel used in the building consists of recycled steel. Rainwater is collected and used for irrigation of the park and to cool the building. Along with other sustainable design features, the building is designed to allow in plenty of natural light, power is metered to tenants to encourage them to conserve energy, the heating steam is reused to generate some power for the building, and recycled materials are used for insulation and interior materials.
 
-Construction
+===Construction===
 
 The construction phase of the new 7 World Trade Center began on May 7, 2002, with the installation of a fence around the construction site. Tishman Construction Corporation of New York began work at the new 7 World Trade Center in 2002, soon after the site was cleared of debris. Restoring the Con Ed electrical substation was an urgent priority to meet power demands of Lower Manhattan. Because 7 World Trade Center is separate from the main 16 acre World Trade Center site, Larry Silverstein required approval from only the Port Authority, and rebuilding was able to proceed quickly. Building Seven was not included in the original World Trade Center master plan by Daniel Libeskind, but was designed by Skidmore, Owings & Merrill under the leadership of David Childs, who largely redesigned One World Trade Center.
 
@@ -77,7 +77,7 @@ Once construction of the power substation was completed in October 2003, work pr
 
 A 15,000 sqft triangular park was created between the extended Greenwich Street and West Broadway by David Childs with Ken Smith and his colleague, Annie Weinmayr, of Ken Smith Landscape Architect. The park comprises an open central plaza with a fountain and flanking groves of sweetgum trees and boxwood shrubs. At the center of the fountain, sculptor Jeff Koons created Balloon Flower (Red), whose mirror-polished stainless steel represents a twisted balloon in the shape of a flower.
 
-Opening
+===Opening===
 The building was officially opened at noon on May 23, 2006, with a free concert featuring Suzanne Vega, Citizen Cope, Bill Ware Vibes, Brazilian Girls, Ollabelle, Pharaoh's Daughter, Ronan Tynan (of the Irish Tenors), and special guest Lou Reed. Prior to opening, in March 2006, the new 7 World Trade Center frontage and lobby were used in scenes for the movie Perfect Stranger with Halle Berry and Bruce Willis.
 
 Since the building opened, several unleased upper floors have been used for events such as charity lunches, fashion shows, and black-tie galas. Silverstein Properties allowed space in the new building to be used for these events as a means to draw people to see the building. From September 8 to October 7, 2006, the work of photographer Jonathan Hyman was displayed in "An American Landscape", a free exhibit hosted by the World Trade Center Memorial Foundation at 7 World Trade Center. The photographs captured the response of people in New York City and across the United States after the September 11, 2001, attacks. The exhibit took place on the 45th floor while space remained available for lease.

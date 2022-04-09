@@ -19,7 +19,7 @@ In November 2021, additional roles were made available to players extending beyo
 In each game's lobby, various options can be adjusted to customize aspects of gameplay, such as player movement speed, the allowed number of emergency meetings, number of tasks, if there will be "visual tasks", or whether or not an Impostor is revealed after being voted off. There are also many cosmetic options, including spacesuit colors, skins, hats, and pets, some of which are paid downloadable content.
 
 ==Development and release==
-Early development
+===Early development===
 
 Among Us was inspired by the live party game Mafia, and the science fiction horror film The Thing. The idea for the concept was originally given by Marcus Bromander, co-founder of Innersloth, who had played Mafia since he was a kid. In the original game, function cards were dealt and players wandered around a house, aimlessly, while another person secretly killed the players, drawing a finger around their neck. Most of its mechanics were still present in Among Us, but the team wanted to "alleviate the need to create an interesting home model and have someone wandering around in a boring environment". So, they decided that the game would be space themed and also added tasks, which, according to Forest Willard, programmer at Innersloth, "changed several times during development".
 
@@ -29,7 +29,7 @@ The game was released in June 2018 to Android and iOS under the AppID of "spacem
 
 On August 8, 2019, Innersloth released a second map, MIRA HQ, a "tightly packed headquarters roughly the size of The Skeld." A third map, Polus, was added on November 12, 2019, and is set in a research station. The fourth map, the Airship, was released on March 31, 2021, and is based on a location in the Henry Stickmin universe. MIRA HQ and Polus originally cost players Currency 4 via in-app purchase. Their prices were reduced to Currency 2 on January 6, 2020, then made free on June 11, 2020. While the map packs are still available for purchase on all platforms, they now only provide the player the skins that were bundled with the maps. According to programmer Forest Willard, the team "stuck with [the game] a lot longer than we probably should have from a pure business standpoint", putting out regular updates to the game as often as once per week. This led to a steady increase in players, causing the game's player base to snowball. Bromander attributed this to the studio having enough savings to keep working on the game even while it was not selling particularly well.
 
-Canceled sequel and ongoing updates
+===Canceled sequel and ongoing updates===
 In August 2020, the team shifted focus onto a sequel, Among Us 2. During this time, Forest Willard and Amy Liu continued to update Among Us, increasing the maximum player base, adding four servers and three regions, and implementing longer multiplayer codes to support more concurrent games. On September 23, 2020, the team canceled the sequel, instead opting to add all content intended for the sequel to the original Among Us, due to "how many people [were] enjoying [the original game]". However, Innersloth deemed the game's codebase "outdated and not built to support adding so much new content", so the team made plans to rework the game's core code to enable adding new features. The team subsequently announced their plans to fix the game's server issues and widespread cheating problem, as well as add a system for banning disruptive players. In October 2020, colorblind support for the "wires" task was added to the Among Us beta on Steam, as well as some previously unannounced lobby customization options. As-of-yet unimplemented features include improving gameplay for ghosts, adding customizable controls, a friends system, a fifth map, and new game modes.
 
 In mid-February 2021, the game added a feature called Quickchat, which replaces the standard chat interface with a series of preset phrases that players must pick from. Players under the age of 13 are required to use Quickchat, but those over 13 are also allowed to use Free Chat, which allows them to type original messages. First announced at The Game Awards 2020, the Airship map was released on March 31, 2021. The Airship features multiple floors, contraptions, tasks, and "more". In addition, Game Awards presenter Geoff Keighley's face was added as a skin. The map itself is based upon the Henry Stickmin series's Toppat Clan Airship. Innersloth also stated that the map would be free to all players. It also features a skin bundle that includes Henry Stickmin-themed cosmetic that can be bought on Steam.
@@ -38,14 +38,14 @@ The accounts system was implemented along with the update, and it allows players
 
 On July 7, 2021, Innersloth released a minor update that adds a new task, "Clean Vent", which involves the Crewmate cleaning a specific vent, preventing Impostors from using it. On November 9, a major update was released that introduced four new roles, achievements, a level system, and an in-game store. During The Game Awards 2021, Among Us VR was announced for SteamVR, PlayStation VR, and the Meta Quest 2, developed by Schell Games.
 
- Console releases 
+=== Console releases ===
 Amid its popularity, Innersloth considered releasing the game to PlayStation 4 and Xbox One consoles, but encountered a problem in implementing player communication, since standard text-based or voice-based chat seemed unusable. They considered a system similar to the "quick comms" system from Rocket League, as well as the possibility of developing an entirely new communication system for the game. Versions of the game for Xbox consoles were later announced.
 
 Among Us was released for the Nintendo Switch on December 15, 2020, the same day it was announced during Nintendo Direct Indie World showcase. The Switch version supports cross-platform play with the mobile and Windows versions. This port was published by Play EveryWare. Upon release, the Switch version had an exploit to access The Airship prior to its official release in early 2021. The exploit was fixed two days after release in the Switch version's first update. Currently, all the game's downloadable content is unavailable on Switch, although the team stated that it will be added in some point.
 
 Among Us was released digitally for PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S consoles on December 14, 2021, along with its release on the Xbox Game Pass for console. These versions will support cross-platform play with existing Windows, Switch, and mobile versions. Unique to the PlayStation ports are special customization options based on Ratchet & Clank. Physical releases for consoles will be available in Europe the same day, while North American physical releases will be available in January 2022.
 
-October 2020 and January 2021 hacks
+===October 2020 and January 2021 hacks===
 In mid-October 2020, a hacker known as "Eris Loris" began targeting mainly North American servers. Several players on the Among Us subreddit and Twitter reported this player hacking their lobbies and spamming in-game chat with promotions for his YouTube channel, links to his Discord server, and controversial political messages. Eris Loris also threatened to personally hack players that refused to subscribe to his YouTube channel. The Discord server has been found to contain large amounts of offensive content, such as racist language, gore, pornography and images depicting animal abuse.
 
 A Eurogamer report from October 23, 2020, features an interview with a person claiming to be Eris Loris, conducted via the Discord server from one of the links provided in the hacked games. In the interview, Loris claims he created the bot responsible for the hacks "in only six hours", and had enlisted up to 50 volunteers to form a botnet which boosted the strength of their attacks. Loris claimed that the hack impacted 4.9 million players in 1.5 million games. He also added that the hacks were part of a publicity stunt to influence players to vote for Donald Trump in the 2020 United States presidential election.
@@ -53,13 +53,13 @@ A Eurogamer report from October 23, 2020, features an interview with a person cl
 Innersloth added an in-game message warning players about the hacks on October 22, and released a statement on Twitter the next day. They said they were "super aware" of the hacking issue, and stated that an "emergency server update" would be pushed out to combat the hacks. They encouraged players to stick to private games and to avoid playing on public ones until the update was released. The team plans to address the hacking vulnerabilities as part of a planned overhaul for the game. At the end of January 2021, players reported on Twitter the return of Eris Loris' hack attack, which is now distributing Among Us cheats.
 
 ==Popularity==
-2020 spike
+===2020 spike===
 
 While Among Us released in 2018, it was not until mid-2020 that it saw a surge of popularity, initially driven by content creators online in South Korea and Brazil. Bromander stated that the game is more popular in Mexico, Brazil, and South Korea than the United States. According to Willard, Twitch streamer Sodapoppin first popularized the game on Twitch in July 2020. Many other Twitch streamers and YouTubers followed suit, including prominent content creators xQc, Pokimane, Shroud, Ninja, Disguised Toast and PewDiePie.
 
 The COVID-19 pandemic was frequently cited as a reason for the popularity of Among Us, as it allowed for socializing despite social distancing. Emma Kent of Eurogamer believed that the release of Innersloth's The Henry Stickmin Collection also contributed to awareness of Among Us, and PC Gamer's Wes Fenlon credited Twitch streamer SR_Kaif for "prim[ing] Among Us for its big moment." Fenlon also praised Among Us for improvements over other popular tabletop games that had been inspired by Mafia, such as Secret Hitler. He said other video game adaptation of Mafia such as Town of Salem and Werewolves Within were "just add[ing] an online interface for the basic Werewolf rules," whereas Among Us is as an entirely new take on the concept. Along with Fall Guys and the Jackbox Party Packs, Among Us provided a narrative-less experience that helped to avoid the "cultural trauma" of the pandemic, according to M.J. Lewis of Wired.
 
-Memes and mods
+===Memes and mods===
 The game's popularity continued into the following months. YouTube reported that videos about Among Us were viewed 4 billion times in September 2020, and TikTok videos related to Among Us had over 13 billion views in October 2020. YouTuber CG5 wrote a song based on the game in September 2020, titled "Show Yourself", and gained over 60 million views in four months.  In September 2020, the game exceeded 100 million downloads and its player count rose to 1.5 million concurrent players (nearly 400 thousand of which were on Steam), then peaked at 3.8 million in late September. The sudden increase in players overloaded the game's server, which according to Willard was "a totally free Amazon server, and it was terrible." This forced him to work quickly, under crunch time, to resolve these issues.
 
 In August, Innersloth opened an online store for Among Us themed merchandise. The game's popularity inspired many original songs, fanarts and internet memes, Willard expressed that fan-created content "really is the best part" of making Among Us, and Bromander called it "my favorite thing to see". The game popularized the slang word "sus" (meaning "suspicious" or "suspect"), which had been used before the game's release. Other slang terms as well as internet memes popularized and inspired by Among Us include 'Sussy' and 'Sussy Baka' (derived from "sus"), 'When the Imposter is Sus' (an ironic meme based on Among Us, usually alongside an edited photo of Jerma985), and 'Amogus' (satiric misspelling of "Among Us").
@@ -68,7 +68,7 @@ During its time of widespread popularity, Among Us was controversially played by
 
 The game also received several mods made by the community, which added new roles, game modes, cosmetics, etc. Among Us was also featured in Twitch Rivals 2020, an online gaming tournament which was held on December 4, 2020. During the event, players were able to receive an exclusive pet called "Glitch Pet", which is the Twitch logo.
 
-Manga
+===Manga===
 On December 28, 2021, H2 Interactive, who publishes Among Us in Japan, announced that a one-shot manga based on the game will be published in Bessatsu CoroCoro's April issue on February 28, 2022. On January 13, Innersloth began promoting the manga on their official Twitter account.
 
 ==Reception==
@@ -94,14 +94,14 @@ The Nintendo Switch version received some criticism. William Antonieli of Inside
 
 Among Us has been frequently compared to Fall Guys, as both became popular as party games during the COVID-19 pandemic; the developers of both games have positively acknowledged each other on Twitter. Comparisons have also been drawn between the two games' avatars, which have been said to look like jelly beans. Among Us has also been compared to The Thing, Town of Salem, Werewolves Within, and Secret Hitler.
 
- Sales 
+=== Sales ===
 As of 2020 9, Steam Spy estimated that the game had more than 10 million owners on Steam. The Associated Press noted the game was the most downloaded app on the iOS App Store for both iPhones and iPads in October 2020. According to SuperData Research, the game had roughly 500 million players worldwide as of 2020 11 lc=y, with the free-to-play mobile version accounting for 97% of players and the buy-to-play PC version accounting for 3% of players, though it was the buy-to-play PC version that generated 64% of the game's gross revenue. Among Us became one of the best selling games of 2020 on Steam, being listed on the platinum category on "The Year's Top 100" list. The Nintendo Switch version's launch sold 3.2 million digital units in December 2020, making it the highest-earning version of the game for the month and one of the best-selling games on the Nintendo Switch.
 
 Among Us was offered as a free game on the Epic Games Store during one week in May 2021. Its average daily player count jumped from around 350,000 players in the weeks before to over 2 million players during the giveaway. On June 29, 2021, Innersloth reported on Twitter that during the game's free promotion on Epic Games Store, at least 15 million copies were claimed.
 
-Awards
+===Awards===
 
-Legacy
+===Legacy===
 Among Us has done collaborations and cross-overs with other games and studios. The first game they collaborated with was Fall Guys, who added Among Us-themed skins to their game. Characters from Among Us have made cameos in the indie games Astroneer, Sunshine Heavy Industries, Cosmonious High, and Samurai Gunn 2, and Among Us is referenced in several stickers in the game A Hat in Time. Several Among Us-themed cards are included in The Binding of Isaac: Four Souls Requiem.
 
 Themed skins and cosmetics from other games and properties have been added to Among Us as well: Innersloth and Riot Games crossed-over to bring Arcane themed cosmetics to Among Us. In addition to that Innersloth has also done crossovers with Halo, Ratchet & Clank, and the movie franchise Scream.

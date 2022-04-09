@@ -26,11 +26,11 @@ Widespread use of electronic communication through mobile phones and the Interne
 
 In modern English, there are several conventions for abbreviations, and the choice may be confusing. The only rule universally accepted is that one should be consistent, and to make this easier, publishers express their preferences in a style guide. Questions which arise include those in the following subsections.
 
- Lowercase letters 
+=== Lowercase letters ===
 
 If the original word was capitalized then the first letter of its abbreviation should retain the capital, for example Lev. for Leviticus. When a word is abbreviated to more than a single letter and was originally spelled with lower case letters then there is no need for capitalization. However, when abbreviating a phrase where only the first letter of each word is taken, then all letters should be capitalized, as in YTD for year-to-date, PCB for printed circuit board and FYI for for your information. However, see the following section regarding abbreviations that have become common vocabulary: these are no longer written with capital letters.
 
- Periods (full stops) and spaces 
+=== Periods (full stops) and spaces ===
 
 A period (full stop) is often used to signify an abbreviation, but opinion is divided as to when and if this should happen.
 
@@ -46,7 +46,7 @@ Today, spaces are generally not used between single-letter abbreviations of word
 
 When an abbreviation appears at the end of a sentence, only one period is used: The capital of the United States is Washington, D.C.
 
- Plural forms 
+=== Plural forms ===
 
 There is a question about how to pluralize abbreviations, particularly acronyms. Some writers tend to pluralize abbreviations by adding char 's (apostrophe s), as in "two PC's have broken screens", although this notation typically indicates possessive case. However, this style is not preferred by many style guides. For instance, Kate Turabian, writing about style in academic writings, allows for an apostrophe to form plural acronyms "only when an abbreviation contains internal periods or both capital and lowercase letters". Turabian would therefore prefer "DVDs" and "URLs" and "Ph.D.'s", while the Modern Language Association explicitly says, "do not use an apostrophe to form the plural of an abbreviation". Also, the American Psychological Association specifically says, "without an apostrophe".
 
@@ -86,13 +86,13 @@ However, the apostrophe can be dispensed with if the items are set in italics or
 
 In Latin, and continuing to the derivative forms in European languages as well as English, single-letter abbreviations had the plural being a doubling of the letter for note-taking. Most of these deal with writing and publishing. A few longer abbreviations use this as well.
 
- Conventions followed by publications and newspapers 
+=== Conventions followed by publications and newspapers ===
 
- United States 
+==== United States ====
 
 Publications based in the U.S. tend to follow the style guides of The Chicago Manual of Style and the Associated Press.Verify source date=May 2008 The U.S. Government follows a style guide published by the U.S. Government Printing Office. The National Institute of Standards and Technology sets the style for abbreviations of units.
 
- United Kingdom 
+==== United Kingdom ====
 
 Many British publications follow some of these guidelines in abbreviation:
 * For the sake of convenience, many British publications, including the BBC and The Guardian, have completely done away with the use of full stops or periods in all abbreviations. These include:
@@ -106,7 +106,7 @@ Many British publications follow some of these guidelines in abbreviation:
 * Initialisms are always written in capitals; for example the "British Broadcasting Corporation" is abbreviated to "BBC", never "Bbc". An initialism is also an acronym but is not pronounced as a word.
 * When abbreviating scientific units, no space is added between the number and unit (100mph, 100m, 10cm, 10°C). (This is contrary to the SI standard; see below.)
 
- Miscellaneous and general rules 
+==== Miscellaneous and general rules ====
 
 * A doubled letter appears in abbreviations of some Welsh names, as in Welsh the double "l" is a separate sound: "Ll. George" for (British prime minister) David Lloyd George.
 * Some titles, such as "Reverend" and "Honourable", are spelt out when preceded by "the", rather than as "Rev." or "Hon." respectively. This is true for most British publications, and some in the United States.
@@ -125,13 +125,13 @@ In the International System of Units (SI) manual the word "symbol" is used consi
 
 A syllabic abbreviation is usually formed from the initial syllables of several words, such as Interpol = International + police. It is a variant of the acronym. Syllabic abbreviations are usually written using lower case, sometimes starting with a capital letter, and are always pronounced as words rather than letter by letter. Syllabic abbreviations should be distinguished from portmanteaus, which combine two words without necessarily taking whole syllables from each.
 
- By language 
- Albanian 
+=== By language ===
+==== Albanian ====
 
 In Albanian, syllabic acronyms are used sometimes for composing a person's name such as  Migjeni an abbreviation from his original name (Millosh Gjergj Nikolla) a famous Albanian poet and writer, or ASDRENI (Aleksander Stavre Drenova), another famous Albanian poet. 
 Another such name which is used commonly in recent decades is GETOAR composed from Gegeria + Tosks (the latter are two main dialects of the albanian language Gegë & Toskë based on two main regions Gegëria and Toskëria) and 'Arbanon - which is an alternative way used to describe all Albanian lands.
 
- English 
+==== English ====
 Syllabic abbreviations are not widely used in English. Some UK government agencies such as Ofcom (Office of Communications) and the former Oftel (Office of Telecommunications) use this style.
 
 New York City has various neighborhoods named by syllabic abbreviation, such as Tribeca (Triangle below Canal Street) and SoHo (South of Houston Street). This usage has spread into other American cities, giving SoMa, San Francisco (South of Market) and LoDo, Denver (Lower Downtown), amongst others.
@@ -144,22 +144,22 @@ Syllabic abbreviations are a prominent feature of Newspeak, the fictional langua
 
 A more recent syllabic abbreviation has emerged with the disease COVID-19 (COrona VIrus Disease 2019) caused by the Severe acute respiratory syndrome coronavirus 2 virus (itself frequently abbreviated to SARS-CoV-2, mostly but not entirely an initialism).
 
- German 
+==== German ====
 Syllabic abbreviations were and are common in German; much like acronyms in English, they have a distinctly modern connotation, although contrary to popular belief, many date back to before 1933, if not the end of the Great War.  Kriminalpolizei, literally criminal police but idiomatically the Criminal Investigation Department of any German police force, begat KriPo (variously capitalised), and likewise Schutzpolizei, the protection police or uniform department, begat SchuPo.  Along the same lines, the Swiss Federal Railways' Transit Police—the Transportpolizei—are abbreviated as the TraPo.
 
 With the National Socialist German Workers' Party gaining power came a frenzy of government reorganisation, and with it a series of entirely new syllabic abbreviations.  The single national police force amalgamated from the Schutzpolizeien of the various states became the Ordnungspolizei or order police; the state KriPos together formed the Sicherheitspolizei or security police; and there was also the Geheime Staatspolizei or secret state police.  The new order of the German Democratic Republic in the east brought about a conscious denazification, but also a repudiation of earlier turns of phrase in favour of neologisms such as Stasi for Staatssicherheit ("state security", the secret police) and VoPo for Volkspolizei. The phrase politisches Büro, which may be rendered literally as office of politics or idiomatically as political party steering committee, became Politbüro.
 
 Syllabic abbreviations are not only used in politics, however.  Many business names, trademarks, and service marks from across Germany are created on the same pattern: for a few examples, there is Aldi, from Theo Albrecht, the name of its founder, followed by discount; Haribo, from Hans Riegel, the name of its founder, followed by Bonn, the town of its head office; and Adidas, from Adolf "Adi" Dassler, the nickname of its founder followed by his surname.
 
- Russian 
+==== Russian ====
 
 Leninist organisations such as the Comintern (Communist International) and Komsomol (Kommunisticheskii Soyuz Molodyozhi, or "Communist youth union") used Russian language syllabic abbreviations.  In the modern Russian language, words like Minoborony (from Ministerstvo oborony — Ministry of Defence) and Minobrnauki (from Ministerstvo obrazovaniya i nauki — Ministry of Education and Science) are still commonly used.  Further afield in Belarus, there is Beltelecom (Belarus Telecommunication) and Belsat (Belarus Satellite).
 
- Spanish 
+==== Spanish ====
 Syllabic abbreviations are common in Spanish; examples abound in organization names such as Pemex for Petróleos Mexicanos ("Mexican Petroleums") or Fonafifo for Fondo Nacional de Financimiento Forestal (National Forestry Financing Fund).
 
- Malay and Indonesian 
+==== Malay and Indonesian ====
 In Southeast Asian languages, especially in Malay languages, syllabic abbreviations are also common; examples include Petronas (for Petroliam Nasional, "National Petroleum"), its Indonesian equivalent Pertamina (from its original name Perusahaan Pertambangan Minyak dan Gas Bumi Negara, "State Oil and Natural Gas Mining Company"), and Kemenhub (from Kementerian Perhubungan, "Ministry of Transportation")
 
- CJK 
+==== CJK ====
 East Asian languages whose writing systems use Chinese characters form abbreviations similarly by using key Chinese characters from a term or phrase. For example, in Japanese the term for the United Nations, kokusai rengō (国際連合) is often abbreviated to kokuren (国連). (Such abbreviations are called ryakugo (略語) in Japanese; see also Japanese abbreviated and contracted words). The syllabic abbreviation is frequently used for universities: for instance, Tōdai (東大) for Tōkyō daigaku (東京大学, University of Tokyo) and is used similarly in Chinese: Běidà (北大) for Běijīng Dàxué'' (北京大学, Peking University). The English phrase "Gung ho" originated as a Chinese abbreviation.

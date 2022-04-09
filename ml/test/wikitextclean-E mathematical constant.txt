@@ -21,7 +21,7 @@ In mathematics, the most common typographical convention is to typeset the const
 
 == Applications ==
 
- Compound interest 
+=== Compound interest ===
 
 Jacob Bernoulli discovered this constant in 1683, while studying a question about compound interest:
 An account starts with $1.00 and pays 100 percent interest per year. If the interest is credited once, at the end of the year, the value of the account at year-end will be $2.00. What happens if the interest is computed and credited more frequently during the year?
@@ -34,7 +34,7 @@ More generally, an account that starts at $1 and offers an annual interest rate 
 
 (Note here that R is the decimal equivalent of the rate of interest expressed as a percentage, so for 5% interest, R = 5/100 = 0.05.)
 
- Bernoulli trials 
+=== Bernoulli trials ===
 
 The number e itself also has applications in probability theory, in a way that is not obviously related to exponential growth. Suppose that a gambler plays a slot machine that pays out with a probability of one in n and plays it n times. Then, for large n, the probability that the gambler will lose every bet is approximately 1/e. For n = 20, this is already approximately 1/2.79.
 
@@ -44,25 +44,25 @@ In particular, the probability of winning zero times (k = 0) is
 
 The limit of the above expression, as n tends to infinity, is precisely 1/e.
 
- Standard normal distribution 
+=== Standard normal distribution ===
 
 The normal distribution with zero mean and unit standard deviation is known as the standard normal distribution, given by the probability density function
 
 The constraint of unit variance (and thus also unit standard deviation) results in the frac2 1 2 in the exponent, and the constraint of unit total area under the curve  results in the factor .[proof]  This function is symmetric around x = 0, where it attains its maximum value , and has inflection points at x = ±1.
 
- Derangements 
+=== Derangements ===
 
 Another application of e, also discovered in part by Jacob Bernoulli along with Pierre Remond de Montmort, is in the problem of derangements, also known as the hat check problem: n guests are invited to a party, and at the door, the guests all check their hats with the butler, who in turn places the hats into n boxes, each labelled with the name of one guest. But the butler has not asked the identities of the guests, and so he puts the hats into boxes selected at random. The problem of de Montmort is to find the probability that none of the hats gets put into the right box. This probability, denoted by , is:
 
 As the number n of guests tends to infinity, pn approaches 1/e. Furthermore, the number of ways the hats can be placed into the boxes so that none of the hats are in the right box is n!/e, rounded to the nearest integer, for every positive n.
 
- Optimal planning problems 
+=== Optimal planning problems ===
 A stick of length L is broken into n equal parts.  The value of n that maximizes the product of the lengths is then either
  or 
 
 The stated result follows because the maximum value of  occurs at x = e (Steiner's problem, discussed below). The quantity  is a measure of information gleaned from an event occurring with probability 1/x, so that essentially the same optimal division appears in optimal planning problems like the secretary problem.
 
- Asymptotics 
+=== Asymptotics ===
 The number e occurs naturally in connection with many problems involving asymptotics. An example is Stirling's formula for the asymptotics of the factorial function, in which both the numbers e and π appear:
 
 As a consequence,
@@ -83,7 +83,7 @@ The logarithm with this special base is called the natural logarithm, and is den
 
 Thus, there are two ways of selecting such special numbers a. One way is to set the derivative of the exponential function ax equal to ax, and solve for a. The other way is to set the derivative of the base a logarithm to 1/x and solve for a. In each case, one arrives at a convenient choice of base for doing calculus. It turns out that these two solutions for a are actually the same: the number e.
 
- Alternative characterizations 
+=== Alternative characterizations ===
 
 Other characterizations of e are also possible: one is as the limit of a sequence, another is as the sum of an infinite series, and still others rely on integral calculus. So far, the following two (equivalent) properties have been introduced:
 
@@ -107,12 +107,12 @@ where n! is the factorial of n.
 
 == Properties ==
 
- Calculus 
+=== Calculus ===
 As in the motivation, the exponential function ex is important in part because it is the unique nontrivial function that is its own derivative (up to multiplication by a constant):
 
 and therefore its own antiderivative as well:
 
- Inequalities 
+=== Inequalities ===
 
 The number e is the unique real number such that
 
@@ -122,7 +122,7 @@ Also, we have the inequality
 
 for all real x, with equality if and only if x = 0.  Furthermore, e is the unique base of the exponential for which the inequality ax ≥ x + 1 holds for all x.  This is a limiting case of Bernoulli's inequality.
 
- Exponential-like functions 
+=== Exponential-like functions ===
 
 Steiner's problem asks to find the global maximum for the function
 
@@ -148,14 +148,14 @@ The infinite tetration
 
 converges if and only if e−e ≤ x ≤ e1/e (or approximately between 0.0660 and 1.4447), due to a theorem of Leonhard Euler.
 
- Number theory 
+=== Number theory ===
 The real number e is irrational. Euler proved this by showing that its simple continued fraction expansion is infinite. (See also Fourier's proof that e is irrational.)
 
 Furthermore, by the Lindemann–Weierstrass theorem, e is transcendental, meaning that it is not a solution of any non-constant polynomial equation with rational coefficients. It was the first number to be proved transcendental without having been specifically constructed for this purpose (compare with Liouville number); the proof was given by Charles Hermite in 1873.
 
 It is conjectured that e is normal, meaning that when e is expressed in any base the possible digits in that base are uniformly distributed (occur with equal probability in any sequence of given length).
 
- Complex numbers 
+=== Complex numbers ===
 The exponential function ex may be written as a Taylor series
 
 Because this series is convergent for every complex value of x, it is commonly used to extend the definition of ex to the complex numbers. This, with the Taylor series for sin and cos x, allows one to derive Euler's formula:
@@ -174,7 +174,7 @@ is sometimes referred to as cis(x).
 
 The expressions of sin x and cos x in terms of the exponential function can be deduced:
 
- Differential equations 
+=== Differential equations ===
 The family of functions
 
 y(x) = Ce^x,
@@ -201,12 +201,12 @@ This continued fraction for e converges three times as quickly:
 
 Many other series, sequence, continued fraction, and infinite product representations of e have been proved.
 
- Stochastic representations 
+=== Stochastic representations ===
 In addition to exact analytical expressions for representation of e, there are stochastic techniques for estimating e.  One such approach begins with an infinite sequence of independent random variables X1, X2..., drawn from the uniform distribution on [0, 1]. Let V be the least number n such that the sum of the first n observations exceeds 1:
 
 Then the expected value of V is e: E(V) = e.
 
- Known digits 
+=== Known digits ===
 The number of known digits of e has increased substantially during the last decades. This is due both to the increased performance of computers and to algorithmic improvements.
 
 Since around 2010, the proliferation of modern high-speed desktop computers has made it feasible for most amateurs to compute trillions of digits of e within acceptable amounts of time. The most recent record was set on Dec 5, 2020, where e has been calculated to 31,415,926,535,897 digits.

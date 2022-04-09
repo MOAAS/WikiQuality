@@ -19,7 +19,7 @@ In algebraic and descriptive chess notation, an en passant capture is notated us
 
 ==Examples==
 
-In the opening
+===In the opening===
 
 Some chess openings feature en passant. In the following line from Petrov's Defence, White can capture the pawn on d5 en passant on their sixth move:
 
@@ -32,7 +32,7 @@ Some chess openings feature en passant. In the following line from Petrov's Defe
 
 Another example occurs in the French Defence after 1.e4 e6 2.e5, a line once advocated by Wilhelm Steinitz. If Black responds with 2...d5, White can capture the pawn en passant with 3.exd6 e.p.; likewise, White can answer 2...f5 with 3.exf6 e.p. The former line occurred in a game between Steinitz and Bernhard Fleissig (see diagrammed position).
 
-Unusual examples
+===Unusual examples===
 
 In the diagram, the move 1...g5+ seems to checkmate White, but it is in fact a blunder. Black overlooks that White can counter this check with the en passant capture 2.fxg6 e.p.chessAN #, which cross-checks and checkmates Black. (The diagrammed position leads to a draw with optimal play.)
 
@@ -44,7 +44,7 @@ The en passant capture and discovered checks place Black in checkmate (in fact, 
 
 The largest known number of en passant captures in one game is three. This record is shared by three games; in none of them were all three captures by the same player. The earliest known example is a 1980 game between Alexandru Sorin Segal and Karl Heinz Podzielny.
 
-In chess problems
+===In chess problems===
 
 En passant is often used as a theme in chess problems; according to Kenneth S. Howard, "En passant pawn captures frequently produce striking effects in the opening and closing of lines." In the diagrammed 1938 composition by Howard, the chessprobgloss key 1. d4 introduces the threat of 2.d5+ cxd5 3.Bxd5#. Black can capture the d4-pawn en passant in either of two ways:
 * The capture 1... exd3 e.p. shifts the e4-pawn from the e- to the d-file, preventing an en passant capture after White plays 2. f4. To stop the threatened mate (3.f5#), Black can advance 2... f5, but this allows White to play 3. exf6 e.p. with checkmate due to the decisive opening of the e-file.

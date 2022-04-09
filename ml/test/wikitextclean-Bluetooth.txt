@@ -13,7 +13,7 @@ A full trademark search on RadioWire couldn't be completed in time for launch, m
 Bluetooth is the Anglicised version of the Scandinavian Blåtand/Blåtann (or in Old Norse blátǫnn). It was the epithet of King Harald Bluetooth, who united the disparate 
 Danish tribes into a single kingdom; Kardach chose the name to imply that Bluetooth similarly unites communication protocols.
 
- Logo 
+=== Logo ===
 The Bluetooth logo  is a bind rune merging the Younger Futhark runes  (ᚼ, Hagall) and  (ᛒ, Bjarkan), Harald's initials.
 
 == History ==
@@ -42,7 +42,7 @@ Bluetooth is a packet-based protocol with a master/slave architecture. One maste
 
 The above excludes Bluetooth Low Energy, introduced in the 4.0 specification, which uses the same spectrum but somewhat differently.
 
- Communication and connection 
+=== Communication and connection ===
 A master BR/EDR Bluetooth device can communicate with a maximum of seven devices in a piconet (an ad hoc computer network using Bluetooth technology), though not all devices reach this maximum.  The devices can switch roles, by agreement, and the slave can become the master (for example, a headset initiating a connection to a phone necessarily begins as master—as an initiator of the connection—but may subsequently operate as the slave).
 
 The Bluetooth Core Specification provides for the connection of two or more piconets to form a scatternet, in which certain devices simultaneously play the master role in one piconet and the slave role in another.
@@ -61,11 +61,11 @@ Most Bluetooth applications are battery-powered Class 2 devices, with little dif
 
 The Bluetooth Core Specification mandates a range of not less than 10 m, but there is no upper limit on actual range. Manufacturers' implementations can be tuned to provide the range needed for each case.
 
- Bluetooth profile 
+=== Bluetooth profile ===
 
 To use Bluetooth wireless technology, a device must be able to interpret certain Bluetooth profiles, which are definitions of possible applications and specify general behaviors that Bluetooth-enabled devices use to communicate with other Bluetooth devices. These profiles include settings to parameterize and to control the communication from the start. Adherence to profiles saves the time for transmitting the parameters anew before the bi-directional link becomes effective. There are a wide range of Bluetooth profiles that describe many different types of applications or use cases for devices.
 
- List of applications 
+=== List of applications ===
 
 * Wireless control and communication between a mobile phone and a handsfree headset. This was one of the earliest applications to become popular.
 * Wireless control of and communication between a mobile phone and a Bluetooth compatible car stereo system (and sometimes between the SIM card and the car phone).
@@ -93,12 +93,12 @@ To use Bluetooth wireless technology, a device must be able to interpret certain
 * Live video streaming to the visual cortical implant device by Nabeel Fattah in Newcastle university 2017.
 * Connection of motion controllers to a PC when using VR headsets
 
- Bluetooth vs Wi-Fi (IEEE 802.11) 
+=== Bluetooth vs Wi-Fi (IEEE 802.11) ===
 Bluetooth and Wi-Fi (Wi-Fi is the brand name for products using IEEE 802.11 standards) have some similar applications: setting up networks, printing, or transferring files. Wi-Fi is intended as a replacement for high-speed cabling for general local area network access in work areas or home. This category of applications is sometimes called wireless local area networks (WLAN). Bluetooth was intended for portable equipment and its applications. The category of applications is outlined as the wireless personal area network (WPAN). Bluetooth is a replacement for cabling in various personally carried applications in any setting and also works for fixed location applications such as smart energy functionality in the home (thermostats, etc.).
 
 Wi-Fi and Bluetooth are to some extent complementary in their applications and usage. Wi-Fi is usually access point-centered, with an asymmetrical client-server connection with all traffic routed through the access point, while Bluetooth is usually symmetrical, between two Bluetooth devices. Bluetooth serves well in simple applications where two devices need to connect with a minimal configuration like a button press, as in headsets and speakers.
 
- Devices 
+=== Devices ===
 
 Bluetooth exists in numerous products such as telephones, speakers, tablets, media players, robotics systems, laptops, and console gaming equipment as well as some high definition headsets, modems, hearing aids and even watches. Given the variety of devices which use the Bluetooth, coupled with the contemporary deprecation of headphone jacks by Apple, Google, and other companies, and the lack of regulation by the FCC, the technology is prone to interference. Nonetheless Bluetooth is useful when transferring information between two or more devices that are near each other in low-bandwidth situations. Bluetooth is commonly used to transfer sound data with telephones (i.e., with a Bluetooth headset) or byte data with hand-held computers (transferring files).
 
@@ -110,7 +110,7 @@ A personal computer that does not have embedded Bluetooth can use a Bluetooth ad
 
 Unlike its predecessor, IrDA, which requires a separate adapter for each device, Bluetooth lets multiple devices communicate with a computer over a single adapter.
 
- Operating system implementation 
+=== Operating system implementation ===
 
 For Microsoft platforms, Windows XP Service Pack 2 and SP3 releases work natively with Bluetooth v1.1, v2.0 and v2.0+EDR. Previous versions required users to install their Bluetooth adapter's own drivers, which were not directly supported by Microsoft. Microsoft's own Bluetooth dongles (packaged with their Bluetooth computer devices) have no external drivers and thus require at least Windows XP Service Pack 2. Windows Vista RTM/SP1 with the Feature Pack for Wireless or Windows Vista SP2 work with Bluetooth v2.1+EDR. Windows 7 works with Bluetooth v2.1+EDR and Extended Inquiry Response (EIR).
 The Windows XP and Windows Vista/Windows 7 Bluetooth stacks support the following Bluetooth profiles natively: PAN, SPP, DUN, HID, HCRP. The Windows XP stack can be replaced by a third party stack that supports more profiles or newer Bluetooth versions. The Windows Vista/Windows 7 Bluetooth stack supports vendor-supplied additional profiles without requiring that the Microsoft stack be replaced. It is generally recommended to install the latest vendor driver and its associated stack to be able to use the Bluetooth device at its fullest extent.
@@ -137,18 +137,18 @@ The Bluetooth Core Specification Working Group (CSWG) produces mainly 4 kinds of
 * Core Specification Supplements (CSS), can be released very quickly
 * Errata (Available with a user account: Errata login)
 
- Bluetooth 1.0 and 1.0B 
+=== Bluetooth 1.0 and 1.0B ===
 
 * Products weren't interoperable
 * Anonymity wasn't possible, preventing certain services from using Bluetooth environments
 
- Bluetooth 1.1 
+=== Bluetooth 1.1 ===
 * Ratified as IEEE Standard 802.15.1–2002
 * Many errors found in the v1.0B specifications were fixed.
 * Added possibility of non-encrypted channels.
 * Received Signal Strength Indicator (RSSI).
 
- Bluetooth 1.2 
+=== Bluetooth 1.2 ===
 Major enhancements include:
 * Faster Connection and Discovery
 * Adaptive frequency-hopping spread spectrum (AFH), which improves resistance to radio frequency interference by avoiding the use of crowded frequencies in the hopping sequence.
@@ -158,19 +158,19 @@ Major enhancements include:
 * Ratified as IEEE Standard 802.15.1–2005
 * Introduced Flow Control and Retransmission Modes for L2CAP.
 
- Bluetooth 2.0 + EDR 
+=== Bluetooth 2.0 + EDR ===
 This version of the Bluetooth Core Specification was released before 2005. The main difference is the introduction of an Enhanced Data Rate (EDR) for faster data transfer. The bit rate of EDR is 3 Mbit/s, although the maximum data transfer rate (allowing for inter-packet time and acknowledgements) is 2.1 Mbit/s. EDR uses a combination of GFSK and phase-shift keying modulation (PSK) with two variants, π/4-DQPSK and 8-DPSK. EDR can provide a lower power consumption through a reduced duty cycle.
 
 The specification is published as Bluetooth v2.0 + EDR, which implies that EDR is an optional feature. Aside from EDR, the v2.0 specification contains other minor improvements, and products may claim compliance to "Bluetooth v2.0" without supporting the higher data rate. At least one commercial device states "Bluetooth v2.0 without EDR" on its data sheet.
 
- Bluetooth 2.1 + EDR 
+=== Bluetooth 2.1 + EDR ===
 Bluetooth Core Specification Version 2.1 + EDR was adopted by the Bluetooth SIG on 26 July 2007.
 
 The headline feature of v2.1 is secure simple pairing (SSP): this improves the pairing experience for Bluetooth devices, while increasing the use and strength of security.
 
 Version 2.1 allows various other improvements, including extended inquiry response (EIR), which provides more information during the inquiry procedure to allow better filtering of devices before connection; and sniff subrating, which reduces the power consumption in low-power mode.
 
- Bluetooth 3.0 + HS 
+=== Bluetooth 3.0 + HS ===
 Version 3.0 + HS of the Bluetooth Core Specification was adopted by the Bluetooth SIG on 21 April 2009. Bluetooth v3.0 + HS provides theoretical data transfer speeds of up to 24 Mbit/s, though not over the Bluetooth link itself. Instead, the Bluetooth link is used for negotiation and establishment, and the high data rate traffic is carried over a colocated 802.11 link.
 
 The main new feature is AMP (Alternative MAC/PHY), the addition of 802.11 as a high-speed transport. The high-speed part of the specification is not mandatory, and hence only devices that display the "+HS" logo actually support Bluetooth over 802.11 high-speed data transfer. A Bluetooth v3.0 device without the "+HS" suffix is only required to support features introduced in Core Specification Version 3.0 or earlier Core Specification Addendum 1.
@@ -180,14 +180,14 @@ The main new feature is AMP (Alternative MAC/PHY), the addition of 802.11 as a h
 ; Unicast Connectionless Data: Permits sending service data without establishing an explicit L2CAP channel. It is intended for use by applications that require low latency between user action and reconnection/transmission of data. This is only appropriate for small amounts of data.
 ; Enhanced Power Control: Updates the power control feature to remove the open loop power control, and also to clarify ambiguities in power control introduced by the new modulation schemes added for EDR. Enhanced power control removes the ambiguities by specifying the behavior that is expected. The feature also adds closed loop power control, meaning RSSI filtering can start as the response is received. Additionally, a "go straight to maximum power" request has been introduced. This is expected to deal with the headset link loss issue typically observed when a user puts their phone into a pocket on the opposite side to the headset.
 
- Ultra-wideband 
+==== Ultra-wideband ====
 The high-speed (AMP) feature of Bluetooth v3.0 was originally intended for UWB, but the WiMedia Alliance, the body responsible for the flavor of UWB intended for Bluetooth, announced in March 2009 that it was disbanding, and ultimately UWB was omitted from the Core v3.0 specification.
 
 On 16 March 2009, the WiMedia Alliance announced it was entering into technology transfer agreements for the WiMedia Ultra-wideband (UWB) specifications. WiMedia has transferred all current and future specifications, including work on future high-speed and power-optimized implementations, to the Bluetooth Special Interest Group (SIG), Wireless USB Promoter Group and the USB Implementers Forum. After successful completion of the technology transfer, marketing, and related administrative items, the WiMedia Alliance ceased operations.
 
 In October 2009, the Bluetooth Special Interest Group suspended development of UWB as part of the alternative MAC/PHY, Bluetooth v3.0 + HS solution. A small, but significant, number of former WiMedia members had not and would not sign up to the necessary agreements for the IP transfer. As of 2009, the Bluetooth SIG was in the process of evaluating other options for its longer term roadmap.
 
- Bluetooth 4.0 
+=== Bluetooth 4.0 ===
 
 The Bluetooth SIG completed the Bluetooth Core Specification version 4.0 (called Bluetooth Smart) and has been adopted as of 2010 June 30 lc=y. It includes Classic Bluetooth, Bluetooth high speed and Bluetooth Low Energy (BLE) protocols. Bluetooth high speed is based on Wi-Fi, and Classic Bluetooth consists of legacy Bluetooth protocols.
 
@@ -208,7 +208,7 @@ Core Specification Addendum 3 revision 2 has an adoption date of 24 July 2012.
 
 Core Specification Addendum 4 has an adoption date of 12 February 2013.
 
- Bluetooth 4.1 
+=== Bluetooth 4.1 ===
 The Bluetooth SIG announced formal adoption of the Bluetooth v4.1 specification on 4 December 2013. This specification is an incremental software update to Bluetooth Specification v4.0, and not a hardware update. The update incorporates Bluetooth Core Specification Addenda (CSA 1, 2, 3 & 4) and adds new features that improve consumer usability. These include increased co-existence support for LTE, bulk data exchange rates—and aid developer innovation by allowing devices to support multiple roles simultaneously.
 
 New features of this specification include: 
@@ -224,7 +224,7 @@ New features of this specification include:
 * Limited Discovery Time
 Notice that some features were already available in a Core Specification Addendum (CSA) before the release of v4.1.
 
- Bluetooth 4.2 
+=== Bluetooth 4.2 ===
 Released on 2 December 2014, it introduces features for the Internet of Things.
 
 The major areas of improvement are:
@@ -233,7 +233,7 @@ The major areas of improvement are:
 * Internet Protocol Support Profile (IPSP) version 6 ready for Bluetooth Smart things to support connected home 
 Older Bluetooth hardware may receive 4.2 features such as Data Packet Length Extension and improved privacy via firmware updates.
 
- Bluetooth 5 
+=== Bluetooth 5 ===
 The Bluetooth SIG released Bluetooth 5 on 6 December 2016. Its new features are mainly focused on new Internet of Things technology. Sony was the first to announce Bluetooth 5.0 support with its Xperia XZ Premium in Feb 2017 during the Mobile World Congress 2017. The Samsung Galaxy S8 launched with Bluetooth 5 support in April 2017. In September 2017, the iPhone 8, 8 Plus and iPhone X launched with Bluetooth 5 support as well. Apple also integrated Bluetooth 5 in its new HomePod offering released on 9 February 2018. Marketing drops the point number; so that it is just "Bluetooth 5" (unlike Bluetooth 4.0); the change is for the sake of "Simplifying our marketing, communicating user benefits more effectively and making it easier to signal significant technology updates to the market."
 
 Bluetooth 5 provides, for abbr BLE Bluetooth Low Energy, options that can double the speed (2 Mbit/s burst) at the expense of range, or provide up to four times the range at the expense of data rate. The increase in transmissions could be important for Internet of Things devices, where many nodes connect throughout a whole house. Bluetooth 5 increases capacity of connectionless services such as location-relevant navigation of low-energy Bluetooth connections.
@@ -252,7 +252,7 @@ Features Added in CSA5 – Integrated in v5.0:
 The following features were removed in this version of the specification:
 * Park State
 
- Bluetooth 5.1 
+=== Bluetooth 5.1 ===
 The Bluetooth SIG presented Bluetooth 5.1 on 21 January 2019.
 
 The major areas of improvement are:
@@ -276,7 +276,7 @@ Features Added in Core Specification Addendum (CSA) 6 – Integrated in v5.1:
 The following features were removed in this version of the specification:
 * Unit keys
 
- Bluetooth 5.2 
+=== Bluetooth 5.2 ===
 On 31 December 2019, the Bluetooth SIG published the Bluetooth Core Specification Version 5.2. The new specification adds new features:
 
 * Enhanced Attribute Protocol (EATT), an improved version of the Attribute Protocol (ATT)
@@ -284,7 +284,7 @@ On 31 December 2019, the Bluetooth SIG published the Bluetooth Core Specificatio
 * LE Isochronous Channels
 * LE Audio that is built on top of the new 5.2 features. BT LE Audio was announced in January 2020 at CES by the Bluetooth SIG. Compared to regular Bluetooth Audio, Bluetooth Low Energy Audio makes lower battery consumption possible and creates a standardized way of transmitting audio over BT LE. Bluetooth LE Audio also allows one-to-many and many-to-one broadcasts, allowing multiple receivers from one source or one receiver for multiple sources. It uses a new LC3 codec. BLE Audio will also add support for hearing aids.
 
- Bluetooth 5.3 
+=== Bluetooth 5.3 ===
 The Bluetooth SIG published the Bluetooth Core Specification Version 5.3 on July 13, 2021. The feature enhancements of Bluetooth 5.3 are:
 
 * Connection Subrating
@@ -297,23 +297,23 @@ The following features were removed in this version of the specification:
 
 == Technical information ==
 
- Architecture 
+=== Architecture ===
 
- Software 
+==== Software ====
 Seeking to extend the compatibility of Bluetooth devices, the devices that adhere to the standard use an interface called HCI (Host Controller Interface) between the host device (e.g. laptop, phone) and the Bluetooth device (e.g. Bluetooth wireless headset).
 
 High-level protocols such as the SDP (Protocol used to find other Bluetooth devices within the communication range, also responsible for detecting the function of devices in range), RFCOMM (Protocol used to emulate serial port connections) and TCS (Telephony control protocol) interact with the baseband controller through the L2CAP (Logical Link Control and Adaptation Protocol). The L2CAP protocol is responsible for the segmentation and reassembly of the packets.
 
- Hardware 
+==== Hardware ====
 The hardware that makes up the Bluetooth device is made up of, logically, two parts; which may or may not be physically separate. A radio device, responsible for modulating and transmitting the signal; and a digital controller. The digital controller is likely a CPU, one of whose functions is to run a Link Controller; and interfaces with the host device; but some functions may be delegated to hardware. The Link Controller is responsible for the processing of the baseband and the management of ARQ and physical layer FEC protocols. In addition, it handles the transfer functions (both asynchronous and synchronous), audio coding (e.g. SBC (codec)) and data encryption. The CPU of the device is responsible for attending the instructions related to Bluetooth of the host device, in order to simplify its operation. To do this, the CPU runs software called Link Manager that has the function of communicating with other devices through the LMP protocol.
 
 A Bluetooth device is a short-range wireless device. Bluetooth devices are fabricated on RF CMOS integrated circuit (RF circuit) chips.
 
- Bluetooth protocol stack 
+=== Bluetooth protocol stack ===
 
 Bluetooth is defined as a layer protocol architecture consisting of core protocols, cable replacement protocols, telephony control protocols, and adopted protocols. Mandatory protocols for all Bluetooth stacks are LMP, L2CAP and SDP. In addition, devices that communicate with Bluetooth almost universally can use these protocols: HCI and RFCOMM.
 
- Link Manager 
+==== Link Manager ====
 The Link Manager (LM) is the system that manages establishing the connection between devices. It is responsible for the establishment, authentication and configuration of the link. The Link Manager locates other managers and communicates with them via the management protocol of the LMP link. To perform its function as a service provider, the LM uses the services included in the Link Controller (LC).
 The Link Manager Protocol basically consists of several PDUs (Protocol Data Units) that are sent from one device to another. The following is a list of supported services:
 * Transmission and reception of data.
@@ -323,11 +323,11 @@ The Link Manager Protocol basically consists of several PDUs (Protocol Data Unit
 * Authentication.
 * Negotiation of link mode and connection establishment.
 
- Host Controller Interface 
+==== Host Controller Interface ====
 The Host Controller Interface provides a command interface for the controller and for the link manager, which allows access to the hardware status and control registers.
 This interface provides an access layer for all Bluetooth devices. The HCI layer of the machine exchanges commands and data with the HCI firmware present in the Bluetooth device. One of the most important HCI tasks that must be performed is the automatic discovery of other Bluetooth devices that are within the coverage radius.
 
- Logical Link Control and Adaptation Protocol 
+==== Logical Link Control and Adaptation Protocol ====
 The Logical Link Control and Adaptation Protocol (L2CAP) is used to multiplex multiple logical connections between two devices using different higher level protocols.
 Provides segmentation and reassembly of on-air packets.
 
@@ -343,43 +343,43 @@ Reliability in any of these modes is optionally and/or additionally guaranteed b
 
 Only L2CAP channels configured in ERTM or SM may be operated over AMP logical links.
 
- Service Discovery Protocol 
+==== Service Discovery Protocol ====
 The Service Discovery Protocol (SDP) allows a device to discover services offered by other devices, and their associated parameters. For example, when you use a mobile phone with a Bluetooth headset, the phone uses SDP to determine which Bluetooth profiles the headset can use (Headset Profile, Hands Free Profile (HFP), Advanced Audio Distribution Profile (A2DP) etc.) and the protocol multiplexer settings needed for the phone to connect to the headset using each of them. Each service is identified by a Universally Unique Identifier (UUID), with official services (Bluetooth profiles) assigned a short form UUID (16 bits rather than the full 128).
 
- Radio Frequency Communications 
+==== Radio Frequency Communications ====
 Radio Frequency Communications (RFCOMM) is a cable replacement protocol used for generating a virtual serial data stream. RFCOMM provides for binary data transport and emulates EIA-232 (formerly RS-232) control signals over the Bluetooth baseband layer, i.e., it is a serial port emulation.
 
 RFCOMM provides a simple, reliable, data stream to the user, similar to TCP. It is used directly by many telephony related profiles as a carrier for AT commands, as well as being a transport layer for OBEX over Bluetooth.
 
 Many Bluetooth applications use RFCOMM because of its widespread support and publicly available API on most operating systems. Additionally, applications that used a serial port to communicate can be quickly ported to use RFCOMM.
 
- Bluetooth Network Encapsulation Protocol 
+==== Bluetooth Network Encapsulation Protocol ====
 The Bluetooth Network Encapsulation Protocol (BNEP) is used for transferring another protocol stack's data via an L2CAP channel.
 Its main purpose is the transmission of IP packets in the Personal Area Networking Profile.
 BNEP performs a similar function to SNAP in Wireless LAN.
 
- Audio/Video Control Transport Protocol 
+==== Audio/Video Control Transport Protocol ====
 The Audio/Video Control Transport Protocol (AVCTP) is used by the remote control profile to transfer AV/C commands over an L2CAP channel. The music control buttons on a stereo headset use this protocol to control the music player.
 
- Audio/Video Distribution Transport Protocol 
+==== Audio/Video Distribution Transport Protocol ====
 The Audio/Video Distribution Transport Protocol (AVDTP) is used by the advanced audio distribution (A2DP) profile to stream music to stereo headsets over an L2CAP channel intended for video distribution profile in the Bluetooth transmission.
 
- Telephony Control Protocol 
+==== Telephony Control Protocol ====
 The Telephony Control Protocol – Binary (TCS BIN) is the bit-oriented protocol that defines the call control signaling for the establishment of voice and data calls between Bluetooth devices. Additionally, "TCS BIN defines mobility management procedures for handling groups of Bluetooth TCS devices."
 
 TCS-BIN is only used by the cordless telephony profile, which failed to attract implementers. As such it is only of historical interest.
 
- Adopted protocols 
+==== Adopted protocols ====
 Adopted protocols are defined by other standards-making organizations and incorporated into Bluetooth's protocol stack, allowing Bluetooth to code protocols only when necessary. The adopted protocols include:
 ;Point-to-Point Protocol (PPP): Internet standard protocol for transporting IP datagrams over a point-to-point link.
 ;TCP/IP/UDP: Foundation Protocols for TCP/IP protocol suite
 ;Object Exchange Protocol (OBEX): Session-layer protocol for the exchange of objects, providing a model for object and operation representation
 ;Wireless Application Environment/Wireless Application Protocol (WAE/WAP): WAE specifies an application framework for wireless devices and WAP is an open standard to provide mobile users access to telephony and information services.
 
- Baseband error correction 
+=== Baseband error correction ===
 Depending on packet type, individual packets may be protected by error correction, either 1/3 rate forward error correction (FEC) or 2/3 rate. In addition, packets with CRC will be retransmitted until acknowledged by automatic repeat request (ARQ).
 
- Setting up connections 
+=== Setting up connections ===
 Any Bluetooth device in discoverable mode transmits the following information on demand:
 * Device name
 * Device class
@@ -392,21 +392,21 @@ Every device has a unique 48-bit address. However, these addresses are generally
 
 Most cellular phones have the Bluetooth name set to the manufacturer and model of the phone by default. Most cellular phones and laptops show only the Bluetooth names and special programs are required to get additional information about remote devices. This can be confusing as, for example, there could be several cellular phones in range named T610 (see Bluejacking).
 
- Pairing and bonding 
+=== Pairing and bonding ===
 
- Motivation 
+==== Motivation ====
 Many services offered over Bluetooth can expose private data or let a connecting party control the Bluetooth device. Security reasons make it necessary to recognize specific devices, and thus enable control over which devices can connect to a given Bluetooth device. At the same time, it is useful for Bluetooth devices to be able to establish a connection without user intervention (for example, as soon as in range).
 
 To resolve this conflict, Bluetooth uses a process called bonding, and a bond is generated through a process called pairing. The pairing process is triggered either by a specific request from a user to generate a bond (for example, the user explicitly requests to "Add a Bluetooth device"), or it is triggered automatically when connecting to a service where (for the first time) the identity of a device is required for security purposes. These two cases are referred to as dedicated bonding and general bonding respectively.
 
 Pairing often involves some level of user interaction. This user interaction confirms the identity of the devices. When pairing completes, a bond forms between the two devices, enabling those two devices to connect in the future without repeating the pairing process to confirm device identities. When desired, the user can remove the bonding relationship.
 
- Implementation 
+==== Implementation ====
 During pairing, the two devices establish a relationship by creating a shared secret known as a link key. If both devices store the same link key, they are said to be paired or bonded. A device that wants to communicate only with a bonded device can cryptographically authenticate the identity of the other device, ensuring it is the same device it previously paired with. Once a link key is generated, an authenticated Asynchronous Connection-Less (ACL) link between the devices may be encrypted to protect exchanged data against eavesdropping. Users can delete link keys from either device, which removes the bond between the devices—so it is possible for one device to have a stored link key for a device it is no longer paired with.
 
 Bluetooth services generally require either encryption or authentication and as such require pairing before they let a remote device connect. Some services, such as the Object Push Profile, elect not to explicitly require authentication or encryption so that pairing does not interfere with the user experience associated with the service use-cases.
 
- Pairing mechanisms 
+==== Pairing mechanisms ====
 Pairing mechanisms changed significantly with the introduction of Secure Simple Pairing in Bluetooth v2.1. The following summarizes the pairing mechanisms:
 * Legacy pairing: This is the only method available in Bluetooth v2.0 and before. Each device must enter a PIN code; pairing is only successful if both devices enter the same PIN code. Any 16-byte UTF-8 string may be used as a PIN code; however, not all devices may be capable of entering all possible PIN codes.
 ** Limited input devices: The obvious example of this class of device is a Bluetooth Hands-free headset, which generally have few inputs. These devices usually have a fixed PIN, for example "0000" or "1234", that are hard-coded into the device.
@@ -424,7 +424,7 @@ SSP is considered simple for the following reasons:
 * For numeric comparison, MITM protection can be achieved with a simple equality comparison by the user.
 * Using OOB with NFC enables pairing when devices simply get close, rather than requiring a lengthy discovery process.
 
- Security concerns 
+==== Security concerns ====
 Prior to Bluetooth v2.1, encryption is not required and can be turned off at any time. Moreover, the encryption key is only good for approximately 23.5 hours; using a single encryption key longer than this time allows simple XOR attacks to retrieve the encryption key.
 * Turning off encryption is required for several normal operations, so it is problematic to detect if encryption is disabled for a valid reason or a security attack.
 Bluetooth v2.1 addresses this in the following ways:
@@ -435,7 +435,7 @@ Link keys may be stored on the device file system, not on the Bluetooth chip its
 
 == Security ==
 
- Overview 
+=== Overview ===
 
 Bluetooth implements confidentiality, authentication and key derivation with custom algorithms based on the SAFER+ block cipher. Bluetooth key generation is generally based on a Bluetooth PIN, which must be entered into both devices. This procedure might be modified if one of the devices has a fixed PIN (e.g., for headsets or similar devices with a restricted user interface). During pairing, an initialization key or master key is generated, using the E22 algorithm.
 The E0 stream cipher is used for encrypting packets, granting confidentiality, and is based on a shared cryptographic secret, namely a previously generated link key or master key. Those keys, used for subsequent encryption of data sent via the air interface, rely on the Bluetooth PIN, which has been entered into one or both devices.
@@ -446,18 +446,18 @@ In September 2008, the National Institute of Standards and Technology (NIST) pub
 
 Bluetooth v2.1 – finalized in 2007 with consumer devices first appearing in 2009 – makes significant changes to Bluetooth's security, including pairing. See the pairing mechanisms section for more about these changes.
 
- Bluejacking 
+=== Bluejacking ===
 
 Bluejacking is the sending of either a picture or a message from one user to an unsuspecting user through Bluetooth wireless technology. Common applications include short messages, e.g., "You've just been bluejacked!" Bluejacking does not involve the removal or alteration of any data from the device. Bluejacking can also involve taking control of a mobile device wirelessly and phoning a premium rate line, owned by the bluejacker. Security advances have alleviated this issue .
 
- History of security concerns 
+=== History of security concerns ===
 
- 2001–2004 
+==== 2001–2004 ====
 In 2001, Jakobsson and Wetzel from Bell Laboratories discovered flaws in the Bluetooth pairing protocol and also pointed to vulnerabilities in the encryption scheme. In 2003, Ben and Adam Laurie from A.L. Digital Ltd. discovered that serious flaws in some poor implementations of Bluetooth security may lead to disclosure of personal data. In a subsequent experiment, Martin Herfurt from the trifinite.group was able to do a field-trial at the CeBIT fairgrounds, showing the importance of the problem to the world. A new attack called BlueBug was used for this experiment. In 2004 the first purported virus using Bluetooth to spread itself among mobile phones appeared on the Symbian OS.
 The virus was first described by Kaspersky Lab and requires users to confirm the installation of unknown software before it can propagate. The virus was written as a proof-of-concept by a group of virus writers known as "29A" and sent to anti-virus groups. Thus, it should be regarded as a potential (but not real) security threat to Bluetooth technology or Symbian OS since the virus has never spread outside of this system. In August 2004, a world-record-setting experiment (see also Bluetooth sniping) showed that the range of Class 2 Bluetooth radios could be extended to 1.78 km with directional antennas and signal amplifiers.
 This poses a potential security threat because it enables attackers to access vulnerable Bluetooth devices from a distance beyond expectation. The attacker must also be able to receive information from the victim to set up a connection. No attack can be made against a Bluetooth device unless the attacker knows its Bluetooth address and which channels to transmit on, although these can be deduced within a few minutes if the device is in use.
 
- 2005 
+==== 2005 ====
 In January 2005, a mobile malware worm known as Lasco surfaced. The worm began targeting mobile phones using Symbian OS (Series 60 platform) using Bluetooth enabled devices to replicate itself and spread to other devices. The worm is self-installing and begins once the mobile user approves the transfer of the file (Velasco.sis) from another device. Once installed, the worm begins looking for other Bluetooth enabled devices to infect. Additionally, the worm infects other .SIS files on the device, allowing replication to another device through the use of removable media (Secure Digital, CompactFlash, etc.). The worm can render the mobile device unstable.
 
 In April 2005, Cambridge University security researchers published results of their actual implementation of passive attacks against the PIN-based pairing between commercial Bluetooth devices. They confirmed that attacks are practicably fast, and the Bluetooth symmetric key establishment method is vulnerable. To rectify this vulnerability, they designed an implementation that showed that stronger, asymmetric key establishment is feasible for certain classes of devices, such as mobile phones.
@@ -466,20 +466,20 @@ In June 2005, Yaniv Shaked and Avishai Wool published a paper describing both pa
 
 In August 2005, police in Cambridgeshire, England, issued warnings about thieves using Bluetooth enabled phones to track other devices left in cars. Police are advising users to ensure that any mobile networking connections are de-activated if laptops and other devices are left in this way.
 
- 2006 
+==== 2006 ====
 In April 2006, researchers from Secure Network and F-Secure published a report that warns of the large number of devices left in a visible state, and issued statistics on the spread of various Bluetooth services and the ease of spread of an eventual Bluetooth worm.
 
 In October 2006, at the Luxemburgish Hack.lu Security Conference, Kevin Finistere and Thierry Zoller demonstrated and released a remote root shell via Bluetooth on Mac OS X v10.3.9 and v10.4. They also demonstrated the first Bluetooth PIN and Linkkeys cracker, which is based on the research of Wool and Shaked.
 
- 2017 
+==== 2017 ====
 In April 2017, security researchers at Armis discovered multiple exploits in the Bluetooth software in various platforms, including Microsoft Windows, Linux, Apple iOS, and Google Android. These vulnerabilities are collectively called "BlueBorne". The exploits allow an attacker to connect to devices or systems without authentication and can give them "virtually full control over the device". Armis contacted Google, Microsoft, Apple, Samsung and Linux developers allowing them to patch their software before the coordinated announcement of the vulnerabilities on 12 September 2017.
 
- 2018 
+==== 2018 ====
 In July 2018, Lior Neumann and Eli Biham, researchers at the Technion – Israel Institute of Technology identified a security vulnerability in the latest Bluetooth pairing procedures: Secure Simple Pairing and LE Secure Connections.
 
 Also, in October 2018, Karim Lounis, a network security researcher at Queen's University, identified a security vulnerability, called CDV (Connection Dumping Vulnerability), on various Bluetooth devices that allows an attacker to tear down an existing Bluetooth connection and cause the deauthentication and disconnection of the involved devices. The researcher demonstrated the attack on various devices of different categories and from different manufacturers.
 
- 2019 
+==== 2019 ====
 
 In August 2019, security researchers at the Singapore University of Technology and Design, Helmholtz Center for Information Security, and University of Oxford discovered a vulnerability, called KNOB (Key Negotiation Of Bluetooth) in the key negotiation that would "brute force the negotiated encryption keys, decrypt the eavesdropped ciphertext, and inject valid encrypted messages (in real-time)".
 

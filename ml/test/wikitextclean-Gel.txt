@@ -30,26 +30,26 @@ Modified from the Gold Book. The definition proposed here is recommended as bein
 ==Composition==
 Gels consist of a solid three-dimensional network that spans the volume of a liquid medium and ensnares it through surface tension effects. This internal network structure may result from physical bonds (physical gels) or chemical bonds (chemical gels), as well as crystallites or other junctions that remain intact within the extending fluid. Virtually any fluid can be used as an extender including water (hydrogels), oil, and air (aerogel). Both by weight and volume, gels are mostly fluid in composition and thus exhibit densities similar to those of their constituent liquids. Edible jelly is a common example of a hydrogel and has approximately the density of water.
 
-Polyionic polymers
+===Polyionic polymers===
 Polyionic polymers are polymers with an ionic functional group. The ionic charges prevent the formation of tightly coiled polymer chains. This allows them to contribute more to viscosity in their stretched state, because the stretched-out polymer takes up more space. This is also the reason gel hardens. See polyelectrolyte for more information.
 
 ==Types==
 
-Hydrogels
+===Hydrogels===
 
 A hydrogel is a network of polymer chains that are hydrophilic, sometimes found as a colloidal gel in which water is the dispersion medium. A three-dimensional solid results from the hydrophilic polymer chains being held together by cross-links. Because of the inherent cross-links, the structural integrity of the hydrogel network does not dissolve from the high concentration of water. Hydrogels are highly absorbent (they can contain over 90% water) natural or synthetic polymeric networks.
 Hydrogels also possess a degree of flexibility very similar to natural tissue, due to their significant water content. As responsive "smart materials," hydrogels can encapsulate chemical systems which upon stimulation by external factors such as a change of pH may cause specific compounds such as glucose to be liberated to the environment, in most cases by a gel-sol transition to the liquid state. Chemomechanical polymers are mostly also hydrogels, which upon stimulation change their volume and can serve as actuators or sensors. The first appearance of the term 'hydrogel' in the literature was in 1894.
 
-Organogels
+===Organogels===
 
 An organogel is a non-crystalline, non-glassy thermoreversible (thermoplastic) solid material composed of a liquid organic phase entrapped in a three-dimensionally cross-linked network. The liquid can be, for example, an organic solvent, mineral oil, or vegetable oil. The solubility and particle dimensions of the structurant are important characteristics for the elastic properties and firmness of the organogel. Often, these systems are based on self-assembly of the structurant molecules. (An example of formation of an undesired thermoreversible network is the occurrence of wax crystallization in petroleum.)
 
 Organogels have potential for use in a number of applications, such as in pharmaceuticals, cosmetics, art conservation, and food.
 
-Xerogels
+===Xerogels===
 A xerogel  is a solid formed from a gel by drying with unhindered shrinkage. Xerogels usually retain high porosity (15–50%) and enormous surface area (150–900 m2/g), along with very small pore size (1–10 nm). When solvent removal occurs under supercritical conditions, the network does not shrink and a highly porous, low-density material known as an aerogel is produced. Heat treatment of a xerogel at elevated temperature produces viscous sintering (shrinkage of the xerogel due to a small amount of viscous flow) which results in a denser and more robust solid, the density and porosity achieved depend on the sintering conditions.
 
- Nanocomposite hydrogels 
+=== Nanocomposite hydrogels ===
 Nanocomposite hydrogels or hybrid hydrogels, are highly hydrated polymeric networks, either physically or covalently crosslinked with each other and/or with nanoparticles or nanostructures. Nanocomposite hydrogels can mimic native tissue properties, structure and microenvironment due to their hydrated and interconnected porous structure. A wide range of nanoparticles, such as carbon-based, polymeric, ceramic, and metallic nanomaterials can be incorporated within the hydrogel structure to obtain nanocomposites with tailored functionality. Nanocomposite hydrogels can be engineered to possess superior physical, chemical, electrical, thermal, and biological properties.
 
 ==Properties==

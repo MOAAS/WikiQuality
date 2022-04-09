@@ -10,24 +10,24 @@ A gas chromatograph is made of a narrow tube, known as the column, through which
 
 == History ==
 
-Background
+===Background===
 Chromatography dates to 1903 in the work of the Russian scientist, Mikhail Semenovich Tswett, who separated plant pigments via liquid column chromatography.
 
-Invention
+===Invention===
 The invention of gas chromatography is generally attributed to Anthony T. James and Archer J.P. Martin. Their gas chromatograph used partition chromatography as the separating principle, rather than adsorption chromatography. The popularity of gas chromatography quickly rose after the development of the flame ionization detector.
 Martin and another one of their colleagues, Richard Synge, with whom he shared the 1952 Nobel Prize in Chemistry, had noted in an earlier paper that chromatography might also be used to separate gases. Synge pursued other work while Martin continued his work with James.
 
-Gas Adsorption Chromatography Precursors
+===Gas Adsorption Chromatography Precursors===
 German physical chemist Erika Cremer in 1947 together with Austrian graduate student Fritz Prior developed what could be considered the first gas chromatograph that consisted of a carrier gas, a column packed with silica gel, and a thermal conductivity detector. They exhibited the chromatograph at ACHEMA in Frankfurt, but nobody was interested in it.
 N.C. Turner with the Burrell Corporation introduced in 1943 a massive instrument that used a charcoal column and mercury vapors. Stig Claesson of Uppsala University published in 1946 his work on a charcoal column that also used mercury.
 Gerhard Hesse, while a professor at the University of Marburg/Lahn decided to test the prevailing opinion among German chemists that molecules could not be separated in a moving gas stream. He set up a simple glass column filled with starch and successfully separated bromine and iodine using nitrogen as the carrier gas. He then built a system that flowed an inert gas through a glass condenser packed with silica gel and collected the eluted fractions.
 Courtenay S.G Phillips of Oxford University investigated separation in a charcoal column using a thermal conductivity detector. He consulted with Claesson and decided to use displacement as his separating principle. After learning about the results of James and Martin, he switched to partition chromatography.
 
-Column Technology
+===Column Technology===
 Early gas chromatography used packed columns, made of tubing typically 1-5m long, 1-5mm diameter, and filled with particles. The resolution of packed columns was improved by the invention of capillary column, in which the stationary phase is coated on the inner wall of the capillary.
 
 == Physical components ==
- Autosamplers 
+=== Autosamplers ===
 
 The autosampler provides the means to introduce a sample automatically into the inlets. Manual insertion of the sample is possible but is no longer common. Automatic insertion provides better reproducibility and time-optimization.Different kinds of autosamplers exist. Autosamplers can be classified in relation to sample capacity (auto-injectors vs. autosamplers, where auto-injectors can work a small number of samples), to robotic technologies (XYZ robot vs. rotating robot – the most common), or to analysis:
 
@@ -36,7 +36,7 @@ The autosampler provides the means to introduce a sample automatically into the 
 * Dynamic head-space by transfer-line technology
 * Solid phase microextraction (SPME)
 
- Inlets 
+=== Inlets ===
 
 The column inlet (or injector) provides the means to introduce a sample into a continuous flow of carrier gas. The inlet is a piece of hardware attached to the column head.
 
@@ -49,7 +49,7 @@ Common inlet types are:
 
 The choice of carrier gas (mobile phase) is important.  Hydrogen has a range of flow rates that are comparable to helium in efficiency.  However, helium may be more efficient and provide the best separation if flow rates are optimized. Helium is non-flammable and works with a greater number of detectors and older instruments.  Therefore, helium is the most common carrier gas used.  However, the price of helium has gone up considerably over recent years, causing an increasing number of chromatographers to switch to hydrogen gas.  Historical use, rather than rational consideration, may contribute to the continued preferential use of helium.
 
- Detectors 
+=== Detectors ===
 
 Commonly used detectors are the flame ionization detector (FID) and the thermal conductivity detector (TCD).  While TCDs are beneficial in that they are non-destructive, its low detection limit for most analytes inhibits widespread use. FIDs are sensitive primarily to hydrocarbons, and are more sensitive to them than TCD.  FIDs cannot detect water or carbon dioxide which make them ideal for environmental organic analyte analysis. FID is two to three times more sensitive to analyte detection than TCD.
 
@@ -83,7 +83,7 @@ The method is the collection of conditions in which the GC operates for a given 
 
 Conditions which can be varied to accommodate a required analysis include inlet temperature, detector temperature, column temperature and temperature program, carrier gas and carrier gas flow rates, the column's stationary phase, diameter and length, inlet type and flow rates, sample size and injection technique.  Depending on the detector(s) (see below) installed on the GC, there may be a number of detector conditions that can also be varied.  Some GCs also include valves which can change the route of sample and carrier flow. The timing of the opening and closing of these valves can be important to method development.
 
- Carrier gas selection and flow rates 
+=== Carrier gas selection and flow rates ===
 Typical carrier gases include helium, nitrogen, argon, and hydrogen.  Which gas to use is usually determined by the detector being used, for example, a DID requires helium as the carrier gas.  When analyzing gas samples the carrier is also selected based on the sample's matrix, for example, when analyzing a mixture in argon, an argon carrier is preferred because the argon in the sample does not show up on the chromatogram. Safety and availability can also influence carrier selection.
 
 The purity of the carrier gas is also frequently determined by the detector, though the level of sensitivity needed can also play a significant role.  Typically, purities of 99.995% or higher are used.  The most common purity grades required by modern instruments for the majority of sensitivities are 5.0 grades, or 99.999% pure meaning that there is a total of 10 ppm of impurities in the carrier gas that could affect the results.  The highest purity grades in common use are 6.0 grades, but the need for detection at very low levels in some forensic and environmental applications has driven the need for carrier gases at 7.0 grade purity and these are now commercially available.  Trade names for typical purities include "Zero Grade," "Ultra-High Purity (UHP) Grade," "4.5 Grade" and "5.0 Grade."
@@ -94,15 +94,15 @@ With GCs made before the 1990s, carrier flow rate was controlled indirectly by c
 
 Many modern GCs, however, electronically measure the flow rate, and electronically control the carrier gas pressure to set the flow rate.  Consequently, carrier pressures and flow rates can be adjusted during the run, creating pressure/flow programs similar to temperature programs.
 
- Stationary compound selection 
+=== Stationary compound selection ===
 The polarity of the solute is crucial for the choice of stationary compound, which in an optimal case would have a similar polarity as the solute. Common stationary phases in open tubular columns are cyanopropylphenyl dimethyl polysiloxane, carbowax polyethyleneglycol, biscyanopropyl cyanopropylphenyl polysiloxane and diphenyl dimethyl polysiloxane. For packed columns more options are available.
 
- Inlet types and flow rates 
+=== Inlet types and flow rates ===
 The choice of inlet type and injection technique depends on if the sample is in liquid, gas, adsorbed, or solid form, and on whether a solvent matrix is present that has to be vaporized. Dissolved samples can be introduced directly onto the column via a COC injector, if the conditions are well known; if a solvent matrix has to be vaporized and partially removed, a S/SL injector is used (most common injection technique); gaseous samples (e.g., air cylinders) are usually injected using a gas switching valve system; adsorbed samples (e.g., on adsorbent tubes) are introduced using either an external (on-line or off-line) desorption apparatus such as a purge-and-trap system, or are desorbed in the injector (SPME applications).
 
- Sample size and injection technique 
+=== Sample size and injection technique ===
 
- Sample injection 
+==== Sample injection ====
 
 The real chromatographic analysis starts with the introduction of the sample onto the column. The development of capillary gas chromatography resulted in many practical problems with the injection technique. The technique of on-column injection, often used with packed columns, is usually not possible with capillary columns. In the injection system in the capillary gas chromatograph the amount injected should not overload the column and
 the width of the injected plug should be small compared to the spreading due to the chromatographic process. Failure to comply with this latter requirement will reduce the separation capability of the column. As a general rule, the volume injected, Vinj, and the volume of the detector cell, Vdet, should be about 1/10 of the volume occupied by the portion of sample containing the molecules of interest (analytes) when they exit the column.
@@ -111,10 +111,10 @@ Some general requirements which a good injection technique should fulfill are th
 
 However, there are a number of problems inherent in the use of syringes for injection. Even the best syringes claim an accuracy of only 3%, and in unskilled hands, errors are much larger. The needle may cut small pieces of rubber from the septum as it injects sample through it. These can block the needle and prevent the syringe filling the next time it is used. It may not be obvious that this has happened. A fraction of the sample may get trapped in the rubber, to be released during subsequent injections. This can give rise to ghost peaks in the chromatogram. There may be selective loss of the more volatile components of the sample by evaporation from the tip of the needle.
 
- Column selection 
+=== Column selection ===
 The choice of column depends on the sample and the active measured. The main chemical attribute regarded when choosing a column is the polarity of the mixture, but functional groups can play a large part in column selection. The polarity of the sample must closely match the polarity of the column stationary phase to increase resolution and separation while reducing run time. The separation and run time also depends on the film thickness (of the stationary phase), the column diameter and the column length.
 
- Column temperature and temperature program 
+=== Column temperature and temperature program ===
 
 The column(s) in a GC are contained in an oven, the temperature of which is precisely controlled electronically.  (When discussing the "temperature of the column," an analyst is technically referring to the temperature of the column oven.  The distinction, however, is not important and will not subsequently be made in this article.)
 
@@ -128,11 +128,11 @@ A temperature program allows analytes that elute early in the analysis to separa
 
 == Data reduction and analysis ==
 
- Qualitative analysis 
+=== Qualitative analysis ===
 
 Generally, chromatographic data is presented as a graph of detector response (y-axis) against retention time (x-axis), which is called a chromatogram.  This provides a spectrum of peaks for a sample representing the analytes present in a sample eluting from the column at different times.  Retention time can be used to identify analytes if the method conditions are constant.  Also, the pattern of peaks will be constant for a sample under constant conditions and can identify complex mixtures of analytes. However, in most modern applications, the GC is connected to a mass spectrometer or similar detector that is capable of identifying the analytes represented by the peaks.
 
- Quantitative analysis 
+=== Quantitative analysis ===
 
 The area under a peak is proportional to the amount of analyte present in the chromatogram.  By calculating the area of the peak using the mathematical function of integration, the concentration of an analyte in the original sample can be determined.  Concentration can be calculated using a calibration curve created by finding the response for a series of concentrations of analyte, or by determining the relative response factor of an analyte.  The relative response factor is the expected ratio of an analyte to an internal standard (or external standard) and is calculated by finding the response of a known amount of analyte and a constant amount of internal standard (a chemical added to the sample at a constant concentration, with a distinct retention time to the analyte).
 

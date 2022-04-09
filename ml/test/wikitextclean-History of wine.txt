@@ -8,12 +8,12 @@ Wine production and consumption increased, burgeoning from the 15th century onwa
 
 ==Prehistory==
 
-Vine domestication
+===Vine domestication===
 The origins of wine predate written records, and modern archaeology is still uncertain about the details of the first cultivation of wild grapevines. It has been hypothesized that early humans climbed trees to pick berries, liked their sugary flavor, and then began collecting them. After a few days with fermentation setting in, juice at the bottom of any container would begin producing low-alcohol wine. According to this theory, things changed around 10,000–8000 BC with the transition from a nomadic to a sedentism style of living, which led to agriculture and wine domestication.
 
 Wild grapes grow in the Caucasus region (Armenia, Azerbaijan, Georgia), the northern Levant, coastal and southeastern Turkey, and northern Iran. The fermenting of strains of this wild Vitis vinifera subsp. sylvestris (the ancestor of the modern wine grape, V. vinifera) would have become easier following the development of pottery during the later Neolithic, c. 11,000 BC. The earliest discovered evidence, however, dates from several millennia later.
 
-Wine fermentation
+===Wine fermentation===
 The earliest archaeological evidence of wine fermentation found has been at sites in Georgia (c. 6000 BC), Iran (c. 5000 BC), Greece (c. 4500 BC), and Sicily (c. 4000 BC). The earliest evidence of steady production of wine has been found in Armenia (c. 4100 BC) while the earliest evidence of a grape and rice mixed based fermented drink was found in ancient China (c. 7000 BC),. The Iranian jars contained a form of retsina, using turpentine pine resin to more effectively seal and preserve the wine and is the earliest firm evidence of wine production to date. Production spread to other sites in Greater Iran and Greek Macedonia by c. 4500 BC. The Greek site is notable for the recovery at the site of the remnants of crushed grapes.
 
 The oldest-known winery was discovered in the "Areni-1" cave in Vayots Dzor, Armenia. Dated to c. 4100 BC, the site contained a wine press, fermentation vats, jars, and cups. Archaeologists also found V. vinifera seeds and vines. Commenting on the importance of the find, McGovern said, "The fact that winemaking was already so well developed in 4000 BC suggests that the technology probably goes back much earlier."
@@ -24,7 +24,7 @@ The fame of Persian wine has been well known in ancient times. The carvings on t
 
 Domesticated grapes were abundant in the Near East from the beginning of the early Bronze Age, starting in 3200 BC. There is also increasingly abundant evidence for winemaking in Sumer and Egypt in the 3rd millennium BC.
 
- Legends of discovery 
+=== Legends of discovery ===
 
 There are many etiological myths told about the first cultivation of the grapevine and fermentation of wine.
 
@@ -36,7 +36,7 @@ In Persian legend, King Jamshid banished a lady of his harem, causing her to bec
 
 ==Antiquity==
 
-Ancient China
+===Ancient China===
 
 According to the latest research scholars stated: "Following the definition of the CNCCEF, China has been viewed as "New New World" in the world wine map, despite the fact that grape growing and wine making in China date back to between 7000BCE and 9000BCE. Winemaking technology and wine culture are rooted in Chinese history and the definition of "New New World" is a misnomer that imparts a Euro centric bias onto wine history and ignores fact." Furthermore, the history of Chinese grape wine has been confirmed and proven to date back 9000 years (7000 BC), including "the earliest attested use" of wild grapes in wine as well as "earliest chemically confirmed alcoholic beverage in the world", according to Adjunct Professor of Anthropology Patrick McGovern, the Scientific Director of the Biomolecular Archaeology Project for Cuisine, Fermented Beverages, and Health at the University of Pennsylvania Museum in Philadelphia. Professor McGovern continued: "The Jiahu discovery illustrates how you should never give up hope in finding chemical evidence for a fermented beverage from the Palaeolithic period. Research very often has big surprises in store. You might think, as I did too, that the grape wines of Hajji Firuz, the Caucasus, and eastern Anatolia would prove to be the earliest alcoholic beverages in the world, coming from the so-called "Cradle of Civilization" in the Near East as they do. But then I was invited to go to China on the other side of Asia, and came back with samples that proved to be even earlier–from around 7000 BC." Furthermore, other scholarly research has stated that: "There is also evidence for various types of alcoholic beverage production, including rice and grape wine, beer, and various liquors including baijiu in China, ca. 7000 B.C." Additionally, Professor Hames' research stated: "The earliest wine, or fermented liquor, came from China, predating Middle Eastern alcohol by a few thousand years. Archeologists have found pottery shards showing remnants of rice and grape wine dating back to 7000 BCE in Jiahu village in Henan province."
 
@@ -46,7 +46,7 @@ During the 2nd century BC, Zhang Qian's exploration of the Western Regions (mode
 
 Wine was imported again when trade with the west was restored under the Tang dynasty, but it remained mostly imperial fare and it was not until the Song that its consumption spread among the gentry. Marco Polo's 14th-century account noted the continuing preference for rice wines continuing in Yuan China.
 
-Ancient Egypt
+===Ancient Egypt===
 
 Wine played an important role in ancient Egyptian ceremonial life. A thriving royal winemaking industry was established in the Nile Delta following the introduction of grape cultivation from the Levant to Egypt c. 3000 BC. The industry was most likely the result of trade between Egypt and Canaan during the early Bronze Age, commencing from at least the 27th-century BC Third Dynasty, the beginning of the Old Kingdom period. Winemaking scenes on tomb walls, and the offering lists that accompanied them, included wine that was definitely produced in the delta vineyards. By the end of the Old Kingdom, five distinct wines, probably all produced in the Delta, constituted a canonical set of provisions for the afterlife.
 
@@ -54,13 +54,13 @@ Wine in ancient Egypt was predominantly red. Due to its resemblance to blood, mu
 
 Residue from five clay amphoras in Tutankhamun's tomb, however, have been shown to be that of white wine, so it was at least available to the Egyptians through trade if not produced domestically.
 
-Phoenicia
+===Phoenicia===
 
 As recipients of winemaking knowledge from areas to the east, the Phoenicians were instrumental in distributing wine, wine grapes, and winemaking technology throughout the Mediterranean region through their extensive trade network. Their use of amphoras for transporting wine was widely adopted and Phoenician-distributed grape varieties were important in the development of the wine industries of Rome and Greece.
 
 The only Carthaginian recipe to survive the Punic Wars was one by Mago for passum, a raisin wine that later became popular in Rome as well.
 
-Ancient Greece
+===Ancient Greece===
 
 Much of modern wine culture derives from the practices of the ancient Greeks. The vine preceded both the Minoan and Mycenaean cultures. Many of the grapes grown in modern Greece are grown there exclusively and are similar or identical to the varieties grown in ancient times. Indeed, the most popular modern Greek wine, a strongly aromatic white called retsina, is thought to be a carryover from the ancient practice of lining the wine jugs with tree resin, imparting a distinct flavor to the drink.
 
@@ -72,10 +72,10 @@ The earliest reference to a named wine is from the 7th-century BC lyrical poet A
 
 For Greece, alcohol such as wine had not fully developed into the rich 'cash crop' that it would eventually become toward the peak of its reign. However, as the emphasis of viticulture increased with economic demand so did the consumption of alcohol during the years to come. The Greeks embraced the production aspect as a way to expand and create economic growth throughout the region. Greek wine was widely known and exported throughout the Mediterranean, as amphoras with Greek styling and art have been found throughout the area. The Greeks may have even been involved in the first appearance of wine in ancient Egypt. They introduced the V. vinifera vine to and made wine in their numerous colonies in modern-day Italy, Sicily, southern France, and Spain.
 
-Ancient Persia
+===Ancient Persia===
 Herodotus, writing about the culture of the ancient Persians (in particular, those of Pontus) writes that they were "very fond" of wine and drank it in large quantities.
 
-Roman Empire
+===Roman Empire===
 
 The Roman Empire had an immense impact on the development of viticulture and oenology. Wine was an integral part of the Roman diet and winemaking became a precise business. Virtually all of the major wine-producing regions of Western Europe today were established during the Roman Imperial era. During the Roman Empire, social norms began to shift as the production of alcohol increased. Further evidence suggests that widespread drunkenness and true alcoholism among the Romans began in the first century BC and reached its height in the first century AD. Viniculture expanded so much that by AD c. 92 the emperor Domitian was forced to pass the first wine laws on record, banning the planting of any new vineyards in Italy and uprooting half of the vineyards in the provinces in order to increase the production of the necessary but less profitable grain. (The measure was widely ignored but remained on the books until its 280 repeal by Probus.)
 
@@ -89,7 +89,7 @@ The oldest surviving bottle still containing liquid wine, the Speyer wine bottle
 
 ==Medieval period==
 
-Medieval Middle East
+===Medieval Middle East===
 
 Lebanon is among the oldest sites of wine production in the world. The Israelite Hosea (780–725 BC) is said to have urged his followers to return to Yahweh so that "they will blossom as the vine, [and] their fragrance will be like the wine of Lebanon". The Phoenicians of its coastal strip were instrumental in spreading wine and viticulture throughout the Mediterranean in ancient times.
 
@@ -99,7 +99,7 @@ The Muslim conquests of the 7th and 8th centuries brought many territories under
 
 Christian monasteries in the Levant and Iraq often cultivated grapevines; they then distributed their vintages in taverns located on monastery grounds. Zoroastrians in Persia and Central Asia also engaged in the production of wine. Though not much is known about their wine trade, they did become known for their taverns. Wine in general found an industrial use in the medieval Middle East as feedstock after advances in distillation by Muslim alchemists allowed for the production of relatively pure ethanol, which was used in the perfume industry. Wine was also for the first time distilled into brandy during this period.
 
-Medieval Europe
+===Medieval Europe===
 
 rquote right It has been one of history's cruel ironies that the [Christian medieval] blood libel—accusations against Jews using the blood of murdered gentile children for the making of wine and matzot—became the false pretext for numerous pogroms. And due to the danger, those who live in a place where blood libels occur are halachically exempted from using [kosher] red wine, lest it be seized as "evidence" against them. Pesach: What We Eat and Why We Eat It Project Genesis
 In the Middle Ages, wine was the common drink of all social classes in the south, where grapes were cultivated. In the north and east, where few if any grapes were grown, beer and ale were the usual beverages of both commoners and nobility. Wine was exported to the northern regions, but because of its relatively high expense was seldom consumed by the lower classes. Since wine was necessary, however, for the celebration of the Catholic Mass, assuring a supply was crucial. The Benedictine monks became one of the largest producers of wine in France and Germany, followed closely by the Cistercians. Other orders, such as the Carthusians, the Templars, and the Carmelites, are also notable both historically and in modern times as wine producers. The Benedictines owned vineyards in Champagne (Dom Perignon was a Benedictine monk), Burgundy, and Bordeaux in France, and in the Rheingau and Franconia in Germany. In 1435 Count John IV of Katzenelnbogen, a wealthy member of the Holy Roman high nobility near Frankfurt, was the first to plant Riesling, the most important German grape. The nearby winemaking monks made it into an industry, producing enough wine to ship all over Europe for secular use. In Portugal, a country with one of the oldest wine traditions, the first appellation system in the world was created.
@@ -112,7 +112,7 @@ Jofroi of Waterford, a 13th-century Dominican, wrote a catalogue of all the know
 
 ==Modern era==
 
-Spread and development in the Americas
+===Spread and development in the Americas===
 
 European grape varieties were first brought to what is now Mexico by the first Spanish conquistadors to provide the necessities of the Catholic Holy Eucharist. Planted at Spanish missions, one variety came to be known as the Mission grape and is still planted today in small amounts. Succeeding waves of immigrants imported French, Italian and German grapes, although wine from those native to the Americas (whose flavors can be distinctly different) is also produced. Mexico became the most important wine producer starting in the 16th century, to the extent that its output began to affect Spanish commercial production. In this competitive climate, the Spanish king sent an executive order to halt Mexico's production of wines and the planting of vineyards.
 
@@ -122,10 +122,10 @@ Today, wine in the Americas is often associated with Argentina, California and C
 
 Until the latter half of the 20th century, American wine was generally viewed as inferior to that of Europe. However, with the surprisingly favorable American showing at the Paris Wine tasting of 1976, New World wine began to garner respect in the land of wine's origins.
 
-Developments in Europe
+===Developments in Europe===
 
 In the late 19th century, the phylloxera louse brought widespread destruction to grapevines, wine production, and those whose livelihoods depended on them; far-reaching repercussions included the loss of many indigenous varieties. Lessons learned from the infestation led to the positive transformation of Europe's wine industry. Bad vineyards were uprooted and their land turned to better uses. Some of France's best butter and cheese, for example, is now made from cows that graze on Charentais soil, which was previously covered with vines. Cuvées were also standardized, important in creating certain wines as they are known today; Champagne and Bordeaux finally achieved the grape mixes that now define them. In the Balkans, where phylloxera had had little impact, the local varieties survived. However, the uneven transition from Ottoman rule has meant only gradual transformation in many vineyards. It is only in recent times that local varieties have gained recognition beyond "mass-market" wines like retsina.
 
-Australia, New Zealand and South Africa
+===Australia, New Zealand and South Africa===
 
 In the context of wine, Australia, New Zealand, South Africa and other countries without a wine tradition are considered New World producers. Wine production began in the Cape Province of what is now South Africa in the 1680s as a business for supplying ships. Australia's First Fleet (1788) brought cuttings of vines from South Africa, although initial plantings failed and the first successful vineyards were established in the early 19th century. Until quite late in the 20th century, the product of these countries was not well known outside their small export markets. For example, Australia exported mainly to the United Kingdom; New Zealand retained most of its wine for domestic consumption, and South Africa exported to the Kings of Europe. However, with the increase in mechanization and scientific advances in winemaking, these countries became known for high-quality wine. A notable exception to the foregoing is that the Cape Province was the largest exporter of wine to Europe in the 18th century.

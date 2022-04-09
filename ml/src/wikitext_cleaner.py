@@ -206,11 +206,11 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     wikitext = keep_whats_inside(wikitext, "'''", "'''")
     wikitext = keep_whats_inside(wikitext, "''", "''")
 
-
-    wikitext = keep_whats_inside(wikitext, '=====', '=====')
-    wikitext = keep_whats_inside(wikitext, '====', '====')
-    wikitext = keep_whats_inside(wikitext, '===', '===') 
-    # wikitext = keep_whats_inside(wikitext, '==', '==') # keep section headers in, doesn't hurt a lot and helps extracting sections
+    # keep section headers in, doesn't hurt a lot and helps extracting sections
+    # wikitext = keep_whats_inside(wikitext, '=====', '=====')
+    # wikitext = keep_whats_inside(wikitext, '====', '====')
+    # wikitext = keep_whats_inside(wikitext, '===', '===') 
+    # wikitext = keep_whats_inside(wikitext, '==', '==') 
 
     wikitext = keep_whats_inside(wikitext, '<sub>', '</sub>')
     wikitext = keep_whats_inside(wikitext, '<sup>', '</sup>')
