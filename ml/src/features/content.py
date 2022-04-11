@@ -17,6 +17,7 @@ SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'
 def compute_sections(plaintext):
     sections = re.split(SECTION_REGEX, plaintext) # find all sections in string
 
+
     sectionsDict = {}
     sectionsDict['Intro'] = sections[0]
     sectionTitles = sections[1::2]
@@ -28,28 +29,29 @@ def compute_sections(plaintext):
     # remove dictionary items with length 0
     sectionsDict = {k: v for k, v in sectionsDict.items() if len(v) > 0}
 
+
+
     return sectionsDict
 
 def compute_content_features(wikitext, plaintext):
     sections = compute_sections(plaintext)
-
-    section_lengths = [len(sections[section]) for section in sections] 
+    section_lengths = [len(sections[section]) for section in sections]     
     norefs_text = remove_html_tag(remove_br(wikitext), 'ref')
 
     ft = {}
 
     # Content Features
-    ft['CC'] = len(plaintext) # Word Count
-    ft['CW'] = len(plaintext.split()) # Character Count
+    ft['CC'] = len(plaintext) # Character Count
+    ft['CW'] = len(plaintext.split()) # Word Count
     ft['CSN'] = len(plaintext.split('.')) # Sentence Count    
-    ft['CS'] = len(sections) # Section Count
+    ft['CS'] = max(1, len(sections)) # Section Count (minimum of 1: edge case)
     ft['CMSL'] = sum(section_lengths) / ft['CS'] # Mean Section Length (Characters)   
     ft['CP'] = len(re.findall(r'\n\n', plaintext)) + 1 # Paragraph Count
     ft['CMPL'] = ft['CC'] / ft['CP'] # Mean Paragraph Length   
-    ft['CLSL'] = max(section_lengths) # Largest section length
-    ft['CSSL'] = min(section_lengths) # Shortest section length
+    ft['CLSL'] = max(section_lengths, default=0) # Largest section length
+    ft['CSSL'] = min(section_lengths, default=0) # Shortest section length
     ft['CSTDSL'] = 0 if len(section_lengths) <= 1 else stdev(section_lengths) # Standard Deviation of Section Length
-    ft['CLSSR'] = ft['CLSL'] / ft['CSSL'] # Longest-Shortest Section Ratio
+    ft['CLSSR'] =  ft['CLSL'] / ft['CSSL'] # Longest-Shortest Section Ratio
     ft['CB'] = len(re.findall(SUBSECTION_REGEX, wikitext)) # Subsection Count
     ft['CBPS'] = ft['CB'] / ft['CS'] # Subsection Count per Section
     ft['CNL'] = len(sections['Intro']) # Introduction Length (Characters)
@@ -66,7 +68,14 @@ def compute_content_features(wikitext, plaintext):
     ft['CIL'] = len([link for link in re.findall(r'\[\[(.*?)\]\]', norefs_text) if not link.startswith(('File:', 'Category:', 'Image:'))])
     ft['CILPC'] = ft['CIL'] / ft['CC'] # Internal Link Count per Character    
 
-    ft['CI'] = len(re.findall(r'\[\[(Image:|File:)(.*?)\]\]', wikitext)) # Image Count
+    
+    base_images = len(re.findall(r'\[\[(Image:|File:)(.*?)\]\]', wikitext))
+    galleries = re.findall(r'<gallery[^>]*>(.*?)</gallery>', wikitext, flags=re.DOTALL | re.IGNORECASE)
+    gallery_images = sum([len(re.findall(r'File:', gallery)) for gallery in galleries])
+    
+    ft['CI'] = base_images + gallery_images # Image Count
+
+
     ft['CIPC'] = ft['CI'] / ft['CC'] # Image Count per Character
     ft['CIPS'] = ft['CI'] / ft['CS'] # Image Count per Section
     ft['CL3'] = len(re.findall(SUBSUBSECTION_REGEX, wikitext)) # Number of L3 headings 

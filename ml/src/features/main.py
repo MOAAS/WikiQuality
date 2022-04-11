@@ -8,7 +8,6 @@ from features.network import compute_network_features, NETWORK_FEATURES
 from features.history import compute_history_features, HISTORY_FEATURES
 
 
-
 # Some features may be calculated using specific api calls (e.g. query -> contributors)
 # Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
 
@@ -22,9 +21,13 @@ def features_to_dataframe(feature_list):
 def compute_features(title, wikitext):
     plaintext = clean_wikitext(wikitext, title)
 
+    if len(plaintext) == 0:
+        print("Found empty text for: " + title)
+        plaintext = 'This page is empty.'
+
     content = compute_content_features(wikitext, plaintext)
-    style = compute_style_features(wikitext, plaintext)
-    readability = compute_readability_features(wikitext, plaintext)
+    style = compute_style_features(plaintext)
+    readability = compute_readability_features(plaintext)
     network = compute_network_features(wikitext, plaintext)
     history = compute_history_features(wikitext, plaintext)
   

@@ -119,6 +119,9 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     wikitext = re.sub(r'{{nbsp}}', ' ', wikitext) # replace {{nbsp}} with space        
     wikitext = re.sub(r'&thinsp;', ' ', wikitext) # replace &thinsp; with space    
     wikitext = re.sub(r'&minus;', '-', wikitext) # replace &minus; with -    
+    wikitext = re.sub(r'&ndash;', '-', wikitext) # replace &ndash; with -      
+    
+
     wikitext = re.sub(r'{{CURRENTYEAR}}', str(datetime.datetime.now().year), wikitext, flags=re.IGNORECASE) ## replace {{currentyear}} with current year
 
     

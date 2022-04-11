@@ -6,17 +6,17 @@ from matplotlib.pyplot import title
 from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
 
 partition = {
-    'FA': 400,   
+    'FA': 1000,   
     'FL': 0,     
-    'A': 400,    
-    'GA': 400,   
-    'B': 400,    
-    'C': 400,     
-    'Start': 400,
-    'Stub': 400, 
+    'A': 0,    
+    'GA': 1000,   
+    'B': 1000,    
+    'C': 1000,     
+    'Start': 1000,
+    'Stub': 1000, 
 }
 
-quality_values = { 'FA': 6, 'FL': 6, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
+quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
 
 train = []
 test = []
@@ -38,14 +38,20 @@ for quality in partition:
 
         # Collect wikitexts
         wikitexts = wikiapi.getMultiWikiText(titles)
-        
+                
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
         try:
-            wikitext = wikitexts[title]
-            if wikitext is None:
-                print(f'({title}) is missing... skipping this page.')
+            if i % 25 == 0:
+                print(f'Computing features of {len(titles)} pages... {i}/{len(titles)}')
+
+            # if title is not in wikitexts
+            if title not in wikitexts:
+                print(f'Page {title} was missing, not adding to dataset.')
                 continue
+
+            wikitext = wikitexts[title]
+            
             features = {
                 "Title": title,
                 "Quality": quality_values[quality] if build_regression_dataset else quality,

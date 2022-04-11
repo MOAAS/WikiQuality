@@ -7,6 +7,10 @@ headers = {
 
 def getWikiText(title):
     res = getMultiWikiText([title])
+
+    # if 0 keys
+    if len(res) == 0:
+        return ""
     # return the only item in the dictionary. using res[title] does not always work,
     # because the title may be formatted slightly differently. this ensures that this call never fails
     key = list(res.keys())[0]
@@ -22,7 +26,7 @@ def getMultiWikiText(titles):
         i += 50
 
     if (len(titles) != len(pages)):
-        print(f'Warning: {len(titles) - len(pages)} titles were not found in the wiki')
+        print(f'Warning: A total of {len(titles) - len(pages)} titles were not found in the wiki')
     
     print(f'Retrieving {len(titles)} pages... {len(titles)}/{len(titles)}')
 
@@ -52,7 +56,6 @@ def getMultiWikiTextHelper(titles):
     for page in pages:
         if 'missing' in page:
             print('Error while fetching page (' + page['title'] + '): Missing page')
-            pageText[page['title']] = None
             continue
         wikitext = page['revisions'][0]['slots']['main']['content']
 
