@@ -5,11 +5,14 @@ import matplotlib.pyplot as plt
 
 dataset_folder = 'ml/datasets'
 models_folder = 'ml/models'
+dataset_name = '4000x6-csr'
 
 # load the dataset
 
-train = pd.read_csv(dataset_folder + '/train.csv')
-test = pd.read_csv(dataset_folder + '/test.csv')
+
+
+train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')
+test = pd.read_csv(f'{dataset_folder}/{dataset_name}_test.csv')
 
 # get x and y (also don't need title here)
 x_train = train.drop(['Quality', 'Title'], axis=1)
@@ -39,6 +42,8 @@ import sklearn.metrics as metrics
 
 def print_regression_report(y, y_pred):
     print('Mean squared error: %.2f' % metrics.mean_squared_error(y, y_pred))
+    print('Mean absolute error: %.2f' % metrics.mean_absolute_error(y, y_pred))
+
     print('Explained variance score: %.2f' % metrics.explained_variance_score(y, y_pred))
     print('R2 score: %.2f' % metrics.r2_score(y, y_pred))
 
