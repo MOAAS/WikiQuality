@@ -9,7 +9,8 @@ from wikitext_cleaner import clean_wikitext
 
 # Load model
 model_folder = '../models'
-with open(f'{model_folder}/tree.pkl', 'rb') as f:
+model_name = 'linreg'
+with open(f'{model_folder}/{model_name}.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Create Flask App
@@ -25,7 +26,7 @@ def evaluate(title):
     features_df = features_to_dataframe(features)
     quality = model.predict(features_df)[0]
 
-    return {"title": title, "quality": str(quality), "features": features}
+    return {"title": title, "quality": str(quality), "zfeatures": features}
 
 @app.route("/features/<title>")
 def features(title):

@@ -64,7 +64,7 @@ def remove_pattern_with_matching_brackets(string, starting_pattern, bracket_open
                 #print(string[start_index:start_index+3000])
 
                 if (starting_pattern == '{|'): # dumb edge case, sometimes they forget to close the tables (hope it's the only one)          
-                    print("We're missing a closing |} somewhere, but it's ok... We're going to try and find that :P")
+                    print("Warning: Did not find closing |}. Will attempt to estimate it.")
                     end_index = string.find('\n\n', start_index)  # find empty line from start_index
                 else:
                     print("Warning: Did not find end of pattern with matching brackets...")
@@ -167,7 +167,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
         'Other uses', 'displaytitle', 'Short description|', 'About|', 'Use', 'bots|', 'Engvar', 'Dabnav',
         'pp-', 'pp|', 'hatnote', 'for|', 'italic title', 'good article', 'featured article', 'TOC',
         'subcat', 'nutshell', 'guideline', 'Linking and page manipulation', 'polluted category',
-        'unreferenced',
+        'unreferenced'
     ]
     for block in initial_blocks:
         wikitext = remove_pattern(wikitext, '{{' + block, '}}')
@@ -178,14 +178,15 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     curly_bracket_blocks = [
         'IPA', 'Clarify', 'Redirect', 'glossary', 'wikipedia glossary', 'quote box', 'portal', 'see also|', 'see|', 'main|', 'update|', 
         'shortcut', 'expand section|', 'citation needed|', 'more citations needed|', 'additional citation needed|', 'refimprove|', 
-        'self reference|', 'updated|', 'details|', 'update',
+        'self reference|', 'updated|', 'details|', 'update', 'refimprove', 'empty section', 'year in', 'main list',
         'clear', 'anchor', 'colbegin', 'colend', 'col-', 'col ', 'div col', 'div col', 
         'certification table', 'stack', 'notelist', 'note|', 'dynamic list', 'wikt|', 'reflist', 'unsolved', 'surname', 'campaignbox',
         'further|', 'distinguish', 'chembox',  'mycomorphbox', 'speciesbox', 'automatic taxobox', 'clade', 'cladogram', 'block indent', 
         'multiple image', 'listen', 'infobox', 'wide image', 'graph', 'location map', 'rapid transit', 'external media', 'bar chart',
         'chess diagram', 'album ratings', 'track listing', 'aired episodes', 'episode', 'television', 'video game timeline', 'gallery',
-        'Formatprice', 'inflation', 'markup', 'cmbox', 'POV section', 'CSS', 'quotebox', 'Football', 'fs ','fb ',
-        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'refimprove', 'empty section', 'year in'
+        'Formatprice', 'inflation', 'markup', 'cmbox', 'POV section', 'CSS', 'quotebox', 'Football', 'fs ','fb',
+        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'historical populations',
+        
     ]
 
 

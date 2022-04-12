@@ -1,19 +1,21 @@
 import random
 import wikiapi
+import time
+
 
 from fileinput import filename
 from matplotlib.pyplot import title
 from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
 
 partition = {
-    'FA': 1000,   
+    'FA': 40,   
     'FL': 0,     
     'A': 0,    
-    'GA': 1000,   
-    'B': 1000,    
-    'C': 1000,     
-    'Start': 1000,
-    'Stub': 1000, 
+    'GA': 40,   
+    'B': 40,    
+    'C': 40,     
+    'Start': 40,
+    'Stub': 40, 
 }
 
 quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
@@ -26,6 +28,9 @@ build_regression_dataset = True
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
 error_folder = 'ml/src'
+
+
+start_time = time.time()
 
 for quality in partition:
     filename = f'{titles_folder}/{quality}.txt'
@@ -96,3 +101,8 @@ with open(f'{datasets_folder}/train.csv', 'w', encoding='utf-8') as ftrain, open
     write_features(train, ftrain)
     write_features(test, ftest)    
 
+end_time = time.time()
+print(f'Dataset built. Time elapsed: {round(end_time - start_time, 2)} seconds.')
+
+
+# 3.5 hours
