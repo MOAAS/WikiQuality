@@ -29,7 +29,7 @@ models = {
     'tree': DecisionTreeClassifier(criterion='entropy', random_state=0)
 }
 
-used_model = 'tree'
+used_model = 'linreg'
 model = models[used_model]
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
@@ -46,7 +46,7 @@ def print_regression_report(y, y_pred):
 def print_classification_report(y, y_pred):
     print(metrics.classification_report(y, y_pred))
 
-print_classification_report(y_test, y_pred)
+print_regression_report(y_test, y_pred)
 
 # Save model 
 import pickle

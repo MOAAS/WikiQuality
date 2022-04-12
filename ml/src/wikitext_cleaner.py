@@ -109,7 +109,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     savedWikiText = wikitext
 
     ### Remove final sections (references and notes), if there are any
-    final_sections = ["References", "Notes", "Notes and references", "External Links", "See also"]
+    final_sections = ["References", "Notes", "Notes and references", "External Links", "See also", "Footnotes", "Citations"]
     for section in final_sections:
         wikitext = wikitext.split('==' + section + '==')[0]
         wikitext = wikitext.split('== ' + section + ' ==')[0]
@@ -166,7 +166,8 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     initial_blocks = [
         'Other uses', 'displaytitle', 'Short description|', 'About|', 'Use', 'bots|', 'Engvar', 'Dabnav',
         'pp-', 'pp|', 'hatnote', 'for|', 'italic title', 'good article', 'featured article', 'TOC',
-        'subcat', 'nutshell', 'guideline', 'Linking and page manipulation', 'polluted category'
+        'subcat', 'nutshell', 'guideline', 'Linking and page manipulation', 'polluted category',
+        'unreferenced',
     ]
     for block in initial_blocks:
         wikitext = remove_pattern(wikitext, '{{' + block, '}}')
@@ -184,7 +185,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
         'multiple image', 'listen', 'infobox', 'wide image', 'graph', 'location map', 'rapid transit', 'external media', 'bar chart',
         'chess diagram', 'album ratings', 'track listing', 'aired episodes', 'episode', 'television', 'video game timeline', 'gallery',
         'Formatprice', 'inflation', 'markup', 'cmbox', 'POV section', 'CSS', 'quotebox', 'Football', 'fs ','fb ',
-        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'refimprove', 
+        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'refimprove', 'empty section', 'year in'
     ]
 
 

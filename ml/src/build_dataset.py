@@ -42,7 +42,7 @@ for quality in partition:
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
         try:
-            if i % 25 == 0:
+            if i % 50 == 0:
                 print(f'Computing features of {len(titles)} pages... {i}/{len(titles)}')
 
             # if title is not in wikitexts

@@ -21,7 +21,8 @@ def getMultiWikiText(titles):
     
     i = 0
     while i < len(titles):
-        print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
+        if (i % 100 == 0):
+            print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
         pages.update(getMultiWikiTextHelper(titles[i:i+50]))
         i += 50
 
@@ -60,7 +61,7 @@ def getMultiWikiTextHelper(titles):
         wikitext = page['revisions'][0]['slots']['main']['content']
 
         # if wikitext has #REDIRECT
-        if wikitext.startswith('#REDIRECT'):
+        if wikitext.lower().startswith('#redirect'):
             # from #REDIRECT [[X]], find X
             redirect = wikitext.split('[[')[1].split(']]')[0].split('|')[0].split('#')[0]
             print('Reading wikitext for: ' + page['title'] + '... Found redirect to: ' + redirect)

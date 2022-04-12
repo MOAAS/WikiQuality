@@ -1,11 +1,12 @@
 import pandas as pd
-import re
 from wikitext_cleaner import clean_wikitext
 from features.content import compute_content_features, CONTENT_FEATURES
 from features.style import compute_style_features, STYLE_FEATURES
 from features.readability import compute_readability_features, READABILITY_FEATURES
 from features.network import compute_network_features, NETWORK_FEATURES
 from features.history import compute_history_features, HISTORY_FEATURES
+
+from features.text_analysis import compute_words, compute_sentences, estimate_syllables
 
 
 # Some features may be calculated using specific api calls (e.g. query -> contributors)
@@ -25,9 +26,18 @@ def compute_features(title, wikitext):
         print("Found empty text for: " + title)
         plaintext = 'This page is empty.'
 
+    # did this here to improve performance: compute_sentences and compute_words are slow. 
+    # estimate_syllables not so much but keep for consistency + it helps
+    sentences = compute_sentences(plaintext)
+    sentence_words = [compute_words(sentence) for sentence in sentences]
+    words = [word for sentence in sentence_words for word in sentence]
+    sentence_word_lengths = [len(sentence) for sentence in sentence_words]
+    syllables = [estimate_syllables(word) for word in words]
+
+
     content = compute_content_features(wikitext, plaintext)
-    style = compute_style_features(plaintext)
-    readability = compute_readability_features(plaintext)
+    style = compute_style_features(sentences, words, syllables, sentence_word_lengths)
+    readability = compute_readability_features(sentences, words, syllables)
     network = compute_network_features(wikitext, plaintext)
     history = compute_history_features(wikitext, plaintext)
   

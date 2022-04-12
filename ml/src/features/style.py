@@ -1,12 +1,4 @@
-import re
-
-from features.text_analysis import compute_words, compute_sentences, estimate_syllables, compute_part_of_speech
-
-# For help with the NLTK POS tagging, see:
-# https://www.nltk.org/book/ch05.html
-# https://www.nltk.org/api/nltk.tag.html
-# Run in python: nltk.help.upenn_tagset('<TAG>') to see what the tags mean
-# This url contains a list of most tags: https://stackoverflow.com/questions/15388831/what-are-all-possible-pos-tags-of-nltk 
+from features.text_analysis import compute_part_of_speech
 
 # Unimplemented features:
 # - SSTI: Getting from WH-pronouns should only get the ones present in questions
@@ -25,19 +17,14 @@ STYLE_FEATURES = [
 ]
 
     
-def compute_style_features(plaintext):
+def compute_style_features(sentences, words, syllables, sentence_word_lengths):
+    # May crash with empty or very very small texts (divisions by zero words/verbs)
+    # For now, it's actually better to accept the crash, since wikipedia articles shouldn't ever have this problem, 
+    #  therefore it could be an error fetching the page
 
     ft = {}
 
-    #plaintext = "John has a ball. John's ball is red. He said: \"I like it\". His ball is a blue one. One day he will die, but the real question is: Who asked? Jonathan was the one who asked."
-
-    sentences = compute_sentences(plaintext)
-    sentence_lengths = [len(compute_words(sentence)) for sentence in sentences]
-
-    words = compute_words(' '.join(sentences))
-
-    pos_tags = compute_part_of_speech(sentences)
-
+    pos_tags = compute_part_of_speech(sentences)    
     used_tags = ['PRP', 'PRP$', 'ART', 'CC', 'IN', 'WP', 'DT', 'JJ', 'NN', 'RB', 'MD', 'TB', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
     articles = ['a', 'an', 'the']
     to_be = ['am', 'are', 'is', 'was', 'were', 'be', 'being', 'been']
@@ -66,18 +53,18 @@ def compute_style_features(plaintext):
 
     pos_tags = [item for sublist in pos_tags for item in sublist] # merge array of arrays
    
-    ft['SSLS'] = max(sentence_lengths, default=0) # Largest sentence length
-    ft['SSSS'] = min(sentence_lengths, default=0) # Shortest sentence length
-    ft['SMSS'] = sum(sentence_lengths) / len(sentence_lengths) # Mean sentence length    
-    ft['SLSR'] = sum([1 for length in sentence_lengths if length > ft['SMSS'] + 10]) / len(sentence_lengths) # % sentence whose size is 10 words greater than SMSS
-    ft['SSSR'] = sum([1 for length in sentence_lengths if length < ft['SMSS'] - 5]) / len(sentence_lengths) # % sentence whose size is 5 words shorter than SMSS
+    ft['SSLS'] = max(sentence_word_lengths, default=0) # Largest sentence length
+    ft['SSSS'] = min(sentence_word_lengths, default=0) # Shortest sentence length
+    ft['SMSS'] = sum(sentence_word_lengths) / len(sentence_word_lengths) # Mean sentence length    
+    ft['SLSR'] = sum([1 for length in sentence_word_lengths if length > ft['SMSS'] + 10]) / len(sentence_word_lengths) # % sentence whose size is 10 words greater than SMSS
+    ft['SSSR'] = sum([1 for length in sentence_word_lengths if length < ft['SMSS'] - 5]) / len(sentence_word_lengths) # % sentence whose size is 5 words shorter than SMSS
     
     ft['SQ'] = sum([1 for sentence in sentences if sentence[-1] == '?']) # Question Count
     ft['SQPS'] = ft['SQ'] / len(sentences) # Question Count per Sentence
     ft['SE'] = sum([1 for sentence in sentences if sentence[-1] == '!']) # Exclamation Count
     ft['SEPS'] = ft['SE'] / len(sentences) # Exclamation Count per Sentence
 
-    ft['SS'] = sum([estimate_syllables(word) for word in words]) # Syllable count
+    ft['SS'] = sum(syllables) # Syllable count
 
     ft['SMSPW'] = ft['SS'] / len(words) # Mean syllables per word   
     ft['SMCPW'] = sum([len(word) for word in words]) / len(words)  # Mean characters per word
@@ -107,7 +94,7 @@ def compute_style_features(plaintext):
     ft['SN'] = len(pos_total['NN']) # Noun count    
     ft['SUN'] = len(set(pos_total['NN'])) # Unique noun count
     verbs = pos_total['VB'] + pos_total['VBD'] + pos_total['VBG'] + pos_total['VBN'] + pos_total['VBP'] + pos_total['VBZ']
-    ft['SV'] = len(verbs) # Verb count
+    ft['SV'] = len(verbs)
     ft['SUV'] = len(set(verbs)) # Unique verb count
     ft['SP'] = len(pos_total['PRP'] + pos_total['PRP$']) # Pronoun count
     ft['SUP'] = len(set(pos_total['PRP'] + pos_total['PRP$'])) # Unique pronoun count
@@ -138,7 +125,8 @@ def compute_style_features(plaintext):
     ft['SSUBPW'] = ft['SSUB'] / len(words) # Subordinating conjunction count per word
     ft['SUSUBPW'] = ft['SUSUB'] / len(words) # Unique Subordinating conjunction count per word
 
-    ft['STBPV'] = ft['STB'] / ft['SV'] # To be verb count per verb
+    ft['STBPV'] = ft['STB'] / ft['SV'] if ft['SV'] != 0 else 0 # To be verb count per verb
+    # (the check is done only here because this is virtually the only division by zero that can happen)
     
     ft['SUNPUW'] = ft['SUN'] / ft['SUW'] # Unique noun count per unique word
     ft['SUVPUW'] = ft['SUV'] / ft['SUW'] # Unique verb count per unique word
