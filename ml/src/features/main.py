@@ -29,12 +29,9 @@ def compute_features(title, wikitext):
     # did this here to improve performance: compute_sentences and compute_words are slow. 
     # estimate_syllables not so much but keep for consistency + it helps
     sentences = compute_sentences(plaintext)
-    sentences = compute_sentences(plaintext)
-    sentence_words = [compute_words(sentence) for sentence in sentences]
     sentence_words = [compute_words(sentence) for sentence in sentences]
     words = [word for sentence in sentence_words for word in sentence]
     sentence_word_lengths = [len(sentence) for sentence in sentence_words]
-    syllables = [estimate_syllables(word) for word in words]
     syllables = [estimate_syllables(word) for word in words]
 
 

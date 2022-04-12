@@ -90,3 +90,11 @@ def getWikiCategoryMembers(category):
         pageNum += 1
 
     return titles
+
+def getFullRevisionHistory(title):
+    
+    # check postman stuff
+    # can only work with one title i think
+    # https://en.wikipedia.org/w/api.php?action=help&modules=query%2Brevisions
+    # has rvcontinue
+    return []
