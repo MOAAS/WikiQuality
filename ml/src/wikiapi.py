@@ -13,8 +13,7 @@ def getWikiText(title):
         return ""
     # return the only item in the dictionary. using res[title] does not always work,
     # because the title may be formatted slightly differently. this ensures that this call never fails
-    key = list(res.keys())[0]
-    return res[key]
+    return res[list(res.keys())[0]]
 
 def getMultiWikiText(titles):
     pages = {}
@@ -36,9 +35,7 @@ def getMultiWikiText(titles):
 def getMultiWikiTextHelper(titles):
     assert len(titles) <= 50
 
-    # replace all underscores in titles with spaces
     titles = '|'.join(titles)
-
     res = requests.get(WIKI_API_URL, headers=headers, params={
         'action': 'query',
         'titles': titles,
@@ -91,10 +88,26 @@ def getWikiCategoryMembers(category):
 
     return titles
 
-def getFullRevisionHistory(title):
-    
-    # check postman stuff
-    # can only work with one title i think
-    # https://en.wikipedia.org/w/api.php?action=help&modules=query%2Brevisions
-    # has rvcontinue
-    return []
+def getFullHistory(title):
+    params = {
+        'action': 'query',
+        'titles': title,
+        'prop': 'revisions',
+        'rvlimit': 'max',
+        'rvprop': 'timestamp|user|size|ids|comment',
+        'rvslots': '*',    
+    }
+    res = requests.get(WIKI_API_URL, headers=headers, params=params).json()
+    revs = [rev for rev in res['query']['pages'][0]['revisions']]
+
+    if 'error' in res:
+        print(f'Error while fetching page history ({title}): {res["error"]["info"]}')
+        return ''
+
+    while 'continue' in res:
+        res = requests.get(WIKI_API_URL, headers=headers, params={
+            **params,
+            'rvcontinue': res['continue']['rvcontinue']            
+        }).json()
+        revs += [rev for rev in res['query']['pages'][0]['revisions']]
+    return revs

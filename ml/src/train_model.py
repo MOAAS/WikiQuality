@@ -8,9 +8,6 @@ models_folder = 'ml/models'
 dataset_name = '4000x6-csr'
 
 # load the dataset
-
-
-
 train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')
 test = pd.read_csv(f'{dataset_folder}/{dataset_name}_test.csv')
 

@@ -2,7 +2,7 @@
 
 HISTORY_FEATURES = []
 
-def compute_history_features(wikitext, plaintext):
+def compute_history_features(revisions):
 
     ft = {}
 

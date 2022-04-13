@@ -2,7 +2,6 @@ import random
 import wikiapi
 import time
 
-
 from fileinput import filename
 from matplotlib.pyplot import title
 from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
@@ -28,7 +27,6 @@ build_regression_dataset = True
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
 error_folder = 'ml/src'
-
 
 start_time = time.time()
 
@@ -103,6 +101,3 @@ with open(f'{datasets_folder}/train.csv', 'w', encoding='utf-8') as ftrain, open
 
 end_time = time.time()
 print(f'Dataset built. Time elapsed: {round(end_time - start_time, 2)} seconds.')
-
-
-# 3.5 hours

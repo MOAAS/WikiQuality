@@ -46,3 +46,9 @@ def plain(title):
 def wikitext(title):
     wikitext = wikiapi.getWikiText(title)
     return "<pre>" + wikitext.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;') + "</pre>"
+
+@app.route("/history/<title>")
+def history(title):
+    history = wikiapi.getFullHistory(title)
+
+    return { "history": history }
