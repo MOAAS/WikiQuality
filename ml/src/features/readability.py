@@ -3,7 +3,7 @@ import os
 
 READABILITY_FEATURES = ['RARI', 'RCL', 'RFRE', 'RFK', 'RGFI', 'RLBI', 'RSG', 'RDWS', 'RDC', 'RLWF']
 
-# must also take into account:
+# easy words must also take into account:
 # - verb conjugation (if not irregular), 
 # - plural of nouns
 # - possessive ('s)

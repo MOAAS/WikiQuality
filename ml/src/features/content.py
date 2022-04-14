@@ -2,6 +2,9 @@ import re
 from wikitext_cleaner import remove_html_tag, remove_br
 from statistics import stdev
 
+# Unimplemented features:
+# - CIBL: Internal Broken Link Count
+
 CONTENT_FEATURES = [
     'CC', 'CW', 'CSN' , 'CS', 'CMSL', 'CP', 'CMPL', 'CLSL', 'CSSL', 'CSTDSL', 'CLSSR' , 'CB', 'CBPS', 'CNL' , 
     'CNLTLR', 'CR'  , 'CCC' , 'CCCPC' , 'CCCPS' , 'CEL', 'CELPS' , 'CELPC' 
@@ -10,9 +13,6 @@ CONTENT_FEATURES = [
 SECTION_REGEX = r'\n==([^=]*)==\n'
 SUBSECTION_REGEX = r'\n===([^=]*)===\n'
 SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'
-
-# Unimplemented features:
-# - CIBL: Internal Broken Link Count
 
 def compute_sections(plaintext):
     sections = re.split(SECTION_REGEX, plaintext) # find all sections in string
@@ -74,7 +74,6 @@ def compute_content_features(wikitext, plaintext):
     gallery_images = sum([len(re.findall(r'File:', gallery)) for gallery in galleries])
     
     ft['CI'] = base_images + gallery_images # Image Count
-
 
     ft['CIPC'] = ft['CI'] / ft['CC'] # Image Count per Character
     ft['CIPS'] = ft['CI'] / ft['CS'] # Image Count per Section

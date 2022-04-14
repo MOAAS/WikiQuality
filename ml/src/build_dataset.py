@@ -2,19 +2,17 @@ import random
 import wikiapi
 import time
 
-from fileinput import filename
-from matplotlib.pyplot import title
 from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
 
 partition = {
-    'FA': 40,   
-    'FL': 0,     
+    'Stub': 4000, 
+    'Start': 4000,
+    'C': 4000,     
+    'B': 4000,    
+    'GA': 4000,   
     'A': 0,    
-    'GA': 40,   
-    'B': 40,    
-    'C': 40,     
-    'Start': 40,
-    'Stub': 40, 
+    'FL': 0,     
+    'FA': 4000,   
 }
 
 quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
@@ -41,11 +39,14 @@ for quality in partition:
 
         # Collect wikitexts
         wikitexts = wikiapi.getMultiWikiText(titles)
-                
+
+        # Update redirects
+        titles = wikitexts.keys()
+    
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
         try:
-            if i % 50 == 0:
+            if i % 100 == 0:
                 print(f'Computing features of {len(titles)} pages... {i}/{len(titles)}')
 
             # if title is not in wikitexts

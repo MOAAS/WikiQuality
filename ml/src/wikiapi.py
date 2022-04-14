@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 WIKI_API_URL = 'https://en.wikipedia.org/w/api.php?formatversion=2&format=json'
 headers = {
@@ -20,7 +21,7 @@ def getMultiWikiText(titles):
     
     i = 0
     while i < len(titles):
-        if (i % 100 == 0):
+        if (len(titles) > 1 and i % 250 == 0):
             print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
         pages.update(getMultiWikiTextHelper(titles[i:i+50]))
         i += 50
@@ -28,7 +29,8 @@ def getMultiWikiText(titles):
     if (len(titles) != len(pages)):
         print(f'Warning: A total of {len(titles) - len(pages)} titles were not found in the wiki')
     
-    print(f'Retrieving {len(titles)} pages... {len(titles)}/{len(titles)}')
+    if (len(titles) > 1):
+        print(f'Retrieving {len(titles)} pages... {len(titles)}/{len(titles)}')
 
     return pages
 
@@ -110,4 +112,7 @@ def getFullHistory(title):
             'rvcontinue': res['continue']['rvcontinue']            
         }).json()
         revs += [rev for rev in res['query']['pages'][0]['revisions']]
+        
+    revs = [{**r, 'age': (datetime.now() - datetime.strptime(r['timestamp'], '%Y-%m-%dT%H:%M:%SZ')).days} for r in revs]
+    
     return revs

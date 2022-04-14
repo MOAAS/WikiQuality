@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 dataset_folder = 'ml/datasets'
 models_folder = 'ml/models'
-dataset_name = '4000x6-csr'
+dataset_name = '4000x6-csrh'
 
 # load the dataset
 train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')

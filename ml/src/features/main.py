@@ -1,6 +1,7 @@
 from re import I
 import pandas as pd
 import wikiapi
+import time
 
 from wikitext_cleaner import clean_wikitext
 from features.content import compute_content_features, CONTENT_FEATURES
@@ -22,6 +23,8 @@ def features_to_dataframe(feature_list):
     return pd.DataFrame([feature_list], columns=columns)
 
 def compute_features(title, wikitext):
+    start = time.time()
+
     plaintext = clean_wikitext(wikitext, title)
 
     if len(plaintext) == 0:
@@ -35,17 +38,15 @@ def compute_features(title, wikitext):
     words = [word for sentence in sentence_words for word in sentence]
     sentence_word_lengths = [len(sentence) for sentence in sentence_words]
     syllables = [estimate_syllables(word) for word in words]
-
-    import time
-    start = time.time()
     revisions = wikiapi.getFullHistory(title)
-    print(f"Time to get revisions ({title}): {str(time.time() - start)} seconds")
 
     content = compute_content_features(wikitext, plaintext)
     style = compute_style_features(sentences, words, syllables, sentence_word_lengths)
     readability = compute_readability_features(sentences, words, syllables)
     history = compute_history_features(revisions)
     network = compute_network_features(wikitext, plaintext)
+
+    #print(f"Time to compute features of '{title}': {str(time.time() - start)} seconds")
   
     return { "title": title, **content, **style, **readability, **history, **network, }
 
