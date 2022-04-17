@@ -284,7 +284,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
 
     return wikitext
 
-test_folder = 'ml/test/'
+test_folder = 'ml/test/wikicleaner'
 
 class TestFeatures(unittest.TestCase):
     # constructor
