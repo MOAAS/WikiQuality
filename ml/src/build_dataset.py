@@ -2,7 +2,7 @@ import random
 import wikiapi
 import time
 
-from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
+from features.main import FEATURE_HEADERS, compute_features
 from features.graph_builder import build_graph
 
 partition = {
@@ -40,10 +40,10 @@ for quality in partition:
         
         wikitexts = wikiapi.getMultiWikiText(titles) # Collect wikitexts        
         titles = list(wikitexts.keys()) # Update wrongly formatted titles  
-        graph_info = build_graph(titles) # Build graph (in-degree's and out-degree's and neighbors)
+        graph_info = build_graph(titles) # Build graph (in-degree's, out-degree's and neighbors)
+        titles = list(graph_info[2].keys()) # remove titles not present in graph_ids (third element)
         translations = wikiapi.getNumTranslations(titles) # Collect translations
-
-    
+            
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
         try:
@@ -63,7 +63,7 @@ for quality in partition:
                 **compute_features(title, wikitext, translations[title], graph_info),
             }
         except Exception as e:
-            raise f'Error computing features of {title}!' + str(e)
+            raise Exception(f'Error computing features of {title}!' + str(e))
 
         if i < partition[quality] * 0.7:
             train.append(features)

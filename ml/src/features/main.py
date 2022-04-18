@@ -39,7 +39,7 @@ def compute_features(title, wikitext, num_translations, graph_info):
     sentence_word_lengths = [len(sentence) for sentence in sentence_words]
     syllables = [estimate_syllables(word) for word in words]
     revisions = wikiapi.getFullHistory(title)
-    (network_graph, neighbor_graph, graph_ids) = graph_info
+    network_graph, neighbor_graph, graph_ids = graph_info
 
 
     content = compute_content_features(wikitext, plaintext)
@@ -48,7 +48,7 @@ def compute_features(title, wikitext, num_translations, graph_info):
     history = compute_history_features(revisions)
     network = compute_network_features(graph_ids[title], network_graph, neighbor_graph, num_translations)
 
-    #print(f"Time to compute features of '{title}': {str(time.time() - start)} seconds")
+    # print(f"Time to compute features of '{title}': {str(time.time() - start)} seconds")
   
     return { "title": title, **content, **style, **readability, **history, **network, }
 
