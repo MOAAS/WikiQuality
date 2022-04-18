@@ -5,11 +5,6 @@ from statistics import stdev
 # Unimplemented features:
 # - CIBL: Internal Broken Link Count
 
-CONTENT_FEATURES = [
-    'CC', 'CW', 'CSN' , 'CS', 'CMSL', 'CP', 'CMPL', 'CLSL', 'CSSL', 'CSTDSL', 'CLSSR' , 'CB', 'CBPS', 'CNL' , 
-    'CNLTLR', 'CR'  , 'CCC' , 'CCCPC' , 'CCCPS' , 'CEL', 'CELPS' , 'CELPC' 
-]
-
 SECTION_REGEX = r'\n==([^=]*)==\n'
 SUBSECTION_REGEX = r'\n===([^=]*)===\n'
 SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'

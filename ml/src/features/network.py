@@ -3,11 +3,18 @@
 # - NPR: Would have to compute page ranks for all pages, very costly
 # - LCC: Would have to compute edges of all neighbors, a bit costly, but doable if very needed
 
-NETWORK_FEATURES = ['NIN', 'NOUT', 'NASSinin', 'NASSinout', 'NASSoutin', 'NASSoutout', 'NREP', 'NT']
-
-def compute_network_features(graph_id, network_graph, neighbor_graph, num_translations):
+def compute_network_features(title, num_translations, graph_info = None):
+    # Network features are costly to compute in real time because we need to build the graph
+    # So if we want to use the network features, pass the graph_info to the function
 
     ft = {}
+    ft['NT'] = num_translations
+
+    if graph_info is None:
+        return ft
+
+    network_graph, neighbor_graph, graph_ids = graph_info
+    graph_id = graph_ids[title]
 
     node = network_graph[graph_id]
     neighbors = list(set(node['in'] + node['out']))
@@ -25,6 +32,5 @@ def compute_network_features(graph_id, network_graph, neighbor_graph, num_transl
 
     num_edges = len(node['in']) + len(node['out']) - node['num_reciprocal_edges']
     ft['NREP'] = node['num_reciprocal_edges'] / num_edges if num_edges > 0 else 0 # Reciprocity
-    ft['NT'] = num_translations
 
     return ft

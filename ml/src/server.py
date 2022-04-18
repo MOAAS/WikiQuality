@@ -22,7 +22,9 @@ def evaluate(title):
     # todo: validate if page exists
 
     wikitext = wikiapi.getWikiText(title)
-    features = compute_features(title, wikitext)
+    num_translations = wikiapi.getSingleNumTranslations(title)
+    features = compute_features(title, wikitext, num_translations)
+
     features_df = features_to_dataframe(features)
     quality = model.predict(features_df)[0]
 
@@ -31,7 +33,8 @@ def evaluate(title):
 @app.route("/features/<title>")
 def features(title):
     wikitext = wikiapi.getWikiText(title)
-    features = compute_features(title, wikitext)
+    num_translations = wikiapi.getSingleNumTranslations(title)
+    features = compute_features(title, wikitext, num_translations)
 
     return {"title": title, **features}
     

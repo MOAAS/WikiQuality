@@ -10,11 +10,6 @@ from statistics import stdev
 # Adapted features
 # - HRML: Do not have access to revision content (very computationally expensive, so used the revision size instead)
 
-HISTORY_FEATURES = [
-    'HA', 'HAPR', 'HRPD', 'HRPC', 'HRPCSD', 'HR', 'HC',  'HRC', 'HAC', 'HRCPC', 'HACPC', 'HRCPAC', 'HREV', 
-    'HREVPR', 'HRML', 'HREC', 'HRECPR', 'HACT', 'HACTPR', 'HOCCPR', 'HSSLE'
-]
-
 def compute_history_features(revisions):
 
     ft = {}

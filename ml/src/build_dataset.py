@@ -2,18 +2,18 @@ import random
 import wikiapi
 import time
 
-from features.main import FEATURE_HEADERS, compute_features
+from features.main import compute_features
 from features.graph_builder import build_graph
 
 partition = {
-    'FA': 4000,   
+    'FA': 6000,   
     'FL': 0,     
     'A': 0,    
-    'GA': 4000,   
-    'B': 4000,    
-    'C': 4000,     
-    'Start': 4000,
-    'Stub': 4000, 
+    'GA': 6000,   
+    'B': 6000,    
+    'C': 6000,     
+    'Start': 6000,
+    'Stub': 6000, 
 }
 
 quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
@@ -21,9 +21,11 @@ quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1
 train = []
 test = []
 
+build_network_features = False
+
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
-error_folder = 'ml/src'
+dataset_name = '6000x6-csrh'
 
 start_time = time.time()
 
@@ -37,10 +39,14 @@ for quality in partition:
         titles = titles[:partition[quality]]
         
         wikitexts = wikiapi.getMultiWikiText(titles) # Collect wikitexts        
-        titles = list(wikitexts.keys()) # Update wrongly formatted titles  
-        graph_info = build_graph(titles) # Build graph (in-degree's, out-degree's and neighbors)
-        titles = list(graph_info[2].keys()) # remove titles not present in graph_ids (third element)
+        titles = list(wikitexts.keys()) # Update wrongly formatted titles
         translations = wikiapi.getNumTranslations(titles) # Collect translations
+
+        if build_network_features:  
+            graph_info = build_graph(titles) # Build graph (in-degree's, out-degree's and neighbors)
+            titles = list(graph_info[2].keys()) # remove titles not present in graph_ids (third element)
+        else:
+            graph_info = None
             
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
@@ -70,24 +76,27 @@ for quality in partition:
     
     print(f'Computing features of {len(titles)} pages... {len(titles)}/{len(titles)}')
     
+feature_names = ["Title"] + list(train[0].keys()) + ["Quality"]
 
 def write_features(dataset, file):
-    for dict in dataset:
-        line = ','.join(['"' + str(dict[key]) + '"' for key in FEATURE_HEADERS])
+    for feature in dataset:
+        line = ','.join(['"' + str(feature[key]) + '"' for key in feature_names])
         file.write(line + '\n')
                 
-        missing_features = set(FEATURE_HEADERS) - set(dict.keys())
-        if missing_features:
-            print(f'Missing features: {missing_features} (dict{str(dict)})')
+        missing_features = set(feature_names) - set(feature.keys())
+        extra_features = set(feature.keys()) - set(feature_names)
+        if len(missing_features) > 0 or len(extra_features) > 0:
+            print(f'Missing features: {missing_features} (row: {str(feature)})')
+            print(f'Extra features: {extra_features} (row: {str(feature)})')
             raise Exception('Missing features')
 
 # open train.csv and test.csv and write to them
-with open(f'{datasets_folder}/train.csv', 'w', encoding='utf-8') as ftrain, open(f'{datasets_folder}/test.csv', 'w', encoding='utf-8') as ftest:
-    ftrain.write(','.join(FEATURE_HEADERS) + '\n')   
-    ftest.write(','.join(FEATURE_HEADERS) + '\n')
+with open(f'{datasets_folder}/{dataset_name}_train.csv', 'w', encoding='utf-8') as ftrain, open(f'{datasets_folder}/{dataset_name}_test.csv', 'w', encoding='utf-8') as ftest:
+    ftrain.write(','.join(feature_names) + '\n')   
+    ftest.write(','.join(feature_names) + '\n')
 
     write_features(train, ftrain)
     write_features(test, ftest)    
 
 end_time = time.time()
-print(f'Dataset built. Time elapsed: {round(end_time - start_time, 2)} seconds.')
+print(f'Dataset built. Time elapsed: {round(end_time - start_time, 2)} seconds. Number of features: {len(feature_names)}')

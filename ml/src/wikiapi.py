@@ -108,6 +108,12 @@ def getFullHistory(title):
     
     return revs
 
+def getSingleNumTranslations(title):
+    res = getNumTranslations([title])
+    if len(res) == 0:
+        return 0
+    return res[list(res.keys())[0]] # return only item
+
 def getNumTranslations(titles):
     pages = {}
     

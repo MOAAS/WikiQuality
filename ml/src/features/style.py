@@ -8,14 +8,6 @@ from features.text_analysis import compute_part_of_speech
 # - SNOMPW: Difficult to detect nominalization
 # - SCHTRI/SPOSTRI: Trigrams are complex, will go back to this later
 
-STYLE_FEATURES = [
-    'SSLS', 'SSSS', 'SMSS', 'SLSR', 'SSSR', 'SQ' , 'SQPS', 'SE', 'SEPS', 'SS', 'SMSPW', 'SMCPW', 'SSTP', 'SSTART', 'SSTC', 'SSTSUB', 'SSTI', 'SSTD', 
-    'SSTADJ', 'SSTN', 'SSTADV', 'SSTPPS', 'SSTARTPS', 'SSTCPS', 'SSTSUBPS', 'SSTDPS', 'SSTADJPS', 'SSTNPS', 'SSTADVPS', 'SMV', 'STB', 'SUW', 'SN', 'SUN', 
-    'SV', 'SUV', 'SP', 'SUP', 'SADV', 'SUADV' , 'SADJ', 'SUADJ' , 'SCC' , 'SUCC', 'SSUB', 'SUSUB', 'SMVPW', 'STBPW', 'SUWPW', 'SNPW', 'SUNPW', 
-    'SVPW', 'SUVPW', 'SPPW', 'SUPPW', 'SADVPW', 'SUADVPW', 'SADJPW', 'SUADJPW', 'SCCPW', 'SUCCPW' , 'SSUBPW' , 'SUSUBPW' , 'STBPV', 'SUNPUW' , 
-    'SUVPUW', 'SUPPUW', 'SUADJPUW', 'SUADVPUW', 'SUCCPUW', 'SUSUBPUW', 'SWL6'
-]
-
     
 def compute_style_features(sentences, words, syllables, sentence_word_lengths):
     # May crash with empty or very very small texts (divisions by zero words/verbs)

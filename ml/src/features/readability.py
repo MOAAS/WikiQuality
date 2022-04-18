@@ -1,8 +1,6 @@
 import math
 import os
 
-READABILITY_FEATURES = ['RARI', 'RCL', 'RFRE', 'RFK', 'RGFI', 'RLBI', 'RSG', 'RDWS', 'RDC', 'RLWF']
-
 # easy words must also take into account:
 # - verb conjugation (if not irregular), 
 # - plural of nouns
