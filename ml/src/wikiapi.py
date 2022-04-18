@@ -19,12 +19,10 @@ def getWikiText(title):
 def getMultiWikiText(titles):
     pages = {}
     
-    i = 0
-    while i < len(titles):
+    for i in range(0, len(titles), 50):
         if (len(titles) > 1 and i % 250 == 0):
             print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
         pages.update(getMultiWikiTextHelper(titles[i:i+50]))
-        i += 50
 
     if (len(titles) != len(pages)):
         print(f'Warning: A total of {len(titles) - len(pages)} titles were not found in the wiki')
@@ -44,31 +42,23 @@ def getMultiWikiTextHelper(titles):
         'prop': 'revisions',
         'rvprop': 'content',
         'rvslots': '*',    
+        'redirects': 1,
     }).json()
 
     if 'error' in res:
         print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
         return ''
 
-
     pages = res['query']['pages']
-    pageText = {}
+    wikitexts = {}
     for page in pages:
         if 'missing' in page:
             print('Error while fetching page (' + page['title'] + '): Missing page')
             continue
         wikitext = page['revisions'][0]['slots']['main']['content']
+        wikitexts[page['title']] = wikitext
 
-        # if wikitext has #REDIRECT
-        if wikitext.lower().startswith('#redirect'):
-            # from #REDIRECT [[X]], find X
-            redirect = wikitext.split('[[')[1].split(']]')[0].split('|')[0].split('#')[0]
-            print('Reading wikitext for: ' + page['title'] + '... Found redirect to: ' + redirect)
-            wikitext = getWikiText(redirect)
-
-        pageText[page['title']] = wikitext
-
-    return pageText
+    return wikitexts
 
 def getWikiCategoryMembers(category):
     if not category.startswith('Category:'):
@@ -97,7 +87,8 @@ def getFullHistory(title):
         'prop': 'revisions',
         'rvlimit': 'max',
         'rvprop': 'timestamp|user|size|ids|comment',
-        'rvslots': '*',    
+        'rvslots': '*',
+        'redirects': 1,
     }
     res = requests.get(WIKI_API_URL, headers=headers, params=params).json()
     revs = [rev for rev in res['query']['pages'][0]['revisions']]
@@ -116,3 +107,25 @@ def getFullHistory(title):
     revs = [{**r, 'age': (datetime.now() - datetime.strptime(r['timestamp'], '%Y-%m-%dT%H:%M:%SZ')).days} for r in revs]
     
     return revs
+
+def getNumTranslations(titles):
+    pages = {}
+    
+    for i in range(0, len(titles), 50):
+        only50titles = titles[i:i+50]
+        res = requests.get(WIKI_API_URL, headers=headers, params={
+            'action': 'query',
+            'titles': '|'.join(only50titles),
+            'prop': 'langlinkscount',
+            'redirects': 1,
+        }).json()
+
+        if 'error' in res:
+            print(f'Error while fetching pages ({titles}): {res["error"]["info"]}')
+            return ''
+        
+        for page in res['query']['pages']:
+            pages[page['title']] = page['langlinkscount'] if 'langlinkscount' in page else 0
+
+    return pages
+

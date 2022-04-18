@@ -3,16 +3,17 @@ import wikiapi
 import time
 
 from features.main import FEATURE_HEADERS, compute_features, clean_wikitext
+from features.graph_builder import build_graph
 
 partition = {
-    'Stub': 4000, 
-    'Start': 4000,
-    'C': 4000,     
-    'B': 4000,    
-    'GA': 4000,   
-    'A': 0,    
-    'FL': 0,     
     'FA': 4000,   
+    'FL': 0,     
+    'A': 0,    
+    'GA': 4000,   
+    'B': 4000,    
+    'C': 4000,     
+    'Start': 4000,
+    'Stub': 4000, 
 }
 
 quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
@@ -36,12 +37,12 @@ for quality in partition:
         titles = f.read().split('\n')
         random.shuffle(titles)
         titles = titles[:partition[quality]]
+        
+        wikitexts = wikiapi.getMultiWikiText(titles) # Collect wikitexts        
+        titles = list(wikitexts.keys()) # Update wrongly formatted titles  
+        graph_info = build_graph(titles) # Build graph (in-degree's and out-degree's and neighbors)
+        translations = wikiapi.getNumTranslations(titles) # Collect translations
 
-        # Collect wikitexts
-        wikitexts = wikiapi.getMultiWikiText(titles)
-
-        # Update redirects
-        titles = wikitexts.keys()
     
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
@@ -59,28 +60,18 @@ for quality in partition:
             features = {
                 "Title": title,
                 "Quality": quality_values[quality] if build_regression_dataset else quality,
-                **compute_features(title, wikitext)
+                **compute_features(title, wikitext, translations[title], graph_info),
             }
         except Exception as e:
-            with open(f'{error_folder}/ERROR-BUILD-DATASET.txt', 'w', encoding='utf-8') as f:
-                print("Error on title: " + title + "... Writing to log file")
-                f.write("ERROR BUILDING DATASET\n\n TITLE: " + title + "\n\n")
-                f.write('URL: https://en.wikipedia.org/wiki/' + title.replace(' ', '_') + '\n\n')
-                f.write("======================= ========== =======================\n")
-                f.write("==================== ORIGINAL WIKITEXT ===================\n")
-                f.write("======================= ========== =======================\n")
-                wikitext = wikiapi.getWikiText(title)
-                f.write(wikitext + "\n\n")
-                f.write("======================= ========== ==========================\n")
-                f.write("======================= PLAIN TEXT ==========================\n")
-                f.write("======================= ========== ==========================\n")
-                f.write(clean_wikitext(wikitext, title))                
-            raise
+            raise f'Error computing features of {title}!' + str(e)
 
         if i < partition[quality] * 0.7:
             train.append(features)
         else:
             test.append(features)
+    
+    print(f'Computing features of {len(titles)} pages... {len(titles)}/{len(titles)}')
+    
 
 def write_features(dataset, file):
     for dict in dataset:

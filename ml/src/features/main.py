@@ -22,7 +22,7 @@ def features_to_dataframe(feature_list):
     
     return pd.DataFrame([feature_list], columns=columns)
 
-def compute_features(title, wikitext):
+def compute_features(title, wikitext, num_translations, graph_info):
     start = time.time()
 
     plaintext = clean_wikitext(wikitext, title)
@@ -39,12 +39,14 @@ def compute_features(title, wikitext):
     sentence_word_lengths = [len(sentence) for sentence in sentence_words]
     syllables = [estimate_syllables(word) for word in words]
     revisions = wikiapi.getFullHistory(title)
+    (network_graph, neighbor_graph, graph_ids) = graph_info
+
 
     content = compute_content_features(wikitext, plaintext)
     style = compute_style_features(sentences, words, syllables, sentence_word_lengths)
     readability = compute_readability_features(sentences, words, syllables)
     history = compute_history_features(revisions)
-    network = compute_network_features(wikitext, plaintext)
+    network = compute_network_features(graph_ids[title], network_graph, neighbor_graph, num_translations)
 
     #print(f"Time to compute features of '{title}': {str(time.time() - start)} seconds")
   
