@@ -21,8 +21,6 @@ quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1
 train = []
 test = []
 
-build_regression_dataset = True
-
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
 error_folder = 'ml/src'
@@ -59,7 +57,7 @@ for quality in partition:
             
             features = {
                 "Title": title,
-                "Quality": quality_values[quality] if build_regression_dataset else quality,
+                "Quality": quality_values[quality],
                 **compute_features(title, wikitext, translations[title], graph_info),
             }
         except Exception as e:
