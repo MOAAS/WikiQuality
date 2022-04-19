@@ -6,6 +6,7 @@ import pickle
 from features.main import compute_features, features_to_dataframe
 from wikitext_cleaner import clean_wikitext
 
+# TODO: Titles with slashes must work: E.g (Fences/Mansions_Split_7") 
 
 # Load model
 model_folder = '../models'

@@ -183,7 +183,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
         'certification table', 'stack', 'notelist', 'note|', 'dynamic list', 'wikt|', 'reflist', 'unsolved', 'surname', 'campaignbox',
         'further|', 'distinguish', 'chembox',  'mycomorphbox', 'speciesbox', 'automatic taxobox', 'clade', 'cladogram', 'block indent', 
         'multiple image', 'listen', 'infobox', 'wide image', 'graph', 'location map', 'rapid transit', 'external media', 'bar chart',
-        'chess diagram', 'album ratings', 'track listing', 'aired episodes', 'episode', 'television', 'video game timeline', 'gallery',
+        'chess diagram', 'album ratings', 'track listing', 'tracklist', 'aired episodes', 'episode', 'television', 'video game timeline', 'gallery',
         'Formatprice', 'inflation', 'markup', 'cmbox', 'POV section', 'CSS', 'quotebox', 'Football', 'fs ','fb',
         'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'historical populations',
         

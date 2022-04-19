@@ -25,7 +25,7 @@ build_network_features = False
 
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
-dataset_name = '6000x6-csrh'
+dataset_name = 'dataset1'
 
 start_time = time.time()
 
@@ -62,9 +62,9 @@ for quality in partition:
             wikitext = wikitexts[title]
             
             features = {
-                "Title": title,
-                "Quality": quality_values[quality],
+                "Title": title.replace('"', ''), # we do this to avoid problems with the CSV. it's not an issue because titles are not used in the model
                 **compute_features(title, wikitext, translations[title], graph_info),
+                "Quality": quality_values[quality],
             }
         except Exception as e:
             raise Exception(f'Error computing features of {title}!' + str(e))
@@ -75,8 +75,8 @@ for quality in partition:
             test.append(features)
     
     print(f'Computing features of {len(titles)} pages... {len(titles)}/{len(titles)}')
-    
-feature_names = ["Title"] + list(train[0].keys()) + ["Quality"]
+
+feature_names = list(train[0].keys())
 
 def write_features(dataset, file):
     for feature in dataset:
