@@ -15,13 +15,8 @@ from features.text_analysis import compute_words, compute_sentences, estimate_sy
 # Some features may be calculated using specific api calls (e.g. query -> contributors)
 # Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
 
-def features_to_dataframe(features):
-    columns = list(features.keys())
-    columns.remove("Title")
-
-    print(columns)
-    
-    return pd.DataFrame([features], columns=columns)
+def features_to_dataframe(features):    
+    return pd.DataFrame([features], columns=features.keys())
 
 def compute_features(title, wikitext, num_translations, graph_info = None):
     start = time.time()

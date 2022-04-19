@@ -10,7 +10,7 @@ from wikitext_cleaner import clean_wikitext
 
 # Load model
 model_folder = '../models'
-model_name = 'linreg'
+model_name = 'forest_r'
 with open(f'{model_folder}/{model_name}.pkl', 'rb') as f:
     model = pickle.load(f)
 

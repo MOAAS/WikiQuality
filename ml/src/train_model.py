@@ -1,4 +1,3 @@
-import sklearn
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -20,16 +19,30 @@ y_test = test['Quality']
 
 # Train and test models
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVR
+from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
 
+
+# Model names ending with c are classification models, and ending with r are regression models
 models = {
-    'linreg':  LinearRegression(),
-    'svr': SVR(kernel='rbf', C=1e3, gamma=0.1),
-    'tree': DecisionTreeClassifier(criterion='entropy', random_state=0)
+    # models with very poor performance. will need to investigate
+    'logreg_r': LogisticRegression(max_iter=10000),
+    'svr_r': SVR(kernel='rbf', C=0.5, gamma='auto'),
+    'svc_c': SVC(kernel='rbf', C=0.5, gamma='auto'),
+
+    'linreg_r':  LinearRegression(),
+    'tree_c': DecisionTreeClassifier(criterion='entropy', random_state=0, max_depth=15),
+    'forest_c': RandomForestClassifier(n_estimators=150, criterion='entropy', random_state=0, max_depth=15),
+    'tree_r': DecisionTreeRegressor(criterion='squared_error', random_state=0, max_depth=15),
+    'forest_r': RandomForestRegressor(n_estimators=150, criterion='squared_error', random_state=0, max_depth=15),
 }
 
-used_model = 'linreg'
+used_model = 'tree_r'
 model = models[used_model]
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
@@ -38,17 +51,24 @@ y_pred = model.predict(x_test)
 import sklearn.metrics as metrics
 
 def print_regression_report(y, y_pred):
-    print('Mean squared error: %.2f' % metrics.mean_squared_error(y, y_pred))
-    print('Mean absolute error: %.2f' % metrics.mean_absolute_error(y, y_pred))
-
-    print('Explained variance score: %.2f' % metrics.explained_variance_score(y, y_pred))
+    print("---------- REGRESSION REPORT ----------")
+    print('Root mean squared error (RMSE):', np.sqrt(metrics.mean_squared_error(y, y_pred)))
+    print('Mean squared error (MSE): %.2f' % metrics.mean_squared_error(y, y_pred))
+    print('Mean absolute error (MAE): %.2f' % metrics.mean_absolute_error(y, y_pred))
     print('R2 score: %.2f' % metrics.r2_score(y, y_pred))
+
+    # MSE per class?
+
+    print("---------------------------------------")
 
 
 def print_classification_report(y, y_pred):
     print(metrics.classification_report(y, y_pred))
 
-print_regression_report(y_test, y_pred)
+if used_model.endswith('_c'):
+    print_classification_report(y_test, y_pred)
+else:
+    print_regression_report(y_test, y_pred)
 
 # Save model 
 import pickle
