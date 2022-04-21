@@ -15,8 +15,8 @@ partition = {
     'Start': 6000,
     'Stub': 6000, 
 }
-
 quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
+
 
 train = []
 test = []
