@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
 
   width: 450px;
@@ -10,4 +10,13 @@
 
   padding: 1em;
 
+}
+
+
+.button {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 2em;
 }

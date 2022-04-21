@@ -13,6 +13,7 @@ export async function extensionUpdatePageBackgroundColor() {
   }
   
 export async function getTabURL() {
+  return "https://en.wikipedia.org/wiki/Gel"
   let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
   return tab.url;
 }

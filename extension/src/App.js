@@ -1,63 +1,58 @@
-import './App.css';
-import { useCallback, useState } from 'react';
+import styles from './App.module.css';
+import { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
 import { getTabURL } from './ExtensionTest';
+import languages from './languages.json'
 
 
 const API_URL = "http://localhost:5000/evaluate/";
 
 function App() {
-  //const [titleInput, setTitleInput] = useState("")
+  const [isWikipedia, setIsWikipedia] = useState(false)
+  const [title, setTitle] = useState("")
+  const [language, setLanguage] = useState("")
 
   const [quality, setQuality] = useState("")
-  const [title, setTitle] = useState("")
+  const [error, setError] = useState("")
+
+  useEffect(() => {
+    getTabURL().then(url => {
+      const [href, urltitle] = url.split("/wiki/")
+      const language = href.split("://")[1].split(".")[0]
+
+      setIsWikipedia(href.includes("wikipedia.org"))
+      setTitle(urltitle)
+      setLanguage(languages[language])
+    })
+  }, [])
+
 
   const scanTitle = useCallback(() => {
-    setTitle("")
-  
-    setQuality("")
-    getTabURL().then(url => {
+    axios.get(API_URL + title).then(res => {
+      console.log(res.data)
+      setTitle(title)
+      setQuality(res.data.quality);
+    }).catch(err => {  
+      console.log(err);
+      setError("Error fetching Wikipedia Page.")
+    })
+  }, [title])
 
-      
-      const [href, title] = url.split("/wiki/")
 
-
-
-      if (href.includes("wikipedia.org")) {
-        const decodedTitle = decodeURIComponent(title).replace(/_/g, " ")
-        setTitle("Calculating Quality...");
-
-        axios.get(API_URL + title).then(res => {
-          setTitle(decodedTitle)
-          setQuality(res.data.quality);
-
-        }).catch(err => {
-          console.log(err);
-          setTitle("Error fetching Wikipedia Page.")
-        })
-      }
-      else {
-        setTitle("Not a wikipedia page")
-      }
-    });   
-  })
-  
-
-  
   return (
-    <div className="App">
-      <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", gap: "8px"}}>
-        {/* <input name="title" value={titleInput} onChange={e => setTitleInput(e.target.value)}/>     */}
+    <div className={styles.app}>
+      <h1>WikiQuality</h1>
 
-        <button onClick={scanTitle}>Do Wiki</button>
+      <h2>{isWikipedia ? title : "Not on a Wikipedia page."}</h2>
 
-        {/* <button onClick={extensionUpdatePageBackgroundColor}>Change Color (test)</button> */}
-      </div>
+      <h2>{isWikipedia ? `Language: ${language}` : ""} </h2>
 
-        <div>
-          <h2>{title}</h2>
-          {quality && (<p>Quality: {quality}</p>)}
-        </div>
+
+      <button onClick={scanTitle} className={styles.button} disabled={!isWikipedia}>SCAN</button>
+
+      {quality && <p>Quality: {quality}</p>}
+
+      {error && <p>{error}</p>}
     </div>
   );
 }

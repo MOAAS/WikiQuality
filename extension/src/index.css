@@ -3,9 +3,7 @@ body {
 
 
   height: 100vh;
-  background-color: #282c34;
-
-  
+  background-color: #282c34;  
 }
 
 * {
@@ -21,35 +19,11 @@ code {
     monospace;
 }
 
-
-
 button {
   border: none;
   font-size: unset;
+}
+
+button:not(:disabled) {
   cursor: pointer;
-
-  padding: 0.5em 1em;
-  border-radius: 4px;  
-  transition: all 0.1s ease-in-out;
-}
-
-button:hover {
-  background-color: #ddd;
-}
-
-button:active {
-  background-color: #ccc;
-}
-
-
-
-input {
-  padding: 0.5em;
-  font-size: 1em;
-  border: none;
-  border-radius: 4px;
-}
-
-input:focus {
-  outline: none;
 }
