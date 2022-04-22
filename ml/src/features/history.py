@@ -10,6 +10,9 @@ from statistics import stdev
 # Adapted features
 # - HRML: Do not have access to revision content (very computationally expensive, so used the revision size instead)
 
+# New features
+# - HMCL: Mean Comment Length
+
 def compute_history_features(revisions):
 
     ft = {}
@@ -62,4 +65,8 @@ def compute_history_features(revisions):
     ft['HOCCPR'] = len([revision for revision in revisions if revision['user'] in occasional_contributors]) / len(revisions) # Occasional review count per review
 
     ft['HSSLE'] = revisions[0]['age'] * 24 * 60 * 60 # Seconds since last edit
+
+    # New features
+    ft['HMCL'] = sum([len(revision['comment']) for revision in revisions]) / len(revisions) # Mean comment length
+
     return ft

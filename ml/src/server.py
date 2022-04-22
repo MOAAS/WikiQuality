@@ -9,10 +9,12 @@ from wikitext_cleaner import clean_wikitext
 # TODO: Titles with slashes must work: E.g (Fences/Mansions_Split_7") 
 
 # Load model
-model_folder = '../models'
-model_name = 'forest_r'
-with open(f'{model_folder}/{model_name}.pkl', 'rb') as f:
+model_folder = '../models/CSRHN6'
+model_name = 'tree_c'
+with open(f'{model_folder}/{model_name}/model.pkl', 'rb') as f:
     model = pickle.load(f)
+with open(f'{model_folder}/{model_name}/scaler.pkl', 'rb') as f:
+    scaler = pickle.load(f)
 
 # Create Flask App
 app = Flask(__name__)
@@ -27,6 +29,7 @@ def evaluate(title):
     features = compute_features(title, wikitext, num_translations)
 
     features_df = features_to_dataframe(features)
+    features_df = scaler.transform(features_df)
     quality = model.predict(features_df)[0]
 
     return {"title": title, "quality": str(quality), "zfeatures": features}

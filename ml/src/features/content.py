@@ -5,6 +5,10 @@ from statistics import stdev
 # Unimplemented features:
 # - CIBL: Internal Broken Link Count
 
+# New features
+# - CTB: Number of tables
+# - CUCT: Number of unique templates
+
 SECTION_REGEX = r'\n==([^=]*)==\n'
 SUBSECTION_REGEX = r'\n===([^=]*)===\n'
 SUBSUBSECTION_REGEX = r'\n====([^=]*)====\n'
@@ -76,5 +80,9 @@ def compute_content_features(wikitext, plaintext):
     ft['CIB'] = len(re.findall(r'{{Infobox', wikitext, flags=re.IGNORECASE)) # Number of Information Boxes
     ft['CCT'] = len(re.findall(r'{{Cit', wikitext, flags=re.IGNORECASE)) # Number of citation templates
     ft['CNCT'] = len(re.findall(r'{{', wikitext)) - ft['CCT'] # Number of non-citation templates
+
+    # New features
+    ft['CTB'] = len(re.findall(r'\{\|', wikitext, flags=re.IGNORECASE)) # Number of tables
+    ft['CUCT'] = len(set([template.strip() for template in re.findall(r'{{(.*?)[|\n}]', wikitext, flags=re.DOTALL | re.IGNORECASE)])) # Unique template count
 
     return ft

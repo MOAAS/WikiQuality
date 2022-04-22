@@ -21,11 +21,11 @@ quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1
 train = []
 test = []
 
-build_network_features = False
+build_network_features = True
 
 titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
-dataset_name = 'dataset1'
+dataset_name = '6000x6-csrhn'
 
 start_time = time.time()
 

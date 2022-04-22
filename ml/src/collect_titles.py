@@ -1,17 +1,4 @@
-from bs4 import BeautifulSoup
-import requests
-
 import wikiapi
-
-# soup open url
-def getSoup(url):
-    html = getHTML(url)
-    soup = BeautifulSoup(html, 'html.parser')
-    return soup
-
-def getHTML(url):
-    r = requests.get(url)
-    return r.content
 
 def getWikiQualityPages(category, filename, isPageList = False):
     members = wikiapi.getWikiCategoryMembers(category)
@@ -51,8 +38,6 @@ getWikiQualityPages("Category:Start-Class_articles", "Start.txt")
 getWikiQualityPages("Category:All_stub_articles", "Stub.txt", isPageList=True)
 
 
-
-# print(getHTML("https://en.wikipedia.org/wiki/Category:FA-Class_articles"))
 
 
 

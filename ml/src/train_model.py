@@ -16,8 +16,8 @@ quality_mapping_6class = { 5: 5,   4: 4,   3: 3,   2: 2,   1: 1,   0: 0 }
 quality_mapping_3class = { 5: 2,   4: 2,   3: 1,   2: 1,   1: 0,   0: 0 }
 quality_mapping_2class = { 5: 1,   4: 1,   3: 0,   2: 0,   1: 0,   0: 0 }
 use_quality_mapping = quality_mapping_6class
-use_categories = ["C", "S", "R", "H", "N"]
-
+use_feature_categories = ["C", "S", "R", "H", "N"]
+letters = ''.join(use_feature_categories)
 classes = list(set(use_quality_mapping.values()))
 
 x_train = train.drop(['Quality', 'Title'], axis=1)
@@ -26,8 +26,11 @@ y_train = train['Quality'].replace(use_quality_mapping)
 x_test = test.drop(['Quality', 'Title'], axis=1)
 y_test = test['Quality'].replace(use_quality_mapping)
 
+x_train = x_train.filter(regex=f'^[{letters}]', axis=1)
+x_test = x_test.filter(regex=f'^[{letters}]', axis=1)
+
+
 # Train and test models
-from sklearn.model_selection import GridSearchCV
 import sklearn.metrics as metrics
 
 from sklearn.preprocessing import StandardScaler  
@@ -39,7 +42,6 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.naive_bayes import GaussianNB
-from sklearn.naive_bayes import MultinomialNB
 
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
@@ -70,11 +72,7 @@ models = {
     'ada_r': AdaBoostRegressor(n_estimators=150, random_state=0, learning_rate=0.1, base_estimator=DecisionTreeRegressor(max_depth=10)),
     'gboost_r': GradientBoostingRegressor(n_estimators=150, random_state=0, learning_rate=0.01),
     'logreg_r': LogisticRegression(max_iter=10000),
-    'svr.1_r': SVR(kernel='rbf', C=0.1, gamma='scale'), # todo: experiment different C's again
-    'svr1_r': SVR(kernel='rbf', C=1, gamma='scale'), # todo: experiment different C's again
-    'svr2_r': SVR(kernel='rbf', C=2, gamma='scale'), # todo: experiment different C's again
-    'svr10_r': SVR(kernel='rbf', C=10, gamma='scale'), # todo: experiment different C's again
-    'svr100_r': SVR(kernel='rbf', C=100, gamma='scale'), # todo: experiment different C's again
+    'svr_r': SVR(kernel='rbf', C=2, gamma='scale'), # todo: experiment different C's again
     'mlp_r': MLPRegressor(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1,), 
 }
 
@@ -130,7 +128,10 @@ def generate_report(y_test, y_pred, is_classification, time_elapsed):
 def save_model(model_name, model, report, scaler):
     import os
     import pickle
-    folder_name = f'{models_folder}/{model_name}'
+
+    subfolder_name = letters + str(len(classes))
+
+    folder_name = f'{models_folder}/{subfolder_name}/{model_name}'
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
        
@@ -164,9 +165,11 @@ def train_and_test(used_model_name):
     save_model(used_model_name, model, report, scaler)
     #print(report)
 
-train_and_test('svr.1_r')
-train_and_test('svr1_r')
-train_and_test('svr2_r')
-train_and_test('svr10_r')
-train_and_test('svr100_r')
+print(f"Training with categories: {letters} ({len(x_train.columns)} features)")
+print(f"Training with {str(len(classes))} classes")
 
+
+
+
+#for modelname in models:
+#    train_and_test(modelname)

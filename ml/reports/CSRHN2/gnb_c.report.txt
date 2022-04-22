@@ -1,0 +1,16 @@
+------------------ OVERALL REPORT ------------------
+              precision    recall  f1-score   support
+
+           0       0.89      0.80      0.84      6026
+           1       0.69      0.83      0.75      3323
+
+    accuracy                           0.81      9349
+   macro avg       0.79      0.81      0.80      9349
+weighted avg       0.82      0.81      0.81      9349
+
+----------------- CONFUSION MATRIX -----------------
+        pred:0  pred:1
+true:0    4803    1223
+true:1     572    2751
+----------------------------------------------------
+Time elapsed: 00:00 (0.2 seconds)
