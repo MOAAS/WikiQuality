@@ -26,5 +26,7 @@ for row in rows:
 
 # save to json
 import json
-with open("languages.json", "w", encoding='utf-8') as f:
+import os
+
+with open(os.path.join(os.path.dirname(__file__), 'languages.json'), "w", encoding='utf-8') as f:
     json.dump(langs, f, ensure_ascii=False, indent=4)
