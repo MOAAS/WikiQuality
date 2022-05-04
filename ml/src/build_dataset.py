@@ -62,14 +62,14 @@ for quality in partition:
             wikitext = wikitexts[title]
             
             features = {
-                "Title": title.replace('"', ''), # we do this to avoid problems with the CSV. it's not an issue because titles are not used in the model
+                "Title": title.replace('"', ''), # we do this replace to avoid problems with the CSV. it's not an issue because titles are not used in the model
                 **compute_features(title, wikitext, translations[title], graph_info),
                 "Quality": quality_values[quality],
             }
         except Exception as e:
             raise Exception(f'Error computing features of {title}!' + str(e))
 
-        if i < partition[quality] * 0.7:
+        if i < len(titles) * 0.7:
             train.append(features)
         else:
             test.append(features)

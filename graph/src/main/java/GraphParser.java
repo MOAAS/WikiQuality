@@ -15,7 +15,7 @@ import java.util.Map;
 public class GraphParser {
     private static ImmutableGraph load() {
         try {
-            BVGraph graph =  BVGraph.loadOffline("src/main/resources/enwiki-2021");
+            BVGraph graph =  BVGraph.loadOffline("src/main/resources/enwiki-2022");
             System.out.println("Loaded graph with " + graph.numNodes() + " nodes and " + graph.numArcs() + " arcs.");
             return graph;
         } catch (IOException e) {
@@ -25,7 +25,7 @@ public class GraphParser {
     private static Map<Integer, String> loadTitles() {
         Map<Integer, String> ids = new HashMap<>();
         int currentId = 0;
-        try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/enwiki-2021.ids"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/enwiki-2022.ids"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 ids.put(currentId, line);
@@ -49,11 +49,11 @@ public class GraphParser {
         int count = 0;
         int numNeighbors = 0;
 
-        String separator = "_";
+        String separator = "|";
 
         try (
-            FileWriter nodes = new FileWriter("src/main/resources/enwiki-2021-nodes.csv");
-            FileWriter edges = new FileWriter("src/main/resources/enwiki-2021-edges.csv")
+            FileWriter nodes = new FileWriter("src/main/resources/enwiki-2022-nodes.csv");
+            FileWriter edges = new FileWriter("src/main/resources/enwiki-2022-edges.csv")
         ) {
             nodes.write("id" + separator + "title\n");
             edges.write("source" + separator + "target\n");

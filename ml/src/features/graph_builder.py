@@ -1,9 +1,9 @@
 import time
 
 
-edge_file = 'ml/wikidumps/enwiki-2021-edges.csv'
-node_file = 'ml/wikidumps/enwiki-2021-nodes.csv'
-csv_sep = '_'
+edge_file = 'ml/wikidumps/enwiki-2022-edges.csv'
+node_file = 'ml/wikidumps/enwiki-2022-nodes.csv'
+csv_sep = '|'
 
 def update_params(nf, ef, sep):
     global node_file, edge_file, csv_sep
