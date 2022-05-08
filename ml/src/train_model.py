@@ -3,36 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
-dataset_folder = 'ml/datasets'
-models_folder = 'ml/models'
-dataset_name = '6000x6-csrhn'
-#dataset_name = "small"
-
-# load the dataset
-train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')
-test = pd.read_csv(f'{dataset_folder}/{dataset_name}_test.csv')
-
-quality_mapping_6class = { 5: 5,   4: 4,   3: 3,   2: 2,   1: 1,   0: 0 }
-quality_mapping_3class = { 5: 2,   4: 2,   3: 1,   2: 1,   1: 0,   0: 0 }
-quality_mapping_2class = { 5: 1,   4: 1,   3: 0,   2: 0,   1: 0,   0: 0 }
-use_quality_mapping = quality_mapping_6class
-use_feature_categories = ["C", "S", "R", "H", "N"]
-letters = ''.join(use_feature_categories)
-classes = list(set(use_quality_mapping.values()))
-
-x_train = train.drop(['Quality', 'Title'], axis=1)
-y_train = train['Quality'].replace(use_quality_mapping)
-
-x_test = test.drop(['Quality', 'Title'], axis=1)
-y_test = test['Quality'].replace(use_quality_mapping)
-
-x_train = x_train.filter(regex=f'^[{letters}]', axis=1)
-x_test = x_test.filter(regex=f'^[{letters}]', axis=1)
-
-
-# Train and test models
 import sklearn.metrics as metrics
-
 from sklearn.preprocessing import StandardScaler  
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -52,6 +23,16 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVR
 from sklearn.neural_network import MLPRegressor
 
+
+dataset_folder = 'ml/datasets'
+models_folder = 'ml/models'
+dataset_name = '6000x6-csrhn'
+
+quality_mapping_6class = { 5: 5,   4: 4,   3: 3,   2: 2,   1: 1,   0: 0 }
+quality_mapping_3class = { 5: 2,   4: 2,   3: 1,   2: 1,   1: 0,   0: 0 }
+quality_mapping_2class = { 5: 1,   4: 1,   3: 0,   2: 0,   1: 0,   0: 0 }
+
+# Train and test models
 # Model names ending with c are classification models, and ending with r are regression models
 # Some models only have decent results with normalize data activated (e.g. logistic regression, svm, knn, neural network)
 # Still, normalizing does not have a negative impact on the other algorithms, so keep it on
@@ -75,6 +56,21 @@ models = {
     'svr_r': SVR(kernel='rbf', C=2, gamma='scale'), # todo: experiment different C's again
     'mlp_r': MLPRegressor(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1,), 
 }
+
+def load_dataset(class_mapping, feature_categories):
+    train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')
+    test = pd.read_csv(f'{dataset_folder}/{dataset_name}_test.csv')
+
+    x_train = train.drop(['Quality', 'Title'], axis=1)
+    y_train = train['Quality'].replace(class_mapping)
+
+    x_test = test.drop(['Quality', 'Title'], axis=1)
+    y_test = test['Quality'].replace(class_mapping)
+
+    x_train = x_train.filter(regex=f'^[{feature_categories}]', axis=1)
+    x_test = x_test.filter(regex=f'^[{feature_categories}]', axis=1)
+
+    return x_train, y_train, x_test, y_test
 
 def print_regression_report(y, y_pred):  
     print("------------------ OVERALL REPORT ------------------")
@@ -125,28 +121,27 @@ def generate_report(y_test, y_pred, is_classification, time_elapsed):
     
     return report
 
-def save_model(model_name, model, report, scaler):
+def save_model(model_path, model, report, scaler):
     import os
     import pickle
 
-    subfolder_name = letters + str(len(classes))
-
-    folder_name = f'{models_folder}/{subfolder_name}/{model_name}'
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
+    if not os.path.exists(model_path):
+        os.makedirs(model_path)
        
-    with open(f'{folder_name}/model.pkl', 'wb') as f:
+    with open(f'{model_path}/model.pkl', 'wb') as f:
         pickle.dump(model, f)
-    with open(f'{folder_name}/report.txt', 'w') as f:
+    with open(f'{model_path}/report.txt', 'w') as f:
         f.write(report)
-    with open(f'{folder_name}/scaler.pkl', 'wb') as f:
+    with open(f'{model_path}/scaler.pkl', 'wb') as f:
         pickle.dump(scaler, f)
 
-def train_and_test(used_model_name):
-    global x_train, y_train, x_test, y_test
-
+def train_and_test(model_name, class_mapping, feature_categories):
     start_time = time.time()
-    print("Training and testing model:", used_model_name + "...")
+
+    x_train, y_train, x_test, y_test = load_dataset(class_mapping, feature_categories)
+    classes = list(set(class_mapping.values()))
+    print(f"Training and testing model: {model_name}")
+    print(f"Training with categories {feature_categories} ({len(x_train.columns)} features) and {len(classes)} classes")
 
     # Normalize data
     scaler = StandardScaler()
@@ -154,22 +149,16 @@ def train_and_test(used_model_name):
     x_train = scaler.transform(x_train)
     x_test = scaler.transform(x_test)
 
-    model = models[used_model_name]
+    model = models[model_name]
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
 
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
-    report = generate_report(y_test, y_pred, is_classification = used_model_name.endswith('c'), time_elapsed = time_elapsed)
-    save_model(used_model_name, model, report, scaler)
-    #print(report)
+    report = generate_report(y_test, y_pred, is_classification = model_name.endswith('c'), time_elapsed = time_elapsed)
+    model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
+    save_model(model_path, model, report, scaler)
 
-print(f"Training with categories: {letters} ({len(x_train.columns)} features)")
-print(f"Training with {str(len(classes))} classes")
-
-
-
-
-#for modelname in models:
-#    train_and_test(modelname)
+for modelname in models:
+    train_and_test(modelname, quality_mapping_6class, "CSRHN")
