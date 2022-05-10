@@ -1,15 +1,15 @@
 ------------------ OVERALL REPORT ------------------
-Mean squared error (MSE): 0.65
-Root mean squared error (RMSE): 0.806465135376476
+Mean squared error (MSE): 0.67
+Root mean squared error (RMSE): 0.8191211697775665
 Mean absolute error (MAE): 0.64
-R2 score: 0.78
+R2 score: 0.77
 ----------------- PER-CLASS REPORT -----------------
 Quality    MSE        RMSE       MAE       
-0          0.378      0.615      0.461     
-1          0.808      0.899      0.701     
-2          0.702      0.838      0.662     
-3          0.720      0.848      0.675     
-4          0.653      0.808      0.659     
-5          0.641      0.801      0.672     
+0          0.357      0.597      0.450     
+1          0.885      0.941      0.741     
+2          0.697      0.835      0.657     
+3          0.752      0.867      0.651     
+4          0.632      0.795      0.643     
+5          0.703      0.838      0.705     
 ----------------------------------------------------
-Time elapsed: 00:00 (0.59 seconds)
+Time elapsed: 00:01 (1.21 seconds)

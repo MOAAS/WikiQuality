@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import time
+import os
 
 import sklearn.metrics as metrics
 from sklearn.preprocessing import StandardScaler  
@@ -26,6 +27,7 @@ from sklearn.neural_network import MLPRegressor
 
 dataset_folder = 'ml/datasets'
 models_folder = 'ml/models'
+reports_folder = 'ml/reports'
 dataset_name = '6000x6-csrhn'
 
 quality_mapping_6class = { 5: 5,   4: 4,   3: 3,   2: 2,   1: 1,   0: 0 }
@@ -72,7 +74,7 @@ def load_dataset(class_mapping, feature_categories):
 
     return x_train, y_train, x_test, y_test
 
-def print_regression_report(y, y_pred):  
+def print_regression_report(y, y_pred, classes):  
     print("------------------ OVERALL REPORT ------------------")
     print('Mean squared error (MSE): %.2f' % metrics.mean_squared_error(y, y_pred))
     print('Root mean squared error (RMSE):', np.sqrt(metrics.mean_squared_error(y, y_pred)))
@@ -92,7 +94,7 @@ def print_regression_report(y, y_pred):
     #print(metrics.classification_report(y, np.round(y_pred)))
     print("----------------------------------------------------")
 
-def print_classification_report(y, y_pred):
+def print_classification_report(y, y_pred, classes):
     print("------------------ OVERALL REPORT ------------------")
     print(metrics.classification_report(y, y_pred))
     print("----------------- CONFUSION MATRIX -----------------")
@@ -103,7 +105,7 @@ def print_classification_report(y, y_pred):
     ))
     print("----------------------------------------------------")
 
-def generate_report(y_test, y_pred, is_classification, time_elapsed):
+def generate_report(y_test, y_pred, classes, is_classification, time_elapsed):
     # Easier to just redirect stdout to a string instead of rewriting the functions
     from io import StringIO
     from contextlib import redirect_stdout
@@ -111,9 +113,9 @@ def generate_report(y_test, y_pred, is_classification, time_elapsed):
     with StringIO() as buf, redirect_stdout(buf):
         
         if (is_classification):
-            print_classification_report(y_test, y_pred)
+            print_classification_report(y_test, y_pred, classes)
         else:
-            print_regression_report(y_test, y_pred)
+            print_regression_report(y_test, y_pred, classes)
 
         formatted_time = time.strftime("%M:%S", time.gmtime(time_elapsed))
         print(f"Time elapsed: {formatted_time} ({time_elapsed} seconds)")
@@ -122,7 +124,6 @@ def generate_report(y_test, y_pred, is_classification, time_elapsed):
     return report
 
 def save_model(model_path, model, report, scaler):
-    import os
     import pickle
 
     if not os.path.exists(model_path):
@@ -134,6 +135,13 @@ def save_model(model_path, model, report, scaler):
         f.write(report)
     with open(f'{model_path}/scaler.pkl', 'wb') as f:
         pickle.dump(scaler, f)
+
+def save_report(report_path, report):
+    if not os.path.exists(os.path.dirname(report_path)):
+        os.makedirs(os.path.dirname(report_path))
+
+    with open(report_path, 'w') as f:
+        f.write(report)
 
 def train_and_test(model_name, class_mapping, feature_categories):
     start_time = time.time()
@@ -156,9 +164,40 @@ def train_and_test(model_name, class_mapping, feature_categories):
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
-    report = generate_report(y_test, y_pred, is_classification = model_name.endswith('c'), time_elapsed = time_elapsed)
-    model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
-    save_model(model_path, model, report, scaler)
+    report = generate_report(y_test, y_pred, classes, is_classification = model_name.endswith('c'), time_elapsed = time_elapsed)
+
+    report_path = f'{reports_folder}/{feature_categories + str(len(classes))}/{model_name}.report.txt'
+    save_report(report_path, report)
+
+    #model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
+    #save_model(model_path, model, report, scaler)
+
+
+
 
 for modelname in models:
-    train_and_test(modelname, quality_mapping_6class, "CSRHN")
+    train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
+
+    train_and_test(modelname, quality_mapping_3class, "CSRHN")
+    train_and_test(modelname, quality_mapping_2class, "CSRHN")
+
+
+    train_and_test(modelname, quality_mapping_6class, "SRHN")
+    train_and_test(modelname, quality_mapping_6class, "CRHN")
+    train_and_test(modelname, quality_mapping_6class, "CSHN")
+    train_and_test(modelname, quality_mapping_6class, "CSRN")
+    train_and_test(modelname, quality_mapping_6class, "CSRH")
+
+    train_and_test(modelname, quality_mapping_6class, "C")
+    train_and_test(modelname, quality_mapping_6class, "S")
+    train_and_test(modelname, quality_mapping_6class, "R")
+    train_and_test(modelname, quality_mapping_6class, "H")
+    train_and_test(modelname, quality_mapping_6class, "N")
+
+    train_and_test(modelname, quality_mapping_6class, "CSR")
+    train_and_test(modelname, quality_mapping_6class, "CSH")
+    train_and_test(modelname, quality_mapping_6class, "CRH")
+
+    
+
+    

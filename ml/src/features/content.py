@@ -3,7 +3,7 @@ from wikitext_cleaner import remove_html_tag, remove_br
 from statistics import stdev
 
 # Unimplemented features:
-# - CIBL: Internal Broken Link Count
+# - CIBL: Internal Broken Link Count (doable by getting list of all titles in wiki and checking if they exist)
 
 # New features
 # - CTB: Number of tables

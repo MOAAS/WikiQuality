@@ -177,7 +177,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
     ### Remove specific tags
     curly_bracket_blocks = [
         'IPA', 'Clarify', 'Redirect', 'glossary', 'wikipedia glossary', 'quote box', 'portal', 'see also|', 'see|', 'main|', 'update|', 
-        'shortcut', 'expand section|', 'citation needed|', 'more citations needed|', 'additional citation needed|', 'refimprove|', 
+        'shortcut', 'expand section|', 'citation needed|', 'more citations needed|', 'additional citation needed|', 'refimprove|', 'cn'
         'self reference|', 'updated|', 'details|', 'update', 'refimprove', 'empty section', 'year in', 'main list',
         'clear', 'anchor', 'colbegin', 'colend', 'col-', 'col ', 'div col', 'div col', 
         'certification table', 'stack', 'notelist', 'note|', 'dynamic list', 'wikt|', 'reflist', 'unsolved', 'surname', 'campaignbox',
@@ -185,8 +185,7 @@ def clean_wikitext(wikitext, title, writeToFolder=None):
         'multiple image', 'listen', 'infobox', 'wide image', 'graph', 'location map', 'rapid transit', 'external media', 'bar chart',
         'chess diagram', 'album ratings', 'track listing', 'tracklist', 'aired episodes', 'episode', 'television', 'video game timeline', 'gallery',
         'Formatprice', 'inflation', 'markup', 'cmbox', 'POV section', 'CSS', 'quotebox', 'Football', 'fs ','fb',
-        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'cn', 'historical populations',
-        
+        'rp', 'pn', 'refn', 'efn', 'sfn|', 'r|', 'historical populations',
     ]
 
 
