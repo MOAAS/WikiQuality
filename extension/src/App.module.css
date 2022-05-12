@@ -1,22 +1,23 @@
 .app {
+
+  width: 600px;
+  height: 400px;
+  margin: auto;
   text-align: center;
 
-  width: 450px;
-  height: 300px;
-  margin: auto;
-
-  background-color: #282c34;
-  color: white;
+  background-color: #eee;
+  color: black;
 
   padding: 1em;
 
 }
 
+.app h1 {
+  font-weight: normal;
+}
 
-.button {
-  margin: auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  font-size: 2em;
+
+.title small {
+  font-weight: normal;
+  font-size: 0.75em;
 }
