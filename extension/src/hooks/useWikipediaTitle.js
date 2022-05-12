@@ -12,7 +12,7 @@ export default function useWikipediaTitle() {
         setLoading(true)
         getTabURL().then(url => {
             const [href, urltitle] = url.split("/wiki/")
-            const language = href.split("://")[1].split(".")[0]
+            const language = href?.split("://")[1]?.split(".")[0]
 
             if (href.includes("wikipedia.org")) {
                 setTitle(urltitle)
@@ -27,11 +27,13 @@ export default function useWikipediaTitle() {
         })
     }, [])
 
-    const cleanTitle = title.replace(/_/g, " ")
+
+
+    const cleanTitle = title?.replace(/_/g, " ")
 
 
 
-    return [isLoading, cleanTitle, language]  
+    return [isLoading, cleanTitle || null, language || null] 
 
 }
 

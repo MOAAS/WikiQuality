@@ -4,25 +4,29 @@ import { useState } from 'react';
 
 import useWikipediaTitle from './hooks/useWikipediaTitle';
 import ScanButton from './components/ScanButton';
+import WikiTitle from './components/WikiTitle';
+import QualityReport from './components/QualityReport';
 
 function App() {
   const [quality, setQuality] = useState("")
-
+  const [features, setFeatures] = useState({})
   const [isLoading, title, language] = useWikipediaTitle()
+
+  const onScan = (quality, features) => {
+    setQuality(quality)
+    setFeatures(features)
+  }
 
   return (
     <div className={styles.app}>
       <h1>WikiQuality</h1>
 
-      <h2 className={styles.title}>
-        {isLoading || title ? title : "Not on a Wikipedia page."}  {<small>{`(${language} Wiki)`}</small>}
-      </h2>
-
+      <WikiTitle isLoading={isLoading} title={title} language={language} />
           
 
-      <ScanButton title={title} onScan={setQuality} />
+      <ScanButton title={title} onScan={onScan} />
 
-      {quality && <p>Quality: {quality}</p>}
+      <QualityReport quality={quality} features={features} />
     </div>
   );
 }
