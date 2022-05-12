@@ -9,8 +9,8 @@ from wikitext_cleaner import clean_wikitext
 # TODO: Titles with slashes must work: E.g (Fences/Mansions_Split_7") 
 
 # Load model
-model_folder = '../models/CSRHN6'
-model_name = 'tree_c'
+model_folder = '../models/CSRH6'
+model_name = 'forest_r'
 with open(f'{model_folder}/{model_name}/model.pkl', 'rb') as f:
     model = pickle.load(f)
 with open(f'{model_folder}/{model_name}/scaler.pkl', 'rb') as f:

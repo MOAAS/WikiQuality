@@ -36,7 +36,7 @@ def compute_features(title, wikitext, num_translations, graph_info = None):
     syllables = [estimate_syllables(word) for word in words]
     revisions = wikiapi.getFullHistory(title)
 
-    content = compute_content_features(wikitext, plaintext)
+    content = compute_content_features(wikitext, plaintext, words, sentences)
     style = compute_style_features(sentences, words, syllables, sentence_word_lengths)
     readability = compute_readability_features(sentences, words, syllables)
     history = compute_history_features(revisions)

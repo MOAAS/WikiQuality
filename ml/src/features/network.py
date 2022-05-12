@@ -8,10 +8,12 @@ def compute_network_features(title, num_translations, graph_info = None):
     # So if we want to use the network features, pass the graph_info to the function
 
     ft = {}
-    ft['NT'] = num_translations
 
     if graph_info is None:
         return ft
+
+    ft['NT'] = num_translations
+
 
     network_graph, neighbor_graph, graph_ids = graph_info
     graph_id = graph_ids[title]

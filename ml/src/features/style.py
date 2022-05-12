@@ -1,7 +1,6 @@
 from features.text_analysis import compute_part_of_speech
 
 # Unimplemented features:
-# - SSTI: Getting from WH-pronouns should only get the ones present in questions
 # - SSTPRE, SPREPW: Subordinate prepositions and conjunctions are very similar to this, so unnecessary to get an entire list of prepositions for now
 # - SAV: Modal Verbs are very similar to this, so unnecessary to get an entire list of auxiliary verbs for now
 # - SPV/SPVPW/SMVPPV: Difficult to detect passive voice
@@ -12,7 +11,7 @@ from features.text_analysis import compute_part_of_speech
 def compute_style_features(sentences, words, syllables, sentence_word_lengths):
     # May crash with empty or very very small texts (divisions by zero words/verbs)
     # For now, it's actually better to accept the crash, since wikipedia articles shouldn't ever have this problem, 
-    #  therefore it could be an error fetching the page
+    #  therefore it could be an error fetching the page and it helps to detect those errors
 
     ft = {}
 

@@ -32,7 +32,7 @@ def compute_sections(plaintext):
 
     return sectionsDict
 
-def compute_content_features(wikitext, plaintext):
+def compute_content_features(wikitext, plaintext, words, sentences):
     sections = compute_sections(plaintext)
     section_lengths = [len(sections[section]) for section in sections]     
     norefs_text = remove_html_tag(remove_br(wikitext), 'ref')
@@ -41,8 +41,8 @@ def compute_content_features(wikitext, plaintext):
 
     # Content Features
     ft['CC'] = len(plaintext) # Character Count
-    ft['CW'] = len(plaintext.split()) # Word Count
-    ft['CSN'] = len(plaintext.split('.')) # Sentence Count    
+    ft['CW'] = len(words) # Word Count 
+    ft['CSN'] = len(sentences) # Sentence Count 
     ft['CS'] = max(1, len(sections)) # Section Count (minimum of 1: edge case)
     ft['CMSL'] = sum(section_lengths) / ft['CS'] # Mean Section Length (Characters)   
     ft['CP'] = len(re.findall(r'\n\n', plaintext)) + 1 # Paragraph Count

@@ -55,7 +55,7 @@ models = {
     'ada_r': AdaBoostRegressor(n_estimators=150, random_state=0, learning_rate=0.1, base_estimator=DecisionTreeRegressor(max_depth=10)),
     'gboost_r': GradientBoostingRegressor(n_estimators=150, random_state=0, learning_rate=0.01),
     'logreg_r': LogisticRegression(max_iter=10000),
-    'svr_r': SVR(kernel='rbf', C=2, gamma='scale'), # todo: experiment different C's again
+    'svr_r': SVR(kernel='rbf', C=2, gamma='scale'), 
     'mlp_r': MLPRegressor(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1,), 
 }
 
@@ -143,7 +143,7 @@ def save_report(report_path, report):
     with open(report_path, 'w') as f:
         f.write(report)
 
-def train_and_test(model_name, class_mapping, feature_categories):
+def train_and_test(model_name, class_mapping, feature_categories, do_save_model = False):
     start_time = time.time()
 
     x_train, y_train, x_test, y_test = load_dataset(class_mapping, feature_categories)
@@ -166,14 +166,12 @@ def train_and_test(model_name, class_mapping, feature_categories):
 
     report = generate_report(y_test, y_pred, classes, is_classification = model_name.endswith('c'), time_elapsed = time_elapsed)
 
-    report_path = f'{reports_folder}/{feature_categories + str(len(classes))}/{model_name}.report.txt'
-    save_report(report_path, report)
-
-    #model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
-    #save_model(model_path, model, report, scaler)
-
-
-
+    if do_save_model:
+        model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
+        save_model(model_path, model, report, scaler)
+    else: 
+        report_path = f'{reports_folder}/{feature_categories + str(len(classes))}/{model_name}.report.txt'
+        save_report(report_path, report)
 
 for modelname in models:
     train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
