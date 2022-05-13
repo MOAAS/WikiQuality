@@ -6,6 +6,7 @@ import useWikipediaTitle from './hooks/useWikipediaTitle';
 import ScanButton from './components/ScanButton';
 import WikiTitle from './components/WikiTitle';
 import QualityReport from './components/QualityReport';
+import QualityMeter from './components/QualityMeter';
 
 function App() {
   const [quality, setQuality] = useState(null)
@@ -21,12 +22,22 @@ function App() {
     <div className={styles.app}>
       <h1>WikiQuality</h1>
 
-      <WikiTitle isLoading={isLoading} title={title} language={language} />
-          
+      <div className={styles.main}>
+        <WikiTitle isLoading={isLoading} title={title} language={language} />
 
-      <ScanButton title={title} onScanComplete={onScanComplete}/>
 
-      <QualityReport quality={quality} features={features} />
+        <ScanButton title={title} onScanComplete={onScanComplete}/>
+
+        <QualityReport quality={quality}/>
+      </div>
+
+      <div className={styles.meter}>
+        <QualityMeter quality={quality}/>
+      </div>
+
+      <div className={styles.footer}>
+        {/* Put feature report here */}
+      </div>
     </div>
   );
 }

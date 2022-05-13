@@ -10,8 +10,34 @@
 
   padding: 1em;
 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nothing main meter"
+    "footer footer footer";
+  grid-template-columns: 100px 1fr 100px;
+
+  --color-A-plus: #80BBD1;
+  --color-A: #6FE080;
+  --color-B: #D4ED5E;
+  --color-C: #FCE43A;
+  --color-D: #F39A28;
+  --color-F: #EE4C36;  
 }
 
 .app h1 {
   font-weight: normal;
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.meter {
+  grid-area: meter;
+}
+
+.footer {
+  grid-area: footer;
 }
