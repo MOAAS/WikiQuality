@@ -5,7 +5,7 @@ Mean absolute error (MAE): 0.15
 R2 score: 0.70
 ----------------- PER-CLASS REPORT -----------------
 Quality    MSE        RMSE       MAE       
-0          0.045      0.213      0.095     
-1          0.109      0.330      0.273     
+1.0        0.109      0.330      0.273     
+0.0        0.045      0.213      0.095     
 ----------------------------------------------------
-Time elapsed: 04:46 (286.02 seconds)
+Time elapsed: 04:26 (266.03 seconds)

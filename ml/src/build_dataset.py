@@ -15,7 +15,6 @@ partition = {
     'Start': 6000,
     'Stub': 6000, 
 }
-quality_values = { 'FA': 5, 'FL': 5, 'A': 5, 'GA': 4, 'B': 3, 'C': 2, 'Start': 1, 'Stub': 0 }
 
 
 train = []
@@ -64,7 +63,7 @@ for quality in partition:
             features = {
                 "Title": title.replace('"', ''), # we do this replace to avoid problems with the CSV. it's not an issue because titles are not used in the model
                 **compute_features(title, wikitext, translations[title], graph_info),
-                "Quality": quality_values[quality],
+                "Quality": quality,
             }
         except Exception as e:
             raise Exception(f'Error computing features of {title}!' + str(e))

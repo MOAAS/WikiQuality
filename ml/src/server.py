@@ -3,13 +3,14 @@ from flask_cors import CORS
 
 import wikiapi
 import pickle
+import os
 from features.main import compute_features, features_to_dataframe
 from wikitext_cleaner import clean_wikitext
 
 # TODO: Titles with slashes must work: E.g (Fences/Mansions_Split_7") 
 
 # Load model
-model_folder = '../models/CSRH6'
+model_folder = os.path.join(os.path.dirname(__file__), '..', 'models', 'CSRH6')
 model_name = 'forest_r'
 with open(f'{model_folder}/{model_name}/model.pkl', 'rb') as f:
     model = pickle.load(f)

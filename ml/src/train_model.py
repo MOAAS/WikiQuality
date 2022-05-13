@@ -30,9 +30,10 @@ models_folder = 'ml/models'
 reports_folder = 'ml/reports'
 dataset_name = '6000x6-csrhn'
 
-quality_mapping_6class = { 5: 5,   4: 4,   3: 3,   2: 2,   1: 1,   0: 0 }
-quality_mapping_3class = { 5: 2,   4: 2,   3: 1,   2: 1,   1: 0,   0: 0 }
-quality_mapping_2class = { 5: 1,   4: 1,   3: 0,   2: 0,   1: 0,   0: 0 }
+quality_mapping_6class = { 'FA': 1.0, 'GA': 0.9, 'B': 0.7, 'C': 0.6, 'Start': 0.4, 'Stub': 0.0 }
+quality_mapping_5class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.7, 'C': 0.6, 'Start': 0.4, 'Stub': 0.0 }
+quality_mapping_3class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.6, 'C': 0.6, 'Start': 0.0, 'Stub': 0.0 }
+quality_mapping_2class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.0, 'C': 0.0, 'Start': 0.0, 'Stub': 0.0 }
 
 # Train and test models
 # Model names ending with c are classification models, and ending with r are regression models
@@ -48,13 +49,13 @@ models = {
     'svc_c': SVC(kernel='rbf', C=2, gamma='scale'),
     'mlp_c': MLPClassifier(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1, ),
     'gnb_c': GaussianNB(),
+    'logreg_c': LogisticRegression(max_iter=10000),
 
     'linreg_r': LinearRegression(),
     'tree_r': DecisionTreeRegressor(criterion='squared_error', random_state=0, max_depth=15),
     'forest_r': RandomForestRegressor(n_estimators=150, criterion='squared_error', random_state=0, max_depth=15),
     'ada_r': AdaBoostRegressor(n_estimators=150, random_state=0, learning_rate=0.1, base_estimator=DecisionTreeRegressor(max_depth=10)),
     'gboost_r': GradientBoostingRegressor(n_estimators=150, random_state=0, learning_rate=0.01),
-    'logreg_r': LogisticRegression(max_iter=10000),
     'svr_r': SVR(kernel='rbf', C=2, gamma='scale'), 
     'mlp_r': MLPRegressor(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1,), 
 }
@@ -72,7 +73,7 @@ def load_dataset(class_mapping, feature_categories):
     x_train = x_train.filter(regex=f'^[{feature_categories}]', axis=1)
     x_test = x_test.filter(regex=f'^[{feature_categories}]', axis=1)
 
-    return x_train, y_train, x_test, y_test
+    return x_train, y_train, x_test, y_test, x_train.columns.tolist()
 
 def print_regression_report(y, y_pred, classes):  
     print("------------------ OVERALL REPORT ------------------")
@@ -96,7 +97,7 @@ def print_regression_report(y, y_pred, classes):
 
 def print_classification_report(y, y_pred, classes):
     print("------------------ OVERALL REPORT ------------------")
-    print(metrics.classification_report(y, y_pred))
+    print(metrics.classification_report(y, y_pred, labels=classes))
     print("----------------- CONFUSION MATRIX -----------------")
     print(pd.DataFrame(
         metrics.confusion_matrix(y, y_pred, labels=classes), 
@@ -123,7 +124,7 @@ def generate_report(y_test, y_pred, classes, is_classification, time_elapsed):
     
     return report
 
-def save_model(model_path, model, report, scaler):
+def save_model(model_path, model, report, scaler, features):
     import pickle
 
     if not os.path.exists(model_path):
@@ -135,6 +136,9 @@ def save_model(model_path, model, report, scaler):
         f.write(report)
     with open(f'{model_path}/scaler.pkl', 'wb') as f:
         pickle.dump(scaler, f)
+    with open(f'{model_path}/features.pkl', 'wb') as f:
+        pickle.dump(features, f)
+    
 
 def save_report(report_path, report):
     if not os.path.exists(os.path.dirname(report_path)):
@@ -143,11 +147,22 @@ def save_report(report_path, report):
     with open(report_path, 'w') as f:
         f.write(report)
 
-def train_and_test(model_name, class_mapping, feature_categories, do_save_model = False):
+def train_and_test(model_name, class_mapping, feature_categories, do_save_model = False):    
     start_time = time.time()
 
-    x_train, y_train, x_test, y_test = load_dataset(class_mapping, feature_categories)
-    classes = list(set(class_mapping.values()))
+    is_classification = model_name.endswith('c')
+
+    if (is_classification): 
+        new_class_mapping = {}
+        for key, label in class_mapping.items():
+            keys = [k for k, v in class_mapping.items() if v == label] # get all keys with label as value             
+            new_class_mapping[key] = '.'.join(keys) # concatenate all elements of keys
+        class_mapping = new_class_mapping
+
+    
+    x_train, y_train, x_test, y_test, features = load_dataset(class_mapping, feature_categories)
+    classes = list(dict.fromkeys(class_mapping.values())) # remove duplicates whilst preserving order (https://stackoverflow.com/a/17016257)
+    
     print(f"Training and testing model: {model_name}")
     print(f"Training with categories {feature_categories} ({len(x_train.columns)} features) and {len(classes)} classes")
 
@@ -157,6 +172,7 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     x_train = scaler.transform(x_train)
     x_test = scaler.transform(x_test)
 
+
     model = models[model_name]
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
@@ -164,37 +180,44 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
-    report = generate_report(y_test, y_pred, classes, is_classification = model_name.endswith('c'), time_elapsed = time_elapsed)
+    report = generate_report(y_test, y_pred, classes, is_classification = is_classification, time_elapsed = time_elapsed)
 
     if do_save_model:
         model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
-        save_model(model_path, model, report, scaler)
+        save_model(model_path, model, report, scaler, features)
     else: 
         report_path = f'{reports_folder}/{feature_categories + str(len(classes))}/{model_name}.report.txt'
         save_report(report_path, report)
+    
+    return model, report
 
-for modelname in models:
-    train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
+def perform_mass_training():
+    for modelname in ['logreg_c', 'svr_r', 'mlp_r']:
+        train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
 
-    train_and_test(modelname, quality_mapping_3class, "CSRHN")
-    train_and_test(modelname, quality_mapping_2class, "CSRHN")
+        train_and_test(modelname, quality_mapping_5class, "CSRHN")
+        train_and_test(modelname, quality_mapping_3class, "CSRHN")
+        train_and_test(modelname, quality_mapping_2class, "CSRHN")
 
+        train_and_test(modelname, quality_mapping_6class, "SRHN")
+        train_and_test(modelname, quality_mapping_6class, "CRHN")
+        train_and_test(modelname, quality_mapping_6class, "CSHN")
+        train_and_test(modelname, quality_mapping_6class, "CSRN")
+        train_and_test(modelname, quality_mapping_6class, "CSRH")
 
-    train_and_test(modelname, quality_mapping_6class, "SRHN")
-    train_and_test(modelname, quality_mapping_6class, "CRHN")
-    train_and_test(modelname, quality_mapping_6class, "CSHN")
-    train_and_test(modelname, quality_mapping_6class, "CSRN")
-    train_and_test(modelname, quality_mapping_6class, "CSRH")
+        train_and_test(modelname, quality_mapping_6class, "C")
+        train_and_test(modelname, quality_mapping_6class, "S")
+        train_and_test(modelname, quality_mapping_6class, "R")
+        train_and_test(modelname, quality_mapping_6class, "H")
+        train_and_test(modelname, quality_mapping_6class, "N")
 
-    train_and_test(modelname, quality_mapping_6class, "C")
-    train_and_test(modelname, quality_mapping_6class, "S")
-    train_and_test(modelname, quality_mapping_6class, "R")
-    train_and_test(modelname, quality_mapping_6class, "H")
-    train_and_test(modelname, quality_mapping_6class, "N")
+        train_and_test(modelname, quality_mapping_6class, "CSR")
+        train_and_test(modelname, quality_mapping_6class, "CSH")
+        train_and_test(modelname, quality_mapping_6class, "CRH")
 
-    train_and_test(modelname, quality_mapping_6class, "CSR")
-    train_and_test(modelname, quality_mapping_6class, "CSH")
-    train_and_test(modelname, quality_mapping_6class, "CRH")
+#model, report = train_and_test('logreg_c', quality_mapping_6class, "CSRHN")
+
+perform_mass_training()
 
     
 
