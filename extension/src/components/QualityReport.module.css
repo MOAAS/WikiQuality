@@ -1,0 +1,51 @@
+.quality {
+    margin: 0.5em 0 1em auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    --color-A: #6FE080;
+    --color-B: #D4ED5E;
+    --color-C: #FCE43A;
+    --color-D: #F39A28;
+    --color-F: #EE4C36;
+
+    transform: scale(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.quality.hasQuality {
+    transform: scale(1);
+}
+
+.percentage {
+    font-size: 1.5em;
+}
+
+.letter {
+    font-size: 5em;
+}
+
+.A {
+    color: var(--color-A);
+}
+
+.B {
+    color: var(--color-B);
+}
+
+.C {
+    color: var(--color-C);
+}
+
+.D {
+    color: var(--color-D);
+}
+
+.F {
+    color: var(--color-F);
+}
+

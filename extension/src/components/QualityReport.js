@@ -1,16 +1,18 @@
+import classNames from 'classnames'
+import styles from './QualityReport.module.css'
+
+const classnames = require('classnames')
+
 export default function QualityReport({ quality, features }) {
 
     const percentage = qualityToPercentage(quality)
-    const letter = qualityToLetter(percentage)
-    const color = letterToColor(quality)
-
+    const letter = qualityToLetter(quality)
 
     return (
-        <p>
-            Quality: {quality}
-        </p>
-
-
+        <div className={classnames(styles.quality, styles[letter.charAt(0)], { [styles.hasQuality]: !!quality })}>
+            <strong className={classnames(styles.letter)}>{letter}</strong>
+            <small className={classNames(styles.percentage)}>{"(" + percentage + "%)"}</small>
+        </div>
     )
 }
 
@@ -19,23 +21,10 @@ function qualityToPercentage(quality) {
 }
 
 function qualityToLetter(quality) {
-    if (quality < 1)
-        return "F"
-    if (quality < 2)
-        return "D"
-    if (quality < 3)
-        return "C"
-    if (quality < 4)
-        return "B"
-    if (quality < 4.5)
-        return "A"
+    if (quality < 0.4) return "F"
+    if (quality < 0.6) return "D"
+    if (quality < 0.7) return "C"
+    if (quality < 0.85) return "B"
+    if (quality < 0.95) return "A"
     return "A+"
-}
-
-
-    
-
-
-function letterToColor(quality) {
-
 }

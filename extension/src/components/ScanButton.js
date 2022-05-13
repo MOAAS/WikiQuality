@@ -7,7 +7,7 @@ const classnames = require("classnames")
 
 const API_URL = "http://localhost:5000/evaluate/";
 
-export default function ScanButton({ title, onScan }) {
+export default function ScanButton({ title, onScanComplete }) {
     const [error, setError] = useState("");
 
     const [loading, setLoading] = useState(false);
@@ -19,12 +19,12 @@ export default function ScanButton({ title, onScan }) {
         axios.get(API_URL + title).then(res => {
         
           console.log(res.data)
-          onScan(res.data.quality, res.data.zfeatures);
+          onScanComplete(res.data.quality, res.data.zfeatures);
         }).catch(err => {  
           console.log(err);
           setError("Error fetching Wikipedia Page.")
         }).finally(() => setLoading(false))
-    }, [title, onScan])
+    }, [title, onScanComplete])
 
     return (
         <div>

@@ -8,11 +8,11 @@ import WikiTitle from './components/WikiTitle';
 import QualityReport from './components/QualityReport';
 
 function App() {
-  const [quality, setQuality] = useState("")
+  const [quality, setQuality] = useState(null)
   const [features, setFeatures] = useState({})
   const [isLoading, title, language] = useWikipediaTitle()
 
-  const onScan = (quality, features) => {
+  const onScanComplete = (quality, features) => {
     setQuality(quality)
     setFeatures(features)
   }
@@ -24,7 +24,7 @@ function App() {
       <WikiTitle isLoading={isLoading} title={title} language={language} />
           
 
-      <ScanButton title={title} onScan={onScan} />
+      <ScanButton title={title} onScanComplete={onScanComplete}/>
 
       <QualityReport quality={quality} features={features} />
     </div>

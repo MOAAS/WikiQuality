@@ -39,7 +39,7 @@ export default function useWikipediaTitle() {
 
 /*global chrome*/
 async function getTabURL() {
-    return "https://en.wikipedia.org/wiki/Nicolas_Cage"
+    return "https://en.wikipedia.org/wiki/Hematoma"
     let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
     return tab.url;
 }
