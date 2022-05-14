@@ -24,9 +24,15 @@
 
     bottom: 0%;
     left: -32px;
+
     
     transform: translateY(calc(50% - 4px));
     transition: all 1s ease-in-out;
+}
+
+.none-pointer {
+    color: var(--color-F);
+    opacity: 0;
 }
 
 .Aplus-pointer {

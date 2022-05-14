@@ -7,7 +7,8 @@ export default function QualityMeter({quality}) {
     let letter = qualityToLetter(quality)
     if (letter === "A+")
         letter = "Aplus"
-
+    if (letter === null)
+        letter = "none"
 
     return (
         <div className={styles.meter}>
@@ -18,7 +19,9 @@ export default function QualityMeter({quality}) {
             <QualityBlock letter="D"/>
             <QualityBlock letter="F"/>
 
-            <div style={{bottom: quality * 100 + "%"}} className={classnames(styles.pointer, styles[letter + "-pointer"])}>➡</div>
+            <div style={{bottom: quality * 100 + "%"}} className={classnames(styles.pointer, styles[letter + "-pointer"])}>
+                ➡
+            </div>
         </div>
     )
 }

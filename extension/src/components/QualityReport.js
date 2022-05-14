@@ -6,7 +6,7 @@ const classnames = require('classnames')
 export default function QualityReport({ quality }) {
 
     const percentage = qualityToPercentage(quality)
-    const letter = qualityToLetter(quality)
+    const letter = qualityToLetter(quality) || "?"
 
     return (
         <div className={classnames(styles.quality, styles[letter.charAt(0)], { [styles.hasQuality]: !!quality })}>
