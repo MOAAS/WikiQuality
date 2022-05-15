@@ -26,7 +26,7 @@ function App() {
         <WikiTitle isLoading={isLoading} title={title} language={language} />
 
 
-        <ScanButton title={title} onScanComplete={onScanComplete}/>
+        <ScanButton title={title} language={language} onScanComplete={onScanComplete}/>
 
         <QualityReport quality={quality}/>
       </div>

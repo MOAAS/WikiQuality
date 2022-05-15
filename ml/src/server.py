@@ -22,12 +22,15 @@ app = Flask(__name__)
 CORS(app) # CORS: Allow all
 
 @app.route("/evaluate/<title>")
-def evaluate(title):    
+@app.route("/evaluate/<title>/<language>")
+def evaluate(title, language='en'):    
     # todo: validate if page exists
 
+    wikiapi.updateLanguage(language)
     wikitext = wikiapi.getWikiText(title)
     num_translations = wikiapi.getSingleNumTranslations(title)
     features = compute_features(title, wikitext, num_translations)
+    wikiapi.resetLanguage()
 
     features_df = features_to_dataframe(features)
     features_df = scaler.transform(features_df)

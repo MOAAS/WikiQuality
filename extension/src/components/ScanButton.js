@@ -5,9 +5,9 @@ import styles from "./ScanButton.module.css";
 
 const classnames = require("classnames")
 
-const API_URL = "http://localhost:5000/evaluate/";
+const API_URL = "http://localhost:5000/evaluate";
 
-export default function ScanButton({ title, onScanComplete }) {
+export default function ScanButton({ title, language, onScanComplete }) {
     const [error, setError] = useState("");
 
     const [loading, setLoading] = useState(false);
@@ -16,15 +16,14 @@ export default function ScanButton({ title, onScanComplete }) {
 
     const scanTitle = useCallback(() => {
         setLoading(true);
-        axios.get(API_URL + title).then(res => {
-        
+        axios.get(`${API_URL}/${title}/${language}`).then(res => {
           console.log(res.data)
           onScanComplete(res.data.quality, res.data.zfeatures);
         }).catch(err => {  
           console.log(err);
           setError("Error fetching Wikipedia Page.")
         }).finally(() => setLoading(false))
-    }, [title, onScanComplete])
+    }, [title, language, onScanComplete])
 
     return (
         <div>

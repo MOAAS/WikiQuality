@@ -1,10 +1,19 @@
+from glob import glob
 import requests
 from datetime import datetime
 
-WIKI_API_URL = 'https://en.wikipedia.org/w/api.php?formatversion=2&format=json'
 headers = {
     'User-Agent': 'WikiQualityDatasetCollector/1.0 (up201705208@edu.fe.up.pt)',
 }
+
+WIKI_API_URL = 'https://en.wikipedia.org/w/api.php?formatversion=2&format=json'
+
+def updateLanguage(lang):
+    global WIKI_API_URL
+    WIKI_API_URL = f'https://{lang}.wikipedia.org/w/api.php?formatversion=2&format=json'
+
+def resetLanguage():
+    updateLanguage('en')
 
 def getWikiText(title):
     res = getMultiWikiText([title])

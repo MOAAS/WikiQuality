@@ -1,7 +1,6 @@
 
 
 import { useState, useEffect } from "react"
-import languages from '../langs/languages.json'
 
 export default function useWikipediaTitle() {
     const [isLoading, setLoading] = useState(true)
@@ -16,7 +15,7 @@ export default function useWikipediaTitle() {
 
             if (href.includes("wikipedia.org")) {
                 setTitle(urltitle)
-                setLanguage(languages[language])
+                setLanguage(language)
             }
             else {
                 setTitle(null)
@@ -28,8 +27,7 @@ export default function useWikipediaTitle() {
     }, [])
 
 
-
-    const cleanTitle = title?.replace(/_/g, " ")
+    const cleanTitle = decodeURIComponent(title?.replace(/_/g, " "))
 
 
 
@@ -39,7 +37,11 @@ export default function useWikipediaTitle() {
 
 /*global chrome*/
 async function getTabURL() {
-    return "https://en.wikipedia.org/wiki/Hematoma"
-    let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
-    return tab.url;
+    if (process.env.NODE_ENV === "development") {
+        return "https://fr.wikipedia.org/wiki/Mat%C3%A9riau"
+    }
+    else {
+        let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
+        return tab.url;
+    }
 }

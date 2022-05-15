@@ -1,4 +1,5 @@
 import styles from './WikiTitle.module.css';
+import languages from '../langs/languages.json';
 
 export default function WikiTitle({ isLoading, title, language }) {
 
@@ -9,7 +10,7 @@ export default function WikiTitle({ isLoading, title, language }) {
 
     return (
         <h2 className={styles.title}>
-            {title} {language && (<small>{`(${language} Wiki)`}</small>)}
+            {title} {language && (<small>{`(${languages[language]} Wiki)`}</small>)}
         </h2>
     )
 }

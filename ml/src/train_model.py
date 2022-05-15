@@ -176,7 +176,7 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     model = models[model_name]
     model.fit(x_train, y_train)
     y_pred = model.predict(x_test)
-
+    
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
@@ -192,7 +192,7 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     return model, report
 
 def perform_mass_training():
-    for modelname in ['logreg_c', 'svr_r', 'mlp_r']:
+    for modelname in models:
         train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
 
         train_and_test(modelname, quality_mapping_5class, "CSRHN")
@@ -215,9 +215,9 @@ def perform_mass_training():
         train_and_test(modelname, quality_mapping_6class, "CSH")
         train_and_test(modelname, quality_mapping_6class, "CRH")
 
-#model, report = train_and_test('logreg_c', quality_mapping_6class, "CSRHN")
+model, report = train_and_test('forest_r', quality_mapping_6class, "CSRH")
 
-perform_mass_training()
+#perform_mass_training()
 
     
 
