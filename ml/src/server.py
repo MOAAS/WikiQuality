@@ -28,8 +28,7 @@ def evaluate(title, language='en'):
 
     wikiapi.updateLanguage(language)
     wikitext = wikiapi.getWikiText(title)
-    num_translations = wikiapi.getSingleNumTranslations(title)
-    features = compute_features(title, wikitext, num_translations)
+    features = compute_features(title, wikitext)
     wikiapi.resetLanguage()
 
     features_df = features_to_dataframe(features)
@@ -41,8 +40,7 @@ def evaluate(title, language='en'):
 @app.route("/features/<title>")
 def features(title):
     wikitext = wikiapi.getWikiText(title)
-    num_translations = wikiapi.getSingleNumTranslations(title)
-    features = compute_features(title, wikitext, num_translations)
+    features = compute_features(title, wikitext)
 
     return {"title": title, **features}
     

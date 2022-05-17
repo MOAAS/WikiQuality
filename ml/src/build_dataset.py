@@ -1,6 +1,7 @@
 import random
 import wikiapi
 import time
+import os
 
 from features.main import compute_features
 from features.graph_builder import build_graph
@@ -22,30 +23,31 @@ test = []
 
 build_network_features = True
 
-titles_folder = 'ml/titles'
 datasets_folder = 'ml/datasets'
 dataset_name = '6000x6-csrhn'
 
 start_time = time.time()
 
-for quality in partition:
-    filename = f'{titles_folder}/{quality}.txt'
-    with open(filename, 'r', encoding='utf-8') as f:
-        # Collect random titles from each file
-        print(f'Collecting {partition[quality]} random titles from {filename}')
+def collect_random_titles(quality, amount):
+    with open(os.path.join(os.path.dirname(__file__), '..', 'titles', quality + ".txt"), 'r', encoding='utf-8') as f:
         titles = f.read().split('\n')
         random.shuffle(titles)
-        titles = titles[:partition[quality]]
-        
-        wikitexts = wikiapi.getMultiWikiText(titles) # Collect wikitexts        
-        titles = list(wikitexts.keys()) # Update wrongly formatted titles
-        translations = wikiapi.getNumTranslations(titles) # Collect translations
+        titles = titles[:amount]
+        return titles
 
-        if build_network_features:  
-            graph_info = build_graph(titles) # Build graph (in-degree's, out-degree's and neighbors)
-            titles = list(graph_info[2].keys()) # remove titles not present in graph_ids (third element)
-        else:
-            graph_info = None
+for quality in partition:
+    print(f'Collecting {partition[quality]} random {quality} titles')
+    titles = collect_random_titles(quality, partition[quality])
+        
+    wikitexts = wikiapi.getMultiWikiText(titles) # Collect wikitexts        
+    titles = list(wikitexts.keys()) # Update wrongly formatted titles
+    translations = wikiapi.getNumTranslations(titles) # Collect translations
+
+    if build_network_features:  
+        graph_info = build_graph(titles) # Build graph (in-degree's, out-degree's and neighbors)
+        titles = list(graph_info[2].keys()) # remove titles not present in graph_ids (third element)
+    else:
+        graph_info = None
             
     # 70% to train.csv 30% to test.csv
     for i, title in enumerate(titles):
@@ -61,7 +63,7 @@ for quality in partition:
             wikitext = wikitexts[title]
             
             features = {
-                "Title": title.replace('"', ''), # we do this replace to avoid problems with the CSV. it's not an issue because titles are not used in the model
+                "Title": title.replace('"', '').replace(',', ' '), # we do this replace to avoid problems with the CSV. it's not an issue because titles are not used in the model
                 **compute_features(title, wikitext, translations[title], graph_info),
                 "Quality": quality,
             }

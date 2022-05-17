@@ -1,7 +1,5 @@
-from re import I
 import pandas as pd
 import wikiapi
-import time
 
 from wikitext_cleaner import clean_wikitext
 from features.content import compute_content_features
@@ -12,15 +10,10 @@ from features.history import compute_history_features
 
 from features.text_analysis import compute_words, compute_sentences, estimate_syllables
 
-# Some features may be calculated using specific api calls (e.g. query -> contributors)
-# Note: ML Model will not go on the frontend, so might as well ask server (python) to compute features
-
 def features_to_dataframe(features):    
     return pd.DataFrame([features], columns=features.keys())
 
 def compute_features(title, wikitext, num_translations, graph_info = None):
-    start = time.time()
-
     plaintext = clean_wikitext(wikitext, title)
 
     if len(plaintext) == 0:
@@ -41,8 +34,6 @@ def compute_features(title, wikitext, num_translations, graph_info = None):
     readability = compute_readability_features(sentences, words, syllables)
     history = compute_history_features(revisions)
     network = compute_network_features(title, num_translations, graph_info)
-
-    # print(f"Time to compute features of '{title}': {str(time.time() - start)} seconds")
   
     return { **content, **style, **readability, **history, **network }
 

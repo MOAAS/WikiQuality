@@ -44,7 +44,7 @@ def compute_style_features(sentences, words, syllables, sentence_word_lengths):
 
     pos_tags = [item for sublist in pos_tags for item in sublist] # merge array of arrays
    
-    ft['SSLS'] = max(sentence_word_lengths, default=0) # Largest sentence length
+    ft['SSLS'] = max(sentence_word_lengths, default=0) # Largest sentence  
     ft['SSSS'] = min(sentence_word_lengths, default=0) # Shortest sentence length
     ft['SMSS'] = sum(sentence_word_lengths) / len(sentence_word_lengths) # Mean sentence length    
     ft['SLSR'] = sum([1 for length in sentence_word_lengths if length > ft['SMSS'] + 10]) / len(sentence_word_lengths) # % sentence whose size is 10 words greater than SMSS

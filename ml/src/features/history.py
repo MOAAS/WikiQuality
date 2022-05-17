@@ -13,6 +13,8 @@ from statistics import stdev
 # New features
 # - HMCL: Mean Comment Length
 
+# Next features: HD, fix HRML to add absolute values of last 3 months diffs
+
 def compute_history_features(revisions):
 
     ft = {}
