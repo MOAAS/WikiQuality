@@ -1,24 +1,16 @@
 import time
 import matplotlib.pyplot as plot
-import pickle
 import os
 import random
+
+import sys # https://stackoverflow.com/a/11158224 allow for parent imports
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
 import wikiapi
 
 from features.main import compute_features
 
-model_folder = os.path.join(os.path.dirname(__file__), '..', 'models')
-titles_folder = os.path.join(os.path.dirname(__file__), '..', 'titles')
-report_times_folder = os.path.join(os.path.dirname(__file__), '..', 'reports', 'times')
-
-def load_model(modelname):
-    with open(f'{model_folder}/{modelname}/model.pkl', 'rb') as f:
-        model = pickle.load(f)
-    with open(f'{model_folder}/{modelname}/features.pkl', 'rb') as f:
-        features = pickle.load(f)
-
-    return model, features
-
+titles_folder = os.path.join(os.path.dirname(__file__), '..', '..', 'titles')
+report_times_folder = os.path.join(os.path.dirname(__file__), '..', '..', 'reports', 'times')
 
 def collect_random_titles(quality, amount):
     with open(os.path.join(titles_folder, quality + ".txt"), 'r', encoding='utf-8') as f:
@@ -32,38 +24,6 @@ def load_times(quality, type):
         times = f.read().strip().split('\n')
         times = [float(time) for time in times]
         return times
-
-def analyze_feature_importance(modelname):
-    model, features = load_model(modelname)
-    importance = model.feature_importances_
-
-    # make dictonary of feature names and importance values
-    feature_importance = dict(zip(features, importance))
-
-    # get the top 20 and bottom 20 features
-    top_20_1 = dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=True)[0:10])
-    top_20_2 = dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=True)[11:20])
-    bottom_20_1 = dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=False)[0:10])
-    bottom_20_2 = dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=False)[11:20])
-    
-    figure_top, axis_top = plot.subplots(2, 1,figsize=(9,6))
-    figure_bot, axis_bot = plot.subplots(2, 1,figsize=(9,6))
-
-    axis_top[0].set_title('Feature Importance: Top 20')
-    axis_top[0].bar(top_20_1.keys(), top_20_1.values())
-    axis_top[1].bar(top_20_2.keys(), top_20_2.values())
-
-    #figure.tight_layout()
-
-    axis_bot[0].set_title('Feature Importance: Bottom 20')
-    axis_bot[0].bar(bottom_20_1.keys(), bottom_20_1.values())
-    axis_bot[1].bar(bottom_20_2.keys(), bottom_20_2.values())
-
-    plot.draw()
-    plot.pause(1) # https://stackoverflow.com/a/22899859
-    plot.waitforbuttonpress(0)
-    plot.close(figure_bot)
-    plot.close(figure_top)
 
 # compute features does not compute times currently (too messy)
 # if you need to run this again, change compute_features
@@ -117,7 +77,6 @@ def fetch_computation_times():
         with open(os.path.join(report_times_folder, quality, 'titles.txt'), 'a', encoding='utf-8') as f:
             f.write('\n'.join(titles))
 
-
 def analyze_computation_times():
     print("{:<12}{:<7}{:<7}{:<7}{:<7}{:<7}{:<7}".format('Task','FA', 'GA', 'B', 'C', 'Start', 'Stub'))
     for task in ['wikitext', 'clean_wiki', 'tokenizer', 'syllables', 'revs', 'content', 'style', 'readability', 'history', 'total']:
@@ -131,11 +90,23 @@ def analyze_computation_times():
         all_means = ' '.join([str("{0:.4f}".format(mean)) for mean in means])
         print("{:<12}".format(task) + all_means)
 
-analyze_computation_times()
+    # Make Boxplot
+    plot.figure(figsize=(9,6))
+    plot.boxplot([
+        load_times('FA', 'total'), 
+        load_times('GA', 'total'),
+        load_times('B', 'total'),
+        load_times('C', 'total'),
+        load_times('Start', 'total'),
+        load_times('Stub', 'total')
+    ])
 
-# interquartil stuff for analysis
-    
+    plot.title('Feature Computation Time')
+    plot.ylabel('Total Time Elapsed (s)')
+    plot.xlabel('Quality')
+    plot.xticks([1,2,3,4,5,6], ['FA', 'GA', 'B', 'C', 'Start', 'Stub'])
+    plot.ylim(0, 10)
+    plot.show()
 
-
-#analyze_feature_importance("CSRH6/forest_r")
 #fetch_computation_times()
+analyze_computation_times()

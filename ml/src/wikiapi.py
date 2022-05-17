@@ -1,4 +1,3 @@
-from glob import glob
 import requests
 from datetime import datetime
 
