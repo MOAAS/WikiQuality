@@ -8,5 +8,8 @@ def load_model(modelname):
         model = pickle.load(f)
     with open(f'{model_folder}/{modelname}/features.pkl', 'rb') as f:
         features = pickle.load(f)
+    with open(f'{model_folder}/{modelname}/scaler.pkl', 'rb') as f:
+        scaler = pickle.load(f)
+    
 
-    return model, features
+    return model, features, scaler

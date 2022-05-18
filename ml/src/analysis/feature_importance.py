@@ -3,7 +3,7 @@ import matplotlib.pyplot as plot
 from helpers import load_model
 
 def analyze_feature_importance(modelname):
-    model, features = load_model(modelname)
+    model, features, _ = load_model(modelname)
     importance = model.feature_importances_
 
     # make dictonary of feature names and importance values
@@ -33,5 +33,6 @@ def analyze_feature_importance(modelname):
     plot.waitforbuttonpress(0)
     plot.close(figure_bot)
     plot.close(figure_top)
+    
 
 analyze_feature_importance("CSRH6/forest_r")

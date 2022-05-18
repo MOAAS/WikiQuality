@@ -32,10 +32,10 @@ def getMultiWikiText(titles):
             print(f'Retrieving {len(titles)} pages... {i}/{len(titles)}')
         pages.update(getMultiWikiTextHelper(titles[i:i+50]))
 
-    if (len(titles) != len(pages)):
-        print(f'Warning: A total of {len(titles) - len(pages)} titles were not found in the wiki')
-    
     if (len(titles) > 1):
+        if (len(titles) != len(pages)):
+            print(f'Warning: A total of {len(titles) - len(pages)} titles were not found in the wiki')
+
         print(f'Retrieving {len(titles)} pages... {len(titles)}/{len(titles)}')
 
     return pages
@@ -62,6 +62,9 @@ def getMultiWikiTextHelper(titles):
     for page in pages:
         if 'missing' in page:
             print('Error while fetching page (' + page['title'] + '): Missing page')
+            continue
+        if 'invalid' in page:
+            print('Error while fetching page (' + page['title'] + '): Invalid page')
             continue
         wikitext = page['revisions'][0]['slots']['main']['content']
         wikitexts[page['title']] = wikitext
@@ -142,4 +145,34 @@ def getNumTranslations(titles):
             pages[page['title']] = page['langlinkscount'] if 'langlinkscount' in page else 0
 
     return pages
+
+def getRandomArticles(numPages, forceTalk = False):
+    params = {
+        'action': 'query',
+        'list': 'random',
+        'rnnamespace': 1 if forceTalk else 0,
+        'rnlimit': 'max',
+        #'rnfilterredir': 'redirects',
+    }
+    res = requests.get(WIKI_API_URL, headers=headers, params=params).json()
+
+    if 'error' in res:
+        print(f'Error while fetching random articles: {res["error"]["info"]}')
+        return ''
+
+    titles = [page['title'] for page in res['query']['random']]
+
+    while len(titles) < numPages and 'continue' in res:
+        res = requests.get(WIKI_API_URL, headers=headers, params={
+            **params,
+            'rncontinue': res['continue']['rncontinue']
+        }).json()
+
+        titles += [page['title'] for page in res['query']['random']]
+
+    if forceTalk:
+        titles = [title.split(':',1)[1] for title in titles]
+
+
+    return titles[:numPages]
 
