@@ -2,7 +2,7 @@
               precision    recall  f1-score   support
 
        FA.GA       0.80      0.90      0.85      3600
-           B       0.46      0.33      0.39      1798
+           B       0.46      0.34      0.39      1798
            C       0.45      0.40      0.43      1799
        Start       0.57      0.64      0.60      1797
         Stub       0.88      0.88      0.88      1798
@@ -14,9 +14,9 @@ weighted avg       0.66      0.68      0.66     10792
 ----------------- CONFUSION MATRIX -----------------
             pred:FA.GA  pred:B  pred:C  pred:Start  pred:Stub
 true:FA.GA        3241     247      92          20          0
-true:B             507     602     487         183         19
-true:C             239     343     728         458         31
+true:B             507     603     486         183         19
+true:C             239     343     726         460         31
 true:Start          72     116     290        1151        168
 true:Stub            0       3       5         212       1578
 ----------------------------------------------------
-Time elapsed: 00:20 (20.3 seconds)
+Time elapsed: 00:25 (25.94 seconds)

@@ -15,4 +15,4 @@ true:FA.GA             3190       402                8
 true:B.C                898      2325              374
 true:Start.Stub          96       893             2606
 ----------------------------------------------------
-Time elapsed: 00:05 (5.88 seconds)
+Time elapsed: 00:06 (6.69 seconds)

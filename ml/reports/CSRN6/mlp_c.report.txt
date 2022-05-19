@@ -1,24 +1,24 @@
 ------------------ OVERALL REPORT ------------------
               precision    recall  f1-score   support
 
-          FA       0.68      0.76      0.72      1800
-          GA       0.55      0.52      0.53      1800
-           B       0.43      0.43      0.43      1798
-           C       0.42      0.43      0.43      1799
-       Start       0.55      0.53      0.54      1797
-        Stub       0.87      0.85      0.86      1798
+          FA       0.69      0.76      0.72      1800
+          GA       0.53      0.52      0.52      1800
+           B       0.45      0.34      0.39      1798
+           C       0.41      0.44      0.43      1799
+       Start       0.53      0.59      0.56      1797
+        Stub       0.87      0.86      0.87      1798
 
-    accuracy                           0.59     10792
-   macro avg       0.58      0.59      0.58     10792
-weighted avg       0.58      0.59      0.58     10792
+    accuracy                           0.58     10792
+   macro avg       0.58      0.58      0.58     10792
+weighted avg       0.58      0.58      0.58     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1361      330      93      15           1          0
-true:GA         492      927     230     132          19          0
-true:B          106      273     771     478         154         16
-true:C           35      124     489     775         348         28
-true:Start        2       44     186     424         952        189
-true:Stub         0        0       5      11         249       1533
+true:FA        1359      350      79      10           2          0
+true:GA         475      927     214     158          26          0
+true:B          107      300     617     540         211         23
+true:C           37      119     354     796         468         25
+true:Start        0       42     112     412        1055        176
+true:Stub         0        0       1      14         228       1555
 ----------------------------------------------------
-Time elapsed: 00:48 (48.64 seconds)
+Time elapsed: 01:10 (70.73 seconds)

@@ -1,6 +1,4 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 import time
 import os
 
@@ -77,10 +75,10 @@ def load_dataset(class_mapping, feature_categories):
 
 def print_regression_report(y, y_pred, classes):  
     print("------------------ OVERALL REPORT ------------------")
-    print('Mean squared error (MSE): %.2f' % metrics.mean_squared_error(y, y_pred))
-    print('Root mean squared error (RMSE):', np.sqrt(metrics.mean_squared_error(y, y_pred)))
-    print('Mean absolute error (MAE): %.2f' % metrics.mean_absolute_error(y, y_pred))
-    print('R2 score: %.2f' % metrics.r2_score(y, y_pred))
+    print('Mean squared error (MSE): %.4f' % metrics.mean_squared_error(y, y_pred))
+    print('Root mean squared error (RMSE): %.4f' % metrics.mean_squared_error(y, y_pred)**0.5)
+    print('Mean absolute error (MAE): %.4f' % metrics.mean_absolute_error(y, y_pred))
+    print('R2 score: %.4f' % metrics.r2_score(y, y_pred))
 
     print("----------------- PER-CLASS REPORT -----------------")
     print ("{:<10} {:<10} {:<10} {:<10}".format('Quality','MSE','RMSE','MAE'))
@@ -89,10 +87,7 @@ def print_regression_report(y, y_pred, classes):
         class_y = y[y == quality]
         class_y_pred = y_pred[y == quality]
         mse = metrics.mean_squared_error(class_y, class_y_pred)
-        print("{:<10} {:<10.3f} {:<10.3f} {:<10.3f}".format(quality, mse, np.sqrt(mse), metrics.mean_absolute_error(class_y, class_y_pred)))
-
-    #print("-------- REGRESSION TO CLASSIFICATION REPORT -------")
-    #print(metrics.classification_report(y, np.round(y_pred)))
+        print("{:<10} {:<10.3f} {:<10.3f} {:<10.3f}".format(quality, mse, mse**0.5, metrics.mean_absolute_error(class_y, class_y_pred)))
     print("----------------------------------------------------")
 
 def print_classification_report(y, y_pred, classes):
@@ -214,10 +209,12 @@ def perform_mass_training():
         train_and_test(modelname, quality_mapping_6class, "CSR")
         train_and_test(modelname, quality_mapping_6class, "CSH")
         train_and_test(modelname, quality_mapping_6class, "CRH")
+        train_and_test(modelname, quality_mapping_6class, "CH")
 
-model, report = train_and_test('forest_r', quality_mapping_6class, "CSRH")
 
-#perform_mass_training()
+#model, report = train_and_test('forest_r', quality_mapping_6class, "CRH", do_save_model = True)
+
+perform_mass_training()
 
     
 

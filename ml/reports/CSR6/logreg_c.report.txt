@@ -16,9 +16,9 @@ weighted avg       0.57      0.58      0.57     10792
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
 true:FA        1343      372      78       7           0          0
 true:GA         500      913     236     119          32          0
-true:B          187      336     587     480         189         19
+true:B          187      336     587     481         188         19
 true:C           66      180     370     672         476         35
-true:Start        4       76     123     301        1126        167
+true:Start        4       77     123     301        1125        167
 true:Stub         0        0       2       7         219       1570
 ----------------------------------------------------
-Time elapsed: 00:21 (21.91 seconds)
+Time elapsed: 00:27 (27.4 seconds)

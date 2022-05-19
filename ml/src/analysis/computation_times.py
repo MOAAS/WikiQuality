@@ -56,7 +56,7 @@ def fetch_computation_times():
 
             wikitext_elapsed = time.time() - start
             
-            feats = compute_features(title, wikitext, 0)
+            feats = compute_features(title, wikitext)
             (clean_wiki, tokenizer, syllables, revs, content, style, readability, history) = feats['times'] 
 
             def write_time(name, time):

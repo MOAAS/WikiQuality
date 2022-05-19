@@ -1,24 +1,24 @@
 ------------------ OVERALL REPORT ------------------
               precision    recall  f1-score   support
 
-          FA       0.57      0.81      0.67      1800
-          GA       0.45      0.44      0.45      1800
-           B       0.38      0.29      0.33      1798
-           C       0.36      0.31      0.33      1799
-       Start       0.52      0.49      0.50      1797
-        Stub       0.81      0.88      0.84      1798
+          FA       0.58      0.75      0.66      1800
+          GA       0.44      0.43      0.44      1800
+           B       0.39      0.27      0.32      1798
+           C       0.36      0.34      0.35      1799
+       Start       0.49      0.54      0.51      1797
+        Stub       0.83      0.84      0.84      1798
 
-    accuracy                           0.54     10792
-   macro avg       0.52      0.54      0.52     10792
-weighted avg       0.52      0.54      0.52     10792
+    accuracy                           0.53     10792
+   macro avg       0.52      0.53      0.52     10792
+weighted avg       0.52      0.53      0.52     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1453      254      75      17           1          0
-true:GA         584      789     221     172          34          0
-true:B          333      344     529     400         152         40
-true:C          151      258     376     555         407         52
-true:Start       15       92     169     372         877        272
-true:Stub         0        0       6       9         206       1577
+true:FA        1354      296     116      32           2          0
+true:GA         555      775     226     198          46          0
+true:B          281      338     484     462         203         30
+true:C          123      246     302     611         473         44
+true:Start       14       99     109     367         964        244
+true:Stub         0        1       1       9         268       1519
 ----------------------------------------------------
-Time elapsed: 00:44 (44.3 seconds)
+Time elapsed: 00:58 (58.14 seconds)

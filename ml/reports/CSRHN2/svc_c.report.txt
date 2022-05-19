@@ -13,4 +13,4 @@ B.C.Start.Stub       0.93      0.94      0.93      7192
 true:FA.GA                 3110                  490
 true:B.C.Start.Stub         464                 6728
 ----------------------------------------------------
-Time elapsed: 00:36 (36.04 seconds)
+Time elapsed: 00:40 (40.09 seconds)

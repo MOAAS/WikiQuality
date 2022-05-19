@@ -21,4 +21,4 @@ true:C           31        0      48     769           2        949
 true:Start        3        0      22     452           0       1320
 true:Stub         1        0       4      38           3       1752
 ----------------------------------------------------
-Time elapsed: 00:00 (0.65 seconds)
+Time elapsed: 00:01 (1.5 seconds)

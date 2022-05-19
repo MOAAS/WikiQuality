@@ -74,8 +74,8 @@ def generate_multilanguage_dataset(language, num_articles):
             continue
 
         features = {
-            "Title": title.replace('"', '').replace(',', ' ').replace('_', ' '), # avoid CSV problems (not used anyway)
-            **compute_features(title, wikitexts[title], 0),
+            "Title": title.replace('"', '').replace(',', ' '), # avoid CSV problems (not used anyway)
+            **compute_features(title, wikitexts[title]),
             "Quality": quality,
         }
 
@@ -88,11 +88,13 @@ def generate_multilanguage_dataset(language, num_articles):
     
     
 def evaluate_dataset(dataset_name):
-    model, _, scaler = load_model('CSRH6/forest_r')
+    features = "CRH"
+    model, _, scaler = load_model(f'{features}6/forest_r')
 
     # load dataset
     df = pd.read_csv(os.path.join(dataset_folder, dataset_name))
     x = df.drop(columns=['Title', 'Quality'], axis=1)
+    x = x.filter(regex=f'^[{features}]', axis=1)  
     x = scaler.transform(x)
     y = df['Quality'].apply(lambda x: quality_mapping[x])
     y_pred = model.predict(x)
@@ -100,16 +102,15 @@ def evaluate_dataset(dataset_name):
     # print regression metrics
     from sklearn.metrics import mean_squared_error, mean_absolute_error
     print("----- " + dataset_name + " -----")
-    print(f'MSE: {mean_squared_error(y, y_pred)}')
-    print(f'MRSE: {mean_squared_error(y, y_pred)**0.5}')
-    print(f'MAE: {mean_absolute_error(y, y_pred)}') 
+    print('Mean squared error (MSE): %.4f' % mean_squared_error(y, y_pred))
+    print('Root mean squared error (RMSE): %.4f' % mean_squared_error(y, y_pred) ** 0.5)
+    print('Mean absolute error (MAE): %.4f' % mean_absolute_error(y, y_pred))
 
 
 #generate_multilanguage_dataset('en', 6000)
 #generate_multilanguage_dataset('fr', 6000)
 #generate_multilanguage_dataset('pt', 12000)
 #generate_multilanguage_dataset('ru', 12000)
-
 
 evaluate_dataset('6000-csrh-multi-en.csv')
 evaluate_dataset('6000-csrh-multi-fr.csv')

@@ -11,8 +11,8 @@ weighted avg       0.80      0.80      0.80     10792
 
 ----------------- CONFUSION MATRIX -----------------
                  pred:FA.GA  pred:B.C  pred:Start.Stub
-true:FA.GA             3073       515               12
+true:FA.GA             3075       513               12
 true:B.C                543      2584              470
 true:Start.Stub          47       600             2948
 ----------------------------------------------------
-Time elapsed: 00:09 (9.34 seconds)
+Time elapsed: 00:13 (13.12 seconds)

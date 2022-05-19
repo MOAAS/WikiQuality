@@ -13,7 +13,7 @@ from features.text_analysis import compute_words, compute_sentences, estimate_sy
 def features_to_dataframe(features):    
     return pd.DataFrame([features], columns=features.keys())
 
-def compute_features(title, wikitext, num_translations, graph_info = None):
+def compute_features(title, wikitext, num_translations = 0, graph_info = None):
     plaintext = clean_wikitext(wikitext, title)
 
     if len(plaintext) == 0:

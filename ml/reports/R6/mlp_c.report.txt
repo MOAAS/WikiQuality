@@ -1,24 +1,24 @@
 ------------------ OVERALL REPORT ------------------
               precision    recall  f1-score   support
 
-          FA       0.49      0.79      0.60      1800
-          GA       0.35      0.40      0.37      1800
-           B       0.33      0.12      0.17      1798
-           C       0.37      0.25      0.30      1799
-       Start       0.50      0.56      0.53      1797
-        Stub       0.81      0.89      0.85      1798
+          FA       0.50      0.76      0.60      1800
+          GA       0.35      0.41      0.38      1800
+           B       0.35      0.16      0.22      1798
+           C       0.37      0.27      0.31      1799
+       Start       0.52      0.51      0.52      1797
+        Stub       0.80      0.90      0.85      1798
 
     accuracy                           0.50     10792
-   macro avg       0.47      0.50      0.47     10792
-weighted avg       0.47      0.50      0.47     10792
+   macro avg       0.48      0.50      0.48     10792
+weighted avg       0.48      0.50      0.48     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1422      271      87      18           2          0
-true:GA         714      717     122     174          72          1
-true:B          517      490     207     334         216         34
-true:C          213      413     151     448         509         65
-true:Start       39      174      50     244        1007        283
-true:Stub         0        0       1       0         196       1601
+true:FA        1373      290     119      16           2          0
+true:GA         678      742     154     170          55          1
+true:B          476      475     284     345         182         36
+true:C          201      416     189     480         446         67
+true:Start       35      182      68     281         922        309
+true:Stub         0        0       1       1         169       1627
 ----------------------------------------------------
-Time elapsed: 00:13 (13.12 seconds)
+Time elapsed: 00:09 (9.27 seconds)

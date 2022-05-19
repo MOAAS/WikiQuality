@@ -14,11 +14,11 @@ weighted avg       0.54      0.55      0.54     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1192      496      94      16           1          1
+true:FA        1191      496      95      16           1          1
 true:GA         458      864     234     190          54          0
 true:B          166      358     487     494         278         15
-true:C           50      176     271     640         630         32
-true:Start        6       68      75     293        1166        189
+true:C           50      176     272     639         630         32
+true:Start        6       68      75     293        1165        190
 true:Stub         0        6       1       0         215       1576
 ----------------------------------------------------
-Time elapsed: 00:07 (7.57 seconds)
+Time elapsed: 00:09 (9.67 seconds)
