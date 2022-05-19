@@ -53,7 +53,7 @@ dataset_folder = os.path.join(os.path.dirname(__file__), '..', '..', 'datasets')
 
 def generate_multilanguage_dataset(language, num_articles):
 
-    dataset_name = f'{num_articles}-csrh-multi-{language}.csv'
+    dataset_name = f'multi-{language}-{num_articles}-csrh.csv'
     dataset = []
 
     wikiapi.updateLanguage(language)
