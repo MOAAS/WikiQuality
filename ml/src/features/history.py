@@ -39,11 +39,11 @@ def compute_history_features(revisions):
     ft['HA'] = revisions[-1]['age'] + 1 # Age (days)
     ft['HAPR'] = ft['HA'] / len(revisions) # Age per review
     ft['HRPD'] = len(revisions) / ft['HA'] # Reviews per day
-    ft['HRPC'] = len(revisions) / len(contributors) # Reviews per contributor
+    ft['HRPC'] = len(revisions) / max(1, len(contributors)) # Reviews per contributor
     ft['HRPCSD'] = stdev(contributor_revs.values()) if len(contributors) > 1 else 0 # Reviews per contributor standard deviation
 
     ft['HR'] = len(revisions) # Review count
-    ft['HC'] = len(contributors) # Contributor count    
+    ft['HC'] = max(1, len(contributors)) # Contributor count    
     ft['HRC'] = len([contributor for contributor in contributors if not contributor[0].isdigit()]) # Registered contributor count (start with digit -> IP -> anonymous)
     ft['HAC'] = ft['HC'] - ft['HRC'] # Anonymous contributor count
     ft['HRCPC'] = ft['HRC'] / ft['HC'] # Registered contributor count per contributor

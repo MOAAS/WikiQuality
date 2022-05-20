@@ -53,7 +53,6 @@ dataset_folder = os.path.join(os.path.dirname(__file__), '..', '..', 'datasets')
 
 def generate_multilanguage_dataset(language, num_articles):
 
-    dataset_name = f'multi-{language}-{num_articles}-csrh.csv'
     dataset = []
 
     wikiapi.updateLanguage(language)
@@ -84,6 +83,7 @@ def generate_multilanguage_dataset(language, num_articles):
     print(f'Analyzing {num_articles} articles... {len(dataset)}/{len(titles)}')  
 
     df = pd.DataFrame(dataset)
+    dataset_name = f'multi-{language}-{len(dataset)}-csrh.csv'
     df.to_csv(os.path.join(dataset_folder, dataset_name), index=False)
     
     
@@ -107,12 +107,12 @@ def evaluate_dataset(dataset_name):
     print('Mean absolute error (MAE): %.4f' % mean_absolute_error(y, y_pred))
 
 
-#generate_multilanguage_dataset('en', 6000)
-#generate_multilanguage_dataset('fr', 6000)
-#generate_multilanguage_dataset('pt', 12000)
-#generate_multilanguage_dataset('ru', 12000)
+#generate_multilanguage_dataset('en', 15000)
+#generate_multilanguage_dataset('fr', 15000)
+#generate_multilanguage_dataset('pt', 30000)
+generate_multilanguage_dataset('ru', 30000)
 
-evaluate_dataset('6000-csrh-multi-en.csv')
-evaluate_dataset('6000-csrh-multi-fr.csv')
-evaluate_dataset('12000-csrh-multi-pt.csv')
-evaluate_dataset('12000-csrh-multi-ru.csv')
+#evaluate_dataset('6000-csrh-multi-en.csv')
+#evaluate_dataset('6000-csrh-multi-fr.csv')
+#evaluate_dataset('12000-csrh-multi-pt.csv')
+#evaluate_dataset('12000-csrh-multi-ru.csv')
