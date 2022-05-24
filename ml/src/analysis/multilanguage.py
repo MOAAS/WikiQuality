@@ -87,8 +87,7 @@ def generate_multilanguage_dataset(language, num_articles):
     df.to_csv(os.path.join(dataset_folder, dataset_name), index=False)
     
     
-def evaluate_dataset(dataset_name):
-    features = "CRH"
+def evaluate_dataset(dataset_name, features = "CRH"):
     model, _, scaler = load_model(f'{features}6/forest_r')
 
     # load dataset
@@ -110,9 +109,11 @@ def evaluate_dataset(dataset_name):
 #generate_multilanguage_dataset('en', 15000)
 #generate_multilanguage_dataset('fr', 15000)
 #generate_multilanguage_dataset('pt', 30000)
-generate_multilanguage_dataset('ru', 30000)
+#generate_multilanguage_dataset('ru', 30000)
 
-#evaluate_dataset('6000-csrh-multi-en.csv')
-#evaluate_dataset('6000-csrh-multi-fr.csv')
-#evaluate_dataset('12000-csrh-multi-pt.csv')
-#evaluate_dataset('12000-csrh-multi-ru.csv')
+for features in ['CSRH', 'CRH', 'CH']:
+    print("------ " + features + " ------")
+    evaluate_dataset(f'multi-en-11096-csrh.csv', features)
+    evaluate_dataset(f'multi-fr-11195-csrh.csv', features)
+    evaluate_dataset(f'multi-pt-10525-csrh.csv', features)
+    evaluate_dataset(f'multi-ru-10341-csrh.csv', features)

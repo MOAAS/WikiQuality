@@ -48,7 +48,6 @@ def fetch_computation_times():
             os.makedirs(os.path.join(report_times_folder, quality))
 
         for title in titles:
-            print(title)
             start = time.time()
             wikitext = wikiapi.getWikiText(title)
             if wikitext == '':
@@ -107,6 +106,7 @@ def analyze_computation_times():
     plot.xticks([1,2,3,4,5,6], ['FA', 'GA', 'B', 'C', 'Start', 'Stub'])
     plot.ylim(0, 10)
     plot.show()
+
 
 #fetch_computation_times()
 analyze_computation_times()

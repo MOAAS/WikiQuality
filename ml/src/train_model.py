@@ -101,10 +101,11 @@ def print_classification_report(y, y_pred, classes):
     ))
     print("----------------------------------------------------")
 
-def generate_report(y_test, y_pred, classes, is_classification, time_elapsed):
+def generate_report(y_test, y_pred, classes, is_classification, time_elapsed, prediction_time):
     # Easier to just redirect stdout to a string instead of rewriting the functions
     from io import StringIO
     from contextlib import redirect_stdout
+        
 
     with StringIO() as buf, redirect_stdout(buf):
         
@@ -113,10 +114,12 @@ def generate_report(y_test, y_pred, classes, is_classification, time_elapsed):
         else:
             print_regression_report(y_test, y_pred, classes)
 
+        print(f"Prediction Time: {prediction_time * 1000} milliseconds")
+
         formatted_time = time.strftime("%M:%S", time.gmtime(time_elapsed))
-        print(f"Time elapsed: {formatted_time} ({time_elapsed} seconds)")
-        report = buf.getvalue()
-    
+        print(f"Total Time elapsed: {formatted_time} ({time_elapsed} seconds)")
+
+        report = buf.getvalue()    
     return report
 
 def save_model(model_path, model, report, scaler, features):
@@ -170,12 +173,15 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
 
     model = models[model_name]
     model.fit(x_train, y_train)
+
+    prediction_time = time.time()
     y_pred = model.predict(x_test)
-    
+    prediction_time = round(time.time() - prediction_time, 4)
+
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
-    report = generate_report(y_test, y_pred, classes, is_classification = is_classification, time_elapsed = time_elapsed)
+    report = generate_report(y_test, y_pred, classes, is_classification = is_classification, time_elapsed = time_elapsed, prediction_time = prediction_time)
 
     if do_save_model:
         model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'
