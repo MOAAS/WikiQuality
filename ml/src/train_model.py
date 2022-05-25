@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+
 import time
 import os
 
@@ -101,7 +103,7 @@ def print_classification_report(y, y_pred, classes):
     ))
     print("----------------------------------------------------")
 
-def generate_report(y_test, y_pred, classes, is_classification, time_elapsed, prediction_time):
+def generate_report(y_test, y_pred, classes, is_classification, time_elapsed, prediction_time_ms):
     # Easier to just redirect stdout to a string instead of rewriting the functions
     from io import StringIO
     from contextlib import redirect_stdout
@@ -114,7 +116,7 @@ def generate_report(y_test, y_pred, classes, is_classification, time_elapsed, pr
         else:
             print_regression_report(y_test, y_pred, classes)
 
-        print(f"Prediction Time: {prediction_time * 1000} milliseconds")
+        print(f"Prediction Time: {prediction_time_ms} milliseconds")
 
         formatted_time = time.strftime("%M:%S", time.gmtime(time_elapsed))
         print(f"Total Time elapsed: {formatted_time} ({time_elapsed} seconds)")
@@ -137,7 +139,6 @@ def save_model(model_path, model, report, scaler, features):
     with open(f'{model_path}/features.pkl', 'wb') as f:
         pickle.dump(features, f)
     
-
 def save_report(report_path, report):
     if not os.path.exists(os.path.dirname(report_path)):
         os.makedirs(os.path.dirname(report_path))
@@ -170,18 +171,24 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     x_train = scaler.transform(x_train)
     x_test = scaler.transform(x_test)
 
-
     model = models[model_name]
     model.fit(x_train, y_train)
-
-    prediction_time = time.time()
     y_pred = model.predict(x_test)
-    prediction_time = round(time.time() - prediction_time, 4)
 
+    
     time_elapsed = round(time.time() - start_time, 2)
     print("Done! Time elapsed: " + time.strftime("%M:%S", time.gmtime(time_elapsed)))
 
-    report = generate_report(y_test, y_pred, classes, is_classification = is_classification, time_elapsed = time_elapsed, prediction_time = prediction_time)
+    # Measure prediction time (Avg of 500 predictions)
+    prediction_times = []
+    for _ in range(500):
+        start_time = time.time()
+        random_row = x_test[np.random.randint(0, len(x_test))].reshape(1, -1)
+        model.predict(random_row)
+        prediction_times.append(time.time() - start_time)    
+    prediction_time_ms = round(np.mean(prediction_times) * 1000, 3)
+
+    report = generate_report(y_test, y_pred, classes, is_classification = is_classification, time_elapsed = time_elapsed, prediction_time_ms = prediction_time_ms)
 
     if do_save_model:
         model_path = f'{models_folder}/{feature_categories + str(len(classes))}/{model_name}'

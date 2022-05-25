@@ -21,4 +21,5 @@ true:C          219      348     149     578         467         38
 true:Start       31      121      58     349        1039        199
 true:Stub         0        0       1       1         262       1534
 ----------------------------------------------------
-Time elapsed: 04:53 (293.02 seconds)
+Prediction Time: 0.418 milliseconds
+Total Time elapsed: 04:58 (298.14 seconds)

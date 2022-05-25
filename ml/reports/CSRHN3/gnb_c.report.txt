@@ -15,4 +15,5 @@ true:FA.GA             2756       533              311
 true:B.C               1018      1112             1467
 true:Start.Stub          59       213             3323
 ----------------------------------------------------
-Time elapsed: 00:01 (1.16 seconds)
+Prediction Time: 0.202 milliseconds
+Total Time elapsed: 00:01 (1.13 seconds)

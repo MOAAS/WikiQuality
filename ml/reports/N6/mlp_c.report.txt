@@ -1,24 +1,25 @@
 ------------------ OVERALL REPORT ------------------
               precision    recall  f1-score   support
 
-          FA       0.44      0.71      0.55      1800
-          GA       0.33      0.30      0.31      1800
-           B       0.29      0.14      0.19      1798
-           C       0.29      0.21      0.24      1799
-       Start       0.36      0.39      0.37      1797
-        Stub       0.68      0.82      0.75      1798
+          FA       0.45      0.71      0.55      1800
+          GA       0.33      0.33      0.33      1800
+           B       0.30      0.14      0.19      1798
+           C       0.29      0.20      0.24      1799
+       Start       0.36      0.39      0.38      1797
+        Stub       0.70      0.82      0.75      1798
 
     accuracy                           0.43     10792
-   macro avg       0.40      0.43      0.40     10792
-weighted avg       0.40      0.43      0.40     10792
+   macro avg       0.40      0.43      0.41     10792
+weighted avg       0.40      0.43      0.41     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1274      280     154      67          21          4
-true:GA         709      539     152     232         149         19
-true:B          560      353     245     302         275         63
-true:C          249      295     182     378         535        160
-true:Start       75      155     109     319         702        437
-true:Stub         2       10       3      28         281       1474
+true:FA        1279      301     137      57          22          4
+true:GA         707      586     151     200         139         17
+true:B          558      382     247     283         270         58
+true:C          256      336     184     362         523        138
+true:Start       72      166     109     325         708        417
+true:Stub         2       14       2      30         278       1472
 ----------------------------------------------------
-Time elapsed: 00:15 (15.55 seconds)
+Prediction Time: 0.17 milliseconds
+Total Time elapsed: 00:19 (19.44 seconds)

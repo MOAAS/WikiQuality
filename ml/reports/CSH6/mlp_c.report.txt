@@ -2,23 +2,24 @@
               precision    recall  f1-score   support
 
           FA       0.77      0.85      0.81      1800
-          GA       0.63      0.59      0.61      1800
-           B       0.44      0.39      0.41      1798
-           C       0.42      0.42      0.42      1799
-       Start       0.51      0.57      0.54      1797
-        Stub       0.88      0.85      0.86      1798
+          GA       0.60      0.61      0.60      1800
+           B       0.45      0.33      0.38      1798
+           C       0.41      0.43      0.42      1799
+       Start       0.53      0.59      0.56      1797
+        Stub       0.87      0.85      0.86      1798
 
     accuracy                           0.61     10792
-   macro avg       0.61      0.61      0.61     10792
-weighted avg       0.61      0.61      0.61     10792
+   macro avg       0.60      0.61      0.60     10792
+weighted avg       0.60      0.61      0.60     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1538      186      66       6           4          0
-true:GA         340     1061     258     111          30          0
-true:B           87      265     696     520         217         13
-true:C           24      109     421     759         462         24
-true:Start        2       51     137     404        1024        179
-true:Stub         0        0       3      10         260       1525
+true:FA        1527      240      26       7           0          0
+true:GA         344     1101     197     137          21          0
+true:B           79      327     590     589         195         18
+true:C           27      137     375     776         454         30
+true:Start        2       43     135     376        1059        182
+true:Stub         0        1       2       9         263       1523
 ----------------------------------------------------
-Time elapsed: 01:34 (94.28 seconds)
+Prediction Time: 0.262 milliseconds
+Total Time elapsed: 01:03 (63.72 seconds)

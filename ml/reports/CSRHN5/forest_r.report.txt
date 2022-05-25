@@ -11,4 +11,5 @@ Quality    MSE        RMSE       MAE
 0.4        0.029      0.169      0.136     
 0.0        0.021      0.146      0.085     
 ----------------------------------------------------
-Time elapsed: 04:46 (286.18 seconds)
+Prediction Time: 14.824 milliseconds
+Total Time elapsed: 05:18 (318.18 seconds)

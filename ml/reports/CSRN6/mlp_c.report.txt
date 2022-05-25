@@ -1,12 +1,12 @@
 ------------------ OVERALL REPORT ------------------
               precision    recall  f1-score   support
 
-          FA       0.69      0.76      0.72      1800
-          GA       0.53      0.52      0.52      1800
-           B       0.45      0.34      0.39      1798
-           C       0.41      0.44      0.43      1799
-       Start       0.53      0.59      0.56      1797
-        Stub       0.87      0.86      0.87      1798
+          FA       0.70      0.73      0.71      1800
+          GA       0.54      0.54      0.54      1800
+           B       0.42      0.41      0.42      1798
+           C       0.42      0.33      0.37      1799
+       Start       0.51      0.60      0.56      1797
+        Stub       0.85      0.87      0.86      1798
 
     accuracy                           0.58     10792
    macro avg       0.58      0.58      0.58     10792
@@ -14,11 +14,12 @@ weighted avg       0.58      0.58      0.58     10792
 
 ----------------- CONFUSION MATRIX -----------------
             pred:FA  pred:GA  pred:B  pred:C  pred:Start  pred:Stub
-true:FA        1359      350      79      10           2          0
-true:GA         475      927     214     158          26          0
-true:B          107      300     617     540         211         23
-true:C           37      119     354     796         468         25
-true:Start        0       42     112     412        1055        176
-true:Stub         0        0       1      14         228       1555
+true:FA        1312      380      90      16           2          0
+true:GA         421      979     261     105          34          0
+true:B          106      266     742     426         235         23
+true:C           33      133     477     592         535         29
+true:Start        1       52     174     261        1086        223
+true:Stub         0        0       6      10         217       1565
 ----------------------------------------------------
-Time elapsed: 01:10 (70.73 seconds)
+Prediction Time: 0.276 milliseconds
+Total Time elapsed: 01:39 (99.38 seconds)
