@@ -31,7 +31,7 @@ reports_folder = 'ml/reports'
 dataset_name = '6000x6-csrhn'
 
 quality_mapping_6class = { 'FA': 1.0, 'GA': 0.9, 'B': 0.7, 'C': 0.6, 'Start': 0.4, 'Stub': 0.0 }
-quality_mapping_5class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.7, 'C': 0.6, 'Start': 0.4, 'Stub': 0.0 }
+quality_mapping_5class = { 'FA': 1.0, 'GA': 0.9, 'B': 0.6, 'C': 0.6, 'Start': 0.4, 'Stub': 0.0 }
 quality_mapping_3class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.6, 'C': 0.6, 'Start': 0.0, 'Stub': 0.0 }
 quality_mapping_2class = { 'FA': 1.0, 'GA': 1.0, 'B': 0.0, 'C': 0.0, 'Start': 0.0, 'Stub': 0.0 }
 
