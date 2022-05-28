@@ -19,5 +19,5 @@ true:B.C        164      226      2789         377         41
 true:Start        2       15       674         950        156
 true:Stub         0        0         8         236       1554
 ----------------------------------------------------
-Prediction Time: 19.556 milliseconds
-Total Time elapsed: 00:57 (57.92 seconds)
+Prediction Time: 14.428 milliseconds
+Total Time elapsed: 00:52 (52.79 seconds)
