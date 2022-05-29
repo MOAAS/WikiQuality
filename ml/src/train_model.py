@@ -60,15 +60,37 @@ models = {
     'mlp_r': MLPRegressor(hidden_layer_sizes=(100,), max_iter=10000, alpha=0.1,), 
 }
 
+def balance_dataset(dataset, classes):
+    max_support = max([dataset[dataset['Quality'] == quality].shape[0] for quality in classes])
+    min_support = min([dataset[dataset['Quality'] == quality].shape[0] for quality in classes])
+
+    # if difference is larger than 5%
+    if (max_support - min_support) / min_support > 0.05:
+        balanced_dataset = pd.DataFrame()
+        for quality in classes:
+            balanced_dataset = balanced_dataset.append(dataset[dataset['Quality'] == quality].sample(min_support))
+        return balanced_dataset
+    else:
+        return dataset
+
+
 def load_dataset(class_mapping, feature_categories):
     train = pd.read_csv(f'{dataset_folder}/{dataset_name}_train.csv')
     test = pd.read_csv(f'{dataset_folder}/{dataset_name}_test.csv')
 
+    train['Quality'] = train['Quality'].replace(class_mapping)
+    test['Quality'] = test['Quality'].replace(class_mapping)
+
+    # balance dataset (if too imbalanced -> only happens on 5-class and 2-class datasets)
+    classes = list(set(class_mapping.values()))
+    train = balance_dataset(train, classes)
+    test = balance_dataset(test, classes)
+
     x_train = train.drop(['Quality', 'Title'], axis=1)
-    y_train = train['Quality'].replace(class_mapping)
+    y_train = train['Quality']
 
     x_test = test.drop(['Quality', 'Title'], axis=1)
-    y_test = test['Quality'].replace(class_mapping)
+    y_test = test['Quality']
 
     x_train = x_train.filter(regex=f'^[{feature_categories}]', axis=1)
     x_test = x_test.filter(regex=f'^[{feature_categories}]', axis=1)
@@ -200,7 +222,7 @@ def train_and_test(model_name, class_mapping, feature_categories, do_save_model 
     return model, report
 
 def perform_mass_training():
-    for modelname in models:
+    for modelname in ['ada_c', 'ada_r', 'forest_c', 'forest_r', 'gboost_c']:
         train_and_test(modelname, quality_mapping_6class, "CSRHN") # Default
 
         train_and_test(modelname, quality_mapping_5class, "CSRHN")

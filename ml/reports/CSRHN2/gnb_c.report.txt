@@ -1,17 +1,17 @@
 ------------------ OVERALL REPORT ------------------
                 precision    recall  f1-score   support
 
-         FA.GA       0.66      0.86      0.75      3600
-B.C.Start.Stub       0.92      0.78      0.84      7192
+         FA.GA       0.79      0.86      0.82      3600
+B.C.Start.Stub       0.84      0.77      0.80      3600
 
-      accuracy                           0.81     10792
-     macro avg       0.79      0.82      0.80     10792
-  weighted avg       0.83      0.81      0.81     10792
+      accuracy                           0.81      7200
+     macro avg       0.81      0.81      0.81      7200
+  weighted avg       0.81      0.81      0.81      7200
 
 ----------------- CONFUSION MATRIX -----------------
                      pred:FA.GA  pred:B.C.Start.Stub
-true:FA.GA                 3080                  520
-true:B.C.Start.Stub        1566                 5626
+true:FA.GA                 3079                  521
+true:B.C.Start.Stub         828                 2772
 ----------------------------------------------------
-Prediction Time: 0.17 milliseconds
-Total Time elapsed: 00:01 (1.14 seconds)
+Prediction Time: 0.132 milliseconds
+Total Time elapsed: 00:01 (1.31 seconds)
