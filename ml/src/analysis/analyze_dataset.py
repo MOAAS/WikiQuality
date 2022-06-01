@@ -5,6 +5,7 @@ import pandas as pd
 
 dataset_folder = os.path.join(os.path.dirname(__file__), '..', '..', 'datasets')
 
+
 def load_dataset(dataset_name):
     train = pd.read_csv(os.path.join(dataset_folder, dataset_name + "_train.csv"))
     test = pd.read_csv(os.path.join(dataset_folder, dataset_name + "_test.csv"))
@@ -47,10 +48,38 @@ def list_average_columns(columns, num_decimals=2, col_width=7):
 
 
 
+def get_fa_ranges():
+    columns = [ 
+        "CC", "CW", "CSN", "CS", "CMSL", "CP", "CMPL", "CLSL", "CSSL", "CSTDSL", "CLSSR", "CB", "CBPS", "CNL", "CNLTLR", "CR", 
+        "CCC", "CCCPC", "CCCPS", "CEL", "CELPS", "CIL", "CI", "CIPS", "CIB", "CCT", "CNCT", "CTB", "CUCT", "SSLS", "SSSS", "SMSS", 
+        "SLSR", "SSSR", "SS", "SMSPW", "SMCPW", "SWL6", "HA", "HAPR", "HRPD", "HRPC", "HRPCSD", "HR", "HC", "HRC", "HAC", "HRCPC", 
+        "HACPC", "HRCPAC", "HREV", "HREVPR", "HRML", "HREC", "HRECPR", "HACT", "HACTPR", "HOCCPR", "HSSLE", "HMCL"
+    ]
+
+    fa = dataset[dataset['Quality'] == 'FA']
+    fa = fa.drop(['Title', 'Quality'], axis=1)
+    
+    ranges = {}
+    for column in columns:
+        ranges[column] = {"name": "???", "range": [fa[column].quantile(0.25), fa[column].quantile(0.99)]}
+
+    print("{")
+    for k, v in ranges.items():
+        k = '"' + k + '":'
+        print(f'{k:13} {v},')
+    print("}")
+
+    return ranges
+
+
+
+
 
 # show box plot with 'CC'
-show_boxplot('NIN', disable_outliers=True)
+#show_boxplot('NIN', disable_outliers=True)
 
-list_average_columns(['RARI', 'RCL', 'RFK', 'RGFI', 'RSG', 'RLWF'])
-list_average_columns(['CC', 'CW', 'CSN', 'CCC', 'CNL', 'SV', 'HA', 'HR', 'NIN'], col_width=10)
+#list_average_columns(['RARI', 'RCL', 'RFK', 'RGFI', 'RSG', 'RLWF'])
+#list_average_columns(['CC', 'CW', 'CSN', 'CCC', 'CNL', 'SV', 'HA', 'HR', 'NIN'], col_width=10)
+
+get_fa_ranges()
 

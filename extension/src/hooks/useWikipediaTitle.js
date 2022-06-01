@@ -38,7 +38,7 @@ export default function useWikipediaTitle() {
 /*global chrome*/
 async function getTabURL() {
     if (process.env.NODE_ENV === "development") {
-        return "https://fr.wikipedia.org/wiki/Mat%C3%A9riau"
+        return "https://en.wikipedia.org/wiki/Levantine_Arabic"
     }
     else {
         let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });

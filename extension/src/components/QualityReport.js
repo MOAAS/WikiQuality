@@ -1,6 +1,6 @@
 import classNames from 'classnames'
 import styles from './QualityReport.module.css'
-import qualityToLetter from '../langs/qualityToLetter'
+import qualityToLetter from '../lib/qualityToLetter'
 const classnames = require('classnames')
 
 export default function QualityReport({ quality }) {

@@ -1,4 +1,4 @@
-import qualityToLetter from '../langs/qualityToLetter';
+import qualityToLetter from '../lib/qualityToLetter';
 import styles from './QualityMeter.module.css'
 
 const classnames = require('classnames')

@@ -18,7 +18,7 @@ export default function ScanButton({ title, language, onScanComplete }) {
         setLoading(true);
         axios.get(`${API_URL}/${title}/${language}`).then(res => {
           console.log(res.data)
-          onScanComplete(res.data.quality, res.data.zfeatures);
+          onScanComplete(res.data.quality, res.data.features);
         }).catch(err => {  
           console.log(err);
           setError("Error fetching Wikipedia Page.")

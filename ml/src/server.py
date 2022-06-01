@@ -35,7 +35,7 @@ def evaluate(title, language='en'):
     features_df = scaler.transform(features_df)
     quality = model.predict(features_df)[0]
 
-    return {"title": title, "quality": str(quality), "zfeatures": features}
+    return {"title": title, "quality": str(quality), "features": features}
 
 @app.route("/features/<title>")
 def features(title):

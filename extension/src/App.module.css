@@ -3,7 +3,6 @@
   width: 550px;
   min-height: 300px;
   margin: auto;
-  text-align: center;
 
   background-color: #eee;
   color: black;
@@ -28,6 +27,7 @@
 .app h1 {
   font-weight: normal;
   grid-area: header;
+  text-align: center;
 }
 
 .main {

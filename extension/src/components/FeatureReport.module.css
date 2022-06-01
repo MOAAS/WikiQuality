@@ -1,0 +1,107 @@
+.category {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 16px;
+
+    --color-bad: var(--color-F);
+    --color-good: var(--color-A)
+}
+
+.category > h3 {
+    grid-column:span 3;
+    margin-bottom: -16px;
+}
+
+
+/* Meter */ 
+.meterWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.featureDesc {
+    text-align: center;
+    margin: 0.25em 0;
+}
+
+
+.meter {
+    position: relative;
+    display: flex;
+    height: 20px;
+    margin-top: 0.75em;
+}
+
+.q1 {
+    border-radius: 20px 0 0 20px;
+}
+
+.q4 {
+    border-radius: 0 20px 20px 0;
+}
+
+.q1, .q4 {
+    width: 37.5%;
+}
+.q2,.q3 {
+    width: 12.5%;
+}
+
+.q1,.q4 {
+    background: var(--color-bad);;
+}
+
+.q2, .q3 {
+    background: var(--color-good);;
+}
+
+/* Pointer */
+
+.pointer {
+    position: absolute;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, calc(100% - 4px));
+}
+
+.bad {
+    color: var(--color-bad);;
+}
+
+.good {
+    color: var(--color-good);
+}
+
+.pointer span {
+    font-size: 0.75em;
+    font-weight: normal;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 66%);
+}
+
+/* Separator */
+
+.separator {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    background: rgba(238, 238, 238, 0.6)
+    
+}
+
+.separator span {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    font-size: 0.8em;
+}

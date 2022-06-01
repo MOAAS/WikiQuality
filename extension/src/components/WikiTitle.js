@@ -1,5 +1,5 @@
 import styles from './WikiTitle.module.css';
-import languages from '../langs/languages.json';
+import languages from '../lib/languages.json';
 
 export default function WikiTitle({ isLoading, title, language }) {
 

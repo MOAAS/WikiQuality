@@ -7,6 +7,7 @@ import ScanButton from './components/ScanButton';
 import WikiTitle from './components/WikiTitle';
 import QualityReport from './components/QualityReport';
 import QualityMeter from './components/QualityMeter';
+import FeatureReport from './components/FeatureReport';
 
 function App() {
   const [quality, setQuality] = useState(null)
@@ -36,6 +37,7 @@ function App() {
       </div>
 
       <div className={styles.footer}>
+        <FeatureReport features={features}/>
         {/* Put feature report here */}
       </div>
     </div>
