@@ -38,7 +38,7 @@ export default function useWikipediaTitle() {
 /*global chrome*/
 async function getTabURL() {
     if (process.env.NODE_ENV === "development") {
-        return "https://en.wikipedia.org/wiki/Levantine_Arabic"
+        return "https://en.wikipedia.org/wiki/Chair"
     }
     else {
         let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });

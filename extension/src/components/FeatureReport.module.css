@@ -8,7 +8,8 @@
     column-gap: 16px;
 
     --color-bad: var(--color-F);
-    --color-good: var(--color-A)
+    --color-medium: var(--color-D);
+    --color-good: var(--color-A);
 }
 
 .category > h3 {
@@ -40,22 +41,27 @@
     border-radius: 20px 0 0 20px;
 }
 
-.q4 {
+.q6 {
     border-radius: 0 20px 20px 0;
 }
 
-.q1, .q4 {
-    width: 37.5%;
+.q1, .q6 {
+    width: 25%;
 }
-.q2,.q3 {
+
+.q3,.q4, .q2,.q5 {
     width: 12.5%;
 }
 
-.q1,.q4 {
+.q1, .q6 {
     background: var(--color-bad);;
 }
 
-.q2, .q3 {
+.q2, .q5 {
+    background: var(--color-medium);
+}
+
+.q3, .q4 {
     background: var(--color-good);;
 }
 
@@ -71,6 +77,10 @@
 
 .bad {
     color: var(--color-bad);;
+}
+
+.medium {
+    color: var(--color-medium)
 }
 
 .good {

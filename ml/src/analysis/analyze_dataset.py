@@ -61,7 +61,7 @@ def get_fa_ranges():
     
     ranges = {}
     for column in columns:
-        ranges[column] = {"name": "???", "range": [fa[column].quantile(0.25), fa[column].quantile(0.99)]}
+        ranges[column] = {"name": "???", "range": [fa[column].quantile(0.33), fa[column].quantile(0.99)]}
 
     print("{")
     for k, v in ranges.items():

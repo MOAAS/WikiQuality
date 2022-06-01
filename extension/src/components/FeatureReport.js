@@ -19,13 +19,12 @@ export default function FeatureReport({ features }) {
 
     return (
         <div className={styles.report}>
-            <h2>Features</h2>
+            {/* <h2>Features</h2> */}
             <div>
-                <MeterGroup header="Main Features" features={relevantFeatures}/>
-                <MeterGroup header="Content" features={content} />
+                <MeterGroup header="Features" features={relevantFeatures}/>
+                {/* <MeterGroup header="Content" features={content} />
                 <MeterGroup header="Style" features={style}/>
-                <MeterGroup header="Readability... Ignore, this one will be different" features={readability}/>
-                <MeterGroup header="History" features={history}/>
+                <MeterGroup header="History" features={history}/> */}
             </div>
         </div>
     );
@@ -46,12 +45,19 @@ function FeatureMeter({ feature, value }) {
         console.warn("Feature not found: " + feature);
         return null;
     }
-    const [iqrMin, iqrMax] = iqrs[feature].range;
-    const iqr = iqrMax - iqrMin;
-    const [min, max] = [iqrMin - 1.5 * iqr, iqrMax + 1.5 * iqr];
+    const [goodMin, goodMax] = iqrs[feature].range;
+    const goodRange = goodMax - goodMin;
+
+    const [mediumMin, mediumMax] = [goodMin - 1 * goodRange, goodMax + 1 * goodRange]; // mediumMin->mediumMax will be 3 * goodRange
+    const [min, max] = [goodMin - 1.5 * goodRange, goodMax + 1.5 * goodRange]; // min->max will be 4 * goodRange
+
     const range = max - min;
 
-    const isOk = value >= iqrMin && value <= iqrMax;
+    let pointerStyle = "bad"
+    if (value >= goodMin && value <= goodMax)
+        pointerStyle = "good";
+    else if (value >= mediumMin && value <= mediumMax)
+        pointerStyle = "medium";
 
     let percent = (value - min) / range;    
     percent = Math.min(Math.max(percent, 0.05), 0.95); // minimum of 0.05 and maximum of 0.95
@@ -64,17 +70,19 @@ function FeatureMeter({ feature, value }) {
             <p className={styles.featureDesc}>{iqrs[feature].name}</p>
 
             <div className={styles.meter}>
-                <MeterPointer good={isOk} percent={percent} value={value}/>
+                <MeterPointer style={pointerStyle} percent={percent} value={value}/>
                 <div className={styles.q1}/>
                 <div className={styles.q2}/>
                 <div className={styles.q3}/>
                 <div className={styles.q4}/>
+                <div className={styles.q5}/>
+                <div className={styles.q6}/>
 
                 <MeterSeparator percent={0.125} value={min + 0.125 * range} good={false}/>
                 <MeterSeparator percent={0.250} />
-                <MeterSeparator percent={0.375} value={iqrMin} good={true}/>
+                <MeterSeparator percent={0.375} value={goodMin} good={true}/>
                 <MeterSeparator percent={0.500} />
-                <MeterSeparator percent={0.625} value={iqrMax} good={true}/>
+                <MeterSeparator percent={0.625} value={goodMax} good={true}/>
                 <MeterSeparator percent={0.750} />
                 <MeterSeparator percent={0.875} value={max - 0.125 * range} good={false}/>
             </div>
@@ -82,9 +90,9 @@ function FeatureMeter({ feature, value }) {
     )
 }
 
-function MeterPointer({ good, percent, value }) {
+function MeterPointer({ style, percent, value }) {
     return (
-        <div className={classnames(styles.pointer, {[styles.good]: good, [styles.bad]: !good })} style={{left: percent * 100 + "%"}}>
+        <div className={classnames(styles.pointer, styles[style])} style={{left: percent * 100 + "%"}}>
             ▲
             <span>{FormatNumber(value)}</span>
         </div>
