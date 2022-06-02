@@ -1,6 +1,6 @@
 .app {
 
-  width: 550px;
+  width: 600px;
   min-height: 300px;
   margin: auto;
 
@@ -22,6 +22,8 @@
   --color-C: #FCE43A;
   --color-D: #F39A28;
   --color-F: #EE4C36;  
+
+  font-size: 0.8rem;
 }
 
 .app h1 {

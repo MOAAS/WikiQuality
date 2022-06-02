@@ -27,9 +27,8 @@ export default function useWikipediaTitle() {
     }, [])
 
 
-    const cleanTitle = decodeURIComponent(title?.replace(/_/g, " "))
 
-
+    const cleanTitle = decodeURIComponent((title || "").replace(/_/g, " "))
 
     return [isLoading, cleanTitle || null, language || null] 
 
@@ -38,7 +37,7 @@ export default function useWikipediaTitle() {
 /*global chrome*/
 async function getTabURL() {
     if (process.env.NODE_ENV === "development") {
-        return "https://en.wikipedia.org/wiki/Chair"
+        return "https://en.wikipedia.org/wiki/Baby_(Clean_Bandit_song)"
     }
     else {
         let [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
