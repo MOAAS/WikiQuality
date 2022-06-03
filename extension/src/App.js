@@ -8,6 +8,7 @@ import WikiTitle from './components/WikiTitle';
 import QualityReport from './components/QualityReport';
 import QualityMeter from './components/QualityMeter';
 import FeatureReport from './components/FeatureReport';
+import ReadabilityReport from './components/ReadabilityReport'
 
 function App() {
   const [quality, setQuality] = useState(null)
@@ -37,8 +38,8 @@ function App() {
       </div>
 
       <div className={styles.footer}>
+      <ReadabilityReport features={features}/>
         <FeatureReport features={features}/>
-        {/* Put feature report here */}
       </div>
     </div>
   );

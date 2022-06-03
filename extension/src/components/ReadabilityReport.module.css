@@ -1,0 +1,78 @@
+.readability {
+    margin: 2em 0;
+}
+
+.grades {
+    display: flex;
+    grid-template-columns: repeat(6, 1fr);
+    border-collapse: collapse;
+
+    border: 1px solid black;
+    background: rgba(167, 154, 154, 0.5);
+
+    font-size: 1.25em;
+    margin-top: 2em;
+
+
+    position: relative;    
+}
+
+.level {
+    border-collapse: collapse;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.fillBar {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+
+    transition: all 1s ease-in-out;
+}
+
+.fillBar span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    font-size: 1.25em;
+    z-index: 200;
+}
+
+
+.up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 14px;
+
+    transform: translate(-50%, -75%);
+}
+
+.down {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.tooltip {
+    width: 300px !important;
+}

@@ -8,8 +8,6 @@ export default function FeatureReport({ features }) {
     if (Object.keys(features).length === 0)
         return null;
 
-    features["HA"] = 3400
-
     const validFeatures = Object.keys(features).filter(key => iqrs[key]);
     
     const content = GetCategories(features, validFeatures, 'C');
@@ -23,7 +21,7 @@ export default function FeatureReport({ features }) {
         <div className={styles.report}>
             {/* <h2>Features</h2> */}
             <div>
-                <MeterGroup header="Main Features" features={relevantFeatures}/>
+                <MeterGroup header="Features" features={relevantFeatures}/>
                 {/* <MeterGroup header="Content" features={content} />
                 <MeterGroup header="Style" features={style}/>
                 <MeterGroup header="History" features={history}/> */}
@@ -50,7 +48,7 @@ function FeatureMeter({ feature, value }) {
     const [goodMin, goodMax] = iqrs[feature].range;
     const goodRange = goodMax - goodMin;
 
-    const [mediumMin, mediumMax] = [goodMin - 0.5 * goodRange, goodMax + 0.5 * goodRange]; // mediumMin->mediumMax will be 2 * goodRange
+    const [mediumMin, mediumMax] = [goodMin - 1 * goodRange, goodMax + 1 * goodRange]; // mediumMin->mediumMax will be 3 * goodRange
     const [min, max] = [goodMin - 1.5 * goodRange, goodMax + 1.5 * goodRange]; // min->max will be 4 * goodRange
 
     const range = max - min;
