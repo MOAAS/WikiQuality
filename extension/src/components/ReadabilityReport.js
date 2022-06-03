@@ -42,7 +42,7 @@ export default function ReadabilityReport({ features }) {
         <div className={styles.readability}>
             <h3><a data-tip data-for="help-readability">Readability Score</a></h3>
             <ReactTooltip id="help-readability" type="info" effect="solid" className={styles.tooltip}>
-                The readability score is the U.S. grade level required to fully comprehend the text. It was determined by combining the values of multiple readability formulas.
+                The readability score is the estimated U.S. grade level required to fully comprehend the text. It was determined by combining the values of multiple readability formulas.
             </ReactTooltip>
 
 
