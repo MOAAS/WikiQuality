@@ -21,7 +21,7 @@ export default function FeatureReport({ features }) {
         <div className={styles.report}>
             {/* <h2>Features</h2> */}
             <div>
-                <MeterGroup header="Features" features={relevantFeatures}/>
+                <MeterGroup header="Relevant Features" features={relevantFeatures}/>
                 {/* <MeterGroup header="Content" features={content} />
                 <MeterGroup header="Style" features={style}/>
                 <MeterGroup header="History" features={history}/> */}
