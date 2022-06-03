@@ -4,11 +4,7 @@ import styles from './QualityMeter.module.css'
 const classnames = require('classnames')
 
 export default function QualityMeter({quality}) {
-    let letter = qualityToLetter(quality)
-    if (letter === "A+")
-        letter = "Aplus"
-    if (letter === null)
-        letter = "none"
+    const letter = qualityToLetter(quality)
 
     return (
         <div className={styles.meter}>

@@ -67,18 +67,17 @@ export default function ReadabilityReport({ features }) {
 
 
 const FillBar = ({ readability }) => {
-    if (isNaN(readability))
-        readability = 0;
-
     const width = readabilityToPercentage(readability) + "%";
     const background = readabilityToColor(readability);
     
     return (
         <div className={styles.fillBar} style={{ width, background, color: background }}>
-            <span>
-                <strong>▲</strong> 
-                <strong>{Math.round(readability * 10) / 10}</strong>
-            </span>
+            {!isNaN(readability) && (
+                <span>
+                    <strong>▲</strong> 
+                    <strong>{Math.round(readability * 10) / 10}</strong>
+                </span>
+            )}
         </div>
     )
 }
@@ -111,8 +110,10 @@ const GradeLevel = ({minLevel, maxLevel, description}) => {
 }
 
 function readabilityToPercentage(readability) {
-    // keys sorted by numeric value
+    if (isNaN(readability))
+        return 0;
 
+    // keys sorted by numeric value
     let levels = Object.keys(widths).sort((a, b) => parseInt(a) - parseInt(b))
     
     for (let i = 1; i < levels.length; i++) {

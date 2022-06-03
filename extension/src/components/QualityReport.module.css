@@ -58,6 +58,10 @@
     display: none;
 }
 
+.A-plus {
+    color: var(--color-A-plus);
+}
+
 .A {
     color: var(--color-A);
 }

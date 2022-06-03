@@ -9,11 +9,11 @@ const classnames = require('classnames')
 export default function QualityReport({ quality }) {
 
     const percentage = qualityToPercentage(quality)
-    const letter = qualityToLetter(quality) || "?"
+    const letter = qualityToLetter(quality)
 
     return (
-        <div className={classnames(styles.quality, styles[letter.charAt(0)], { [styles.hasQuality]: !!quality })}>
-            <strong className={classnames(styles.letter)}>{letter}</strong>
+        <div className={classnames(styles.quality, styles[letter], { [styles.hasQuality]: !!quality })}>
+            <strong className={classnames(styles.letter)}>{letter === "A-plus" ? "A+" : letter}</strong>
             <small className={classNames(styles.percentage)}>{"(" + percentage + "%)"}</small>
 
             <a className={styles.disclaimer} data-tip='custom show' data-for="disclaimer" data-event='click focus'>What is this?</a>

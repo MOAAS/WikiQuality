@@ -38,7 +38,7 @@ function App() {
       </div>
 
       <div className={styles.footer}>
-      <ReadabilityReport features={features}/>
+        <ReadabilityReport features={features}/>
         <FeatureReport features={features}/>
       </div>
     </div>
