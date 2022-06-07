@@ -42,7 +42,7 @@ export default function ReadabilityReport({ features }) {
         <div className={styles.readability}>
             <h3><a data-tip data-for="help-readability">Readability Score</a></h3>
             <ReactTooltip id="help-readability" type="info" effect="solid" className={styles.tooltip}>
-                The readability score is the estimated U.S. grade level required to fully comprehend the text. It was determined by combining the values of multiple readability formulas.
+                The readability score is the estimated U.S. grade level required to fully comprehend the text, calculated by combining the values of multiple readability formulas. These formulas were specifically designed to measure English articles, so they may not be as accurate in other languages.
             </ReactTooltip>
 
 
@@ -53,7 +53,7 @@ export default function ReadabilityReport({ features }) {
                 <GradeLevel minLevel={5} maxLevel={10} description="Middle School"/>
                 <GradeLevel minLevel={10} maxLevel={13} description="High School"/>
                 <GradeLevel minLevel={13} maxLevel={14} description="College"/>
-                <GradeLevel minLevel={14} description="Graduate"/>
+                <GradeLevel minLevel={14} maxLevel={15} description="Graduate"/>
 
                 <FillBar readability={average}/>
             </div>
@@ -91,7 +91,7 @@ const GradeLevel = ({minLevel, maxLevel, description}) => {
     let range = `${minLevel} - ${maxLevel - 1}`
     if (maxLevel - 1 === minLevel)
         range = minLevel;
-    if (maxLevel === undefined)
+    if (maxLevel === 15)
         range = `${minLevel}+`
 
     return (

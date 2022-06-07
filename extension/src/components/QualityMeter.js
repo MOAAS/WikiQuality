@@ -25,6 +25,7 @@ export default function QualityMeter({quality}) {
 function QualityBlock({letter}) {
     let className = letter === "A+" ? styles["Aplus-block"] : styles[letter + "-block"];
 
+
     return (
         <div className={classnames(className, styles.block)}>
             <div className={styles.letter}>{letter}</div>

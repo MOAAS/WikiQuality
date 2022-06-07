@@ -4,8 +4,6 @@
 
 .grades {
     display: flex;
-    grid-template-columns: repeat(6, 1fr);
-    border-collapse: collapse;
 
     border: 1px solid black;
     background: rgba(167, 154, 154, 0.5);
@@ -54,6 +52,8 @@
     line-height: 20px;
     font-size: 1.25em;
     z-index: 200;
+
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.50);
 }
 
 
