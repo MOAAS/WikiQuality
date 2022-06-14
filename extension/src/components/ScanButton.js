@@ -26,7 +26,7 @@ export default function ScanButton({ title, language, onScanComplete }) {
     }, [title, language, onScanComplete])
 
     return (
-        <div style={{display: "flex"}}>
+        <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <button onClick={scanTitle} className={classnames(styles.button, { [styles.active]: loading })} disabled={loading || !title}>
                 {loading ? "Scanning..." : "Scan"}
             </button>
