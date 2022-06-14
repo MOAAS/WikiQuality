@@ -5,7 +5,12 @@ import styles from "./ScanButton.module.css";
 
 const classnames = require("classnames")
 
-const API_URL = "http://localhost:5000/evaluate";
+function GET_API_URL() {
+    if (process.env.NODE_ENV === "development")
+        return "http://localhost:5000/evaluate"
+    else return "https://wikiquality.herokuapp.com/evaluate"
+}
+
 
 export default function ScanButton({ title, language, onScanComplete }) {
     const [error, setError] = useState("");
@@ -16,7 +21,7 @@ export default function ScanButton({ title, language, onScanComplete }) {
 
     const scanTitle = useCallback(() => {
         setLoading(true);
-        axios.get(`${API_URL}/${title}/${language}`).then(res => {
+        axios.get(`${GET_API_URL()}/${title}/${language}`).then(res => {
           console.log(res.data)
           onScanComplete(res.data.quality, res.data.features);
         }).catch(err => {  
