@@ -1,7 +1,7 @@
 {
-  "short_name": "Your Extension Short Name",
-  "name": "Getting Started Example",
-  "description": "Build an Extension!",
+  "short_name": "WikiQuality",
+  "name": "WikiQuality",
+  "description": "WikiQuality is a Google Chrome extension that assists Wikipedia readers and editors by automatically predicting the quality of the article they are reading.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -29,7 +29,6 @@
           "128": "/ext/icons/get_started128.png"
       }
   },
-  "options_page": "ext/options.html",
   "commands": {
     "_execute_action": {
       "suggested_key": {
