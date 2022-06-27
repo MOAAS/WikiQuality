@@ -1,33 +1,105 @@
-import classNames from 'classnames'
 import styles from './QualityReport.module.css'
-import qualityToLetter from '../lib/qualityToLetter'
+import classNames from "classnames";
 
-import ReactTooltip from 'react-tooltip'
-
-const classnames = require('classnames')
+import {
+    letterToColor,
+    percentageToQuality,
+    qualityToColor,
+    qualityToLetter,
+    qualityToPercentage
+} from '../lib/qualityUtils'
+import {useEffect, useState} from "react";
 
 export default function QualityReport({ quality }) {
 
     const percentage = qualityToPercentage(quality)
     const letter = qualityToLetter(quality)
 
+    const [pointerRotation, setPointerRotation] = useState(0)
+    const pointerPercentage = pointerRotation / 3.6
+
+    useEffect(() => {
+        const desiredRotation = percentage * 3.6
+        const difference = desiredRotation - pointerRotation
+        const durationMs = 1500;
+        const rotationPerMS = difference / durationMs
+
+        let currRotation = pointerRotation
+        let currTime = performance.now()
+        let goUp = difference > 0;
+
+        const interval = setInterval(() => {
+            if (currRotation === desiredRotation) {
+                clearInterval(interval)
+                return
+            }
+            currRotation += rotationPerMS * (performance.now() - currTime)
+            currTime = performance.now()
+            if ((goUp && currRotation >= desiredRotation) || (!goUp && currRotation <= desiredRotation))
+                currRotation = desiredRotation
+
+            setPointerRotation(currRotation)
+        }, 10)
+
+        return () => clearInterval(interval)
+    }, [quality])
+
+
+
     return (
-        <div className={classnames(styles.quality, styles[letter], { [styles.hasQuality]: !!quality })}>
-            <strong className={classnames(styles.letter)}>{letter === "A-plus" ? "A+" : letter}</strong>
-            <small className={classNames(styles.percentage)}>{"(" + percentage + "%)"}</small>
+        <div className={styles.container}>
+            <svg className={classNames(styles[letter])} width="100%" height="100%" viewBox="0 0 40 40">
+                <CircleSegment fill="#fff"/> {/* hole */}
+                <CircleSegment stroke="#d2d3d4"/> {/* backdrop */}
 
-            <a className={styles.disclaimer} data-tip='custom show' data-for="disclaimer" data-event='click focus'>What is this?</a>
+                <CircleSegment stroke={letterToColor('F')} from="0" to="40" dontGoOver={percentage}/>
+                <CircleSegment stroke={letterToColor('D')} from="40" to="60" dontGoOver={percentage}/>
+                <CircleSegment stroke={letterToColor('C')} from="60" to="70" dontGoOver={percentage}/>
+                <CircleSegment stroke={letterToColor('B')} from="70" to="85" dontGoOver={percentage}/>
+                <CircleSegment stroke={letterToColor('A')} from="85" to="95" dontGoOver={percentage}/>
+                <CircleSegment stroke={letterToColor('A-plus')} from="95" to="100" dontGoOver={percentage}/>
 
 
-            <ReactTooltip id="disclaimer" type="info" effect="solid" className={styles.tooltip} arrowColor="#fff">
-                <strong>Disclaimer:</strong> This meter does not aim to assess accuracy of facts stated in Wikipedia articles, but instead measures quality using a Machine Learning approach that combines multiple predefined metrics. This model predicts quality with a mean error of 9%, worse on non-English articles, so these results are meant to be indicators of quality and are not to be taken as flawless ratings. Definitions of quality are based on Wikipedia's <a href='https://en.wikipedia.org/wiki/Wikipedia:Content_assessment'>quality scale</a>.
-                {/* Cite paper */}
-            </ReactTooltip>
+
+                <g>
+                    <text x="50%" y="50%" className={styles.letter}>
+                        {letter === "A-plus" ? "A+" : letter}
+                    </text>
+                    <text x="50%" y="50%" className={styles.percentage}>
+                        {percentage + "%"}
+                    </text>
+                </g>
+                <CircleSegment className={styles.mask} stroke="#d2d3d4" from={pointerPercentage} to="100"/> {/* mask */}
+
+                <Pointer color={qualityToColor(percentageToQuality(pointerPercentage))} rotation={pointerRotation} />
+
+            </svg>
         </div>
     )
 }
 
-function qualityToPercentage(quality) {
-    return Math.round(quality * 100)
+
+function Pointer({ rotation, color }) {
+
+    return (
+        <polygon className={styles.pointer} points="18.5,0 21.5,0 20,2.25" fill={color}
+                 style={{transform: `rotate(${rotation}deg)`}}/>
+    )
+}
+function CircleSegment({from = 0, to = 100, dontGoOver, ...props}) {
+    // radius for circumference of 100
+    // https://heyoka.medium.com/scratch-made-svg-donut-pie-charts-in-html5-2c587e935d72
+    if (dontGoOver) {
+        to = Math.min(to, dontGoOver)
+        from = Math.min(from, dontGoOver)
+    }
+    return (
+        <circle {...props} cx="50%" cy="50%" r="15.91549430918954"
+                fill={props.fill || "transparent"}
+                strokeWidth="3"
+                strokeDasharray={`0 ${from} ${to - from} ${100 - to}`}
+                strokeDashoffset="25"
+        />
+    )
 }
 

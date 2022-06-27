@@ -1,47 +1,41 @@
 .app {
+  width: 550px;
+  max-height: 375px;
+  overflow: hidden;
 
-  width: 600px;
-  min-height: 300px;
   margin: auto;
+  padding-bottom: 1.5em;
+  border-radius: 10px;
 
-  background-color: #eee;
-  color: black;
+  background-color: white;
+  color: #333;
 
-  padding: 1em;
-
-  display: grid;
-  grid-template-areas: 
-    "nothing header meter"
-    "nothing main meter"
-    "footer footer footer";
-  grid-template-columns: 100px 1fr 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   --color-A-plus: #80BBD1;
   --color-A: #6FE080;
   --color-B: #D4ED5E;
   --color-C: #FCE43A;
-  --color-D: #F39A28;
-  --color-F: #EE4C36;  
+  --color-D: #F28A28;
+  --color-F: #DC0D0D;
 
-  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
 }
 
-.app h1 {
-  font-weight: normal;
-  grid-area: header;
-  text-align: center;
+
+.app.hasQuality {
+  max-height: 800px;
 }
 
-.main {
-  grid-area: main;
-  max-width: 300px;
-  margin: auto;
+.app .reports {
+  box-sizing: border-box;
+  padding: 1.5em;
+  padding-top: 0;
+  width: 100%;
 }
 
-.meter {
-  grid-area: meter;
-}
-
-.footer {
-  grid-area: footer;
+.app:not(.hasQuality) .reports {
+  display: none;
 }

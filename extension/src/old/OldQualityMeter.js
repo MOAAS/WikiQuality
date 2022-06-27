@@ -1,9 +1,11 @@
-import qualityToLetter from '../lib/qualityToLetter';
-import styles from './QualityMeter.module.css'
+import qualityToLetter from '../lib/qualityUtils';
+import styles from './OldQualityMeter.module.css'
 
 const classnames = require('classnames')
 
-export default function QualityMeter({quality}) {
+// Unused
+
+export default function OldQualityMeter({quality}) {
     const letter = qualityToLetter(quality)
 
     return (

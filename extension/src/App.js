@@ -4,11 +4,12 @@ import { useState } from 'react';
 
 import useWikipediaTitle from './hooks/useWikipediaTitle';
 import ScanButton from './components/ScanButton';
-import WikiTitle from './components/WikiTitle';
+import WikiHeader from './components/WikiHeader';
 import QualityReport from './components/QualityReport';
-import QualityMeter from './components/QualityMeter';
 import FeatureReport from './components/FeatureReport';
-import ReadabilityReport from './components/ReadabilityReport'
+import InfoTitle from './components/InfoTitle';
+import classNames from 'classnames';
+import ReadabilityReport from "./components/ReadabilityReport";
 
 function App() {
   const [quality, setQuality] = useState(null)
@@ -21,23 +22,18 @@ function App() {
   }
 
   return (
-    <div className={styles.app}>
-      <h1>WikiQuality</h1>
+    <div className={classNames(styles.app, {[styles.hasQuality]: quality })} >
+      <WikiHeader isLoading={isLoading} title={title} language={language} />
 
-      <div className={styles.main}>
-        <WikiTitle isLoading={isLoading} title={title} language={language} />
-
-
-        <ScanButton title={title} language={language} onScanComplete={onScanComplete}/>
-
-        <QualityReport quality={quality}/>
+      <div>
+        <InfoTitle title="Quality" infoFile="quality.txt"/>
+        {quality ?
+          <QualityReport quality={quality}/> :
+          <ScanButton title={title} language={language} onScanComplete={onScanComplete}/>
+        }
       </div>
 
-      <div className={styles.meter}>
-        <QualityMeter quality={quality}/>
-      </div>
-
-      <div className={styles.footer}>
+      <div className={styles.reports}>
         <ReadabilityReport features={features}/>
         <FeatureReport features={features}/>
       </div>

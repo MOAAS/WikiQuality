@@ -1,84 +1,58 @@
-.quality {
-    margin: 0.5em 0 1em auto;
-
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    column-gap: 12px;
-    grid-template-areas: 
-        "letter percentage"
-        "disclaimer disclaimer";
-
-    transform: scale(0);
-    transition: transform 0.5s ease-in-out;
+.container {
+    width: 150px;
+    height: 150px;
 }
 
-.quality.hasQuality {
-    transform: scale(1);
+
+.letter {
+    fill: var(--quality-color);
+
+    font-weight: bold;
+    font-size: 0.8em;
+    text-anchor: middle;
+    transform: translateY(0.2em);
 }
 
 .percentage {
-    font-size: 1.5em;
-    grid-area: percentage;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    fill: var(--quality-color);
+
+    font-size: 0.3em;
+    text-anchor: middle;
+    transform: translateY(1.75em);
 }
 
-.letter {
-    font-size: 5em;
-    grid-area: letter;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+.mask {
+    transform: rotateY(0deg);
+    transform-origin: center;
 }
 
-.disclaimer {
-    text-align: center;
-    
-    font-size: 0.8em;
-    grid-area: disclaimer;
-    color: black;
-    text-decoration: underline;
-    cursor: pointer;
+.pointer {
+    transform-origin: 20px 20px;
 }
 
-.tooltip {
-    width: 300px;
-    background: white !important;
-    color: black !important;
-    text-align: justify;
-    text-justify: inter-word;
-    position: absolute !important;
-    pointer-events: all !important;
 
-
-    -webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25);
-}
-
-.tooltip::after {
-    display: none;
-}
 
 .A-plus {
-    color: var(--color-A-plus);
+    --quality-color: var(--color-A-plus);
 }
 
 .A {
-    color: var(--color-A);
+    --quality-color: var(--color-A);
 }
 
 .B {
-    color: var(--color-B);
+    --quality-color: var(--color-B);
 }
 
 .C {
-    color: var(--color-C);
+    --quality-color: var(--color-C);
 }
 
 .D {
-    color: var(--color-D);
+    --quality-color: var(--color-D);
 }
 
 .F {
-    color: var(--color-F);
+    --quality-color: var(--color-F);
 }
 
