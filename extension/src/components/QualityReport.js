@@ -89,7 +89,7 @@ function Pointer({ rotation, color }) {
 function CircleSegment({from = 0, to = 100, dontGoOver, ...props}) {
     // radius for circumference of 100
     // https://heyoka.medium.com/scratch-made-svg-donut-pie-charts-in-html5-2c587e935d72
-    if (dontGoOver) {
+    if (dontGoOver !== undefined) {
         to = Math.min(to, dontGoOver)
         from = Math.min(from, dontGoOver)
     }
