@@ -1,12 +1,11 @@
 import styles from './WikiHeader.module.css';
 import languages from '../lib/languages.json';
 
-export default function WikiHeader({ isLoading, title, language }) {
-
+export default function WikiHeader({ isLoading, title, language }) {    
     if (isLoading)
         title = "Loading..."
     else if (!title)
-        title = "Not on a Wikipedia page."
+        title = <span style={{color: "var(--error)"}}>Not on a Wikipedia page.</span>
 
     return (
         <header className={styles.header}>

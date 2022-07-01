@@ -12,7 +12,7 @@
   border-radius: 50%;
 
 
-  transition: all 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
 
   background: rgb(255,255,255);
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%);
@@ -25,7 +25,7 @@
 
 }
 
-.button[disabled]:not(.active) {
+.button[disabled]:not(.loading) {
   /* if disabled don't let background be changed */
   background: rgb(255,255,255) !important;
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(205,205,205,1) 100%) !important;
@@ -36,9 +36,18 @@
   background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(202,202,202,1) 100%);
 }
 
-.button:active, .button.active {
+.button:active, .button.loading {
   background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(202,202,202,1) 100%);
 
   --scan-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
 
+}
+
+.button.loading {
+  font-size: 1.25em;
+}
+
+.error {
+  color: var(--error);
+  margin-bottom: 0;
 }

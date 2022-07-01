@@ -56,17 +56,21 @@
 /* Separator */
 
 .separator {
-    width: 1px;
     height: 100%;
     position: absolute;
-    left: 50%;
-    top: 0;
+}
 
-    background: rgba(128, 128, 128, 0.2);
+.separator div {
+    border-width: 0 1px 0 0;
+    border-style: dashed;
+    
+    height: 100%;
+    opacity: 0.5;
 }
 
 .separator span {
     position: absolute;
+    top: 0;
     transform: translate(-50%, -100%);
     font-size: 0.75em;
     padding-bottom: 1px;

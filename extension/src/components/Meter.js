@@ -2,26 +2,29 @@ import styles from './Meter.module.css';
 
 import classNames from "classnames";
 
-export default function Meter({ min, max, value, title, steps, color }) {
+export default function Meter({ min, max, value, title, color, steps, stepColors = [] }) {
     const range = max - min;
-    const percent = (value - min) / range;
-    const pointerPercent = Math.min(Math.max(percent, 0.0), 1); // minimum of 0.05 and maximum of 0.95
 
+    let percent = (value - min) / range;
+    percent = Math.min(Math.max(percent, 0.0), 1);
 
+    if (percent < 0.01)
+        percent = 0; // hide the meter if it's too small
+        
     return (
         <div className={styles.container} >
 
             <p className={styles.title}>{title}</p>
 
             <div className={styles.meter}>
-                <MeterPointer color={color} percent={pointerPercent} value={value}/>
+                <MeterPointer color={color} percent={percent} value={value}/>
 
                 <div style={{ width: percent * 100 + "%", background: color }}
                      className={classNames(styles.fillBar, {[styles.full]: percent >= 0.975})}
                 />
 
-                {steps.map(step =>
-                    <MeterSeparator key={step} percent={step} meterRange={[min, max]}/>
+                {steps.map((step, index) =>
+                    <MeterSeparator key={step} percent={step} meterRange={[min, max]} color={stepColors[index]}/>
                 )}
             </div>
         </div>
@@ -39,13 +42,14 @@ function MeterPointer({ color, percent, value }) {
 }
 
 
-function MeterSeparator({percent, meterRange}) {
+function MeterSeparator({color, percent, meterRange}) {
     const [min, max] = meterRange;
     const range = max - min;
     const value = min + range * percent;
 
     return (
         <div className={classNames(styles.separator)} style={{left: percent * 100 + "%"}}>
+            <div style={{borderColor: color || "transparent" }}/>
             <span>{FormatNumber(value)}</span>
         </div>
     )

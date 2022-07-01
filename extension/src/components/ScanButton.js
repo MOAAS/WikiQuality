@@ -19,6 +19,7 @@ export default function ScanButton({ title, language, onScanComplete }) {
 
     const scanTitle = useCallback(() => {
         setLoading(true);
+        setError("");
         axios.get(`${GET_API_URL()}/${title}/${language}`).then(res => {
           console.log(res.data)
           onScanComplete(res.data.quality, res.data.features);
@@ -30,10 +31,10 @@ export default function ScanButton({ title, language, onScanComplete }) {
 
     return (
         <div className={styles.container}>
-            <button onClick={scanTitle} className={classnames(styles.button, { [styles.active]: loading })} disabled={loading || !title}>
-                Scan
+            <button onClick={scanTitle} className={classnames(styles.button, { [styles.loading]: loading })} disabled={loading || !title}>
+                {loading ? "Scanning..." : "Scan"}
             </button>
-            {error && <p>{error}</p>}
+            {error && <p className={styles.error}>{error}</p>}
         </div>
     )
 }

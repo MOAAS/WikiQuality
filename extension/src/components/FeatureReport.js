@@ -15,7 +15,7 @@ export default function FeatureReport({ features }) {
     //const readability = GetCategories(features, validFeatures, 'R');
     //const history = GetCategories(features, validFeatures, 'H');   
 
-    const relevantFeatures = GetCategories(features, validFeatures, ["CC", "CW", "CCC", "CSN", "HA", "HR"])
+    const relevantFeatures = GetCategories(features, validFeatures, ["CC", "CCC", "CIL", "CI", "CW", "CSN", "HA", "HR"])
 
     return (
         <div>
@@ -52,8 +52,11 @@ function FeatureMeter({ feature, value }) {
     const [goodMin, goodMax] = iqrs[feature].range;
     const goodRange = goodMax - goodMin;
 
-    const min = goodMin - 2 * goodRange;
+    const min = Math.max(goodMin - 2 * goodRange, 0);
     const max = goodMax + 0.1 * goodRange;
+    const range = max - min;
+
+
 
     const [mediumMin, mediumMax] = [(min + goodMin) / 2, (max + goodMax) / 2];
 
@@ -63,9 +66,17 @@ function FeatureMeter({ feature, value }) {
     else if (value >= mediumMin && value <= mediumMax)
         color = "var(--color-medium)";
 
+    let goodMinStep = (goodMin - min) / range;
+    let goodMaxStep = (goodMax - min) / range;
+
+
 
     return (
-        <Meter min={min} max={max} title={iqrs[feature].name} value={value} color={color} steps={[0.05, 0.33, 0.67, 0.95]} />
+        <Meter min={min} max={max} title={iqrs[feature].name} value={value} color={color} 
+            //steps={[0.05, 0.33, 0.67, 0.95]}
+            steps={[goodMinStep, goodMaxStep]}
+            stepColors={["var(--color-good)", "var(--color-good)"]}
+        />
     )
 }
 
@@ -76,7 +87,7 @@ function GetCategories(features, validList, match) {
     if (typeof match === "string")
         keys = validList.filter(key => key.startsWith(match));
     else if (Array.isArray(match))
-        keys = validList.filter(key => match.includes(key));
+        keys = validList.OUTter(key => match.includes(key));
 
     const filtered = {};
     keys.forEach(key => {
