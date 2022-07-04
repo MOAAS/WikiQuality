@@ -49,7 +49,7 @@ function MeterSeparator({color, percent, meterRange}) {
 
     return (
         <div className={classNames(styles.separator)} style={{left: percent * 100 + "%"}}>
-            <div style={{borderColor: color || "initial" }}/>
+            <div style={{borderColor: color || "transparent" }}/>
             <span style={{ color: color || "initial"}}>{FormatNumber(value)}</span>
         </div>
     )

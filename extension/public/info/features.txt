@@ -1,4 +1,4 @@
-The extension also summarizes the values of some features that are typically correlated with article quality. The thresholds were obtained from the feature values of the 25% and 50% percentiles of Featured Articles (<strong>P25</strong> and <strong>P50</strong>), and are respectively marked by orange and green separators. The results are color-coded as follows: 
+The extension also summarizes the values of some features that are typically correlated with article quality. The thresholds were obtained from the feature values of the 25% and 50% percentiles of English Featured Articles (<strong>P25</strong> and <strong>P50</strong>), and are respectively marked by orange and green separators. The results are color-coded as follows: 
 
 <br> <strong style="color: var(--color-good)">Green:</strong> ≥ P50
 <br> <strong style="color: var(--color-medium)">Orange:</strong> ≥ P25 and < P50
