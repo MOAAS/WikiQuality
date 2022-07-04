@@ -68,7 +68,7 @@ def compute_content_features(wikitext, plaintext, words, sentences):
     ft['CILPC'] = ft['CIL'] / ft['CC'] # Internal Link Count per Character    
 
     
-    base_images = len(re.findall(r'\[\[(Image:|File:)(.*?)\]\]', wikitext))
+    base_images = len(re.findall(r'\[\[(Image:|File:)(.*?)\]\]', wikitext, re.IGNORECASE))
     galleries = re.findall(r'<gallery[^>]*>(.*?)</gallery>', wikitext, flags=re.DOTALL | re.IGNORECASE)
     gallery_images = sum([len(re.findall(r'File:', gallery)) for gallery in galleries])
     

@@ -28,6 +28,7 @@ export default function ReadabilityReport({ features }) {
 
     if (isNaN(average))
         average = 0;
+    else average = Math.round(average * 10) / 10;
 
     const { color, level } = getReadabilityInfo(average);
 
@@ -36,7 +37,7 @@ export default function ReadabilityReport({ features }) {
         <div className={styles.container}>
             <InfoTitle title="Readability" infoFile="readability.txt" />
 
-            <strong className={styles.score} style={{color}}>{Math.round(average * 10) / 10}</strong>
+            <strong className={styles.score} style={{color}}>{average}</strong>
             <small className={styles.description}>{level}</small>
 
             <div style={{ width: "50%" }}>
@@ -50,14 +51,14 @@ export default function ReadabilityReport({ features }) {
 }
 function getReadabilityInfo(readability) {
     if (readability >= 14)
-        return {color: "var(--color-F)", level: "Graduate Level"};
+        return {color: "var(--color-bad)", level: "Graduate Level"};
     if (readability >= 13)
-        return {color: "var(--color-D)", level: "College Level"};
+        return {color: "var(--color-medium)", level: "College Level"};
     if (readability >= 10)
-        return {color: "var(--color-D)", level: "High School Level"};
+        return {color: "var(--color-medium)", level: "High School Level"};
     if (readability >= 5)
-        return {color: "var(--color-A)", level: "Middle School Level"};
+        return {color: "var(--color-good)", level: "Middle School Level"};
     if (readability >= 1)
-        return {color: "var(--color-A)", level: "Elementary School Level"};
-    return {color: "var(--color-A)", level: "Pre-school Level"};
+        return {color: "var(--color-good)", level: "Elementary School Level"};
+    return {color: "var(--color-good)", level: "Pre-school Level"};
 }
