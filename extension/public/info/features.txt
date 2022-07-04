@@ -1,1 +1,5 @@
-The extension also summarizes the values of some features that are typically correlated with article quality. The optimal range was obtained from the feature values of the 33% and 99% percentiles of Featured Articles, and is bounded by the green separators. We opted for those specific range limits to avoid extreme outliers without penalizing good values, considering most featured articles usually have higher feature values.
+The extension also summarizes the values of some features that are typically correlated with article quality. The thresholds were obtained from the feature values of the 25% and 50% percentiles of Featured Articles (<strong>25P</strong> and <strong>50P</strong>), and are respectively marked by orange and green separators. The results are color-coded as follows: 
+
+<br> <strong style="color: var(--color-good)">Green:</strong> ≥ 50P
+<br> <strong style="color: var(--color-medium)">Orange:</strong> ≥ 25P and < 50P
+<br> <strong style="color: var(--color-bad)">Red:</strong> < 25P

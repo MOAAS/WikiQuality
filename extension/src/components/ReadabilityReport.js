@@ -48,16 +48,15 @@ export default function ReadabilityReport({ features }) {
     )
 
 }
-
 function getReadabilityInfo(readability) {
     if (readability >= 14)
         return {color: "var(--color-F)", level: "Graduate Level"};
     if (readability >= 13)
         return {color: "var(--color-D)", level: "College Level"};
     if (readability >= 10)
-        return {color: "var(--color-C)", level: "High School Level"};
+        return {color: "var(--color-D)", level: "High School Level"};
     if (readability >= 5)
-        return {color: "var(--color-B)", level: "Middle School Level"};
+        return {color: "var(--color-A)", level: "Middle School Level"};
     if (readability >= 1)
         return {color: "var(--color-A)", level: "Elementary School Level"};
     return {color: "var(--color-A)", level: "Pre-school Level"};

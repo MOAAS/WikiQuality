@@ -20,6 +20,10 @@
   --color-D: #F28A28;
   --color-F: #DC0D0D;
 
+  --color-bad: var(--color-F);
+  --color-medium: var(--color-D);
+  --color-good: var(--color-A);
+
   transition: all 0.3s ease-in-out;
 }
 

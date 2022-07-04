@@ -7,8 +7,4 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 32px;
     column-gap: 24px;
-
-    --color-bad: var(--color-F);
-    --color-medium: var(--color-D);
-    --color-good: var(--color-A);
 }

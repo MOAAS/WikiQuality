@@ -1,1 +1,7 @@
-The readability score is the estimated U.S. grade level required to fully comprehend the text, calculated by combining the values of multiple readability formulas. A higher value indicates the text is more difficult to read. These formulas were specifically designed to measure English articles, so they may not be as accurate in other languages.
+The readability score is the estimated U.S. grade level required to fully comprehend the text, calculated by combining the values of multiple readability formulas. These formulas were specifically designed to measure English articles, so they may not be as accurate in other languages. The results are color-coded as follows: 
+
+<br> <strong style="color: var(--color-good)">Green:</strong> Pre-School - Middle School Level (Grades 0-8)
+<br> <strong style="color: var(--color-medium)">Orange:</strong> High School - College Level (Grades 10-13)
+<br> <strong style="color: var(--color-bad)">Red:</strong> Graduate Level (Grades 14+) 
+
+
