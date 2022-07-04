@@ -1,3 +1,4 @@
+from calendar import c
 import matplotlib.pyplot as plot
 import os
 import pandas as pd
@@ -59,9 +60,10 @@ def get_fa_ranges():
     fa = dataset[dataset['Quality'] == 'FA']
     fa = fa.drop(['Title', 'Quality'], axis=1)
     
+    quantiles = [0.25, 0.333, 0.5, 0.75, 0.99]
     ranges = {}
     for column in columns:
-        ranges[column] = {"name": "???", "range": [fa[column].quantile(0.33), fa[column].quantile(0.99)]}
+        ranges[column] = {"name": "???", "range": [fa[column].quantile(q) for q in quantiles]}
 
     print("{")
     for k, v in ranges.items():

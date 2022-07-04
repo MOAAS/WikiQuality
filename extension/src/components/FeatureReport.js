@@ -49,33 +49,34 @@ function FeatureMeter({ feature, value }) {
         console.warn("Feature not found: " + feature);
         return null;
     }
-    const [goodMin, goodMax] = iqrs[feature].range;
-    const goodRange = goodMax - goodMin;
+    const [p25, p33, p50, p75, p99] = iqrs[feature].range;
 
-    const min = Math.max(goodMin - 2 * goodRange, 0);
-    const max = goodMax + 0.1 * goodRange;
+    const mediumMin = p25;
+    const goodMin = p50;
+
+    const min = 0;
+    const max = goodMin * 2;
+
     const range = max - min;
 
 
-
-    const [mediumMin, mediumMax] = [(min + goodMin) / 2, (max + goodMax) / 2];
-
     let color = "var(--color-bad)"
-    if (value >= goodMin && value <= goodMax)
+    if (value >= goodMin)
         color = "var(--color-good)";
-    else if (value >= mediumMin && value <= mediumMax)
+    else if (value >= mediumMin)
         color = "var(--color-medium)";
 
+    let mediumMinStep = (mediumMin - min) / range;
     let goodMinStep = (goodMin - min) / range;
-    let goodMaxStep = (goodMax - min) / range;
 
-
-
+    const steps = [mediumMinStep, goodMinStep];
+    const stepColors = ["var(--color-medium)", "var(--color-good)"];
+        
     return (
         <Meter min={min} max={max} title={iqrs[feature].name} value={value} color={color} 
             //steps={[0.05, 0.33, 0.67, 0.95]}
-            steps={[goodMinStep, goodMaxStep]}
-            stepColors={["var(--color-good)", "var(--color-good)"]}
+            steps={steps}
+            stepColors={stepColors}
         />
     )
 }
@@ -87,7 +88,7 @@ function GetCategories(features, validList, match) {
     if (typeof match === "string")
         keys = validList.filter(key => key.startsWith(match));
     else if (Array.isArray(match))
-        keys = validList.OUTter(key => match.includes(key));
+        keys = validList.filter(key => match.includes(key));
 
     const filtered = {};
     keys.forEach(key => {
