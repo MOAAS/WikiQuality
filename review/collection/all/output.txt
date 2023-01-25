@@ -1,0 +1,379 @@
+Measuring article quality in wikipedia: models and evaluation
+Cooperation and quality in wikipedia
+Who does what: Collaboration patterns in the Wikipedia and their impact on article quality
+Size matters: word count as a measure of quality on wikipedia
+Harnessing the wisdom of crowds in wikipedia: quality through coordination
+Determinants of wikipedia quality: the roles of global and local contribution inequality
+Information quality work organization in Wikipedia
+On measuring the quality of Wikipedia articles
+Don't bite the newbies: how reverts affect the quantity and quality of Wikipedia work
+Assessing the quality of Wikipedia articles with lifecycle based metrics
+Statistical measure of quality in Wikipedia
+Information quality discussions in Wikipedia
+Tell me more: an actionable quality model for Wikipedia
+Automatic quality assessment of content created collaboratively by web communities: a case study of wikipedia
+Learning to predict the quality of contributions to wikipedia
+Measuring quality of collaboratively edited documents: The case of Wikipedia
+Predicting quality flaws in user-generated content: the case of wikipedia
+Quality and importance of Wikipedia articles in different languages
+A jury of your peers: quality, experience and ownership in Wikipedia
+Automatically assessing Wikipedia article quality by exploiting article–editor networks
+Information quality in Wikipedia: The effects of group composition and task conflict
+Interpolating quality dynamics in Wikipedia and demonstrating the Keilana effect
+An end-to-end learning solution for assessing the quality of Wikipedia articles
+Quality assessment of wikipedia articles without feature engineering
+Relating Wikipedia article quality to edit behavior and link structure
+Assessing the quality of information on wikipedia: A deep‐learning approach
+Automatically assessing the quality of Wikipedia articles
+Information quality assessment of community generated content: A user study of Wikipedia
+Using big data and network analysis to understand Wikipedia article quality
+Measuring article quality in Wikipedia: Lexical clue model
+A hybrid model for quality assessment of Wikipedia articles
+Measuring article quality in wikipedia using the collaboration network
+QuWi: quality control in Wikipedia
+Modelling the quality of attributes in Wikipedia infoboxes
+Towards automatic quality assurance in Wikipedia
+What makes a good biography? Multidimensional quality analysis based on Wikipedia article feedback data
+Who does what: Collaboration patterns in the wikipedia and their impact on data quality
+NwQM: A neural quality assessment framework for Wikipedia
+Quality of information sources about mental disorders: a comparison of Wikipedia with centrally controlled web and printed sources
+Ranking of Wikipedia articles in search engines revisited: Fair ranking for reasonable quality?
+History-based article quality assessment on Wikipedia
+A breakdown of quality flaws in Wikipedia
+FlawFinder: A Modular System for Predicting Quality Flaws in Wikipedia.
+Analyzing and predicting quality flaws in user-generated content: the case of Wikipedia
+Wikipedia in academic studies: corrupting or improving the quality of teaching and learning?
+Relative quality and popularity evaluation of multilingual Wikipedia articles
+Wikipedia model for collective intelligence: a review of information quality
+A hybrid approach to classifying Wikipedia article quality flaws with feature fusion framework
+Requirements for the Linguistic Quality Control of Wikipedia Article
+The quality and readability of English Wikipedia anatomy articles
+Readability and quality of wikipedia pages on neurosurgical topics
+The quality of open source production: Zealots and good samaritans in the case of Wikipedia
+Wikipedia and Westminster: Quality and dynamics of Wikipedia pages about UK politicians
+Network analysis of user generated content quality in Wikipedia
+Improving the quality of consumer health information on Wikipedia: case series
+Explaining quality in internet collective goods: Zealots and good samaritans in the case of wikipedia
+Knowledge categorization affects popularity and quality of Wikipedia articles
+On improving wikipedia search using article quality
+Computational trust in Web content quality: a comparative evalutation on the Wikipedia project
+Mutual evaluation of editors and texts for assessing quality of Wikipedia articles
+Mining the factors affecting the quality of Wikipedia articles
+Measures for quality assessment of articles and infoboxes in multilingual Wikipedia
+Measuring the quality of scientific references in Wikipedia: an analysis of more than 115M citations to over 800 000 scientific articles
+Classifying Wikipedia article quality with revision history networks
+Wikipediaviz: Conveying article quality for casual wikipedia readers
+Multilingual ranking of Wikipedia articles with quality and popularity assessment in different topics
+Automatically assessing the quality of Wikipedia contents
+Pharmacy students can improve access to quality medicines information by editing Wikipedia articles
+Wisdom of crowds: the effect of participant composition and contribution behavior on Wikipedia article quality
+Quality evaluation of Wikipedia articles through edit history and editor groups
+Application of SEO metrics to determine the quality of Wikipedia articles and their sources
+Diversity of editors and teams versus quality of cooperative work: experiments on Wikipedia
+Readability and quality of Wikipedia articles on pelvic floor disorders
+A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia
+Overview of the 1th International Competition on Quality Flaw Prediction in Wikipedia.
+Automatically labeling low quality content on wikipedia by leveraging patterns in editing behaviors
+Your process is showing: controversy management and perceived quality in Wikipedia
+Article quality classification on Wikipedia: introducing document embeddings and content features
+Assessing quality score of Wikipedia article using mutual evaluation of editors and texts
+Measuring the quality of edits to wikipedia
+Mining and Predicting Temporal Patterns in the Quality Evolution of Wikipedia Articles.
+Quality assessment of Wikipedia articles using h-index
+WikiLyzer: interactive information quality assessment in Wikipedia
+'WP2Cochrane', a tool linking Wikipedia to the Cochrane Library: results of a bibliometric analysis evaluating article quality and importance
+An edit-centric approach for wikipedia article quality assessment
+A large-scale study of Wikipedia users' quality of experience
+StRE: Self attentive edit quality prediction in Wikipedia
+The role of conflict in determining consensus on quality in Wikipedia articles
+Quality assessment of wikipedia articles: A deep learning approach by quang vinh dang and claudia-lavinia ignat with martin vesely as coordinator
+Evaluating the trustworthiness of Wikipedia articles through quality and credibility
+The quality of content in open online collaboration platforms: Approaches to NLP-supported information quality management in Wikipedia
+A matter of words: NLP for quality evaluation of Wikipedia medical articles
+Analyzing Wikipedia users' perceived quality of experience: A large-scale study
+Indicator of quality for environmental articles on Wikipedia at the higher education level
+Mining team characteristics to predict Wikipedia article quality
+Estimating the quality of articles in Russian Wikipedia using the logical-linguistic model of fact extraction
+Quality change: norm or exception? Measurement, Analysis and Detection of Quality Change in Wikipedia
+NwQM: A neural quality assessment framework for Wikipedia
+Assessing the quality of Wikipedia editors through crowdsourcing
+Quality flaw prediction in Spanish Wikipedia: A case of study with verifiability flaws
+Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles
+Utilizing the Wikidata system to improve the quality of medical content in Wikipedia in diverse languages: a pilot study
+The impact of topic bias on quality flaw prediction in wikipedia
+Detecting and correcting spelling errors in high-quality dutch wikipedia text
+Effects of contributor experience on the quality of health-related Wikipedia articles
+Relative quality assessment of Wikipedia articles in different languages using synthetic measure
+On the use of reliable-negatives selection strategies in the pu learning approach for quality flaws prediction in wikipedia
+Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression
+Enrichment of information in multilingual Wikipedia based on quality analysis
+Quality evaluation of search results by typicality and speciality of terms extracted from wikipedia
+GreenWiki: A tool to support users' assessment of the quality of Wikipedia articles
+Social-collaborative determinants of content quality in online knowledge production systems: comparing Wikipedia and Stack Overflow
+Improving information quality of Wikipedia articles with cooperative principle
+An empirical study to predict the quality of wikipedia articles
+On the use of PU learning for quality flaw prediction in Wikipedia
+Thai Wikipedia quality measurement using fuzzy logic
+Qualityrank: assessing quality of wikipedia articles by mutually evaluating editors and texts
+A Framework for Assessing the Quality of Wikipedia Articles: A Meta-synthesis of the Literature
+Assessing Information Quality of Wikipedia Articles Through Google's EAT Model
+How to Inspect and Measure Data Quality about Scientific Publications: Use Case of Wikipedia and CRIS Databases
+Using hyperlink texts to improve quality of identifying document topics based on wikipedia
+Measuring Quality of Wikipedia Articles by Feature Fusion‐based Stack Learning
+An evaluation of the quality of consumer health information on Wikipedia
+The small worlds of Wikipedia: implications for growth, quality and sustainability of collaborative knowledge networks
+How do metrics of link analysis correlate to quality, relevance and popularity in wikipedia?
+Cooperation and quality in Wikipedia
+On the relation of edit behavior, link structure, and article quality on wikipedia
+A psycho-lexical approach to the assessment of information quality on wikipedia
+On the evolution of quality flaws and the effectiveness of cleanup tags in the English Wikipedia
+Thai Wikipedia article quality filtering algorithm
+Assessing the quality of wikipedia pages using edit longevity and contributor centrality
+Towards information quality assurance in Spanish Wikipedia
+Effects of implicit positive ratings for quality assessment of wikipedia articles
+Learning with Wikipedia in Higher Education: Academic Performance and Students' Quality Perception
+Self-regulation: How Wikipedia leverages user-generated quality control under section 230
+Assessing the Quality of Wikipedia Articles
+Quality of mental health information on Wikipedia
+Reciprocity and Donation: How Article Topic, Quality and Dwell Time Predict Banner Donation on Wikipedia
+Using morphological and semantic features for the quality assessment of Russian Wikipedia
+The adoption of wikipedia: A community-and information quality-based view
+Cross-lingual data quality for knowledge base acceleration across wikipedia editions
+Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia
+Knowledge quality of collaborative editing in Wikipedia: an integrative perspective of social capital and team conflict
+Content and Quality of Information about Stroke in Wikipedia across Multiple Languages
+Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia
+Effects of stigmergic and explicit coordination on Wikipedia article quality
+Predicting information quality flaws in Wikipedia by using classical and deep learning approaches
+Quality assessment of Arabic web content: The case of the Arabic Wikipedia
+Determining quality of articles in polish Wikipedia based on linguistic features
+Quality Classification of ASEAN Wikipedia Articles using Statistical Features
+Feature Analysis for Assessing the Quality of Wikipedia Articles through Supervised Classification
+Good quality complementary information for multilingual wikipedia
+Revisionist History: Predicting Wikipedia Article Quality With Edit Histories
+Use of linguistic criteria for estimating of wikipedia articles quality
+Cumulative experience and recent behavior and their relation to content quality on Wikipedia
+Quality of monkeypox information in Wikipedia across multiple languages
+On quality assesement in Wikipedia articles based on Markov random fields
+Quality of Articles in Wikipedia
+Assessing quality values of wikipedia articles using implicit positive and negative ratings
+On the Assessment of Information Quality in Spanish Wikipedia
+Assessing the quality of health-related Wikipedia articles with generic and specific metrics
+Ontology-Based Classifiers for Wikipedia Article Quality Classification
+Ranking Wikipedia article's data quality by learning dimension distributions
+Accuracy and quality in historical representation: Wikipedia, textbooks and the Investiture Controversy
+Automatically assessing the need of additional citations for information quality verification in Wikipedia articles
+Real-Time Prediction of Wikipedia Articles' Quality
+Comparative assessment of three quality frameworks for statistics derived from big data: the cases of Wikipedia page views and Automatic Identification …
+Contraception in the German-language Wikipedia: a content and quality analysis
+Assessing the quality of Thai Wikipedia articles using concept and statistical features
+Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia
+ANFIS Based Models for Accessing Quality of Wikipedia Articles
+Structure-Based Features for Predicting the Quality of Articles in Wikipedia
+Evaluating article quality and editor reputation in Wikipedia
+REVISION AND QUALITY ANALYSIS OF LIBRARY AND INFORMATION SCIENCE CONCEPTS IN WIKIPEDIA
+Citation Detective: a Public Dataset to Improve and Quantify Wikipedia Citation Quality at Scale
+A Strategy Oriented, Machine Learning Approach to Automatic Quality Assessment of Wikipedia Articles
+Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia.
+Overview of the 1st International Competition on Quality Flaw Prediction in Wikipedia
+A Modular System For Predicting Quality Flaws In Wikipedia
+Wikipedia-based Corpora for Analyzing Revisions, Discussions and Text Quality in Collaborative Writing
+Understanding the 'quality motion'of Wikipedia articles through semantic convergence analysis
+Quality contents creation in a commons: Based peer production on line environment: The IT. Wikipedia Experience
+The Wikipedia Medical Student: Comparing the Quality of Vascular Surgery Topics Across Two Commonly Used Educational Resources
+Structural analysis of wikigraph to investigate quality grades of wikipedia articles
+The Category Structure in Wikipedia: To Analyze and Know Its Quality Using K-Core Decomposition
+Building Quality in Wikipedia: A Theoretical Approach
+Quality assessment of Wikipedia content using topic models
+VUONG, Ba-Quy. On Improving Wikipedia Search using Article Quality.(2007)
+Promoting Quality in Wikipedia through Enculturation
+Predicting Information Quality Flaws in Wikipedia by Using Classical and Deep Learning Approaches
+Quality Evaluation of Wikipedia Articles Through Edit History and Editor Groups
+Mining team characteristics to predict Wikipedia article quality
+Quality of References Supporting Urologic Articles on Wikipedia
+Information Quality dimensions of Information Science articles in English Wikipedia: exploring the relationship between ranking of the Wikipedia articles in search …
+Correction to: Application of SEO Metrics to Determine the Quality of Wikipedia Articles and Their Sources
+Quality of open content in Wikipedia: towards a broader view of expertise?
+Predicting Low-Quality Wikipedia Articles Using User's Judgements
+CATEGORY" UKRAINE" IN WIKIPEDIA: QUALITY OF TRANSLATION OF WIKI-ARTICLES ABOUT UKRAINIAN NATIONAL MUSICAL INSTRUMENTS INTO ENGLISH
+An Investigation of the Relationship between the Amount of Extra-textual Data and the Quality of Wikipedia Articles
+Is Wikipedia a High Quality Evidence-Based Resource?
+Ranking of Wikipedia articles in search engines revisited: Fair ranking for reasonable quality?
+Monitoring network structure and content quality of signal processing articles on wikipedia
+Quick fix or citable source? Carol Haigh investigates the quality and rigour of using Wikipedia in support of academic research
+Internal Bonding, External Bridging and Functional Diversity: Impact of Social Capital on the Quality of Wikipedia Articles
+Quality Assessment of Wikipedia Articles Using h-index (Preprint)
+THE ADOPTION OF WIKIPEDIA: A COMMUNITY-AND INFORMATION QUALITY-BASED VIEW
+Towards the automatic evaluation of stylistic quality of natural texts: constructing a special-purpose corpus of stylistic edits from the Wikipedia revision history
+CMPSCI 645 Final Report Quality Evaluation of Wikipedia Articles
+Dark matter at 5800 An investigation of the quality of user-contributed entries on the topic of dark matter in Wikipedia and other types of texts
+Wiki Evolution dataset: English Wikipedia revision articles represented by quality attributes
+Polish Wikipedia Articles Quality Assessment
+… оценка на примере проекта Wikipedia. Computational trust in web content quality: a comparative evaluation on the Wikipedia project. Dondio Pierpaolo, Barrett …
+Cooperation and quality in wikipedia
+Statistical measure of quality in Wikipedia
+Information quality work organization in wikipedia
+Towards automatic quality assurance in Wikipedia
+Assessing the Quality of Wikipedia Articles
+Determinants of wikipedia quality: the roles of global and local contribution inequality
+Measuring article quality in wikipedia: models and evaluation
+Article quality classification on Wikipedia: introducing document embeddings and content features
+Information Quality in Wikipedia: The Effects of Group Composition and Task Conflict
+On improving wikipedia search using article quality
+Good quality complementary information for multilingual wikipedia
+On measuring the quality of Wikipedia articles
+Automatically assessing the quality of Wikipedia contents
+Quality Change: Norm or Exception? Measurement, Analysis and Detection of Quality Change in Wikipedia
+Measuring the Quality of Edits to Wikipedia
+A breakdown of quality flaws in Wikipedia
+Quality Assessment of Wikipedia Articles without Feature Engineering
+Quality assessment of Wikipedia content using topic models
+Classifying Wikipedia Article Quality With Revision History Networks
+Assessing the quality of information on wikipedia: A deep‐learning approach
+Mining team characteristics to predict Wikipedia article quality
+Assessing the Quality of Wikipedia Editors through Crowdsourcing
+Measuring Article Quality in Wikipedia using the Collaboration Network
+Mining the Factors Affecting the Quality of Wikipedia Articles
+Evaluating the trustworthiness of Wikipedia articles through quality and credibility
+Assessing the quality of Wikipedia articles with lifecycle based metrics
+Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles
+A Large-scale Study of Wikipedia Users' Quality of Experience
+Interpolating Quality Dynamics in Wikipedia and Demonstrating the Keilana Effect
+Quality evaluation of wikipedia articles through edit history and editor groups
+Analyzing Wikipedia Users&#x2019; Perceived Quality of Experience: A Large-Scale Study
+The role of conflict in determining consensus on quality in Wikipedia articles
+Mutual evaluation of editors and texts for assessing quality of Wikipedia articles
+Automatically Labeling Low Quality Content on Wikipedia By Leveraging Patterns in Editing Behaviors
+Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression
+Indicator of quality for environmental articles on Wikipedia at the higher education level
+Assessing quality score of Wikipedia article using mutual evaluation of editors and texts
+Using Hyperlink Texts to Improve Quality of Identifying Document Topics Based on Wikipedia
+Ranking of Wikipedia articles in search engines revisited: Fair ranking for reasonable quality?
+Assessing the quality of health-related Wikipedia articles with generic and specific metrics
+An end-to-end learning solution for assessing the quality of Wikipedia articles
+Creating High-Quality Products in Open Content Virtual Communities - Exploring Wikipedia, the Free Encyclopedia
+How do metrics of link analysis correlate to quality, relevance and popularity in wikipedia?
+Quality Evaluation of Search Results by Typicality and Speciality of Terms Extracted from Wikipedia
+Personal communication networks and their positive effects on online collaboration and outcome quality on Wikipedia
+Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia
+Wikipedia and Westminster: Quality and Dynamics of Wikipedia Pages about UK Politicians
+An investigation of the relationship between the amount of extra-textual data and the quality of Wikipedia articles
+Quality assessment of wikipedia articles: a deep learning approach by Quang Vinh Dang and Claudia-Lavinia Ignat with Martin Vesely as coordinator
+Cultural diversity of quality of information on Wikipedias
+Harnessing the wisdom of crowds in wikipedia: quality through coordination
+Predicting quality flaws in user-generated content: the case of wikipedia
+Information quality assessment of community generated content: A user study of Wikipedia
+Diversity of editors and teams versus quality of cooperative work: experiments on wikipedia
+Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia
+Automatic quality assessment of content created collaboratively by web communities: a case study of wikipedia
+A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia
+Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia
+QuWi: quality control in Wikipedia
+WikiLyzer: Interactive Information Quality Assessment in Wikipedia
+Tell me more: an actionable quality model for Wikipedia
+A jury of your peers: quality, experience and ownership in Wikipedia
+Your process is showing: controversy management and perceived quality in wikipedia
+Size matters: word count as a measure of quality on wikipedia
+QualityRank: assessing quality of wikipedia articles by mutually evaluating editors and texts
+When the levee breaks: without bots, what happens to Wikipedia's quality control processes?
+What makes a good biography?: multidimensional quality analysis based on wikipedia article feedback data
+GreenWiki: a tool to support users' assessment of the quality of Wikipedia articles
+Who does what: Collaboration patterns in the wikipedia and their impact on article quality
+Don't bite the newbies: how reverts affect the quantity and quality of Wikipedia work
+Reciprocity and Donation: How Article Topic, Quality and Dwell Time Predict Banner Donation on Wikipedia
+QuWi: Quality Control in Wikipedia
+Information quality work organization in Wikipedia
+Quality of mental health information on Wikipedia
+Automatically Assessing the Quality of Wikipedia Contents
+History-based Article Quality Assessment on Wikipedia
+WikiLyzer: Interactive Information Quality Assessment in Wikipedia
+Towards Information Quality Assurance in Spanish Wikipedia
+Mining team characteristics to predict Wikipedia article quality
+Quality Assessment of Wikipedia Articles without Feature Engineering
+WikipediaViz: Conveying Article Quality for Casual Wikipedia Readers
+Modelling the Quality of Attributes in Wikipedia Infoboxes
+NwQM: A neural quality assessment framework for Wikipedia
+Quality Assessment of Wikipedia Content Using Topic Models
+StRE: Self Attentive Edit Quality Prediction in Wikipedia
+Assessing the Quality of Wikipedia Editors through Crowdsourcing
+Classifying Wikipedia Article Quality With Revision History Networks
+Measuring Article Quality in Wikipedia using the Collaboration Network
+Quality Classification of ASEAN Wikipedia Articles using Statistical Features
+Readability and quality of wikipedia pages on neurosurgical topics
+The Quality and Readability of English Wikipedia Anatomy Articles
+Predicting Low-Quality Wikipedia Articles Using User's Judgements
+Quality and Importance of Wikipedia Articles in Different Languages
+Knowledge categorization affects popularity and quality of Wikipedia articles
+Relative Quality and Popularity Evaluation of Multilingual Wikipedia Articles
+Network analysis of user generated content quality in Wikipedia
+Improving information quality of Wikipedia articles with cooperative principle
+Harnessing the Wisdom of Crowds in Wikipedia: Quality Through Coordination
+Relating Wikipedia article quality to edit behavior and link structure
+A Large-scale Study of Wikipedia Users' Quality of Experience
+Enrichment of Information in Multilingual Wikipedia Based on Quality Analysis
+Readability and quality of Wikipedia articles on pelvic floor disorders
+Measuring Quality of Collaboratively Edited Documents: the case of Wikipedia
+Quality Evaluation of Wikipedia Articles through Edit History and Editor Groups
+Predicting Quality Flaws in User-generated Content: The Case of Wikipedia
+Assessing the Quality of Information on Wikipedia: A Deep-Learning Approach
+On Quality Assesement in Wikipedia Articles Based on Markov Random Fields
+Using big data and network analysis to understand Wikipedia article quality
+THE ADOPTION OF WIKIPEDIA: A COMMUNITY-AND INFORMATION QUALITY-BASED VIEW
+Analyzing Wikipedia Users' Perceived Quality of Experience: A Large-Scale Study
+Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles
+Contraception in the German-language Wikipedia: a content and quality analysis
+Measures for Quality Assessment of Articles and Infoboxes in Multilingual Wikipedia
+Article Quality Classification on Wikipedia: Introducing Document Embeddings and Content Features
+Determining Quality of Articles in Polish Wikipedia Based on Linguistic Features
+Improving the Quality of Consumer Health Information on Wikipedia: Case Series
+Using Morphological and Semantic Features for the Quality Assessment of Russian Wikipedia
+A Matter of Words: NLP for Quality Evaluation of Wikipedia Medical Articles
+Effects of Contributor Experience on the Quality of Health-Related Wikipedia Articles
+A Psycho-lexical Approach to the Assessment of Information Quality on Wikipedia
+Information Quality in Wikipedia: The Effects of Group Composition and Task Conflict
+Content and Quality of Information about Stroke in Wikipedia across Multiple Languages
+Information quality assessment of community-generated content - A user study of Wikipedia
+Learning with Wikipedia in Higher Education: Academic Performance and Students' Quality Perception
+Assessing the Quality of Thai Wikipedia Articles Using Concept and Statistical Features
+On the Feasibility of External Factual Support as Wikipedia's Quality Metric
+Relative Quality Assessment of Wikipedia Articles in Different Languages Using Synthetic Measure
+MONITORING NETWORK STRUCTURE AND CONTENT QUALITY OF SIGNAL PROCESSING ARTICLES ON WIKIPEDIA
+Determinants of Wikipedia Quality: the Roles of Global and Local Contribution Inequality
+Quality Assessment of Arabic Web Content: The case of the Arabic Wikipedia
+Multilingual Ranking of Wikipedia Articles with Quality and Popularity Assessment in Different Topics
+Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression
+Indicator of quality for environmental articles on Wikipedia at the higher education level
+Ranking of Wikipedia Articles in Search Engines Revisited: Fair Ranking for Reasonable Quality?
+Quality flaw prediction in Spanish Wikipedia: A case of study with verifiability flaws
+Diversity of editors and teams versus quality of cooperative work: experiments on wikipedia
+Assessing the quality of health-related Wikipedia articles with generic and specific metrics
+Cumulative Experience and Recent Behavior and their Relation to Content Quality on Wikipedia
+Assessing Information Quality of Wikipedia Articles Through Google's E-A-T Model
+Pharmacy students can improve access to quality medicines information by editing Wikipedia articles
+On the Relation of Edit Behavior, Link Structure, and Article Quality on Wikipedia
+Using Hyperlink Texts to Improve Quality of Identifying Document Topics Based on Wikipedia
+A hybrid approach to classifying Wikipedia article quality flaws with feature fusion framework
+Assessing Quality Score of Wikipedia Articles using Mutual Evaluation of Editors and Texts
+Quality Evaluation of Search Results by Typicality and Speciality of Terms Extracted from Wikipedia
+What Makes a Good Biography? Multidimensional Quality Analysis Based on Wikipedia Article Feedback Data
+Quality of Wikipedia Articles: Analyzing Features and Building a Ground Truth for Supervised Classification
+Application of SEO Metrics to Determine the Quality of Wikipedia Articles and Their Sources
+Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia
+Personal communication networks and their positive effects on online collaboration and outcome quality on Wikipedia
+Automatic Quality Assessment of Content Created Collaboratively by Web Communities: A Case Study of Wikipedia
+Wisdom of crowds: the effect of participant composition and contribution behavior on Wikipedia article quality
+Estimating the Quality of Articles in Russian Wikipedia Using the Logical-Linguistic Model of Fact Extraction
+A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia
+Social-collaborative determinants of content quality in online knowledge production systems: comparing Wikipedia and Stack Overflow
+Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia
+Contributing to question of the quality of Wikipedia and the possibilities of its use in the classroom
+The Wikipedia Medical Student: Comparing the Quality of Vascular Surgery Topics Across Two Commonly Used Educational Resources
+How to Inspect and Measure Data Quality about Scientific Publications: Use Case of Wikipedia and CRIS Databases
+THE ULTIMATE IMPACT FACTOR: UPDATING THE WIKIPEDIA ENTRY ON JUVENILE IDIOPATHIC ARTHRITIS FOR QUALITY, ACCURACY AND COMPLETENESS
+Quality of information sources about mental disorders: a comparison of Wikipedia with centrally controlled web and printed sources
+'WP2Cochrane', a tool linking Wikipedia to the Cochrane Library: Results of a bibliometric analysis evaluating article quality and importance
+Utilizing the Wikidata System to Improve the Quality of Medical Content in Wikipedia in Diverse Languages: A Pilot Study
+The quality of open access and open source internet material in gastroenterology: Is wikipedia appropriate for knowledge transfer to patients?
+Measuring the quality of scientific references in Wikipedia: an analysis of more than 115M citations to over 800 000 scientific articles
+Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia
+Wikipedia as a Source of Health Information for the Public: Systematic Analysis of Quality and Readability of 8 Common Rheumatic Diseases Articles
