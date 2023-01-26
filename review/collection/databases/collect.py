@@ -55,19 +55,19 @@ def dump_articles(articles):
 
 all_articles = []
 
-from databases.scholar.parser import parse_scholar_htmls
+from scholar.parser import parse_scholar_htmls
 scholar = read_file("databases/scholar/input.html")
 scholar_articles = parse_scholar_htmls(scholar)
 dump_json(scholar_articles, "databases/scholar/output.json")
 all_articles += scholar_articles
 
-from databases.acm.parser import parse_acm_htmls
+from acm.parser import parse_acm_htmls
 acm = read_file("databases/acm/input.html")
 acm_articles = parse_acm_htmls(acm, all_articles[-1]['id'] + 1)
 dump_json(acm_articles, "databases/acm/output.json")
 all_articles += acm_articles
 
-from databases.wos.parser import parse_wos_htmls
+from wos.parser import parse_wos_htmls
 wos = read_file("databases/wos/input.html")
 wos_articles = parse_wos_htmls(wos, all_articles[-1]['id'] + 1)
 dump_json(wos_articles, "databases/wos/output.json")
