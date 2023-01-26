@@ -286,7 +286,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 18,
@@ -388,7 +388,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 24,
@@ -745,7 +745,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 45,
@@ -1442,7 +1442,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 86,
@@ -1459,7 +1459,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 87,
@@ -1649,19 +1649,20 @@
         "semscholarId": "ce03436b8284633ac9e492f1511028583f689a01"
     },
     {
-        "id": 38,
+        "id": 98,
         "original": {
-            "id": 38,
+            "id": 98,
             "database": "Google Scholar",
             "title": "NwQM: A neural quality assessment framework for Wikipedia",
-            "url": "https://aclanthology.org/2020.emnlp-main.674/",
-            "authors": "BPR Guda, SB Seelaboyina, S Sarkar\u2026",
+            "url": "https://arxiv.org/abs/2010.06969",
+            "authors": "BP Reddy, S Bhusan, S Sarkar, A Mukherjee",
             "year": 2020,
-            "journal": "Proceedings of the \u2026, 2020",
-            "citations": 4,
-            "pdf": "N/A",
-            "other_info": "HTML",
-            "journal_type": "Conference"
+            "journal": "arXiv preprint arXiv \u2026, 2020",
+            "citations": 2,
+            "pdf": "https://arxiv.org/pdf/2010.06969",
+            "other_info": "",
+            "journal_type": "unknown",
+            "duplicate_of": 38
         },
         "semscholarId": "c44a14c16f0ae980c8075a3e8e83b41ce4a8d035"
     },
@@ -1782,7 +1783,7 @@
             "other_info": "HTML",
             "journal_type": "Journal"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 106,
@@ -2003,7 +2004,7 @@
             "other_info": "",
             "journal_type": "Journal"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 119,
@@ -2173,7 +2174,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 129,
@@ -2377,7 +2378,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 141,
@@ -2853,7 +2854,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 169,
@@ -2887,7 +2888,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 171,
@@ -2921,7 +2922,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 173,
@@ -2955,7 +2956,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 175,
@@ -3006,7 +3007,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 178,
@@ -3193,7 +3194,7 @@
             "other_info": "PDF",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 189,
@@ -3247,19 +3248,20 @@
         "semscholarId": "527699259b21d363d57ac38db4986bb433c3ded5"
     },
     {
-        "id": 95,
+        "id": 192,
         "original": {
-            "id": 95,
+            "id": 192,
             "database": "Google Scholar",
             "title": "Mining team characteristics to predict Wikipedia article quality",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2957792.2971802",
-            "authors": "GG Betancourt, A Segnine, C Trabuco\u2026",
+            "url": "https://econpapers.repec.org/paper/haljournl/hal-01354368.htm",
+            "authors": "G Gimon Betancourt, A Segnini, C Trabuco, A Rezgui\u2026",
             "year": 2016,
-            "journal": "Proceedings of the 12th \u2026, 2016",
-            "citations": 10,
-            "pdf": "https://hal.archives-ouvertes.fr/hal-01354368/document",
+            "journal": "2016",
+            "citations": "0",
+            "pdf": "N/A",
             "other_info": "",
-            "journal_type": "Conference"
+            "journal_type": "unknown",
+            "duplicate_of": 95
         },
         "semscholarId": "cdc1216d54d10a3a6f8e742941010f5d83002940"
     },
@@ -3295,7 +3297,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 195,
@@ -3363,7 +3365,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 199,
@@ -3397,22 +3399,23 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 40,
+        "id": 201,
         "original": {
-            "id": 40,
+            "id": 201,
             "database": "Google Scholar",
             "title": "Ranking of Wikipedia articles in search engines revisited: Fair ranking for reasonable quality?",
-            "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.21423",
-            "authors": "D Lewandowski, U Spree",
-            "year": 2011,
-            "journal": "Journal of the American Society for \u2026, 2011",
-            "citations": 69,
-            "pdf": "https://arxiv.org/pdf/1109.0916",
+            "url": "http://eprints.rclis.org/16051/",
+            "authors": "U Spree, D Lewandowski",
+            "year": 2010,
+            "journal": "2010",
+            "citations": "0",
+            "pdf": "http://eprints.rclis.org/16051/1/Wikipedia_Lewandowski-Spree_preprint.pdf",
             "other_info": "",
-            "journal_type": "Journal"
+            "journal_type": "unknown",
+            "duplicate_of": 40
         },
         "semscholarId": "9f80820699b2fb01b1a87ee65dc7ab7e03efdabc"
     },
@@ -3499,7 +3502,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 207,
@@ -3601,39 +3604,43 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 2,
+        "id": 213,
         "original": {
-            "id": 2,
-            "database": "Google Scholar",
+            "id": 213,
+            "database": "ACM",
             "title": "Cooperation and quality in wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1296951.1296968",
-            "authors": "DM Wilkinson, BA Huberman",
-            "year": 2007,
-            "journal": "\u2026 of the 2007 international symposium on \u2026, 2007",
-            "citations": 380,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Dennis M. Wilkinson, Bernardo A. Huberman",
+            "year": "2007",
+            "journal": "WikiSym '07: Proceedings of the 2007 international symposium on Wikis, October 2007, pp 157-164",
+            "citations": 154,
+            "url": "https://dl.acm.org/doi/10.1145/1296951.1296968",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1296951.1296968",
+            "type": "Article",
+            "date": "21 October 2007",
+            "journal_type": "Conference",
+            "duplicate_of": 2
         },
         "semscholarId": "9c61b818ecc29a132592d886fd0d5cb0047b5b6d"
     },
     {
-        "id": 11,
+        "id": 214,
         "original": {
-            "id": 11,
-            "database": "Google Scholar",
+            "id": 214,
+            "database": "ACM",
             "title": "Statistical measure of quality in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1964858.1964876",
-            "authors": "S Javanmardi, C Lopes",
-            "year": 2010,
-            "journal": "Proceedings of the First Workshop on Social \u2026, 2010",
-            "citations": 57,
-            "pdf": "https://www.researchgate.net/profile/Cristina-Lopes-7/publication/262166632_Statistical_measure_of_quality_in_Wikipedia/links/5f99a9c3458515b7cfa5dc50/Statistical-measure-of-quality-in-Wikipedia.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Sara Javanmardi, Cristina Lopes",
+            "year": "2010",
+            "journal": "SOMA '10: Proceedings of the First Workshop on Social Media Analytics, July 2010, pp 132-138",
+            "citations": 26,
+            "url": "https://dl.acm.org/doi/10.1145/1964858.1964876",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1964858.1964876",
+            "type": "Research article",
+            "date": "25 July 2010",
+            "journal_type": "Conference",
+            "duplicate_of": 11
         },
         "semscholarId": "54333cd5b3f6d0148f0af632455faafb8dce7567"
     },
@@ -3656,87 +3663,97 @@
         "semscholarId": "89c5bef3053bf3e4953204c7357ff838523b7488"
     },
     {
-        "id": 35,
+        "id": 216,
         "original": {
-            "id": 35,
-            "database": "Google Scholar",
+            "id": 216,
+            "database": "ACM",
             "title": "Towards automatic quality assurance in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1963192.1963196",
-            "authors": "M Anderka, B Stein, N Lipka",
-            "year": 2011,
-            "journal": "Proceedings of the 20th international \u2026, 2011",
-            "citations": 42,
-            "pdf": "http://www.ramb.ethz.ch/CDstore/www2011/companion/p5.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Maik Anderka, Benno Stein, Nedim Lipka",
+            "year": "2011",
+            "journal": "WWW '11: Proceedings of the 20th international conference companion on World wide web, March 2011, pp 5-6",
+            "citations": 14,
+            "url": "https://dl.acm.org/doi/10.1145/1963192.1963196",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1963192.1963196",
+            "type": "Poster",
+            "date": "28 March 2011",
+            "journal_type": "Conference",
+            "duplicate_of": 35
         },
         "semscholarId": "804fcac24b2e3db16b226dff9c71d85aa333a075"
     },
     {
-        "id": 136,
+        "id": 217,
         "original": {
-            "id": 136,
-            "database": "Google Scholar",
+            "id": 217,
+            "database": "ACM",
             "title": "Assessing the Quality of Wikipedia Articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3453800.3453801",
-            "authors": "QV Dang",
-            "year": 2021,
-            "journal": "2021 The 5th International Conference on Machine \u2026, 2021",
-            "citations": "0",
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Quang-Vinh Dang",
+            "year": "2021",
+            "journal": "ICMLSC'21: 2021 The 5th International Conference on Machine Learning and Soft Computing, January 2021, pp 1-4",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1145/3453800.3453801",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3453800.3453801",
+            "type": "Research article",
+            "date": "18 June 2021",
+            "journal_type": "Conference",
+            "duplicate_of": 136
         },
         "semscholarId": "f47fe9e54ef4444ea46e910d9429245bea9d0dfd"
     },
     {
-        "id": 6,
+        "id": 218,
         "original": {
-            "id": 6,
-            "database": "Google Scholar",
+            "id": 218,
+            "database": "ACM",
             "title": "Determinants of wikipedia quality: the roles of global and local contribution inequality",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1718918.1718963",
-            "authors": "O Arazy, O Nov",
-            "year": 2010,
-            "journal": "Proceedings of the 2010 ACM conference on \u2026, 2010",
-            "citations": 113,
-            "pdf": "http://www.oferarazy.com/PDF/Determinants%20of%20Wikipedia%20Quality%20the%20Roles%20of%20Global%20and%20Local%20Contribution%20Inequality.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Ofer Arazy, Oded Nov",
+            "year": "2010",
+            "journal": "CSCW '10: Proceedings of the 2010 ACM conference on Computer supported cooperative work, February 2010, pp 233-236",
+            "citations": 48,
+            "url": "https://dl.acm.org/doi/10.1145/1718918.1718963",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1718918.1718963",
+            "type": "Research article",
+            "date": "06 February 2010",
+            "journal_type": "Conference",
+            "duplicate_of": 6
         },
         "semscholarId": "36dce0334d47e45cd37f9484b464ee3857cbdc37"
     },
     {
-        "id": 1,
+        "id": 219,
         "original": {
-            "id": 1,
-            "database": "Google Scholar",
+            "id": 219,
+            "database": "ACM",
             "title": "Measuring article quality in wikipedia: models and evaluation",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1321440.1321476",
-            "authors": "M Hu, EP Lim, A Sun, HW Lauw\u2026",
-            "year": 2007,
-            "journal": "Proceedings of the \u2026, 2007",
-            "citations": 357,
-            "pdf": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2515&context=sis_research",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Meiqun Hu, Ee-Peng Lim, Aixin Sun, Hady Wirawan Lauw, Ba-Quy Vuong",
+            "year": "2007",
+            "journal": "CIKM '07: Proceedings of the sixteenth ACM conference on Conference on information and knowledge management, November 2007, pp 243-252",
+            "citations": 165,
+            "url": "https://dl.acm.org/doi/10.1145/1321440.1321476",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1321440.1321476",
+            "type": "Research article",
+            "date": "06 November 2007",
+            "journal_type": "Conference",
+            "duplicate_of": 1
         },
         "semscholarId": "ee70063f74e209ec5dc3edfa13fbb82d60d1a3eb"
     },
     {
-        "id": 78,
+        "id": 220,
         "original": {
-            "id": 78,
-            "database": "Google Scholar",
+            "id": 220,
+            "database": "ACM",
             "title": "Article quality classification on Wikipedia: introducing document embeddings and content features",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3306446.3340831",
-            "authors": "M Schmidt, E Zangerle",
-            "year": 2019,
-            "journal": "\u2026 of the 15th International Symposium on Open \u2026, 2019",
-            "citations": 8,
-            "pdf": "https://dbis.uibk.ac.at/sites/default/files/2019-12/schmidt_zangerle_opensym19.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Manuel Schmidt, Eva Zangerle",
+            "year": "2019",
+            "journal": "OpenSym '19: Proceedings of the 15th International Symposium on Open Collaboration, August 2019, Article No.: 13, pp 1-8",
+            "citations": 2,
+            "url": "https://dl.acm.org/doi/10.1145/3306446.3340831",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3306446.3340831",
+            "type": "Research article",
+            "date": "20 August 2019",
+            "journal_type": "Conference",
+            "duplicate_of": 78
         },
         "semscholarId": "beb2803e597f83e85c76f6db6834bb88a7aa8f6b"
     },
@@ -3759,70 +3776,78 @@
         "semscholarId": "26450adc2040f7f7d2ed7366bbe90d5091dbd3a1"
     },
     {
-        "id": 58,
+        "id": 222,
         "original": {
-            "id": 58,
-            "database": "Google Scholar",
+            "id": 222,
+            "database": "ACM",
             "title": "On improving wikipedia search using article quality",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1316902.1316926",
-            "authors": "M Hu, EP Lim, A Sun, HW Lauw\u2026",
-            "year": 2007,
-            "journal": "Proceedings of the 9th \u2026, 2007",
-            "citations": 30,
-            "pdf": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2263&context=sis_research",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Meiqun Hu, Ee-Peng Lim, Aixin Sun, Hady Wirawan Lauw, Ba-Quy Vuong",
+            "year": "2007",
+            "journal": "WIDM '07: Proceedings of the 9th annual ACM international workshop on Web information and data management, November 2007, pp 145-152",
+            "citations": 9,
+            "url": "https://dl.acm.org/doi/10.1145/1316902.1316926",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1316902.1316926",
+            "type": "Research article",
+            "date": "09 November 2007",
+            "journal_type": "Conference",
+            "duplicate_of": 58
         },
         "semscholarId": "2b05d442c55216c5819d0924016989f8dec3b23b"
     },
     {
-        "id": 152,
+        "id": 223,
         "original": {
-            "id": 152,
-            "database": "Google Scholar",
+            "id": 223,
+            "database": "ACM",
             "title": "Good quality complementary information for multilingual wikipedia",
-            "url": "https://link.springer.com/chapter/10.1007/978-3-642-35063-4_14",
-            "authors": "Y Suzuki, Y Fujiwara, Y Konishi\u2026",
-            "year": 2012,
-            "journal": "\u2026 Conference on Web \u2026, 2012",
-            "citations": 3,
+            "authors": "Yu Suzuki, Yuya Fujiwara, Yukio Konishi, Akiyo Nadamoto",
+            "year": "2012",
+            "journal": "WISE'12: Proceedings of the 13th international conference on Web Information Systems Engineering, November 2012, pp 185-198",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1007/978-3-642-35063-4_14",
             "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "type": "Article",
+            "date": "28 November 2012",
+            "journal_type": "Conference",
+            "duplicate_of": 152
         },
         "semscholarId": "632e144609040754fb03476054db3e5c52807764"
     },
     {
-        "id": 8,
+        "id": 224,
         "original": {
-            "id": 8,
-            "database": "Google Scholar",
+            "id": 224,
+            "database": "ACM",
             "title": "On measuring the quality of Wikipedia articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1772938.1772943",
-            "authors": "G De la Calzada, A Dekhtyar",
-            "year": 2010,
-            "journal": "Proceedings of the 4th workshop on \u2026, 2010",
-            "citations": 80,
-            "pdf": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1111&context=csse_fac",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Gabriel De la Calzada, Alex Dekhtyar",
+            "year": "2010",
+            "journal": "WICOW '10: Proceedings of the 4th workshop on Information credibility, April 2010, pp 11-18",
+            "citations": 35,
+            "url": "https://dl.acm.org/doi/10.1145/1772938.1772943",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1772938.1772943",
+            "type": "Research article",
+            "date": "27 April 2010",
+            "journal_type": "Conference",
+            "duplicate_of": 8
         },
         "semscholarId": "68c1ca9cf4ef3bb12e17ea38c6155b3374ccff88"
     },
     {
-        "id": 67,
+        "id": 225,
         "original": {
-            "id": 67,
-            "database": "Google Scholar",
+            "id": 225,
+            "database": "ACM",
             "title": "Automatically assessing the quality of Wikipedia contents",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3297280.3297357",
-            "authors": "E Bassani, M Viviani",
-            "year": 2019,
-            "journal": "Proceedings of the 34th ACM/SIGAPP Symposium \u2026, 2019",
-            "citations": 10,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Elias Bassani, Marco Viviani",
+            "year": "2019",
+            "journal": "SAC '19: Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing, April 2019, pp 804-807",
+            "citations": 2,
+            "url": "https://dl.acm.org/doi/10.1145/3297280.3297357",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3297280.3297357",
+            "type": "Research article",
+            "date": "08 April 2019",
+            "journal_type": "Conference",
+            "duplicate_of": 67
         },
         "semscholarId": "2a9be636902fe22e4d04d4f9721e4e914512e3d7"
     },
@@ -3863,19 +3888,21 @@
         "semscholarId": "cd8748fd30092dff2739a2471cbefc78c25e1e53"
     },
     {
-        "id": 42,
+        "id": 228,
         "original": {
-            "id": 42,
-            "database": "Google Scholar",
+            "id": 228,
+            "database": "ACM",
             "title": "A breakdown of quality flaws in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2184305.2184309",
-            "authors": "M Anderka, B Stein",
-            "year": 2012,
-            "journal": "\u2026 2nd joint WICOW/AIRWeb workshop on web quality, 2012",
-            "citations": 46,
-            "pdf": "http://www.cs.kent.edu/~javed/class-P2P13F/papers-2012/PAPER2012-wikipedia-qualityflaws-stein_2012d.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Maik Anderka, Benno Stein",
+            "year": "2012",
+            "journal": "WebQuality '12: Proceedings of the 2nd Joint WICOW/AIRWeb Workshop on Web Quality, April 2012, pp 11-18",
+            "citations": 15,
+            "url": "https://dl.acm.org/doi/10.1145/2184305.2184309",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2184305.2184309",
+            "type": "Research article",
+            "date": "16 April 2012",
+            "journal_type": "Conference",
+            "duplicate_of": 42
         },
         "semscholarId": "3218ef46bcf1f2b5c9c9f77fbf8a0a5d51744d99"
     },
@@ -3898,19 +3925,21 @@
         "semscholarId": "425064f6236d6457344d45c3517097936d42aea3"
     },
     {
-        "id": 187,
+        "id": 230,
         "original": {
-            "id": 187,
-            "database": "Google Scholar",
+            "id": 230,
+            "database": "ACM",
             "title": "Quality assessment of Wikipedia content using topic models",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3323503.3360628",
-            "authors": "LCJ Santos, T Christofani, IS Silva\u2026",
-            "year": 2019,
-            "journal": "Proceedings of the 25th \u2026, 2019",
+            "authors": "Lauro C. J. Santos, Ta\u00eds Christofani, Ismael S. Silva, Daniel H. Dalip",
+            "year": "2019",
+            "journal": "WebMedia '19: Proceedings of the 25th Brazillian Symposium on Multimedia and the Web, October 2019, pp 249-252",
             "citations": 2,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "url": "https://dl.acm.org/doi/10.1145/3323503.3360628",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3323503.3360628",
+            "type": "Short paper",
+            "date": "29 October 2019",
+            "journal_type": "Conference",
+            "duplicate_of": 187
         },
         "semscholarId": "5548a6d03196d6f9375cec984921336050baf485"
     },
@@ -3933,36 +3962,40 @@
         "semscholarId": "8a74f75cb449bff4833be8f77ccf5f2493d75a19"
     },
     {
-        "id": 26,
+        "id": 232,
         "original": {
-            "id": 26,
-            "database": "Google Scholar",
+            "id": 232,
+            "database": "ACM",
             "title": "Assessing the quality of information on wikipedia: A deep\u2010learning approach",
-            "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.24210",
-            "authors": "P Wang, X Li",
-            "year": 2020,
-            "journal": "Journal of the Association for Information \u2026, 2020",
-            "citations": 31,
-            "pdf": "https://www.researchgate.net/profile/Xiaodan-Li-18/publication/332294515_Assessing_the_quality_of_information_on_wikipedia_A_deep-learning_approach/links/5e588df54585152ce8f4b8b3/Assessing-the-quality-of-information-on-wikipedia-A-deep-learning-approach.pdf",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Ping Wang, Xiaodan Li",
+            "year": "2019",
+            "journal": "Journal of the Association for Information Science and Technology (JAIST), Volume 71, Issue 1, January 2020, pp 16-28",
+            "citations": 3,
+            "url": "https://dl.acm.org/doi/10.1002/asi.24210",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "04 December 2019",
+            "journal_type": "Journal",
+            "duplicate_of": 26
         },
         "semscholarId": "32c2952ea7128c0ed674548158c3e9d1e4ba3a13"
     },
     {
-        "id": 95,
+        "id": 233,
         "original": {
-            "id": 95,
-            "database": "Google Scholar",
+            "id": 233,
+            "database": "ACM",
             "title": "Mining team characteristics to predict Wikipedia article quality",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2957792.2971802",
-            "authors": "GG Betancourt, A Segnine, C Trabuco\u2026",
-            "year": 2016,
-            "journal": "Proceedings of the 12th \u2026, 2016",
-            "citations": 10,
-            "pdf": "https://hal.archives-ouvertes.fr/hal-01354368/document",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Grace Gimon Betancourt, Armando Segnine, Carlos Trabuco, Amira Rezgui, Nicolas Jullien",
+            "year": "2016",
+            "journal": "OpenSym '16: Proceedings of the 12th International Symposium on Open Collaboration, August 2016, Article No.: 15, pp 1-9",
+            "citations": 5,
+            "url": "https://dl.acm.org/doi/10.1145/2957792.2971802",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2957792.2971802",
+            "type": "Research article",
+            "date": "17 August 2016",
+            "journal_type": "Conference",
+            "duplicate_of": 95
         },
         "semscholarId": "cdc1216d54d10a3a6f8e742941010f5d83002940"
     },
@@ -4021,53 +4054,59 @@
         "semscholarId": "cc68c28bc765082fa85c23fb71d7cdf212895185"
     },
     {
-        "id": 90,
+        "id": 237,
         "original": {
-            "id": 90,
-            "database": "Google Scholar",
+            "id": 237,
+            "database": "ACM",
             "title": "Evaluating the trustworthiness of Wikipedia articles through quality and credibility",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1641309.1641349",
-            "authors": "ST Moturu, H Liu",
-            "year": 2009,
-            "journal": "Proceedings of the 5th international symposium on \u2026, 2009",
-            "citations": 23,
-            "pdf": "https://opensym.org/ws2009/Proceedings/p127-moturu.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Sai T. Moturu, Huan Liu",
+            "year": "2009",
+            "journal": "WikiSym '09: Proceedings of the 5th International Symposium on Wikis and Open Collaboration, October 2009, Article No.: 28, pp 1-2",
+            "citations": 12,
+            "url": "https://dl.acm.org/doi/10.1145/1641309.1641349",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1641309.1641349",
+            "type": "Research article",
+            "date": "25 October 2009",
+            "journal_type": "Conference",
+            "duplicate_of": 90
         },
         "semscholarId": "76382864f6d33a8b33296fedadf7dc36be6cbb13"
     },
     {
-        "id": 10,
+        "id": 238,
         "original": {
-            "id": 10,
-            "database": "Google Scholar",
+            "id": 238,
+            "database": "ACM",
             "title": "Assessing the quality of Wikipedia articles with lifecycle based metrics",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1641309.1641333",
-            "authors": "T W\u00f6hner, R Peters",
-            "year": 2009,
-            "journal": "Proceedings of the 5th International Symposium on \u2026, 2009",
-            "citations": 140,
-            "pdf": "https://www.opensym.org/ws2009/Proceedings/p116-woehner.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Thomas W\u00f6hner, Ralf Peters",
+            "year": "2009",
+            "journal": "WikiSym '09: Proceedings of the 5th International Symposium on Wikis and Open Collaboration, October 2009, Article No.: 16, pp 1-10",
+            "citations": 66,
+            "url": "https://dl.acm.org/doi/10.1145/1641309.1641333",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1641309.1641333",
+            "type": "Research article",
+            "date": "25 October 2009",
+            "journal_type": "Conference",
+            "duplicate_of": 10
         },
         "semscholarId": "777a29dff88b22c0cf2e38683cbaf183447a985b"
     },
     {
-        "id": 101,
+        "id": 239,
         "original": {
-            "id": 101,
-            "database": "Google Scholar",
+            "id": 239,
+            "database": "ACM",
             "title": "Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3442442.3452345",
-            "authors": "A Chhabra, S Srivastava, SR S. Iyengar\u2026",
-            "year": 2021,
-            "journal": "\u2026 Proceedings of the Web \u2026, 2021",
+            "authors": "Anamika Chhabra, Shubham Srivastava, S. R. S. Iyengar, Poonam Saini",
+            "year": "2021",
+            "journal": "WWW '21: Companion Proceedings of the Web Conference 2021, April 2021, pp 584-590",
             "citations": 1,
-            "pdf": "https://wikiworkshop.org/2021/papers/Wiki_Workshop_2021_paper_10.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "url": "https://dl.acm.org/doi/10.1145/3442442.3452345",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3442442.3452345",
+            "type": "Research article",
+            "date": "03 June 2021",
+            "journal_type": "Conference",
+            "duplicate_of": 101
         },
         "semscholarId": "8ddfbf5d323e0a94160ffe10a13353793c954f30"
     },
@@ -4087,7 +4126,7 @@
             "date": "13 May 2019",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 241,
@@ -4144,36 +4183,40 @@
         "semscholarId": "f15854327b175728ed758b648497278b459dc110"
     },
     {
-        "id": 88,
+        "id": 244,
         "original": {
-            "id": 88,
-            "database": "Google Scholar",
+            "id": 244,
+            "database": "ACM",
             "title": "The role of conflict in determining consensus on quality in Wikipedia articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2491055.2491067",
-            "authors": "K Osman",
-            "year": 2013,
-            "journal": "Proceedings of the 9th International Symposium on \u2026, 2013",
-            "citations": 16,
-            "pdf": "https://eprints.qut.edu.au/64185/1/Osman_WikiSym13_Theroleofconflict.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Kim Osman",
+            "year": "2013",
+            "journal": "WikiSym '13: Proceedings of the 9th International Symposium on Open Collaboration, August 2013, Article No.: 12, pp 1-6",
+            "citations": 7,
+            "url": "https://dl.acm.org/doi/10.1145/2491055.2491067",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2491055.2491067",
+            "type": "Research article",
+            "date": "05 August 2013",
+            "journal_type": "Conference",
+            "duplicate_of": 88
         },
         "semscholarId": "d7d82669f167bd609e3d593d0d0cc6743d58c8ef"
     },
     {
-        "id": 60,
+        "id": 245,
         "original": {
-            "id": 60,
-            "database": "Google Scholar",
+            "id": 245,
+            "database": "ACM",
             "title": "Mutual evaluation of editors and texts for assessing quality of Wikipedia articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2462932.2462956",
-            "authors": "Y Suzuki, M Yoshikawa",
-            "year": 2012,
-            "journal": "Proceedings of the Eighth Annual International \u2026, 2012",
-            "citations": 29,
-            "pdf": "https://www.opensym.org/ws2012/p10wikisym2012.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Yu Suzuki, Masatoshi Yoshikawa",
+            "year": "2012",
+            "journal": "WikiSym '12: Proceedings of the Eighth Annual International Symposium on Wikis and Open Collaboration, August 2012, Article No.: 18, pp 1-10",
+            "citations": 11,
+            "url": "https://dl.acm.org/doi/10.1145/2462932.2462956",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2462932.2462956",
+            "type": "Research article",
+            "date": "27 August 2012",
+            "journal_type": "Conference",
+            "duplicate_of": 60
         },
         "semscholarId": "6e56f240fc876a9ac99b8377108672015142e708"
     },
@@ -4196,53 +4239,59 @@
         "semscholarId": "65063772f09683c581f281ec3aa640549cd9aaee"
     },
     {
-        "id": 108,
+        "id": 247,
         "original": {
-            "id": 108,
-            "database": "Google Scholar",
+            "id": 247,
+            "database": "ACM",
             "title": "Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3479986.3479991",
-            "authors": "N TeBlunthuis",
-            "year": 2021,
-            "journal": "17th International Symposium on Open Collaboration, 2021",
-            "citations": 4,
-            "pdf": "https://arxiv.org/pdf/2108.10684",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Nathan Teblunthuis",
+            "year": "2021",
+            "journal": "OpenSym '21: Proceedings of the 17th International Symposium on Open Collaboration, September 2021, Article No.: 5, pp 1-10",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1145/3479986.3479991",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3479986.3479991",
+            "type": "Research article",
+            "date": "15 October 2021",
+            "journal_type": "Conference",
+            "duplicate_of": 108
         },
         "semscholarId": "2c6de714ad28778eaddb2b886b7168a79cc8b4ab"
     },
     {
-        "id": 94,
+        "id": 248,
         "original": {
-            "id": 94,
-            "database": "Google Scholar",
+            "id": 248,
+            "database": "ACM",
             "title": "Indicator of quality for environmental articles on Wikipedia at the higher education level",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0165551519888607",
-            "authors": "E Peti\u0161ka, B Moldan",
-            "year": 2021,
-            "journal": "Journal of Information Science, 2021",
-            "citations": 4,
-            "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/0165551519888607",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Eduard Peti\u0161ka, Bed\u0159ich Moldan",
+            "year": "2021",
+            "journal": "Journal of Information Science (JIPP), Volume 47, Issue 2, Apr 2021, pp 269-280",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1177/0165551519888607",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "01 April 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 94
         },
         "semscholarId": "9df731914171c0dfb635f15e4e2ae245353d15fd"
     },
     {
-        "id": 79,
+        "id": 249,
         "original": {
-            "id": 79,
-            "database": "Google Scholar",
+            "id": 249,
+            "database": "ACM",
             "title": "Assessing quality score of Wikipedia article using mutual evaluation of editors and texts",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2505515.2505610",
-            "authors": "Y Suzuki, M Yoshikawa",
-            "year": 2013,
-            "journal": "Proceedings of the 22nd ACM international \u2026, 2013",
-            "citations": 20,
-            "pdf": "https://www.researchgate.net/profile/Yu-Suzuki-2/publication/262282644_Assessing_quality_score_of_Wikipedia_article_using_mutual_evaluation_of_editors_and_texts/links/58b4af53a6fdcc6f03fe65e8/Assessing-quality-score-of-Wikipedia-article-using-mutual-evaluation-of-editors-and-texts.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Yu Suzuki, Masatoshi Yoshikawa",
+            "year": "2013",
+            "journal": "CIKM '13: Proceedings of the 22nd ACM international conference on Information & Knowledge Management, October 2013, pp 1727-1732",
+            "citations": 8,
+            "url": "https://dl.acm.org/doi/10.1145/2505515.2505610",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2505515.2505610",
+            "type": "Research article",
+            "date": "27 October 2013",
+            "journal_type": "Conference",
+            "duplicate_of": 79
         },
         "semscholarId": "68b167406f708ce39421126bdbb576930c8347a0"
     },
@@ -4265,55 +4314,61 @@
         "semscholarId": "7adf1412ebcacfd38284dfcbc8962b1b88e6e3ac"
     },
     {
-        "id": 40,
+        "id": 251,
         "original": {
-            "id": 40,
-            "database": "Google Scholar",
+            "id": 251,
+            "database": "ACM",
             "title": "Ranking of Wikipedia articles in search engines revisited: Fair ranking for reasonable quality?",
-            "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.21423",
-            "authors": "D Lewandowski, U Spree",
-            "year": 2011,
-            "journal": "Journal of the American Society for \u2026, 2011",
-            "citations": 69,
-            "pdf": "https://arxiv.org/pdf/1109.0916",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Dirk Lewandowski, Ulrike Spree",
+            "year": "2011",
+            "journal": "Journal of the American Society for Information Science and Technology (JASIST), Volume 62, Issue 1, January 2011, pp 117-132",
+            "citations": 7,
+            "url": "https://dl.acm.org/doi/10.1002/asi.21423",
+            "pdf": "N/A",
+            "type": "Article",
+            "date": "01 January 2011",
+            "journal_type": "Journal",
+            "duplicate_of": 40
         },
         "semscholarId": "9f80820699b2fb01b1a87ee65dc7ab7e03efdabc"
     },
     {
-        "id": 161,
+        "id": 252,
         "original": {
-            "id": 161,
-            "database": "Google Scholar",
+            "id": 252,
+            "database": "ACM",
             "title": "Assessing the quality of health-related Wikipedia articles with generic and specific metrics",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3442442.3452355",
-            "authors": "L Couto, CT Lopes",
-            "year": 2021,
-            "journal": "Companion Proceedings of the Web Conference \u2026, 2021",
+            "authors": "Lu\u00eds Couto, Carla Teixeira Lopes",
+            "year": "2021",
+            "journal": "WWW '21: Companion Proceedings of the Web Conference 2021, April 2021, pp 640-647",
             "citations": 1,
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3442442.3452355",
-            "other_info": "",
-            "journal_type": "Conference"
+            "url": "https://dl.acm.org/doi/10.1145/3442442.3452355",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "03 June 2021",
+            "journal_type": "Conference",
+            "duplicate_of": 161
         },
         "semscholarId": "9a1c237dd3692545d024968b8831c5c00fb29f79"
     },
     {
-        "id": 23,
+        "id": 253,
         "original": {
-            "id": 23,
-            "database": "Google Scholar",
+            "id": 253,
+            "database": "ACM",
             "title": "An end-to-end learning solution for assessing the quality of Wikipedia articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3125433.3125448",
-            "authors": "QV Dang, CL Ignat",
-            "year": 2017,
-            "journal": "Proceedings of the 13th international symposium \u2026, 2017",
-            "citations": 40,
-            "pdf": "https://hal.inria.fr/hal-01559693/file/OpenSym2017%20%281%29.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Quang-Vinh Dang, Claudia-Lavinia Ignat",
+            "year": "2017",
+            "journal": "OpenSym '17: Proceedings of the 13th International Symposium on Open Collaboration, August 2017, Article No.: 4, pp 1-10",
+            "citations": 17,
+            "url": "https://dl.acm.org/doi/10.1145/3125433.3125448",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3125433.3125448",
+            "type": "Research article",
+            "date": "23 August 2017",
+            "journal_type": "Conference",
+            "duplicate_of": 23
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 254,
@@ -4334,19 +4389,21 @@
         "semscholarId": "d6efddcb15a29c7050d5c7dd4772db658623cdd2"
     },
     {
-        "id": 125,
+        "id": 255,
         "original": {
-            "id": 125,
-            "database": "Google Scholar",
+            "id": 255,
+            "database": "ACM",
             "title": "How do metrics of link analysis correlate to quality, relevance and popularity in wikipedia?",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2526188.2526198",
-            "authors": "R Hanada, M Cristo, MGC Pimentel",
-            "year": 2013,
-            "journal": "\u2026 of the 19th Brazilian symposium on \u2026, 2013",
-            "citations": 9,
-            "pdf": "https://www.academia.edu/download/33528658/p105-hanada.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Ra\u00edza Hanada, Marco Cristo, Maria da Gra\u00e7a Campos Pimentel",
+            "year": "2013",
+            "journal": "WebMedia '13: Proceedings of the 19th Brazilian symposium on Multimedia and the web, November 2013, pp 105-112",
+            "citations": 6,
+            "url": "https://dl.acm.org/doi/10.1145/2526188.2526198",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2526188.2526198",
+            "type": "Research article",
+            "date": "05 November 2013",
+            "journal_type": "Conference",
+            "duplicate_of": 125
         },
         "semscholarId": "2578b4d957fc7fbcc7a5be2dbcea5c8f8cc4c48c"
     },
@@ -4387,19 +4444,21 @@
         "semscholarId": "14d3f5e35a4b37fbab02ec80d8fe8ac276a2c42c"
     },
     {
-        "id": 145,
+        "id": 258,
         "original": {
-            "id": 145,
-            "database": "Google Scholar",
+            "id": 258,
+            "database": "ACM",
             "title": "Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3479986.3480000",
-            "authors": "L Couto, C Teixeira Lopes",
-            "year": 2021,
-            "journal": "17th International Symposium on Open \u2026, 2021",
-            "citations": "0",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3479986.3480000",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Luis Couto, Carla Teixeira Lopes",
+            "year": "2021",
+            "journal": "OpenSym '21: Proceedings of the 17th International Symposium on Open Collaboration, September 2021, Article No.: 13, pp 1-13",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1145/3479986.3480000",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "15 October 2021",
+            "journal_type": "Conference",
+            "duplicate_of": 145
         },
         "semscholarId": "a5b7aa53662a843c411555aae6508e24e9adcc1c"
     },
@@ -4476,53 +4535,59 @@
         "semscholarId": "ef210d43c0ce301c41e2a7a81ee724874a7e7181"
     },
     {
-        "id": 5,
+        "id": 263,
         "original": {
-            "id": 5,
-            "database": "Google Scholar",
+            "id": 263,
+            "database": "ACM",
             "title": "Harnessing the wisdom of crowds in wikipedia: quality through coordination",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1460563.1460572",
-            "authors": "A Kittur, RE Kraut",
-            "year": 2008,
-            "journal": "Proceedings of the 2008 ACM conference on \u2026, 2008",
-            "citations": 942,
-            "pdf": "http://pensivepuffin.com/dwmcphd/syllabi/insc547_wi13/papers/wikipedia/kittur-wisdomOfCrowd-CSCW08.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Aniket Kittur, Robert E. Kraut",
+            "year": "2008",
+            "journal": "CSCW '08: Proceedings of the 2008 ACM conference on Computer supported cooperative work, November 2008, pp 37-46",
+            "citations": 387,
+            "url": "https://dl.acm.org/doi/10.1145/1460563.1460572",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1460563.1460572",
+            "type": "Research article",
+            "date": "08 November 2008",
+            "journal_type": "Conference",
+            "duplicate_of": 5
         },
         "semscholarId": "5ead79bbdb5d396f3a5900ff1b71ee44e8061dca"
     },
     {
-        "id": 17,
+        "id": 264,
         "original": {
-            "id": 17,
-            "database": "Google Scholar",
+            "id": 264,
+            "database": "ACM",
             "title": "Predicting quality flaws in user-generated content: the case of wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2348283.2348413",
-            "authors": "M Anderka, B Stein, N Lipka",
-            "year": 2012,
-            "journal": "Proceedings of the 35th international ACM \u2026, 2012",
-            "citations": 111,
-            "pdf": "https://www.researchgate.net/profile/Benno-Stein/publication/241770811_Predicting_quality_flaws_in_user-generated_content_The_case_of_wikipedia/links/0deec5320e6c0af438000000/Predicting-quality-flaws-in-user-generated-content-The-case-of-wikipedia.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Maik Anderka, Benno Stein, Nedim Lipka",
+            "year": "2012",
+            "journal": "SIGIR '12: Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval, August 2012, pp 981-990",
+            "citations": 46,
+            "url": "https://dl.acm.org/doi/10.1145/2348283.2348413",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2348283.2348413",
+            "type": "Research article",
+            "date": "12 August 2012",
+            "journal_type": "Conference",
+            "duplicate_of": 17
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 28,
+        "id": 265,
         "original": {
-            "id": 28,
-            "database": "Google Scholar",
+            "id": 265,
+            "database": "ACM",
             "title": "Information quality assessment of community generated content: A user study of Wikipedia",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0165551511416065",
-            "authors": "E Yaari, S Baruchson-Arbib\u2026",
-            "year": 2011,
-            "journal": "Journal of Information \u2026, 2011",
-            "citations": 116,
-            "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/0165551511416065",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Eti Yaari, Shifra Baruchson-Arbib, Judit Bar-Ilan",
+            "year": "2011",
+            "journal": "Journal of Information Science (JIPP), Volume 37, Issue 5, October   2011, pp 487-498",
+            "citations": 13,
+            "url": "https://dl.acm.org/doi/10.1177/0165551511416065",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "01 October 2011",
+            "journal_type": "Journal",
+            "duplicate_of": 28
         },
         "semscholarId": "4c43a063f1cd5cd888f526543be6160ecd0de9a9"
     },
@@ -4545,87 +4610,97 @@
         "semscholarId": "4e5cdf30ab1fbd13404068c1c7894f8eeb33d0bd"
     },
     {
-        "id": 170,
+        "id": 267,
         "original": {
-            "id": 170,
-            "database": "Google Scholar",
+            "id": 267,
+            "database": "ACM",
             "title": "Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3150973",
-            "authors": "CD Sciascio, D Strohmaier, M Errecalde\u2026",
-            "year": 2019,
-            "journal": "ACM Transactions on \u2026, 2019",
-            "citations": 1,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Cecilia Di Sciascio, David Strohmaier, Marcelo Errecalde, Eduardo Veas",
+            "year": "2019",
+            "journal": "ACM Transactions on Interactive Intelligent Systems (TIIS), Volume 9, Issue 2-3, September 2019, Article No.: 13, pp 1-42",
+            "citations": 2,
+            "url": "https://dl.acm.org/doi/10.1145/3150973",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3150973",
+            "type": "Research article",
+            "date": "27 March 2019",
+            "journal_type": "unknown",
+            "duplicate_of": 170
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 14,
+        "id": 268,
         "original": {
-            "id": 14,
-            "database": "Google Scholar",
+            "id": 268,
+            "database": "ACM",
             "title": "Automatic quality assessment of content created collaboratively by web communities: a case study of wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1555400.1555449",
-            "authors": "D Hasan Dalip, M Andr\u00e9 Gon\u00e7alves, M Cristo\u2026",
-            "year": 2009,
-            "journal": "Proceedings of the 9th \u2026, 2009",
-            "citations": 150,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Daniel Hasan Dalip, Marcos Andr\u00e9 Gon\u00e7alves, Marco Cristo, P\u00e1vel Calado",
+            "year": "2009",
+            "journal": "JCDL '09: Proceedings of the 9th ACM/IEEE-CS joint conference on Digital libraries, June 2009, pp 295-304",
+            "citations": 68,
+            "url": "https://dl.acm.org/doi/10.1145/1555400.1555449",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1555400.1555449",
+            "type": "Research article",
+            "date": "15 June 2009",
+            "journal_type": "Conference",
+            "duplicate_of": 14
         },
         "semscholarId": "412e1cf936f9a0aa4b289f14136174232e8f4e38"
     },
     {
-        "id": 74,
+        "id": 269,
         "original": {
-            "id": 74,
-            "database": "Google Scholar",
+            "id": 269,
+            "database": "ACM",
             "title": "A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0165551519877646",
-            "authors": "P Wang, X Li, R Wu",
-            "year": 2021,
-            "journal": "Journal of information science, 2021",
-            "citations": 8,
-            "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/0165551519877646",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Ping Wang, Xiaodan Li, Renli Wu",
+            "year": "2021",
+            "journal": "Journal of Information Science (JIPP), Volume 47, Issue 2, Apr 2021, pp 176-191",
+            "citations": 0,
+            "url": "https://dl.acm.org/doi/10.1177/0165551519877646",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "01 April 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 74
         },
         "semscholarId": "0abf43df2e9c0fee1262e9d127c05383ffc78251"
     },
     {
-        "id": 142,
+        "id": 270,
         "original": {
-            "id": 142,
-            "database": "Google Scholar",
+            "id": 270,
+            "database": "ACM",
             "title": "Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3371041.3371045",
-            "authors": "S Velichety",
-            "year": 2019,
-            "journal": "ACM SIGMIS Database: the DATABASE for Advances \u2026, 2019",
-            "citations": 3,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Srikar Velichety",
+            "year": "2019",
+            "journal": "ACM SIGMIS Database: the DATABASE for Advances in Information Systems (SIGMIS), Volume 50, Issue 4, November 2019, pp 28-51",
+            "citations": 1,
+            "url": "https://dl.acm.org/doi/10.1145/3371041.3371045",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3371041.3371045",
+            "type": "Research article",
+            "date": "01 November 2019",
+            "journal_type": "unknown",
+            "duplicate_of": 142
         },
         "semscholarId": "3739f4702b05af3586dd9ad8d5d37cd924c8c110"
     },
     {
-        "id": 33,
+        "id": 271,
         "original": {
-            "id": 33,
-            "database": "Google Scholar",
+            "id": 271,
+            "database": "ACM",
             "title": "QuWi: quality control in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1526993.1527001",
-            "authors": "A Cusinato, V Della Mea, F Di Salvatore\u2026",
-            "year": 2009,
-            "journal": "Proceedings of the 3rd \u2026, 2009",
-            "citations": 31,
-            "pdf": "https://www.ra.ethz.ch/CDStore/www2009/www.dl.kuis.kyoto-u.ac.jp/wicow3/papers/p27-cusinatoA.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Alberto Cusinato, Vincenzo Della Mea, Francesco Di Salvatore, Stefano Mizzaro",
+            "year": "2009",
+            "journal": "WICOW '09: Proceedings of the 3rd workshop on Information credibility on the web, April 2009, pp 27-34",
+            "citations": 16,
+            "url": "https://dl.acm.org/doi/10.1145/1526993.1527001",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1526993.1527001",
+            "type": "Research article",
+            "date": "20 April 2009",
+            "journal_type": "Conference",
+            "duplicate_of": 33
         },
         "semscholarId": "254a11522cd21547d32c21ae500d8b2846f80189"
     },
@@ -4648,36 +4723,40 @@
         "semscholarId": "452ca7a696f5ea260f0b334c67ef3b71a05c676b"
     },
     {
-        "id": 13,
+        "id": 273,
         "original": {
-            "id": 13,
-            "database": "Google Scholar",
+            "id": 273,
+            "database": "ACM",
             "title": "Tell me more: an actionable quality model for Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2491055.2491063",
-            "authors": "M Warncke-Wang, D Cosley, J Riedl",
-            "year": 2013,
-            "journal": "Proceedings of the 9th \u2026, 2013",
-            "citations": 127,
-            "pdf": "https://grouplens.org/site-content/uploads/2013/09/wikisym2013_warnckewang-cosley-riedl.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Morten Warncke-Wang, Dan Cosley, John Riedl",
+            "year": "2013",
+            "journal": "WikiSym '13: Proceedings of the 9th International Symposium on Open Collaboration, August 2013, Article No.: 8, pp 1-10",
+            "citations": 61,
+            "url": "https://dl.acm.org/doi/10.1145/2491055.2491063",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2491055.2491063",
+            "type": "Research article",
+            "date": "05 August 2013",
+            "journal_type": "Conference",
+            "duplicate_of": 13
         },
         "semscholarId": "00f5c7311b9ecc2d91cb3ab7cac6bb6acec28580"
     },
     {
-        "id": 19,
+        "id": 274,
         "original": {
-            "id": 19,
-            "database": "Google Scholar",
+            "id": 274,
+            "database": "ACM",
             "title": "A jury of your peers: quality, experience and ownership in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1641309.1641332",
-            "authors": "A Halfaker, A Kittur, R Kraut, J Riedl",
-            "year": 2009,
-            "journal": "Proceedings of the 5th \u2026, 2009",
-            "citations": 127,
-            "pdf": "https://www.researchgate.net/profile/Robert-Kraut-2/publication/200773378_A_Jury_of_Your_Peers_Quality_Experience_and_Ownership_in_Wikipedia/links/02e7e529de5d50e04f000000/A-Jury-of-Your-Peers-Quality-Experience-and-Ownership-in-Wikipedia.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Aaron Halfaker, Aniket Kittur, Robert Kraut, John Riedl",
+            "year": "2009",
+            "journal": "WikiSym '09: Proceedings of the 5th International Symposium on Wikis and Open Collaboration, October 2009, Article No.: 15, pp 1-10",
+            "citations": 58,
+            "url": "https://dl.acm.org/doi/10.1145/1641309.1641332",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1641309.1641332",
+            "type": "Research article",
+            "date": "25 October 2009",
+            "journal_type": "Conference",
+            "duplicate_of": 19
         },
         "semscholarId": "b91411b9d80525ed6fa61ab01f2a1c5459fbd05d"
     },
@@ -4700,19 +4779,21 @@
         "semscholarId": "d38b8b87051c3597811385018593daa3e491ac14"
     },
     {
-        "id": 4,
+        "id": 276,
         "original": {
-            "id": 4,
-            "database": "Google Scholar",
+            "id": 276,
+            "database": "ACM",
             "title": "Size matters: word count as a measure of quality on wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/1367497.1367673",
-            "authors": "JE Blumenstock",
-            "year": 2008,
-            "journal": "Proceedings of the 17th international conference on \u2026, 2008",
-            "citations": 377,
-            "pdf": "http://www.ambuehler.ethz.ch/CDstore/www2008/www2008.org/papers/pdf/p1095-jblumenstock.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Joshua E. Blumenstock",
+            "year": "2008",
+            "journal": "WWW '08: Proceedings of the 17th international conference on World Wide Web, April 2008, pp 1095-1096",
+            "citations": 162,
+            "url": "https://dl.acm.org/doi/10.1145/1367497.1367673",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/1367497.1367673",
+            "type": "Poster",
+            "date": "21 April 2008",
+            "journal_type": "Conference",
+            "duplicate_of": 4
         },
         "semscholarId": "c6f61f344c919493886bf67d0e64e0242ae83547"
     },
@@ -4807,36 +4888,40 @@
         "semscholarId": "620ba4d148d6e8d0f3103bf6ec47209534a33710"
     },
     {
-        "id": 9,
+        "id": 282,
         "original": {
-            "id": 9,
-            "database": "Google Scholar",
+            "id": 282,
+            "database": "ACM",
             "title": "Don't bite the newbies: how reverts affect the quantity and quality of Wikipedia work",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2038558.2038585",
-            "authors": "A Halfaker, A Kittur, J Riedl",
-            "year": 2011,
-            "journal": "\u2026 of the 7th international symposium on wikis \u2026, 2011",
-            "citations": 256,
-            "pdf": "https://www.opensym.org/ws2011/_media/proceedings%253Ap163-halfaker.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Aaron Halfaker, Aniket Kittur, John Riedl",
+            "year": "2011",
+            "journal": "WikiSym '11: Proceedings of the 7th International Symposium on Wikis and Open Collaboration, October 2011, pp 163-172",
+            "citations": 125,
+            "url": "https://dl.acm.org/doi/10.1145/2038558.2038585",
+            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2038558.2038585",
+            "type": "Research article",
+            "date": "03 October 2011",
+            "journal_type": "Conference",
+            "duplicate_of": 9
         },
         "semscholarId": "b2149024c793fb323b4fbe940c42ecf566860105"
     },
     {
-        "id": 138,
+        "id": 283,
         "original": {
-            "id": 138,
-            "database": "Google Scholar",
+            "id": 283,
+            "database": "ACM",
             "title": "Reciprocity and Donation: How Article Topic, Quality and Dwell Time Predict Banner Donation on Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3274360",
-            "authors": "R Kocielnik, O Keyes, JT Morgan\u2026",
-            "year": 2018,
-            "journal": "Proceedings of the \u2026, 2018",
+            "authors": "Rafal Kocielnik, Os Keyes, Jonathan T. Morgan, Dario Taraborelli, David W. McDonald, Gary Hsieh",
+            "year": "2018",
+            "journal": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI), Volume 2, Issue CSCW, November 2018, Article No.: 91, pp 1-20",
             "citations": 5,
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3274360",
-            "other_info": "",
-            "journal_type": "Conference"
+            "url": "https://dl.acm.org/doi/10.1145/3274360",
+            "pdf": "N/A",
+            "type": "Research article",
+            "date": "01 November 2018",
+            "journal_type": "Conference",
+            "duplicate_of": 138
         },
         "semscholarId": "90a4f0ff04b07d1f46a602ef1be1488f6178150f"
     },
@@ -4858,36 +4943,38 @@
         "semscholarId": "254a11522cd21547d32c21ae500d8b2846f80189"
     },
     {
-        "id": 7,
+        "id": 285,
         "original": {
-            "id": 7,
-            "database": "Google Scholar",
+            "id": 285,
+            "database": "Web of Science",
             "title": "Information quality work organization in Wikipedia",
-            "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.20813",
-            "authors": "B Stvilia, MB Twidale, LC Smith\u2026",
-            "year": 2008,
-            "journal": "Journal of the American \u2026, 2008",
-            "citations": 493,
-            "pdf": "https://www.researchgate.net/profile/Besiki-Stvilia/publication/200772424_Information_quality_work_organization_in_Wikipedia/links/5a920becaca2721405643352/Information-quality-work-organization-in-Wikipedia.pdf",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Stvilia, B; Twidale, MB; Gasser, L",
+            "year": "2008",
+            "journal": "JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY (6) , pp.983-1001",
+            "citations": 175,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000254363800010",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1002%2Fasi.20813&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+THE+AMERICAN+SOCIETY+FOR+INFORMATION+SCIENCE+AND+TECHNOLOGY&DestDOIRegistrantName=Wiley+%28John+Wiley+%26+Sons%29",
+            "date": "Apr 2008",
+            "journal_type": "Journal",
+            "duplicate_of": 7
         },
         "semscholarId": "89c5bef3053bf3e4953204c7357ff838523b7488"
     },
     {
-        "id": 137,
+        "id": 286,
         "original": {
-            "id": 137,
-            "database": "Google Scholar",
+            "id": 286,
+            "database": "Web of Science",
             "title": "Quality of mental health information on Wikipedia",
-            "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/letter-to-the-editor-quality-of-mental-health-information-on-wikipedia/4C7455808DA13EB100F8C68F6B55FC04",
-            "authors": "P Wicks, V Bell",
-            "year": 2012,
-            "journal": "Psychological medicine, 2012",
-            "citations": 6,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Wicks, P; Bell, V",
+            "year": "2012",
+            "journal": "PSYCHOLOGICAL MEDICINE (4) , pp.891-891",
+            "citations": 5,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000302379100020",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1017%2FS0033291712000086&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PSYCHOLOGICAL+MEDICINE&DestDOIRegistrantName=Cambridge+University+Press",
+            "date": "Apr 2012",
+            "journal_type": "unknown",
+            "duplicate_of": 137
         },
         "semscholarId": "db0b7c773018080e0401d15272100a2a57272dd5"
     },
@@ -4926,20 +5013,20 @@
         "semscholarId": "85323c0f359fd0ab782d07a048bd11dcb0ea5014"
     },
     {
-        "id": 272,
+        "id": 289,
         "original": {
-            "id": 272,
-            "database": "ACM",
+            "id": 289,
+            "database": "Web of Science",
             "title": "WikiLyzer: Interactive Information Quality Assessment in Wikipedia",
-            "authors": "Cecilia di Sciascio, David Strohmaier, Marcelo Errecalde, Eduardo Veas",
+            "authors": "di Sciascio, C; Strohmaier, D; Veas, E",
             "year": "2017",
-            "journal": "IUI '17: Proceedings of the 22nd International Conference on Intelligent User Interfaces, March 2017, pp 377-388",
+            "journal": "22nd International Conference on Intelligent User Interfaces (IUI) , pp.377-388",
             "citations": 5,
-            "url": "https://dl.acm.org/doi/10.1145/3025171.3025201",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3025171.3025201",
-            "type": "Research article",
-            "date": "07 March 2017",
-            "journal_type": "Conference"
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000458177700039",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F3025171.3025201&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=IUI%2717%3A+PROCEEDINGS+OF+THE+22ND+INTERNATIONAL+CONFERENCE+ON+INTELLIGENT+USER+INTERFACES&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2017",
+            "journal_type": "Conference",
+            "duplicate_of": 272
         },
         "semscholarId": "452ca7a696f5ea260f0b334c67ef3b71a05c676b"
     },
@@ -4961,37 +5048,38 @@
         "semscholarId": "8cba1878de84959de7a5401c9181819ee9bdf205"
     },
     {
-        "id": 95,
+        "id": 291,
         "original": {
-            "id": 95,
-            "database": "Google Scholar",
+            "id": 291,
+            "database": "Web of Science",
             "title": "Mining team characteristics to predict Wikipedia article quality",
-            "url": "https://dl.acm.org/doi/abs/10.1145/2957792.2971802",
-            "authors": "GG Betancourt, A Segnine, C Trabuco\u2026",
-            "year": 2016,
-            "journal": "Proceedings of the 12th \u2026, 2016",
-            "citations": 10,
-            "pdf": "https://hal.archives-ouvertes.fr/hal-01354368/document",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Betancourt, GG; Segnini, A; Jullien, N",
+            "year": "2016",
+            "journal": "12th International Symposium on Open Collaboration (OPENSYM) ",
+            "citations": 3,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000391255900015",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F2957792.2971802&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+12TH+INTERNATIONAL+SYMPOSIUM+ON+OPEN+COLLABORATION+%28OPENSYM%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2016",
+            "journal_type": "Conference",
+            "duplicate_of": 95
         },
         "semscholarId": "cdc1216d54d10a3a6f8e742941010f5d83002940"
     },
     {
-        "id": 229,
+        "id": 292,
         "original": {
-            "id": 229,
-            "database": "ACM",
+            "id": 292,
+            "database": "Web of Science",
             "title": "Quality Assessment of Wikipedia Articles without Feature Engineering",
-            "authors": "Quang Vinh Dang, Claudia-Lavinia Ignat",
+            "authors": "Dang, QV; Ignat, CL",
             "year": "2016",
-            "journal": "JCDL '16: Proceedings of the 16th ACM/IEEE-CS on Joint Conference on Digital Libraries, June 2016, pp 27-30",
-            "citations": 31,
-            "url": "https://dl.acm.org/doi/10.1145/2910896.2910917",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2910896.2910917",
-            "type": "Short paper",
-            "date": "19 June 2016",
-            "journal_type": "Conference"
+            "journal": "16th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL) , pp.27-30",
+            "citations": 32,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000389502300006",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F2910896.2910917&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=2016+IEEE%2FACM+JOINT+CONFERENCE+ON+DIGITAL+LIBRARIES+%28JCDL%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2016",
+            "journal_type": "Conference",
+            "duplicate_of": 229
         },
         "semscholarId": "425064f6236d6457344d45c3517097936d42aea3"
     },
@@ -5030,19 +5118,20 @@
         "semscholarId": "a57b3142070beec458939e0a898991e0246f2ad8"
     },
     {
-        "id": 38,
+        "id": 295,
         "original": {
-            "id": 38,
-            "database": "Google Scholar",
+            "id": 295,
+            "database": "Web of Science",
             "title": "NwQM: A neural quality assessment framework for Wikipedia",
-            "url": "https://aclanthology.org/2020.emnlp-main.674/",
-            "authors": "BPR Guda, SB Seelaboyina, S Sarkar\u2026",
-            "year": 2020,
-            "journal": "Proceedings of the \u2026, 2020",
-            "citations": 4,
+            "authors": "Reddy, BP; Bhushan, S; Mukherjee, A",
+            "year": "2020",
+            "journal": "Conference on Empirical Methods in Natural Language Processing (EMNLP) , pp.8396-8406",
+            "citations": 3,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000855160708049",
             "pdf": "N/A",
-            "other_info": "HTML",
-            "journal_type": "Conference"
+            "date": "2020",
+            "journal_type": "Conference",
+            "duplicate_of": 38
         },
         "semscholarId": "c44a14c16f0ae980c8075a3e8e83b41ce4a8d035"
     },
@@ -5081,90 +5170,92 @@
         "semscholarId": "e2988816a10bf5a50bd952601ac06026e5493782"
     },
     {
-        "id": 234,
+        "id": 298,
         "original": {
-            "id": 234,
-            "database": "ACM",
+            "id": 298,
+            "database": "Web of Science",
             "title": "Assessing the Quality of Wikipedia Editors through Crowdsourcing",
-            "authors": "Yu Suzuki, Satoshi Nakamura",
+            "authors": "Suzuki, Y; Nakamura, S",
             "year": "2016",
-            "journal": "WWW '16 Companion: Proceedings of the 25th International Conference Companion on World Wide Web, April 2016, pp 1001-1006",
-            "citations": 7,
-            "url": "https://dl.acm.org/doi/10.1145/2872518.2891113",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2872518.2891113",
-            "type": "Abstract",
-            "date": "11 April 2016",
-            "journal_type": "Conference"
+            "journal": "25th International Conference on World Wide Web (WWW) , pp.1001-1006",
+            "citations": 6,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000687202100240",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F2872518.2891113&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+25TH+INTERNATIONAL+CONFERENCE+ON+WORLD+WIDE+WEB+%28WWW%2716+COMPANION%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2016",
+            "journal_type": "Conference",
+            "duplicate_of": 234
         },
         "semscholarId": "d7a5280305184070f9b0989de49f39f87a85c985"
     },
     {
-        "id": 231,
+        "id": 299,
         "original": {
-            "id": 231,
-            "database": "ACM",
+            "id": 299,
+            "database": "Web of Science",
             "title": "Classifying Wikipedia Article Quality With Revision History Networks",
-            "authors": "Narun Raman, Nathaniel Sauerberg, Jonah Fisher, Sneha Narayan",
+            "authors": "Raman, N; Sauerberg, N; Narayan, S",
             "year": "2020",
-            "journal": "OpenSym '20: Proceedings of the 16th International Symposium on Open Collaboration, August 2020, Article No.: 5, pp 1-7",
-            "citations": 6,
-            "url": "https://dl.acm.org/doi/10.1145/3412569.3412581",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3412569.3412581",
-            "type": "Research article",
-            "date": "14 October 2020",
-            "journal_type": "Conference"
+            "journal": "16th International Symposium on Open Collaboration (OpenSym) ",
+            "citations": 4,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000771793800010",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F3412569.3412581&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+16TH+INTERNATIONAL+SYMPOSIUM+ON+OPEN+COLLABORATION+%28OPENSYM%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2020",
+            "journal_type": "Conference",
+            "duplicate_of": 231
         },
         "semscholarId": "8a74f75cb449bff4833be8f77ccf5f2493d75a19"
     },
     {
-        "id": 235,
+        "id": 300,
         "original": {
-            "id": 235,
-            "database": "ACM",
+            "id": 300,
+            "database": "Web of Science",
             "title": "Measuring Article Quality in Wikipedia using the Collaboration Network",
-            "authors": "Baptiste de La Robertie, Yoann Pitarch, Olivier Teste",
+            "authors": "de La Robertie, B; Pitarch, Y; Teste, O",
             "year": "2015",
-            "journal": "ASONAM '15: Proceedings of the 2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2015, August 2015, pp 464-471",
-            "citations": 21,
-            "url": "https://dl.acm.org/doi/10.1145/2808797.2808895",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/2808797.2808895",
-            "type": "Research article",
-            "date": "25 August 2015",
-            "journal_type": "Conference"
+            "journal": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM) , pp.464-471",
+            "citations": 19,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000371793500064",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F2808797.2808895&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+2015+IEEE%2FACM+INTERNATIONAL+CONFERENCE+ON+ADVANCES+IN+SOCIAL+NETWORKS+ANALYSIS+AND+MINING+%28ASONAM+2015%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2015",
+            "journal_type": "Conference",
+            "duplicate_of": 235
         },
         "semscholarId": "f2b5cb81200b34fbc5e2e1468218d9be27fc23d6"
     },
     {
-        "id": 150,
+        "id": 301,
         "original": {
-            "id": 150,
-            "database": "Google Scholar",
+            "id": 301,
+            "database": "Web of Science",
             "title": "Quality Classification of ASEAN Wikipedia Articles using Statistical Features",
-            "url": "https://ieeexplore.ieee.org/abstract/document/8692954/",
-            "authors": "K Saengthongpattana, T Supnithi\u2026",
-            "year": 2018,
-            "journal": "\u2026 Joint Symposium on \u2026, 2018",
-            "citations": 3,
-            "pdf": "https://saki.siit.tu.ac.th/isai-nlp2018/uploads_final/51__0ce6368ae89c4b419ff2d92827ef2d42/FinalVersion-1.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Saengthongpattana, K; Supnithi, T; Soonthornphisaj, N",
+            "year": "2018",
+            "journal": "International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP) , pp.207-212",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000493561700037",
+            "pdf": "N/A",
+            "date": "2018",
+            "journal_type": "Conference",
+            "duplicate_of": 150
         },
         "semscholarId": "f47f2ea88b5412b6a44a264aec67b998a6e3e9ce"
     },
     {
-        "id": 51,
+        "id": 302,
         "original": {
-            "id": 51,
-            "database": "Google Scholar",
+            "id": 302,
+            "database": "Web of Science",
             "title": "Readability and quality of wikipedia pages on neurosurgical topics",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0303846718300271",
-            "authors": "O Modiri, D Guha, NM Alotaibi, GM Ibrahim\u2026",
-            "year": 2018,
-            "journal": "Clinical neurology and \u2026, 2018",
-            "citations": 32,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Modiri, O; Guha, D; Fallah, A",
+            "year": "2018",
+            "journal": "CLINICAL NEUROLOGY AND NEUROSURGERY , pp.66-70",
+            "citations": 22,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000427666000013",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1016%2Fj.clineuro.2018.01.021&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=CLINICAL+NEUROLOGY+AND+NEUROSURGERY&DestDOIRegistrantName=Elsevier",
+            "date": "Mar 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 51
         },
         "semscholarId": "4364ec858a65cd9edae04e3fa6672613428c5423"
     },
@@ -5186,19 +5277,20 @@
         "semscholarId": "b19f3cf7ec13c083f067875a80667c2ad540d6fc"
     },
     {
-        "id": 197,
+        "id": 304,
         "original": {
-            "id": 197,
-            "database": "Google Scholar",
+            "id": 304,
+            "database": "Web of Science",
             "title": "Predicting Low-Quality Wikipedia Articles Using User's Judgements",
-            "url": "https://link.springer.com/chapter/10.1007/978-3-319-05467-4_6",
-            "authors": "N Zhang, L Ruan, L Si",
-            "year": 2015,
-            "journal": "Roles, Trust, and Reputation in Social Media \u2026, 2015",
-            "citations": "0",
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Zhang, N; Ruan, LY; Si, L",
+            "year": "2015",
+            "journal": "1st Invitational KredibleNet Workshop , pp.91-99",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000380568200006",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1007%2F978-3-319-05467-4_6&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=ROLES%2C+TRUST%2C+AND+REPUTATION+IN+SOCIAL+MEDIA+KNOWLEDGE+MARKETS%3A+THEORY+AND+METHODS&DestDOIRegistrantName=Springer-Verlag",
+            "date": "2015",
+            "journal_type": "Conference",
+            "duplicate_of": 197
         },
         "semscholarId": "f9ac07db4730ee15b657cab2e20c6ca6ed366336"
     },
@@ -5220,19 +5312,20 @@
         "semscholarId": "dd5a0bd3b918f4bc43568d461e60345fdeb55f21"
     },
     {
-        "id": 57,
+        "id": 306,
         "original": {
-            "id": 57,
-            "database": "Google Scholar",
+            "id": 306,
+            "database": "Web of Science",
             "title": "Knowledge categorization affects popularity and quality of Wikipedia articles",
-            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190674",
-            "authors": "J Lerner, A Lomi",
-            "year": 2018,
-            "journal": "PloS one, 2018",
-            "citations": 27,
-            "pdf": "N/A",
-            "other_info": "HTML",
-            "journal_type": "unknown"
+            "authors": "Lerner, J; Lomi, A",
+            "year": "2018",
+            "journal": "PLOS ONE (1)",
+            "citations": 15,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000419101600158",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1371%2Fjournal.pone.0190674&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PLOS+ONE&DestDOIRegistrantName=Public+Library+of+Science",
+            "date": "Jan 2 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 57
         },
         "semscholarId": "fa1db666c361fd03226c8e7bd81c5eb515719ac6"
     },
@@ -5254,36 +5347,38 @@
         "semscholarId": "a37c5e68f712724157a4a6824f58a2425a830168"
     },
     {
-        "id": 54,
+        "id": 308,
         "original": {
-            "id": 54,
-            "database": "Google Scholar",
+            "id": 308,
+            "database": "Web of Science",
             "title": "Network analysis of user generated content quality in Wikipedia",
-            "url": "https://www.emerald.com/insight/content/doi/10.1108/OIR-03-2011-0182/full/html",
-            "authors": "M Ingawale, A Dutta, R Roy\u2026",
-            "year": 2013,
-            "journal": "Online Information \u2026, 2013",
-            "citations": 30,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Ingawale, M; Dutta, A; Seetharaman, P",
+            "year": "2013",
+            "journal": "ONLINE INFORMATION REVIEW (4) , pp.602-619",
+            "citations": 16,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000324567600007",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1108%2FOIR-03-2011-0182&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=ONLINE+INFORMATION+REVIEW&DestDOIRegistrantName=Emerald+%28MCB+UP%29",
+            "date": "2013",
+            "journal_type": "unknown",
+            "duplicate_of": 54
         },
         "semscholarId": "53013037649e17b1194ae579a9a6e20bd7bf3e0d"
     },
     {
-        "id": 113,
+        "id": 309,
         "original": {
-            "id": 113,
-            "database": "Google Scholar",
+            "id": 309,
+            "database": "Web of Science",
             "title": "Improving information quality of Wikipedia articles with cooperative principle",
-            "url": "https://www.emerald.com/insight/content/doi/10.1108/OIR-01-2016-0003",
-            "authors": "M Fidler, D Lavbi\u010d",
-            "year": 2017,
-            "journal": "Online information review, 2017",
-            "citations": 10,
-            "pdf": "https://arxiv.org/pdf/1807.03774",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Fidler, M; Lavbic, D",
+            "year": "2017",
+            "journal": "ONLINE INFORMATION REVIEW (6) , pp.797-811",
+            "citations": 5,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000411460600003",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1108%2FOIR-01-2016-0003&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=ONLINE+INFORMATION+REVIEW&DestDOIRegistrantName=Emerald+%28MCB+UP%29",
+            "date": "2017",
+            "journal_type": "unknown",
+            "duplicate_of": 113
         },
         "semscholarId": "e32ec265e99218e301a621486c3363a4a6ae9049"
     },
@@ -5305,39 +5400,40 @@
         "semscholarId": "5ead79bbdb5d396f3a5900ff1b71ee44e8061dca"
     },
     {
-        "id": 25,
+        "id": 311,
         "original": {
-            "id": 25,
-            "database": "Google Scholar",
+            "id": 311,
+            "database": "Web of Science",
             "title": "Relating Wikipedia article quality to edit behavior and link structure",
-            "url": "https://link.springer.com/article/10.1007/s41109-020-00305-y",
-            "authors": "T Ruprechter, T Santos, D Helic",
-            "year": 2020,
-            "journal": "Applied Network Science, 2020",
-            "citations": 14,
-            "pdf": "N/A",
-            "other_info": "HTML",
-            "journal_type": "unknown"
+            "authors": "Ruprechter, T; Santos, T; Helic, D",
+            "year": "2020",
+            "journal": "APPLIED NETWORK SCIENCE (1)",
+            "citations": 4,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000680089100002",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1007%2Fs41109-020-00305-y&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=APPLIED+NETWORK+SCIENCE&DestDOIRegistrantName=Springer-Verlag",
+            "date": "Sep 9 2020",
+            "journal_type": "unknown",
+            "duplicate_of": 25
         },
         "semscholarId": "d2742c2e19966865ab0db00fa515c79678eec9dd"
     },
     {
-        "id": 240,
+        "id": 312,
         "original": {
-            "id": 240,
-            "database": "ACM",
+            "id": 312,
+            "database": "Web of Science",
             "title": "A Large-scale Study of Wikipedia Users' Quality of Experience",
-            "authors": "Flavia Salutari, Diego Da Hora, Gilles Dubuc, Dario Rossi",
+            "authors": "Salutari, F; Da Hora, D; Rossi, D",
             "year": "2019",
-            "journal": "WWW '19: The World Wide Web Conference, May 2019, pp 3194-3200",
-            "citations": 6,
-            "url": "https://dl.acm.org/doi/10.1145/3308558.3313467",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3308558.3313467",
-            "type": "Research article",
-            "date": "13 May 2019",
-            "journal_type": "Conference"
+            "journal": "World Wide Web Conference (WWW) , pp.3194-3200",
+            "citations": 5,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000483508403038",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F3308558.3313467&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=WEB+CONFERENCE+2019%3A+PROCEEDINGS+OF+THE+WORLD+WIDE+WEB+CONFERENCE+%28WWW+2019%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2019",
+            "journal_type": "Conference",
+            "duplicate_of": 240
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 313,
@@ -5357,19 +5453,20 @@
         "semscholarId": "537cb10b82056ca9e8759c0276e6889e19cce93f"
     },
     {
-        "id": 73,
+        "id": 314,
         "original": {
-            "id": 73,
-            "database": "Google Scholar",
+            "id": 314,
+            "database": "Web of Science",
             "title": "Readability and quality of Wikipedia articles on pelvic floor disorders",
-            "url": "https://link.springer.com/article/10.1007/s00192-021-04776-0",
-            "authors": "SJ Handler, SE Eckhardt, Y Takashima\u2026",
-            "year": 2021,
-            "journal": "International \u2026, 2021",
-            "citations": 10,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Handler, SJ; Eckhardt, SE; Yazdany, T",
+            "year": "2021",
+            "journal": "INTERNATIONAL UROGYNECOLOGY JOURNAL (12) , pp.3249-3258",
+            "citations": 5,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000636135300003",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1007%2Fs00192-021-04776-0&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=INTERNATIONAL+UROGYNECOLOGY+JOURNAL&DestDOIRegistrantName=Springer-Verlag",
+            "date": "Dec 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 73
         },
         "semscholarId": "a6deb56a4f7ffb0859002c508ba9754b45906080"
     },
@@ -5422,7 +5519,7 @@
             "date": "2012",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 318,
@@ -5439,7 +5536,7 @@
             "date": "Jan 2020",
             "journal_type": "Journal"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 319,
@@ -5459,38 +5556,40 @@
         "semscholarId": "8bc3af08dc9d06747a6ca83c941a6e2cc03b29fc"
     },
     {
-        "id": 29,
+        "id": 320,
         "original": {
-            "id": 29,
-            "database": "Google Scholar",
+            "id": 320,
+            "database": "Web of Science",
             "title": "Using big data and network analysis to understand Wikipedia article quality",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0169023X18300685",
-            "authors": "J Liu, S Ram",
-            "year": 2018,
-            "journal": "Data & Knowledge Engineering, 2018",
-            "citations": 31,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Liu, J; Ram, S",
+            "year": "2018",
+            "journal": "DATA & KNOWLEDGE ENGINEERING , pp.80-93",
+            "citations": 11,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000438831900006",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1016%2Fj.datak.2018.02.004&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=DATA+%26+KNOWLEDGE+ENGINEERING&DestDOIRegistrantName=Elsevier",
+            "date": "May 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 29
         },
         "semscholarId": "72ccb62a36d13a4563db9a926db72a6a57fe21fd"
     },
     {
-        "id": 206,
+        "id": 321,
         "original": {
-            "id": 206,
-            "database": "Google Scholar",
+            "id": 321,
+            "database": "Web of Science",
             "title": "THE ADOPTION OF WIKIPEDIA: A COMMUNITY-AND INFORMATION QUALITY-BASED VIEW",
-            "url": "https://www.researchgate.net/profile/Shu-Chen-Yang-2/publication/221229622_The_Adoption_of_Wikipedia_A_Community-_and_Information_Quality-Based_View/links/53f5f5b00cf2fceacc6f8579/The-Adoption-of-Wikipedia-A-Community-and-Information-Quality-Based-View.pdf",
-            "authors": "T County",
-            "year": "N/A",
-            "journal": "N/A",
-            "citations": "0",
-            "pdf": "https://www.researchgate.net/profile/Shu-Chen-Yang-2/publication/221229622_The_Adoption_of_Wikipedia_A_Community-_and_Information_Quality-Based_View/links/53f5f5b00cf2fceacc6f8579/The-Adoption-of-Wikipedia-A-Community-and-Information-Quality-Based-View.pdf",
-            "other_info": "PDF",
-            "journal_type": "unknown"
+            "authors": "Wang, K; Lin, CL; Yang, SC",
+            "year": "2008",
+            "journal": "12th Pacific Asia Conference on Information Systems (PACIS 2008) , pp.248-+",
+            "citations": 2,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000262877100020",
+            "pdf": "N/A",
+            "date": "2008",
+            "journal_type": "Conference",
+            "duplicate_of": 206
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 322,
@@ -5510,38 +5609,40 @@
         "semscholarId": "f15854327b175728ed758b648497278b459dc110"
     },
     {
-        "id": 101,
+        "id": 323,
         "original": {
-            "id": 101,
-            "database": "Google Scholar",
+            "id": 323,
+            "database": "Web of Science",
             "title": "Structural Analysis of Wikigraph to Investigate Quality Grades of Wikipedia Articles",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3442442.3452345",
-            "authors": "A Chhabra, S Srivastava, SR S. Iyengar\u2026",
-            "year": 2021,
-            "journal": "\u2026 Proceedings of the Web \u2026, 2021",
-            "citations": 1,
-            "pdf": "https://wikiworkshop.org/2021/papers/Wiki_Workshop_2021_paper_10.pdf",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Chhabra, A; Srivastava, S; Saini, P",
+            "year": "2021",
+            "journal": "30th World Wide Web (WWW) Conference (WebConf) , pp.584-590",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000749534900099",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F3442442.3452345&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=WEB+CONFERENCE+2021%3A+COMPANION+OF+THE+WORLD+WIDE+WEB+CONFERENCE+%28WWW+2021%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2021",
+            "journal_type": "Conference",
+            "duplicate_of": 101
         },
         "semscholarId": "8ddfbf5d323e0a94160ffe10a13353793c954f30"
     },
     {
-        "id": 168,
+        "id": 324,
         "original": {
-            "id": 168,
-            "database": "Google Scholar",
+            "id": 324,
+            "database": "Web of Science",
             "title": "Contraception in the German-language Wikipedia: a content and quality analysis",
-            "url": "https://europepmc.org/article/med/35471607",
-            "authors": "N D\u00f6ring, S Lehmann\u2026",
-            "year": 2022,
-            "journal": "Bundesgesundheitsblatt \u2026, 2022",
-            "citations": "0",
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Doring, N; Lehmann, S; Schumann-Doermer, C",
+            "year": "2022",
+            "journal": "BUNDESGESUNDHEITSBLATT-GESUNDHEITSFORSCHUNG-GESUNDHEITSSCHUTZ (6) , pp.706-717",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000787649000001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1007%2Fs00103-022-03537-8&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=BUNDESGESUNDHEITSBLATT-GESUNDHEITSFORSCHUNG-GESUNDHEITSSCHUTZ&DestDOIRegistrantName=Springer-Verlag",
+            "date": "Jun 2022",
+            "journal_type": "unknown",
+            "duplicate_of": 168
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 325,
@@ -5660,7 +5761,7 @@
             "date": "May 2018",
             "journal_type": "Journal"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
         "id": 332,
@@ -5677,40 +5778,41 @@
             "date": "2015",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 221,
+        "id": 333,
         "original": {
-            "id": 221,
-            "database": "ACM",
+            "id": 333,
+            "database": "Web of Science",
             "title": "Information Quality in Wikipedia: The Effects of Group Composition and Task Conflict",
-            "authors": "Ofer Arazy, Oded Nov, Raymond Patterson, Lisa Yeo",
+            "authors": "Arazy, O; Nov, O; Yeo, L",
             "year": "2011",
-            "journal": "Journal of Management Information Systems (JMIS), Volume 27, Issue 4, Number 4 / Spring 2011, pp 71-98",
-            "citations": 49,
-            "url": "https://dl.acm.org/doi/10.2753/MIS0742-1222270403",
-            "pdf": "N/A",
-            "type": "Article",
-            "date": "01 April 2011",
-            "journal_type": "Journal"
+            "journal": "JOURNAL OF MANAGEMENT INFORMATION SYSTEMS (4) , pp.71-98",
+            "citations": 115,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000290549800004",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.2753%2FMIS0742-1222270403&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+MANAGEMENT+INFORMATION+SYSTEMS&DestDOIRegistrantName=M.E.+Sharpe",
+            "date": "Spr 2011",
+            "journal_type": "Journal",
+            "duplicate_of": 221
         },
         "semscholarId": "26450adc2040f7f7d2ed7366bbe90d5091dbd3a1"
     },
     {
-        "id": 144,
+        "id": 334,
         "original": {
-            "id": 144,
-            "database": "Google Scholar",
+            "id": 334,
+            "database": "Web of Science",
             "title": "Content and Quality of Information about Stroke in Wikipedia across Multiple Languages",
-            "url": "https://www.karger.com/Article/Abstract/521938",
-            "authors": "JM Marquez-Romero, \u00c1 Lee, E Soto-Cabrera\u2026",
-            "year": 2022,
-            "journal": "European \u2026, 2022",
-            "citations": "0",
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Marquez-Romero, JM; Lee, AE; Prado-Aguilar, CA",
+            "year": "2022",
+            "journal": "EUROPEAN NEUROLOGY (4) , pp.308-312",
+            "citations": 1,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000753741200001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1159%2F000521938&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=EUROPEAN+NEUROLOGY&DestDOIRegistrantName=S.+Karger+AG",
+            "date": "Aug 2022",
+            "journal_type": "unknown",
+            "duplicate_of": 144
         },
         "semscholarId": "796882706963fe29d6febcd63d5f6b6166e76813"
     },
@@ -5732,19 +5834,20 @@
         "semscholarId": "4c43a063f1cd5cd888f526543be6160ecd0de9a9"
     },
     {
-        "id": 134,
+        "id": 336,
         "original": {
-            "id": 134,
-            "database": "Google Scholar",
+            "id": 336,
+            "database": "Web of Science",
             "title": "Learning with Wikipedia in Higher Education: Academic Performance and Students' Quality Perception",
-            "url": "https://link.springer.com/chapter/10.1007/978-3-030-30809-4_12",
-            "authors": "A Meseguer-Artola, I Rodr\u00edguez-Ardura\u2026",
-            "year": 2019,
-            "journal": "\u2026 International Research & \u2026, 2019",
-            "citations": 6,
-            "pdf": "https://www.academia.edu/download/62836665/Research___Innovation_Forum_201920200405-42090-15vzg6s.pdf#page=130",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Meseguer-Artola, A; Rodriguez-Ardura, I; Rimbau-Gilabert, E",
+            "year": "2019",
+            "journal": "Research and Innovation Forum (Rii Forum) , pp.117-124",
+            "citations": 1,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000626766500012",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1007%2F978-3-030-30809-4_12&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=RESEARCH+%26+INNOVATION+FORUM+2019%3A+TECHNOLOGY%2C+INNOVATION%2C+EDUCATION%2C+AND+THEIR+SOCIAL+IMPACT&DestDOIRegistrantName=Springer-Verlag",
+            "date": "2019",
+            "journal_type": "unknown",
+            "duplicate_of": 134
         },
         "semscholarId": "a1f353d97743fce8b8ca5ace3b80f1bc9f820f96"
     },
@@ -5868,36 +5971,38 @@
         "semscholarId": "d5b3f3e9403eda8b45184951b269ee7997452c6b"
     },
     {
-        "id": 108,
+        "id": 344,
         "original": {
-            "id": 108,
-            "database": "Google Scholar",
+            "id": 344,
+            "database": "Web of Science",
             "title": "Measuring Wikipedia Article Quality in One Dimension by Extending ORES with Ordinal Regression",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3479986.3479991",
-            "authors": "N TeBlunthuis",
-            "year": 2021,
-            "journal": "17th International Symposium on Open Collaboration, 2021",
-            "citations": 4,
-            "pdf": "https://arxiv.org/pdf/2108.10684",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "TeBlunthuis, N",
+            "year": "2021",
+            "journal": "17th International Symposium on Open Collaboration (OpenSym) ",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000771787400005",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1145%2F3479986.3479991&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+17TH+INTERNATIONAL+SYMPOSIUM+ON+OPEN+COLLABORATION+%28OPENSYM%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2021",
+            "journal_type": "Conference",
+            "duplicate_of": 108
         },
         "semscholarId": "2c6de714ad28778eaddb2b886b7168a79cc8b4ab"
     },
     {
-        "id": 94,
+        "id": 345,
         "original": {
-            "id": 94,
-            "database": "Google Scholar",
+            "id": 345,
+            "database": "Web of Science",
             "title": "Indicator of quality for environmental articles on Wikipedia at the higher education level",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0165551519888607",
-            "authors": "E Peti\u0161ka, B Moldan",
-            "year": 2021,
-            "journal": "Journal of Information Science, 2021",
-            "citations": 4,
-            "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/0165551519888607",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Petiska, E; Moldan, B",
+            "year": "2021",
+            "journal": "JOURNAL OF INFORMATION SCIENCE (2) , pp.269-280",
+            "citations": 3,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000501946900001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1177%2F0165551519888607&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+INFORMATION+SCIENCE&DestDOIRegistrantName=SAGE+Publications",
+            "date": "Apr 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 94
         },
         "semscholarId": "9df731914171c0dfb635f15e4e2ae245353d15fd"
     },
@@ -5919,54 +6024,56 @@
         "semscholarId": "9f80820699b2fb01b1a87ee65dc7ab7e03efdabc"
     },
     {
-        "id": 100,
+        "id": 347,
         "original": {
-            "id": 100,
-            "database": "Google Scholar",
+            "id": 347,
+            "database": "Web of Science",
             "title": "Quality flaw prediction in Spanish Wikipedia: A case of study with verifiability flaws",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0306457317309329",
-            "authors": "E Ferretti, L Cagnina, V Paiz, S Delle Donne\u2026",
-            "year": 2018,
-            "journal": "Information Processing \u2026, 2018",
-            "citations": 12,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Ferretti, E; Cagnina, L; Errecalde, M",
+            "year": "2018",
+            "journal": "INFORMATION PROCESSING & MANAGEMENT (6) , pp.1169-1181",
+            "citations": 6,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000445713800019",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1016%2Fj.ipm.2018.08.003&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=INFORMATION+PROCESSING+%26+MANAGEMENT&DestDOIRegistrantName=Elsevier",
+            "date": "Nov 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 100
         },
         "semscholarId": "96624b05a21c20da28291207bff2199c68074b57"
     },
     {
-        "id": 266,
+        "id": 348,
         "original": {
-            "id": 266,
-            "database": "ACM",
+            "id": 348,
+            "database": "Web of Science",
             "title": "Diversity of editors and teams versus quality of cooperative work: experiments on wikipedia",
-            "authors": "Marcin Sydow, Katarzyna Baraniak, Pawe\u0142 Teisseyre",
+            "authors": "Sydow, M; Baraniak, K; Teisseyre, P",
             "year": "2017",
-            "journal": "Journal of Intelligent Information Systems (JIIS), Volume 48, Issue 3, June      2017, pp 601-632",
-            "citations": 3,
-            "url": "https://dl.acm.org/doi/10.1007/s10844-016-0428-1",
-            "pdf": "N/A",
-            "type": "Article",
-            "date": "01 June 2017",
-            "journal_type": "Journal"
+            "journal": "JOURNAL OF INTELLIGENT INFORMATION SYSTEMS (3) , pp.601-632",
+            "citations": 6,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000401468300006",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1007%2Fs10844-016-0428-1&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+INTELLIGENT+INFORMATION+SYSTEMS&DestDOIRegistrantName=Springer-Verlag",
+            "date": "Jun 2017",
+            "journal_type": "Journal",
+            "duplicate_of": 266
         },
         "semscholarId": "4e5cdf30ab1fbd13404068c1c7894f8eeb33d0bd"
     },
     {
-        "id": 161,
+        "id": 349,
         "original": {
-            "id": 161,
-            "database": "Google Scholar",
+            "id": 349,
+            "database": "Web of Science",
             "title": "Assessing the quality of health-related Wikipedia articles with generic and specific metrics",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3442442.3452355",
-            "authors": "L Couto, CT Lopes",
-            "year": 2021,
-            "journal": "Companion Proceedings of the Web Conference \u2026, 2021",
-            "citations": 1,
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3442442.3452355",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Couto, L; Lopes, CT",
+            "year": "2021",
+            "journal": "30th World Wide Web (WWW) Conference (WebConf) , pp.640-647",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000749534900109",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIConfProc&SrcApp=WOS&KeyAID=10.1145%2F3442442.3452355&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=WEB+CONFERENCE+2021%3A+COMPANION+OF+THE+WORLD+WIDE+WEB+CONFERENCE+%28WWW+2021%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2021",
+            "journal_type": "Conference",
+            "duplicate_of": 161
         },
         "semscholarId": "9a1c237dd3692545d024968b8831c5c00fb29f79"
     },
@@ -6005,19 +6112,20 @@
         "semscholarId": "2269aaf18fa7f0168d870e09840d7dcad1e2aa3b"
     },
     {
-        "id": 68,
+        "id": 352,
         "original": {
-            "id": 68,
-            "database": "Google Scholar",
+            "id": 352,
+            "database": "Web of Science",
             "title": "Pharmacy students can improve access to quality medicines information by editing Wikipedia articles",
-            "url": "https://link.springer.com/article/10.1186/s12909-018-1375-z",
-            "authors": "DE Apollonio, K Broyde, A Azzam, M De Guia\u2026",
-            "year": 2018,
-            "journal": "BMC medical \u2026, 2018",
-            "citations": 27,
-            "pdf": "N/A",
-            "other_info": "HTML",
-            "journal_type": "unknown"
+            "authors": "Apollonio, DE; Broyde, K; Brock, T",
+            "year": "2018",
+            "journal": "BMC MEDICAL EDUCATION ",
+            "citations": 15,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000451080500001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1186%2Fs12909-018-1375-z&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=BMC+MEDICAL+EDUCATION&DestDOIRegistrantName=Springer+%28Biomed+Central+Ltd.%29",
+            "date": "Nov 20 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 68
         },
         "semscholarId": "3ad3f5e0fdc59499a4b7d40df50b61f9e3ade7d2"
     },
@@ -6039,37 +6147,38 @@
         "semscholarId": "176c68a518d81215e585f09ce7db2415c8fdde2f"
     },
     {
-        "id": 250,
+        "id": 354,
         "original": {
-            "id": 250,
-            "database": "ACM",
+            "id": 354,
+            "database": "Web of Science",
             "title": "Using Hyperlink Texts to Improve Quality of Identifying Document Topics Based on Wikipedia",
-            "authors": "Dat T. Huynh, Tru H. Cao, Phuong H. T. Pham, Toan N. Hoang",
+            "authors": "Huynh, DT; Cao, TH; Hoang, TN",
             "year": "2009",
-            "journal": "KSE '09: Proceedings of the 2009 International Conference on Knowledge and Systems Engineering, October 2009, pp 249-254",
-            "citations": 1,
-            "url": "https://dl.acm.org/doi/10.1109/KSE.2009.20",
+            "journal": "1st International Conference on Knowledge and Systems Engineering , pp.249-254",
+            "citations": 2,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000290647800042",
             "pdf": "N/A",
-            "type": "Article",
-            "date": "13 October 2009",
-            "journal_type": "Conference"
+            "date": "2009",
+            "journal_type": "Conference",
+            "duplicate_of": 250
         },
         "semscholarId": "7adf1412ebcacfd38284dfcbc8962b1b88e6e3ac"
     },
     {
-        "id": 48,
+        "id": 355,
         "original": {
-            "id": 48,
-            "database": "Google Scholar",
+            "id": 355,
+            "database": "Web of Science",
             "title": "A hybrid approach to classifying Wikipedia article quality flaws with feature fusion framework",
-            "url": "https://www.sciencedirect.com/science/article/pii/S0957417421005303",
-            "authors": "P Wang, M Li, X Li, H Zhou, J Hou",
-            "year": 2021,
-            "journal": "Expert Systems with Applications, 2021",
-            "citations": 6,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Wang, P; Li, MY; Hou, JR",
+            "year": "2021",
+            "journal": "EXPERT SYSTEMS WITH APPLICATIONS ",
+            "citations": 5,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000663582800009",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1016%2Fj.eswa.2021.115089&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=EXPERT+SYSTEMS+WITH+APPLICATIONS&DestDOIRegistrantName=Elsevier",
+            "date": "Nov 1 2021",
+            "journal_type": "unknown",
+            "duplicate_of": 48
         },
         "semscholarId": "88f8abd78cdeac3e003a4383d989a4239109375c"
     },
@@ -6091,20 +6200,20 @@
         "semscholarId": "68b167406f708ce39421126bdbb576930c8347a0"
     },
     {
-        "id": 256,
+        "id": 357,
         "original": {
-            "id": 256,
-            "database": "ACM",
+            "id": 357,
+            "database": "Web of Science",
             "title": "Quality Evaluation of Search Results by Typicality and Speciality of Terms Extracted from Wikipedia",
-            "authors": "Makoto Nakatani, Adam Jatowt, Hiroaki Ohshima, Katsumi Tanaka",
+            "authors": "Nakatani, M; Jatowt, A; Tanaka, K",
             "year": "2009",
-            "journal": "DASFAA '09: Proceedings of the 14th International Conference on Database Systems for Advanced Applications, March 2009, pp 570-584",
+            "journal": "DATABASE SYSTEMS FOR ADVANCED APPLICATIONS, PROCEEDINGS , pp.570-584",
             "citations": 4,
-            "url": "https://dl.acm.org/doi/10.1007/978-3-642-00887-0_50",
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000265740400050",
             "pdf": "N/A",
-            "type": "Article",
-            "date": "16 March 2009",
-            "journal_type": "Conference"
+            "date": "2009",
+            "journal_type": "Conference",
+            "duplicate_of": 256
         },
         "semscholarId": "ff5e35277ecaa7e737dcb63fe05c2187645db23e"
     },
@@ -6160,37 +6269,38 @@
         "semscholarId": "662ee60986d028487b4d06fd970e6645aa03728d"
     },
     {
-        "id": 170,
+        "id": 361,
         "original": {
-            "id": 170,
-            "database": "Google Scholar",
+            "id": 361,
+            "database": "Web of Science",
             "title": "Interactive Quality Analytics of User-generated Content: An Integrated Toolkit for the Case of Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3150973",
-            "authors": "CD Sciascio, D Strohmaier, M Errecalde\u2026",
-            "year": 2019,
-            "journal": "ACM Transactions on \u2026, 2019",
+            "authors": "di Sciascio, C; Strohmaier, D; Veas, E",
+            "year": "2019",
+            "journal": "ACM TRANSACTIONS ON INTERACTIVE INTELLIGENT SYSTEMS (2-3)",
             "citations": 1,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000467789600007",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1145%2F3150973&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=ACM+TRANSACTIONS+ON+INTERACTIVE+INTELLIGENT+SYSTEMS&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "Apr 2019",
+            "journal_type": "unknown",
+            "duplicate_of": 170
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 257,
+        "id": 362,
         "original": {
-            "id": 257,
-            "database": "ACM",
+            "id": 362,
+            "database": "Web of Science",
             "title": "Personal communication networks and their positive effects on online collaboration and outcome quality on Wikipedia",
-            "authors": "Michail Tsikerdekis",
+            "authors": "Tsikerdekis, M",
             "year": "2016",
-            "journal": "Journal of the Association for Information Science and Technology (JAIST), Volume 67, Issue 4, April 2016, pp 812-823",
-            "citations": 2,
-            "url": "https://dl.acm.org/doi/10.1002/asi.23429",
-            "pdf": "N/A",
-            "type": "Article",
-            "date": "01 April 2016",
-            "journal_type": "Journal"
+            "journal": "JOURNAL OF THE ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY (4) , pp.812-823",
+            "citations": 3,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000372926300005",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1002%2Fasi.23429&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+THE+ASSOCIATION+FOR+INFORMATION+SCIENCE+AND+TECHNOLOGY&DestDOIRegistrantName=Wiley+%28John+Wiley+%26+Sons%29",
+            "date": "Apr 2016",
+            "journal_type": "Journal",
+            "duplicate_of": 257
         },
         "semscholarId": "14d3f5e35a4b37fbab02ec80d8fe8ac276a2c42c"
     },
@@ -6212,19 +6322,20 @@
         "semscholarId": "412e1cf936f9a0aa4b289f14136174232e8f4e38"
     },
     {
-        "id": 69,
+        "id": 364,
         "original": {
-            "id": 69,
-            "database": "Google Scholar",
+            "id": 364,
+            "database": "Web of Science",
             "title": "Wisdom of crowds: the effect of participant composition and contribution behavior on Wikipedia article quality",
-            "url": "https://www.emerald.com/insight/content/doi/10.1108/JKM-08-2019-0416/full/html",
-            "authors": "Y Lin, C Wang",
-            "year": 2020,
-            "journal": "Journal of Knowledge Management, 2020",
-            "citations": 9,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Lin, Y; Wang, CX",
+            "year": "2020",
+            "journal": "JOURNAL OF KNOWLEDGE MANAGEMENT (2) , pp.324-345",
+            "citations": 6,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000512073600001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1108%2FJKM-08-2019-0416&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+KNOWLEDGE+MANAGEMENT&DestDOIRegistrantName=Emerald+%28MCB+UP%29",
+            "date": "Jan 15 2020",
+            "journal_type": "Journal",
+            "duplicate_of": 69
         },
         "semscholarId": "da5790edd4224160d1da8107ba083736c9b8683e"
     },
@@ -6246,53 +6357,56 @@
         "semscholarId": "1aa2271c2a5fe2f7c69556334c4cf8b6e008c0ef"
     },
     {
-        "id": 74,
+        "id": 366,
         "original": {
-            "id": 74,
-            "database": "Google Scholar",
+            "id": 366,
+            "database": "Web of Science",
             "title": "A deep learning-based quality assessment model of collaboratively edited documents: A case study of Wikipedia",
-            "url": "https://journals.sagepub.com/doi/abs/10.1177/0165551519877646",
-            "authors": "P Wang, X Li, R Wu",
-            "year": 2021,
-            "journal": "Journal of information science, 2021",
-            "citations": 8,
-            "pdf": "https://journals.sagepub.com/doi/pdf/10.1177/0165551519877646",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Wang, P; Li, XD; Wu, RL",
+            "year": "2021",
+            "journal": "JOURNAL OF INFORMATION SCIENCE (2) , pp.176-191",
+            "citations": 2,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000489377400001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.1177%2F0165551519877646&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+INFORMATION+SCIENCE&DestDOIRegistrantName=SAGE+Publications",
+            "date": "Apr 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 74
         },
         "semscholarId": "0abf43df2e9c0fee1262e9d127c05383ffc78251"
     },
     {
-        "id": 112,
+        "id": 367,
         "original": {
-            "id": 112,
-            "database": "Google Scholar",
+            "id": 367,
+            "database": "Web of Science",
             "title": "Social-collaborative determinants of content quality in online knowledge production systems: comparing Wikipedia and Stack Overflow",
-            "url": "https://link.springer.com/article/10.1007/s13278-018-0512-3",
-            "authors": "SA Matei, A Abu Jabal, E Bertino",
-            "year": 2018,
-            "journal": "Social Network Analysis and Mining, 2018",
-            "citations": 10,
-            "pdf": "https://par.nsf.gov/servlets/purl/10076028",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Matei, SA; Abu Jabal, A; Bertino, E",
+            "year": "2018",
+            "journal": "SOCIAL NETWORK ANALYSIS AND MINING (1)",
+            "citations": 6,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000432533400001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1007%2Fs13278-018-0512-3&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=SOCIAL+NETWORK+ANALYSIS+AND+MINING&DestDOIRegistrantName=Springer-Verlag",
+            "date": "May 5 2018",
+            "journal_type": "unknown",
+            "duplicate_of": 112
         },
         "semscholarId": "1da7fc0b4ed71de73b519726d5f868e9c1af2659"
     },
     {
-        "id": 145,
+        "id": 368,
         "original": {
-            "id": 145,
-            "database": "Google Scholar",
+            "id": 368,
+            "database": "Web of Science",
             "title": "Equal opportunities in the access to quality online health information? A multi-lingual study on Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3479986.3480000",
-            "authors": "L Couto, C Teixeira Lopes",
-            "year": 2021,
-            "journal": "17th International Symposium on Open \u2026, 2021",
-            "citations": "0",
-            "pdf": "https://dl.acm.org/doi/pdf/10.1145/3479986.3480000",
-            "other_info": "",
-            "journal_type": "Conference"
+            "authors": "Couto, L; Lopes, CT",
+            "year": "2021",
+            "journal": "17th International Symposium on Open Collaboration (OpenSym) ",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000771787400013",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1145%2F3479986.3480000&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PROCEEDINGS+OF+THE+17TH+INTERNATIONAL+SYMPOSIUM+ON+OPEN+COLLABORATION+%28OPENSYM%29&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "2021",
+            "journal_type": "Conference",
+            "duplicate_of": 145
         },
         "semscholarId": "a5b7aa53662a843c411555aae6508e24e9adcc1c"
     },
@@ -6311,39 +6425,41 @@
             "date": "2011",
             "journal_type": "Conference"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 183,
+        "id": 370,
         "original": {
-            "id": 183,
-            "database": "Google Scholar",
+            "id": 370,
+            "database": "Web of Science",
             "title": "The Wikipedia Medical Student: Comparing the Quality of Vascular Surgery Topics Across Two Commonly Used Educational Resources",
-            "url": "https://www.jvascsurg.org/article/S0741-5214(14)01555-9/abstract",
-            "authors": "P Jetty, MM Yacob, S Lotfi",
-            "year": 2014,
-            "journal": "Journal of Vascular Surgery, 2014",
-            "citations": 2,
-            "pdf": "https://www.jvascsurg.org/article/S0741-5214(14)01555-9/pdf",
-            "other_info": "",
-            "journal_type": "Journal"
+            "authors": "Jetty, P; Yacob, MM; Lotfi, S",
+            "year": "2014",
+            "journal": "JOURNAL OF VASCULAR SURGERY (5) , pp.1404-1404",
+            "citations": 1,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000344521100064",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1016%2Fj.jvs.2014.08.030&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=JOURNAL+OF+VASCULAR+SURGERY&DestDOIRegistrantName=Elsevier",
+            "date": "Nov 2014",
+            "journal_type": "Journal",
+            "duplicate_of": 183
         },
         "semscholarId": "1d6c8c496b89d888fec2d178673a9a6514f0e353"
     },
     {
-        "id": 120,
+        "id": 371,
         "original": {
-            "id": 120,
-            "database": "Google Scholar",
+            "id": 371,
+            "database": "Web of Science",
             "title": "How to Inspect and Measure Data Quality about Scientific Publications: Use Case of Wikipedia and CRIS Databases",
-            "url": "https://www.mdpi.com/701242",
-            "authors": "O Azeroual, W Lewoniewski",
-            "year": 2020,
-            "journal": "Algorithms, 2020",
-            "citations": 6,
-            "pdf": "https://www.mdpi.com/1999-4893/13/5/107/pdf",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Azeroual, O; Lewoniewski, W",
+            "year": "2020",
+            "journal": "ALGORITHMS (5)",
+            "citations": 2,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000568115000006",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DynamicDOIArticle&SrcApp=WOS&KeyAID=10.3390%2Fa13050107&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=ALGORITHMS&DestDOIRegistrantName=MDPI+AG",
+            "date": "May 2020",
+            "journal_type": "unknown",
+            "duplicate_of": 120
         },
         "semscholarId": "56bf3c2223d01ca19aa69e62fba08c5f065422ce"
     },
@@ -6362,22 +6478,23 @@
             "date": "Jul 2020",
             "journal_type": "Journal"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     },
     {
-        "id": 39,
+        "id": 373,
         "original": {
-            "id": 39,
-            "database": "Google Scholar",
+            "id": 373,
+            "database": "Web of Science",
             "title": "Quality of information sources about mental disorders: a comparison of Wikipedia with centrally controlled web and printed sources",
-            "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/quality-of-information-sources-about-mental-disorders-a-comparison-of-wikipedia-with-centrally-controlled-web-and-printed-sources/595CEE672BB7C503101FAF5A9E303673",
-            "authors": "NJ Reavley, AJ Mackinnon, AJ Morgan\u2026",
-            "year": 2012,
-            "journal": "Psychological \u2026, 2012",
-            "citations": 169,
-            "pdf": "https://osf.io/csnk4/download",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Reavley, NJ; Mackinnon, AJ; Jorm, AF",
+            "year": "2012",
+            "journal": "PSYCHOLOGICAL MEDICINE (8) , pp.1753-1762",
+            "citations": 76,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000306890100017",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1017%2FS003329171100287X&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=PSYCHOLOGICAL+MEDICINE&DestDOIRegistrantName=Cambridge+University+Press",
+            "date": "Aug 2012",
+            "journal_type": "unknown",
+            "duplicate_of": 39
         },
         "semscholarId": "53df4208e5b82af4f902a9255e51fa1616aec8ba"
     },
@@ -6433,36 +6550,38 @@
         "semscholarId": "cc18ef19798c727052ea28968940b18cc5874492"
     },
     {
-        "id": 63,
+        "id": 377,
         "original": {
-            "id": 63,
-            "database": "Google Scholar",
+            "id": 377,
+            "database": "Web of Science",
             "title": "Measuring the quality of scientific references in Wikipedia: an analysis of more than 115M citations to over 800 000 scientific articles",
-            "url": "https://febs.onlinelibrary.wiley.com/doi/abs/10.1111/febs.15608",
-            "authors": "JM Nicholson, A Uppala, M Sieber, P Grabitz\u2026",
-            "year": 2021,
-            "journal": "The FEBS \u2026, 2021",
-            "citations": 16,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Nicholson, JM; Uppala, A; Rife, SC",
+            "year": "2021",
+            "journal": "FEBS JOURNAL (14) , pp.4242-4248",
+            "citations": 4,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000590319000001",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1111%2Ffebs.15608&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=FEBS+JOURNAL&DestDOIRegistrantName=Wiley+%28Blackwell+Publishing%29",
+            "date": "Jul 2021",
+            "journal_type": "Journal",
+            "duplicate_of": 63
         },
         "semscholarId": "76e53f6e46b7b8a8ecfe735a23d4531dbd241911"
     },
     {
-        "id": 142,
+        "id": 378,
         "original": {
-            "id": 142,
-            "database": "Google Scholar",
+            "id": 378,
+            "database": "Web of Science",
             "title": "Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia",
-            "url": "https://dl.acm.org/doi/abs/10.1145/3371041.3371045",
-            "authors": "S Velichety",
-            "year": 2019,
-            "journal": "ACM SIGMIS Database: the DATABASE for Advances \u2026, 2019",
-            "citations": 3,
-            "pdf": "N/A",
-            "other_info": "",
-            "journal_type": "unknown"
+            "authors": "Velichety, S",
+            "year": "2019",
+            "journal": "DATA BASE FOR ADVANCES IN INFORMATION SYSTEMS (4) , pp.28-51",
+            "citations": 0,
+            "url": "https://www.webofscience.com//wos/woscc/full-record/WOS:000495431400003",
+            "pdf": "https://www.webofscience.com/https://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1145%2F3371041.3371045&DestApp=DOI&SrcAppSID=EUW1ED0BBAhMfPYMxmX9HYvCM2x4c&SrcJTitle=DATA+BASE+FOR+ADVANCES+IN+INFORMATION+SYSTEMS&DestDOIRegistrantName=Association+for+Computing+Machinery",
+            "date": "Nov 2019",
+            "journal_type": "unknown",
+            "duplicate_of": 142
         },
         "semscholarId": "3739f4702b05af3586dd9ad8d5d37cd924c8c110"
     },
@@ -6481,6 +6600,6 @@
             "date": "Oct 2019",
             "journal_type": "unknown"
         },
-        "error": "not found"
+        "semscholarId": "not_found"
     }
 ]

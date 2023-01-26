@@ -23,9 +23,9 @@ def call_api(path, body = None, extra_headers=None):
     else:
         r = requests.get(base_url + path, headers=headers)
 
-    if r.status_code == 429:
-        print("Too many requests, sleeping for 3 minutes.")
-        time.sleep(180)
+    if r.status_code == 429: # if you need to run build_input again, check response headers to see how long you need to wait
+        print("Too many requests, sleeping for 1 minute.")
+        time.sleep(60)
         return call_api(path, extra_headers)
         
     if r.status_code != 200:
@@ -51,12 +51,17 @@ def search_id(paper_id):
     return data
 
 def search_multiple(paper_ids):
-    data = call_api(f'paper/batch?fields=url,year,authors,referenceCount,externalIds', body={'ids': paper_ids})
+    fields = [
+        'title', 'url', 'year', 'authors', 'abstract', 'externalIds',        
+        'publicationVenue', 'publicationTypes','journal', 
+        'isOpenAccess', 'openAccessPdf',
+        'referenceCount', 'citationCount', 'influentialCitationCount'
+    ]
+    data = call_api(f'paper/batch?fields={",".join(fields)}', body={ 'ids': paper_ids})
     return data
 
 def search_query(query):
     fields = ['title', 'url', 'externalIds']
-
     data = call_api(f'paper/search?query={query}&fields={",".join(fields)}&offset=0&limit=1')
         
     #print(json.dumps(data, indent=4))

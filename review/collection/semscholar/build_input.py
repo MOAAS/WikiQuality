@@ -18,17 +18,17 @@ for article in articles:
         'original': article,
     }
 
-    # reduce some calls to the api. if it already exists, add a copy (we will remove duplicates later)
+    # reduce some calls to the api. if it already exists, the paperId is the same (we will remove duplicates later)
     found = next((x for x in complete if x['original']['title'] == title), None)
     if found is not None:
-        complete.append(found)
+        complete.append({ **info, 'semscholarId': found['semscholarId'] })
         continue
 
     result = search_query(title)
 
     if result is None:
         print("Did not find above article.")
-        complete.append({**info, 'error': 'not found'})
+        complete.append({**info, 'semscholarId': 'not_found'})
     else:
         # extract info
         complete.append({
