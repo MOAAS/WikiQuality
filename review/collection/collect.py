@@ -33,19 +33,19 @@ def dump_articles(articles):
 
 
     # print json
-    dump_json(articles, "all/output.json")
+    dump_json(articles, "databases/all/output.json")
 
     # print csv
     import csv
     keys = ['id', 'database', 'title', 'authors', 'year', 'journal_type', 'journal', 'citations', 'url', 'pdf']
-    with open("all/output.csv", 'w', encoding='utf-8', newline='') as f:
+    with open("databases/all/output.csv", 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(keys)
         for article in articles:
             writer.writerow([article[key] for key in keys])
 
     # print one column (if needed, for debugging)
-    with open("all/output.txt", 'w', encoding='utf-8') as f:
+    with open("databases/all/output.txt", 'w', encoding='utf-8') as f:
         f.write('\n'.join(article.get('title', '') for article in articles))
     print("Dumped", len(articles), "articles")
 
