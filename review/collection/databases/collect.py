@@ -11,6 +11,8 @@ def dump_articles(articles):
     if len(articles) == 0:
         return
 
+    # These two parts are no longer needed, but does not hurt to keep them for now. check if our new process is reliable enough
+
     # some extra processing common to all databases
     for article in articles:
         journal = article['journal'].lower()
