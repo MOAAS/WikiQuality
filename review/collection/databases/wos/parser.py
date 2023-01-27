@@ -1,6 +1,6 @@
 import re
 
-BASE_URL = "https://www.webofscience.com/"
+BASE_URL = "https://www.webofscience.com"
 
 def parse_wos_htmls(html, startId=1):
     from bs4 import BeautifulSoup
@@ -66,7 +66,7 @@ def find_pdf(article):
     links = article.find('app-summary-record-links').find_all('a')
     for link in links:
         if 'full text' in link.text.lower():
-            return BASE_URL + link['href']
+            return link['href']
     return 'N/A'
     
 def find_journal(article):
