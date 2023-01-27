@@ -3,6 +3,13 @@ from api import search_multiple
 
 articles = json.load(open('semscholar/input.json', 'r', encoding='utf-8'))
 
+def validate_input(articles):
+    # check all object that have key "possibly_wrong_result" and set to True
+    invalid = [a for a in articles if 'possibly_wrong_result' in a and a['possibly_wrong_result'] == True]
+    if len(invalid) > 0:
+        print("Found " + str(len(invalid)) + " possibly wrong results. Please check them manually.")
+        exit()
+
 def assign_duplicates(articles):
     articles = [a for a in articles if a['semscholarId'] != 'not_found']
    
@@ -39,7 +46,7 @@ def fill_article_info(articles):
         if 'semscholarId' in article and article['semscholarId'] != 'not_found':
             info = extract_info(papers[article['semscholarId']])
             article.update(info)
-
+        
     print("Found " + str(len(papers)) + " papers. From " + str(len(ids)) + " ids.")
 
     
@@ -51,6 +58,11 @@ def fill_article_databases(articles):
         else:
             article['databases'] = [article['original']['database']]
             continue
+
+    for article in articles:
+        if 'databases' in article:
+            article['databases'] = list(set(article['databases']))
+    
 
 def reorder_keys(articles):
     for article in articles:
@@ -67,6 +79,7 @@ def reorder_keys(articles):
             article.clear()
             article.update(ordered_article)
 
+validate_input(articles)
 assign_duplicates(articles)
 fill_article_databases(articles)
 fill_article_info(articles)

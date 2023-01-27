@@ -23,7 +23,7 @@ def call_api(path, body = None, extra_headers=None):
     else:
         r = requests.get(base_url + path, headers=headers)
 
-    if r.status_code == 429: # if you need to run build_input again, check response headers to see how long you need to wait
+    if r.status_code == 429:
         print("Too many requests, sleeping for 1 minute.")
         time.sleep(60)
         return call_api(path, extra_headers)
