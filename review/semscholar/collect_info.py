@@ -2,7 +2,7 @@ import re
 import json
 from api import search_multiple
 
-articles = json.load(open('semscholar/input.json', 'r', encoding='utf-8'))
+articles = json.load(open('semscholar/ids.json', 'r', encoding='utf-8'))
 
 def validate_input(articles):
     # check all object that have key "possibly_wrong_result" and set to True
@@ -129,7 +129,7 @@ def fill_article_databases(articles):
     # remove duplicate databases + sort them
     for article in articles: 
         if 'databases' in article: 
-            article['databases'] = list(set(article['databases']))
+            article['databases'] = sorted(list(set(article['databases'])))
     
 
 def reorder_keys(articles):
@@ -157,4 +157,4 @@ reorder_keys(articles)
 with open('semscholar/papers.json', 'w', encoding='utf-8') as outfile:
     json.dump(articles, outfile, indent=4)
 
-print("Dumped " + str(len(articles)) + " articles to semscholar/output.json")
+print("Dumped " + str(len(articles)) + " articles to semscholar/papers.json")
