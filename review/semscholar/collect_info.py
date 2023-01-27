@@ -154,32 +154,7 @@ fill_article_databases(articles)
 fill_article_info(articles)
 reorder_keys(articles)
 
-with open('semscholar/output.json', 'w', encoding='utf-8') as outfile:
+with open('semscholar/papers.json', 'w', encoding='utf-8') as outfile:
     json.dump(articles, outfile, indent=4)
 
 print("Dumped " + str(len(articles)) + " articles to semscholar/output.json")
-
-
-# Just to help me copy to Google Sheets
-import csv
-included_ids = set()
-with open('semscholar/titles_included.csv', 'r', encoding='utf-8') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        row = [r.lower() for r in row]
-        if row[1] == 'yes' or row[1] == 'maybe' or row[2] == 'yes' :
-            included_ids.add(int(row[0]))
-
-keys = ['id', 'databases', 'title', 'abstract', 'authors', 'year', 'publication_type', 'published_in', 'num_references', 'num_citations', 'url', 'doi', 'pdf']
-with open("semscholar/output.csv", 'w', encoding='utf-8', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(keys)
-    for article in articles:
-        if article['id'] not in included_ids:
-            continue
-        if 'databases' in article:
-            article['databases'] = ', '.join(article['databases'])
-        for key in keys:
-            if key not in article:
-                article[key] = ''
-        writer.writerow([article[key] for key in keys])

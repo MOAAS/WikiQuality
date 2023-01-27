@@ -46,5 +46,5 @@ for article in articles:
         })
 
 # dump in file
-with open('semscholar/input.json', 'w', encoding='utf-8') as outfile:
+with open('semscholar/ids.json', 'w', encoding='utf-8') as outfile:
     json.dump(complete, outfile, indent=4)
