@@ -37,7 +37,7 @@ for article in articles:
         print("Did not find above article.")
         complete.append({**info, 'semscholarId': 'not_found'})
     else:    
-        if similar(article['title'], result['title'].lower()) < 0.8:
+        if similar(title.lower(), result['title'].lower()) < 0.8:
             info['possibly_wrong_result'] = True
         # extract info
         complete.append({

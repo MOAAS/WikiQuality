@@ -286,7 +286,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ab675867bf0d77b8d6c6b5b7dc2b00075ad422c4"
     },
     {
         "id": 18,
@@ -388,7 +388,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "4244e4b33e00bc221f9e5fd78adde241ee499cc5"
     },
     {
         "id": 24,
@@ -745,7 +745,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ab675867bf0d77b8d6c6b5b7dc2b00075ad422c4"
     },
     {
         "id": 45,
@@ -1442,7 +1442,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "1ec28bdcacf6fd2c72c227ccd74a2ad1ee8d4b1b"
     },
     {
         "id": 86,
@@ -1459,7 +1459,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "7a1ac44d4c2130c36293c258688a8d19383d1ca2"
     },
     {
         "id": 87,
@@ -1783,7 +1783,7 @@
             "other_info": "HTML",
             "journal_type": "Journal"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "71e8bb5240db948593ad47d03b9a703ee7b28020"
     },
     {
         "id": 106,
@@ -1970,7 +1970,6 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
         "semscholarId": "5c7b2bce626e9f44590fc263a94920d5727e852b"
     },
     {
@@ -2175,7 +2174,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "f5a926ec49dc153326a0aca080377dc0be12e75d"
     },
     {
         "id": 129,
@@ -2209,8 +2208,7 @@
             "other_info": "PDF",
             "journal_type": "Conference"
         },
-        "possibly_wrong_result": true,
-        "semscholarId": "261b08ea302a506eb47bee6a548e39b7e96db899"
+        "semscholarId": "not_found"
     },
     {
         "id": 131,
@@ -2329,7 +2327,6 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
         "semscholarId": "db0b7c773018080e0401d15272100a2a57272dd5"
     },
     {
@@ -2381,7 +2378,7 @@
             "other_info": "",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ea0c5b9d37cb168cc418102e7a934fe7ee2d0e77"
     },
     {
         "id": 141,
@@ -2602,7 +2599,6 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
         "semscholarId": "8a74f75cb449bff4833be8f77ccf5f2493d75a19"
     },
     {
@@ -2824,8 +2820,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
-        "semscholarId": "8bc3af08dc9d06747a6ca83c941a6e2cc03b29fc"
+        "semscholarId": "not_found"
     },
     {
         "id": 167,
@@ -2859,7 +2854,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "48cf2c6b9df60f7fb1e7ee71732ff60c8a734ff3"
     },
     {
         "id": 169,
@@ -2893,7 +2888,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "b8f287f6f3ed28b4e494cfc05a39b4df1e36a87e"
     },
     {
         "id": 171,
@@ -2927,7 +2922,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "83fe1663a16d7e8e3d1988799bd9dc4cdbf2e16a"
     },
     {
         "id": 173,
@@ -3012,7 +3007,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "b8f287f6f3ed28b4e494cfc05a39b4df1e36a87e"
     },
     {
         "id": 178,
@@ -3046,7 +3041,6 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
         "semscholarId": "275fb8e6cd6290db26d6c75bf7343eea6c90c806"
     },
     {
@@ -3200,7 +3194,7 @@
             "other_info": "PDF",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "2b05d442c55216c5819d0924016989f8dec3b23b"
     },
     {
         "id": 189,
@@ -3217,8 +3211,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
-        "semscholarId": "00c6bd451cdedd9e4ad551978c41f0acd3f751ca"
+        "semscholarId": "not_found"
     },
     {
         "id": 190,
@@ -3406,7 +3399,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "44150e8873341b7930d117f98d77cc2333146eb8"
     },
     {
         "id": 201,
@@ -3509,7 +3502,7 @@
             "other_info": "PDF",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ea0c5b9d37cb168cc418102e7a934fe7ee2d0e77"
     },
     {
         "id": 207,
@@ -3594,8 +3587,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "possibly_wrong_result": true,
-        "semscholarId": "dd5a0bd3b918f4bc43568d461e60345fdeb55f21"
+        "semscholarId": "not_found"
     },
     {
         "id": 212,
@@ -3612,7 +3604,7 @@
             "other_info": "",
             "journal_type": "unknown"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "2bcb4e038b95d2ac3e7019580529af9a9be1e9d8"
     },
     {
         "id": 213,
@@ -4134,7 +4126,7 @@
             "date": "13 May 2019",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "7a1ac44d4c2130c36293c258688a8d19383d1ca2"
     },
     {
         "id": 241,
@@ -4376,7 +4368,7 @@
             "journal_type": "Conference",
             "duplicate_of": 23
         },
-        "semscholarId": "not_found"
+        "semscholarId": "4244e4b33e00bc221f9e5fd78adde241ee499cc5"
     },
     {
         "id": 254,
@@ -4578,7 +4570,7 @@
             "journal_type": "Conference",
             "duplicate_of": 17
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ab675867bf0d77b8d6c6b5b7dc2b00075ad422c4"
     },
     {
         "id": 265,
@@ -4634,7 +4626,7 @@
             "journal_type": "unknown",
             "duplicate_of": 170
         },
-        "semscholarId": "not_found"
+        "semscholarId": "b8f287f6f3ed28b4e494cfc05a39b4df1e36a87e"
     },
     {
         "id": 268,
@@ -5441,7 +5433,7 @@
             "journal_type": "Conference",
             "duplicate_of": 240
         },
-        "semscholarId": "not_found"
+        "semscholarId": "7a1ac44d4c2130c36293c258688a8d19383d1ca2"
     },
     {
         "id": 313,
@@ -5527,7 +5519,7 @@
             "date": "2012",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ab675867bf0d77b8d6c6b5b7dc2b00075ad422c4"
     },
     {
         "id": 318,
@@ -5544,7 +5536,7 @@
             "date": "Jan 2020",
             "journal_type": "Journal"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "32c2952ea7128c0ed674548158c3e9d1e4ba3a13"
     },
     {
         "id": 319,
@@ -5597,7 +5589,7 @@
             "journal_type": "Conference",
             "duplicate_of": 206
         },
-        "semscholarId": "not_found"
+        "semscholarId": "ea0c5b9d37cb168cc418102e7a934fe7ee2d0e77"
     },
     {
         "id": 322,
@@ -5650,7 +5642,7 @@
             "journal_type": "unknown",
             "duplicate_of": 168
         },
-        "semscholarId": "not_found"
+        "semscholarId": "48cf2c6b9df60f7fb1e7ee71732ff60c8a734ff3"
     },
     {
         "id": 325,
@@ -5769,7 +5761,7 @@
             "date": "May 2018",
             "journal_type": "Journal"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "71e8bb5240db948593ad47d03b9a703ee7b28020"
     },
     {
         "id": 332,
@@ -5786,7 +5778,7 @@
             "date": "2015",
             "journal_type": "Conference"
         },
-        "semscholarId": "not_found"
+        "semscholarId": "f5a926ec49dc153326a0aca080377dc0be12e75d"
     },
     {
         "id": 333,
@@ -5925,7 +5917,6 @@
             "date": "2013",
             "journal_type": "Conference"
         },
-        "possibly_wrong_result": true,
         "semscholarId": "ef732209c1b9fdcd014f9639533c5658593f9ac5"
     },
     {
@@ -6293,7 +6284,7 @@
             "journal_type": "unknown",
             "duplicate_of": 170
         },
-        "semscholarId": "not_found"
+        "semscholarId": "b8f287f6f3ed28b4e494cfc05a39b4df1e36a87e"
     },
     {
         "id": 362,
