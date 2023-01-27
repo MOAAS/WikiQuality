@@ -1,15 +1,22 @@
 import json
 from api import search_query
 
-articles = json.load(open('databases/all/output.json', 'r', encoding='utf-8'))
-
 # this obtains most ids from the database, to build the input.json file
 # not found items will need to be manually searched for
 # that process was conducted by searching the title through the semantic scholar website, which somehow returns results not shown by the api
 
+# potentially wrong results are also marked. 
+# that issue will also be dealt with manually, by comparing the result with the original article
+
+from difflib import SequenceMatcher
+def similar(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
+
+articles = json.load(open('databases/all/output.json', 'r', encoding='utf-8'))
 complete = []
 for article in articles:    
-    title = article['title']    
+    title = article['title']
     print("Searching for: " + title)
 
 
@@ -29,7 +36,9 @@ for article in articles:
     if result is None:
         print("Did not find above article.")
         complete.append({**info, 'semscholarId': 'not_found'})
-    else:
+    else:    
+        if similar(article['title'], result['title'].lower()) < 0.8:
+            info['possibly_wrong_result'] = True
         # extract info
         complete.append({
             **info,
