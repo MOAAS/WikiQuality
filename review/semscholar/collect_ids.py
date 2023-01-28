@@ -8,6 +8,9 @@ from api import search_query
 # potentially wrong results are also marked. 
 # that issue will also be dealt with manually, by comparing the result with the original article
 
+# still, there are times when the api has more than one version of the paper, but returns a result that is less complete.
+# for these reasons, it is better not to run this script again. it was good for building a starting point, though.
+
 from difflib import SequenceMatcher
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()

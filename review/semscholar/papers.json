@@ -1159,21 +1159,7 @@
     },
     {
         "id": 37,
-        "semscholarId": "c93d98cee9400be6e52fa73479ecb02d1eed5b07",
-        "databases": [
-            "Google Scholar"
-        ],
-        "title": "Who does what: Collaboration patterns in the wikipedia and their impact on data quality",
-        "abstract": null,
-        "authors": "Jun Liu; S. Ram",
-        "year": 2009,
-        "publication_type": "Conference",
-        "published_in": "International Conference on Wireless Information Technology and Systems, ",
-        "num_references": 0,
-        "num_citations": 34,
-        "url": "https://www.semanticscholar.org/paper/c93d98cee9400be6e52fa73479ecb02d1eed5b07",
-        "doi": null,
-        "pdf": null,
+        "duplicate_of": 3,
         "original": {
             "id": 37,
             "database": "Google Scholar",
