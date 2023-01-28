@@ -5922,21 +5922,7 @@
     },
     {
         "id": 195,
-        "semscholarId": "75935040ed9d1d3a3e58a9ef780287ba87a51f8d",
-        "databases": [
-            "Google Scholar"
-        ],
-        "title": "Correction to: Application of SEO Metrics to Determine the Quality of Wikipedia Articles and Their Sources",
-        "abstract": null,
-        "authors": "W\u0142odzimierz Lewoniewski; Ralf-Christian H\u00e4rting; Krzysztof W\u0119cel; Christopher Reichstein; W. Abramowicz",
-        "year": 2018,
-        "publication_type": "Journal",
-        "published_in": "N/A",
-        "num_references": 0,
-        "num_citations": 0,
-        "url": "https://www.semanticscholar.org/paper/75935040ed9d1d3a3e58a9ef780287ba87a51f8d",
-        "doi": "10.1007/978-3-319-99972-2_49",
-        "pdf": "https://link.springer.com/content/pdf/10.1007%2F978-3-319-99972-2_49.pdf",
+        "duplicate_of": 71,
         "original": {
             "id": 195,
             "database": "Google Scholar",
