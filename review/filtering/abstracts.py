@@ -9,13 +9,12 @@ with open('filtering/abstracts.input.csv', 'r', encoding='utf-8') as f:
             included.append({
                 'id': row[0],
                 'title': row[1],
-                'url': row[2],
-                'pdf': row[3]
+                'url': row[3],
             })
 
 
 keys = [
-    'id', 'title', 'url', 'pdf'
+    'id', 'title', 'url'
 ]
 with open("filtering/abstracts.output.csv", 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
