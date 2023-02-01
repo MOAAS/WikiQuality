@@ -20,7 +20,6 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
         if row[included_col].lower() == 'yes':
             id = int(row[0])
             article = articles[id]
-            print(article)
             if (article['semscholarId'] == 'not_found'):
                 included.append({
                     'id': id,
@@ -39,30 +38,15 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
                     'num_references': article['num_references'],
                     'num_citations': article['num_citations'],
                     'abstract': abstracts[id],
-                    'keywords': row[9],
+                    'keywords': '',
                     'pdf': row[3],
                     'url': row[2],
-                    
-                    'type': row[10],
-                    'feature_list': row[11],
-                    'ml': row[12],
-                    'algorithms': row[13],
-                    'results': row[14],
-                    'dataset_size': row[15],
-                    'classes': row[16],
-                    'nmaj': row[17],
-                    'nmin': row[18],
-                    'ir': row[19],
-                    'languages': row[20],
-                    'reproducibility': row[21],
-                    'other': row[22]
                 })
 
 
 keys = [
     'id', 'databases', 'title',
     'year', 'authors', 'publication_type', 'published_in', 'num_references', 'num_citations', 'abstract', 'keywords', 'pdf', 'url',
-    'type', 'feature_list', 'ml', 'algorithms', 'results', 'dataset_size', 'classes', 'nmaj', 'nmin', 'ir', 'languages', 'reproducibility', 'other'
 ]
 with open("filtering/fulltexts.output.csv", 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
