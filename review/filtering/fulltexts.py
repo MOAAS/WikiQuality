@@ -22,31 +22,31 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
             article = articles[id]
             if (article['semscholarId'] == 'not_found'):
                 included.append({
-                    'id': id,
-                    'databases': ', '.join(article['databases']),
+                    'Id': id,
+                    'Databases': ', '.join(article['databases']),
                 })
             else:
                 included.append({
-                    'id': id,
-                    'databases': ', '.join(article['databases']),
-                    'title': row[1],
+                    'Id': id,
+                    'Databases': ', '.join(article['databases']),
+                    'Title': row[1],
 
-                    'year': article['year'],
-                    'authors': article['authors'],
-                    'publication_type': article['publication_type'],
-                    'published_in': article['published_in'],
-                    'num_references': article['num_references'],
-                    'num_citations': article['num_citations'],
-                    'abstract': abstracts[id],
-                    'keywords': '',
-                    'pdf': row[3],
-                    'url': row[2],
+                    'Year': article['year'],
+                    'Authors': article['authors'],
+                    'Publication Type': article['publication_type'],
+                    'Published In': article['published_in'],
+                    '# References': article['num_references'],
+                    '# Citations': article['num_citations'],
+                    'Abstract': abstracts[id],
+                    'Keywords': '',
+                    'PDF': row[3],
+                    'URL': row[2],
                 })
 
 
 keys = [
-    'id', 'databases', 'title',
-    'year', 'authors', 'publication_type', 'published_in', 'num_references', 'num_citations', 'abstract', 'keywords', 'pdf', 'url',
+    'Id', 'Databases', 'Title',
+    'Year', 'Authors', 'Publication Type', 'Published In', '# References', '# Citations', 'Abstract', 'Keywords', 'PDF', 'URL'
 ]
 with open("filtering/fulltexts.output.csv", 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)

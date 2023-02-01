@@ -8,14 +8,14 @@ with open('filtering/abstracts.input.csv', 'r', encoding='utf-8') as f:
         row = [r for r in row]
         if row[included_col].lower() == 'yes' or row[included_col].lower() == 'maybe':
             included.append({
-                'id': row[0],
-                'title': row[1],
-                'url': row[3],
+                'Id': row[0],
+                'Title': row[1],
+                'Url': row[3],
             })
 
 
 keys = [
-    'id', 'title', 'url'
+    'Id', 'Title', 'Url'
 ]
 with open("filtering/abstracts.output.csv", 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
