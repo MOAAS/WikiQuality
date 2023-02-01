@@ -3,9 +3,10 @@ import csv
 included = []
 with open('filtering/abstracts.input.csv', 'r', encoding='utf-8') as f:
     reader = csv.reader(f)
+    included_col = 4
     for row in reader:
         row = [r for r in row]
-        if row[4].lower() == 'yes' or row[4].lower() == 'maybe':
+        if row[included_col].lower() == 'yes' or row[included_col].lower() == 'maybe':
             included.append({
                 'id': row[0],
                 'title': row[1],

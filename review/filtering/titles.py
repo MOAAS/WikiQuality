@@ -7,9 +7,10 @@ with open('semscholar/papers.json', 'r', encoding='utf-8') as f:
 included_ids = set()
 with open('filtering/titles.input.csv', 'r', encoding='utf-8') as f:
     reader = csv.reader(f)
+    included_col = 4
     for row in reader:
         row = [r.lower() for r in row]
-        if row[1] == 'yes' or row[1] == 'maybe' or row[2] == 'yes' :
+        if row[included_col] == 'yes' or row[included_col] == 'maybe':
             included_ids.add(int(row[0]))
 
 keys = [
