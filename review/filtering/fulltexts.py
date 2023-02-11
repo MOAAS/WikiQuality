@@ -30,6 +30,9 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
                 included.append({
                     'Id': id,
                     'Databases': ', '.join(article['databases']),
+                    'Title': row[1],
+                    'PDF': row[3],
+                    'URL': row[2],
                 })
             else:
                 included.append({
