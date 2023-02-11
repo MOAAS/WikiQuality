@@ -26,32 +26,24 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
             #         'Databases': ', '.join(row[4].split(';')),
             #     })
             article = articles[id]
-            if (article['semscholarId'] == 'not_found'):
-                included.append({
-                    'Id': id,
-                    'Databases': ', '.join(article['databases']),
-                    'Title': row[1],
-                    'PDF': row[3],
-                    'URL': row[2],
-                    'Abstract': abstracts[id],
-                })
-            else:
-                included.append({
-                    'Id': id,
-                    'Databases': ', '.join(article['databases']),
-                    'Title': row[1],
-
-                    'Year': article['year'],
-                    'Authors': article['authors'],
-                    'Publication Type': article['publication_type'],
-                    'Published In': article['published_in'],
-                    '# References': article['num_references'],
-                    '# Citations': article['num_citations'],
-                    'Abstract': abstracts[id],
-                    'Keywords': '',
-                    'PDF': row[3],
-                    'URL': row[2],
-                })
+            info = {
+                'Id': id,
+                'Databases': ', '.join(article['databases']),
+                'Title': row[1],
+                'PDF': row[3],
+                'URL': row[2],
+                'Abstract': abstracts[id],
+                'Keywords': '',
+            }
+            if (article['semscholarId'] != 'not_found'):
+                info['Year'] = article['year']
+                info['Authors'] = article['authors']
+                info['Publication Type'] = article['publication_type']
+                info['Published In'] = article['published_in']
+                info['# References'] = article['num_references']
+                info['# Citations'] = article['num_citations']
+            included.append(info)
+            
 
 
 keys = [
