@@ -33,6 +33,7 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
                     'Title': row[1],
                     'PDF': row[3],
                     'URL': row[2],
+                    'Abstract': abstracts[id],
                 })
             else:
                 included.append({
