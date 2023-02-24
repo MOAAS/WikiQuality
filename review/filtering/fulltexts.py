@@ -47,7 +47,7 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
 
 
 keys = [
-    'Id', 'Databases', 'Title',
+    'Id', 'Title', 'Databases',
     'Year', 'Authors', 'Publication Type', 'Published In', '# References', '# Citations', 'Abstract', 'Keywords', 'PDF', 'URL'
 ]
 with open("filtering/fulltexts.output.csv", 'w', encoding='utf-8', newline='') as f:
