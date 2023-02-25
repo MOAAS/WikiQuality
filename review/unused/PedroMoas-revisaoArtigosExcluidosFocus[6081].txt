@@ -1,0 +1,212 @@
+Artigo 2
+Incluir
+
+Por terem concluído: "(we..) found that the high-quality articles are distinguished by a marked increase in number of edits, number of editors, and intensity of cooperative behavior, as compared to other articles of similar visibility and age." e ter proposto uma medida relacionada com o nr. de edições (equação 3 é uma variante do nr. de edições simples que é fácil de compreender e lógica), e 3 medidas que permitem avaliar o grau de cooperação: as edições à talkpage, o nr. of edits per editor e o nr. de edições "sucessivas" ("The larger percentages of quick succession edits in the high-quality population of articles thus suggests that the creation process involved more cooperation")
+
+Artigo 3
+Incluir
+
+Mais um artigo a apoiar o #edits e "unique editors". Para além disso,
+apresenta uma perspetiva de que o tipo de editores podem também ser úteis na classificação da qualidade. Com a API talvez se consiga obter informação sobre os editores (extra artigo em questão) que os permita classificar, não? 
+
+"Consistent with the existing research, our study shows that high-quality articles need to have a group of “leaders” or “core contributors” who made a majority of the contributions. 
+
+For instance, Wikipedia articles where all-round contributors dominated are often of high quality.
+
+all-round contributor -> Engaging in many types of actions including sentence creations, modifications, and deletions and link and reference creations, modifications and deletions.
+
+Based on collaboration patterns and other metrics such as number of edits and unique editors, Wikipedia members can assign a preliminary quality rating to each article.
+
+More than 84% of articles that belong to cluster 4 where all-round contributors dominated are featured or good articles. "
+
+Artigo 6
+Incluir. Features a considerar: global inequality (pode ir para o grupo do tipo de contributors como a feature do artigo 3) e #words na discussion page (que me parece ser nova, não?).
+
+Artigo 7
+Excluir
+Não inclui features, só measures. O do Stivilia que já tºinhamos incluído foi apanhado na recolha e incluído por conter features, certo?
+
+Talvez possa ser útil para as secções iniciais sobre a definição de qualidade em que não precisamos de ter o artigo encontrado na pesquisa..
+
+Na secção do Stivilia poderia ser útil por referir aqui outros modelos mas de facto não cumpre os critérios.
+
+Artigo 9
+Excluir.
+
+Foca-se na qualidade da edição e não na qualidade do artigo.
+
+Artigo 12
+Incluir.
+
+Se o outro artigo do Stivilia está, este também deve estar. Tem features na Secção 4.
+
+"Indeed, the median Diversity Rate (# of Unique Editors / Total # of Edits) measure of the Featured set is 0.4 vs. 0.7 of the Random sample, pointing to more homogeneity in the Featured Article editor groups."
+
+"Not only were the median lengths of the discussion pages of the Featured articles more than ten times larger, but they were much better organized and more readable based on their Flesch and Kincaid readability scores [13] (see Table 3)." 
+
+Tem mais..
+
+Artigo 22
+Incluir
+
+Tem features: "Specifically, we added two features: the count of “[citation needed]” templates and the count of “Main article” linking templates."
+
+E usa ML (ORES)
+
+Menciona o "actionable".
+
+Artigo 25
+Incluir.
+
+Sou da opinião que se deve incluir por causa da tabela 2 e dos resultados significativos no uso de network features na distinção entre low-quality e high-quality features. Uma das conclusões: "Our computed network metrics also depicted significant differences in the link structure of low- and high-quality articles.".
+
+Artigo 29
+Incluir
+
+Propõe features que caem na área da colaboração como alguns artigos acima. Neste caso, usam a edit history e constroem um grafo. As featues secçao as apresentadas na Secção 4.4.
+
+Artigo 34
+Incluir.
+
+Tem features: length of article (left), number of headers (right), number of references, images, references by length, mais variáveis na Fig. 5, 
+
+Tem visualização.
+
+Usa regressão.
+
+Multi-lingual
+
+Artigo 42
+Incluir
+
+As falhas (e seus grupos) que identificam na tabela do Apêndice podem ser boas features e actionable.
+
+"Ultimately, we organize the quality flaws along a newly formed set of 12 general flaw types. Our set is an extension of the ten types proposed in our previous work, and to some extent it covers the featured article criteria, the problem types of Stvilia et al. [24], and the organization of the above mentioned meta page. "
+
+Talvez sejam um novo grupo de features? Wikipedia annotations/ suggestions?!?
+
+Artigo 47
+Excluir
+
+Não propõe features.
+
+Este artigo do Anthony está incluído no nosso conjunto?
+
+"Interestingly, a recent study by Anthony et al. (2007) suggests that the one-time contributions of anonymous contributors and registered users with large numbers of contributions provide the highest quality contributions. ... Anonymous users with large numbers of contributions, by contrast, were found to make low quality contributions."
+
+Artigo 53
+Excluir.
+
+Out of focus.
+
+Artigo 54
+Incluir
+
+Propõe features (CC e AP) relacionadas com a colaboração e análise de grafo como artigo anterior.
+
+
+Multi-lingual.
+
+Artigo 57
+Incluir
+
+Propõe a feature: nível na hierarquia de categorias da Wikipedia.
+
+"Yet, the articles in coarse-grained categories are less likely to reach high quality status as measured by the probability of being featured (red bars in Fig 1)"
+
+Artigo 59
+Incluir
+
+Apesar de, estranhamente, não mencionar as 50 features, tem algumas na Secção 5 que devem ser consideradas.
+
+"By mapping the conclusions achieved in section 4 - the ten propositions - over our model we identified about 50 sources of trust evidence classified in 6 macro-areas: Quality of User, User Distribution and Leadership, Stability, Controllability, Quality of editing and Importance of an article. We now analyses as an example two of the six macro-areas."
+
+Artigo 69
+Incluir
+
+Features na área do tipo de editores e da colaboração como alguns artigos acima.
+
+"The results show that an increase in the number of participants increases the possibility of either enhancing or reducing the article quality. In most cases, the greater the proportion of core members (people who frequently participate in editing), the higher the possibility of enhancing the article quality. Occasional participants’ editorial behavior hinders quality promotion, this negative effect weakens when such editorial behavior becomes more frequent."
+
+Artigo 72
+Incluir
+
+Feaures: Table 5. Categoria relacionada com os editores.
+
+Usa ML.
+
+Artigo 81
+Excluir.
+
+Out of focus.
+
+Artigo 84
+Incluir
+
+Feature: #referências que sejam artigos científicos
+
+Artigo 94
+Excluir
+
+Não é claro como determinaram o que é um statememnt.
+
+Artigo 96
+Incluir
+
+Features: factos e seus tipos
+
+"Definition 1. The simple fact in a Russian sentence is the smallest grammatical clause that includes a verb and a noun, where the semantic and grammatical features of the noun have to denote the Subject of the fact according to the Eq. (6).
+
+Definition 2. The complex fact in Russian texts is a grammatical sentence that includes a verb and a few nouns. Among these nouns, one has to play the seman- tic role of the Subject (6), semantic and grammatical characteristics of the other nouns have to satisfy one or more Eqs. (7–12).
+Using some definitions from the recent works on measuring the quality of Web content [12,13] we can also denote density of simple and complex facts in the Russian Wikipedia article.
+
+Definition 3. The density of simple facts in the Russian Wikipedia article is defined as the number of simple facts divided by the number of words in the article.
+
+Definition 4. The density of complex facts in the Russian Wikipedia article is defined as the number of complex facts divided by the number of words in the article."
+
+Artigo 107
+Excluir
+
+Foca-se na flaw prediction e não na qualidade de forma abrangente.
+
+Artigo 120
+Excluir
+
+Foco distinto.
+
+Artigo 127
+Incluir
+
+Features na secççao 3.3, 3.4 e 3.5
+
+Artigo 170
+Excluir
+
+Foco distinto.
+
+Interessante por falar de várias ferramentas de visualização.
+
+Artigo 175
+Excluir
+
+Foco distinto.
+
+Artigo 181
+Incluir
+
+Feature: content change
+
+Artigo 202
+Incuir
+
+Features: HITS e PageRank
+
+
+
+
+
+
+
+
+
+
