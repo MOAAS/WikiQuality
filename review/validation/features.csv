@@ -1,0 +1,299 @@
+Papers,ID,Category,Feature Name,Actionable,Multilingual
+"1, 3, 4, 10, 12, 13, 14, 16, 17, 18, 26, 29, 31, 34, 36, 41, 43, 46, 58, 59, 62, 64, 66, 69, 74, 78, 92, 97, 100, 106, 109, 114, 115, 118, 125, 130, 132, 136, 147, 150, 160, 161, 169, 172, 173, 262, 359",CC,Content,Character Count (Article Length),Yes,Yes
+"4, 36, 43",CTOK,Content,Token Count  {{TODO: ignored until 36}},Yes,Yes
+34,CLET,Content,Letter Count,Yes,Yes
+36,CNUM,Content,Number Count,Yes,Yes
+"14, 17, 26, 61, 62, 65, 74, 100, 115, 128, 132, 136, 142, 147, 148, 160, 172, 197, 262, 359",CW,Content,Word Count,Yes,Yes
+"17, 100, 115, 132, 147, 160, 197, 359",CMWL,Content,Mean Word Length,Yes,Yes
+"132, 160",CLWL,Content,Longest Word Length,Yes,Yes
+,CSWL,Content,Shortest Word Length,Yes,Yes
+"4, 14, 26, 36, 43, 61, 74, 100, 115, 132, 136, 147, 160, 197, 359",CSN,Content,Sentence Count,Yes,Yes
+"17, 30, 100, 115, 128, 132, 148, 160, 197, 359",CMSNL,Content,Mean Sentence Length (Words),Yes,Yes
+"14, 17, 26, 74, 100, 115, 132, 147, 160, 359",CLSNL,Content,Longest Sentence Length (Words),Yes,Yes
+"17, 100, 115, 132, 147, 160, 359",CSSNL,Content,Shortest Sentence Length (Words),Yes,Yes
+"17, 100, 130, 132, 147, 148, 160, 197, 359",CP,Content,Paragraph Count,Yes,Yes
+"14, 26, 74, 148, 197, 359",CMPLW,Content,Mean Paragraph Length in Words,Yes,Yes
+"17, 100, 132, 160",CMPLSN,Content,Mean Paragraph Length in Sentences,Yes,Yes
+"4, 13, 14, 17, 26, 34, 43, 46, 59, 62, 66, 74, 78, 92, 100, 106, 109, 115, 118, 132, 136, 147, 160, 359",CS,Content,Section Count,Yes,Yes
+"14, 26, 43, 74",CMSLC,Content,Mean Section Length in Characters,Yes,Yes
+"17, 59, 115, 147, 197, 359",CMSLW,Content,"Mean Section Length in Words (If unmentioned, assume words)",Yes,Yes
+"14, 26, 74, 359",CLSLC,Content,Longest Section Length in Characters,Yes,Yes
+"17, 115, 147",CLSLW,Content,Longest Section Length in Words,Yes,Yes
+"14, 26, 74, 359",CSSLC,Content,Shortest Section Length in Characters,Yes,Yes
+"17, 115, 147",CSSLW,Content,Shortest Section Length in Words,Yes,Yes
+359,CLSSR,Content,Longest-Shortest Section Ratio,Yes,Yes
+"8, 13, 34",CSPC,Content,Section Count per Character,Yes,Yes
+34,CSPLET,Content,Section Count per Letter,Yes,Yes
+34,CSPR,Content,Section Count per Reference,Yes,Yes
+"14, 26, 74, 359",CSLSTD,Content,Section Length Stdev.,Yes,Yes
+"17, 26, 31, 34, 41, 46, 74, 78, 97, 100, 106, 115, 132, 147, 160, 197, 359",CB,Content,Subsection Count,Yes,Yes
+"17, 100, 115, 147",CMBLW,Content,Mean Subsection Length in Words,Yes,Yes
+100,CTBLW,Content,Total Subsection Length in Words,Yes,Yes
+"17, 100, 115, 147",CLBL,Content,Longest Subsection Length (Words),Yes,Yes
+"17, 100, 115, 147",CSBL,Content,Shortest Subsection Length (Words),Yes,Yes
+"14, 17, 26, 74, 100, 115, 132, 147, 160, 359",CBPS,Content,Subsection Count per Section (section nesting),Yes,Yes
+"16, 17, 31, 41, 78, 97, 100, 115, 147, 197",CBB,Content,Sub-subsection Count,Yes,Yes
+"17, 100, 115, 147",CMBBLW,Content,Mean Sub-subsection Length in Words,Yes,Yes
+100,CTBBLW,Content,Total Sub-subsection Length in Words,Yes,Yes
+"17, 100, 115, 147",CLBBL,Content,Longest Sub-subsection Length (Words),Yes,Yes
+"17, 100, 115, 147",CSBBL,Content,Shortest Sub-subsection Length (Words),Yes,Yes
+"17, 100, 115, 132, 147, 160",CBBPB,Content,Sub-subsection Count per Subsection (subsection nesting),Yes,Yes
+"14, 17, 26, 74, 160, 359",CNL,Content,Introduction Length (Lead section; abstract),Yes,Yes
+359,CNLPC,Content,Introduction Length per Character,Yes,Yes
+"17, 100, 132",CNW,Content,Introduction Word Count,Yes,Yes
+"17, 100, 132, 160",CNWPW,Content,Introduction Word Count per Word,Yes,Yes
+"4, 13, 16, 17, 18, 31, 34, 36, 41, 43, 46, 59, 62, 66, 78, 92, 97, 100, 106, 109, 118, 132, 147, 160, 169, 197, 262",CR,Content,Reference Count,Yes,Yes
+"18, 34, 36, 43, 46, 106, 109, 147",CRPC,Content,Reference Count per Character,Yes,Yes
+34,CRPLET,Content,Reference Count per Letter,Yes,Yes
+"17, 100, 132, 160",CRPW,Content,Reference Count per Word,Yes,Yes
+"36, 43",CRPSN,Content,Reference Count per Sentence,Yes,Yes
+"17, 100, 132, 147, 160",CRPS,Content,Reference Count per Section,Yes,Yes
+34,CRPL,Content,Reference Count per Link,Yes,Yes
+34,CRPEL,Content,Reference Count per External Link,Yes,Yes
+100,CUR,Content,Unique Reference Count,Yes,Yes
+4,CRL,Content,Reference Link Count,Yes,Yes
+43,CHR,Content,Has References,Yes,Yes
+"36, 43",CHRL,Content,Has Reference List,Yes,Yes
+"4, 14, 26, 74,  78, 111, 115, 118, 130, 150, 359",CCC,Content,Citation Count,Yes,Yes
+"8, 14, 26, 74, 359",CCCPC,Content,Citation Count per Character,Yes,Yes
+130,CCCPP,Content,Citation Count per Paragraph,Yes,Yes
+"14, 26, 74, 359",CCCPS,Content,Citation Count per Section,Yes,Yes
+130,CUCC,Content,Unique Citation Count,Yes,Yes
+"34, 100, 118",CL,Content,Link Count,Yes,Yes
+"14, 26, 34, 74",CLPC,Content,Link Count per Character,Yes,Yes
+"17, 132, 160",CLPW,Content,Link Count per Word,Yes,Yes
+"26, 74",CLPS,Content,Link Count per Section,Yes,Yes
+"4, 14, 17, 18, 26, 34, 36, 43, 59, 61, 62, 74, 115, 130, 142, 147, 148, 150, 161, 169, 197, 262, 359",CEL,Content,External Link Count,Yes,Yes
+"8, 34, 359",CELPC,Content,External Link Count per Character,Yes,Yes
+"14, 147, 359",CELPS,Content,External Link Count per Section,Yes,Yes
+"4, 14, 16, 17, 18, 26, 31, 34, 41, 43, 61, 65, 74, 78, 97, 109, 115, 130, 142, 147, 148, 150, 161, 169, 173, 197, 262, 359",CIL,Content,Internal Link Count,Yes,Yes
+"8, 13, 34, 147",CILPC,Content,Internal Link Count per Character,Yes,Yes
+36,CILPSN,Content,Internal Link Count per Sentence,Yes,Yes
+18,CNBL,Content,Internal Non-Broken Link Count,Yes,Yes
+"17, 18, 118, 147, 161",CBL,Content,Internal Broken Link Count,Yes,Yes
+"17, 36, 115, 147, 148",CIILL,Content,Internal Inter-Language Link Count,Yes,Yes
+34,CELILR,Content,External Link-Internal Link Ratio,Yes,Yes
+34,CILELR,Content,Internal Link-External Link Ratio,Yes,Yes
+"4, 12, 14, 17, 18, 29, 34, 46, 59, 62, 66, 100, 106, 109, 115, 118, 132, 142, 147, 148, 150, 160, 161, 169, 173, 197, 199, 262, 359",CI,Content,Image Count,Yes,Yes
+"8, 13, 16, 31, 34, 41, 78, 97, 359",CIPC,Content,Image Count per Character,Yes,Yes
+"14, 26, 74, 100, 132, 147, 160, 359",CIPS,Content,Image Count per Section,Yes,Yes
+"17, 115, 147, 148, 150",CF,Content,"File Count (video, pdf, etc.)",Yes,Yes
+199,CSOUND,Content,Sound Count,Yes,Yes
+"13, 16, 31, 41, 78, 97, 118, 150, 169, 173",CHIB,Content,Has InfoBox,Yes,Yes
+160,CTAB,Content,Table Count,Yes,Yes
+197,CEXP,Content,Mathematical Expression Count,Yes,Yes
+,CLS,Content,List Count,Yes,Yes
+17,CLSWPW,Content,List Word Count per Word,Yes,Yes
+"13, 18, 62, 109, 115, 147, 150",CT,Content,Template Count,Yes,Yes
+"16, 17, 31, 41, 78, 97",CCT,Content,Citation Template Count,Yes,Yes
+"16, 31, 41, 78, 97",CNCT,Content,Non-Citation Template Count,Yes,Yes
+"17, 100",CUT,Content,Unique Template Count,Yes,Yes
+22,CCNT,Content,"""Citation Needed"" Template Count",Yes,Yes
+22,CMAT,Content,"""Main Article"" Template Count",Yes,Yes
+"13, 16, 17, 31, 41, 78, 97, 115, 118, 147, 148, 197",CCAT,Content,Category Count,Yes,Yes
+"17, 100, 115, 147",CREFS,Content,"Reference Sections Count (e.g., “References”, “Footnotes”, “Sources”, “Bibliography”, “Citations”)",Yes,Yes
+"17, 115, 147",CTRIS,Content,"Trivia Sections Count (e.g., “Trivia”, “Miscellaneous”, “Facts”, “Other facts”)",Yes,Yes
+"17, 100, 115",CMANS,Content,"Mandatory Sections Count (e.g., “Further reading”, “See also”)",Yes,Yes
+"17, 61, 100",CRELS,Content,"Related Page Count (based on “See also”, “Further reading”, etc.)",Yes,Yes
+"100, 115, 132, 147, 150, 160, 169",CHEAD,Content,Heading Count,Yes,Yes
+"18, 197",CL4,Content,L4 Heading Count,Yes,Yes
+"18, 197",CL5,Content,L5 Heading Count,Yes,Yes
+"18, 197",CL6,Content,L6 Heading Count,Yes,Yes
+"29, 142",CMAXHEAD,Content,Max Heading Reach,Yes,Yes
+43,CES,Content,Number of Empty Sections,Yes,Yes
+"8,  34",CLOGC,Content,Logarithm (Base 10) of Character Count,Yes,Yes
+34,CLOGLET,Content,Logarithm (Base 10) of Letter Count,Yes,Yes
+130,CCPR,Content,Character Count per Reference,Yes,Yes
+"16, 17, 31, 41, 43, 97, 115, 118, 147, 161",CINFO,Content,Information Noise Score (InfoNoise) [13] [41] [97] (multiple definitions),Yes,Yes
+148,SWPC,Style,Word Count per Comma,Yes,Probably?
+"115, 128, 147, 149",SLWR,Style,Long Words Rate (multiple definitions),Yes,Probably?
+"14, 17, 26, 74, 100, 115, 132, 147, 160, 359",SLSR,Style,Long Sentence Rate (multiple definitions),Yes,Probably?
+"14, 17, 26, 74, 100, 115, 132, 147, 160, 359",SSSR,Style,Short Sentence Rate (multiple definitions) ,Yes,Probably?
+"14, 26, 74, 147, 359",SQ,Style,Question Count,Yes,Probably?
+"17, 115, 147, 359",SQPS,Style,Question Count per Sentence,Yes,Probably?
+359,SE,Style,Exclamation Count,Yes,Probably?
+359,SEPS,Style,Exclamation Count per Sentence,Yes,Probably?
+"14, 26, 61, 74, 359",SPV,Style,Passive Voice Sentence Count,Yes,Probably?
+359,SPVPW,Style,Passive Voice Sentence Count per Word,Yes,Probably?
+"17, 115, 147, 359",SPVPS,Style,Passive Voice Sentence Count per Sentence,Yes,Probably?
+359,SPVPV,Style,Passive Voice Sentence Count per Verb,Yes,Probably?
+"4, 17, 115, 136, 147, 359",SY,Style,Syllable Count,Yes,Probably?
+"17, 115, 147, 359",SYPW,Style,Syllable Count per Word,Yes,Probably?
+"4, 17, 115, 147",SOYW,Style,One-Syllable Word Count,Yes,Probably?
+"17, 115, 147",SOYWPW,Style,One-Syllable Word Count per Word,Yes,Probably?
+,SMYW,Style,Multi-Syllable Word Count,Yes,Probably?
+61,SMYWPW,Style,Multi-Syllable Word Count per Word,Yes,Probably?
+"14, 17, 26, 74, 359",SSTP,Style,Number of sentences starting with a pronoun,Yes,Probably?
+"14, 17, 26, 74, 359",SSTART,Style,Number of sentences starting with an article,Yes,Probably?
+"14, 17, 26, 74, 359",SSTC,Style,Number of sentences starting with a coordinate conjunction,Yes,Probably?
+"14, 17, 26, 74, 359",SSTSUB,Style,Number of sentences starting with a subordinate preposition or conjunction,Yes,Probably?
+"14, 17, 26, 74",SSTI,Style,Number of sentences starting with an interrogative pronoun,Yes,Probably?
+"14, 17, 26",SSTPRE,Style,Number of sentences starting with a preposition,Yes,Probably?
+359,SSTD,Style,Number of sentences starting with a determiner,Yes,Probably?
+359,SSTADJ,Style,Number of sentences starting with a adjective,Yes,Probably?
+359,SSTN,Style,Number of sentences starting with a noun,Yes,Probably?
+359,SSTADV,Style,Number of sentences starting with an adverb,Yes,Probably?
+"115, 147, 359",SSTPPS,Style,Number of sentences starting with a pronoun per Sentence,Yes,Probably?
+"115, 147, 359",SSTARTPS,Style,Number of sentences starting with an article per Sentence,Yes,Probably?
+"115, 147, 359",SSTCPS,Style,Number of sentences starting with a coordinate conjunction per Sentence,Yes,Probably?
+"115, 147, 359",SSTSUBPS,Style,Number of sentences starting with a subordinate preposition or conjunction per Sentence,Yes,Probably?
+"115, 147",SSTIPS,Style,Number of sentences starting with an interrogative pronoun per Sentence,Yes,Probably?
+"115, 147",SSTPREPS,Style,Number of sentences starting with a preposition per Sentence,Yes,Probably?
+359,SSTDPS,Style,Number of sentences starting with a determiner per Sentence,Yes,Probably?
+359,SSTADJPS,Style,Number of sentences starting with a adjective per Sentence,Yes,Probably?
+359,SSTNPS,Style,Number of sentences starting with a noun per Sentence,Yes,Probably?
+359,SSTADVPS,Style,Number of sentences starting with an adverb per Sentence,Yes,Probably?
+"14, 26, 74, 359",SAV,Style,Auxiliary verb count,Yes,Probably?
+"17, 115, 147, 359",SAVPW,Style,Auxiliary verb count per Word,Yes,Probably?
+359,SAVPS,Style,Auxiliary verb Count per Sentence,Yes,Probably?
+359,SAVPV,Style,Auxiliary verb Count per Verb,Yes,Probably?
+,SMV,Style,Modal Verb Count,Yes,Probably?
+,SMVPW,Style,Modal Verb Count per Word,Yes,Probably?
+,SMVPPV,Style,Modal Verb Count per Passive Voice Count,Yes,Probably?
+359,STB,Style,To be Verb Count,Yes,Probably?
+"14, 17, 26, 74, 115, 147, 359",STBPW,Style,To be Verb Count per Word,Yes,Probably?
+359,STBPS,Style,To be Verb Count per Sentence,Yes,Probably?
+359,STBPV,Style,To be Verb Count per Verb,Yes,Probably?
+"149, 172, 359",SUW,Style,Unique Word Count,Yes,Probably?
+"30, 128, 359",SUWPW,Style,Unique Word Count per Word,Yes,Probably?
+"30, 359",SUWPS,Style,Unique Word Count per Sentence,Yes,Probably?
+359,SN,Style,Noun Count,Yes,Probably?
+"30, 359",SNPW,Style,Noun Count per Word,Yes,Probably?
+149,SNPV,Style,Noun Count per Verb,Yes,Probably?
+359,SNPS,Style,Noun Count per Sentence,Yes,Probably?
+"149, 359",SUN,Style,Unique Noun Count,Yes,Probably?
+359,SUNPW,Style,Unique Noun Count per Word,Yes,Probably?
+"30, 359",SUNPUW,Style,Unique Noun Count per Unique Word,Yes,Probably?
+359,SUNPUS,Style,Unique Noun Count per Sentence,Yes,Probably?
+359,SV,Style,Verb Count,Yes,Probably?
+"30, 359",SVPW,Style,Verb Count per Word,Yes,Probably?
+359,SVPS,Style,Verb Count per Sentence,Yes,Probably?
+"149, 359",SUV,Style,Unique Verb Count,Yes,Probably?
+359,SUVPW,Style,Unique Verb Count per Word,Yes,Probably?
+"30, 359",SUVPUW,Style,Unique Verb Count per Unique Word,Yes,Probably?
+359,SUVPS,Style,Unique Verb Count per Sentence,Yes,Probably?
+"14, 26, 359",SP,Style,Pronoun Count,Yes,Probably?
+"17, 115, 147, 359",SPPW,Style,Pronoun Count per Word,Yes,Probably?
+359,SPPS,Style,Pronoun Count per Sentence,Yes,Probably?
+359,SUP,Style,Unique Pronoun Count,Yes,Probably?
+359,SUPPW,Style,Unique Pronoun Count per Word,Yes,Probably?
+359,SUPPUW,Style,Unique Pronoun Count per Unique Word,Yes,Probably?
+359,SUPPS,Style,Unique Pronoun Count per Sentence,Yes,Probably?
+359,SADJ,Style,Adjective Count,Yes,Probably?
+359,SADJPW,Style,Adjective Count per Word,Yes,Probably?
+359,SADJPS,Style,Adjective Count per Sentence,Yes,Probably?
+"149, 359",SUADJ,Style,Unique Adjective Count,Yes,Probably?
+359,SUADJPW,Style,Unique Adjective Count per Word,Yes,Probably?
+359,SUADJPUW,Style,Unique Adjective Count per Unique Word,Yes,Probably?
+359,SUADJPS,Style,Unique Adjective Count per Sentence,Yes,Probably?
+359,SADV,Style,Adverb Count,Yes,Probably?
+359,SADVPW,Style,Adverb Count per Word,Yes,Probably?
+359,SADVPS,Style,Adverb Count per Sentence,Yes,Probably?
+359,SUADV,Style,Unique Adverb Count,Yes,Probably?
+359,SUADVPW,Style,Unique Adverb Count per Word,Yes,Probably?
+359,SUADVPUW,Style,Unique Adverb Count per Unique Word,Yes,Probably?
+359,SUADVPS,Style,Unique Adverb Count per Sentence,Yes,Probably?
+359,SCC,Style,Coordinate Conjunction Count,Yes,Probably?
+"14, 17, 26, 74, 115, 147, 359",SCCPW,Style,Coordinate Conjunction Count per Word,Yes,Probably?
+"30, 359",SCCPS,Style,Coordinate Conjunction Count per Sentence,Yes,Probably?
+359,SUCC,Style,Unique Coordinate Conjunction Count,Yes,Probably?
+359,SUCCPW,Style,Unique Coordinate Conjunction Count per Word,Yes,Probably?
+359,SUCCPUW,Style,Unique Coordinate Conjunction Count per Unique Word,Yes,Probably?
+359,SUCCPS,Style,Unique Coordinate Conjunction Count per Sentence,Yes,Probably?
+359,SSUB,Style,Subordinate Preposition or Conjunction Count,Yes,Probably?
+359,SSUBPW,Style,Subordinate Preposition or Conjunction Count per Word,Yes,Probably?
+359,SSUBPS,Style,Subordinate Preposition or Conjunction Count per Sentence,Yes,Probably?
+359,SUSUB,Style,Unique Subordinate Preposition or Conjunction Count,Yes,Probably?
+359,SUSUBPW,Style,Unique Subordinate Preposition or Conjunction Count per Word,Yes,Probably?
+359,SUSUBPUW,Style,Unique Subordinate Preposition or Conjunction Count per Unique Word,Yes,Probably?
+359,SUSUBPS,Style,Unique Subordinate Preposition or Conjunction Count per Sentence,Yes,Probably?
+"14, 17, 26, 115, 147",SPREPW,Style,Preposition Count per Word,Yes,Probably?
+"14, 17, 26, 74, 147 ",SNOMPW,Style,Nominalization Count per Word,Yes,Probably?
+61,SSPELL,Style,Spelling Errors Count,Yes,Probably?
+"17, 147",SSWR,Style,Special Word (weasel/peacock/stop/etc. words) Count per Word,Yes,No
+"17, 36, 148, 359",SPOS,Style,Character/PoS Trigrams,Yes,No
+96,SDENSSF,Style,Density of Simple Facts,Yes,No
+96,SDENSCF,Style,Density of Complex Facts,Yes,No
+"4, 14, 16, 17, 26, 29, 31, 36, 62, 74, 78, 97, 115, 142, 147, 359",RARI,Readability,Automated Readability Index,Yes,No
+"17, 62, 115, 147",RBOR,Readability,Bormuth Readability Index,Yes,No
+"4, 14, 16, 17, 26, 31, 36, 62, 74, 78, 97, 115, 147, 359",RCL,Readability,Coleman-Lieau,Yes,No
+"16, 17, 31, 62, 78, 97, 115, 147, 359",RDC,Readability,Dale-Chall,Yes,No
+"16, 31, 78, 97, 115, 147",RDWS,Readability,Difficult Word Score,Yes,No
+"4, 62, 147",RFOR,Readability,FORCAST Readability Formula,Yes,No
+"12, 14, 16, 17, 26, 31, 36, 61, 62, 74, 78, 97, 115, 147, 161, 359",RFE,Readability,Flesch reading ease,Yes,No
+"4, 12, 13, 14, 16, 17, 26, 31, 36, 61, 62, 74, 78, 97, 115, 147, 161, 359",RFK,Readability,Flesch-Kincaid,Yes,No
+"4, 14, 16, 17, 26, 31, 36, 62, 74, 78, 97, 115, 147, 359",RGFI,Readability,Gunning Fog Index,Yes,No
+"14, 17, 26, 36, 62, 74, 115, 147, 359",RLIX,Readability,Lasbarhets Index (LIX),Yes,No
+"16, 31, 62, 78, 97",RLWF,Readability,Linsear Write Formula,Yes,No
+"17, 62, 115, 147",RMIY,Readability,Miyazaki Readability Score,Yes,No
+"4, 14, 16, 17, 26, 31, 36, 62, 74, 78, 97, 115, 147, 359",RSG,Readability,Smog-Grading,Yes,No
+"2, 3, 12, 13, 14, 17, 26, 29, 36, 43, 61, 62, 65, 74, 114, 118, 122, 142, 147, 155, 161, 173, 359",HAA,History,Article Age (days),No,Yes
+359,HAAPR,History,Article Age per Revision,No,Yes
+"17, 18, 109, 118, 161",HCRA,History,Current Revision Age (days),No,Yes
+109,HLNBOTRA,History,Last Non-Bot Revision Age (days),No,Yes
+"2, 3, 10, 12, 14, 17, 25, 26, 29, 34, 36, 43, 57, 62, 64, 74, 97, 111, 114, 118, 122, 142, 147, 161, 169, 172, 359",HR,History,Revision Count,Yes (No),Yes
+"14, 17, 26, 74, 122, 359",HRPD,History,Revisions per Day,Yes (No),Yes
+"2, 14, 17, 26, 59, 74, 122, 147, 359",HRPC,History,Revisions per Contributor,Yes (No),Yes
+"14, 26, 74, 122, 359",HRPCSTD,History,Revisions per Contributor Stdev.,No,Yes
+"2, 14, 17, 26, 43, 59, 65, 74, 118, 122, 147, 155, 359",HD,History,Discussion Count,Yes (No),Yes
+6,HDL,History,Discussion Length (Words),Yes,Yes
+359,HREC,History,Recent Revision Count (3 months),Yes (No),Yes
+"14, 17, 26, 74, 122, 359",HRECPR,History,Recent Revision Count per Revision,Yes (No),Yes
+"14, 17, 26, 74, 359",HRML,History,Recently Modified Line Count,Yes (No),Yes
+359,HACT,History,Active Revision Count (contributor is in top 5% of article editors),Yes (No),Yes
+"14, 17, 26, 122, 359",HACTPR,History,Active Revision Count per Revision,Yes (No),Yes
+"2, 3, 6, 10, 17, 18, 29, 34, 36, 43, 61, 62, 64, 65, 69, 70, 97, 122, 142, 147, 148, 150, 155, 161, 172, 173, 359",HC,History,Contributor Count,No,Yes
+"12, 13, 161, 359",HCPR,History,Contributor Count per Revision (Diversity),No,Yes
+"14, 17, 26, 36, 43, 61, 74, 97, 148, 359",HRC,History,Registered Contributor Count,No,Yes
+"14, 17, 18, 26, 29, 61, 74, 97, 122, 142, 148, 359",HAC,History,Anonymous Contributor Count,No,Yes
+"69, 359",HO,History,Occasional Contributor Count (contributor edits to the article < 4) ,No,Yes
+"3, 17",HADM,History,Admin Contributor Count,No,Yes
+"18, 148",HBOT,History,Bot Contributor Count,No,Yes
+"59, 147, 359",HRCPC,History,Registered Contributor per Contributor,No,Yes
+"8, 147, 359",HACPC,History,Anonymous Contributor per Contributor,No,Yes
+359,HOCPC,History,Occasional Contributor per Contributor,No,Yes
+359,HRACR,History,Registered-Anonymous Contributor Ratio,No,Yes
+"148, 161, 359",HRR,History,Registered Revision Count,Yes (No),Yes
+"18, 148, 161, 359",HAR,History,Anonymous Revision Count,Yes (No),Yes
+359,HOR,History,Occasional Revision Count,Yes (even less),Yes
+,HADMR,History,Admin Revision Count,Yes (even less),Yes
+"18, 148",HBOTR,History,Bot Revision Count,Yes (even less),Yes
+"59, 359",HRRPR,History,Registered Revision Count per Revision,?,Yes
+359,HARPR,History,Anonymous Revision Count per Revision,?,Yes
+"14, 17, 26, 74, 122, 359",HORPR,History,Occasional Revision Count per Revision ,?,Yes
+161,HADMRPR,History,Admin Revision Count per Revision,?,Yes
+359,HRRPAR,History,Registered-Anonymous Revision Ratio,?,Yes
+8,HRRPRC,History,Registered Revision Count per Registered Contributor,?,Yes
+8,HARPAC,History,Anonymous Revision Count per Anonymous Contributor,?,Yes
+"17, 118, 161, 359",HREV,History,Revert Count,?,Yes
+"8, 59, 61, 359",HREVPR,History,Revert Count per Revision,?,Yes
+"13, 17, 161",HMREVT,History,Median Revert Time (minutes),?,Yes
+,HMIN,History,Minor Edit Count,?,Yes
+61,HMINPR,History,Minor Edit Count per Revision,?,Yes
+70,HAVGCPM,History,Average Contributor Count per Month,?,Yes
+70,HMAXCPM,History,Maximum Contributor Count per Month,?,Yes
+"97, 148, 172",HAVGBET,History,Mean Time Between Consecutive Reviews,?,Yes
+"97, 172",HVARBET,History,Variance of Time Between Consecutive Reviews,?,Yes
+"26, 74, 122",HAVGBET30,History,Mean Time Between Consecutive Reviews in the past 30 days,?,Yes
+,HQAC,History,Number of FA/GA by Contributors,No,Yes
+148,HCQA,History,Number of Contributors Authoring FA/GA,No,Yes
+148,HRSIZE,History,Current Revision Length (bytes),No,Yes
+59,HMRL,History,Mean Revision Length,No,Yes
+59,HVARRL,History,Variance of Revision Length,No,Yes
+2,HSUCC,History,Successive Revision Count,No,Yes
+"14, 17, 20, 25, 26, 62, 74, 101, 122, 118, 147, 202, 359",NPR,Network,PageRank (from Google),No,Yes
+"14, 17, 25, 26, 74, 101, 122, 125, 359",NIN,Network,In-degree,Yes (No),Yes
+"14, 17, 25, 26, 74, 101, 122, 125, 359",NOUT,Network,Out-degree,Yes,Yes
+122,NN,Network,Neighbor Count,Yes,Yes
+"14, 17, 26, 74, 122, 359",NASS,Network,"Assortativity (in-in, in-out, out-in, out-out)",No,Yes
+"14, 17, 25, 26, 54, 64, 74, 101, 122, 359",NLCC,Network,Local Clustering Coefficient,No,Yes
+"14, 17, 25, 26, 74, 122, 147, 359",NREP,Network,Reciprocity within Neighbors,No,Yes
+"25, 54",NPATH,Network,Average Path Length,No,Yes
+"14, 18, 26, 36, 74, 118, 122, 150, 197, 359",NT,Network,# of Versions in other Languages,Yes,Yes
+"17, 18, 34, 36, 43, 62, 115, 130, 147, 148, 150",NINL,Network,Incoming Internal Link Count,Yes (No),Yes
+43,NINLL3,Network,Incoming Internal Link Count < 3,Yes (No),Yes
+43,NNINL,Network,No Incoming Internal Links,Yes (No),Yes
+"17, 161",NACE,"Network, History",Number of Articles with Common Editors (Connectivity),No,Yes
+62,NVISIT,Other,Number of Page Visits,No,Yes
+"34, 62",NWATCH,Other,Number of Page Watchers,No,Yes
+150,NVIEW,Other,Number of Page Viewers,No,Yes
