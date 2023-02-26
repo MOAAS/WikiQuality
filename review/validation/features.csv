@@ -281,14 +281,15 @@ Papers,ID,Category,Feature Name,Actionable,Multilingual
 59,HMRL,History,Mean Revision Length,No,Yes
 59,HVARRL,History,Variance of Revision Length,No,Yes
 2,HSUCC,History,Successive Revision Count,No,Yes
-"14, 17, 20, 25, 26, 62, 74, 101, 122, 118, 147, 202, 359",NPR,Network,PageRank (from Google),No,Yes
-"14, 17, 25, 26, 74, 101, 122, 125, 359",NIN,Network,In-degree,Yes (No),Yes
-"14, 17, 25, 26, 74, 101, 122, 125, 359",NOUT,Network,Out-degree,Yes,Yes
+"14, 17, 20, 25, 26, 62, 74, 101, 122, 118, 127, 147, 202, 359",NPR,Network,PageRank (from Google),No,Yes
+"14, 17, 25, 26, 74, 101, 122, 125, 127, 359",NIN,Network,In-degree,Yes (No),Yes
+"14, 17, 25, 26, 74, 101, 122, 125, 127, 359",NOUT,Network,Out-degree,Yes,Yes
 122,NN,Network,Neighbor Count,Yes,Yes
 "14, 17, 26, 74, 122, 359",NASS,Network,"Assortativity (in-in, in-out, out-in, out-out)",No,Yes
-"14, 17, 25, 26, 54, 64, 74, 101, 122, 359",NLCC,Network,Local Clustering Coefficient,No,Yes
-"14, 17, 25, 26, 74, 122, 147, 359",NREP,Network,Reciprocity within Neighbors,No,Yes
+"14, 17, 25, 26, 54, 64, 74, 101, 122, 127, 359",NLCC,Network,Local Clustering Coefficient,No,Yes
+"14, 17, 25, 26, 74, 122, 127, 147, 359",NREP,Network,Reciprocity within Neighbors,No,Yes
 "25, 54",NPATH,Network,Average Path Length,No,Yes
+"25, 127",NKCORE,Network,K-Core Number,No,Yes
 "14, 18, 26, 36, 74, 118, 122, 150, 197, 359",NT,Network,# of Versions in other Languages,Yes,Yes
 "17, 18, 34, 36, 43, 62, 115, 130, 147, 148, 150",NINL,Network,Incoming Internal Link Count,Yes (No),Yes
 43,NINLL3,Network,Incoming Internal Link Count < 3,Yes (No),Yes
