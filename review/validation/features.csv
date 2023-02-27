@@ -32,7 +32,7 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 100, 115, 147",CLBL,Content,Longest Subsection Length (Words),Yes,Yes
 "17, 100, 115, 147",CSBL,Content,Shortest Subsection Length (Words),Yes,Yes
 "14, 17, 26, 74, 100, 115, 132, 147, 160, 359",CBPS,Content,Subsection Count per Section (section nesting),Yes,Yes
-"16, 17, 31, 100, 115, 147, 197",CBB,Content,Sub-subsection Count,Yes,Yes
+"16, 17, 100, 115, 147, 197",CBB,Content,Sub-subsection Count,Yes,Yes
 "17, 100, 115, 147",CMBBLW,Content,Mean Sub-subsection Length in Words,Yes,Yes
 100,CTBBLW,Content,Total Sub-subsection Length in Words,Yes,Yes
 "17, 100, 115, 147",CLBBL,Content,Longest Sub-subsection Length (Words),Yes,Yes
@@ -48,8 +48,8 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 100, 132, 160",CRPW,Content,Reference Count per Word,Yes,Yes
 "36, 43",CRPSN,Content,Reference Count per Sentence,Yes,Yes
 "17, 100, 132, 147, 160",CRPS,Content,Reference Count per Section,Yes,Yes
-100,CRPB,Content,Reference Count per Subsection,,
-100,CRPBB,Content,Reference Count per Sub-subsection,,
+100,CRPB,Content,Reference Count per Subsection,Yes,Yes
+100,CRPBB,Content,Reference Count per Sub-subsection,Yes,Yes
 34,CRPL,Content,Reference Count per Link,Yes,Yes
 34,CRPEL,Content,Reference Count per External Link,Yes,Yes
 100,CUR,Content,Unique Reference Count,Yes,Yes
@@ -98,7 +98,7 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 100, 115",CMANS,Content,"Mandatory Sections Count (e.g., “Further reading”, “See also”)",Yes,Yes
 "17, 61, 100",CRELS,Content,"Related Page Count (based on “See also”, “Further reading”, etc.)",Yes,Yes
 "17, 92, 100, 115, 132, 147, 150, 160, 169",CHEAD,Content,Heading Count,Yes,Yes
-"16, 41, 78, 97",CL3+,Content,L3+ Heading Count,Yes,Yes
+"16, 31, 41, 78, 97",CL3+,Content,L3+ Heading Count,Yes,Yes
 "18, 197",CL4,Content,L4 Heading Count,Yes,Yes
 "18, 197",CL5,Content,L5 Heading Count,Yes,Yes
 "18, 197",CL6,Content,L6 Heading Count,Yes,Yes
@@ -108,7 +108,7 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "8,  34",CLOGC,Content,Logarithm (Base 10) of Character Count,Yes,Yes
 34,CLOGLET,Content,Logarithm (Base 10) of Letter Count,Yes,Yes
 130,CCPR,Content,Character Count per Reference,Yes,Yes
-130,CCPCC,Content,Character Count per Citation,,
+130,CCPCC,Content,Character Count per Citation,Yes,Yes
 61,CNCTITLE,Content,Number of Non-Character Symbols in Title,Yes,Yes
 148,SWPC,Style,Word Count per Comma,Yes,Probably?
 "115, 128, 147, 149",SLWR,Style,Long Words Rate (multiple definitions),Yes,Probably?
