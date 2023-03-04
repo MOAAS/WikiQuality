@@ -28,8 +28,10 @@ def validate_column_values(csv, column, values):
             print('Invalid value "{}" in column "{}" in row {} (ID={}).'.format(row[column], column, i, row['Id']))
             return False
         
-def validate_column_number(csv, column):
+def validate_column_number(csv, column, allow_undefined=False):
     for i, row in enumerate(csv):
+        if row[column] == '?' and allow_undefined:
+            continue
         try:
             int(row[column])
         except ValueError:
@@ -91,19 +93,27 @@ def validate_inclusion():
         if ',' in row['Keywords']:
             print_row_error('inclusion.csv', row['Id'], 'Keywords cannot have a comma.')
             return False
-
-        # todo:      
+        
+        # published in
+        format = {
+            'Conference': r'(.+)?\'[0-9][0-9]: .+', # e.g. OpenSym '19: [...]
+            'Journal': r'(.+)?, vol. [0-9]+' # e.g. [...], vol. 1, no. 1, pp. 1-10, 2019.
+        }.get(row['Publication Type'], '.+')  
+        if not re.match(format, row['Published In']):
+            print_row_error('inclusion.csv', row['Id'], 'Published In does not match the format.')
+            return False
+      
         # no element can be empty
-        # for k, v in row.items():
-        #    if v == '':
-        #        print_row_error('inclusion.csv', row['Id'], 'Empty value in column "{}".'.format(k))
-        #        return False       
+        for k, v in row.items():
+            if v == '':
+                print_row_error('inclusion.csv', row['Id'], 'Empty value in column "{}".'.format(k))
+                return False       
     
     validate_column_number(inclusion, 'Id')
     validate_column_number(inclusion, 'Year')        
     validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference'])
     validate_column_number(inclusion, 'Refs.')        
-    validate_column_number(inclusion, 'Cits.')   
+    validate_column_number(inclusion, 'Cits.', allow_undefined=True)   
 
 def validate_qscores():
     for row in inclusion:
@@ -244,9 +254,8 @@ def validate_general():
 def validate_features():
     print('Validating features.csv...')
     validate_column_values(features, 'Category', ['Content', 'Style', 'Readability', 'History', 'Network', 'Network, History', 'Other'])
-    # todo:
-    #validate_column_values(features, 'Actionable', ['Yes', 'No'])
-    #validate_column_values(features, 'Multilingual', ['Yes', 'No'])
+    validate_column_values(features, 'Actionable', ['Yes', 'No'])
+    validate_column_values(features, 'Multilingual', ['Yes', 'No'])
 
     # find any duplicate feature ids.
     ids = [f['Id'] for f in features]
