@@ -65,10 +65,10 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "14, 26, 34, 74",CLPC,Content,Link Count per Character,Yes,Yes
 "17, 132, 160",CLPW,Content,Link Count per Word,Yes,Yes
 "26, 74",CLPS,Content,Link Count per Section,Yes,Yes
-"4, 14, 17, 18, 26, 34, 36, 43, 59, 61, 62, 74, 115, 130, 142, 147, 148, 150, 161, 169, 197, 262, 359",CEL,Content,External Link Count,Yes,Yes
+"4, 14, 17, 18, 26, 34, 36, 43, 59, 61, 62, 74, 115, 118, 130, 142, 147, 148, 150, 161, 169, 197, 262, 359",CEL,Content,External Link Count,Yes,Yes
 "8, 34, 359",CELPC,Content,External Link Count per Character,Yes,Yes
 "14, 147, 359",CELPS,Content,External Link Count per Section,Yes,Yes
-"4, 14, 16, 17, 18, 26, 31, 34, 41, 43, 61, 65, 74, 78, 97, 109, 115, 130, 142, 147, 148, 150, 161, 169, 173, 197, 262, 359",CIL,Content,Internal Link Count,Yes,Yes
+"4, 14, 16, 17, 18, 26, 31, 34, 41, 43, 61, 65, 74, 78, 97, 109, 115, 118, 130, 142, 147, 148, 150, 161, 169, 173, 197, 262, 359",CIL,Content,Internal Link Count,Yes,Yes
 "8, 13, 34, 147",CILPC,Content,Internal Link Count per Character,Yes,Yes
 36,CILPSN,Content,Internal Link Count per Sentence,Yes,Yes
 18,CNBL,Content,Internal Non-Broken Link Count,Yes,Yes
@@ -237,7 +237,7 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 18, 109, 118, 147, 161",HCRA,History,Current Revision Age (days) (currency),No,Yes
 109,HLNBOTRA,History,Last Non-Bot Revision Age (days),No,Yes
 "2, 3, 10, 12, 14, 17, 25, 26, 29, 34, 36, 43, 57, 62, 64, 74, 97, 111, 114, 118, 122, 142, 147, 161, 169, 172, 359",HR,History,Revision Count,Yes (No),Yes
-"14, 17, 26, 74, 122, 359",HRPD,History,Revisions per Day,Yes (No),Yes
+"14, 17, 26, 74, 118, 122, 359",HRPD,History,Revisions per Day,Yes (No),Yes
 "2, 14, 17, 26, 59, 74, 122, 147, 359",HRPC,History,Revisions per Contributor,Yes (No),Yes
 "14, 26, 74, 122, 359",HRPCSTD,History,Revisions per Contributor Stdev.,No,Yes
 "2, 14, 17, 26, 43, 59, 65, 74, 97, 118, 122, 147, 155, 359",HD,History,Discussion Count,Yes (No),Yes
@@ -247,10 +247,10 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "14, 17, 26, 74, 359",HRML,History,Recently Modified Line Count,Yes (No),Yes
 359,HACT,History,Active Revision Count (contributor is in top 5% of article editors),Yes (No),Yes
 "14, 17, 26, 74, 122, 359",HACTPR,History,Active Revision Count per Revision,Yes (No),Yes
-"2, 3, 6, 10, 17, 18, 29, 34, 36, 43, 61, 62, 64, 65, 69, 70, 97, 122, 142, 147, 148, 150, 155, 161, 172, 173, 359",HC,History,Contributor Count,No,Yes
-"12, 13, 161, 359",HCPR,History,Contributor Count per Revision (Diversity),No,Yes
-"14, 17, 26, 36, 43, 61, 74, 97, 148, 359",HRC,History,Registered Contributor Count,No,Yes
-"14, 17, 18, 26, 29, 61, 74, 97, 122, 142, 148, 359",HAC,History,Anonymous Contributor Count,No,Yes
+"2, 3, 6, 10, 17, 18, 29, 34, 36, 43, 61, 62, 64, 65, 69, 70, 97, 118, 122, 142, 147, 148, 150, 155, 161, 172, 173, 359",HC,History,Contributor Count,No,Yes
+"12, 13, 118, 161, 359",HCPR,History,Contributor Count per Revision (Diversity),No,Yes
+"14, 17, 26, 36, 43, 61, 74, 97, 118, 148, 359",HRC,History,Registered Contributor Count,No,Yes
+"14, 17, 18, 26, 29, 61, 74, 97, 118, 122, 142, 148, 359",HAC,History,Anonymous Contributor Count,No,Yes
 "69, 359",HO,History,Occasional Contributor Count (contributor edits to the article < 4) ,No,Yes
 "3, 17",HADM,History,Admin Contributor Count,No,Yes
 "18, 148",HBOT,History,Bot Contributor Count,No,Yes
@@ -272,7 +272,7 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 8,HARPAC,History,Anonymous Revision Count per Anonymous Contributor,?,Yes
 "17, 118, 161, 359",HREV,History,Revert Count,?,Yes
 "8, 59, 61, 359",HREVPR,History,Revert Count per Revision,?,Yes
-"13, 17, 161",HMREVT,History,Median Revert Time (minutes),?,Yes
+"13, 17, 118, 161",HMREVT,History,Median Revert Time (minutes),?,Yes
 ,HMIN,History,Minor Edit Count,?,Yes
 61,HMINPR,History,Minor Edit Count per Revision,?,Yes
 70,HAVGCPM,History,Average Contributor Count per Month,?,Yes
