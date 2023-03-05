@@ -84,12 +84,12 @@ def validate_inclusion():
             print_row_error('inclusion.csv', row['Id'], 'Invalid databases.')
             return False
         
-        # Authors cannot have a comma, replace with semicolon
+        # Authors cannot have a comma
         if ',' in row['Authors']:
             print_row_error('inclusion.csv', row['Id'], 'Authors cannot have a comma.')
             return False
 
-        # Keywords cannot have a comma, replace with semicolon
+        # Keywords cannot have a comma
         if ',' in row['Keywords']:
             print_row_error('inclusion.csv', row['Id'], 'Keywords cannot have a comma.')
             return False
