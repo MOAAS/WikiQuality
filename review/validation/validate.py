@@ -103,8 +103,11 @@ def validate_inclusion():
             print_row_error('inclusion.csv', row['Id'], 'Published In does not match the format.')
             return False
       
-        # no element can be empty
+        # no element can be empty or contain newlines
         for k, v in row.items():
+            if '\n' in v:
+                print_row_error('inclusion.csv', row['Id'], 'Newline in column "{}".'.format(k))
+                return False
             if v == '':
                 print_row_error('inclusion.csv', row['Id'], 'Empty value in column "{}".'.format(k))
                 return False       
