@@ -282,11 +282,23 @@ def validate_features():
 
     return True
 
+def validate_papers():
+    eli = [p['Id'] for p in eligibility if p['Include'] == 'Yes']
+    incl = [p['Id'] for p in inclusion]
+    gen = [p['Id'] for p in general]
+
+    # papers in the three sets must be the same
+    if set(eli) != set(incl) or set(eli) != set(gen):
+        print('Papers in eligibility and inclusion must be the same. Lengths: {}, {}, {}'.format(len(eli), len(incl), len(gen)))
+        return False
+    
+
 validate_eligibility()
 validate_inclusion()
 validate_qscores()
 validate_general()
 validate_features()
+validate_papers()
 
 print('Done.')
 

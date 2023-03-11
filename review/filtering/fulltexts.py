@@ -19,12 +19,13 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
         row = [r for r in row]
         if row[included_col].lower() == 'yes':
             id = int(row[0])
-            # something like this may be needed for citation tracking
-            # if id not in articles:
-            #     included.append({
-            #         'Id': id,
-            #         'Databases': ', '.join(row[4].split(';')),
-            #     })
+            if id >= 1000: # citation tracking
+                abstracts[id] = "" 
+                articles[id] = {
+                    'databases': ['Citation Tracking'],
+                    'semscholarId': 'not_found',
+                }
+                
             article = articles[id]
             info = {
                 'Id': id,
