@@ -70,9 +70,9 @@ def validate_eligibility():
         has_metrics = general_row['Metrics'] == 'Yes'
         has_features = general_row['# Features'] != '0' and general_row['# Features'] != '0 / 0'
         if ((row['Features/Metrics'] == 'Yes') != (has_metrics or has_features)):
-            print_row_error('eligibility.csv', row['Id'], 'Features/Metrics does not match general[Metrics]/[Features].')
+            return print_row_error('eligibility.csv', row['Id'], 'Features/Metrics does not match general[Metrics]/[Features].')
         if ((row['ML'] == 'Yes') != (general_row['ML'] != 'N/A')):
-            print_row_error('eligibility.csv', row['Id'], 'ML does not match general[ML].')
+            return print_row_error('eligibility.csv', row['Id'], 'ML does not match general[ML].')
 
 def validate_inclusion():
     print('Validating inclusion.csv...')
@@ -80,7 +80,13 @@ def validate_inclusion():
     for row in inclusion:
         # databases must be ACM, Google Scholar or Web of Science
         databases = [d.strip() for d in row['Databases'].split(',')]
-        if not set(databases).issubset(set(['ACM', 'Google Scholar', 'Web of Science'])):
+        if not set(databases).issubset(set([
+            'ACM',
+            'Google Scholar', 
+            'Web of Science', 
+            'Backward Citation Tracking', 
+            'Forward Citation Tracking'
+        ])):
             print_row_error('inclusion.csv', row['Id'], 'Invalid databases.')
             return False
         
@@ -117,6 +123,8 @@ def validate_inclusion():
     validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference'])
     validate_column_number(inclusion, 'Refs.')        
     validate_column_number(inclusion, 'Cits.', allow_undefined=True)   
+    validate_column_values(inclusion, 'Backward Tracked', ['Yes', 'No'])
+    validate_column_values(inclusion, 'Forward Tracked', ['Yes', 'No'])
 
 def validate_qscores():
     for row in inclusion:
@@ -271,14 +279,21 @@ def validate_features():
         # By Github Copilot
         return all(int(x) <= int(y) for x, y in zip(list_of_strings, list_of_strings[1:]))
     
-    # check that paper ids don't have duplicates and are sorted by value
     for feature in features:
+        if feature['Papers'] == '':
+            continue
         papers = [p.strip() for p in feature['Papers'].split(',')]
+
+        # check that paper ids don't have duplicates and are sorted by value
         if len(papers) != len(set(papers)):
             return print_row_error('features.csv', feature['Id'], 'Duplicate papers found.')
         if not is_sorted(papers):
             return print_row_error('features.csv', feature['Id'], 'Papers are not sorted.')
-    
+        
+        # check that papers are in general.csv
+        for paper in papers:
+            if paper not in [p['Id'] for p in general]:
+                return print_row_error('features.csv', feature['Id'], 'Paper {} not found in general.csv. Was in feature {}.'.format(paper, feature['Id']))
 
     return True
 
