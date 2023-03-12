@@ -120,7 +120,7 @@ def validate_inclusion():
     
     validate_column_number(inclusion, 'Id')
     validate_column_number(inclusion, 'Year')        
-    validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference'])
+    validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference', 'Book', 'Other', 'N/A'])
     validate_column_number(inclusion, 'Refs.')        
     validate_column_number(inclusion, 'Cits.', allow_undefined=True)   
     validate_column_values(inclusion, 'Backward Tracked', ['Yes', 'No'])
