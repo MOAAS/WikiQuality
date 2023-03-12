@@ -259,7 +259,9 @@ def validate_general():
 
     return       
 
-
+def is_sorted(list_of_strings):
+    # By Github Copilot
+    return all(int(x) <= int(y) for x, y in zip(list_of_strings, list_of_strings[1:]))
     
 
 def validate_features():
@@ -274,10 +276,6 @@ def validate_features():
     if len(duplicates) > 0:
         print('Duplicate IDs found: {}'.format(set(duplicates)))
         return False
-    
-    def is_sorted(list_of_strings):
-        # By Github Copilot
-        return all(int(x) <= int(y) for x, y in zip(list_of_strings, list_of_strings[1:]))
     
     for feature in features:
         if feature['Papers'] == '':
@@ -298,6 +296,7 @@ def validate_features():
     return True
 
 def validate_papers():
+    print('Validating papers...')
     eli = [p['Id'] for p in eligibility if p['Include'] == 'Yes']
     incl = [p['Id'] for p in inclusion]
     gen = [p['Id'] for p in general]
@@ -307,6 +306,15 @@ def validate_papers():
         print('Papers in eligibility and inclusion must be the same. Lengths: {}, {}, {}'.format(len(eli), len(incl), len(gen)))
         return False
     
+def validate_sorted():
+    # all id columns of eligility, inclusion, general must be sorted
+    print('Validating sorted...')
+
+    # if not sorted print index
+    for variable_name, table in [('eligibility', eligibility), ('inclusion', inclusion), ('general', general)]:
+        if not is_sorted([row['Id'] for row in table]):
+            print('Table {} is not sorted.'.format(variable_name))
+            return False
 
 validate_eligibility()
 validate_inclusion()
@@ -314,6 +322,7 @@ validate_qscores()
 validate_general()
 validate_features()
 validate_papers()
+validate_sorted()
 
 print('Done.')
 
