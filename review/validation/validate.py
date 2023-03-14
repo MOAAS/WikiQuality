@@ -60,7 +60,7 @@ def validate_eligibility():
             continue
         if row['Features/Metrics'] == '' and row['ML'] == '' and row['Exclusion'] != '':
             continue
-        return print_row_error('eligibility.csv', row['Id'], 'Either Features/Metrics and ML must be filled out or Exclusion must be filled out.')
+        print_row_error('eligibility.csv', row['Id'], 'Either Features/Metrics and ML must be filled out or Exclusion must be filled out.')
 
     # Find possible inconsistencies between eligibility and general.
     for row in eligibility:
@@ -70,9 +70,9 @@ def validate_eligibility():
         has_metrics = general_row['Metrics'] == 'Yes'
         has_features = general_row['# Features'] != '0' and general_row['# Features'] != '0 / 0'
         if ((row['Features/Metrics'] == 'Yes') != (has_metrics or has_features)):
-            return print_row_error('eligibility.csv', row['Id'], 'Features/Metrics does not match general[Metrics]/[Features].')
+            print_row_error('eligibility.csv', row['Id'], 'Features/Metrics does not match general[Metrics]/[Features].')
         if ((row['ML'] == 'Yes') != (general_row['ML'] != 'N/A')):
-            return print_row_error('eligibility.csv', row['Id'], 'ML does not match general[ML].')
+            print_row_error('eligibility.csv', row['Id'], 'ML does not match general[ML].')
 
 def validate_inclusion():
     print('Validating inclusion.csv...')

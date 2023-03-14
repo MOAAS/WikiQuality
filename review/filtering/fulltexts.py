@@ -22,7 +22,7 @@ with open('filtering/fulltexts.input.csv', 'r', encoding='utf-8') as f:
             if id >= 1000: # citation tracking
                 abstracts[id] = "" 
                 articles[id] = {
-                    'databases': ['Citation Tracking'],
+                    'databases': ['Forward Citation Tracking'] if id >= 2000 else ['Backward Citation Tracking'],
                     'semscholarId': 'not_found',
                 }
                 
