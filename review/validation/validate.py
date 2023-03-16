@@ -88,17 +88,14 @@ def validate_inclusion():
             'Forward Citation Tracking'
         ])):
             print_row_error('inclusion.csv', row['Id'], 'Invalid databases.')
-            return False
         
         # Authors cannot have a comma
         if ',' in row['Authors']:
             print_row_error('inclusion.csv', row['Id'], 'Authors cannot have a comma.')
-            return False
 
         # Keywords cannot have a comma
         if ',' in row['Keywords']:
             print_row_error('inclusion.csv', row['Id'], 'Keywords cannot have a comma.')
-            return False
         
         # published in
         format = {
@@ -107,16 +104,13 @@ def validate_inclusion():
         }.get(row['Publication Type'], '.+')  
         if not re.match(format, row['Published In']):
             print_row_error('inclusion.csv', row['Id'], 'Published In does not match the format.')
-            return False
       
         # no element can be empty or contain newlines
         for k, v in row.items():
             if '\n' in v:
                 print_row_error('inclusion.csv', row['Id'], 'Newline in column "{}".'.format(k))
-                return False
             if v == '':
                 print_row_error('inclusion.csv', row['Id'], 'Empty value in column "{}".'.format(k))
-                return False       
     
     validate_column_number(inclusion, 'Id')
     validate_column_number(inclusion, 'Year')        
@@ -126,6 +120,14 @@ def validate_inclusion():
     validate_column_values(inclusion, 'Backward Tracked', ['Yes', 'No'])
     validate_column_values(inclusion, 'Forward Tracked', ['Yes', 'No'])
 
+    # forward tracked and backward tracked must be Yes if Total [0, 10] is >= 4, and vice versa
+    for row in inclusion:
+        total = int(row['Total [0, 10]'])
+        if total >= 4 and (row['Backward Tracked'] != 'Yes' or row['Forward Tracked'] != 'Yes'):
+            print_row_error('inclusion.csv', row['Id'], 'Total is >= 4, but Backward Tracked or Forward Tracked is not Yes.')
+        if total < 4 and (row['Backward Tracked'] == 'Yes' or row['Forward Tracked'] == 'Yes'):
+            print_row_error('inclusion.csv', row['Id'], 'Total is < 4, but Backward Tracked or Forward Tracked is Yes.')
+
 def validate_qscores():
     for row in inclusion:
         general_row = general_dict[row['Id']]
@@ -134,9 +136,9 @@ def validate_qscores():
         q3 = int(row['Q3 [0, 3]'])
         q4 = int(row['Q4 [0, 1]'])
 
-        # q1 <= q2 + q3 + q4
+        # q1 <= q2 + q3 + q4 + 1
         if q1 > q2 + q3 + q4 + 1:
-            print_row_error('inclusion.csv', row['Id'], 'Q1 is greater than the sum of Q2, Q3 and Q4.')
+            print_row_error('inclusion.csv', row['Id'], 'Q1 is greater than the sum of Q2, Q3 and Q4 + 1.')
 
         # how feature value is determined:
         # - if general_row['Metrics'] == 'Yes', add 1
@@ -266,7 +268,7 @@ def is_sorted(list_of_strings):
 
 def validate_features():
     print('Validating features.csv...')
-    validate_column_values(features, 'Category', ['Content', 'Style', 'Readability', 'History', 'Network', 'Network, History', 'Other'])
+    validate_column_values(features, 'Category', ['Content', 'Style', 'Readability', 'History', 'Network', 'Popularity'])
     validate_column_values(features, 'Actionable', ['Yes', 'No'])
     validate_column_values(features, 'Multilingual', ['Yes', 'No'])
 
@@ -315,6 +317,7 @@ def validate_sorted():
         if not is_sorted([row['Id'] for row in table]):
             print('Table {} is not sorted.'.format(variable_name))
             return False
+        
 
 validate_eligibility()
 validate_inclusion()
@@ -323,7 +326,6 @@ validate_general()
 validate_features()
 validate_papers()
 validate_sorted()
-
 print('Done.')
 
 # print(len(features_dict['36']))
