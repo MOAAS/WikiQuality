@@ -140,10 +140,27 @@ def validate_qscores():
         if q1 > q2 + q3 + q4 + 1:
             print_row_error('inclusion.csv', row['Id'], 'Q1 is greater than the sum of Q2, Q3 and Q4 + 1.')
 
+        # ml
+        gen_algos = general_row['# Algorithms']
+        num_ml = int(gen_algos) if gen_algos != 'N/A' and gen_algos != '?' else 0
+
+        if num_ml > 6:
+            correct_q2 = 3
+        elif num_ml > 3:
+            correct_q2 = 2
+        elif num_ml > 0:
+            correct_q2 = 1
+        else:
+            correct_q2 = 0
+        
+        if correct_q2 != q2:
+            print_row_error('qscores.csv', row['Id'], 'Q2 does not match calculated value. (calculated: {})'.format(correct_q2))
+
+
         # how feature value is determined:
         # - if general_row['Metrics'] == 'Yes', add 1
         # - if general_row['# Features'] != '0', add the number of features
-        # - q2 can be 1 if metrics = No and # features = 0 / something 
+        # - q3 can be 1 if metrics = No and # features = 0 / something 
 
         feature_value = 0
         if general_row['Metrics'] == 'Yes':
@@ -155,30 +172,14 @@ def validate_qscores():
             feature_value = max(feature_value, 1)
         
         if feature_value > 50:
-            correct_q2 = 3
-        elif feature_value > 15:
-            correct_q2 = 2
-        elif feature_value > 0:
-            correct_q2 = 1
-        else:
-            correct_q2 = 0
-
-        if correct_q2 != q2:
-            print_row_error('qscores.csv', row['Id'], 'Q2 does not match calculated value. (calculated: {})'.format(correct_q2))
-
-        # ml
-        gen_algos = general_row['# Algorithms']
-        num_ml = int(gen_algos) if gen_algos != 'N/A' and gen_algos != '?' else 0
-
-        if num_ml > 6:
             correct_q3 = 3
-        elif num_ml > 3:
+        elif feature_value > 15:
             correct_q3 = 2
-        elif num_ml > 0:
+        elif feature_value > 0:
             correct_q3 = 1
         else:
             correct_q3 = 0
-        
+
         if correct_q3 != q3:
             print_row_error('qscores.csv', row['Id'], 'Q3 does not match calculated value. (calculated: {})'.format(correct_q3))
 
