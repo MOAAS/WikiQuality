@@ -1,16 +1,8 @@
 import re
-import csv
-
-def read_csv(file):
-    with open(file, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        keys = next(reader)
-        return [{k: v for k, v in zip(keys, row)} for row in reader]
-
-eligibility = read_csv('validation/eligibility.csv')
-inclusion = read_csv('validation/inclusion.csv')
-general = read_csv('validation/general.csv')
-features = read_csv('validation/features.csv')
+from csvs.loader import eligibility
+from csvs.loader import inclusion
+from csvs.loader import general
+from csvs.loader import features
 
 general_dict = {g['Id']: g for g in general}
 features_dict = {}
