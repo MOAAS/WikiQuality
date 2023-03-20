@@ -1,10 +1,10 @@
-from csvs.loader import inclusion
+from csvs.loader import inclusion_with_venues_parsed as inclusion
 import urllib.parse
 
 bibtexes = []
 for paper in inclusion:
-    pub_type = paper['Publication Type']
-    pub_venue = paper['Published In']
+    venue = paper['Venue']
+    venue_type = venue['Type']
 
     bibtex = {}
     bibtex['name'] = paper['Authors'].split(';')[0].split(' ')[-1] + paper['Year'] + "_lr" + paper['Id']
@@ -15,25 +15,29 @@ for paper in inclusion:
     bibtex['url'] = urllib.parse.quote(bibtex['url'], safe=':/?=&') # escape special characters
 
 
-    if (pub_type == "Conference"):
+    if (venue_type == "Conference"):
         bibtex['type'] = "inproceedings"
-        bibtex['booktitle'] = pub_venue.split(',')[0]
+        bibtex['booktitle'] = venue['Venue']
 
         # if 'pp.' in pub_venue:
         #     bibtex['pages'] = pub_venue.split('pp.')[1].strip()
-    elif (pub_type == "Journal"):
+    elif (venue_type == "Journal"):
         bibtex['type'] = "article"
+        bibtex['journal'] = venue['Venue']
 
-        bibtex['journal'] = pub_venue.split(',')[0]
-
-        if 'vol.' in pub_venue:
-            volume_part = pub_venue.split('vol.')[1].split(',')[0]
-            bibtex['volume'] = volume_part.split('(')[0].strip()
-            if '(' in volume_part:
-                bibtex['issue'] = volume_part.split('(')[1].split(')')[0].strip()
-            
-        if 'pp.' in pub_venue:
-            bibtex['pages'] = pub_venue.split('pp.')[1].strip()
+        if 'Volume' in venue:
+            bibtex['volume'] = venue['Volume']
+            if 'Issue' in venue:
+                bibtex['issue'] = venue['Issue']
+        
+        if 'Pages' in venue:
+            bibtex['pages'] = venue['Pages']
+    elif (venue_type == "Book"):
+        bibtex['type'] = "book"
+        bibtex['journal'] = venue['Venue']
+    elif (venue_type == "Other"):
+        bibtex['type'] = "misc" 
+        bibtex['journal'] = venue['Venue']
     else:
         bibtex['type'] = "misc"
 
