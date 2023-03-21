@@ -50,5 +50,18 @@ def load_venues_into_inclusion(inclusion):
         paper['Venue'] = venue
     
     return inclusion
+
+def load_bibtex_id_into_inclusion(inclusion):
+    import unicodedata
+    inclusion = [dict(paper) for paper in inclusion]
+    for paper in inclusion:
+        paper['Bibtex'] = paper['Authors'].split(';')[0].split(' ')[-1] + paper['Year'] + "_lr" + paper['Id']
+
+        # Remove accents, etc.
+        paper['Bibtex'] = unicodedata.normalize('NFKD', paper['Bibtex']).encode('ascii', 'ignore').decode('utf-8')
+
+    return inclusion
+
         
-inclusion_with_venues_parsed = load_venues_into_inclusion(inclusion)
+inclusion_but_with_more = load_venues_into_inclusion(inclusion)
+inclusion_but_with_more = load_bibtex_id_into_inclusion(inclusion_but_with_more)

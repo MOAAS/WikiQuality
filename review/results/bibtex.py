@@ -1,4 +1,4 @@
-from csvs.loader import inclusion_with_venues_parsed as inclusion
+from csvs.loader import inclusion_but_with_more as inclusion
 import urllib.parse
 
 bibtexes = []
@@ -7,12 +7,12 @@ for paper in inclusion:
     venue_type = venue['Type']
 
     bibtex = {}
-    bibtex['name'] = paper['Authors'].split(';')[0].split(' ')[-1] + paper['Year'] + "_lr" + paper['Id']
+    bibtex['name'] = paper['Bibtex']
     bibtex['author'] = paper['Authors'].replace(';', ' and ')
     bibtex['year'] = paper['Year']
     bibtex['title'] = paper['Title']
     bibtex['url'] = paper['URL']
-    bibtex['url'] = urllib.parse.quote(bibtex['url'], safe=':/?=&') # escape special characters
+    bibtex['url'] = urllib.parse.quote(bibtex['url'], safe=':/?=') # escape special characters
 
 
     if (venue_type == "Conference"):
@@ -47,7 +47,7 @@ full_str = ""
 for bibtex in bibtexes:
     full_str += "@" + bibtex['type'] + "{" + bibtex['name'] + ",\n"
     for key in [x for x in bibtex.keys() if x != 'name' and x != 'type']:
-        full_str += "    " + key + " = {" + bibtex[key] + "},\n"
+        full_str += "    " + key + " = {" + bibtex[key].replace('&', '\&') + "},\n"
     full_str += "}"
     full_str += "\n\n"
 full_str = full_str.strip()
