@@ -37,7 +37,7 @@ def analyze_top_features(category):
     use_features = use_features[:max(15, int(len(use_features) * 0.25))] # get top 25%, but minimum 15
 
     # print name, number of papers, actionable (X or -), multilingual
-    build_template('results/latex/features.template', 'results/latex/features.tex', {
+    build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
         'CATEGORY': category,
         'CONTENT': 'test'
     })
