@@ -1,0 +1,24 @@
+\begin{table}[ht]
+    \caption{{{TYPE}} Analysis: Collection and Document Frequency}
+    \label{tab:{{TYPE}}_analysis}
+    \begin{minipage}{.325\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $cf_t$ \\
+            \midrule
+            {{CF}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \begin{minipage}{.325\textwidth}
+        \centering
+        \begin{tabular}{c c}
+            \toprule
+            Term ($t$) & $df_t$ \\
+            \midrule
+            {{DF}}
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+\end{table}

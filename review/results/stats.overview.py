@@ -2,6 +2,7 @@ from csvs.loader import inclusion_but_with_more as inclusion
 import matplotlib.pyplot as plt
 import numpy as np
 import nlp.terms as terms
+from latex.templating import build_template
 
 def show_and_save(plt, file, size):
     # remove top and right spines
@@ -63,35 +64,17 @@ def venue_stats():
     # sort by number of papers
     venues = {k: venues[k] for k in sorted(venues, key=lambda x: len(venues[x]['papers']), reverse=True)}
 
-    with open('results/latex/venues.tex', 'w') as f:
-        f.write("\\begin{table}[htbp]\n")
-        f.write("    \\caption{Publication Venues: An overview of the literature review}\n")
-        f.write("    \\label{tab:venues}\n")
-        f.write("    \\centering\n")
-        f.write("    \\begin{tabular}{c m{0.65\\textwidth} c}\n")
-        f.write("        \\toprule\n")
-        f.write("        \\textbf{Type} & \\textbf{Venue} & \\textbf{\# Papers} \\\\\n")
-        f.write("        \\midrule\n")
 
-        # add all venues with more than 1 paper
-        for id in venues:
-            venue = venues[id]
-            papers = venue['papers']
-            if len(venue['papers']) > 1:
-                # papers_cite = "\\cite{" + ", ".join([papers[i]['Bibtex'] for i in range(len(venue['papers']))]) + "}"
+    latex_content = []
+    for id in venues:
+        venue = venues[id]
+        papers = venue['papers']
+        if len(venue['papers']) > 1:
+            latex_content += [venue['type'] + " & " + venue['name'].replace("&", "\\&") + " & " + str(len(papers)) + " \\\\"]
 
-                f.write("        " + 
-                    venue['type'] + " & " + 
-                    venue['name'].replace("&", "\\&") + " & " + 
-                    str(len(papers)) + " \\\\\n"
-                )
-        
-        f.write("        \\bottomrule\n")
-        f.write("    \\end{tabular}\n")
-        f.write("    \\\\ \\vspace{0.1cm}\n")
-        f.write("    \\footnotesize\n")
-        f.write("    $^1$ Formerly WikiSym\n")
-        f.write("\\end{table}\n")
+    build_template('results/latex/venues.template', 'results/latex/venues.tex', {
+        'CONTENT': "\n        ".join(latex_content)
+    })
 
     print("============= VENUE STATS (UNIQUE AUTHORS PER AUTHORS) =============")
     print("Venue #Papers UniqueAuthorsPerAuthors")
@@ -160,9 +143,18 @@ def citation_stats():
 def abstract_keyword_stats():
     print("============= ABSTRACT STATS =============")
     all_abstracts = [paper['Abstract'] for paper in inclusion]   
-
     print("Number of abstracts: ", len(all_abstracts))
     (ab_cf, ab_df) = terms.analyse_common_terms(all_abstracts)
+    
+    build_template('results/latex/terms.template', 'results/latex/terms.abstracts.tex', {
+        'TYPE': 'Abstracts',
+        'CF': '\n            '.join([
+            term + ' & ' + str(ab_cf[term]) + " \\\\" for term in sorted(ab_cf, key=ab_cf.get, reverse=True)[:10]
+        ]),
+        'DF': '\n            '.join([
+            term + ' & ' + str(ab_df[term]) + " \\\\" for term in sorted(ab_df, key=ab_df.get, reverse=True)[:10]
+        ]),
+    })
 
     print("============= KEYWORD STATS =============")
     all_keywords = [paper['Keywords'] for paper in inclusion if paper['Keywords'] != 'N/A']
@@ -171,49 +163,16 @@ def abstract_keyword_stats():
     print("Number of keywords: ", len(all_keywords_separated))
     (kw_cf, kw_df) = terms.analyse_common_terms(all_keywords) # dont pass separated bc analysis assumes a collection of documents
 
+    build_template('results/latex/terms.template', 'results/latex/terms.keywords.tex', {
+        'TYPE': 'Keywords',
+        'CF': '\n            '.join([
+            term + ' & ' + str(kw_cf[term]) + " \\\\" for term in sorted(kw_cf, key=kw_cf.get, reverse=True)[:10]
+        ]),
+        'DF': '\n            '.join([
+            term + ' & ' + str(kw_df[term]) + " \\\\" for term in sorted(kw_df, key=kw_df.get, reverse=True)[:10]
+        ]),
+    })
 
-    def make_latex_table(file, label, caption, cf, df, top=10):
-        with open(file, 'w') as f:
-            f.write("\\begin{table}[ht]\n")
-            f.write("    \\caption{" + caption + ": Collection and Document Frequency}\n")
-            f.write("    \\label{" + label + "}\n")
-            f.write("    \\begin{minipage}{.325\\textwidth}\n")
-            f.write("        \\centering\n")
-            f.write("        \\begin{tabular}{c c}\n")
-            f.write("            \\toprule\n")
-            f.write("            Term ($t$) & $cf_t$ \\\\\n")
-            f.write("            \\midrule\n")
-            for term in sorted(cf, key=cf.get, reverse=True)[:top]:
-                f.write("            " + term + " & " + str(cf[term]) + " \\\\\n")
-            f.write("            \\bottomrule\n")
-            f.write("        \\end{tabular}\n")
-            f.write("    \\end{minipage}\n")
-            f.write("    \\begin{minipage}{.325\\textwidth}\n")
-            f.write("        \\centering\n")
-            f.write("        \\begin{tabular}{c c}\n")
-            f.write("            \\toprule\n")
-            f.write("            Term ($t$) & $df_t$ \\\\\n")
-            f.write("            \\midrule\n")
-            for term in sorted(df, key=df.get, reverse=True)[:top]:
-                f.write("            " + term + " & " + str(df[term]) + " \\\\\n")
-            f.write("            \\bottomrule\n")
-            f.write("        \\end{tabular}\n")
-            f.write("    \\end{minipage}\n")
-            f.write("\\end{table}\n")     
-
-    make_latex_table(
-        'results/latex/terms.abstracts.tex',
-        'tab:abstracts_analysis', 
-        'Abstracts Analysis', 
-        ab_cf, ab_df
-    )     
-
-    make_latex_table(
-        'results/latex/terms.keywords.tex',
-        'tab:keywords_analysis',
-        'Keywords Analysis',
-        kw_cf, kw_df
-    )
-#venue_stats()
+venue_stats()
 #citation_stats()
-abstract_keyword_stats()
+#abstract_keyword_stats()

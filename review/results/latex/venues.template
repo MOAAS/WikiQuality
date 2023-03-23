@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+    \caption{Overview of the venues}
+    \label{tab:venues}
+    \centering
+    \begin{tabular}{c m{0.65\textwidth} c}
+        \toprule
+        \textbf{Type} & \textbf{Venue} & \textbf{\# Papers} \\
+        \midrule
+        {{CONTENT}}
+        \bottomrule
+    \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^1$ Formerly WikiSym
+\end{table}
