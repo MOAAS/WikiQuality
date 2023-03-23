@@ -58,6 +58,6 @@ def save_string_to_file(f, str):
     f.write("\n")
 
 # save to file
-with open('results/bibtex.bib', 'w', encoding='UTF-8') as f:
+with open('results/latex/bibtex.bib', 'w', encoding='UTF-8') as f:
     f.write(full_str)
     f.close()

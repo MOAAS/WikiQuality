@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+    \caption{List of \VAR{CATEGORY} Features mentioned in the assessed publications}
+    \label{tab:feat_\VAR{CATEGORY}}
+    \centering
+    \begin{tabular}{m{0.65\textwidth} m{0.25\textwidth} c c}
+        \toprule
+        \textbf{Name} & \textbf{Proposed in} & \textbf{Act.} & \textbf{ML} \\ 
+        \midrule
+        \VAR{CONTENT}
+        \bottomrule
+    \end{tabular}
+\end{table}
