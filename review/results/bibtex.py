@@ -47,7 +47,7 @@ full_str = ""
 for bibtex in bibtexes:
     full_str += "@" + bibtex['type'] + "{" + bibtex['name'] + ",\n"
     for key in [x for x in bibtex.keys() if x != 'name' and x != 'type']:
-        full_str += "    " + key + " = {" + bibtex[key].replace('&', '\&') + "},\n"
+        full_str += "    " + key + " = {" + bibtex[key].replace('&', '\&').replace('%', '\%') + "},\n"
     full_str += "}"
     full_str += "\n\n"
 full_str = full_str.strip()

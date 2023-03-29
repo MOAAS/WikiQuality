@@ -1,9 +1,10 @@
 from csvs.loader import features
-from csvs.loader import inclusion
+from csvs.loader import inclusion_but_with_more as inclusion
+from csvs.loader import general
 
 import matplotlib.pyplot as plt
 
-from latex.templating import build_template 
+from latex.templating import build_template, cite_ids
 
 def make_pie_chart():
     categories = {}
@@ -31,22 +32,44 @@ print("Number of features: ", len(features))
 
 def analyze_top_features(category):
     use_features = [f for f in features if f['Category'] == category]
-    print("Number of features: ", len(use_features))
+    print("Number of " + category + " features: ", len(use_features))
 
     use_features = sorted(use_features, key=lambda f: len(f['Papers']), reverse=True) # sort by number of papers
     use_features = use_features[:max(15, int(len(use_features) * 0.25))] # get top 25%, but minimum 15
 
-    # print name, number of papers, actionable (X or -), multilingual
     build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
         'CATEGORY': category,
-        'CONTENT': 'test'
+        'CONTENT': "\n        ".join([(
+            feature['Feature Name'].replace('#', '\\#') + ' & ' + 
+            ('Yes' if feature['Actionable'] == 'Yes' else 'No') + ' & ' + 
+            ('Yes' if feature['Multilingual'] == 'Yes' else 'No') + ' & ' +
+            str(len(feature['Papers'])) + ' \\\\'
+            # cite_ids(feature['Papers'].split(', '), inclusion) + ' \\\\' # 
+        ) for feature in use_features])
     })
-    # read features.template to string
-    # for feature in use_features:
-    #    print(feature['Feature Name'], '&', len(feature['Papers']), '&', 'X' if feature['Actionable'] else '-', '&', 'X' if feature['Multilingual'] else '-', '')
+
+def analyze_summary():
+    print("========== SUMMARY ==========")
+    # top 10 papers by number of features.
+    top_papers = sorted(general, key=lambda p: int(p['# Features'].split(' / ')[0]), reverse=True)
+    top_papers = top_papers[:20]
+    print("Top 10 papers by number of features:")
+    print("Id Title # Features")
+    for p in top_papers:
+        print(p['Id'], p['Title'], p['# Features'])
 
 
+    # sum of all features
+    sum_features = 0
+    for p in general:
+        sum_features += int(p['# Features'].split(' / ')[0])
+    print("Total number of features: ", len(features))
+    print("Total number of collected (non-distinct) features: ", sum_features)
+    print("Total number of papers that we collected features: ", len( [p for p in general if int(p['# Features'].split(' / ')[0]) > 0]))
+    print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
 # make_pie_chart()
+
+
 
 analyze_top_features('Content')
 analyze_top_features('Style')
@@ -54,3 +77,6 @@ analyze_top_features('Readability')
 analyze_top_features('History')
 analyze_top_features('Network')
 analyze_top_features('Popularity')
+
+
+analyze_summary()

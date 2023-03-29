@@ -2,11 +2,16 @@
     \caption{List of {{CATEGORY}} Features mentioned in the assessed publications}
     \label{tab:feat_{{CATEGORY}}}
     \centering
-    \begin{tabular}{m{0.65\textwidth} m{0.25\textwidth} c c}
+    \begin{tabular}{m{0.5\textwidth} c c c}
         \toprule
-        \textbf{Name} & \textbf{Proposed in} & \textbf{Act.} & \textbf{ML} \\ 
+        \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{\# Papers} \\ 
         \midrule
         {{CONTENT}}
         \bottomrule
     \end{tabular}
+    % \\ \vspace{0.1cm}
+    % \footnotesize
+    % \raggedright
+    % $^1$ Actionable \\
+    % $^2$ Multilingual
 \end{table}
