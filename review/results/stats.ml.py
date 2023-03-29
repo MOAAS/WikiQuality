@@ -1,0 +1,87 @@
+from csvs.loader import features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+from csvs.loader import inclusion_but_with_more as inclusion
+from csvs.loader import general
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+papers_without_ml = [p for p in general if p['ML'] == "N/A"]
+papers_with_ml = [p for p in general if p['ML'] != "N/A"]
+papers_with_classical = [p for p in general if 'CL' in p['ML']]
+papers_with_dl = [p for p in general if 'DL' in p['ML']]
+
+
+def analyze_summary():
+    print("========== SUMMARY ==========")
+
+    print("Papers without ML: ", len(papers_without_ml))
+    print("Papers with ML: ", len(papers_with_ml))
+    print("Papers with classical ML: ", len(papers_with_classical))
+    print("Papers with DL: ", len(papers_with_dl))
+
+    num_algos = [int(p['# Algorithms']) for p in papers_with_ml if p['# Algorithms'] != '?']
+    print("Total # Experiments: ", sum(num_algos))
+    print("Average # Experiments: ", sum(num_algos) / len(num_algos))
+    print("Median # Experiments: ", sorted(num_algos)[len(num_algos) // 2])
+
+def analyze_dl_cl_years():
+    def get_year_of_paper(id):
+        for p in inclusion:
+            if p['Id'] == id:
+                return int(p['Year'])
+        return -1
+
+    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_classical], positions=[2], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#1f77b4'))
+    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_dl], positions=[1], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#ff7f0e'))
+    plt.xticks([1, 2], ['Classical ML', 'Deep Learning'])
+    plt.yticks(np.arange(2005, 2025, 2))
+    plt.ylabel('Year')
+
+    # median lines must be black
+    for line in plt.gca().get_lines():
+        line.set_color('black')
+
+    # label size
+
+    plt.savefig('results/charts/dl_years.pdf', dpi=100, bbox_inches='tight', pad_inches=0.1)
+    plt.show()
+
+def analyze_class_num():
+    num_classes = [str(p['# Classes']) for p in papers_with_ml if p['# Classes'] != '?' and p['# Classes'] != 'N/A']
+
+    # make bar chart
+    plt.bar(np.arange(2, 8, 1), [num_classes.count(str(i)) for i in range(2, 8, 1)], color='#1f77b4')
+    plt.xticks(np.arange(2, 8, 1), np.arange(2, 8, 1))
+    plt.xlabel('# Classes')
+    plt.ylabel('# Papers')
+    plt.savefig('results/charts/num_classes.pdf', dpi=100, bbox_inches='tight', pad_inches=0.1)
+    plt.show()
+
+def analyze_deep_vs_classical():
+    # make venn diagram
+    from matplotlib_venn import venn2
+
+    papers_both = [p for p in papers_with_ml if 'CL' in p['ML'] and 'DL' in p['ML']]
+
+    venn2(
+        subsets = (len(papers_with_classical), len(papers_with_dl), len(papers_both)), 
+        set_labels = ('Classical ML', 'Deep Learning'),
+        set_colors = ('#1f77b4', '#ff7f0e'),
+        alpha = 0.7,
+    )
+
+    # label size
+    for text in plt.gca().texts:
+        text.set_fontsize(14)
+
+
+    plt.gcf().set_size_inches((6, 4))
+    plt.savefig('results/charts/dl_venn.pdf', dpi=100, bbox_inches='tight', pad_inches=0)
+    plt.show()
+
+
+analyze_summary()
+
+#analyze_deep_vs_classical()
+#analyze_dl_cl_years()
+#analyze_class_num()
