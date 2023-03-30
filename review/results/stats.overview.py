@@ -1,17 +1,9 @@
 from csvs.loader import inclusion_but_with_more as inclusion
 import matplotlib.pyplot as plt
 import numpy as np
-import nlp.terms as terms
-from latex.templating import build_template
-
-def show_and_save(plt, file, size):
-    # remove top and right spines
-    ax = plt.gca()
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    plt.gcf().set_size_inches(size[0], size[1])
-    plt.savefig(file, dpi=100, bbox_inches='tight', pad_inches=0.1)
-    plt.show()
+import helpers.nlp_terms as nlpterms
+import helpers.plot_saver as plotsaver
+import helpers.latex_templating as latex
 
 def year_stats():
     papers_per_year = {}
@@ -41,7 +33,7 @@ def year_stats():
     plt.plot(years, p(years), 'r--')
 
     print(papers_per_year)
-    show_and_save(plt, 'results/charts/years.pdf', (8, 4))
+    plotsaver.show_and_save(plt, 'results/charts/years.pdf', (8, 4))
 
 def venue_stats():
     venues = {}
@@ -72,7 +64,7 @@ def venue_stats():
         if len(venue['papers']) > 1:
             latex_content += [venue['type'] + " & " + venue['name'].replace("&", "\\&") + " & " + str(len(papers)) + " \\\\"]
 
-    build_template('results/latex/venues.template', 'results/latex/venues.tex', {
+    latex.build_template('results/latex/venues.template', 'results/latex/venues.tex', {
         'CONTENT': "\n        ".join(latex_content)
     })
 
@@ -122,7 +114,7 @@ def citation_stats():
     plt.xlim(0, 75)
     plt.ylim(0, 100)
 
-    show_and_save(plt, 'results/charts/citations.pdf', (8, 4))
+    plotsaver.show_and_save(plt, 'results/charts/citations.pdf', (8, 4))
 
     print("============= CITATION STATS =============")
 
@@ -144,9 +136,9 @@ def abstract_keyword_stats():
     print("============= ABSTRACT STATS =============")
     all_abstracts = [paper['Abstract'] for paper in inclusion]   
     print("Number of abstracts: ", len(all_abstracts))
-    (ab_cf, ab_df) = terms.analyse_common_terms(all_abstracts)
+    (ab_cf, ab_df) = nlpterms.analyse_common_terms(all_abstracts)
     
-    build_template('results/latex/terms.template', 'results/latex/terms.abstracts.tex', {
+    latex.build_template('results/latex/terms.template', 'results/latex/terms.abstracts.tex', {
         'TYPE': 'Abstracts',
         'CF': '\n            '.join([
             term + ' & ' + str(ab_cf[term]) + " \\\\" for term in sorted(ab_cf, key=ab_cf.get, reverse=True)[:10]
@@ -161,9 +153,9 @@ def abstract_keyword_stats():
     all_keywords_separated = [keyword for keywords in all_keywords for keyword in keywords.split('; ')] # flatten list
     print("Number of papers with keywords: ", len(all_keywords))
     print("Number of keywords: ", len(all_keywords_separated))
-    (kw_cf, kw_df) = terms.analyse_common_terms(all_keywords) # dont pass separated bc analysis assumes a collection of documents
+    (kw_cf, kw_df) = nlpterms.analyse_common_terms(all_keywords) # dont pass separated bc analysis assumes a collection of documents
 
-    build_template('results/latex/terms.template', 'results/latex/terms.keywords.tex', {
+    latex.build_template('results/latex/terms.template', 'results/latex/terms.keywords.tex', {
         'TYPE': 'Keywords',
         'CF': '\n            '.join([
             term + ' & ' + str(kw_cf[term]) + " \\\\" for term in sorted(kw_cf, key=kw_cf.get, reverse=True)[:10]

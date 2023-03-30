@@ -1,10 +1,8 @@
 from csvs.loader import features
-from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import general
 
 import matplotlib.pyplot as plt
-
-from latex.templating import build_template, cite_ids
+import helpers.latex_templating as latex
 
 def make_pie_chart():
     categories = {}
@@ -37,7 +35,7 @@ def analyze_top_features(category):
     use_features = sorted(use_features, key=lambda f: len(f['Papers']), reverse=True) # sort by number of papers
     use_features = use_features[:max(15, int(len(use_features) * 0.25))] # get top 25%, but minimum 15
 
-    build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
+    latex.build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
         'CATEGORY': category,
         'CONTENT': "\n        ".join([(
             feature['Feature Name'].replace('#', '\\#') + ' & ' + 
@@ -68,8 +66,6 @@ def analyze_summary():
     print("Total number of papers that we collected features: ", len( [p for p in general if int(p['# Features'].split(' / ')[0]) > 0]))
     print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
 # make_pie_chart()
-
-
 
 analyze_top_features('Content')
 analyze_top_features('Style')

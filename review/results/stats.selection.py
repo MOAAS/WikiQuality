@@ -1,9 +1,5 @@
-import csv
-
 from csvs.loader import eligibility
 from csvs.loader import inclusion
-from csvs.loader import general
-from csvs.loader import features
 
 from csvs.loader import titles
 from csvs.loader import abstracts

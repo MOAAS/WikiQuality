@@ -1,7 +1,7 @@
-from csvs.loader import features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import general
-from latex.templating import build_template, cite_author
+
+import helpers.latex_templating as latex
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -89,10 +89,10 @@ def analyze_best(num_classes):
     #for p in papers:
     #    print(p['Id'], p['ML'], p['# Algorithms'], p['Best Algorithm'], p['Performance'].replace('\n', ' '), p['Perf. Metric'].replace('\n', ' '))    
 
-    build_template('results/latex/performance.template', 'results/latex/performance.' + str(num_classes) + 'class.tex', {
+    latex.build_template('results/latex/performance.template', 'results/latex/performance.' + str(num_classes) + 'class.tex', {
         'NUM_CLASS': num_classes,
         'CONTENT': "\n        ".join([(
-            cite_author(paper['Id'], inclusion) + " & " +
+            latex.cite_author(paper['Id'], inclusion) + " & " +
             paper['Best Algorithm'] + " & " +
             paper['Performance'].split('\n')[0].replace("%", "\%") + " & " +
             paper['IR'] + " \\\\"

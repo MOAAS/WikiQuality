@@ -62,6 +62,15 @@ def load_bibtex_id_into_inclusion(inclusion):
 
     return inclusion
 
+def join_inclusion_with_general(inclusion, general):
+    inclusion = [dict(paper) for paper in inclusion]
+    general = [dict(paper) for paper in general]
+    for paper in inclusion:
+        paper['General'] = [g for g in general if g['Id'] == paper['Id']][0]
+    return inclusion
+
         
 inclusion_but_with_more = load_venues_into_inclusion(inclusion)
 inclusion_but_with_more = load_bibtex_id_into_inclusion(inclusion_but_with_more)
+
+inclusion_but_as_dict = {p['Id']: p for p in inclusion_but_with_more}

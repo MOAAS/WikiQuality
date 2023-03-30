@@ -1,5 +1,3 @@
-from csvs.loader import features
-from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import general
 
 def analyze_summary():
