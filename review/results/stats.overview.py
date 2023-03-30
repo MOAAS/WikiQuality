@@ -166,5 +166,5 @@ def abstract_keyword_stats():
     })
 
 venue_stats()
-#citation_stats()
-#abstract_keyword_stats()
+citation_stats()
+abstract_keyword_stats()

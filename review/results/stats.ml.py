@@ -100,8 +100,8 @@ def analyze_best(num_classes):
     })
 
 analyze_summary()
-#analyze_deep_vs_classical()
-#analyze_dl_cl_years()
-#analyze_class_num()
+analyze_deep_vs_classical()
+analyze_dl_cl_years()
+analyze_class_num()
 analyze_best(6)
 analyze_best(2)

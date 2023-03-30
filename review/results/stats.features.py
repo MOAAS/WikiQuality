@@ -65,7 +65,9 @@ def analyze_summary():
     print("Total number of collected (non-distinct) features: ", sum_features)
     print("Total number of papers that we collected features: ", len( [p for p in general if int(p['# Features'].split(' / ')[0]) > 0]))
     print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
-# make_pie_chart()
+
+
+make_pie_chart()
 
 analyze_top_features('Content')
 analyze_top_features('Style')
