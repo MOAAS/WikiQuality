@@ -1,0 +1,12 @@
+\begin{table}[ht]
+    \caption{Best performances of {{NUM_CLASS}}-class approaches}
+    \label{tab:ml_performance_{{NUM_CLASS}}class}
+    \centering
+    \begin{tabular}{l l l l}
+        \toprule
+        \textbf{Study} & \textbf{Best Method} & \textbf{Performance} & \textbf{$IR$}\\ 
+        \midrule
+        {{CONTENT}}
+        \bottomrule
+    \end{tabular}
+\end{table}

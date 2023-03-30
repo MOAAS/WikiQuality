@@ -1,6 +1,7 @@
 from csvs.loader import features                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import general
+from latex.templating import build_template, cite_author
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -80,8 +81,27 @@ def analyze_deep_vs_classical():
     plt.show()
 
 
-analyze_summary()
+def analyze_best(num_classes):
+    papers = [p for p in papers_with_ml if p['# Classes'] == str(num_classes) and 'Accuracy' in p['Perf. Metric']]
+    papers.sort(key=lambda p: float(p['Performance'].split('%')[0]), reverse=True)
+    papers = papers[:10]
+    
+    #for p in papers:
+    #    print(p['Id'], p['ML'], p['# Algorithms'], p['Best Algorithm'], p['Performance'].replace('\n', ' '), p['Perf. Metric'].replace('\n', ' '))    
 
+    build_template('results/latex/performance.template', 'results/latex/performance.' + str(num_classes) + 'class.tex', {
+        'NUM_CLASS': num_classes,
+        'CONTENT': "\n        ".join([(
+            cite_author(paper['Id'], inclusion) + " & " +
+            paper['Best Algorithm'] + " & " +
+            paper['Performance'].split('\n')[0].replace("%", "\%") + " & " +
+            paper['IR'] + " \\\\"
+        ) for paper in papers])
+    })
+
+analyze_summary()
 #analyze_deep_vs_classical()
 #analyze_dl_cl_years()
 #analyze_class_num()
+analyze_best(6)
+analyze_best(2)
