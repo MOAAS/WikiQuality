@@ -252,6 +252,14 @@ def validate_general():
         if x != collected:
             print_row_error('general.csv', row['Id'], '# Features does not match number of features. ({} != {})'.format(x, collected))
 
+    # ir (collumn ir must either be ?, N/A, or a number over 1)
+    for row in general:
+        if row['IR'] == '?':
+            continue
+        if row['IR'] == 'N/A':
+            continue
+        if float(row['IR'].replace(',', '.')) < 1:
+            print_row_error('general.csv', row['Id'], 'IR must be either ?, N/A, or a number over 1.')
     return       
 
 def is_sorted(list_of_strings):

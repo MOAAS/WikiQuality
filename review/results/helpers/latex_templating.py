@@ -10,7 +10,7 @@ def build_template(template, dest, replacements):
 def cite_ids(ids, inclusion):
     ids = [str(x) for x in ids]
     papers = [p for p in inclusion if str(p['Id']) in ids]
-    return ', '.join(['\\cite{' + p['Bibtex'] + '}' for p in papers])
+    return '\\cite{' + ', '.join([p['Bibtex'] for p in papers]) + '}'
 
 def cite_author(id, inclusion):
     paper = [p for p in inclusion if str(p['Id']) == str(id)][0]
