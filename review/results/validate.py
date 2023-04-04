@@ -97,12 +97,12 @@ def validate_inclusion():
         if not re.match(pub_in_format, row['Published In']):
             print_row_error('inclusion.csv', row['Id'], 'Published In does not match the format.')
 
+        if (row['Publication Type'] not in ['Conference', 'Book']) != (row['Address'] == 'N/A' and row['Publisher'] == 'N/A'):
+            print_row_error('inclusion.csv', row['Id'], 'Address and Publisher must be filled out if and only if the publication type is Conference or Book')
+
         # address is either N/A or <city>, <country>
-        if row['Address'] != 'N/A':
-            if len(row['Address'].split(',')) != 2:
-                print_row_error('inclusion.csv', row['Id'], 'Address is not in the format <city>, <country>.')
-        elif row['Publication Type'] in ['Conference', 'Book']:
-            print_row_error('inclusion.csv', row['Id'], 'Address must be filled out for Conferences and Books.')
+        if row['Address'] != 'N/A' and len(row['Address'].split(',')) != 2 and row['Address'] != 'Online':
+            print_row_error('inclusion.csv', row['Id'], 'Address is not in the format <city>, <country>.')
             
      
         # no element can be empty or contain newlines
