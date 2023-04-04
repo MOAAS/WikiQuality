@@ -46,7 +46,7 @@ for paper in inclusion:
         if ('-' in bibtex['pages'] and bibtex['pages'].split('-')[0].isdigit() and bibtex['pages'].split('-')[1].isdigit()):
             bibtex['numpages'] = str(int(bibtex['pages'].split('-')[1]) - int(bibtex['pages'].split('-')[0]) + 1)
         else:
-            bibtex['number'] = '0'
+            bibtex['numpages'] = '0'
 
     bibtexes += [bibtex]
 
