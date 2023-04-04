@@ -18,8 +18,8 @@ for paper in inclusion:
     if (venue_type == "Conference"):
         bibtex['type'] = "inproceedings"
         bibtex['booktitle'] = venue['Venue']
-        bibtex['publisher'] = ' '
-        bibtex['address'] = ' '
+        bibtex['publisher'] = venue['Publisher']
+        bibtex['address'] = venue['Address']
     elif (venue_type == "Journal"):
         bibtex['type'] = "article"
         bibtex['journal'] = venue['Venue']
@@ -31,8 +31,8 @@ for paper in inclusion:
     elif (venue_type == "Book"):
         bibtex['type'] = "book"
         bibtex['journal'] = venue['Venue']
-        bibtex['publisher'] = ' '
-        bibtex['address'] = ' '
+        bibtex['publisher'] = venue['Publisher']
+        bibtex['address'] = venue['Address']
     elif (venue_type == "Other"):
         bibtex['type'] = "misc" 
         bibtex['journal'] = venue['Venue']

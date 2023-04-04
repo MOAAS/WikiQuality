@@ -18,8 +18,12 @@ features = read_csv('results/csvs/features.csv')
 def load_venues_into_inclusion(inclusion):
     inclusion = [dict(paper) for paper in inclusion]
     for paper in inclusion:
-        venue = { 'Type': paper['Publication Type'] }
-        if (paper['Publication Type'] == "Book" or paper['Publication Type'] == "N/A"):
+        venue = { 
+            'Type': paper['Publication Type'],
+            'Address': paper['Address'],
+            'Publisher': paper['Publisher']
+        }
+        if (paper['Publication Type'] == "Book"):
             venue['Venue'] = paper['Published In']
             venue['Id'] = venue['Venue']
             venue['Name'] = venue['Venue']
@@ -46,6 +50,10 @@ def load_venues_into_inclusion(inclusion):
         elif (paper['Publication Type'] == "Other"):
             venue['Venue'] = paper['Published In']
             venue['Id'] = venue['Venue'].split(':')[0].split(" '")[0]
+            venue['Name'] = venue['Venue']
+        elif (paper['Publication Type'] == "N/A"):
+            venue['Venue'] = paper['Published In']
+            venue['Id'] = venue['Venue']
             venue['Name'] = venue['Venue']
         else: 
             raise "Unknown publication type: " + paper['Publication Type']

@@ -90,13 +90,21 @@ def validate_inclusion():
             print_row_error('inclusion.csv', row['Id'], 'Keywords cannot have a comma.')
         
         # published in
-        format = {
+        pub_in_format = {
             'Conference': r'(.+)?\'[0-9][0-9]: .+', # e.g. OpenSym '19: [...]
             'Journal': r'(.+)?, vol. [0-9]+' # e.g. [...], vol. 1, no. 1, pp. 1-10, 2019.
         }.get(row['Publication Type'], '.+')  
-        if not re.match(format, row['Published In']):
+        if not re.match(pub_in_format, row['Published In']):
             print_row_error('inclusion.csv', row['Id'], 'Published In does not match the format.')
-      
+
+        # address is either N/A or <city>, <country>
+        if row['Address'] != 'N/A':
+            if len(row['Address'].split(',')) != 2:
+                print_row_error('inclusion.csv', row['Id'], 'Address is not in the format <city>, <country>.')
+        elif row['Publication Type'] in ['Conference', 'Book']:
+            print_row_error('inclusion.csv', row['Id'], 'Address must be filled out for Conferences and Books.')
+            
+     
         # no element can be empty or contain newlines
         for k, v in row.items():
             if '\n' in v:
@@ -108,7 +116,7 @@ def validate_inclusion():
     validate_column_number(inclusion, 'Year')        
     validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference', 'Book', 'Other', 'N/A'])
     validate_column_number(inclusion, 'Refs.')        
-    validate_column_number(inclusion, 'Cits.', allow_undefined=True)   
+    validate_column_number(inclusion, 'Cits.')   
     validate_column_values(inclusion, 'Backward Tracked', ['Yes', 'No'])
     validate_column_values(inclusion, 'Forward Tracked', ['Yes', 'No'])
 
