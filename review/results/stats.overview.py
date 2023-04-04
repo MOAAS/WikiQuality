@@ -165,6 +165,35 @@ def abstract_keyword_stats():
         ]),
     })
 
+def authors_stats():
+    authors = {}
+    for row in inclusion:
+        for author in row['Authors'].split('; '):
+            if author not in authors:
+                authors[author] = []
+            authors[author].append(row['Id'])
+
+    # sort authors by name
+    # authors = {k: v for k, v in sorted(authors.items(), key=lambda item: item[0])}
+    # sort authors by number of papers then by name
+    authors = {k: v for k, v in sorted(authors.items(), key=lambda item: (len(item[1]), item[0]), reverse=True)}
+    # get those with more than 4 papers
+    authors = {k: v for k, v in authors.items() if len(v) > 4}
+
+    print("============= AUTHORS STATS =============")
+    print("Number of authors: ", len(authors))  
+    print("Number of papers: ", len(inclusion))
+    print("Number of papers per author: ", len(inclusion) / len(authors))
+
+    latex.build_template('results/latex/authors.template', 'results/latex/authors.tex', {
+        'AUTHORS': '\n        '.join([
+            author + ' & ' + 
+            latex.cite_ids(authors[author], inclusion) + " & " +
+            "(" + str(len(authors[author])) + ") \\\\"
+        for author in authors]),
+    })
+
 venue_stats()
 citation_stats()
 abstract_keyword_stats()
+authors_stats()

@@ -1,6 +1,6 @@
 
 def build_template(template, dest, replacements):
-    with open(template, 'r') as ffrom, open(dest, 'w') as fto:
+    with open(template, 'r') as ffrom, open(dest, 'w', encoding='utf-8') as fto:
         strn = ffrom.read()
         for key in replacements:
             strn = strn.replace('{{' + key + '}}', str(replacements[key]))

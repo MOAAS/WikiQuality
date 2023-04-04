@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+    \caption{Authors with most included publications in the Literature Review}
+    \label{tab:authors}
+    \centering
+    \begin{tabular}{l l c}
+        \toprule
+        \textbf{Author} & \textbf{Publications} & \textbf{(\#)} \\
+        \midrule
+        {{AUTHORS}}
+        \bottomrule
+    \end{tabular}
+\end{table}
