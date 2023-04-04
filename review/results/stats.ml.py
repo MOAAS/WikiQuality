@@ -5,6 +5,7 @@ import helpers.latex_templating as latex
 
 import matplotlib.pyplot as plt
 import numpy as np
+import helpers.plot_saver as plotsaver
 
 papers_without_ml = [p for p in general if p['ML'] == "N/A"]
 papers_with_ml = [p for p in general if p['ML'] != "N/A"]
@@ -43,9 +44,7 @@ def analyze_dl_cl_years():
         line.set_color('black')
 
     # label size
-
-    plt.savefig('results/charts/dl_years.pdf', dpi=100, bbox_inches='tight', pad_inches=0.1)
-    plt.show()
+    plotsaver.show_and_save(plt, 'results/charts/dl_years.pdf')
 
 def analyze_class_num():
     num_classes = [str(p['# Classes']) for p in papers_with_ml if p['# Classes'] != '?' and p['# Classes'] != 'N/A']
@@ -55,8 +54,7 @@ def analyze_class_num():
     plt.xticks(np.arange(2, 8, 1), np.arange(2, 8, 1))
     plt.xlabel('# Classes')
     plt.ylabel('# Papers')
-    plt.savefig('results/charts/num_classes.pdf', dpi=100, bbox_inches='tight', pad_inches=0.1)
-    plt.show()
+    plotsaver.show_and_save(plt, 'results/charts/num_classes.pdf')
 
 def analyze_deep_vs_classical():
     # make venn diagram
@@ -75,10 +73,7 @@ def analyze_deep_vs_classical():
     for text in plt.gca().texts:
         text.set_fontsize(14)
 
-
-    plt.gcf().set_size_inches((6, 4))
-    plt.savefig('results/charts/dl_venn.pdf', dpi=100, bbox_inches='tight', pad_inches=0)
-    plt.show()
+    plotsaver.show_and_save(plt, 'results/charts/dl_venn.pdf', (6, 4))
 
 
 def analyze_best(num_classes):
