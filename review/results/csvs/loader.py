@@ -27,6 +27,9 @@ def load_venues_into_inclusion(inclusion):
             venue['Venue'] = paper['Published In'].split(',')[0]
             venue['Id'] = venue['Venue'].split(" '")[0]
             venue['Name'] = venue['Venue'].split(":", 1)[1].strip()
+
+            if 'pp.' in paper['Published In']:
+                venue['Pages'] = paper['Published In'].split('pp.')[1].strip()
         elif (paper['Publication Type'] == "Journal"):
             venue['Venue'] = paper['Published In'].split(',')[0]
             venue['Id'] = venue['Venue']

@@ -18,9 +18,8 @@ for paper in inclusion:
     if (venue_type == "Conference"):
         bibtex['type'] = "inproceedings"
         bibtex['booktitle'] = venue['Venue']
-
-        # if 'pp.' in pub_venue:
-        #     bibtex['pages'] = pub_venue.split('pp.')[1].strip()
+        bibtex['publisher'] = ' '
+        bibtex['address'] = ' '
     elif (venue_type == "Journal"):
         bibtex['type'] = "article"
         bibtex['journal'] = venue['Venue']
@@ -29,17 +28,25 @@ for paper in inclusion:
             bibtex['volume'] = venue['Volume']
             if 'Issue' in venue:
                 bibtex['issue'] = venue['Issue']
-        
-        if 'Pages' in venue:
-            bibtex['pages'] = venue['Pages']
     elif (venue_type == "Book"):
         bibtex['type'] = "book"
         bibtex['journal'] = venue['Venue']
+        bibtex['publisher'] = ' '
+        bibtex['address'] = ' '
     elif (venue_type == "Other"):
         bibtex['type'] = "misc" 
         bibtex['journal'] = venue['Venue']
     else:
         bibtex['type'] = "misc"
+
+
+    if 'Pages' in venue:
+        bibtex['pages'] = venue['Pages']
+        bibtex['pages'] = bibtex['pages'].replace('--', '-')
+        if ('-' in bibtex['pages'] and bibtex['pages'].split('-')[0].isdigit() and bibtex['pages'].split('-')[1].isdigit()):
+            bibtex['numpages'] = str(int(bibtex['pages'].split('-')[1]) - int(bibtex['pages'].split('-')[0]) + 1)
+        else:
+            bibtex['number'] = '0'
 
     bibtexes += [bibtex]
 
