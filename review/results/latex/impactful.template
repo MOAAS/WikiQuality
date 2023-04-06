@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+    \caption{Top 15 most impactful publications}
+    \label{tab:impactful}
+    \centering
+    \begin{tabular}{l l}
+        \toprule
+        \textbf{Study} & \textbf{Cits. / Year} \\
+        \midrule
+        {{CONTENT}}
+        \bottomrule
+    \end{tabular}
+\end{table}

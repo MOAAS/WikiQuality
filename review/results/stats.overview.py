@@ -130,7 +130,14 @@ def citation_stats():
     for i in range(10):
         print(papers[i]['Id'], papers[i]['Title'], papers[i]['Refs.'])
 
-
+    # TOP 15 papers by citations per year (round to two decimals)
+    papers = sorted(inclusion, key=lambda x: int(x['Cits.']) / (2023 - int(x['Year'])), reverse=True)[:15]
+    latex.build_template('results/latex/impactful.template', 'results/latex/impactful.tex', {
+        'CONTENT': "\n        ".join([
+            latex.cite_author(paper['Id'], inclusion) + " & " +
+            str(round(int(paper['Cits.']) / (2023 - int(paper['Year'])), 2)) + " \\\\"
+        for paper in papers])
+    })
 
 def abstract_keyword_stats():
     print("============= ABSTRACT STATS =============")
@@ -194,9 +201,6 @@ def authors_stats():
     })
 
 
-venue_stats()
 citation_stats()
-abstract_keyword_stats()
-authors_stats()
 
 # print(latex.cite_all(inclusion))
