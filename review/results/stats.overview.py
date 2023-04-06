@@ -43,7 +43,7 @@ def venue_stats():
         if id == 'N/A':
             continue
         if id == 'WikiSym' or id == 'OpenSym':
-            id = 'OpenSym$^1$' # OpenSym is the successor of WikiSym
+            id = 'OpenSym$*$' # OpenSym is the successor of WikiSym
             venue['Name'] = 'International Symposium on Open Collaboration'
         if id not in venues:
             venues[id] = {
@@ -201,6 +201,10 @@ def authors_stats():
     })
 
 
+year_stats()
+venue_stats()
 citation_stats()
+abstract_keyword_stats()
+authors_stats()
 
 # print(latex.cite_all(inclusion))
