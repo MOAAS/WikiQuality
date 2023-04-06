@@ -32,7 +32,7 @@ def analyze_top_features(category):
     use_features = [f for f in features if f['Category'] == category]
     print("Number of " + category + " features: ", len(use_features))
 
-    use_features = sorted(use_features, key=lambda f: len(f['Papers']), reverse=True) # sort by number of papers
+    use_features = sorted(use_features, key=lambda f: len(f['Papers'].split(', ')), reverse=True) # sort by number of papers
     use_features = use_features[:max(15, int(len(use_features) * 0.25))] # get top 25%, but minimum 15
 
     latex.build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
@@ -41,7 +41,7 @@ def analyze_top_features(category):
             feature['Feature Name'].replace('#', '\\#') + ' & ' + 
             ('Yes' if feature['Actionable'] == 'Yes' else 'No') + ' & ' + 
             ('Yes' if feature['Multilingual'] == 'Yes' else 'No') + ' & ' +
-            str(len(feature['Papers'])) + ' \\\\'
+            str(len(feature['Papers'].split(', '))) + ' \\\\'
             # cite_ids(feature['Papers'].split(', '), inclusion) + ' \\\\' # 
         ) for feature in use_features])
     })

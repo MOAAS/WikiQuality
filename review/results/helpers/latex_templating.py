@@ -12,6 +12,9 @@ def cite_ids(ids, inclusion):
     papers = [p for p in inclusion if str(p['Id']) in ids]
     return '\\cite{' + ', '.join([p['Bibtex'] for p in papers]) + '}'
 
+def cite_all(inclusion):
+    return '\\cite{' + ', '.join([p['Bibtex'] for p in inclusion]) + '}'
+
 def cite_author(id, inclusion):
     paper = [p for p in inclusion if str(p['Id']) == str(id)][0]
     cite_part = '~\\cite{' + paper['Bibtex'] + '}'

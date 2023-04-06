@@ -193,7 +193,10 @@ def authors_stats():
         for author in authors]),
     })
 
+
 venue_stats()
 citation_stats()
 abstract_keyword_stats()
 authors_stats()
+
+# print(latex.cite_all(inclusion))
