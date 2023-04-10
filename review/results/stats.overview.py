@@ -43,7 +43,7 @@ def venue_stats():
         if id == 'N/A':
             continue
         if id == 'WikiSym' or id == 'OpenSym':
-            id = 'OpenSym$*$' # OpenSym is the successor of WikiSym
+            id = 'OpenSym$^*$' # OpenSym is the successor of WikiSym
             venue['Name'] = 'International Symposium on Open Collaboration'
         if id not in venues:
             venues[id] = {
