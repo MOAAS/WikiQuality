@@ -171,11 +171,11 @@ def validate_qscores():
         if spotted > 0:
             feature_value = max(feature_value, 1)
         
-        if feature_value > 50:
+        if feature_value >= 50:
             correct_q3 = 3
-        elif feature_value > 15:
+        elif feature_value >= 15:
             correct_q3 = 2
-        elif feature_value > 0:
+        elif feature_value >= 1:
             correct_q3 = 1
         else:
             correct_q3 = 0

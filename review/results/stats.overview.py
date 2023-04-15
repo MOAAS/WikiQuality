@@ -1,38 +1,85 @@
 from csvs.loader import inclusion_but_with_more as inclusion
+from csvs.loader import general
 import matplotlib.pyplot as plt
 import numpy as np
 import helpers.nlp_terms as nlpterms
 import helpers.plot_saver as plotsaver
 import helpers.latex_templating as latex
 
+def method_stats():
+    print("============= METHOD STATS =============")
+    print('Number of papers: ' + str(len(inclusion)))
+
+    paper_ids_with_ml = set([paper['Id'] for paper in general if paper['ML'] != 'N/A'])
+    paper_ids_with_metric_based = set([paper['Id'] for paper in general if 'metric-based' in paper['Type']])
+    paper_ids_with_featscorrelates = set([paper['Id'] for paper in general if 'features + correlates' in paper['Type']])
+
+    paper_ids_with_classical_features = set([paper['Id'] for paper in general if 'classical + features' in paper['Type']])
+    paper_ids_with_dl = set([paper['Id'] for paper in general if 'DL' in paper['ML']])
+
+    print('Number of papers with ML: ' + str(len(paper_ids_with_ml)))
+    print('Number of papers with metric-based: ' + str(len(paper_ids_with_metric_based)))
+    print('Number of papers with features + correlates: ' + str(len(paper_ids_with_featscorrelates)))
+    print('Number of papers with classical + features: ' + str(len(paper_ids_with_classical_features)))
+    print('Number of papers with DL: ' + str(len(paper_ids_with_dl)))
+
+    print('Number of papers with ML or metric-based: ' + str(len(paper_ids_with_ml | paper_ids_with_metric_based)))
+    print('Number of papers with ML or features + correlates: ' + str(len(paper_ids_with_ml | paper_ids_with_featscorrelates)))
+    print('Number of papers with metric-based or features + correlates: ' + str(len(paper_ids_with_metric_based | paper_ids_with_featscorrelates)))
+    print('Big three methods: ' + str(len(paper_ids_with_metric_based | paper_ids_with_classical_features | paper_ids_with_dl)))
+    print('Big four methods: ' + str(len(paper_ids_with_metric_based | paper_ids_with_classical_features | paper_ids_with_dl | paper_ids_with_featscorrelates)))
+
+    latex.build_template('results/latex/methods.template', 'results/latex/methods.tex', {
+        'METRIC_BASED': len(paper_ids_with_metric_based),
+        'METRIC_BASED_CITE': latex.cite_ids(paper_ids_with_metric_based, inclusion),
+        'CL_FEATURES': len(paper_ids_with_classical_features),
+        'CL_FEATURES_CITE': latex.cite_ids(paper_ids_with_classical_features, inclusion),
+        'DL': len(paper_ids_with_dl),
+        'DL_CITE': latex.cite_ids(paper_ids_with_dl, inclusion),
+        'CORRELATES': len(paper_ids_with_featscorrelates),
+        'CORRELATES_CITE': latex.cite_ids(paper_ids_with_featscorrelates, inclusion),
+    })
+
 def year_stats():
     papers_per_year = {}
     for paper in inclusion:
         year = paper['Year']
+        ml = paper['General']['ML']
         if year not in papers_per_year:
-            papers_per_year[year] = []
-        papers_per_year[year] += [paper['Id']]
+            papers_per_year[year] = {
+                'DL': 0,
+                'CL': 0,
+                'Metric-based': 0,
+                'Other': 0,
+            }
+        if 'DL' in paper['General']['ML']:
+            papers_per_year[year]['DL'] += 1
+        elif 'CL' in paper['General']['ML']:
+            papers_per_year[year]['CL'] += 1
+        elif 'metric-based' in paper['General']['Type']:
+            papers_per_year[year]['Metric-based'] += 1
+        else:
+            papers_per_year[year]['Other'] += 1
     
     # sort keys
     papers_per_year = {k: papers_per_year[k] for k in sorted(papers_per_year)}
 
-    # plot the results
-    years = [int(x) for x in list(papers_per_year.keys())]
-    papers = [len(papers_per_year[str(x)]) for x in years]
 
-    plt.bar(years, papers)
+    # plot the results using stacked bar charts
+    years = [int(x) for x in list(papers_per_year.keys())]
+    
+    prev = np.zeros(len(years))
+    for ml in ['DL', 'CL', 'Metric-based', 'Other']:
+        plt.bar(years, [papers_per_year[str(year)][ml] for year in years], bottom=prev, label=ml)
+        prev = [prev[i] + papers_per_year[str(years[i])][ml] for i in range(len(years))]
+
     plt.xticks(np.arange(min(years), max(years)+1, 1.0))
     plt.xticks(rotation=45)
     plt.yticks(np.arange(0, 20, 2))
     plt.xlabel('Year')
     plt.ylabel('# Publications')
+    plt.legend()
 
-    # add a line for the tendency
-    z = np.polyfit(years, papers, 1)
-    p = np.poly1d(z)
-    plt.plot(years, p(years), 'r--')
-
-    print(papers_per_year)
     plotsaver.show_and_save(plt, 'results/charts/years.pdf', (8, 4))
 
 def venue_stats():
@@ -201,10 +248,11 @@ def authors_stats():
     })
 
 
-year_stats()
-venue_stats()
-citation_stats()
-abstract_keyword_stats()
-authors_stats()
+method_stats()
+#year_stats()
+#venue_stats()
+#citation_stats()
+#abstract_keyword_stats()
+#authors_stats()
 
 # print(latex.cite_all(inclusion))
