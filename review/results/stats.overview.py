@@ -151,45 +151,39 @@ def citation_stats():
     })
 
 def abstract_keyword_stats():
-    print("============= ABSTRACT STATS =============")
+    print("============= ABSTRACT / KEYWORD STATS =============")
     all_abstracts = [paper['Abstract'] for paper in inclusion]   
-    print("Number of abstracts: ", len(all_abstracts))
     (ab_cf, ab_df) = nlpterms.analyse_common_terms(all_abstracts)
-    
-    latex.build_template('results/latex/terms.template', 'results/latex/terms.abstracts.tex', {
-        'TYPE': 'Abstracts',
-        'CF': '\n            '.join([
-            term + ' & ' + str(ab_cf[term]) + " \\\\" for term in sorted(ab_cf, key=ab_cf.get, reverse=True)[:10]
-        ]),
-        'DF': '\n            '.join([
-            term + ' & ' + str(ab_df[term]) + " \\\\" for term in sorted(ab_df, key=ab_df.get, reverse=True)[:10]
-        ]),
-    })
-
-    print("============= KEYWORD STATS =============")
     all_keywords = [paper['Keywords'] for paper in inclusion if paper['Keywords'] != 'N/A']
     all_keywords_separated = [keyword for keywords in all_keywords for keyword in keywords.split('; ')] # flatten list
+    (kw_cf, kw_df) = nlpterms.analyse_common_terms(all_keywords) # dont pass separated bc analysis assumes a collection of documents
+    
+    print("Number of abstracts: ", len(all_abstracts))
     print("Number of papers with keywords: ", len(all_keywords))
     print("Number of keywords: ", len(all_keywords_separated))
-    (kw_cf, kw_df) = nlpterms.analyse_common_terms(all_keywords) # dont pass separated bc analysis assumes a collection of documents
 
-    latex.build_template('results/latex/terms.template', 'results/latex/terms.keywords.tex', {
-        'TYPE': 'Keywords',
-        'CF': '\n            '.join([
+    latex.build_template('results/latex/terms.template', 'results/latex/terms.tex', {
+        'CFA': '\n            '.join([
+            term + ' & ' + str(ab_cf[term]) + " \\\\" for term in sorted(ab_cf, key=ab_cf.get, reverse=True)[:10]
+        ]),
+        'DFA': '\n            '.join([
+            term + ' & ' + str(ab_df[term]) + " \\\\" for term in sorted(ab_df, key=ab_df.get, reverse=True)[:10]
+        ]),
+        'CFK': '\n            '.join([
             term + ' & ' + str(kw_cf[term]) + " \\\\" for term in sorted(kw_cf, key=kw_cf.get, reverse=True)[:10]
         ]),
-        'DF': '\n            '.join([
+        'DFK': '\n            '.join([
             term + ' & ' + str(kw_df[term]) + " \\\\" for term in sorted(kw_df, key=kw_df.get, reverse=True)[:10]
         ]),
     })
 
 def authors_stats():
     authors = {}
-    for row in inclusion:
-        for author in row['Authors'].split('; '):
+    for paper in inclusion:
+        for author in paper['Authors'].split('; '):
             if author not in authors:
                 authors[author] = []
-            authors[author].append(row['Id'])
+            authors[author].append(paper)
 
     # sort authors by name
     # authors = {k: v for k, v in sorted(authors.items(), key=lambda item: item[0])}
@@ -203,10 +197,19 @@ def authors_stats():
     print("Number of papers: ", len(inclusion))
     print("Number of papers per author: ", len(inclusion) / len(authors))
 
+    def mean_citations_per_year(author):
+        citations = 0
+        years = 0
+        for paper in author:
+            if paper['Cits.'] != 'N/A':
+                citations += int(paper['Cits.'])
+                years += 2023 - int(paper['Year'])
+        return citations / years
+
     latex.build_template('results/latex/authors.template', 'results/latex/authors.tex', {
         'AUTHORS': '\n        '.join([
             author + ' & ' + 
-            latex.cite_ids(authors[author], inclusion) + " & " +
+            latex.cite_ids([paper['Id'] for paper in authors[author]], inclusion) + " & " +
             "(" + str(len(authors[author])) + ") \\\\"
         for author in authors]),
     })

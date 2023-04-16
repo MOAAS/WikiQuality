@@ -11,6 +11,7 @@ from nltk.tokenize import word_tokenize
 stop_words = set(stopwords.words('english'))
 stop_words.add('the')
 stop_words.add('we')
+stop_words.add('based')
 
 def singularize(word):
     lemmatizer = WordNetLemmatizer()

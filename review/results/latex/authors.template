@@ -2,9 +2,9 @@
     \caption{Authors with most included publications in the Literature Review}
     \label{tab:authors}
     \centering
-    \begin{tabular}{l l c}
+    \begin{tabular}{l c l c} 
         \toprule
-        \textbf{Author} & \textbf{Publications} & \textbf{(\#)} \\
+        \textbf{Author} & \textbf{Mean Cits. per Year} & \textbf{Publications} & \textbf{(\#)} \\
         \midrule
         {{AUTHORS}}
         \bottomrule
