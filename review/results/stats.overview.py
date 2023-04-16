@@ -1,4 +1,5 @@
 from csvs.loader import inclusion_but_with_more as inclusion
+from csvs.loader import parse_paper_type
 import matplotlib.pyplot as plt
 import numpy as np
 import helpers.nlp_terms as nlpterms
@@ -13,16 +14,17 @@ def year_stats():
         ml = paper['General']['ML']
         if year not in papers_per_year:
             papers_per_year[year] = {
-                'DL': 0,
-                'CL': 0,
+                'Deep Learning': 0,
+                'Classical Learning': 0,
                 'Metric-based': 0,
                 'Other': 0,
             }
-        if 'DL' in paper['General']['ML']:
-            papers_per_year[year]['DL'] += 1
-        elif 'CL' in paper['General']['ML']:
-            papers_per_year[year]['CL'] += 1
-        elif 'metric-based' in paper['General']['Type']:
+        type = parse_paper_type(paper['General'])
+        if type == 'DL':
+            papers_per_year[year]['Deep Learning'] += 1
+        elif type == 'CL':
+            papers_per_year[year]['Classical Learning'] += 1
+        elif type == 'MB':
             papers_per_year[year]['Metric-based'] += 1
         else:
             papers_per_year[year]['Other'] += 1
@@ -35,7 +37,7 @@ def year_stats():
     years = [int(x) for x in list(papers_per_year.keys())]
     
     prev = np.zeros(len(years))
-    for ml in ['DL', 'CL', 'Metric-based', 'Other']:
+    for ml in ['Deep Learning', 'Classical Learning', 'Metric-based', 'Other']:
         plt.bar(years, [papers_per_year[str(year)][ml] for year in years], bottom=prev, label=ml)
         prev = [prev[i] + papers_per_year[str(years[i])][ml] for i in range(len(years))]
 
@@ -130,12 +132,20 @@ def citation_stats():
 
     # TOP 15 papers by citations per year (round to two decimals)
     papers = sorted(inclusion, key=lambda x: int(x['Cits.']) / (2023 - int(x['Year'])), reverse=True)[:15]
+
+    def get_citations_per_year(cits, year):
+        CURRENT_YEAR = 2023
+        if cits == 'N/A':
+            return 'N/A'
+        return str(round(int(cits) / (CURRENT_YEAR - int(year)), 2))
+     
     latex.build_template('results/latex/impactful.template', 'results/latex/impactful.tex', {
         'CONTENT': "\n        ".join([
-            latex.cite_author(paper['Id'], inclusion) + " & " +
-                str(round(int(paper['Cits.']) / (2023 - int(paper['Year'])), 2)) + " / " + 
-                str(round(int(paper['Cits. (WOS)']) / (2023 - int(paper['Year'])), 2)) + " / " + 
-                str(round(int(paper['Cits. (Scopus)']) / (2023 - int(paper['Year'])), 2)) + " / " +
+            latex.cite_title(paper['Id'], inclusion) + " & " +
+            parse_paper_type(paper['General']) + " & " +
+            get_citations_per_year(paper['Cits.'], paper['Year']) + " / " +
+                get_citations_per_year(paper['Cits. WoS'], paper['Year']) + " / " +
+                get_citations_per_year(paper['Cits. Scopus'], paper['Year']) +
             " \\\\"
         for paper in papers])
     })

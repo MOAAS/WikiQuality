@@ -22,7 +22,7 @@ def validate_column_values(csv, column, values):
         
 def validate_column_number(csv, column, allow_undefined=False):
     for i, row in enumerate(csv):
-        if row[column] == '?' and allow_undefined:
+        if allow_undefined and (row[column] == '?' or row[column] == 'N/A'):
             continue
         try:
             int(row[column])
@@ -116,7 +116,9 @@ def validate_inclusion():
     validate_column_number(inclusion, 'Year')        
     validate_column_values(inclusion, 'Publication Type', ['Journal', 'Conference', 'Book', 'Other', 'N/A'])
     validate_column_number(inclusion, 'Refs.')        
-    validate_column_number(inclusion, 'Cits.')   
+    validate_column_number(inclusion, 'Cits.')
+    validate_column_number(inclusion, 'Cits. WoS', allow_undefined=True)
+    validate_column_number(inclusion, 'Cits. Scopus', allow_undefined=True)
     validate_column_values(inclusion, 'Backward Tracked', ['Yes', 'No'])
     validate_column_values(inclusion, 'Forward Tracked', ['Yes', 'No'])
 

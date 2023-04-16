@@ -15,6 +15,10 @@ def cite_ids(ids, inclusion):
 def cite_all(inclusion):
     return '\\cite{' + ', '.join([p['Bibtex'] for p in inclusion]) + '}'
 
+def cite_title(id, inclusion):
+    paper = [p for p in inclusion if str(p['Id']) == str(id)][0]
+    return paper['Title'].replace('&', '\\&') + '~\\cite{' + paper['Bibtex'] + '}'
+
 def cite_author(id, inclusion):
     paper = [p for p in inclusion if str(p['Id']) == str(id)][0]
     cite_part = '~\\cite{' + paper['Bibtex'] + '}'
@@ -28,3 +32,6 @@ def cite_author(id, inclusion):
     else:
         author_part = all_authors[0].split(' ')[0] + " et al."
     return author_part + cite_part
+
+
+    

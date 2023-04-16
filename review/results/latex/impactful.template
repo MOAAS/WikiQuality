@@ -2,14 +2,16 @@
     \caption{Top 15 most impactful publications}
     \label{tab:impactful}
     \centering
-    \begin{tabular}{l l l l}
+    \begin{tabular}{m{0.7\textwidth} c c}
         \toprule
-        \textbf{Study} & \textbf{Cits. / Year}$^*$ \\
+        \textbf{Study} & \textbf{Type}$^{*1}$ & \textbf{Citations / Year}$^{*2}$ \\
         \midrule
         {{CONTENT}}
         \bottomrule
     \end{tabular}
-    \\ \vspace{0.1cm}
+    \vspace{0.1cm}
     \footnotesize
-    $^*$ Citation data obtained from Google Scholar, Web of Science, and Scopus, respectively, in March of 2023.
+    \RaggedRight
+    \\$^{*1}$ CL = Classical Learning, DL = Deep Learning, MB = Metric-based, FMC = Feature/Metric quality correlation
+    \\ $^{*2}$ Citation data obtained from Google Scholar, Web of Science, and Scopus, respectively, in March of 2023. N/A indicates the publication was not found in the respective database.
 \end{table}

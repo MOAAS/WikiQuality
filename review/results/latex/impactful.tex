@@ -2,25 +2,30 @@
     \caption{Top 15 most impactful publications}
     \label{tab:impactful}
     \centering
-    \begin{tabular}{l l}
+    \begin{tabular}{m{0.7\textwidth} c c}
         \toprule
-        \textbf{Study} & \textbf{Cits. / Year} \\
+        \textbf{Study} & \textbf{Type}$^{*1}$ & \textbf{Citations / Year}$^{*2}$ \\
         \midrule
-        Besiki et al.~\cite{Stvilia2007_lr1012} & 37.88 \\
-        Blumenstock~\cite{Blumenstock2008_lr4} & 25.27 \\
-        Wilkinson and Huberman~\cite{Wilkinson2007_lr2} & 24.38 \\
-        Halfaker and Geiger~\cite{Halfaker2020_lr1055} & 23.33 \\
-        Meiqun et al.~\cite{Hu2007_lr1} & 22.5 \\
-        Besiki et al.~\cite{Stvilia2005_lr1013} & 22.28 \\
-        Liu and Ram~\cite{Liu2011_lr3} & 14.33 \\
-        Morten et al.~\cite{Warncke-Wang2013_lr13} & 12.6 \\
-        Bhanu et al.~\cite{Guda2020_lr38} & 12.33 \\
-        Daniel et al.~\cite{Dalip2009_lr14} & 10.71 \\
-        Wang and Li~\cite{Wang2020_lr26} & 10.67 \\
-        Wöhner and Peters~\cite{Wohner2009_lr10} & 10.0 \\
-        Maik et al.~\cite{Anderka2012_lr17} & 9.91 \\
-        Diyi et al.~\cite{Yang2016_lr2001} & 9.57 \\
-        Besiki et al.~\cite{Stvilia2005_lr12} & 9.33 \\
+        A framework for information quality assessment~\cite{Stvilia2007_lr1012} & FMC & 37.88 / 13.12 / 19.19 \\
+        Size matters: word count as a measure of quality on wikipedia~\cite{Blumenstock2008_lr4} & CL & 25.27 / N/A / 14.53 \\
+        Cooperation and quality in wikipedia~\cite{Wilkinson2007_lr2} & FMC & 24.38 / N/A / 10.12 \\
+        ORES: Lowering Barriers with Participatory Machine Learning in Wikipedia~\cite{Halfaker2020_lr1055} & CL & 23.33 / N/A / 7.67 \\
+        Measuring article quality in wikipedia: models and evaluation~\cite{Hu2007_lr1} & MB & 22.5 / N/A / 11.38 \\
+        Assessing information quality of a community-based encyclopedia~\cite{Stvilia2005_lr1013} & CL & 22.28 / N/A / 11.5 \\
+        Who does what: Collaboration patterns in the wikipedia and their impact on article quality~\cite{Liu2011_lr3} & FMC & 14.33 / N/A / 8.58 \\
+        Tell me more: an actionable quality model for Wikipedia~\cite{Warncke-Wang2013_lr13} & CL & 12.6 / N/A / 8.1 \\
+        NwQM: A Neural Quality Assessment Framework for Wikipedia~\cite{Guda2020_lr38} & DL & 12.33 / 1.0 / 1.67 \\
+        Automatic quality assessment of content created collaboratively by web communities: a case study of wikipedia~\cite{Dalip2009_lr14} & CL & 10.71 / 3.29 / 6.36 \\
+        Assessing the quality of information on wikipedia: A deep‐learning approach~\cite{Wang2020_lr26} & DL & 10.67 / 3.67 / 5.67 \\
+        Assessing the quality of Wikipedia articles with lifecycle based metrics~\cite{Wohner2009_lr10} & MB & 10.0 / N/A / 5.43 \\
+        Predicting quality flaws in user-generated content: the case of wikipedia~\cite{Anderka2012_lr17} & CL & 9.91 / 2.82 / 5.18 \\
+        Who Did What: Editor Role Identification in Wikipedia~\cite{Yang2016_lr2001} & FMC & 9.57 / N/A / 5.86 \\
+        Information quality discussions in wikipedia~\cite{Stvilia2005_lr12} & FMC & 9.33 / N/A / N/A \\
         \bottomrule
     \end{tabular}
+    \vspace{0.1cm}
+    \footnotesize
+    \RaggedRight
+    \\$^{*1}$ CL = Classical Learning, DL = Deep Learning, MB = Metric-based, FMC = Feature/Metric quality correlation
+    \\ $^{*2}$ Citation data obtained from Google Scholar, Web of Science, and Scopus, respectively, in March of 2023. N/A indicates the publication was not found in the respective database.
 \end{table}

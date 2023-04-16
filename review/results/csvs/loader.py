@@ -80,9 +80,21 @@ def join_inclusion_with_general(inclusion, general):
         paper['General'] = [g for g in general if g['Id'] == paper['Id']][0]
     return inclusion
 
-
 inclusion_but_with_more = load_venues_into_inclusion(inclusion)
 inclusion_but_with_more = load_bibtex_id_into_inclusion(inclusion_but_with_more)
 inclusion_but_with_more = join_inclusion_with_general(inclusion_but_with_more, general)
 
 inclusion_but_as_dict = {p['Id']: p for p in inclusion_but_with_more}
+
+
+def parse_paper_type(paper_general):
+    if 'DL' in paper_general['ML']:
+        return 'DL'
+    elif 'CL' in paper_general['ML']:
+        return 'CL'
+    elif 'metric-based' in paper_general['Type']:
+        return 'MB'
+    elif 'features + correlates' in paper_general['Type'] or 'metrics + correlates' in paper_general['Type']:
+        return 'FMC'
+    else:
+        return 'Other'
