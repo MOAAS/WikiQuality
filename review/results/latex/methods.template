@@ -6,9 +6,9 @@
         \toprule
         \textbf{Approach} & \textbf{\# Papers} & \textbf{ }\\
         \midrule
-        Metric-based & {{METRIC_BASED}} & {{METRIC_BASED_CITE}} \\
         CL + Features & {{CL_FEATURES}} & {{CL_FEATURES_CITE}} \\
         Deep Learning & {{DL}} & {{DL_CITE}} \\
+        Metric-based & {{METRIC_BASED}} & {{METRIC_BASED_CITE}} \\
         Feat. Correlation & {{CORRELATES}} & {{CORRELATES_CITE}} \\
         \bottomrule
     \end{tabular}

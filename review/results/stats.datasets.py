@@ -1,4 +1,3 @@
-from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import inclusion_but_as_dict as inclusion_dict
 from csvs.loader import general
 
@@ -41,31 +40,6 @@ def analyze_topics():
     for t in topics:
         print(t[0], t[1])
 
-def analyze_languages():
-    print("========== LANGUAGES ==========")
-    langs = {}
-    with_langs = [p for p in general if p['Languages'] != '?' and p['Languages'] != 'N/A']
-    for p in with_langs:
-        for l in p['Languages'].split(', '):
-            if l not in langs:
-                langs[l] = 0
-            langs[l] += 1
-    langs = {k: v for k, v in langs.items() if v > 5}
-    langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)
-
-    names = [l[0] for l in langs]
-    counts = [l[1] for l in langs]
-    plt.bar(names, counts)
-    plt.xticks(rotation=45)
-    plt.xlabel('Wikipedia Version')
-    plt.ylabel('Number of Publications')
-
-    # add labels to bars
-    for i, v in enumerate(counts):
-        plt.text(i, v + 0.5, str(v), ha='center')
-
-    plotsaver.show_and_save(plt, 'results/charts/languages.pdf', size=(8, 4))
-
 def analyze_overall_bubble():
     info = [{
         'ML': p['ML'],
@@ -101,4 +75,3 @@ analyze_overall_bubble()
 
 analyze_summary()
 analyze_topics()
-analyze_languages()
