@@ -107,26 +107,11 @@ def citation_stats():
         }]
     info = sorted(info, key=lambda x: x['year'])
 
-    # make a scatter plot:
-    # - x axis being the number of references
-    # - y axis being the number of citations
-    # - the size of the circle is the number of authors.
-    # - make the circle transparent (alpha=0.5)
-    # plot the results
-    plt.scatter(
-        [min(75, x['references']) for x in info], 
-        [min(100, x['citations']) for x in info], 
-        s=[x['authors'] * 7.5 + 10 for x in info], alpha=0.5
-    )
-
-    # log scale for the y axis
-    plt.xlabel('# References')
-    plt.ylabel('# Citations')
-    plt.xticks(np.arange(0, 75, 10))
-    plt.yticks(np.arange(0, 101, 10))
-    plt.xlim(0, 75)
-    plt.ylim(0, 100)
-
+    # make two box plots, citations and references. use different colors for each plot 
+    plt.boxplot([x['citations'] for x in info], positions=[1], widths=0.6, showfliers=False, patch_artist=True, boxprops=dict(facecolor='#1f77b4'), medianprops=dict(color='black'))
+    plt.boxplot([x['references'] for x in info], positions=[2], widths=0.6, showfliers=False, patch_artist=True, boxprops=dict(facecolor='#ff7f0e'), medianprops=dict(color='black'))
+    plt.xticks([1, 2], ['# Citations', '# References'])
+    plt.ylabel('Count')
     plotsaver.show_and_save(plt, 'results/charts/citations.pdf', (8, 4))
 
     print("============= CITATION STATS =============")
@@ -148,7 +133,10 @@ def citation_stats():
     latex.build_template('results/latex/impactful.template', 'results/latex/impactful.tex', {
         'CONTENT': "\n        ".join([
             latex.cite_author(paper['Id'], inclusion) + " & " +
-            str(round(int(paper['Cits.']) / (2023 - int(paper['Year'])), 2)) + " \\\\"
+                str(round(int(paper['Cits.']) / (2023 - int(paper['Year'])), 2)) + " / " + 
+                str(round(int(paper['Cits. (WOS)']) / (2023 - int(paper['Year'])), 2)) + " / " + 
+                str(round(int(paper['Cits. (Scopus)']) / (2023 - int(paper['Year'])), 2)) + " / " +
+            " \\\\"
         for paper in papers])
     })
 

@@ -2,11 +2,14 @@
     \caption{Top 15 most impactful publications}
     \label{tab:impactful}
     \centering
-    \begin{tabular}{l l}
+    \begin{tabular}{l l l l}
         \toprule
-        \textbf{Study} & \textbf{Cits. / Year} \\
+        \textbf{Study} & \textbf{Cits. / Year}$^*$ \\
         \midrule
         {{CONTENT}}
         \bottomrule
     \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^*$ Citation data obtained from Google Scholar, Web of Science, and Scopus, respectively, in March of 2023.
 \end{table}
