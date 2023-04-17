@@ -39,12 +39,8 @@ def analyze_dl_cl_years():
     plt.yticks(np.arange(2005, 2025, 2))
     plt.ylabel('Year')
 
-    # median lines must be black
-    for line in plt.gca().get_lines():
-        line.set_color('black')
-
     # label size
-    plotsaver.show_and_save(plt, 'results/charts/dl_years.pdf')
+    plotsaver.show_and_save(plt, 'results/charts/dl_years.pdf', type='boxplot')
 
 def analyze_class_num():
     num_classes = [str(p['# Classes']) for p in papers_with_ml if p['# Classes'] != '?' and p['# Classes'] != 'N/A']

@@ -1,5 +1,6 @@
 from csvs.loader import inclusion_but_as_dict as inclusion_dict
 from csvs.loader import general
+from csvs.loader import parse_paper_type
 
 import helpers.plot_saver as plotsaver
 
@@ -40,38 +41,37 @@ def analyze_topics():
     for t in topics:
         print(t[0], t[1])
 
-def analyze_overall_bubble():
+def size_boxplot():
     info = [{
-        'ML': p['ML'],
-        'Year': int(inclusion_dict[p['Id']]['Year']),
+        'Type': {
+            'DL': 'Deep Learning',
+            'CL': 'Classical Learning',
+            'MB': 'Metric-Based',
+            'FMC': 'Other',
+            'Other': 'Other',
+        }[parse_paper_type(p)],
         'Size': int(p['Dataset Size']),
-        'Langs': len(p['Languages'].split(',')) if p['Languages'] != '?' else 1,        
     } for p in papers_with_dataset]
 
-    # bubble chart: x is year, y is size, size is # langs, color is ML
-    plt.scatter(
-        [p['Year'] for p in info], 
-        [p['Size'] for p in info], 
-        s=[p['Langs'] * 20 for p in info], 
-        c=['#1f77b4' if p['ML'] == 'N/A' else '#ff7f0e' for p in info],
-        alpha=0.75
-    )
-    plt.xlabel('Publication Year')
-    plt.ylabel('Dataset Size (# Publications)')
+    # box plot (4)
+    plt.boxplot([d['Size'] for d in info if d['Type'] == 'Deep Learning'], positions=[1], widths=0.6, showfliers=True, patch_artist=True, boxprops=dict(facecolor='#1f77b4'))
+    plt.boxplot([d['Size'] for d in info if d['Type'] == 'Classical Learning'], positions=[2], widths=0.6, showfliers=True, patch_artist=True, boxprops=dict(facecolor='#ff7f0e'))
+    plt.boxplot([d['Size'] for d in info if d['Type'] == 'Metric-Based'], positions=[3], widths=0.6, showfliers=True, patch_artist=True, boxprops=dict(facecolor='#2ca02c'))
+    plt.boxplot([d['Size'] for d in info if d['Type'] == 'Other'], positions=[4], widths=0.6, showfliers=True, patch_artist=True, boxprops=dict(facecolor='#d62728'))
+
+    plt.xticks([1, 2, 3, 4], ['Deep Learning', 'Classical Learning', 'Metric-Based', 'Other'])
     plt.yscale('log')
+    plt.yticks([10, 100, 1000, 10000, 100000, 1000000, 10000000], ['10', '100', '1k', '10k', '100k', '1M', '10M'])
+    plt.ylabel('Dataset Size (\# Wikipedia Articles)')
 
-    # legend is only shown for the first plot
-    plt.scatter([], [], c='#1f77b4', label='Non-ML')
-    plt.scatter([], [], c='#ff7f0e', label='ML')
-    plt.legend()
+    plotsaver.show_and_save(plt, 'results/charts/datasets.pdf', type="boxplot")
     
-    plt.xticks(np.arange(2005, 2025, 2))
-    plt.ylim(10, 10**8)
+def analyze_output()
+    return
 
-    plotsaver.show_and_save(plt, 'results/charts/datasets.pdf')
-    
-
-analyze_overall_bubble()
+size_boxplot()
 
 analyze_summary()
 analyze_topics()
+
+analyze_output()
