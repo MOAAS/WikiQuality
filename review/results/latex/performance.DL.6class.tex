@@ -1,0 +1,24 @@
+\begin{table}[ht]
+    \caption{Deep Learning accuracy of 6-class approaches}
+    \label{tab:DL_performance_6class}
+    \centering
+    \begin{tabular}{l l l l}
+        \toprule
+        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{$IR^*$}\\ 
+        \midrule
+        Jingrui et al.~\cite{Hou2021_lr122} & Stacked Learning & 75.46\% & ? \\
+        Shiyue et al.~\cite{Zhang2018_lr41} & RNN + LSTM & 68.6\% & 1,16 \\
+        Aili et al.~\cite{Shen2017_lr31} & Bi-LSTM+ & 68.17\% & 1,00 \\
+        Dang and Ignat~\cite{Dang2017_lr23} & RNN + LSTM & 68\% & 1,01 \\
+        Edison et al.~\cite{Marrese-Taylor2019_lr85} & Bi-LSTM & 66.56\% & ? \\
+        Bhanu et al.~\cite{Guda2020_lr38} & BERT + GRU & 63.23\% & 1,64 \\
+        Aili et al.~\cite{Shen2020_lr2009} & BiLSTM & 62.5\% & 1,02 \\
+        Aili et al.~\cite{Shen2019_lr1061} & BiLSTM & 59.4\% & ? \\
+        Dang and Ignat~\cite{Dang2016_lr24} & DNN & 55\% & ? \\
+        Dang and Ignat~\cite{Dang2016_lr89} & DNN & 55\% & ? \\
+        \bottomrule
+    \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^*$ Imbalance Ratio ($IR$) = \# samples in the majority class / \# samples in the minority class. '?' indicates that we could not collect enough information about class distribution.
+\end{table}

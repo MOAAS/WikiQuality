@@ -1,0 +1,19 @@
+\begin{table}[ht]
+    \caption{Classical Learning accuracy of 6-class approaches}
+    \label{tab:CL_performance_6class}
+    \centering
+    \begin{tabular}{l l l l}
+        \toprule
+        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{$IR^*$}\\ 
+        \midrule
+        Schmidt and Zangerle~\cite{Schmidt2019_lr78} & Gradient Boosted Trees (XGBoost) & 73\% & 1,10 \\
+        Dang and Ignat~\cite{Dang2016_lr16} & Random Forest & 64\% & 1,77 \\
+        Halfaker~\cite{Halfaker2017_lr22} & ORES (Gradient Boosting) & 62.9\% & 1,12 \\
+        Halfaker and Geiger~\cite{Halfaker2020_lr1055} & Gradient Boosting & 62.9\% & 1,10 \\
+        Narun et al.~\cite{Raman2020_lr64} & MLR & 49.35\% & 1,00 \\
+        \bottomrule
+    \end{tabular}
+    \\ \vspace{0.1cm}
+    \footnotesize
+    $^*$ Imbalance Ratio ($IR$) = \# samples in the majority class / \# samples in the minority class. '?' indicates that we could not collect enough information about class distribution.
+\end{table}

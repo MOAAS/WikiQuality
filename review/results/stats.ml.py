@@ -76,16 +76,23 @@ def analyze_deep_vs_classical():
     plotsaver.show_and_save(plt, 'results/charts/dl_venn.pdf', (6, 4))
 
 
-def analyze_best(num_classes):
-    papers = [p for p in papers_with_ml if p['# Classes'] == str(num_classes) and 'Accuracy' in p['Perf. Metric']]
+def analyze_best(type, num_classes):
+    if type == 'DL': # exclude Trees - it's sometime in CL + DL papers
+        papers = [p for p in papers_with_dl if p['# Classes'] == str(num_classes) and 'Accuracy' in p['Perf. Metric'] and 'Trees' not in p['Best Algorithm']]
+    elif type == 'CL':
+        papers = [p for p in papers_with_classical if p['# Classes'] == str(num_classes) and 'Accuracy' in p['Perf. Metric']]
+    else:
+        raise Exception("Unknown type: " + type + ". Must be 'DL' or 'CL'.")
     papers.sort(key=lambda p: float(p['Performance'].split('%')[0]), reverse=True)
-    papers = papers[:10]
+    # papers = papers[:10]
     
     #for p in papers:
     #    print(p['Id'], p['ML'], p['# Algorithms'], p['Best Algorithm'], p['Performance'].replace('\n', ' '), p['Perf. Metric'].replace('\n', ' '))    
 
-    latex.build_template('results/latex/performance.template', 'results/latex/performance.' + str(num_classes) + 'class.tex', {
+    latex.build_template('results/latex/performance.template', 'results/latex/performance.' + str(type) + "." + str(num_classes) + 'class.tex', {
         'NUM_CLASS': num_classes,
+        'TYPE': type,
+        'TYPE_LONG': 'Deep Learning' if type == 'DL' else 'Classical Learning',
         'CONTENT': "\n        ".join([(
             latex.cite_author(paper['Id'], inclusion) + " & " +
             paper['Best Algorithm'] + " & " +
@@ -98,5 +105,7 @@ analyze_summary()
 analyze_deep_vs_classical()
 analyze_dl_cl_years()
 analyze_class_num()
-analyze_best(6)
-analyze_best(2)
+analyze_best('CL', 6)
+analyze_best('CL', 2)
+analyze_best('DL', 6)
+analyze_best('DL', 2)
