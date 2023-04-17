@@ -1,7 +1,7 @@
-from csvs.loader import inclusion_but_as_dict as inclusion_dict
+from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import general
 from csvs.loader import parse_paper_type
-
+import helpers.latex_templating as latex
 import helpers.plot_saver as plotsaver
 
 import matplotlib.pyplot as plt
@@ -66,8 +66,16 @@ def size_boxplot():
 
     plotsaver.show_and_save(plt, 'results/charts/datasets.pdf', type="boxplot")
     
-def analyze_output()
-    return
+def analyze_output():
+    print("========== OUTPUT ==========")
+    # papers where Output contains dataset.
+    papers_with_dataset = [p for p in general if 'Dataset' in p['Output']]
+    papers_with_implementation = [p for p in general if 'Implementation' in p['Output']]
+
+    print("Papers with dataset: ", len(papers_with_dataset))
+    print("Papers with implementation: ", len(papers_with_implementation))
+    print(latex.cite_ids([p['Id'] for p in papers_with_dataset], inclusion))
+    print(latex.cite_ids([p['Id'] for p in papers_with_implementation], inclusion))
 
 size_boxplot()
 
