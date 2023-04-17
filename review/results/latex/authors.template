@@ -1,10 +1,10 @@
 \begin{table}[htbp]
-    \caption{Authors with most included publications in the Literature Review}
+    \caption{Authors with five or more included publications in the literature review}
     \label{tab:authors}
     \centering
     \begin{tabular}{l c l c} 
         \toprule
-        \textbf{Author} & \textbf{Mean Cits. per Year} & \textbf{Publications} & \textbf{(\#)} \\
+        \textbf{Author} & \textbf{Cits. / Year} & \textbf{Publications} & \textbf{(\#)} \\
         \midrule
         {{AUTHORS}}
         \bottomrule

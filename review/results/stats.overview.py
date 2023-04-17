@@ -5,6 +5,12 @@ import numpy as np
 import helpers.nlp_terms as nlpterms
 import helpers.plot_saver as plotsaver
 import helpers.latex_templating as latex
+
+def get_citations_per_year(cits, year):
+    CURRENT_YEAR = 2023
+    if cits == 'N/A':
+        return 'N/A'
+    return str(round(int(cits) / (CURRENT_YEAR - int(year)), 2))
    
 
 def year_stats():
@@ -131,14 +137,8 @@ def citation_stats():
         print(papers[i]['Id'], papers[i]['Title'], papers[i]['Refs.'])
 
     # TOP 15 papers by citations per year (round to two decimals)
-    papers = sorted(inclusion, key=lambda x: int(x['Cits.']) / (2023 - int(x['Year'])), reverse=True)[:15]
+    papers = sorted(inclusion, key=lambda x: float(get_citations_per_year(x['Cits.'], x['Year'])), reverse=True)[:15]
 
-    def get_citations_per_year(cits, year):
-        CURRENT_YEAR = 2023
-        if cits == 'N/A':
-            return 'N/A'
-        return str(round(int(cits) / (CURRENT_YEAR - int(year)), 2))
-     
     latex.build_template('results/latex/impactful.template', 'results/latex/impactful.tex', {
         'CONTENT': "\n        ".join([
             latex.cite_title(paper['Id'], inclusion) + " & " +
@@ -184,31 +184,34 @@ def authors_stats():
             if author not in authors:
                 authors[author] = []
             authors[author].append(paper)
+    
+    def mean_citations_per_year(papers):
+        # calculate get_citations_per_year for each paper and then average
+        return str(round(sum([float(get_citations_per_year(paper['Cits.'], paper['Year'])) for paper in papers]) / len(papers), 2))
+
 
     # sort authors by name
     # authors = {k: v for k, v in sorted(authors.items(), key=lambda item: item[0])}
+    
     # sort authors by number of papers then by name
-    authors = {k: v for k, v in sorted(authors.items(), key=lambda item: (len(item[1]), item[0]), reverse=True)}
+    # authors = {k: v for k, v in sorted(authors.items(), key=lambda item: (len(item[1]), item[0]), reverse=True)}
+   
     # get those with more than 4 papers
     authors = {k: v for k, v in authors.items() if len(v) > 4}
+
+    # sort authors by mean citations per year
+    authors = {k: v for k, v in sorted(authors.items(), key=lambda item: mean_citations_per_year(item[1]), reverse=True)}
 
     print("============= AUTHORS STATS =============")
     print("Number of authors: ", len(authors))  
     print("Number of papers: ", len(inclusion))
     print("Number of papers per author: ", len(inclusion) / len(authors))
 
-    def mean_citations_per_year(author):
-        citations = 0
-        years = 0
-        for paper in author:
-            if paper['Cits.'] != 'N/A':
-                citations += int(paper['Cits.'])
-                years += 2023 - int(paper['Year'])
-        return citations / years
 
     latex.build_template('results/latex/authors.template', 'results/latex/authors.tex', {
         'AUTHORS': '\n        '.join([
             author + ' & ' + 
+            mean_citations_per_year(authors[author]) + " & " +
             latex.cite_ids([paper['Id'] for paper in authors[author]], inclusion) + " & " +
             "(" + str(len(authors[author])) + ") \\\\"
         for author in authors]),
