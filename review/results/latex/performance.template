@@ -1,10 +1,10 @@
 \begin{table}[ht]
-    \caption{{{TYPE_LONG}} accuracy of {{NUM_CLASS}}-class approaches}
+    \caption{{{TYPE_LONG}} accuracy of {{NUM_CLASS}}-class approaches {{EXTRA_CAPTION}}}
     \label{tab:{{TYPE}}_performance_{{NUM_CLASS}}class}
     \centering
-    \begin{tabular}{l l l l}
+    \begin{tabular}{l l l l l l l}
         \toprule
-        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{$IR^*$}\\ 
+        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{F1} & \textbf{AUC} & \textbf{IR$^*$} & \textbf{Lang.} \\ 
         \midrule
         {{CONTENT}}
         \bottomrule

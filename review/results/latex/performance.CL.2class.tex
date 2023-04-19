@@ -1,26 +1,21 @@
 \begin{table}[ht]
-    \caption{Classical Learning accuracy of 2-class approaches}
+    \caption{Classical Learning accuracy of 2-class approaches (Top 10)}
     \label{tab:CL_performance_2class}
     \centering
-    \begin{tabular}{l l l l}
+    \begin{tabular}{l l l l l l l}
         \toprule
-        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{$IR^*$}\\ 
+        \textbf{Study} & \textbf{Best Method} & \textbf{Accuracy} & \textbf{F1} & \textbf{AUC} & \textbf{IR$^*$} & \textbf{Lang.} \\ 
         \midrule
-        Blumenstock~\cite{Blumenstock2008_lr4} & MLP & 97.15\% & 6,12 \\
-        Sugandhika and Ahangama~\cite{Sugandhika2022_lr119} & Logistic Regression & 96\% & 1,00 \\
-        Adnan et al.~\cite{Yahya2020_lr2011} & Random Forest & 95.5\% & 1,01 \\
-        Kui et al.~\cite{Xiao2013_lr2030} & C4.5 Decision Tree & 94.6\% & 3,00 \\
-        Lipka and Stein~\cite{Lipka2010_lr1019} & SVM & 94\% & 1,00 \\
-        Su and Liu~\cite{Su2015_lr128} & SVM & 93.68\% & 1,01 \\
-        Kanchana et al.~\cite{Saengthongpattana2018_lr150} & Decision Tree & 92.86\% & 2,78 \\
-        Elisabeth et al.~\cite{Lex2012_lr1026} & Naive Bayes & 87.14\% & 1,00 \\
-        Wang and Iwaihara~\cite{Wang2010_lr70} & SVM & 84.38\% & 1,00 \\
-        Xu and Luo~\cite{Xu2011_lr30} & Decision Tree & 84\% & 1,00 \\
-        Guangyu et al.~\cite{Wu2012_lr1021} & Random Forest & 82.4\% & 1,63 \\
-        Grace et al.~\cite{Betancourt2016_lr95} & SVM & 79.5\% & 791,39 \\
-        Guangyu et al.~\cite{Wu2011_lr1030} & Logistic Regression & 79.25\% & 1,87 \\
-        Chinthani et al.~\cite{Sugandhika2021_lr1041} & Decision Tree & 79\% & 1,00 \\
-        Lucie et al.~\cite{Flekova2014_lr36} & SVM & 77.9\% & 1,00 \\
+        Saengthongpattana and Soonthornphisaj~\cite{Saengthongpattana2014_lr169} & Naive Bayes & - & - & 0.994 & 236 & Thai \\
+        Blumenstock~\cite{Blumenstock2008_lr4} & MLP & 97.15\% & - & - & 6,12 & English \\
+        Ofek and Rokach~\cite{Ofek2015_lr1010} & Bayes Network & - & - & 0.97 & 1,00 & English \\
+        Sugandhika and Ahangama~\cite{Sugandhika2022_lr119} & Logistic Regression & 96.0\% & - & - & 1,00 & English \\
+        Adnan et al.~\cite{Yahya2020_lr2011} & Random Forest & 95.5\% & - & - & 1,01 & Arabic \\
+        Kui et al.~\cite{Xiao2013_lr2030} & C4.5 Decision Tree & 94.6\% & - & - & 3,00 & Chinese \\
+        Maik et al.~\cite{Anderka2011_lr35} & Random Forest & - & - & 0.942 & 1,00 & English \\
+        Besiki et al.~\cite{Stvilia2005_lr1013} & C4.5 Decision Tree & - & 0.94 & - & 3,51 & English \\
+        Lipka and Stein~\cite{Lipka2010_lr1019} & SVM & 94.0\% & - & - & 1,00 & English \\
+        Lian et al.~\cite{Pohn2014_lr1040} & SVM & - & 0.94 & - & 1,00 & English \\
         \bottomrule
     \end{tabular}
     \\ \vspace{0.1cm}
