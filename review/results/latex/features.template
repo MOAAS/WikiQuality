@@ -1,5 +1,5 @@
 \begin{table}[htbp]
-    \caption{List of {{CATEGORY}} Features mentioned in the assessed publications}
+    \caption{List of {{USED}} {{CATEGORY}} features mentioned in the assessed publications}
     \label{tab:feat_{{CATEGORY}}}
     \centering
     \begin{tabular}{m{0.5\textwidth} c c c}

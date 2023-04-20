@@ -3,44 +3,90 @@ from csvs.loader import general
 
 import matplotlib.pyplot as plt
 import helpers.latex_templating as latex
+import helpers.plot_saver as plotsaver
 
-def make_pie_chart():
+def make_bar_chart():
     categories = {}
     for feature in features:
         if feature['Category'] not in categories:
-            categories[feature['Category']] = 0
-        categories[feature['Category']] += 1
-    print("Categories: ", categories)
+            categories[feature['Category']] = {
+                'Actionable-Yes': 0,
+                'Actionable-No': 0,
+                'Multilingual-All': 0,
+                'Multilingual-Most': 0,
+                'Multilingual-Some': 0,
+                'Total': 0
+            }
+        categories[feature['Category']]['Total'] += 1
+        if feature['Actionable'] == 'Yes':
+            categories[feature['Category']]['Actionable-Yes'] += 1
+        else:
+            categories[feature['Category']]['Actionable-No'] += 1
+        if feature['Multilingual'] == 'All':
+            categories[feature['Category']]['Multilingual-All'] += 1
+        elif feature['Multilingual'] == 'Most':
+            categories[feature['Category']]['Multilingual-Most'] += 1
+        elif feature['Multilingual'] == 'Some':
+            categories[feature['Category']]['Multilingual-Some'] += 1
 
-    labels = list(categories.keys())
-    labels = [l + ' (' + str(categories[l]) + ')' for l in labels]
-    sizes = list(categories.values())
-    plt.pie(
-        sizes, labels=labels, # 6 colors
-        colors=['#ff9999','#66b3ff','#99ff99','#ffcc99', '#ff99ff', '#ffff99'],
-        autopct=(lambda pct: '' if pct < 2 else '{:.1f}%'.format(pct)), 
-        startangle=135
-    )
-    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    # sort categories by total number of features
+    categories = {k: v for k, v in sorted(categories.items(), key=lambda item: item[1]['Total'], reverse=True)}
 
-    plt.savefig("results/charts/categories.pdf", dpi=100, bbox_inches='tight', pad_inches=0.1)
+    # make bar chart: every category has 3 bars: actionable, multilingual, total
+    x = [i for i in range(len(categories))]
+    width = 0.2    
+
+    actionable = [categories[c]['Actionable-Yes'] for c in categories]
+    non_actionable = [categories[c]['Actionable-No'] for c in categories]
+    multilingual_all = [categories[c]['Multilingual-All'] for c in categories]
+    multilingual_most = [categories[c]['Multilingual-Most'] for c in categories]
+    multilingual_some = [categories[c]['Multilingual-Some'] for c in categories]
+
+    plt.bar([i - width / 2 for i in x], actionable, width=width, label='Actionable')
+    plt.bar([i - width / 2 for i in x], non_actionable, width=width, label='Non-actionable', bottom=actionable)
+
+    plt.bar([i + width / 2 for i in x], multilingual_all, width=width, label='Multilingual: All')
+    plt.bar([i + width / 2 for i in x], multilingual_most, width=width, label='Multilingual: Most', bottom=multilingual_all)
+    plt.bar([i + width / 2 for i in x], multilingual_some, width=width, label='Multilingual: Some', bottom=[multilingual_all[i] + multilingual_most[i] for i in range(len(multilingual_all))])
+
+    #plt.bar(x, [categories[c]['Total'] for c in categories], width=width, label='Total')
+
+    plt.xticks(x, [c for c in categories])
+    plt.ylim(0, 125)
+    plt.legend()
+
+    # text on top of bars. just one text per category, saying the total number of features
+    for i in range(len(x)):
+        total = categories[list(categories.keys())[i]]['Total']
+        plt.text(x[i], total, str(total), ha='center', va='bottom')
+
+    plt.title("Number of features per category")
+    plt.xlabel("Category")
+    plt.ylabel("Number of features")
+
+
+    plotsaver.show_and_save(plt, "results/charts/categories.pdf", size=(8, 4))
     plt.show()
 
 print("Number of features: ", len(features))
 
 def analyze_top_features(category):
-    use_features = [f for f in features if f['Category'] == category]
-    print("Number of " + category + " features: ", len(use_features))
+    category_features = [f for f in features if f['Category'] == category]
+    print("Number of " + category + " features: ", len(category_features))
 
-    use_features = sorted(use_features, key=lambda f: len(f['Papers'].split(', ')), reverse=True) # sort by number of papers
+    use_features = sorted(category_features, key=lambda f: len(f['Papers'].split(', ')), reverse=True) # sort by number of papers
     use_features = use_features[:max(15, int(len(use_features) * 0.25))] # get top 25%, but minimum 15
 
     latex.build_template('results/latex/features.template', 'results/latex/features.' + category.lower() + '.tex', {
+        'USED': 
+            'all' if len(use_features) == len(category_features)
+            else '15 most used' if len(use_features) == 15 
+            else '25\% most used',
         'CATEGORY': category,
         'CONTENT': "\n        ".join([(
             feature['Feature Name'].replace('#', '\\#') + ' & ' + 
-            ('Yes' if feature['Actionable'] == 'Yes' else 'No') + ' & ' + 
-            ('Yes' if feature['Multilingual'] == 'Yes' else 'No') + ' & ' +
+            feature['Actionable'] + ' & ' +
+            feature['Multilingual'] + ' & ' +
             str(len(feature['Papers'].split(', '))) + ' \\\\'
             # cite_ids(feature['Papers'].split(', '), inclusion) + ' \\\\' # 
         ) for feature in use_features])
@@ -67,7 +113,7 @@ def analyze_summary():
     print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
 
 
-make_pie_chart()
+make_bar_chart()
 
 analyze_top_features('Content')
 analyze_top_features('Style')
