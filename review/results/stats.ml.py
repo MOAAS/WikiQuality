@@ -101,7 +101,7 @@ def analyze_best(type, num_classes):
         'Performance': float(p['Performance'].split('%')[0]) / 100 if p['Perf. Metric'].startswith('Accuracy') else float(p['Performance'].split('\n')[0]),
         'Perf. Metric': p['Perf. Metric'].split('\n')[0],
         'IR': p['IR'] if p['IR'] == '?' or len(p['IR']) < 6 else str(round(float(p['IR'].replace(',', '.')))), # round if >= 100,00
-        'Languages': p['Languages'],
+        'Languages': p['Languages'].split(', '),
     } for p in papers]
 
 
@@ -121,7 +121,7 @@ def analyze_best(type, num_classes):
             (str(paper['Performance']) if paper['Perf. Metric'] == 'F1-score' else '-') + " & " +
             (str(paper['Performance']) if paper['Perf. Metric'] == 'ROC AUC' else '-') + " & " +
             paper['IR'] + " & " +
-            paper['Languages'].split(', ')[0] + " \\\\"
+            (paper['Languages'][0] if len(paper['Languages']) == 1 else 'Multiple') + " \\\\"
         ) for paper in top_papers])
     })
 

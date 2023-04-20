@@ -44,29 +44,45 @@ def method_stats():
 def languages_stats():
     print("========== LANGUAGES ==========")
     no_english = [paper for paper in general if 'English' not in paper['Languages'] and '?' not in paper['Languages'] and 'N/A']
-    print('Number of papers not assesing English: ' + str(len(no_english)))
     
     langs = {}
     with_langs = [p for p in general if p['Languages'] != '?' and p['Languages'] != 'N/A']
     for p in with_langs:
         for l in p['Languages'].split(', '):
             if l not in langs:
-                langs[l] = 0
-            langs[l] += 1
-    langs = {k: v for k, v in langs.items() if v > 5}
-    langs = sorted(langs.items(), key=lambda x: x[1], reverse=True)
+                langs[l] = {
+                    'Non-ML': 0,
+                    'ML': 0,
+                    'Total': 0,
+                }
+            langs[l]['Total'] += 1
+            if p['ML'] == 'N/A':
+                langs[l]['Non-ML'] += 1
+            else:
+                langs[l]['ML'] += 1
+    langs = {k: v for k, v in langs.items() if v['Total'] > 5}
+    langs = sorted(langs.items(), key=lambda x: x[1]['Total'], reverse=True)
 
     names = [l[0] for l in langs]
-    counts = [l[1] for l in langs]
-    plt.bar(names, counts)
+    counts = [l[1]['Total'] for l in langs]
+    counts_noml = [l[1]['Non-ML'] for l in langs]
+    counts_ml = [l[1]['ML'] for l in langs]
+    
+    # stacked bar chart
+    plt.bar(names, counts_noml, label='Non-ML')
+    plt.bar(names, counts_ml, label='ML', bottom=counts_noml)
+
     plt.xticks(rotation=45)
     plt.xlabel('Wikipedia Version')
     plt.ylabel('Number of Publications')
+    plt.legend()
 
     # add labels to bars
     for i, v in enumerate(counts):
         plt.text(i, v + 0.5, str(v), ha='center')
 
+    print('Number of papers not assesing English: ' + str(len(no_english)))
+    print('Number of papers with languages: ' + str(langs))
     plotsaver.show_and_save(plt, 'results/charts/languages.pdf', size=(8, 4))
 
     # count languages per paper
@@ -86,7 +102,6 @@ def languages_stats():
     counts = sorted(counts.items(), key=lambda x: x[0])
     counts_overone = [(c[0], c[1]) for c in counts if c[0] > 1]
 
-    print('Number of papers with one language: (non-ml/ml)', str(counts[0][1]['Non-ML']), counts[0][1]['ML'])
 
     def draw_plot(plt, counts):
         # stacked bar chart
@@ -120,6 +135,7 @@ def languages_stats():
     main_axis.annotate('', xytext=(6, 22), xy=(11, 42),  arrowprops=dict(facecolor='black', arrowstyle='<->'))
 
     plotsaver.show_and_save(plt, 'results/charts/languages_count.pdf', size=(8, 4))
+    print('Number of papers with one language: (non-ml/ml)', str(counts[0][1]['Non-ML']), counts[0][1]['ML'])
     print('Number of papers per num languages: ', counts)
 
 method_stats()
