@@ -98,3 +98,20 @@ def parse_paper_type(paper_general):
         return 'FMC'
     else:
         return 'Other'
+
+def get_feature_info(paper_id):
+    categories = set()
+    used_features = []
+    for feature in features:
+        if paper_id in feature['Papers'].split(', '):
+            categories.add(feature['Category'])
+            used_features.append(feature)
+    
+    # sort category. Content before Style before Readability before History before Network before Popularity
+    custom_order = ['Content', 'Style', 'Readability', 'History', 'Network', 'Popularity']
+    categories = sorted(categories, key=lambda c: custom_order.index(c) if c in custom_order else 999)
+    return {
+        'Categories': list(categories),
+        'CategoriesShort': ''.join([c[0] for c in list(categories)]),    
+        'Features': used_features
+    }

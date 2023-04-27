@@ -1,5 +1,6 @@
 from csvs.loader import features
 from csvs.loader import general
+from csvs.loader import get_feature_info
 
 import matplotlib.pyplot as plt
 import helpers.latex_templating as latex
@@ -60,13 +61,11 @@ def make_bar_chart():
         total = categories[list(categories.keys())[i]]['Total']
         plt.text(x[i], total, str(total), ha='center', va='bottom')
 
-    plt.title("Number of features per category")
     plt.xlabel("Category")
     plt.ylabel("Number of features")
 
 
     plotsaver.show_and_save(plt, "results/charts/categories.pdf", size=(8, 4))
-    plt.show()
 
 print("Number of features: ", len(features))
 
@@ -112,15 +111,54 @@ def analyze_summary():
     print("Total number of papers that we collected features: ", len( [p for p in general if int(p['# Features'].split(' / ')[0]) > 0]))
     print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
 
+def analyze_usage():
+    # papers that use ml
+    papers = [p for p in general if p['ML'] != 'N/A' and p['# Features'].split(' / ')[0] != '0']
+    #for p in papers:
+    #    info = get_feature_info(p['Id'])
+    #    if (len(info['Categories']) > 0):
+    #        print(p['Id'], sorted(info['Categories']))
 
-make_bar_chart()
+    used_combinations = {}
+    used_categories = {}
+    for p in papers:
+        info = get_feature_info(p['Id'])
+        for c in info['Categories']:
+            if c not in used_categories:
+                used_categories[c] = 0
+            used_categories[c] += 1
+        
+        catshort = info['CategoriesShort']
+        if catshort not in used_combinations:
+            used_combinations[catshort] = 0
+        used_combinations[catshort] += 1
 
-analyze_top_features('Content')
-analyze_top_features('Style')
-analyze_top_features('Readability')
-analyze_top_features('History')
-analyze_top_features('Network')
-analyze_top_features('Popularity')
+    used_categories = {k: v for k, v in sorted(used_categories.items(), key=lambda item: item[1], reverse=True)}
+    used_combinations = {k: v for k, v in sorted(used_combinations.items(), key=lambda item: item[1], reverse=True)}
+    print(used_categories)
+    print(used_combinations)
+    print(len(papers))
 
+    # bar chart used combinations (ONLY those over 2)
+    used_combinations = {k: v for k, v in used_combinations.items() if v > 1}
+    x = [i for i in range(len(used_combinations))]
+    plt.bar(x, used_combinations.values())
+    plt.xticks(x, used_combinations.keys())
+    plt.xlabel("Combination of categories")
+    plt.ylabel("Number of ML papers")
+    
+    plotsaver.show_and_save(plt, "results/charts/catcombos.pdf", size=(8, 4))
 
-analyze_summary()
+# make_bar_chart()
+# 
+# analyze_top_features('Content')
+# analyze_top_features('Style')
+# analyze_top_features('Readability')
+# analyze_top_features('History')
+# analyze_top_features('Network')
+# analyze_top_features('Popularity')
+# 
+# 
+# analyze_summary()
+
+analyze_usage()
