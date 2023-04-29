@@ -160,9 +160,6 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 115, 147, 359",SAVPW,Style,Auxiliary verb count per Word,Yes,Most
 359,SAVPS,Style,Auxiliary verb Count per Sentence,Yes,Most
 359,SAVPV,Style,Auxiliary verb Count per Verb,Yes,Most
-,SMV,Style,Modal Verb Count,Yes,Most
-,SMVPW,Style,Modal Verb Count per Word,Yes,Most
-,SMVPPV,Style,Modal Verb Count per Passive Voice Count,Yes,Most
 "359, 1002, 1004, 2017, 2028",STB,Style,To be Verb Count,Yes,Most
 "14, 17, 26, 74, 115, 147, 359, 1003",STBPW,Style,To be Verb Count per Word,Yes,Most
 359,STBPS,Style,To be Verb Count per Sentence,Yes,Most

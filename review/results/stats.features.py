@@ -163,7 +163,7 @@ def make_full_table():
             feature['Feature Name'].replace('#', '\\#').replace('%', '\\%') + ' & ' +
             feature['Actionable'] + ' & ' +
             feature['Multilingual'] + ' & ' +
-            latex.cite_ids(feature['Papers'].split(', '), inclusion) + ' \\\\'
+            (latex.cite_ids(feature['Papers'].split(', '), inclusion) if len(feature['Papers'].split(', ')) > 0 else '') + ' \\\\'
         ) for feature in features])
     })
 
