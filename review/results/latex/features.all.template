@@ -1,0 +1,23 @@
+\begin{longtable}{l l m{0.5\textwidth} c c m{0.3\textwidth}}
+    \caption{Complete list of collected features} \label{tab:feats} \\
+    \hline
+    \textbf{Id} & \textbf{Category} & \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{Papers} \\
+    \hline
+    \endfirsthead
+
+    \multicolumn{6}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+    \hline
+    \textbf{Category} & \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{Papers} \\
+    \hline
+    \endhead
+
+    \hline \multicolumn{6}{|r|}{{Continued on next page}} \\ \hline
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    {{CONTENT}}
+
+\end{longtable}

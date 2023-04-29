@@ -1,5 +1,6 @@
 from csvs.loader import features
 from csvs.loader import general
+from csvs.loader import inclusion_but_with_more as inclusion
 from csvs.loader import get_feature_info
 
 import matplotlib.pyplot as plt
@@ -153,6 +154,19 @@ def analyze_usage():
 
     plotsaver.show_and_save(plt, "results/charts/featuresml.pdf", size=(8, 4))
 
+def make_full_table():
+    # columns are: category, name, actionable, multilingual, papers
+    latex.build_template('results/latex/features.all.template', 'results/latex/features.all.tex', {
+        'CONTENT': "\n    ".join([(
+            feature['Id'] + ' & ' +
+            feature['Category'] + ' & ' +
+            feature['Feature Name'].replace('#', '\\#').replace('%', '\\%') + ' & ' +
+            feature['Actionable'] + ' & ' +
+            feature['Multilingual'] + ' & ' +
+            latex.cite_ids(feature['Papers'].split(', '), inclusion) + ' \\\\'
+        ) for feature in features])
+    })
+
 # make_bar_chart()
 # 
 # analyze_top_features('Content')
@@ -165,4 +179,6 @@ def analyze_usage():
 # 
 # analyze_summary()
 
-analyze_usage()
+#analyze_usage()
+
+make_full_table()
