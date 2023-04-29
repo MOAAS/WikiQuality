@@ -167,18 +167,18 @@ def make_full_table():
         ) for feature in features])
     })
 
-# make_bar_chart()
-# 
-# analyze_top_features('Content')
-# analyze_top_features('Style')
-# analyze_top_features('Readability')
-# analyze_top_features('History')
-# analyze_top_features('Network')
-# analyze_top_features('Popularity')
-# 
-# 
-# analyze_summary()
+make_bar_chart()
 
-#analyze_usage()
+analyze_top_features('Content')
+analyze_top_features('Style')
+analyze_top_features('Readability')
+analyze_top_features('History')
+analyze_top_features('Network')
+analyze_top_features('Popularity')
+
+
+analyze_summary()
+
+analyze_usage()
 
 make_full_table()
