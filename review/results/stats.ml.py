@@ -41,14 +41,14 @@ def analyze_dl_cl_years():
                 return int(p['Year'])
         return -1
 
-    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_classical], positions=[1], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#1f77b4'))
-    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_dl], positions=[2], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#ff7f0e'))
+    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_classical], positions=[1], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#1f77b4'), medianprops=dict(color='#000000'))
+    plt.boxplot([get_year_of_paper(p['Id']) for p in papers_with_dl], positions=[2], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#ff7f0e'), medianprops=dict(color='#000000'))
     plt.xticks([1, 2], ['Classical ML', 'Deep Learning'])
     plt.yticks(np.arange(2005, 2025, 2))
     plt.ylabel('Year')
 
     # label size
-    plotsaver.show_and_save(plt, 'results/charts/dl_years.pdf', type='boxplot')
+    plotsaver.show_and_save(plt, 'results/charts/dl_years.pdf')
 
 def analyze_class_num():
     # separate papers with dl and cl and both

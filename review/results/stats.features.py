@@ -112,42 +112,46 @@ def analyze_summary():
     print("Total number of papers that used features: ", len( [p for p in general if int(p['# Features'].split(' / ')[1]) > 0]))
 
 def analyze_usage():
-    # papers that use ml
+    # papers that use ml and features
     papers = [p for p in general if p['ML'] != 'N/A' and p['# Features'].split(' / ')[0] != '0']
+
+
     #for p in papers:
     #    info = get_feature_info(p['Id'])
     #    if (len(info['Categories']) > 0):
     #        print(p['Id'], sorted(info['Categories']))
 
-    used_combinations = {}
-    used_categories = {}
+
+    boxplots = [[], [], [], [], [], [], [], [], [], []]
     for p in papers:
         info = get_feature_info(p['Id'])
-        for c in info['Categories']:
-            if c not in used_categories:
-                used_categories[c] = 0
-            used_categories[c] += 1
-        
-        catshort = info['CategoriesShort']
-        if catshort not in used_combinations:
-            used_combinations[catshort] = 0
-        used_combinations[catshort] += 1
+        features = info['Features']
 
-    used_categories = {k: v for k, v in sorted(used_categories.items(), key=lambda item: item[1], reverse=True)}
-    used_combinations = {k: v for k, v in sorted(used_combinations.items(), key=lambda item: item[1], reverse=True)}
-    print(used_categories)
-    print(used_combinations)
-    print(len(papers))
+        boxplots[0].append(len([f for f in features if f['Category'] == 'Content']) / len(features))
+        boxplots[1].append(len([f for f in features if f['Category'] == 'Style']) / len(features))
+        boxplots[2].append(len([f for f in features if f['Category'] == 'Readability']) / len(features))
+        boxplots[3].append(len([f for f in features if f['Category'] == 'History']) / len(features))
+        boxplots[4].append(len([f for f in features if f['Category'] == 'Network']) / len(features))
+        boxplots[5].append(len([f for f in features if f['Category'] == 'Popularity']) / len(features))
 
-    # bar chart used combinations (ONLY those over 2)
-    used_combinations = {k: v for k, v in used_combinations.items() if v > 1}
-    x = [i for i in range(len(used_combinations))]
-    plt.bar(x, used_combinations.values())
-    plt.xticks(x, used_combinations.keys())
-    plt.xlabel("Combination of categories")
-    plt.ylabel("Number of ML papers")
+        boxplots[6].append(len([f for f in features if f['Actionable'] == 'Yes']) / len(features))
+
+        boxplots[7].append(len([f for f in features if f['Multilingual'] == 'Some']) / len(features))
+        boxplots[8].append(len([f for f in features if f['Multilingual'] == 'Most']) / len(features))
+        boxplots[9].append(len([f for f in features if f['Multilingual'] == 'All']) / len(features))
+
+    # make boxplots. 0-5 are categories, 6 is actionable, 7-9 are multilingual, each of three has a different color
+    plt.boxplot(boxplots[0:6], positions=[0, 1, 2, 3, 4, 5], widths=0.6, patch_artist=True, boxprops=dict(facecolor='#1f77b4'), medianprops=dict(color="#000000"))
+    plt.boxplot(boxplots[6:7], positions=[6], widths=0.6, patch_artist=True, boxprops=dict(facecolor="#ff7f0e"), medianprops=dict(color="#000000"))
+    plt.boxplot(boxplots[7:10], positions=[7, 8, 9], widths=0.6, patch_artist=True, boxprops=dict(facecolor="#2ca02c"), medianprops=dict(color="#000000"))
     
-    plotsaver.show_and_save(plt, "results/charts/catcombos.pdf", size=(8, 4))
+    plt.ylim(0, 1.031)
+    plt.yticks([0, 0.25, 0.5, 0.75, 1.0])
+    plt.ylabel("Percentage of features")
+    
+    plt.xticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], ['Content', 'Style', 'Readability', 'History', 'Network', 'Popularity', 'Actionable', 'Multilingual: Some', 'Multilingual: Most', 'Multilingual: All'], rotation=45)
+
+    plotsaver.show_and_save(plt, "results/charts/featuresml.pdf", size=(8, 4))
 
 # make_bar_chart()
 # 
