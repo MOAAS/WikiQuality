@@ -6,7 +6,6 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "14, 17, 26, 61, 62, 65, 74, 100, 115, 128, 132, 136, 142, 147, 148, 160, 172, 197, 262, 359, 1002, 1003, 1019, 1020, 1026, 1040, 2010, 2011, 2014, 2017, 2028, 2029",CW,Content,Word Count,Yes,All
 "17, 100, 115, 132, 147, 160, 197, 359",CMWL,Content,Mean Word Length,Yes,All
 "100, 132, 160",CLWL,Content,Longest Word Length,Yes,All
-,CSWL,Content,Shortest Word Length,Yes,All
 "4, 14, 17, 26, 36, 43, 61, 74, 100, 115, 132, 136, 147, 160, 197, 359, 1002, 1003, 1041, 2014, 2017, 2028",CSN,Content,Sentence Count,Yes,All
 "17, 30, 100, 115, 128, 132, 147, 148, 160, 197, 359, 2011",CMSNL,Content,Mean Sentence Length (Words),Yes,All
 "14, 17, 26, 74, 100, 115, 132, 147, 160, 359, 1003, 1004, 2014, 2028",CLSNL,Content,Longest Sentence Length (Words),Yes,All
@@ -134,7 +133,6 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "17, 115, 147, 359",SYPW,Style,Syllable Count per Word,Yes,Most
 "4, 17, 115, 147",SOYW,Style,One-Syllable Word Count,Yes,Most
 "17, 115, 147",SOYWPW,Style,One-Syllable Word Count per Word,Yes,Most
-,SMYW,Style,Multi-Syllable Word Count,Yes,Most
 "61, 2010",SMYWPW,Style,Multi-Syllable Word Count per Word,Yes,Most
 "14, 26, 74, 359, 1003, 1004, 2017, 2028",SSTP,Style,Number of sentences starting with a pronoun,Yes,Most
 "14, 26, 74, 359, 1003, 1004, 2028",SSTART,Style,Number of sentences starting with an article,Yes,Most
@@ -270,7 +268,6 @@ Papers,Id,Category,Feature Name,Actionable,Multilingual
 "148, 161, 359, 1002, 1003, 1004, 1012, 1013, 1038, 1041, 2001, 2028",HRR,History,Registered Revision Count,No,All
 "18, 148, 161, 359, 1003, 1004, 1012, 1013, 1041, 2028",HAR,History,Anonymous Revision Count,No,All
 "359, 1004, 2028",HOR,History,Occasional Revision Count,No,All
-,HADMR,History,Admin Revision Count,No,All
 "18, 148, 1041",HBOTR,History,Bot Revision Count,No,All
 "59, 359",HRRPR,History,Registered Revision Count per Revision,No,All
 "359, 2022",HARPR,History,Anonymous Revision Count per Revision,No,All

@@ -8,7 +8,7 @@
     \multicolumn{6}{c}%
     {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
     \hline
-    \textbf{Category} & \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{Papers} \\
+    \textbf{Id} & \textbf{Category} & \textbf{Name} & \textbf{Actionable} & \textbf{Multilingual} & \textbf{Papers} \\
     \hline
     \endhead
 
