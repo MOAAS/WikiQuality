@@ -14,6 +14,9 @@ papers_with_dl = [p for p in general if 'DL' in p['ML']]
 papers_using_valid_metrics = [p for p in papers_with_ml if (
     'Accuracy' in p['Perf. Metric'] or 'AUC' in p['Perf. Metric'] or 'F1' in p['Perf. Metric']
 )]
+papers_not_using_valid_metrics = [p for p in papers_with_ml if (
+    'Accuracy' not in p['Perf. Metric'] and 'AUC' not in p['Perf. Metric'] and 'F1' not in p['Perf. Metric']
+)]
 
 
 def analyze_summary():
@@ -24,6 +27,7 @@ def analyze_summary():
     print("Papers with classical ML: ", len(papers_with_classical))
     print("Papers with DL: ", len(papers_with_dl))
     print("Papers with valid metrics: ", len(papers_using_valid_metrics))
+    print("Papers with invalid metrics: ", len(papers_not_using_valid_metrics))
 
     num_algos = [int(p['# Algorithms']) for p in papers_with_ml if p['# Algorithms'] != '?']
     print("Total # Experiments: ", sum(num_algos))
@@ -100,7 +104,7 @@ def analyze_best(type, num_classes):
         'Best Algorithm': p['Best Algorithm'],
         'Performance': float(p['Performance'].split('%')[0]) / 100 if p['Perf. Metric'].startswith('Accuracy') else float(p['Performance'].split('\n')[0]),
         'Perf. Metric': p['Perf. Metric'].split('\n')[0],
-        'IR': p['IR'] if p['IR'] == '?' or len(p['IR']) < 6 else str(round(float(p['IR'].replace(',', '.')))), # round if >= 100,00
+        'IR': p['IR'] if (p['IR'] == '?' or p['IR'] == 'N/A') else float(p['IR'].replace(',', '.')),
         'Languages': p['Languages'].split(', '),
     } for p in papers]
 
@@ -117,12 +121,13 @@ def analyze_best(type, num_classes):
         'CONTENT': "\n        ".join([(
             latex.cite_author(paper['Id'], inclusion) + " & " +
             paper['Best Algorithm'] + " & " +
-            (str(round(paper['Performance'] * 100, 2)) + '\%' if paper['Perf. Metric'] == 'Accuracy' else '-') + " & " +
-            (str(paper['Performance']) if paper['Perf. Metric'] == 'F1-score' else '-') + " & " +
-            (str(paper['Performance']) if paper['Perf. Metric'] == 'ROC AUC' else '-') + " & " +
-            paper['IR'] + " & " +
+            ('{:.2f}'.format(round(paper['Performance'] * 100, 2)) + '\%' if paper['Perf. Metric'] == 'Accuracy' else '-') + " & " +
+            ('{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'F1-score' else '-') + " & " +
+            ('{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'ROC AUC' else '-') + " & " +
+            ('{:.2f}'.format(round(paper['IR'], 2)) if isinstance(paper['IR'], float) else paper['IR']) + " & " +
             (paper['Languages'][0] if len(paper['Languages']) == 1 else 'Multiple') + " \\\\"
-        ) for paper in top_papers])
+        ) for paper in top_papers]),
+        'EXTRA_FOOTER': "'?' indicates that we could not collect enough information about class distribution." if any([p['IR'] == '?' for p in top_papers]) else ''
     })
 
 analyze_summary()

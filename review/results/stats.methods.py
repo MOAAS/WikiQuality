@@ -82,6 +82,7 @@ def languages_stats():
         plt.text(i, v + 0.5, str(v), ha='center')
 
     print('Number of papers not assesing English: ' + str(len(no_english)))
+    print(latex.cite_ids([p['Id'] for p in no_english], inclusion))
     print('Number of papers with languages: ' + str(langs))
     plotsaver.show_and_save(plt, 'results/charts/languages.pdf', size=(8, 4))
 

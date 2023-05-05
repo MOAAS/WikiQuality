@@ -72,7 +72,8 @@ def matrix():
     _, ax = plt.subplots()
 
     # make heatmap values from 0-100
-    heatmap = ax.imshow(matrix, cmap='hot', interpolation='nearest') ##, vmin=0, vmax=100)
+    heatmap = ax.imshow(matrix, cmap='hot_r', interpolation='nearest')
+    #heatmap = ax.imshow(matrix, cmap='hot', interpolation='nearest') ##, vmin=0, vmax=100)
     _ = ax.figure.colorbar(heatmap, ax=ax) 
 
     ax.set_xticks(np.arange(matrix.shape[1]))
@@ -84,7 +85,7 @@ def matrix():
     # Loop over the data and add text annotations to the heatmap (only lower triangle)
     for i in range(matrix.shape[0]):
         for j in range(i + 1):
-            ax.text(j, i, matrix[i, j], ha="center", va="center", color="w" if matrix[i, j] < 55 else "black")
+            ax.text(j, i, matrix[i, j], ha="center", va="center", color="black" if matrix[i, j] < 55 else "white")
             
     plotsaver.show_and_save(plt, "results/charts/matrix.pdf", size=(8, 4))
 
