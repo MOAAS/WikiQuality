@@ -121,9 +121,13 @@ def analyze_best(type, num_classes):
         'CONTENT': "\n        ".join([(
             latex.cite_author(paper['Id'], inclusion) + " & " +
             paper['Best Algorithm'] + " & " +
-            ('{:.2f}'.format(round(paper['Performance'] * 100, 2)) + '\%' if paper['Perf. Metric'] == 'Accuracy' else '-') + " & " +
-            ('{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'F1-score' else '-') + " & " +
-            ('{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'ROC AUC' else '-') + " & " +
+            paper['Perf. Metric'].split(' ')[-1] + " & " +
+            (
+                '{:.2f}'.format(round(paper['Performance'] * 100, 2)) + '\%' if paper['Perf. Metric'] == 'Accuracy' else
+                '{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'F1-score' else
+                '{:.2f}'.format(round(paper['Performance'], 2)) if paper['Perf. Metric'] == 'ROC AUC' else
+                'should not happen'        
+            ) + " & " +
             ('{:.2f}'.format(round(paper['IR'], 2)) if isinstance(paper['IR'], float) else paper['IR']) + " & " +
             (paper['Languages'][0] if len(paper['Languages']) == 1 else 'Multiple') + " \\\\"
         ) for paper in top_papers]),
