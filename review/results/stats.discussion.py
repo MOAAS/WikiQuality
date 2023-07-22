@@ -41,7 +41,7 @@ def matrix():
         { 'name': 'Visualization', 'condition': lambda p: 'viz' in p['Type'].lower() },
         { 'name': 'Feature Analysis', 'condition': lambda p: 'feature importance analysis' in p['Notes'].lower() },
         { 'name': 'Uses Features', 'condition': lambda p: p['# Features'] != '0 / 0' },
-        { 'name': 'Uses Metrics', 'condition': lambda p: p['Metrics'] != 'Yes' }, 
+        { 'name': 'Uses Metrics', 'condition': lambda p: p['Metrics'] == 'Yes' }, 
         { 'name': 'Quality Flaws', 'condition': lambda p: 'QFs' in p['Type'] },
     ]
 
