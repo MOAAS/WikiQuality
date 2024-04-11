@@ -8,7 +8,7 @@ const classnames = require("classnames")
 function GET_API_URL() {
     if (process.env.NODE_ENV === "development")
         return "http://localhost:5000/evaluate"
-    else return "https://wikiquality.herokuapp.com/evaluate"
+    else return "https://wikiquality.fly.dev/evaluate"
 }
 
 
